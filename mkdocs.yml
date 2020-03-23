@@ -1,0 +1,16 @@
+site_name: My Docs
+dev_addr: 0.0.0.0:8000
+theme: 'material'
+nav:
+- Home: 'index.md'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/mellisphera'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: true
