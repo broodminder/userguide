@@ -1,22 +1,43 @@
 # userguide
 
-## Pour ajouter un guide:
+## Mode d'emploi de MKDOCS:
+https://www.mkdocs.org/
 
+Dans le dossier docs créer autant de répertoires pour regrouper les pages par catégories (chapitres)
 
-Dans le dossier docs créer autant de répertoire pour regrouper les guide par catégories 
+Ecrire les pages en MarkDown à l'aide d'un éditeur comme Visual Studio Code. 
 
-Pour chaque guide ajouter il faut l'ajouter également dans le fichier de configuration **mkdocs.yml** 
+L'arborescence finale du site web se configure dans le fichier de configuration **mkdocs.yml** 
 Exemple:
 ```
 nav:
 - Home: 'index.md'
-- Javascript:
-  - 'Manipuler les tableau': javascript/tableaux.md
-  - 'Echarts': javascript/echarts/echarts.md
-- Docker:
-  - 'Docker Introduction': docker/docker.md
+- Capteurs:
+  - 'Poids': capteurs/poids.md
+  - 'Température': capteurs/temperature.md
+- Apiary App:
+  - 'Configurer l'App': app/configure.md
+- MyBroodminder:
+  - 'Prise en main': mbm/configure.md
+- Mellisphera:
+  - 'Prise en main': ms/configure.md
+- Interpretation des données
+
+
 ```
+
+## Gestion de plusieurs langues:
+ceci reste à voir comment peut être fait. Idéalement on doit pouvoir switcher EN, FR, ES, ...
+un tour rapide sur Github montre que cette fonctionnalité est encore en cours de reflexion.. ce qui peut être limitant pour notre besoin.
+
+
+## Déploiement du site:
+
+A COMPLETER AVEC LE MODE OPERATOIRE
 
 Ensuite une commande génerera le site en version html qu'il suffira de mettre sur un virtual host.
 
-guide utilisateur pour les clients
+
+## Visualiser
+https://doc.mellisphera.com/#user-gude
+
