@@ -1,2 +1,2 @@
 ## Francais
-[image]('./google.png')
+[image]:'./google.png'
