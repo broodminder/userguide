@@ -1,12 +1,16 @@
-site_name: My Docs
+site_name: User guide
 dev_addr: 0.0.0.0:8000
 theme: 'material'
 nav:
 - Home: 'index.md'
+- French:
+  - 'Home': FR/index.md
+- English:
+  - 'home': EN/index.md
 extra:
   social:
     - type: 'github'
-      link: 'https://github.com/mellisphera'
+      link: 'https://github.com/mickael2407'
 
 markdown_extensions:
   - admonition
@@ -14,3 +18,5 @@ markdown_extensions:
       linenums: true
   - toc:
       permalink: true
+
+

@@ -18,5 +18,3 @@ nav:
 ```
 
 Ensuite une commande génerera le site en version html qu'il suffira de mettre sur un virtual host.
-
-guide utilisateur pour les clients
