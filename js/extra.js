@@ -1,7 +1,7 @@
 let nodemcu = nodemcu || {};
 (function () {
   'use strict';
-  let languageCodeToNameMap = {EN: 'English', DE: 'Deutsch'};
+  let languageCodeToNameMap = {EN: 'English', FR: 'French'};
   let defaultLanguageCode = 'EN';
 
   $(document).ready(function () {
