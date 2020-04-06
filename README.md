@@ -10,14 +10,19 @@
 ## Visualiser le résultat sur serveur de développement
 ```mkdocs serve```
 
-## Mode d'emploi de MKDOCS:
+## COnvertir de word à Markdown simplement
+https://word2md.com/
+
+
+## Pour tout savoir sur MKDOCS voici le mode d'emploi:
 https://www.mkdocs.org/
 
 Dans le dossier docs créer autant de répertoires pour regrouper les pages par catégories (chapitres)
 
-Ecrire les pages en MarkDown à l'aide d'un éditeur comme Visual Studio Code. 
 
-L'arborescence finale du site web se configure dans le fichier de configuration **mkdocs.yml** 
+## Configurer la table de matières
+Par défaut mkdocs prend la strcuture de documents affichée par ordre alphabetique.
+Si on veut faire mieux il faut strcuturer à la main dans le fichier de configuration **mkdocs.yml** 
 Exemple:
 ```
 nav:
@@ -32,7 +37,6 @@ nav:
 - Mellisphera:
   - 'Prise en main': ms/configure.md
 - Interpretation des données
-
 
 ```
 
