@@ -27,16 +27,18 @@ nav:
 ```
 
 ## Gestion de plusieurs langues:
-ceci reste à voir comment peut être fait. Idéalement on doit pouvoir switcher EN, FR, ES, ...
+Ceci reste à voir comment peut être fait. Idéalement on doit pouvoir switcher EN, FR, ES, ...
 un tour rapide sur Github montre que cette fonctionnalité est encore en cours de reflexion.. ce qui peut être limitant pour notre besoin.
 
 
 ## Déploiement du site:
+1- clonner le repo sur le VPS dans ```/apiwatch/production/userguide```
 
-A COMPLETER AVEC LE MODE OPERATOIRE
+2- lancer ```sudo ./build.sh```
+le site en version html est généré et installé sur un virtual host.
 
-Ensuite une commande génerera le site en version html qu'il suffira de mettre sur un virtual host.
+3- vérifier que tout est actualisé à partir du lien ci dessous
 
-## Visualiser
+## Visualiser la doc
 https://doc.mellisphera.com/#user-gude
 
