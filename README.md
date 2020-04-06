@@ -1,5 +1,15 @@
 # userguide
 
+## Installer mkdocs en local sur la machine
+```pip install mkdocs```
+```mkdocs --version```
+
+## Créer un nouveau projet
+```mkdocs new my-project```
+
+## Visualiser le résultat sur serveur de développement
+```mkdocs serve```
+
 ## Mode d'emploi de MKDOCS:
 https://www.mkdocs.org/
 

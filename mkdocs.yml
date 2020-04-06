@@ -1,11 +1,10 @@
-site_name: GUIDE UTILISATEUR
-dev_addr: 0.0.0.0:8000
-theme: 'material'
+site_name: GUIDE UTILISATEUR MELLISPHERA
+theme: material
 nav:
 - Home: 'index.md'
-- French:
+- Français:
   - 'Introduction': FR/1_intro.md
-  - 'Introduction': FR/2_demarrage_rapide.md
+  - 'Démarrage rapide': FR/2_demarrage_rapide.md
 - English:
   - 'home': EN/index.md
 extra:
