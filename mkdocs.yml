@@ -1,10 +1,11 @@
-site_name: User guide
+site_name: GUIDE UTILISATEUR
 dev_addr: 0.0.0.0:8000
 theme: 'material'
 nav:
 - Home: 'index.md'
 - French:
-  - 'Home': FR/index.md
+  - 'Introduction': FR/1_intro.md
+  - 'Introduction': FR/2_demarrage_rapide.md
 - English:
   - 'home': EN/index.md
 extra:
