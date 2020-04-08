@@ -1,22 +1,3 @@
-site_name: GUIDE UTILISATEUR MELLISPHERA
+site_name: USER DOCUMENTATION
 theme: material
 nav:
-- Home: 'index.md'
-- Français:
-  - 'Introduction': FR/1_intro.md
-  - 'Démarrage rapide': FR/2_demarrage_rapide.md
-- English:
-  - 'home': EN/index.md
-extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/mickael2407'
-
-markdown_extensions:
-  - admonition
-  - codehilite:
-      linenums: true
-  - toc:
-      permalink: true
-
-

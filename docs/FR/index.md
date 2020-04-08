@@ -1,2 +1,0 @@
-## Francais
-[image]:'./google.png'

@@ -1,4 +1,5 @@
-#  Démarrage rapide si vous envisagez de partager vos données (MERCI !)
+#  Démarrage rapide 
+si vous envisagez de partager vos données (MERCI !)
 
 Nous avons fait de notre mieux pour rendre l&#39;installation et l&#39;utilisation de votre BroodMinder intuitive et facile. Voici les étapes de base que nous examinerons plus en détail ci-dessous.
 

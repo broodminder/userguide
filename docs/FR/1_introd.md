@@ -1,5 +1,3 @@
-# Introduction
-
 # Bienvenue
 
 Félicitations pour l&#39;achat de votre produit BroodMinder. Nous sommes heureux que vous ayez rejoint notre mouvement pour améliorer la santé des abeilles et partager des données pour améliorer notre compréhension. Ce manuel est destiné́ à combler les lacunes afin de rendre votre expérience BroodMinder plus agréable et productive.
