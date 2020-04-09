@@ -3,10 +3,13 @@
 ## Installer mkdocs en local sur la machine
 ```pip install mkdocs```
 
+```pip install mkdocs-material```
+
+
 ## Créer un nouveau projet
 ```mkdocs new my-project```
 
-## Visualiser le résultat sur serveur de développement
+## Lancer le serveur de développement
 ```mkdocs serve```
 
 ## Convertir de word à Markdown simplement
