@@ -275,59 +275,37 @@ If none show up:
 ### 5.3 Home Screen of BroodMinder App
 
 BroodMinder-T will display Temperature
+BroodMinder-TH will display Temperature & Humidity 
+BroodMinder-W will display Temperature & Weight
 
-BroodMinder-TH will display Temperature &amp; Humidity BroodMinder-W will display Temperature &amp; Weight
-
-
+![](./images/05_homescreen_app.png)
 ### 5.4 Details/Graph Screen of BroodMinder App
-
-
-
-
-
-
-
-
-
-
+![](./images/06_graphscreen_app.png)
 
 ### 5.5 General Setting Page
-
-
-
-
+![](./images/07_generalsettings_page.png)
 
 ### 5.6 Device Setting Page
+![](./images/08_devicesettings_page.png)
 
 
-
-
-
-
-
-
-
-### 5.8 Real Time Mode
+### 5.7 Real Time Mode
 
 If you would like to see &quot;Live&quot; data, you can use the &quot;Real Time&quot; button on the Graph screen. Pressing this button will change the sampling rate to 5 seconds and then show a display of values in the lower section of the screen.
 
-B: Battery level
-
-T: Temperature (currently only F)
-
-H: Relative Humidity in %
-
-L/R: Balance between left and right sensors. Adds to 100% (-W scale only)
-
-W: Total weight (currently only pounds) (-W scale only)
-
-Delta: Change in weight from when Real-time started. (-W scale only)
+B: Battery level <br/>
+T: Temperature (currently only F)<br/>
+H: Relative Humidity in %<br/>
+L/R: Balance between left and right sensors. Adds to 100% (-W scale only)<br/>
+W: Total weight (currently only pounds) (-W scale only)<br/>
+Delta: Change in weight from when Real-time started. (-W scale only)<br/>
 
 This data will also be saved in the log file.
 
 Pressing the &quot;Real Time&quot; button again will leave this mode and set the sampling rate back to 60 minutes.
 
 ### 5.7 Setting the Broodminder-W scale factor
+![](./images/09_scalefactor.png)
 
 By default, the BroodMinder-W scale factor is set to 2.0. This means that any weight the BroodMinder-W sees is doubled to reflect the full weight of the hive. From looking at the physics of the situation (see appendix below) we know that this is an approximation and not totally accurate. In most cases, it is close enough since small changes will still be seen and a 5-10% error in total weight is not important.
 
@@ -339,19 +317,16 @@ Now add a known weight of 10-20 pounds to the top center of the hive. You should
 
 Example:
 
-Weight          Delta Weight                 Scale Factor         Notes
-
-121.2          0.0                         2.0                 Start of Real Time
-
-132.2          11.0                         2.0                 We added the weight
+| Weight | Delta Weight          |       Scale Factor     |    Notes |
+| --- | --- | --- | --- | 
+| 121.2     |      0.0             |             2.0       |           Start of Real Time | 
+| 132.2     |      11.0              |            2.0       |           We added the weight| 
 
 Now we go change the scale factor
-
-129.5          10.0                         1.82                 Now the calibration is closer
-
-117.0          0                         1.82                 After the weight is removed,
-
-we see the new more accurate hive weight
+| Weight | Delta Weight          |       Scale Factor     |    Notes |
+| --- | --- | --- | --- | 
+| 129.5     |      10.0             |             1.82       |           Now the calibration is closer | 
+| 117.0     |      0          |                1.82      |            After the weight is removed, we see the new more accurate hive weight |
 
 ### 5.8 Setting the BroodMinder-W temperature compensation
 
@@ -365,6 +340,17 @@ If you see weight spikes even after adjusting, then possibly it is due to the sc
 
 
 ### 5.9 Tagging Graphs
+
+![](./images/10_tagging_graphs-1.png)
+![](./images/10_tagging_graphs-2.png)
+
+
+Pressing the Hive Notes button lets you add text to any point in time on the graph. This is useful to explain abrupt changes in the data or whenever you do a hive inspection.
+
+This button will bring up a sub-menu with eight groups of possible occurrences or actions. Select the one most appropriate for your situation and choose the corresponding tag. Use “Custom” if the list does not cover your situation. The selections in the app will be updated as time goes on to best reflect the tags most used.
+The time shown in the top half of the screen is the current time if the graphs have not been moved by pinching or swiping before the “Tag Graph” button has been pressed. It can be adjusted by clicking on it.
+
+When noting a past event, it is useful to move the chart and line up the time of the event with the “Note Time Indicator” and then press Hive Notes. In this case, the note time in the notes window is the time at the “Notes Time Indicator” and not the current time. 
 
 Of particular interest is the &quot;Inspection&quot; button. This button will walk you through a 6 easy to answer questions about the state of the hive. The list was shared with us by Dick Rogers and we think it is a quick and effective way to document the hive.
 
@@ -396,18 +382,18 @@ Usage of the app is super simple.
 2. Download BroodMinder-Apiary from your app store.
 3. Start the app and press the gear icon and enter your MyBroodMinder credentials.
 4. Return to the list screen and in a few seconds it will automatically find every BroodMinder device in the area and display them on the screen.
-5. After the BroodMinder IDs turn green, press the cloud icon ![](data:image/*;base64,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) in the upper right of the screen to begin upload to MyBroodMinder.
+5. After the BroodMinder IDs turn green, press the cloud icon ![](./images/11_6_cloud_up.png) in the upper right of the screen to begin upload to MyBroodMinder.
 6. Now the app will show you a upload progress screen. The top line is status while harvesting the BroodMinder data. The lower line shows the transfer to MyBroodMinder status. 6)After all of the devices have uploaded you will see a transfer complete message.
 
 After the transfer is complete, the data will show up in MyBroodMinder. If you have already set up your devices, all you do is look. If these are new devices, you will need to find them in your MyBroodMinder &quot;Device Inventory&quot; and assign them to an apiary and to a hive. See the next section on MyBroodMinder.com for more on that.
 
+![](./images/11_1_list_screen.png)
+
+![](./images/11_2_progress_screen.png)
+
+![](./images/11_3_details_screen.png)
 
 
-
-
-
-
-Settings
 
 MANUALLY CLEAR DEVICES WHEN FULL – If your BroodMinder device has been running for a long time (over 9 months), the memory can get full. When it does, the apiary app will automatically reset it so that it can store more. If you want manual control, flip this switch.
 
@@ -417,13 +403,13 @@ HUB MODE – See below.
 
 ENABLE REMOTE DEVICE SYNC – You can retrieve data even when there is no internet connection or cell coverage in your apiary.
 
-1. Before going to the apiary – go to the device list and press the cloud with the down arrow ![](data:image/*;base64,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)
+1. Before going to the apiary – go to the device list and press the cloud with the down arrow ![](./images/11_7_cloud_dwn.png)<br>
+This will load the list with all of you devices and the last time data was retrieved. (If you don&#39;t do this, all of the data will be retrieved from your BroodMinder. This could be a full year of data!)
 . This will load the list with all of you devices and the last time data was retrieved. (If you don&#39;t do this, all of the data will be retrieved from your BroodMinder. This could be a full year of data!)
-. This will load the list with all of you devices and the last time data was retrieved. (If you don&#39;t do this, all of the data will be retrieved from your BroodMinder. This could be a full year of data!)
-2. 2)When in the field, sync your devices like normal. They will fail upload since you don&#39;t have internet, but that is OK.
-3. 3)When your return to civilization, restart the app and it will suggest that you upload to the cloud now. Do this and MyBroodMinder.com will get updated.
 
+2. When in the field, sync your devices like normal. They will fail upload since you don&#39;t have internet, but that is OK.
 
+3. When your return to civilization, restart the app and it will suggest that you upload to the cloud now. Do this and MyBroodMinder.com will get updated.
 
 
 
@@ -433,7 +419,11 @@ Hub mode lets you use and old phone or tablet to automatically send your BroodMi
 
 Just enable hub mode and return to the list screen.
 
-7MyBroodMinder.com Cloud Storage
+![](./images/12_hubmode.png)
+
+
+
+## 7 MyBroodMinder.com Cloud Storage
 
 The true power of the BroodMinder movement is in the data from thousands of hives stored for public consumption at MyBroodMinder.com.
 
@@ -443,10 +433,14 @@ Once the data is on MyBroodMinder.com you can see it and combine the data from t
 
 With any web browser, go to MyBroodMinder.com. You will need to enter the same username (e-mail) and password. After that you will see a menu similar to the image below.
 
+![](./images/13_1_cloud_storage.png)
 
 
 You will see a graph like this that combines all of the sensors in a hive into one report.
 
+![](./images/13_2_cloud_storage.png)
+![](./images/13_3_cloud_storage.png)
+![](./images/13_4_cloud_storage.png)
 
 
 ## 8 Databases!
@@ -468,13 +462,14 @@ Some of these operations are tricky! If you are not confident of doing them, sen
 - Send SQLite file to yourself (or others) – The SQLite file is the main database that is used by the App. This holds all of the data in one file that can be read and modified by a compatible program.
 - Import HbH CSV file from e-mail – You can send a file to yourself, modify it, and then read it back in.
 - Import SQLite file from e-mail – You can send the SQLite file to yourself, and then read it into a different device.
-- Rebuild database Transaction database – When you rebuild the transaction database, it deletes it and then creates a new one by reading the newest data point from each device in the HbH database.
+- Rebuild database 
+  - Transaction database – When you rebuild the transaction database, it deletes it and then creates a new one by reading the newest data point from each device in the HbH database.
 
-oRebuild HbH database – When you rebuild the HbH database, it reads the
+  - Rebuild HbH database – When you rebuild the HbH database, it reads the MyBroodMinder.com data and adds it to the current HbH data on the device. Then it deletes redundant points and gets rid of clearly anomalous values.
 
-MyBroodMinder.com data and adds it to the current HbH data on the device. Then it deletes redundant points and gets rid of clearly anomalous values.
-
-- Delete database Delete device – you can delete data from a single device. Delete All – you can delete the entire database and start over.
+- Delete database 
+- Delete device – you can delete data from a single device. 
+- Delete All – you can delete the entire database and start over.
 
 ### 8.2 Send CSV (Comma Separated Value) Text File
 
@@ -486,103 +481,57 @@ Here are definitions of the file contents.
 
 #### 8.2.1 Transaction Database Fields
 
-**UUID** – This is the device ID that is written on the circuit board
-
-**Model** – The device Model and firmware version. E.g. 42-2v56, Model 42, Version 2.56 (Model
-
-41=BroodMinder-T, Model 42=BroodMinder-TH, Model 43=BroodMinder-W, Model 44= BroodMinderCELL)
-
-**TimeStamp** – Timestamp of transaction in text readable format
-
-**Unix\_Time** – Timestamp of transaction in UNIX format
-
-**Sample** – Sample number of data from BroodMinder
-
-**Signal** – Bluetooth signal strength from BroodMinder
-
-**Battery** – Battery voltage (0-100%)
-
-**Metric** – 0 for Imperial, 1 for Metric
-
-**Temperature** – Temperature from BroodMinder
-
-**Humidity** – Relative Humidity from BroodMinder (0-100%)
-
-**Weight** – Total weight from BroodMinder including scale factor
-
-**Weight Scale Factor** – Scale factor for Scaled\_Weight
-
-**Hidden** – TRUE if hidden flag is set which hides device from home screen
-
-**Name** – The name that you gave the BroodMinder device
-
-**Notes** – Various notes
-
-**SamplePeriod** – The sample period of the BroodMinder in seconds, defaults to 3600
-
+**UUID** – This is the device ID that is written on the circuit board<br>
+**Model** – The device Model and firmware version. E.g. 42-2v56, Model 42, Version 2.56 (Model 41=BroodMinder-T, Model 42=BroodMinder-TH, Model 43=BroodMinder-W, Model 44= BroodMinderCELL)<br>
+**TimeStamp** – Timestamp of transaction in text readable format<br>
+**Unix\_Time** – Timestamp of transaction in UNIX format<br>
+**Sample** – Sample number of data from BroodMinder<br>
+**Signal** – Bluetooth signal strength from BroodMinder<br>
+**Battery** – Battery voltage (0-100%)<br>
+**Metric** – 0 for Imperial, 1 for Metric<br>
+**Temperature** – Temperature from BroodMinder<br>
+**Humidity** – Relative Humidity from BroodMinder (0-100%)<br>
+**Weight** – Total weight from BroodMinder including scale factor<br>
+**Weight Scale Factor** – Scale factor for Scaled\_Weight<br>
+**Hidden** – TRUE if hidden flag is set which hides device from home screen<br>
+**Name** – The name that you gave the BroodMinder device<br>
+**Notes** – Various notes<br>
+**SamplePeriod** – The sample period of the BroodMinder in seconds, defaults to 3600 <br>
 (Note: If you look directly at the SQLite database, you will find time in &quot;ticks&quot;. To convert to excel time you can use the equation =(A1\*POWER(10, -7) / 60 / 60 / 24)-693593 where A1 contains ticks)
 
 #### 8.2.2 HbH Database Fields
 
-**App Ver** – This is the version of the BroodMinder App that wrote this record
+**App Ver** – This is the version of the BroodMinder App that wrote this record<br>
+**UUID** – This is the device ID that is written on the circuit board<br>
+**Model** – The device Model and firmware version. E.g. 42-2v56, Model 42, Version 2.56 (Model 41=BroodMinder-T, Model 42=BroodMinder-TH, Model 43=BroodMinder-W, Model 44= BroodMinderCELL)<br>
+**Record_Type** – Type of data in record _Logged\_Data_ or _Sample\_Period_ or _Time\_Stamp_ or _Note_<br>
+**DownloadTimeStamp** – UNIX time that the data was SYNCed<br>
+**TimeStamp** – Timestamp of sample in text readable format<br>
+**Local\_Excel\_Time** –Timestamp of sample in Excel readable format<br>
+**Unix\_Time** – Timestamp of sample in UNIX format<br>
+**Logging\_Period** – BroodMinder logging period in seconds<br>
+**Sample** – Sample number of data from BroodMinder<br>
+**Metric** – 0 for Imperial, 1 for Metric<br>
+**Battery** – Battery voltage (0-100%)<br>
+**Temperature** – Temperature from BroodMinder<br>
+**Humidity** – Relative Humidity from BroodMinder (0-100%)<br>
+**Scaled\_Weight** - Total weight from BroodMinder including scale factor<br>
+**Weight Scale Factor** – Scale factor for Scaled\_Weight<br>
+**Weight** – Non-scaled weight(Weight = WeightL + WeightR) <br>
+**WeightL** – Non-scaled weight from left sensor WeightL = ((WeightLRaw \* MULT) + OFFS) / 100,000 / 100 MULT &amp; OFFS are written on the scale label<br>
+**WeightLRaw** – Raw 24-bit ADC value from left sensor<br>
+**WeightR** – Non-scaled weight from right sensor WeightR = ((WeightRRaw \* MULT) + OFFS) / 100,000 / 100 MULT &amp; OFFS are written on the scale label<br>
+**WeightRRaw** – Raw 24-bit ADC value from right sensor<br>
+**Hive\_Name** – The name that you gave the hive or the default UUID name <br>
+**Notes** – Various kinds of notes including tags<br>
 
-**UUID** – This is the device ID that is written on the circuit board
-
-**Model** – The device Model and firmware version. E.g. 42-2v56, Model 42, Version 2.56 (Model
-
-41=BroodMinder-T, Model 42=BroodMinder-TH, Model 43=BroodMinder-W, Model 44= BroodMinderCELL)
-
-**Record\_Type** – Type of data in record _Logged\_Data_ or _Sample\_Period_ or _Time\_Stamp_ or _Note_
-
-**DownloadTimeStamp** – UNIX time that the data was SYNCed
-
-**TimeStamp** – Timestamp of sample in text readable format
-
-**Local\_Excel\_Time** –Timestamp of sample in Excel readable format
-
-**Unix\_Time** – Timestamp of sample in UNIX format
-
-**Logging\_Period** – BroodMinder logging period in seconds
-
-**Sample** – Sample number of data from BroodMinder
-
-**Metric** – 0 for Imperial, 1 for Metric           **Battery** – Battery voltage (0-100%)
-
-**Temperature** – Temperature from BroodMinder
-
-**Humidity** – Relative Humidity from BroodMinder (0-100%)
-
-**Scaled\_Weight** - Total weight from BroodMinder including scale factor
-
-**Weight Scale Factor** – Scale factor for Scaled\_Weight
-
-**Weight** – Non-scaled weight(Weight = WeightL + WeightR) ** **
-
-**WeightL** – Non-scaled weight from left sensor
-
-(WeightL = ((WeightLRaw \* MULT) + OFFS) / 100,000 / 100 MULT &amp; OFFS are written on the scale label
-
-**WeightLRaw** – Raw 24-bit ADC value from left sensor
-
-**WeightR** – Non-scaled weight from right sensor
-
-WeightR = ((WeightRRaw \* MULT) + OFFS) / 100,000 / 100
-
-MULT &amp; OFFS are written on the scale label
-
-**WeightRRaw** – Raw 24-bit ADC value from right sensor
-
-**Hive\_Name** – The name that you gave the hive or the default UUID name ** **
-
-**Notes** – Various kinds of notes including tags
-
-### 8.3Send SQLite file
+### 8.3 Send SQLite file
 
 The SQLFile sends just like the CSV files do. The big difference is that before it is sent, it is zipped (compressed). This file contains both the Transaction database and the HbH database of all of the devices.
 
 If you want to look at the contents, after you decompress the .gz file (you can use 7-zip for this) you need to add .DB3 to the end of the filename. If you are going to transfer the file to another device running the BroodMinder App, you don&#39;t need to do anything.
 
-There are a couple of nice (free) readers out there. &quot;DB Brower for SQLite&quot; ([http://sqlitebrowser.org/](http://sqlitebrowser.org/)) for PC and &quot;SQLPro for SQLite Read-Only&quot; ([http://sqlpro](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[-](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[sqlite](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[-](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[read](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[-](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[only](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[-](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[sql](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[-](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[and](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[-](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[coredata](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)[managereditor.softwar.io/](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/)) for Mac are two examples.
+There are a couple of nice (free) readers out there. &quot;DB Brower for SQLite&quot; ([http://sqlitebrowser.org/](http://sqlitebrowser.org/)) for PC and &quot;SQLPro for SQLite Read-Only&quot; ([http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io/](http://sqlpro-sqlite-read-only-sql-and-coredata-managereditor.softwar.io) for Mac are two examples.
 
 The great use of this file is that you can transfer all of your information to a new device! See the next section.
 
@@ -655,27 +604,27 @@ You can delete the databases. This should be pretty self-explanatory. Be careful
 
 ## 9 BroodMinder-WIFI &amp; BroodMinder-CELL
 
-BroodMinder-WIFI/CELL is an optional component which sits in your apiary and relays data from your BroodMinders directly to Beekeeping.io via a WIFI or CELL connection. We have designed the BroodMinder-WIFI/CELL to automatically begin working when power is turned on.
+BroodMinder-WIFI/CELL is an optional component which sits in your apiary and relays data from your BroodMinders directly to mybroodminder.com via a WIFI or CELL connection. We have designed the BroodMinder-WIFI/CELL to automatically begin working when power is turned on.
 
-### For best results, watch the installation video at[BroodMinder.com/pages/videos](https://broodminder.com/pages/videos)
+### For best results, watch the installation video at [BroodMinder.com/pages/videos](https://broodminder.com/pages/videos)
 
 
 
 ### 9.1 Quick Start Instructions
 
-. IMPORTANT: Sync all devices &amp; **post to Beekeeping.io** before starting your BroodMinder-WIFI/CELL
+1. IMPORTANT: Sync all devices &amp; **post to mybroodminder.com** before starting your BroodMinder-WIFI/CELL
 
-. Place the BroodMinder-WIFI/CELL in the apiary with the solar panel towards the sun
+2. Place the BroodMinder-WIFI/CELL in the apiary with the solar panel towards the sun
 
-. Get the BroodMinder-CELL app (even if it is a WIFI/CELL unit)
+3. Get the BroodMinder-CELL app (even if it is a WIFI/CELL unit)
 
-. Start the app, your BroodMinder-WIFI/CELL should show up on the list.
+4. Start the app, your BroodMinder-WIFI/CELL should show up on the list.
 
-. Press exit deep sleep
+5. Press exit deep sleep
 
-. WIFI/CELL only – Enter your WIFI/CELL network name and password (matching capitalization is important)
+6. WIFI/CELL only – Enter your WIFI/CELL network name and password (matching capitalization is important)
 
-. DONE! - Data should start showing up in beekeeping.io in about an hour.
+7. DONE! - Data should start showing up in mybroodminder.com in about an hour.
 
 ### 9.2 Installation
 
@@ -717,12 +666,10 @@ To tell the difference, watch the V15 lights AFTER the 3 flashes described below
 
 If after the 3 flashes, the V15 lights turn off, it is in Auto-off mode. This is not good. Try again and it should be correct this time.
 
-You can find more information at [https://www.voltaicsystems.com/always](https://www.voltaicsystems.com/always-on/)[-](https://www.voltaicsystems.com/always-on/)[on/](https://www.voltaicsystems.com/always-on/)
+You can find more information at [https://www.voltaicsystems.com/always-on/](https://www.voltaicsystems.com/always-on/)
 
 ### 9.4 WIFI/CELL Indicator Lights
-
-
-
+![](./images/14_1_broodminder_wifi.png)
 
 
 ### 9.5 BroodMinder-WIFI/CELL App
@@ -732,86 +679,61 @@ The BroodMinder-WIFI/CELL App allows you to closely watch how things are going. 
 - Deep Sleep Mode – see below.
 - Current status of BroodMinder-WIFI/CELL (Initializing, time until next data transfer, connecting to WIFI, sending data)
 - Number of BroodMinders found in the apiary
-- WIFIular signal strength
+- WIFI Ceular signal strength
 - Lots of diagnostic features
 
-We won&#39;t go into a lot of detail in the manual because there is not much to adjust with the app. In fact, the only things that you can adjust is when and how often data is transferred to beekeeping.io. The rest of the app is to aid our support personnel in diagnosing problems.
+We won&#39;t go into a lot of detail in the manual because there is not much to adjust with the app. In fact, the only things that you can adjust is when and how often data is transferred to Mybroodminder.com. The rest of the app is to aid our support personnel in diagnosing problems.
 
 When you receive your BroodMinder-WIFI/CELL, it should be in Deep Sleep mode in order to conserve the battery during shipment. You will need the BroodMinder-CELL app to wake it up.
 
 By default, the BroodMinder-WIFI/CELL will transfer data hourly.
 
 ### 9.6 WIFI/CELL App Home Screen
-
-
+![](./images/14_2_cell_app.png)
 
 Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CELL devices.
 
 ### 9.7 WIFI/CELL App Configure Screen
-
-
+![](./images/14_3_cell_app.png)
 
 ### 9.8 WIFI/CELL App Diagnostics Screen
+![](./images/14_4_cell_app.png)
 
-**Firmware Version –** This shows the version of firmware in the BroodMinder. (e.g. 0.17)
-
-**Sent Samples –** The number of samples sent to beekeeping.io
-
-**Missed Samples –** The number of missed samples as indicated by missing sequence numbers.
-
-**WIFI/CELL Network –** WIFI/CELL diagnostics, see next page
-
-**Modem Communication –** Watch the communications to the Wifi/Cell modem.
-
-**Reboot Device –** This will restart the BroodMinderWIFI/CELL and purge it of all stored data.
-
-**Debug Values –** These are Amanda&#39;s secret debug values.
-
-**Enter Deep Sleep –** When we ship the device, we put the -WIFI/CELL in deep sleep to suspend all WIFIular connection and thus save battery life so that when it show us, it is ready to go.
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Firmware Version –** This shows the version of firmware in the BroodMinder. (e.g. 0.17) <br>
+**Sent Samples –** The number of samples sent to Mybroodminder.com <br>
+**Missed Samples –** The number of missed samples as indicated by missing sequence numbers.<br>
+**WIFI/CELL Network –** WIFI/CELL diagnostics, see next page.<br>
+**Modem Communication –** Watch the communications to the Wifi/Cell modem.<br>
+**Reboot Device –** This will restart the BroodMinderWIFI/CELL and purge it of all stored data.<br>
+**Debug Values –** These are Amanda&#39;s secret debug values.<br>
+**Enter Deep Sleep –** When we ship the device, we put the -WIFI/CELL in deep sleep to suspend all WIFIular connection and thus save battery life so that when it show us, it is ready to go.<br>
 
 
 ### 9.9 WIFI/CELL App WIFI/CELL Network Screen
+![](./images/14_5_cell_app.png)
 
 
+**Send Now –** Immediately connect the modem and send this data to MyBroodminder.com <br>
+**Copy –** Copy this screen. You can paste into e-mail 
 
 ### 9.10 WIFI/CELL App CELL Network Screen
+![](./images/14_6_cell_app.png)
 
-**NOTE:** These are commands to the CELL modem. See the next page for Wifi commands. If the modem is not on, invoking a command will turn it on. Give it a few seconds and then try the command again. The result will be printed at the bottom of the screen. ** **
-
-**Network Signal Strength –** for reliable operation, it should be 4, (maybe 5) or more.
-
-**Check Network Time –** Time from the WIFI/CELL network
-
-**Connected Network Provider –** Typically ATT but may be others
-
-**List Network Providers –** See all the providers in the area.
-
-**Get SIM ID –** This should match the number stickered inside the enclosure.
+**NOTE:** These are commands to the CELL modem. See the next page for Wifi commands. If the modem is not on, invoking a command will turn it on. Give it a few seconds and then try the command again. The result will be printed at the bottom of the screen.<br>
+**Network Signal Strength –** for reliable operation, it should be 4, (maybe 5) or more.<br>
+**Check Network Time –** Time from the WIFI/CELL network.<br>
+**Connected Network Provider –** Typically ATT but may be others.<br>
+**List Network Providers –** See all the providers in the area.<br>
+**Get SIM ID –** This should match the number stickered inside the enclosure.<br>
 
 
 ### 9.11 BroodMinder-WIFI/CELL App WIFI/CELL Network Screen
+![](./images/14_7_cell_app.png)
 
-**SSID –** Make sure that capitalization matches your network name.
-
-**Password –** Password for your network
-
-**Security –** Typically WPA-Personal but may be none or WEP
-
-**List Network**
+**SSID –** Make sure that capitalization matches your network name.<br>
+**Password –** Password for your network.<br>
+**Security –** Typically WPA-Personal but may be none or WEP.<br>
+**List Networks** Lists all available networks.<br>
 
 
-# EXEMPLE IMAGE *********************
-![](./images/img.png)
+## 10 Data Interpretation
