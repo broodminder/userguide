@@ -36,8 +36,8 @@ Congratulations on the purchase of your Broodminder product. We are happy that y
 
 If you still have questions or suggestions, or just want to chat about bees, then contact us at support@broodminder.com. We are there to help.
 
-![](./images/1_broodminder_products.png)
-![](./images/2_broodminder_cell.png)
+![](./images/01_broodminder_products.png)
+![](./images/02_broodminder_cell.png)
 
 
 
@@ -120,7 +120,7 @@ We have done our best to make the installation and usage of your Broodminder int
 
 The Citizen Science Package contains two Broodminder-TH (temperature and humidity) or T2 (temperature only) Devices and a Broodminder-W hive scale. Here is where you install these devices:
 
-![](./images/3_sensor_locs.png)
+![](./images/03_sensor_locs.png)
 
 ### 2.2 Broodminder-TH
 
@@ -206,8 +206,8 @@ In general, it is better to place the Broodminder-W out of the sun. This is beca
 Next you will cut the bottom board. For the angle iron side, you will cut a groove the width of your saw blade that the point of the angle will fit in. For the scale side, you will cut a notch 3/16&quot; deep that ends 1&quot; inside the center of the hive body wall. See the images below.
 
 
-![](./images/4_accurate_w_01.png)
-![](./images/4_accurate_w_02.png)
+![](./images/04_accurate_w_01.png)
+![](./images/04_accurate_w_02.png)
 
 
 ## 3 Routine Maintenance

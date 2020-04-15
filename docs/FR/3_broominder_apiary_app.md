@@ -1,2 +1,0 @@
-# Broodminder Apiary App
-

@@ -1,2 +1,2 @@
-#  Installation des capterus Broodminder
+# Capteurs
 si vous envisagez de partager vos données (MERCI !)

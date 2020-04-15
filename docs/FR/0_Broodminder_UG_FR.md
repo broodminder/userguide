@@ -233,7 +233,7 @@ Avant l&#39;arrivée de l&#39;hiver, changez toutes les piles de vos BroodMinder
 
 **Assurez-vous que l&#39;emballage de la balance n&#39;est pas fissuré. La pluie pourrait pénétrer à l&#39;intérieur et endommager les capteurs.** Vous pouvez sceller toute fissure à l&#39;aide de ruban adhésif ou commander un nouvel emballage sur BroodMinder.com.
 
-## 4. Mises à jour des logiciels
+## 4. Mises à jour des micro-logiciels (firmware)
 
 Les mises à jour pour le Hub BroodMinder et les BroodMinder-T2 se font automatiquement par OTA (Over-The-Air, soit sans fil). Elles sont effectuées par l&#39;application Apiary ou l&#39;application Cell. Pour plus d&#39;informations, cliquez sur ce lien : mybroodminder.com/resources
 
@@ -295,19 +295,14 @@ BoordMinder-W affichera la température et le poids
 
 Si vous souhaitez voir vos données en temps réel, vous pouvez utiliser le bouton « Real Time » sur l&#39;écran du graphique. En pressant ce bouton, le taux d&#39;échantillonnage passera à 5 secondes et vous verrez apparaitre des valeurs dans la partie inférieure de l&#39;écran.
 
-**B** : niveau de la pile
+**B** : niveau de la pile <br>
+**T** : température (actuellement uniquement disponible en Fahrenheit :1°F = -17°C)<br>
+**H** : humidité relative (en%)<br>
+**L/R** : équilibre entre les capteurs de droite et de gauche. S&#39;ajoute à 100% (balance BroodMinder-W uniquement)<br>
+**W** : poids total (actuellement uniquement disponible en livre : 1 livre = 453 g) (balance BroodMinder-W uniquement)<br>
+**Delta** : variation de poids depuis le lancement du temps réel (balance BroodMinder-W uniquement)<br>
 
-**T** : température (actuellement uniquement disponible en Fahrenheit :1°F = -17°C)
-
-**H** : humidité relative (en%)
-
-**L/R** : équilibre entre les capteurs de droite et de gauche. S&#39;ajoute à 100% (balance BroodMinder-W uniquement)
-
-**W** : poids total (actuellement uniquement disponible en livre : 1 livre = 453 g) (balance BroodMinder-W uniquement)
-
-**Delta** : variation de poids depuis le lancement du temps réel (balance BroodMinder-W uniquement)
-
-Ces données seront également enregistrées dans le fichier de suivi.
+Ces données seront également enregistrées dans le fichier de suivi.<br>
 
 Ré-appuyer sur le bouton « *Real Time* » permettra de ce mode et fera repasser automatiquement le taux d&#39;échantillonnage à 1 heure.
 
