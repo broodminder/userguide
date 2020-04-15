@@ -5,6 +5,8 @@ Vous avez le choix entre deux Apps pour relever les données de cos capteurs Bro
 Nous vous conseillons d'utiliser **Broodminder APIARY**
 
 ## 5. BroodMinder – APIARY
+![](./images/11_0_broodminder_apiary.png)
+
 
 Présentée en 2018, BroodMinder-APIARY est notre application la plus puissante. Cette dernière détecte tous vos appareils BroodMinder et télécharge les données récoltées de votre rucher directement dans MyBroodMinder avec une simple touche. Elle peut également être utilisée afin d'envoyer automatiquement vos données en direct à MyBroodMinder.com toutes les 10 minutes.
 
@@ -81,6 +83,9 @@ Il vous suffit d'autoriser le Mode Hub et de revenir à l'écran de la liste de 
 
 
 ## 6. BroodMinder - LITE
+
+
+![](./images/05_1_lite_app.png)
 
 ### 6.2 Installation
 
