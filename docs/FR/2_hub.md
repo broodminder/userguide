@@ -6,6 +6,8 @@ Les capteurs fonctionnent tous en Bluetooth. Il existe plusieurs manières de r�
 
 ### 9.1 Applications mobiles
 Pour plus de détails sur les Apps c'est [ici](./3_apps)
+![](./images/05_broodminder_lite.png)
+![](./images/11_0_broodminder_apiary.png)
 
 
 ### 9.2 Broodminder Cell/Wifi
