@@ -85,7 +85,7 @@ Il vous suffit d'autoriser le Mode Hub et de revenir à l'écran de la liste de 
 ## 6. BroodMinder - LITE
 
 
-![](./images/05_1_lite_app.png)
+![](./images/05_broodminder_lite.png)
 
 ### 6.2 Installation
 

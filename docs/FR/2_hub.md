@@ -1,12 +1,24 @@
-# Transmetteur 3G/WiFi
+# Récupération de données
 
-BroodMinder-WIFI/CELL est un composant facultatif qui se place dans votre rucher et vous permet de transmettre les données depuis vos appareils BroodMinder directement sur Beekeeping.io par connexion wifi ou mobile. Nous avons conçu le BroodMinder-WIFI/CELL pour se mettre automatiquement en marche à la mise sous tension.
+Les capteurs fonctionnent tous en Bluetooth. Il existe plusieurs manières de récupérer les données des capteurs. En essence via votre smartphone ou via un transmetteur automatique.
+
+[![Présentation et mise en route des 3 capteurs](https://img.youtube.com/vi/HFkD4pLsBHU/0.jpg)](https://www.youtube.com/watch?v=HFkD4pLsBHU)
+
+### 9.1 Applications mobiles
+Pour plus de détails sur les Apps c'est [ici](./3_apps)
+
+
+### 9.2 Broodminder Cell/Wifi
+
+![](./images/02_broodminder_cell.png)
+
+BroodMinder-WIFI/CELL est un composant facultatif qui se place dans votre rucher et vous permet de transmettre les données depuis vos appareils BroodMinder directement sur MyBroodMinder.com par connexion wifi ou mobile. Nous avons conçu le BroodMinder-WIFI/CELL pour se mettre automatiquement en marche à la mise sous tension.
 
 Pour de meilleurs résultats, regardez la vidéo de l'installation sur BroodMinder.com/pages/videos
 
 ![](./images/14_1_broodminder_wifi.png)
 
-### 9.1 Instructions de démarrage rapide
+#### 9.2.1 Instructions de démarrage rapide
 
 **IMPORTANT** : synchronisez tous vos appareils et transférez vos données sur Beekeeping.io avant de démarrer votre appareil BroodMinder-WIFI/CELL
 
@@ -18,7 +30,7 @@ Pour de meilleurs résultats, regardez la vidéo de l'installation sur BroodMind
 - WIFI/CELL uniquement – entrer le nom de votre réseau wifi ou mobile ainsi que le mot de passe associé
 - Vos données devraient apparaitre automatiquement sur beekeeping.io une heure après
 
-### 9.2 Installation
+#### 9.2.2 Installation
 
 Vous pouvez installer votre BroodMinder-WIFI/CELL avec de nombreuses configurations différentes selon les circonstances. Le support à l'arrière du boîtier électronique peut être retournée comme on peut le voir sur quelques exemples.
 
@@ -34,7 +46,7 @@ Quelques remarques relatives à l'installation :
 - Des colliers de serrage ou pour tuyaux peuvent être utilisés afin de sécuriser le système
 - Ceux de 7cm que l'on trouve dans les magasins de bricolage fonctionnent parfaitement. Ils ont des languettes qui peuvent être légèrement pliées pour permettre l'insertion du BroodMinder-WIFI/CELL. Ensuite, un collier de serrage en bas permet de sécurise l'installation
 
-### 9.3 La batterie solaire en mode permanent
+#### 9.2.3 La batterie solaire en mode permanent
 
 Nous vous envoyons le BroodMinder-WIFI/CELL avec la batterie en mode permanent (Always-On). Dans des conditions normales, vous n'aurez pas besoin d'ouvrir le boîtier électronique.
 
@@ -63,11 +75,11 @@ Si après les 3 flashs, la lumière de la batterie s'éteint, cela signifie qu'e
 
 Vous trouverez plus d'informations à ce sujet sur [https://www.voltaicsystems.com/always-on/](https://www.voltaicsystems.com/always-on/)
 
-### 9.4 Les voyants lumineux WIFI/CELL
+#### 9.2.4 Les voyants lumineux WIFI/CELL
 
 ![](./images/14_3_indicator_lights.png)
 
-### 9.5 L'application BroodMinder-WIFI/CELL
+#### 9.2.5 L'application BroodMinder-WIFI/CELL
 
 L'application BroodMinder-WIFI/CELL vous permet de suivre de près l'évolution de la situation. Parmi les éléments que vous pouvez contrôler :
 
@@ -84,31 +96,31 @@ Lorsque vous recevez votre BroodMinder-WIFI/CELL, ce dernier devrait être en mo
 
 Par défaut, le BroodMinder-WIFI/CELL transférera vos données toutes les heures.
 
-### 9.6 Écran d'accueil de l'application WIFI/CELL
+#### 9.2.6 Écran d'accueil de l'application WIFI/CELL
 
 ![](./images/14_4_homescreen.png)
 
 *Remarque : si vous balayez l'écran vers gauche, vous pouvez supprimer les appareils BroodMinder-WIFI/CELL non utilisés.*
 
-### 9.7 Écran de configuration de l'application WIFI/CELL
+#### 9.2.7 Écran de configuration de l'application WIFI/CELL
 
 ![](./images/14_5_configure_screen.png)
 
-### 9.8 Écran de diagnostic de l'application WIFI/CELL
+#### 9.2.8 Écran de diagnostic de l'application WIFI/CELL
 
 ![](./images/14_6_diagnostics_screen.png)
 
-### 9.9.Écran de réseau wifi/mobile de l'application WIFI/CELL
+#### 9.2.9.Écran de réseau wifi/mobile de l'application WIFI/CELL
 
 ![](./images/14_7_network_screen_wifi.png)
 
-### 9.10 Écran de réseau cellulaire de l'application WIFI/CELL
+#### 9.2.10 Écran de réseau cellulaire de l'application WIFI/CELL
 
 ![](./images/14_8_network_screen_cell.png)
 
 *Remarque : il s'agit des commandes du modem mobile. Pour les commandes du modem wifi, rendez-vous à la page suivante. Si le modem n'est pas allumé, l'actionnement de toute commande entrainera son allumage. Attendez quelques secondes et actionnez de nouveau la commande souhaitée. Le résultat s'affichera en bas de l'écran.*
 
-### 9.11 Écran de réseau wifi/cellulaire de l'application WIFI/CELL
+#### 9.2.11 Écran de réseau wifi/cellulaire de l'application WIFI/CELL
 
 ![](./images/14_9_network_screen.png)
 

@@ -1,6 +1,9 @@
 # Capteurs
 
-## Installation des capteurs BroodMinder
+## 2. Installation des capteurs BroodMinder
+
+[![Présentation et mise en route des 3 capteurs](https://img.youtube.com/vi/fanEzs-6fb4/0.jpg)](https://www.youtube.com/watch?v=fanEzs-6fb4)
+
 ### 2.1 Position des capteurs
 Le pack Citizen Science contient deux dispositifs BroodMinder-TH (Température et Humidité) ou BroodMinder-T2 (Température seulement) ainsi qu’une balance BroodMinder-W. Voici où installer ces appareils : 
 
