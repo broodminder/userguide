@@ -16,13 +16,13 @@ Vidéo récente en anglais : https://www.youtube.com/watch?v=pbCqpf8EY0s
 
 ## Mellisphera & BroodMinder
 
-Mellisphera est intégré avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers, ruches sur https://mybroodminder.com. Le site vous permet d'affecter les capteurs à chaque ruche et de visualiser les données mesurées. 
+Mellisphera est intégrée avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers / ruches sur https://mybroodminder.com. Le site vous permet d'affecter les capteurs à chaque ruche et de visualiser les données mesurées. 
 
 
 <img src="./images/ecran_MBM.png" alt="Ecran BroodMinder" width="550" class="marginauto">
 
 
-Un bouton Mellisphera sera toujours visible sur menu de gauche, il suffit de cliquer sur celui-ci pour y accéder. Si vous vous êtes connectés récemment, la connexion se fera sans que vous ayez besoin de rentrer votre email et votre mot de passe. Dans le cas contraire, le champ de l'email sera auto rempli. 
+Un bouton Mellisphera sera toujours visible sur le menu de gauche, il suffit de cliquer sur celui-ci pour y accéder. Si vous vous êtes connectés récemment, la connexion se fera sans que vous ayez besoin de rentrer votre email et votre mot de passe. Dans le cas contraire, le champ de l'email sera auto rempli. 
 
 Votre aventure commence donc maintenant https://bzz.mellisphera.com/login.
 
@@ -41,7 +41,7 @@ Nous allons faire un tour ensemble des différentes fonctionnalités de Mellisph
 
 ## Ecran d'accueil
 
-Une fois connecté à Mellisphera vous devriez arriver sur cette interface. Elle se décompose en trois zones
+Une fois connecté à Mellisphera vous devriez arriver sur cette interface. Elle se décompose en trois zones:
 <img src="./images/home_app.png" alt="Page d'accueil" width="550" class="marginauto">
 
 La barre d'en haut vous permet de sélectionner le rucher à visualiser. Un peu plus loin se trouvent vos préférences. Sur le côté gauche se trouvent les différents environnements de Mellisphera. Nous allons explorer chacun de ces espaces dans les prochains chapitres. 
@@ -63,23 +63,23 @@ Vous pouvez réinitialiser votre mot de passe. Attention, cela ne modifie le mot
 <img src="./images/password.png" alt="Mot de passe" width="350" class="marginauto">
 
 
-Vous pouvez également définir quelques préférences 
-- le système d’unité (métrique ou impérial).
+Vous pouvez également définir quelques préférences: 
+- le système d’unité (métrique ou impérial)
 - le format de la date 
-- la langue (Français, Espagnol ou Anglais pour le moment). 
-- la source météo. 
+- la langue (Français, Espagnol ou Anglais pour le moment)
+- la source météo
 
 <img src="./images/all_settings.png" alt="Paramètres de compte" width="150" class="marginauto">
 
 
 ## Vue du rucher
 
-Cette page est le point de départ de Mellisphera. Sélectionnez le rucher à explorer sur le menu déroulant tou en haut et ensuite naviguez visuellement les principales informaitons.
+Cette page est le point de départ de Mellisphera. Sélectionnez le rucher à explorer sur le menu déroulant tout en haut et ensuite naviguez visuellement parmi les principales informations.
 <img src="./images/acceuil_sidebar.png" alt="Boutton acceuil" width="100" class="marginauto">
 
 <img src="./images/home_app.png" alt="Page d'accueil" width="550" class="marginauto">
 
-Cette navigation est contextualisé sur le rucher à l'aide d'une photo qui vous permet de situer l'emplacement de vos ruches. Par dessous vous pourrez positionner des "pastilles" qui matérialisent la ruche et portent les informations associées (nom, poids, couvain etc)
+Cette navigation est contextualisée sur le rucher à l'aide d'une photo qui vous permet de situer l'emplacement de vos ruches. Par dessous vous pourrez positionner des "pastilles" qui matérialisent la ruche et portent les informations associées (nom, poids, couvain etc).
 
 #### Photo et placement
 
@@ -99,7 +99,7 @@ L'image du rucher et les pastilles, est associée avec un ensemble de bouttons p
 <img src="./images/barre_navig.png" alt="Naviguation" width="600" class="marginauto">
 
 
-Les boutons 'Nom', 'Couvain', 'Poids', et 'Capteur' sont activables. Cela permet d'afficher sur la photo en dessous des pastilles respestivement le nom, le couvain, le poids et les capteurs de l'ensemble des ruches de votre rucher à la date affichée en haut à droite. Par défaut, c'est la date de la veille (qui correspond au dernier jour de données en général). Vous pouvez bien entendu changer de date. 
+Les boutons 'Nom', 'Couvain', 'Poids', et 'Capteur' sont activables. Cela permet d'afficher sur la photo en dessous des pastilles respectivement le nom, le couvain, le poids et les capteurs de l'ensemble des ruches de votre rucher à la date affichée en haut à droite. Par défaut, c'est la date de la veille (qui correspond au dernier jour de données en général). Vous pouvez bien entendu changer de date. 
 
 
 #### Etat des capteurs
@@ -166,7 +166,7 @@ Vous avez une vision globale de l'évolution du couvain journalier sous forme de
 
 #### Productivité
 
-Ce calendrier offre une vue globale de l'apport de poids journalier sous forme de bulle. Les couleurs sont rouge pour une perte et vert pour un gain. La taille des bulles est proportionnelle à la variation de poids générée par les abeilles (nous sustrayons toute éventuelle manipulation d'ajout ou suppression de matériel). Nous appelerons donc cela la productivité de la ruche. Pour plus de détails quant au modèle de calcul de la productivité, il faut se rendre dans la section 'Interprétation des données'. Vous pouvez afficher uniquement les gains ou les pertes sur le calendrier en cochant/décochant les cases en dessous du calendrier. 
+Ce calendrier offre une vue globale de l'apport de poids journalier sous forme de bulle. Les couleurs sont rouge pour une perte et vert pour un gain. La taille des bulles est proportionnelle à la variation de poids générée par les abeilles (nous soustrayons toute éventuelle manipulation d'ajout ou suppression de matériel). Nous appelerons donc cela la productivité de la ruche. Pour plus de détails quant au modèle de calcul de la productivité, il faut se rendre dans la section 'Interprétation des données'. Vous pouvez afficher uniquement les gains ou les pertes sur le calendrier en cochant/décochant les cases en dessous du calendrier. 
 
 
 #### Notes
