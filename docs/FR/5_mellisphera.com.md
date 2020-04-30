@@ -1,11 +1,11 @@
 # Mellisphera.com
 
 <style>
-.marginauto {
-    margin: 10px auto 20px;
-    display: block;
-}
-</style>
+img[src*="#thumbnail"] {
+   margin: 10px auto 20px;
+   display: block;
+   width:550px;
+}</style>
 
 ## Présentation générale 
 
@@ -19,26 +19,7 @@ Vidéo récente en anglais : https://www.youtube.com/watch?v=pbCqpf8EY0s
 Mellisphera est intégrée avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers / ruches sur https://mybroodminder.com. Le site vous permet d'affecter les capteurs à chaque ruche et de visualiser les données mesurées. 
 
 
---> New line
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
-
-!["Ecran BroodMinder](./images/ecran_MBM.png#thumbnail)
-
---> Old line
-
-<style>
-.marginauto {
-    margin: 10px auto 20px;
-    display: block;
-    width: 500px;
-}
-</style>
-<img src="./images/ecran_MBM.png" alt="Ecran BroodMinder" width="550" class="marginauto">
+![Ecran BroodMinder](./images/ecran_MBM.png#thumbnail)
 
 
 Un bouton Mellisphera sera toujours visible sur le menu de gauche, il suffit de cliquer sur celui-ci pour y accéder. Si vous vous êtes connectés récemment, la connexion se fera sans que vous ayez besoin de rentrer votre email et votre mot de passe. Dans le cas contraire, le champ de l'email sera auto rempli. 
@@ -48,7 +29,7 @@ Votre aventure commence donc maintenant https://bzz.mellisphera.com/login.
 
 ## Page de connexion 
 
-
+![Ecran Mellisphera](./images/ecran_MS.png#thumbnail)
 <img src="./images/ecran_MS.png" alt="Ecran Mellisphera" width="550" class="marginauto">
 
 
