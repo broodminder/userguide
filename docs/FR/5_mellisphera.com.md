@@ -19,6 +19,25 @@ Vidéo récente en anglais : https://www.youtube.com/watch?v=pbCqpf8EY0s
 Mellisphera est intégrée avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers / ruches sur https://mybroodminder.com. Le site vous permet d'affecter les capteurs à chaque ruche et de visualiser les données mesurées. 
 
 
+--> New line
+<style>
+img[src*="#thumbnail"] {
+   margin: 10px auto 20px;
+   display: block;
+   width:550px;
+}</style>
+
+!["Ecran BroodMinder](./images/ecran_MBM.png#thumbnail)
+
+--> Old line
+
+<style>
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+    width: 500px;
+}
+</style>
 <img src="./images/ecran_MBM.png" alt="Ecran BroodMinder" width="550" class="marginauto">
 
 
