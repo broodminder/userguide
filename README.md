@@ -1,60 +1,47 @@
 # userguide
 
-## Installer mkdocs en local sur la machine
+## Install mkdocs
 ```pip install mkdocs```
 
 ```pip install mkdocs-material```
 
+## Using mkdocs
+```mkdocs new my-project``` Create new project
 
-## Créer un nouveau projet
-```mkdocs new my-project```
+```mkdocs serve```  Launch the development server at http://127.0.0.1:8000 (default)
 
-## Lancer le serveur de développement
-```mkdocs serve```
-
-## Convertir de word à Markdown simplement
-https://word2md.com/
+```mkdocs build```  Building the documentation html site
 
 
-## Pour tout savoir sur MKDOCS voici le mode d'emploi:
-https://www.mkdocs.org/
+## Utility 
+- MKDocs user guide https://www.mkdocs.org/
+- converting Word to Markdown https://word2md.com/
+- converting to pdf https://github.com/zhaoterryy/mkdocs-pdf-export-plugin This one is still explored, having an issue ongoing
 
-Dans le dossier docs créer autant de répertoires pour regrouper les pages par catégories (chapitres)
+## Configuration file mkdocs.yml
+This file allows for multiple options and configuration.
+By default we are not changing much in it except site title and theme
 
-
-## Configurer la table de matières
-Par défaut mkdocs prend la strcuture de documents affichée par ordre alphabetique.
-Si on veut faire mieux il faut strcuturer à la main dans le fichier de configuration **mkdocs.yml** 
-Exemple:
-```
+```yml
+site_name: USER DOCUMENTATION
+theme: material
 nav:
-- Home: 'index.md'
-- Capteurs:
-  - 'Poids': capteurs/poids.md
-  - 'Température': capteurs/temperature.md
-- Apiary App:
-  - 'Configurer l'App': app/configure.md
-- MyBroodminder:
-  - 'Prise en main': mbm/configure.md
-- Mellisphera:
-  - 'Prise en main': ms/configure.md
-- Interpretation des données
-
 ```
+_nav_ would allow to force the site doc structure tree, but the default output is fine too
 
-## Gestion de plusieurs langues:
-Ceci reste à voir comment peut être fait. Idéalement on doit pouvoir switcher EN, FR, ES, ...
-un tour rapide sur Github montre que cette fonctionnalité est encore en cours de reflexion.. ce qui peut être limitant pour notre besoin.
+## Managing multiple languages
 
+We have started building a site with two nav folders EN and FR
+In the future separate doc sites can be built for each language. 
+When integrated in mybroodminder or mellisphera we'll point to the right lang based on user prefs.
 
-## Déploiement du site:
-1- clonner le repo sur le VPS dans ```/apiwatch/production/userguide```
+## Deployment on a server with a vhost
+1. clonner  repo sur le VPS dans ```/apiwatch/production/userguide```
 
-2- lancer ```sudo ./build.sh```
+2. lancer ```sudo ./build.sh```
 le site en version html est généré et installé sur un virtual host.
 
-3- vérifier que tout est actualisé à partir du lien ci dessous
+3. vérifier que tout est actualisé à partir du lien ci dessous
 
-## Visualiser la doc
-https://doc.mellisphera.com/#user-gude
+4. Visualiser la doc sur : https://doc.mellisphera.com/#user-gude
 
