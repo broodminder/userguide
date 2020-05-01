@@ -8,8 +8,8 @@ BroodMinder – *Parce que chaque ruche compte*
 Félicitations pour l’achat de votre produit BroodMinder. Nous sommes heureux que vous ayez rejoint notre mouvement pour améliorer la santé des abeilles et partager des données pour améliorer notre compréhension. Ce manuel est destiné́ à combler les lacunes afin de rendre votre expérience BroodMinder plus agréable et productive. 
 Si vous avez encore des questions ou des suggestions, ou si vous voulez simplement discuter des abeilles, contactez-nous à support@broodminder.com . Nous sommes là pour aider. 
 
-![](./images/01_broodminder_products.png)
-![](./images/02_broodminder_cell.png)
+![](../images/01_broodminder_products.png)
+![](../images/02_broodminder_cell.png)
 
 ### 1.2 Quoi de neuf?
 Dans cette mise à jour, vous trouverez de nombreux changements dans les applications ainsi que dans MyBroodMinder.
@@ -122,7 +122,7 @@ Envoyez vos données par e-mail depuis la page réglages de l&#39;application (o
 ### 2.1 Emplacements des capteurs
 Le pack Citizen Science contient deux dispositifs BroodMinder-TH (Température et Humidité) ou BroodMinder-T2 (Température seulement) ainsi qu’une balance de ruche BroodMinder-W. Voici où installer ces appareils : 
 
-![](./images/03_sensor_locs.png)
+![](../images/03_sensor_locs.png)
 ### 2.2 BroodMinder-TH  
 Tous les appareils BroodMinder-TH ont un identifiant qui commence par 42 – ils devraient donc être faciles à reconnaitre. Le capteur est normalement placé au-dessus des cadres, près du centre du corps de la ruche qui vous intéresse. Cette position est choisie pour plusieurs raisons :
 
@@ -209,9 +209,9 @@ Il est préférable de placer le BroodMinder-W à l&#39;abri du soleil. En ef
 
 Ensuite, vous allez couper le plateau du fond. Pour le côté de la cornière aluminium, vous découperez une rainure de la largeur de votre lame de scie dans laquelle la pointe de l&#39;angle viendra s&#39;insérer. Pour le côté de la balance, vous découperez la paroi du corps de la ruche en faisant une entaille de 5cm de largeur (largeur de la balance) sur 0,25cm de profondeur afin que celle-ci puisse s&#39;emboiter facilement dans le corps de la ruche. Voir les images ci-dessous.
 
-![](./images/04_accurate_w_01.png)
+![](../images/04_accurate_w_01.png)
 
-![](./images/04_accurate_w_02.png)
+![](../images/04_accurate_w_02.png)
 ## 3. Entretien régulier
 Nos appareils ne nécessitent pas beaucoup d&#39;entretien. Merci de noter que si vos piles durent moins de 6 mois, ceci est anormal. Dans ce cas, contactez-nous à [support@BroodMinder.com](mailto:support@BroodMinder.com) pour un remplacement ou une remise à neuf.
 
@@ -277,19 +277,19 @@ BroodMinder-T affichera la température
 BroodMinder-TH affichera la température et le taux d&#39;humidité
 BoordMinder-W affichera la température et le poids
 
-![](./images/05_homescreen_app.png)
+![](../images/05_homescreen_app.png)
 
 ### 5.4 Détails / Graphique de l&#39;application BroodMinder
 
-![](./images/06_graphscreen_app.png)
+![](../images/06_graphscreen_app.png)
 
 ### 5.5 Page de configuration générale
 
-![](./images/07_generalsettings_page.png)
+![](../images/07_generalsettings_page.png)
 
 ### 5.6 Page de configuration de l&#39;appareil
 
-![](./images/08_devicesettings_page.png)
+![](../images/08_devicesettings_page.png)
 
 ### 5.7 Mode Temps Réel
 
@@ -308,7 +308,7 @@ Ré-appuyer sur le bouton « *Real Time* » permettra de ce mode et fera repasse
 
 ### 5.8 Réglage du facteur d&#39;échelle BroodMinder-W
 
-![](./images/09_scalefactor.png)
+![](../images/09_scalefactor.png)
 
 Par défaut, le facteur d&#39;échelle du BroodMinder-W est fixé à 2.0. Cela signifie que tout poids observé par le BroodMinder-W sera doublé afin de refléter le poids total de la ruche. En regardant les caractéristiques de la situation (annexe ci-dessous), nous savons qu&#39;il s&#39;agit d&#39;une approximation, qui n&#39;est donc pas totalement exacte. Dans la plupart des cas, elle est suffisamment proche de la réalité car de petits changements seront encore visibles et une erreur à 5-10% du poids total n&#39;est pas importante.
 
@@ -339,7 +339,7 @@ Si vous constatez des pics de poids même après ajustement, c&#39;est probabl
 
 ### 5.10 Marquage des graphiques
 
-![](./images/10_tagging_graphs.png)
+![](../images/10_tagging_graphs.png)
 
 En appuyant sur « *Hive Notes* », vous pourrez ajouter du texte à tout moment sur le graphique. C&#39;est particulièrement utile pour expliquer un brusque changement dans les données récoltées ou encore indiquer une inspection de la ruche.
 
@@ -381,7 +381,7 @@ L&#39;utilisation de l&#39;application est super simple :
 
 4. Retournez à l&#39;écran de la liste et dans quelques secondes, tous les appareils BroodMinder présents dans la zone s&#39;afficheront automatiquement à l&#39;écran
 
-5. Une fois que les identifiants de vos appareils BroodMinder sont devenus verts, cliquez sur l&#39;icône ![](./images/11_6_cloud_up.png) pour commencer le téléchargement des données sur MyBroodMinder
+5. Une fois que les identifiants de vos appareils BroodMinder sont devenus verts, cliquez sur l&#39;icône ![](../images/11_6_cloud_up.png) pour commencer le téléchargement des données sur MyBroodMinder
 
 6. L&#39;application vous montrera l&#39;état de progression du téléchargement. La ligne supérieure indique l&#39;état d&#39;avancement de la collecte des données. La ligne inférieure montre le transfert de ces dernières vers MyBroodMinder
 
@@ -391,23 +391,23 @@ Une fois le transfert terminé, les données s&#39;afficheront dans MyBroodMin
 
 **Écran de la liste des appareils**
 
-![](./images/11_1_list_screen.png)
+![](../images/11_1_list_screen.png)
 
 **Écran de progression**
 
-![](./images/11_2_progress_screen.png)
+![](../images/11_2_progress_screen.png)
 
 **Écran des détails de l&#39;appareil**
 
-![](./images/11_3_details_screen.png)
+![](../images/11_3_details_screen.png)
 
 **Écran des options**
 
-![](./images/11_4_options_screen.png)
+![](../images/11_4_options_screen.png)
 
 **Menu des paramètres**
 
-![](./images/11_5_settings_screen.png)
+![](../images/11_5_settings_screen.png)
 
 **Menu de configuration générale**
 
@@ -417,7 +417,7 @@ Une fois le transfert terminé, les données s&#39;afficheront dans MyBroodMin
 
 - Synchronisation des appareils à distance : vous pouvez récupérer vos données même lorsqu&#39;il n&#39;y a pas de connexion internet ou de couverture cellulaire dans votre rucher.
 
-    - Avant de vous rendre à votre rucher, allez sur l&#39;application à l&#39;écran de la liste des appareils et cliquez sur l&#39;icône ![](./images/11_7_cloud_dwn.png). Cela permettra le téléchargement de la liste de tous vos appareils ainsi que des données récupérées lors de la dernière synchronisation. Si vous passez cette étape, c&#39;est l&#39;ensemble de vos données qui sera récupéré depuis votre BroodMinder : ça pourrait représenter une année entière de données !
+    - Avant de vous rendre à votre rucher, allez sur l&#39;application à l&#39;écran de la liste des appareils et cliquez sur l&#39;icône ![](../images/11_7_cloud_dwn.png). Cela permettra le téléchargement de la liste de tous vos appareils ainsi que des données récupérées lors de la dernière synchronisation. Si vous passez cette étape, c&#39;est l&#39;ensemble de vos données qui sera récupéré depuis votre BroodMinder : ça pourrait représenter une année entière de données !
 
     - Une fois sur le terrain, procédez à la synchronisation de vos appareils comme d&#39;habitude. Le téléchargement échouera mais c&#39;est normal vu que vous n&#39;avez pas d&#39;accès à internet
 
@@ -429,7 +429,7 @@ Le mode Hub vous permet d&#39;utiliser un vieux modèle de téléphone/tablette 
 
 Il vous suffit d&#39;autoriser le Mode Hub et de revenir à l&#39;écran de la liste de vos appareils :
 
-![](./images/12_hubmode.png)
+![](../images/12_hubmode.png)
 
 ## 7. Stockage dans le Cloud MyBroodMinder.com
 
@@ -441,17 +441,17 @@ Une fois que les données sont transférées sur MyBroodMinder.com, vous pouvez
 
 Allez sur MyBroodMinder.com avec n&#39;importe quel navigateur. Vous devrez entrer votre nom d&#39;utilisateur (adresse électronique) et votre mot de passe. Après cela, un menu de ce type apparaitra :
 
-![](./images/13_1_cloud_storage.png)
+![](../images/13_1_cloud_storage.png)
 
 En cliquant sur le nom d&#39;une ruche, vous pourrez visualiser un graphique qui combine tous les capteurs de la ruche sélectionnée en un seul rapport :
 
-![](./images/13_2_cloud_storage.png)
+![](../images/13_2_cloud_storage.png)
 
 Utilisez le menu de configuration pour pouvoir effectuer tous les réglages de votre espace MyBroodMinder.com
 
-![](./images/13_3_cloud_storage.png)
+![](../images/13_3_cloud_storage.png)
 
-![](./images/13_4_cloud_storage.png)
+![](../images/13_4_cloud_storage.png)
 ## 8. Base de données
 
 Tout le monde aime les bases de données ! Nous le savons bien !
@@ -622,7 +622,7 @@ BroodMinder-WIFI/CELL est un composant facultatif qui se place dans votre rucher
 
 Pour de meilleurs résultats, regardez la vidéo de l&#39;installation sur BroodMinder.com/pages/videos
 
-![](./images/14_1_broodminder_wifi.png)
+![](../images/14_1_broodminder_wifi.png)
 
 ### 9.1 Instructions de démarrage rapide
 
@@ -640,7 +640,7 @@ Pour de meilleurs résultats, regardez la vidéo de l&#39;installation sur Brood
 
 Vous pouvez installer votre BroodMinder-WIFI/CELL avec de nombreuses configurations différentes selon les circonstances. Le support à l&#39;arrière du boîtier électronique peut être retournée comme on peut le voir sur quelques exemples.
 
-![](./images/14_2_installation.png)
+![](../images/14_2_installation.png)
 
 Quelques remarques relatives à l&#39;installation :
 
@@ -683,7 +683,7 @@ Vous trouverez plus d&#39;informations à ce sujet sur [https://www.voltaicsyste
 
 ### 9.4 Les voyants lumineux WIFI/CELL
 
-![](./images/14_3_indicator_lights.png)
+![](../images/14_3_indicator_lights.png)
 
 ### 9.5 L&#39;application BroodMinder-WIFI/CELL
 
@@ -704,31 +704,31 @@ Par défaut, le BroodMinder-WIFI/CELL transférera vos données toutes les heure
 
 ### 9.6 Écran d&#39;accueil de l&#39;application WIFI/CELL
 
-![](./images/14_4_homescreen.png)
+![](../images/14_4_homescreen.png)
 
 *Remarque : si vous balayez l&#39;écran vers gauche, vous pouvez supprimer les appareils BroodMinder-WIFI/CELL non utilisés.*
 
 ### 9.7 Écran de configuration de l&#39;application WIFI/CELL
 
-![](./images/14_5_configure_screen.png)
+![](../images/14_5_configure_screen.png)
 
 ### 9.8 Écran de diagnostic de l&#39;application WIFI/CELL
 
-![](./images/14_6_diagnostics_screen.png)
+![](../images/14_6_diagnostics_screen.png)
 
 ### 9.9.Écran de réseau wifi/mobile de l&#39;application WIFI/CELL
 
-![](./images/14_7_network_screen_wifi.png)
+![](../images/14_7_network_screen_wifi.png)
 
 ### 9.10 Écran de réseau cellulaire de l&#39;application WIFI/CELL
 
-![](./images/14_8_network_screen_cell.png)
+![](../images/14_8_network_screen_cell.png)
 
 *Remarque : il s&#39;agit des commandes du modem mobile. Pour les commandes du modem wifi, rendez-vous à la page suivante. Si le modem n&#39;est pas allumé, l&#39;actionnement de toute commande entrainera son allumage. Attendez quelques secondes et actionnez de nouveau la commande souhaitée. Le résultat s&#39;affichera en bas de l&#39;écran.*
 
 ### 9.11 Écran de réseau wifi/cellulaire de l&#39;application WIFI/CELL
 
-![](./images/14_9_network_screen.png)
+![](../images/14_9_network_screen.png)
 
 ## 10. Interprétation des données
 Dans cette section, nous présenterons les premiers résultats des ruches de Théo. Toujours en pleine phase d’apprentissage, vos observations et remarques nous seront précieuses. Vous pouvez nous les partager dans notre forum sur BroodMinder.com. 
@@ -737,7 +737,7 @@ Nous publions régulièrement des mises à jour ainsi que des vidéos sur BroodM
 
 Ces rapports ont été rédigés au cours de l’été 2016. Vous pouvez accéder directement aux données sur MyBroodMinder.com en consultant le rucher Claypoint, disponible en tant que rucher de démonstration. 
 
-![](./images/15_1_data_interpretation.png)
+![](../images/15_1_data_interpretation.png)
 
 ### 10.1 Profils de poids des ruches
 *Rédigé par Ray Walker, Mai 2016*
@@ -756,7 +756,7 @@ Les conditions climatiques ont un impact important sur la qualité de la collect
 
 **Graphique de la tendance mensuelle**
 
-![](./images/15_2_monthly_trend.png)
+![](../images/15_2_monthly_trend.png)
 
 Les températures plus fraiches (10-15°C) et la pluie du début du mois de mai ont limité le taux de pollinisation. 
 
@@ -770,7 +770,7 @@ Les profils hebdomadaires des gains de poids maximum peuvent être ajouté à un
 
 **Graphique de la tendance hebdomadaire**
 
-![](./images/15_3_weekly_trend.png)
+![](../images/15_3_weekly_trend.png)
 
 L’augmentation des températures moyennes combiné avec des écarts de température plus importants entre le jour et la nuit ainsi qu’un taux d’humidité stable/inférieur ont produit le flux maximal de nectar. 
 
@@ -782,7 +782,7 @@ En établissant le graphique de(s) jour(s) où le flux de nectar était à son m
 
 **Graphique de la tendance quotidienne**
 
-![](./images/15_4_daily_trend.png)
+![](../images/15_4_daily_trend.png)
 
 Les profils quotidiens indiquent les tranches horaires pendant lesquelles les abeilles ouvrières sont le plus actives au cours d’une journée. Cela permet à l’apiculteur de mieux choisir le moment de l’inspection de la ruche afin de perturber les abeilles le moins possible.
 
@@ -793,20 +793,20 @@ Voici un cas dans lequel un appareil BroodMinder-TH, placé sur une ruche horizo
 
 La colonie a été installée dans cette ruche à partir d’un essaim, puis déplacée dans un endroit éloigné. Ainsi, les données du capteur BroodMinder ont pu être collectées à distance de manière quotidienne et transférées sur MyBroodMinder.com. 
 
-![](./images/15_5_swarm_detection_TH.png)
+![](../images/15_5_swarm_detection_TH.png)
 
 Ci-dessous, voici une capture d’écran de MyBroodMinder.com montrant la totalité de la période écoulée depuis que la colonie a été installée dans cette ruche : 
 
-![](./images/15_6_swarm_detection.png)
+![](../images/15_6_swarm_detection.png)
 
 Au vu du type de cette ruche ainsi que de l’emplacement de l’appareil (situé sur le dernier cadre), je ne m’attendais pas à ce que la température relevée de la ruche reste au même niveau (comme c’est le cas pour la ruche Langstroth). Ce sont les deux derniers jours qui ont retenu mon attention : la température a chuté jusqu’à atteindre son niveau le plus bas, ce qui correspond au moment où les abeilles ont été introduites dans cette ruche. 
 
-![](./images/15_7_swarm_detection.png)
+![](../images/15_7_swarm_detection.png)
 
 La température extérieure a baissé également, mais si l’on revient à la journée du 16 mai, les températures extérieures étaient encore plus basses pour une température égale ou même supérieure à l’intérieur de la ruche. J’en ai donc conclu que la colonie avait essaimé car une température plus basse signifie une diminution de la chaleur produite, ce qui signifie une diminution du nombre d’abeilles à l’intérieur de la ruche pour produire assez de chaleur pour maintenir la température à un niveau plus élevé durant la nuit. Je suis donc allé faire une inspection et voici ce que j’ai découvert : 
 
-![](./images/15_8_swarm_detection_inspection.png)
-![](./images/15_9_swarm_detection_inspection.png)
+![](../images/15_8_swarm_detection_inspection.png)
+![](../images/15_9_swarm_detection_inspection.png)
 
 *Quelques abeilles sur les cadres et deux cellules d’essaimage ouvertes au bas de deux cadres.*
 
@@ -819,20 +819,20 @@ L’appareil BroodMinder-TH, combiné à un agent fonctionnant à distance et My
 
 Ce document montre les constatations faites sur deux ruches depuis le printemps. Une était un petit essaim tandis que l’autre provenait d’un pack. Les deux colonies ont été installées dans des ruches profondes Langstroth à 8 cadres et se sont développées à un rythme plus ou moins identique, s’étendant rapidement avec deux boîtes à couvain en plus chacune. Les appareils BroodMinder-TH (capteurs de Température et d’Humidité) étaient placés sur la boîte à couvain supérieure. Il n’y avait pas de hausse, mais simplement les couvertures intérieures et extérieures. Les pics de température ont démarré le 6 juin lorsque le soleil de midi frappait la couverture extérieure des ruches, comme nous pouvons le voir sur les graphiques. 
 
-![](./images/16_1_temperature_chart.png)
+![](../images/16_1_temperature_chart.png)
 
 Les pics ont dépassé les 38°C pratiquement tous les jours entre le 6 et le 15 juin. Parfois, ces températures pouvaient dépasser la température ambiante de 6°C, ce qui a clairement dû causer un stress inutile chez les abeilles. Les ruches se sont pratiquement transformées en serres. C’était surprenant car les deux ruches disposaient d’un fond grillagé ainsi que d’une couverture intérieure ventilée et grillagée pour l’été. Un panneau de polystyrène expansé à haute densité a donc été placé sur la couverture intérieure ventilée et filtrée des ruches de démarrage le 15 juin, ce qui a éliminé les pics de température. 
 
 Afin d’établir une comparaison, voici un profil de température d’une ruche mature avec hausses : 
 
-![](./images/16_2_temperature_chart.png)
+![](../images/16_2_temperature_chart.png)
 
 Pas de pics et des changements de température plus doux. 
 
 Ces mêmes graphiques sont à nouveau présentés ci-dessous et nous pouvons en conclure quelques éléments supplémentaires : 
 
-![](./images/16_3_temperature_chart.png)
-![](./images/16_4_temperature_chart.png)
+![](../images/16_3_temperature_chart.png)
+![](../images/16_4_temperature_chart.png)
 
 Nous pouvons remarquer que la différence entre la température ambiante et celle de la ruche est en général plus réduite pour la ruche de démarrage (graphique du haut) que pour la ruche établie (graphique du bas). Cela s’explique par le nombre d’abeilles dans la ruche. La colonie de démarrage sera beaucoup plus affectée par les changements de température ambiante que la colonie établie. 
 
@@ -852,14 +852,14 @@ Le coût de cette analyse correspond au prix d’achat de l’appareil MyBroodMi
 
 Cet exemple montre comment plusieurs appareils BroodMinder placés dans une même ruche peuvent être utilisés pour détecter un certain nombre d’éléments sans même avoir à ouvrir la ruche pour une inspection physique. 
 
-![](./images/17_1_installation.png)
+![](../images/17_1_installation.png)
 
 Le dispositif est le suivant : une ruche Langstroth à 8 cadres avec deux corps profonds, un fond grillagé (mais fermé), un couvre-cadre sur le corps supérieur, des couvertures intérieures et extérieures isolées.
 
 C’était la configuration de la ruche à l’entrée de l’hiver. Un premier capteur BroodMinder-TH était installé entre le couvre-cadre et le corps supérieur de la ruche ; un second capteur BroodMinder-T était installé entre les deux corps de la ruche. Le site internet MyBroodMinder.com n’en était qu’à ses débuts au moment où le test a commencé. C’est pour cette raison qu’un autre appareil BroodMinder-TH a été placé à l’extérieur, dans une zone protégée, afin de receuillir les conditions et températures ambiantes. 
 
 Voici un aperçu des données collectées. 
-![](./images/17_2_chart.png)
+![](../images/17_2_chart.png)
 
 La ligne verte représente la température relevée au-dessus du corps supérieur de la ruche ; la ligne rouge représente la température du corps inférieur de la ruche ; la ligne en pointillés représente la température ambiante. 
 -	Dans la première partie du graphique, les températures plus élevées dans le corps supérieur de la ruche indiquent que l’essaim s’est déplacé en haut et se nourrit des réserves de miel et de sucre
@@ -868,8 +868,8 @@ La ligne verte représente la température relevée au-dessus du corps supérieu
 -	Dans la dernière partie du graphique, les deux corps de la ruche se réchauffent, ce qui pourrait signifier que la reine a commencé à pondre potentiellement dans les deux corps
 
 Le graphique est divisé en sections pour une analyse plus approfondie des données :
-![](./images/17_3_chart.png)
-![](./images/17_4_chart.png)
+![](../images/17_3_chart.png)
+![](../images/17_4_chart.png)
 
 -	Sur la première section, un changement se produit et le corps inférieur de la ruche commence à attirer de nombreuses abeilles
 
@@ -881,13 +881,13 @@ Ces données montrent une ruche en bonne santé. Une inspection ultérieure a r�
 
 Chaque printemps, c’est un plaisir pour les apiculteurs d’observer leurs abeilles s’affairer à leurs excursions quotidiennes et ramener du pollen et du nectar. Comme nous le savons tous, c’est à la fois pour nourrir la larve et pour produire des réserves de miel afin de nourrir la colonie l’hiver prochain. Disposer du poids de la ruche est d’une grande aide pour décider du moment de la récolte du miel de la ruche. Un flux de nectar au printemps peut produire de grandes quantités de miel en peu de temps, comme nous pouvons le voir sur les graphiques ci-dessous, copiés à partir de l’application mobile. Le poids de la ruche a rapidement augmenté pendant la deuxième partie du mois de mai. 
 
-![](./images/18_1_supers_chart.png)
+![](../images/18_1_supers_chart.png)
 
 Les ondulations quotidiennes sont dues aux abeilles qui apportent du nectar tout au long de la journée, entrainant ainsi une augmentation du poids. Puis, pendant la nuit, les abeilles sont occupées à réduire la teneur en eau, ce qui entraine une diminution du poids de la ruche. Les écarts les plus larges correspondent au moment où l’apiculteur a ajouté ou enlevé des cadres ou des hausses.
 
 A plus long terme, nous pouvons clairement voir que la phase d’augmentation de poids a cessé à la mi-juin. La ruche de droite montre même une tendance à la baisse du poids de la ruche. C’est un signe évident que la pénurie s’est installée et qu’il n’y a plus assez d’aliments naturels de disponibles. Les abeilles ont commencé à consommer les réserves de miel ou pire – les voleurs s’emparent de ce qu’ils peuvent obtenir. Le graphique ci-dessous illustre ce type de situation. 
 
-![](./images/18_2_supers_chart.png)
+![](../images/18_2_supers_chart.png)
 
 La ruche pesait un poids impressionnant de 85kg lorsque le manque a frappé. Dès le 28 juin, le poids a commencé à chuter jusqu’à se stabiliser à 70kg environ la nuit d’après – soit 15kg de perdus. Le jour d’après, une nouvelle perte de poids massive s’est produite, jusqu’à atteindre 60kg – encore 10 kg de perdus. La perte de poids a continué les jours suivants jusqu’à ce que l’apiculteur enlève les hausses et reprenne le contrôle de la ruche. Les voleurs savaient exactement ce qu’ils faisaient après avoir découvert la ruche: ils ont pris ce qu’ils pouvaient le premier jour, se sont reposés avant d’y revenir pour en prendre encore plus, jour après jour. Il n’y avait pas d’autre ruche équipée d’une balance aux alentours, sinon nous aurions probablement vu où était passé le butin ! 
 
@@ -913,19 +913,19 @@ Fidèles à leur nom, les appareils BroodMinder (gardiens de couvain) détectent
 
 *Ruche avec couvain tacheté dans le corps inférieur*
 
-![](./images/19_1_CS_project.png)
+![](../images/19_1_CS_project.png)
 
 *Ruche avec 5 cadres de couvain solide dans le corps inférieur*
 
-![](./images/19_2_CS_project.png)
+![](../images/19_2_CS_project.png)
 
 *Ruche avec 5 cadres de couvain dans les deux corps*
 
-![](./images/19_3_CS_project.png)
+![](../images/19_3_CS_project.png)
 
 *Ruche relancée enfin « mis en ligne » correctement*
 
-![](./images/19_4_CS_project.png)
+![](../images/19_4_CS_project.png)
 ### 10.7 L’utilisation des données BroodMinder pour optimiser la préparation de la ruche pour l’hiver 
 *Rédigé par Theo Hartmann, Octobre 2016*
 
@@ -967,7 +967,7 @@ Les températures des ruches indiquent que les reines ont ralenti leur taux de p
 
 Voici un exemple pour illustrer cette situation. La colonie d’abeilles a maintenu les deux boîtes de la ruche à plus ou moins 35°C jusqu’à fin septembre. Puis la température de la boîte inférieure a chuté, suivie de près par celle de la boîte supérieure. Cela indiquerait que la reine a arrêté de pondre d’abord dans le corps inférieur, puis dans le corps supérieur de la ruche. Les apiculteurs qui utilisent de l’acide oxalique contre le varroa dans leurs ruches peuvent utiliser cette chute de température comme un déclencheur pour commencer le traitement car c’est à partir de ce moment-là qu’il y aura un nombre minimal de cellules de couvain operculées dans la ruche. 
 
-![](./images/20_prep_winter_chart.png)
+![](../images/20_prep_winter_chart.png)
 
 Voici un aperçu des niveaux de température avant que le taux de ponte de la reine ne commence à diminuer :
 
@@ -1013,7 +1013,7 @@ Il existe de nombreuses façons d’utiliser la balance de ruche BroodMinder. Co
 
 Voici la correction des défauts avec la balance positionnée à l’avant de la ruche ainsi qu’un support auxiliaire (point d’appui) de 2x4cm placé à l’arrière : 
 
-![](./images/21_1_appendixA_arrangement.png)
+![](../images/21_1_appendixA_arrangement.png)
 
 Voici maintenant les calculs de cette mise en place :
 
@@ -1023,20 +1023,20 @@ Calculs du
 
 -	Poids de la balance (S):
 
-![](./images/21_2_appendixA_calcul_S.png)
+![](../images/21_2_appendixA_calcul_S.png)
 
 - Poids du support arrière (B):
 
-![](./images/21_3_appendixA_calcul_B.png)
+![](../images/21_3_appendixA_calcul_B.png)
 
 En utilisant comme support auxiliaire un morceau de bois standard de 2x4cm et en l’alignant avec l’arrière de la ruche, le poids total de la ruche (W) peut être calculé à partir du poids de la balance (S) : 
-![](./images/21_4_appendixA_calcul_W.png)
+![](../images/21_4_appendixA_calcul_W.png)
 
 Par conséquent, indiquez 2.09 comme facteur d’échelle de la ruche par défaut sur l’application si vous utilisez cette configuration. On pourra évidemment affiner ce chiffre une fois que des mesures de poids seront possibles. 
 
 Le graphique ci-dessous montre le facteur de correction d’échelle pour différentes dispositions de la balance et du support. L’axe X représente la position du support (en pouces) à partir de l’arrière de la ruche. Les différentes lignes représentent la position centrale de la balance (en pouces) à partir de l’arrière de la ruche. Les flèches montrent l’exemple donné ci-dessus.
 
-![](./images/21_5_appendixA_chart.png)
+![](../images/21_5_appendixA_chart.png)
 
 *La croix rouge sur le graphique représente les positions idéales du support et de la balance (facteur de correction d’échelle = 2.0).*
 
@@ -1044,15 +1044,15 @@ Le graphique ci-dessous montre le facteur de correction d’échelle pour diffé
 
 Compte tenu de ce que l’on vient de voir, le support auxiliaire devrait être placé à 25mm (1 pouce) de l’arrière de la ruche. Il est recommandé d’ajouter une pièce sur le support auxiliaire comme indiqué sur le schéma afin de pouvoir le positionner avec plus de précision. 
 
-![](./images/22_1_appendixA_alternate1.png)
+![](../images/22_1_appendixA_alternate1.png)
 
 Nous avons désormais les segments E et F de même longueur et le facteur de correction d’échelle de la ruche est de 2.0 (soit la valeur par défaut sur l’application mobile). Cependant, il existe d'autres facteurs d'influence qui ne doivent pas être négligés. Le véritable point d’appui du support auxiliaire se situe quelque part entre l’arrière de la ruche et le devant du support, à cause des variations de niveau du support ainsi qu’une éventuelle déformation du support lui-même. 
 
-![](./images/22_2_appendixA_alternate1.png)
+![](../images/22_2_appendixA_alternate1.png)
 
 Compte-tenu de l’incertitude introduite qui est assez importante, le facteur de correction d’échelle est compris entre 1.90 et 2.13 (ou entre -5% et +6.5%).
 
-![](./images/22_3_appendixA_alternate1.png)
+![](../images/22_3_appendixA_alternate1.png)
 
 **3) Autre disposition n°2**
 
@@ -1060,8 +1060,8 @@ Il y a un autre système de support qui peut être utilisé, qui a un point d’
 
 Prenez un morceau de bois (pin ou chêne) d’à peu près 20mm d’épaisseur et 50mm de largeur. La longueur du morceau doit être égale à la largeur de la ruche. Découpez-y une petite entaille : elle doit être aussi profonde que la largeur de la lame de votre scie. Fixez ce morceau en-dessous du plateau de fond de la ruche. Alignez-le avec l’arrière de la ruche. Prenez maintenant une cornière en aluminium (6061 ou 6063) de 25x3mm, de la même longueur que le morceau de bois. Placez-la sous ce dernier afin de soutenir la ruche. L’angle de la cornière en aluminium doit reposer dans l’entaille. La hauteur totale de ce dispositif (cornière en aluminium + morceau de bois) doit être égale ou légèrement plus élevée que la haute de la ruche. En effet, il faut s’assurer que la ruche est de niveau voir légèrement inclinée vers l’avant afin d’éloigner l’écoulement de l’eau de l’entrée de la ruche.
 
-![](./images/22_4_appendixA_alternate2.png)
-![](./images/22_5_appendixA_alternate2.png)
+![](../images/22_4_appendixA_alternate2.png)
+![](../images/22_5_appendixA_alternate2.png)
 
 Cela permet de définir un point d’appui précis qui ne bougera pas et ne sera pas non plus affecté par un support dont la structure est inégale. 
 
@@ -1075,11 +1075,11 @@ Sinon, calez la balance du côté où le % est le plus faible jusqu’à ce que 
 
 **5) Support de ruche sur trois points**
 
-![](./images/23_1_AppendixA_Hivesupport.png)
+![](../images/23_1_AppendixA_Hivesupport.png)
 
 Il existe un moyen d’alléger ce besoin d’équilibrage latéral en mettant en place un véritable système de support sur trois points. Les morceaux nécessaires sont similaires à ceux utilisés dans la disposition n°2, sauf qu’au lieu d’utiliser une cornière en aluminium de 25mm, vous aurez besoin ici d’une cornière de 20mm. Percez un trou de 5mm au centre du morceau (au lieu d’une entaille). Une vis à métaux 6x12mm est utilisée comme support central. La fente de la tête de vis est alignée de manière à ce que l’angle de la cornière en aluminium puisse s’y emboiter en un seul point sans glisser. 
 
-![](./images/23_2_AppendixA_Hivesupport.png)
+![](../images/23_2_AppendixA_Hivesupport.png)
 
 Il y aura un léger écart entre la cornière en aluminium et la planche de bois. Assurez-vous que cet écart soit de largeur égale tout le long de la ruche. La vis placée au centre doit être l’unique point de contact, ce qui garantira que le poids mesuré est correct. Elle fait également office de « filet de sécurité » qui protège la ruche de la chute si le poids est réparti de manière trop inégale ou irrégulière – lors d’inspections de la ruche par exemple. 
 
@@ -1089,11 +1089,11 @@ La plupart des éléments ci-dessus concernaient le support auxiliaire. Concentr
 
 Comme indiqué dans les sections précédentes, il est préférable que la partie avant de la balance soit alignée avec la partie avant du corps de la ruche. Décaler la balance plus vers l’intérieur de la ruche apporterait plus de précision dans les résultats au détriment de la stabilité de la ruche. La décaler plus vers l’extérieur réduirait la précision des résultats sans pour autant améliorer la stabilité de la ruche. 
 
-![](./images/24_1_AppendixA_positioning.png)
+![](../images/24_1_AppendixA_positioning.png)
 
 Ce graphique montre l’influence de la position de la balance sur le facteur de correction d’échelle et sur l’erreur de poids, introduite par un positionnement inexact de la balance. L’influence est de 5,6% par pouce (soit 25mm). 
 
-![](./images/24_2_AppendixA_positioning.png)
+![](../images/24_2_AppendixA_positioning.png)
 
 Il est conseillé de marquer la position de la balance sur le plateau de fond de la ruche ou de fixer une butée mécanique. Cela permettrait de pouvoir remettre la balance exactement au même endroit si elle venait à être enlevée pour changer la pile ou pour toute autre raison. 
 

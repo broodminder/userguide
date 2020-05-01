@@ -1,3 +1,7 @@
 site_name: USER DOCUMENTATION
 theme: material
-nav:
+#theme: readthedocs
+#nav:
+#plugins:
+#    - search
+#    - pdf-export
