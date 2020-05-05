@@ -61,24 +61,20 @@ Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder.
 
 ### 5.6 Menu de configuration générale**
 
-- Vider manuellement la mémoire des appareils : si votre appareil BroodMinder fonctionne depuis longtemps (plus de 9 mois), il se peut que la mémoire soit pleine. Si c'est le cas, l'application Apiary se réinitialisera automatiquement afin de pouvoir stocker davantage de données. Si vous souhaitez contrôler cette étape manuellement, appuyez sur ce bouton
+- **Vider manuellement la mémoire des appareils** : si votre appareil BroodMinder fonctionne depuis longtemps (plus de 9 mois), il se peut que la mémoire soit pleine. Si c'est le cas, l'application Apiary se réinitialisera automatiquement afin de pouvoir stocker davantage de données. Si vous souhaitez contrôler cette étape manuellement, appuyez sur ce bouton
 
-- Connexion rapide : ce bouton permettra d'accélérer le temps de connexion en accélérant le « taux de collecte ». Cela signifie que l'appareil BroodMinder enverra un signal toutes les secondes au lieu de toutes les 5 secondes. L'inconvénient de cette option est qu'elle réduit la durée de vie de la pile. Il est possible d'accélérer la connexion durant l'été et de la ralentir durant l'hiver
+- **Connexion rapide** : ce bouton permettra d'accélérer le temps de connexion en accélérant le « taux de collecte ». Cela signifie que l'appareil BroodMinder enverra un signal toutes les secondes au lieu de toutes les 5 secondes. L'inconvénient de cette option est qu'elle réduit la durée de vie de la pile. Il est possible d'accélérer la connexion durant l'été et de la ralentir durant l'hiver
 
-- Synchronisation des appareils à distance : vous pouvez récupérer vos données même lorsqu'il n'y a pas de connexion internet ou de couverture cellulaire dans votre rucher.
+- **Activer la synchronisation déportée (Remote device Sync)** : vous pouvez récupérer vos données même lorsqu'il n'y a pas de connexion internet ou de couverture cellulaire dans votre rucher.
 
-    - Avant de vous rendre à votre rucher, allez sur l'application à l'écran de la liste des appareils et cliquez sur l'icône ![](./images/11_7_cloud_dwn.png). Cela permettra le téléchargement de la liste de tous vos appareils ainsi que des données récupérées lors de la dernière synchronisation. Si vous passez cette étape, c'est l'ensemble de vos données qui sera récupéré depuis votre BroodMinder : ça pourrait représenter une année entière de données !
+    1. Avant de vous rendre à votre rucher (tant que vous êtes encore connecté), allez sur l'application à l'écran de la liste des capteurs et cliquez sur l'icône ![](./images/11_7_cloud_dwn.png). Cela permettra le téléchargement de la liste de tous vos capteurs ainsi que le statut des données remontées lors de la dernière synchronisation. 
+    _ATTENTION : Si vous contournez cette étape, c'est l'ensemble de des données dans la mémoire du capteur qui sera récupéré : ça pourrait représenter une année entière de données !_
 
-    - Une fois sur le terrain, procédez à la synchronisation de vos appareils comme d'habitude. Le téléchargement échouera mais c'est normal vu que vous n'avez pas d'accès à internet
+    2. Une fois sur le terrain, procédez à la synchronisation de vos appareils comme d'habitude. Le téléchargement vers le cloud échouera mais c'est normal vu que vous n'avez pas d'accès à internet
 
-    - Lorsque vous revenez à la civilisation, relancez l'application qui vous suggèrera de procéder au téléchargement vers le cloud. Faites-le et MyBroodMinder.com sera mis à jour.
+    3. Lorsque vous revenez à la civilisation, relancez l'application qui vous suggèrera de procéder au téléchargement vers le cloud. Faites-le et MyBroodMinder.com sera mis à jour.
 
-- Mode Hub
-
-Le mode Hub vous permet d'utiliser un vieux modèle de téléphone/tablette pour l'envoi automatique de vos données BroodMinder sur MyBroodMinder toutes les 10 minutes. De cette façon, vous pouvez suivre l'état de vos abeilles 24/24h 7/7j depuis n'importe où dans le monde.
-
-Il vous suffit d'autoriser le Mode Hub et de revenir à l'écran de la liste de vos appareils :
-
+- **Mode Hub** : Le mode Hub vous permet d'utiliser un vieux modèle de téléphone/tablette pour l'envoi automatique de vos données BroodMinder sur MyBroodMinder toutes les 10 minutes. De cette façon, vous pouvez suivre l'état de vos abeilles 24/24h 7/7j depuis n'importe où dans le monde. Il vous suffit d'autoriser le Mode Hub et de revenir à l'écran de la liste de vos appareils :
 ![](./images/12_hubmode.png)
 
 
