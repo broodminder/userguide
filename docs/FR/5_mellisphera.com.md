@@ -49,7 +49,7 @@ Des infobulles sont également positionnées à côté de chaque fonctionnalité
 
 En haut à droite sur l'app Mellisphera, vous avec accès à vos paramètres de compte. 
 
-![Paramètres de compte](./images/settings_app.png#thumbnail)
+![Paramètres de compte](./images/settings_app.png)
 
 Vous pouvez réinitialiser votre mot de passe. Attention, cela ne modifie le mot de passe que pour la plateforme Mellisphera. 
 
@@ -61,13 +61,13 @@ Vous pouvez également définir quelques préférences:
 - la langue (français, espagnol ou anglais pour le moment)
 - la source météo
 
-![Préférences](./images/all_settings.png#thumbnail)
+![Préférences](./images/all_settings.png)
 
 ## Vue du rucher
 
 Cette page est le point de départ de Mellisphera. Sélectionnez le rucher à explorer sur le menu déroulant tout en haut et ensuite naviguez visuellement parmi les principales informations.
 
-![Vue du rucher](./images/acceuil_sidebar.png#thumbnail)
+![Vue du rucher](./images/acceuil_sidebar.png)
 
 ![Ecran d'accueil](./images/home_app.png#thumbnail)
 
@@ -127,7 +127,7 @@ Pour écrire une nouvelle note, il suffit de cliquer sur le '+' de l'encart, c'e
 
 Vous verrez apapraître la note directement sur le calendrier des événements avec l'icône suivante.
 
-![Icone note](./images/icon_note.png#thumbnail)
+![Icone note](./images/icon_note.png)
 
 ### Vue de la ruche
 
@@ -155,14 +155,14 @@ Il est possible de prendre des annotations au niveau de chaque ruche. Ce sont de
 
 ## Explorer
 
-![Explorer](./images/explorer_sidebar.png#thumbnail)
+![Explorer](./images/explorer_sidebar.png)
 
 La vue **Rucher** donne un aperçu global de la situation. Dans **Explorer**, vous pourrez naviguer parmi vos données de façon plus approfondie. Une nouvelle barre grise apparait avec trois nouveaux espaces : 'Ruche', 'Couvain', 'Données'. Par défaut, vous arrivez sur le mode 'Ruche'. 
 De plus, les données du dernier mois s'afficheront par défaut. Vous pouvez modifier la date en haut à droite. Vous pouvez modifier et personnaliser cette période de données à votre guise ou en utilisant les flèches pour vous déplacer dans le temps de période en période. 
 
 ![Explorer navigation](./images/navig_explorer.png#thumbnail)
 
-![Personnaliser date](./images/personnaliser_date.png#thumbnail)
+![Personnaliser date](./images/personnaliser_date.png)
 
 ### Ruche
 
@@ -218,7 +218,7 @@ Il est très facile de se servir de l’outil. Les petites icones sur la droite 
 
 ## Alertes
 
-![Alertes bouton](./images/alertes_sidebar.png#thumbnail)
+![Alertes bouton](./images/alertes_sidebar.png)
 
 Dans cet espace vous trouverez toutes les fonctions pour mettre en oeuvre un service de notifications et alertes sur chacun de vos ruchers. Ici aussi vous trouverez une nouvelle barre de navigation qui est en fait un classement dy type d'alertes selon 3 catégories: 'Ruche', 'Météo', 'Capteur' plus le bouton 'Paramètres' qui est dédié à la configuration 
 
@@ -272,7 +272,7 @@ Voici un aperçu d'un mail que vous pourrez recevoir :
 
 ## MyBroodMinder
 
-![MBM bouton](./images/MBM_sidebar.png#thumbnail)
+![MBM bouton](./images/MBM_sidebar.png)
 
 Vous serez redirigé vers la plateforme MyBroodMinder.com en cliquant sur l'icône de MyBroodMinder. En un seul clic vous pouvez passer d'une plateforme à l'autre, d'un côté sur MyBroodMinder pour gérer vos configurations de ruchers, ruches, capteurs et de l'autre sur Mellisphera pour analyser vos données avec précision et être informé en temps réel de ce qu'il se passe sur vos ruches.
 
@@ -280,7 +280,7 @@ Rappelez-vous que les modifications effectuées sur MyBroodMinder seront récup�
 
 ## Support
 
-![Bouton support](./images/support_sidebar.png#thumbnail)
+![Bouton support](./images/support_sidebar.png)
 
 C'est en réalité un lien pour envoyer un message vers notre support.
 
@@ -291,7 +291,7 @@ Vous pouvez également nous écrire par email à l'adresse : support@mellisphera
 
 ## Documentation 
 
-![Bouton documentation](./images/doc_sidebar.png#thumbnail)
+![Bouton documentation](./images/doc_sidebar.png)
 
 Ce bouton vous renvoie sur l'ensemble de la documentation utilisateur : https://doc.mellisphera.com. 
 
@@ -299,7 +299,7 @@ Ce portail, entièrement dédié à la documentation de l'ensemble du système, 
 
 ![Doc portal](./images/user_doc_portal.png#thumbnail)
 
-1. Choix de la langue de la documenttion
+1. Choix de la langue de la documentation
 2. Documents disponibles
 3. Corps du document
 4. Chapitres du document sélectionné permettant un accès rapide

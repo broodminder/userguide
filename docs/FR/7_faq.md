@@ -79,11 +79,11 @@ Vous pouvez utiliser le compte démo. Il possède les données de quelques ruche
 
 En haut à droite de l'app Mellisphera, vous avec accès à l'ensemble des paramètres de votre compte. 
 
-![Paramètres de compte](./images/settings_app.png#thumbnail)
+![Paramètres de compte](./images/settings_app.png)
 
 Vous pouvez changer votre système d’unité (métrique ou impérial). Vous pouvez également changer le format de la date à votre guise ou encore la langue (français, espagnol ou anglais pour le moment). Une dernière possibilité s’offre à vous, celle du choix de la source météo. Selon votre préférence et vos retours, vous pourrez choisir votre source préférée. 
 
-![Paramètres de compte](./images/all_settings.png#thumbnail)
+![Paramètres de compte](./images/all_settings.png)
 
 ## Données
 
@@ -154,7 +154,7 @@ Lorsqu’une pastille est blanche (sans couleur), cela signifie qu’il n’y a 
 
 Oui ! Vous pouvez modifier les alertes comme vous le souhaitez. Elles sont même personnalisables. Il vous suffit de vous rendre dans les paramètres d’alertes. 
 
-![Icone alerte](./images/alerts_settings.png#thumbnail)
+![Icone alerte](./images/alerts_settings.png)
 
 ![Interface alertes](./images/config_alert_prob.png#thumbnail)
 
@@ -164,7 +164,7 @@ Cependant, cette action n'est pas rétroactive. La modification sera active à p
 
 Par défaut, l’envoi d’email est désactivé. Vous devez vous rendre dans les paramètres des alertes (bouton suivant) puis dans les paramètres (voir ci-dessous).
 
-![Icone alerte](./images/alerts_settings.png#thumbnail)
+![Icone alerte](./images/alerts_settings.png)
 
 ![Email](./images/email_test.png#thumbnail)
 
