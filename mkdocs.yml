@@ -1,5 +1,8 @@
 site_name: USER DOCUMENTATION
 theme: material
+#markdown_extensions:
+#  - toc:
+#    baselevel: 2
 #theme: readthedocs
 #nav:
 #plugins:

@@ -94,11 +94,22 @@ Les boutons 'Nom', 'Couvain', 'Poids', et 'Capteur' sont activables. Cela permet
 
 #### Etat des capteurs
 
-Petite particularité pour les capteurs, vous visualisez leur état en temps réel par une couleur (grise, rouge, orange) qui détermine l'état et un affichage au survol du problème. Pour plus de détails, vous pouvez vous réferrer à la section 'Interprétation des données'. 
+Petite particularité pour les capteurs, vous visualisez leur état en temps réel par une couleur (grise, rouge, orange) qui détermine l'état et un affichage au survol du problème.
 
 ![Etat capteurs](./images/problem_sensor.png#thumbnail)
 
-#### Pastilles de couleur
+Le niveau de batterie est calculé systématiquement. Pour les ruchers équipés d'un Transmetteur sont également traitées les informations de signal et de connexion. Le code couleur est le suivant :
+
+- Gris - tout est nominal
+- Orange - mauvais signal ou baterie à remplacer
+- Rouge - le capteur n'émet pas 
+
+Le seuil de batterie est fixé à 20% par défaut, vous pouvez le régler dans les paramètres d'alertes. 
+
+Les informations de signal et de connexion sont basées sur la fréquence des relevés de données chaque jour. Leur quantité et qualité permet de déterminer s'il y a une déconnexion ou un mauvais signal. La première alerte est envoyée 24 heures après le début du problème. 
+
+
+#### Pastilles de couleur des ruches
 
 Les pastilles indiquent l'état de chaque ruche avec un code couleur (noir, rouge, orange, vert). Vous pouvez également regarder au survol le message associé à chaque état. L'état est calculé à une fréquence journalière en fin de journée par le modèle BFit. C'est pour cela que vous visualisez systématiquement le jours j-1. Avec le sélecteur de date en haut à droite, vous pouvez naviguer parmi les jours précédents également. 
 
