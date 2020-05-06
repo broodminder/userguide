@@ -14,17 +14,17 @@ img[src*="#thumbnail2"] {
    width:250px;
 }</style>
 
-Dans cette partie sont abordés les aspects plus techniques du fonctionnement de Mellisphera. On y présente les différents modèles BFIT, BFORCE, BWEIGHT ainsi que les sources METEO et les ALERTES.
+Dans cette partie seront abordés les aspects plus techniques du fonctionnement de Mellisphera. On y présentera les différents modèles BFIT, BFORCE, BWEIGHT ainsi que les sources METEO et les ALERTES.
 
 ## Introduction à l'apiculture de Précision
 
-Mellisphera est avant tout un système d'analyse de la santé des ruches. Notre objectif est de tirer le meilleur parti de toutes les données disponibles pour fournir à l'apiculteur simplement, les bonnes informations, au bon moment. L'apiculteur est informé en temps réel de tous les événements de son rucher. Ceux qui se déroulent à l'instant présent, mais aussi ceux à venir. De cette façon il prévoit ses inspections en amont et sait à l'avance à qui s'atendre. Le diagnostique est fait avant le déplacement au rucher et complété par la visite.
+Mellisphera est avant tout un système d'analyse de la santé des ruches. Notre objectif est de tirer le meilleur parti de toutes les données disponibles pour fournir à l'apiculteur simplement, les bonnes informations, au bon moment. L'apiculteur est informé en temps réel de tous les événements de son rucher. Ceux qui se déroulent à l'instant présent, mais aussi ceux à venir. De cette façon, il prévoit ses inspections en amont et sait à l'avance à quoi s'attendre. Le diagnostic est fait avant le déplacement au rucher et est complété par la visite.
 
 
 ![Inspections 15 jours](./images/precision_inspect.png#thumbnail)
 
 
-Pour ateindre cet objectif les algoritmes sont nos amis. Des modèles qui analysent les informations recoltées et les traduisent en "langage apiculteur". 
+Pour atteindre cet objectif, les algorithmes sont nos amis. Des modèles qui analysent les informations récoltées et qui les traduisent en "langage apiculteur". 
 
 Quelques ressources sur l'Apiculture de Précision
 
@@ -41,7 +41,7 @@ Quelques ressources sur l'Apiculture de Précision
 
 Informer l’apiculteur du développement de son rucher: voici notre objectif. Avec cet algorithme, nous utilisons des repères comme la période de la saison et l’état des ruches environnantes pour définir un état « nominal ». Ensuite, nous positionnons chaque ruche par rapport à cette référence.
 
-Le rendu est très visuel avec des pastilles de couleurs (noir, rouge, orange, vert) pour indiquer leur état. C'est tellement simple et accessible que l’on en oublie presque toute la technologie et les compétences qu’il a fallu mobiliser pour le mettre au point. Notre modèle, que nous avons nommé BFit, est en constante évolution en suivant vos retours de près. 
+Le rendu est très visuel grâce à des pastilles de couleur (noire, rouge, orange, verte) pour indiquer leur état. C'est tellement simple et accessible que l’on en oublie presque toute la technologie et les compétences qu’il a fallu mobiliser pour le mettre au point. Notre modèle, que nous avons nommé BFit, est en constante évolution en suivant vos retours de près. 
 
 ![Pastilles](./images/pastilles.png#thumbnail)
 
@@ -57,7 +57,7 @@ Le système que nous voulions mettre en place repose sur une dynamique simple. E
 
 ### Le modèle BFit
 
-Bee Fitness repose sur nos nombreux algorithmes qui collectent les événements. Les événements sont symptomatiques et répétés dans le temps. L’algorithme ‘Learning’ apprend des événements précédents pour conserver, ou non, les événements futurs. Il y a, par la suite, une classification entre les événements détectés ayant une incidence sur l’état de la ruche et les autres. Comme dit précédemment, nous avons créé un liant avec notre modèle BForce. BFit est capable de déterminer l’écart entre la dynamique actuelle de la ruche et une dynamique du couvain théorique en constante évolution. Cette dynamique théorique est recalculée chaque année sur la base d’un modèle d’exploitation prise sur nos propres recherches et les différentes données récoltées. Il est à savoir qu’il est adaptable en fonction des régions du monde. En résumé, notre modèle exclusif permet principalement de relier de façon autonome les événements détectés avec la nature de la situation précise en y associant ensuite une couleur prédéfinie.
+Bee Fitness repose sur nos nombreux algorithmes qui collectent les événements. Les événements sont symptomatiques et répétés dans le temps. L’algorithme ‘Learning’ apprend des événements précédents pour conserver, ou non, les événements futurs. Il y a, par la suite, une classification entre les événements détectés ayant une incidence sur l’état de la ruche et les autres. Comme dit précédemment, nous avons créé un liant avec notre modèle BForce. BFit est capable de déterminer l’écart entre la dynamique actuelle de la ruche et une dynamique du couvain théorique en constante évolution. Cette dynamique théorique est recalculée chaque année sur la base d’un modèle d’exploitation prise sur nos propres recherches et les différentes données récoltées. Il faut savoir qu’il est adaptable en fonction des régions du monde. En résumé, notre modèle exclusif permet principalement de relier de façon autonome les événements détectés avec la nature de la situation précise en y associant ensuite une couleur prédéfinie.
 
 ### Résultats
 
@@ -169,7 +169,7 @@ Il est important de noter qu'une ruche ne sera productive que si son niveau de c
 
 Vous êtes nombreux à vous demander à quoi pourrait servir ces données lunaires.
 
-Premièrement, nous vous donnons accès aux heures de lever et coucher du soleil. Cela peut vous donner une estimation grossière des heures de sortie de vos abeilles, si la température extérieure le permet.  
+Premièrement, nous vous donnons accès aux heures de lever et de coucher du soleil. Cela peut vous donner une estimation grossière des heures de sortie de vos abeilles, si la température extérieure le permet.  
 
 Ensuite la lune, couplée à une météo favorable, peut être un vecteur de grande miellée. En effet, on dit que la lune rousse du printemps nuit aux cultures et que les cycles de l'astre de la nuit donnent le tempo à la croissance des plantes. A bon entendeur...
 
@@ -217,33 +217,33 @@ L'ensemble des alertes météo ne sont que des alertes de prédiction à J+3 max
 
 **Vent**
 
-C'est le vent maximum que nous considérons. Dans certaines régions, nous conseillons d'augmenter le seuil par défaut si vous ne soiuhaitez pas être averti régulièrement de certains phénomènes jugés normaux. 
+C'est le vent maximum que nous considérons. Dans certaines régions, nous conseillons d'augmenter le seuil par défaut si vous ne souhaitez pas être averti régulièrement de certains phénomènes jugés normaux. 
 
 **Pluie/Neige**
 
-Le seuil fixé est relativement haut. C'est pour des cas exceptionnels que cette alerte existe. 
+Le seuil fixé est relativement haut. Cette alerte a été créée pour des cas exceptionnels. 
 
 **Période froide**
 
 Sûrement une des alertes les plus importantes. Elle est déclenchée en pleine saison lorsque l'on envisage une période dite 'froide'. Cela inclue des journées ou des nuits jugées fraiches par rapport aux normales de saison. Nous fixons les paramètres nous-même.
 
-Il est important de prévenir à l'avance de ce genre d'événement pour anticiper, par exemple, le nourrissement de vos abeilles.
+Il est important de prévenir à l'avance ce genre d'événement pour pouvoir anticiper, par exemple, le nourrissement de vos abeilles.
 
 ### Couvain 
 
-Nous alertons une fois par semaine lorsqu'une ruche a un couvain, suivant le modèle BForce, en dessous du seuil fixé en pleine saison. Cette ruche est à surveiller car son couvain est anormalement faible. 
+Nous vous alertons une fois par semaine lorsqu'une ruche a un couvain en-dessous du seuil fixé en pleine saison selon le modèle BForce. Cette ruche est à surveiller car son couvain est anormalement faible. 
 
 ### Poids
 
 Nous avons deux types d'alertes de poids. 
 
-Le premier est le repérage d'une perte de poids significative en une journée. Cela peut signifier que vos abeilles ont beaucoup consommé ou qu'un pillage est en cours. Il est donc conseillé d'aller vérifier auprès de ses ruches.
+Le premier est le repérage d'une perte de poids significative en une journée. Cela peut signifier que vos abeilles ont beaucoup consommé ou qu'un pillage est en cours. Il est donc conseillé d'aller vérifier auprès de vos ruches.
 
 Le second concerne les gains de poids. Les gains journaliers sont signe d'une ruche productive. Nous associons ces gains de poids journaliers à un gain de poids hebdomadaire, signe d'une miellée. En effet, nous calculons l'apport hebdomadaire de chaque ruche lors des 7 derniers jours afin de répérer ce type d'événement. Vous pouvez donc suivre facilement l'avancement d'une miellée en cours. Les seuils sont facilement ajustables. 
 
 ### Morte
 
-C'est le résultat de notre algorithme BFit. Vous avez en plus de cela une alerte mentionnant les ruches concernées. 
+C'est le résultat de notre algorithme BFit. Vous recevez, en plus de cela, une alerte mentionnant les ruches concernées. 
 
 ### Trait. Oxalique
 

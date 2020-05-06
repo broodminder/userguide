@@ -100,7 +100,7 @@ Petite particularité pour les capteurs, vous visualisez leur état en temps ré
 
 Le niveau de batterie est calculé systématiquement. Pour les ruchers équipés d'un Transmetteur sont également traitées les informations de signal et de connexion. Le code couleur est le suivant :
 
-- Gris - tout est normal
+- Gris - tout est nominal
 - Orange - mauvais signal ou batterie à remplacer
 - Rouge - le capteur n'émet pas 
 
