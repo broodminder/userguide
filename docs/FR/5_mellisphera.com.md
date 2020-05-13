@@ -73,17 +73,17 @@ Cette page est le point de départ de Mellisphera. Sélectionnez le rucher à ex
 
 Cette navigation est contextualisée sur le rucher à l'aide d'une photo qui vous permet de situer l'emplacement de vos ruches. Par dessous vous pourrez positionner des "pastilles" qui matérialisent la ruche et portent les informations associées (nom, poids, couvain etc).
 
-#### Photo et placement
+**Photo et placement**
 
 Lors de votre première connexion, vous pourrez ajouter une photo de votre rucher. Soit par glisser/déposer d'un fichier depuis votre explorateur de fichiers préféré, soit en ouvrant le menu contextuel matérialisé par une icone "appareil photo" en haut à droite du cadre de la photo.
 
-#### Export des données 
+**Export des données**
 
 Sur l'image, vous avez également un icône pour l'export de vos données. C'est un export excel (csv ou .xlx) des données de vos ruchers (ruches, capteurs, batterie, couvain, poids) et de vos dernières notes. Cela s'avère très utile lors de vos visites au rucher.
 
 ![Export des données](./images/export_MS.png#thumbnail)
 
-#### Navigation photo
+**Navigation photo**
 
 L'image du rucher et les pastilles, sont associées à un ensemble de boutons positionnés juste au dessus. Cette barre de navigation vous permet de visualiser contextuellement diverses informations: 
 
@@ -92,7 +92,7 @@ L'image du rucher et les pastilles, sont associées à un ensemble de boutons po
 Les boutons 'Nom', 'Couvain', 'Poids', et 'Capteur' sont activables. Cela permet d'afficher sur la photo en dessous des pastilles respectivement le nom, le couvain, le poids et les capteurs de l'ensemble des ruches de votre rucher à la date affichée en haut à droite. Par défaut, c'est la date de la veille (qui correspond au dernier jour de données en général). Vous pouvez bien entendu changer de date. 
 
 
-#### Etat des capteurs
+**Etat des capteurs**
 
 Petite particularité pour les capteurs, vous visualisez leur état en temps réel par une couleur (grise, rouge, orange) qui détermine l'état et un affichage au survol du problème.
 
@@ -109,7 +109,7 @@ Le seuil de batterie est fixé à 20% par défaut, vous pouvez le régler dans l
 Les informations de signal et de connexion sont basées sur la fréquence des relevés de données chaque jour. Leur quantité et qualité permet de déterminer s'il y a une déconnexion ou un mauvais signal. La première alerte est envoyée 24 heures après le début du problème. 
 
 
-#### Pastilles de couleur des ruches
+**Pastilles de couleur des ruches**
 
 Les pastilles indiquent l'état de chaque ruche avec un code couleur (noir, rouge, orange, vert). Vous pouvez également regarder au survol le message associé à chaque état. L'état est calculé à une fréquence journalière en fin de journée par le modèle BFit. C'est pour cela que vous visualisez systématiquement le jours j-1. Avec le sélecteur de date en haut à droite, vous pouvez naviguer parmi les jours précédents également. 
 
@@ -119,14 +119,14 @@ Pour plus d'information à propos du modèle BFit calculant l'état des ruches, 
 
 ![Pastilles](./images/pastilles.png#thumbnail)
 
-#### Calendrier des événements du rucher
+**Calendrier des événements du rucher**
 
 Vous disposez d'un calendrier d'événements propre à chaque rucher. Ce calendrier vous permet de tracer les interventions réalisées au niveau de l'ensemble du rucher, ou des observations générales. 
 Le calendrier affiche également les alertes et notifications (nous verrons comment les configurer plus loin) au niveau du rucher. 
 
 ![Evenement rucher](./images/event_rucher.png#thumbnail)
 
-#### Notes de rucher
+**Notes de rucher**
 
 Pour terminer la vue rucher, vous pouvez saisir vos notes/inspections de rucher. Cela se situe juste en dessous de la photo de votre rucher.
 
@@ -140,7 +140,7 @@ Vous verrez apapraître la note directement sur le calendrier des événements a
 
 ![Icone note](./images/icon_note.png)
 
-### Vue de la ruche
+## Vue de la ruche
 
 Pour accéder à la vue d'une ruche, vous devez cliquer sur sa pastille ou son nom. La pastille s'entoure en rose et trois nouveaux calendriers correspondant à la ruche selectionnée apparaissent sur la droite. 
 
@@ -148,19 +148,19 @@ Les données affichées sont des données issues des 5 dernières semaines ainsi
 
 ![Vue de la ruche](./images/calendrier_UX.png#thumbnail)
 
-#### Evénements
+**Evénements**
 
 Vous retrouvez le calendrier d'événenements qui est cette fois-ci propre à la ruche selectionnée. Les événements de ruchers et de ruches sont différents. Pour plus de précision, aller dans la section 'Interprétation des données'.
 
-#### Couvain
+**Couvain**
 
 Vous avez une vision globale de l'évolution du couvain journalier sous forme de calendrier heatmap. Les couleurs varient de rouge à vert et le pourcentage de 0 à 100%. Pour plus de détails quant au model de calcul du couvain, il faut se rendre dans la section 'Interprétation des données'. Si vous possédez plusieurs capteurs de température sur votre ruche, vous pouvez cocher ou décocher celui que vous voulez afficher.
 
-#### Productivité
+**Productivité**
 
 Ce calendrier offre une vue globale de l'apport de poids journalier sous forme de bulle. Les couleurs sont rouge pour une perte et vert pour un gain. La taille des bulles est proportionnelle à la variation de poids générée par les abeilles (nous soustrayons toute éventuelle manipulation d'ajout ou suppression de matériel). Nous appelerons donc cela la productivité de la ruche. Pour plus de détails quant au modèle de calcul de la productivité, il faut se rendre dans la section 'Interprétation des données'. Vous pouvez afficher uniquement les gains ou les pertes sur le calendrier en cochant/décochant les cases en dessous du calendrier. 
 
-#### Notes
+**Notes**
 
 Il est possible de prendre des annotations au niveau de chaque ruche. Ce sont des notes distinctes de vos notes de rucher et qui ne concernent que la ruche sélectionnée. Pour repasser en mode rucher, il suffit de cliquer sur le bouton 'Rucher' de la barre de naviguation grise.
 
@@ -175,7 +175,7 @@ De plus, les données du dernier mois s'afficheront par défaut. Vous pouvez mod
 
 ![Personnaliser date](./images/personnaliser_date.png)
 
-### Ruche
+**Ruche**
 
 ![Explorer ruche](./images/ruche_explorer.png#thumbnail)
 
@@ -209,7 +209,7 @@ Vous pouvez donc visualiser et échanger les modes du calendrier comme vous le s
 
 ![Calendrier](./images/manier_calendrier.png#thumbnail)
 
-### Couvain
+**Couvain**
 
 Dans le mode Couvain, vous pouvez, cette fois-ci, **sélectionner autant de ruches que vous le souhaitez** et ce, même si ces ruches sont dans deux ruchers différents. Cela vous permet de comparer des ruchers ou des ruches entre elles.
 
@@ -219,7 +219,7 @@ Au survol, vous pourrez voir les informations relatives aux ruches.
 
 Cet outil est extrêmement performant pour analyser des données sur des longues ou courtes périodes de temps, sur des ruches d'un même rucher ou de différents ruchers. Il donne une énorme flexibilité pour l'analyse.
 
-### Données 
+**Données** 
 
 Dans le mode Données, vous visualiserez les données brutes de vos ruches avec la température interne en haut, le poids au centre et l'humidité en bas (un peu comme sur mybroodminder). En vert, vous aurez les zones optimales pour le couvain et l'humidité.  vous pouvez également sélectionner autant de ruches que vous le souhaitez et ce, même si ces ruches sont dans deux ruchers différents. Cela vous permet de comparer des ruchers ou des ruches entre elles.
 
@@ -281,7 +281,7 @@ Voici un aperçu d'un mail que vous pourrez recevoir :
 
 ![Alertes email](./images/email_2.png#thumbnail)
 
-## MyBroodMinder
+## Lien MyBroodMinder
 
 ![MBM bouton](./images/MBM_sidebar.png)
 
@@ -300,7 +300,7 @@ C'est en réalité un lien pour envoyer un message vers notre support.
 Envoyez nous vos questions, vos retours, votre expérience, vos idées d'améliorations et vos problèmes. Tout est bon à prendre. 
 Vous pouvez également nous écrire par email à l'adresse : support@mellisphera.com.
 
-## Documentation 
+## Guide utilisateur 
 
 ![Bouton documentation](./images/doc_sidebar.png)
 
@@ -323,4 +323,5 @@ Un exemple ici avec le mot clé "batterie"
 ![Doc portal](./images/user_doc_portal_srch_example.png#thumbnail)
 
 
+## Modèles et algorithmes 
 

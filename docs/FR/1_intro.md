@@ -1,7 +1,25 @@
 # Introduction
 
 ## Bienvenue à l'univers BroodMinder - Mellisphera !
-Si vous lisez cela, c'est le début d'une aventure qui s'annonce. Vous faites maintenant partie de la communauté d'apiculteurs de précision. Une communauté qui croit en l'utilisation de l'information pour améliorer la santé des abeilles. Mais également pour améliorer la pratique de chacun, grâce à une connaissance plus approfondie du comportement des colonies et de leurs écosystèmes.
+Si vous lisez cela, c'est le début d'une nouvelle aventure qui s'annonce. Vous faites maintenant partie de la communauté d'apiculteurs de précision. Une communauté qui utilise l'information pour améliorer la santé des abeilles, certes. Mais également pour améliorer la pratique de chacun, grâce à une connaissance plus approfondie du comportement des colonies et de leurs écosystèmes.
+
+
+## Introduction à l'apiculture de Précision
+
+En apiculture de Précision l'objectif est de tirer le meilleur parti de toutes les données disponibles pour fournir à l'apiculteur simplement, les bonnes informations, au bon moment. L'apiculteur est informé en temps réel de tous les événements de son rucher. Ceux qui se déroulent à l'instant présent, mais aussi ceux à venir. De cette façon il prévoit ses inspections en amont et sait à l'avance à qui s'atendre. Le diagnostic est fait avant le déplacement au rucher et complété par l'inspection elle même.
+
+
+![Inspections 15 jours](./images/precision_inspect.png#thumbnail)
+
+
+Pour ateindre cet objectif les algoritmes sont nos amis. Des modèles qui analysent les informations recoltées et les traduisent en "langage apiculteur". 
+
+Quelques ressources sur l'Apiculture de Précision
+
+- [Wikipedia - Apiculture de Précision](https://fr.wikipedia.org/wiki/Apiculture_de_précision)
+- [Les fondations de l'apiculture de précision](https://www.mellisphera.com/les-fondations-de-apiculture-de-precision/)
+- [Au-delà des inspections : suivre son rucher en temps réel](https://www.mellisphera.com/suivre-son-rucher-en-temps-reel/)
+- Et bien d'autres encore sur notre [blog](https://www.mellisphera.com/category/apiculture-de-precision/)
 
 
 ## Bref apperçu du système
