@@ -92,9 +92,19 @@ You can activate the "name", "brood", "weight" and "device" buttons. This enable
 
 #### Sensor status
 
-What is special about the sensors is that you can see their status in real time with a color code (grey, red, orange) that determines the status and displays the problem. For more details, please refer to the "data interpretation" section.  
+What is special about the sensors is that you can see their status in real time with a color code (grey, red, orange) that determines the status and displays the problem. 
 
 ![Sensor status](./images/problem_sensor.png#thumbnail)
+
+The battery level is systematically calculated. Regarding apiaries that are equipped with a Hub, the signal and connection information are also evaluated. Here is the colour code:
+
+- Grey - everything is normal
+- Orange - bad signal or battery to be replaced
+- Red - sensor does not emit 
+
+The battery threshold is by default set to 20% but you can modify it in the alert settings. 
+
+The signal and connection information are based on the daily data reading frequency. The quantity and quality of this information is used to determine if there is a disconnection or a bad signal. The first alert is sent 24 hours after the problem started.
 
 #### Coloured stickers
 

@@ -1,5 +1,2 @@
-./hbh2mongo/output_mongo/*
-site
-cron.log
 .DS_Store
-__pycache__/
+site
