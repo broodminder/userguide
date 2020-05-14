@@ -55,9 +55,10 @@ Vous pouvez réinitialiser votre mot de passe. Attention, cela ne modifie le mot
 
 ![Mot de passe](./images/password.png#thumbnail)
 
-Vous pouvez également définir quelques préférences: 
-- le système d’unité (métrique ou impérial)
+Vous pouvez également définir quelques préférences:
+
 - le format de la date 
+- le système d’unité (métrique ou impérial)
 - la langue (français, espagnol ou anglais pour le moment)
 - la source météo
 
@@ -182,6 +183,7 @@ De plus, les données du dernier mois s'afficheront par défaut. Vous pouvez mod
 Dans le mode ruche, vous pouvez choisir entre toutes les ruches de tous vos ruchers mais vous ne pouvez sélectionner qu'une seule ruche à la fois. Vous avez une vue de trois calendriers. 
 
 **Le premier calendrier** récapitule les données de votre ruche, vous pouvez choisir entre les différentes options 
+
 - Couvain 
 - Productivité
 - Température interne maximum
@@ -190,11 +192,13 @@ Dans le mode ruche, vous pouvez choisir entre toutes les ruches de tous vos ruch
 - Température externe maximum
 - Température externe minimum
 
-**Le deuxième calendrier** fait état des événements de votre ruche et du calendrier lunaire. 
-- événements, annotations et alertes
-- calendrier lunaire
+**Le deuxième calendrier** fait état des événements de votre ruche et du calendrier astronomique. 
 
-**Le troisième calendrier** présente les données météo de votre rucher. Il est donc identique à toutes les ruches d'un même rucher. Vous aurez accès aux données générales 'Météo', 
+- Evénements, annotations et alertes
+- Calendrier astronomique - biodynamique
+
+**Le troisième calendrier** présente les données météo de votre rucher. Il est donc identique à toutes les ruches d'un même rucher. Vous aurez accès aux données générales 'Météo',
+
 - Température externe maximum
 - Température externe minimum
 - Humidité externe maximum
@@ -253,11 +257,31 @@ Dans cet onglet, vous pourrez voir toutes les alertes concernant la météo. Ces
 
 ### Capteurs
 
-Dans cet onglet, vous pourrez voir toutes les alertes concernant l'état de vos capteurs et le cas de la ruche volée. Ces icônes d'alertes ne se retrouveront pas dans vos calendriers d'événements. Vous pouvez visualiser ces états dans la partie 'Mon Rucher' lorsque vous sélectionner 'Capteur'. De même, si vous avez activé les emails d'alertes (prochaine partie), vous serez averti des états de vos capteurs. 
+Les alertes associées aux capteurs informent sur els éventuelles anomalies de connexion ou de batterie. Pour être toujours certain que le système fonctionne nominalement. Cet onglet permet de les configurer. 
+
+Il faut noter que **ces icônes d'alertes ne s'affichent pas dans les calendriers d'événements**. A la place, leur état est visible dans la partie 'Mon Rucher' avec l'onglet 'Capteur'. 
+
+![Capteurs rucher](./images/devices_apiary.png#thumbnail)
+
+
+De même, si vous avez activé les emails d'alertes (prochaine partie), vous serez averti des états de vos capteurs. 
 
 Vous pouvez une nouvelle fois ajuster et désactiver/activer les différentes alertes. Par défaut, tout est activé avec des paramètres auto ajustés. 
 
 ![Alertes capteurs](./images/devices_alertes.png#thumbnail)
+
+
+Voici le détail des alertes disponibles pour chaque type de capteur
+
+| **Pictogramme** | **Alerte** | **Fréquence** | **Description** | 
+|- |-- | -- | -- |
+| ![](./images/alertes/cell_nowifi.png#picto) | Hub déconecté | jour | Le transmetteur n'a pas envoyé de données durant le dernier jour  | 
+| ![](./images/alertes/W_nowifi.png#picto) | W déconecté | jour | Le capteur n'a pas envoyé de données durant le dernier jour   | 
+| ![](./images/alertes/T_nowifi.png#picto) | T déconecté | jour | Le capteur n'a pas envoyé de données durant le dernier jour   | 
+| ![](./images/alertes/W_poorwifi.png#picto) | W faible signal | jour | Le capteur W a envoyé des relevés horaires incompletes le dernier jour   | 
+| ![](./images/alertes/T_poorwifi.png#picto) | T faible signal | jour | Le capteur T a envoyé des relevés horaires incompletes le dernier jour   | 
+| ![](./images/alertes/W_bat.png#picto) | W faible signal | jour | Le capteur W a un faible niveau de batterie  | 
+| ![](./images/alertes/T_bat.png#picto) | T faible signal | jour | Le capteur T a un faible niveau de batterie  | 
 
 ### Paramètres d'email
 

@@ -1,4 +1,10 @@
 # Interprétation des données
+<style>
+img[src*="#thumbnail0"] {
+   margin: 10px auto 20px;
+   display: block;
+   width:750px;
+}</style>
 
 <style>
 img[src*="#thumbnail"] {
@@ -8,13 +14,26 @@ img[src*="#thumbnail"] {
 }</style>
 
 <style>
+img[src*="#thumbnail1"] {
+   margin: 10px auto 20px;
+   display: block;
+   width:375px;
+}</style>
+
+<style>
 img[src*="#thumbnail2"] {
    margin: 10px auto 20px;
    display: block;
    width:250px;
 }</style>
 
-<<<<<<< HEAD
+<style>
+img[src*="#picto"] {
+   margin: 10px auto 20px;
+   display: block;
+   width:50px;
+}</style>
+
 ##	Hive Weight Profiles    
 ## Swarm Detection with a BroodMinder TH Device in a Top Bar Hive  
 ## Avoiding Excessive Heat in the Hive During Summer Months 
@@ -22,54 +41,18 @@ img[src*="#thumbnail2"] {
 ## Pull the Supers When the Dearth Hits 
 ## Promising Citizen Science Project Observations 
 ## Using BroodMinder Data to Optimize Hive Preparation for Winter 
-=======
-Dans cette partie seront abordés les aspects plus techniques du fonctionnement de Mellisphera. On y présentera les différents modèles BFIT, BFORCE, BWEIGHT ainsi que les sources METEO et les ALERTES.
+qegqsggs
 
-## Introduction à l'apiculture de Précision
-
-Mellisphera est avant tout un système d'analyse de la santé des ruches. Notre objectif est de tirer le meilleur parti de toutes les données disponibles pour fournir à l'apiculteur simplement, les bonnes informations, au bon moment. L'apiculteur est informé en temps réel de tous les événements de son rucher. Ceux qui se déroulent à l'instant présent, mais aussi ceux à venir. De cette façon, il prévoit ses inspections en amont et sait à l'avance à quoi s'attendre. Le diagnostic est fait avant le déplacement au rucher et est complété par la visite.
-
-
-![Inspections 15 jours](./images/precision_inspect.png#thumbnail)
-
-
-Pour atteindre cet objectif, les algorithmes sont nos amis. Des modèles qui analysent les informations récoltées et qui les traduisent en "langage apiculteur". 
->>>>>>> baeed40f8d604430e49a410b0e84a95ae817ac59
-
-
-##
+# Modèles
 
 Dans cette partie sont abordés les aspects plus techniques du fonctionnement de Mellisphera. On y présente les différents modèles BFIT, BFORCE, BWEIGHT ainsi que les sources METEO et les ALERTES.
 
 ## Etat des ruches - BFit
 BFIT comme _Bee Fitness_ est l'algorithme qui informe l’apiculteur de l'état de chaque ruche. Nous utilisons des repères comme la période de la saison et l’état des ruches environnantes pour définir un état « nominal » de la ruche. Ensuite, nous positionnons chaque ruche par rapport à cette référence.
 
-<<<<<<< HEAD
-Le rendu est très visuel avec des pastilles de couleurs (noir, rouge, orange, vert) pour indiquer leur état. Pour compléter l'information une infobulle précise la nature de la situation.
- 
+Le rendu est très visuel avec des pastilles de couleurs pour indiquer leur état. Pour compléter l'information une infobulle (au survol) précise la nature de la situation.
 
-![Pastilles](./images/pastilles.png#thumbnail2)
-=======
-Informer l’apiculteur du développement de son rucher: voici notre objectif. Avec cet algorithme, nous utilisons des repères comme la période de la saison et l’état des ruches environnantes pour définir un état « nominal ». Ensuite, nous positionnons chaque ruche par rapport à cette référence.
-
-Le rendu est très visuel grâce à des pastilles de couleur (noire, rouge, orange, verte) pour indiquer leur état. C'est tellement simple et accessible que l’on en oublie presque toute la technologie et les compétences qu’il a fallu mobiliser pour le mettre au point. Notre modèle, que nous avons nommé BFit, est en constante évolution en suivant vos retours de près. 
-
-![Pastilles](./images/pastilles.png#thumbnail)
-
-Si votre pastille est blanche, c'est qu'il n'y a pas de données au jour sélectionné, ou que vous n'avez pas accès aux données métérologiques qui sont indispensables pour l'utilisation de notre modèle.
-
-Nous avons prévu d'intégrer un calendrier journalier à moyen terme dans le mode 'Ruche' de la section 'Explorer' de l'application.
-
-### Constat
-
-Notre constat est que l’apiculteur cherche à savoir si ses ruches se développent correctement et nous nous devons de lui fournir cette information. Encore une fois, il doit ouvrir ses ruches une à une pour avoir une idée de l’état de chacune. Ainsi, au sein de Mellisphera, nous avons voulu détecter rapidement les ruches souffrantes afin de s’en préoccuper au plus vite. C’est de là que nous avons eu l’idée de confectionner BFit pour Bee Fitness. 
-
-Le système que nous voulions mettre en place repose sur une dynamique simple. En premier lieu, nous voulions mettre en avant les événements détectés sur le rucher ayant une réelle incidence sur l’état des ruches. Pour cela, il a donc fallu établir une classification des événements. Ensuite, nous voulions lier nos résultats avec notre modèle de dynamique du couvain BForce (voir plus loin) qui fait également état de l’état des ruches. Enfin, nous voulions avoir un système en évolution constante.
-
-### Le modèle BFit
-
-Bee Fitness repose sur nos nombreux algorithmes qui collectent les événements. Les événements sont symptomatiques et répétés dans le temps. L’algorithme ‘Learning’ apprend des événements précédents pour conserver, ou non, les événements futurs. Il y a, par la suite, une classification entre les événements détectés ayant une incidence sur l’état de la ruche et les autres. Comme dit précédemment, nous avons créé un liant avec notre modèle BForce. BFit est capable de déterminer l’écart entre la dynamique actuelle de la ruche et une dynamique du couvain théorique en constante évolution. Cette dynamique théorique est recalculée chaque année sur la base d’un modèle d’exploitation prise sur nos propres recherches et les différentes données récoltées. Il faut savoir qu’il est adaptable en fonction des régions du monde. En résumé, notre modèle exclusif permet principalement de relier de façon autonome les événements détectés avec la nature de la situation précise en y associant ensuite une couleur prédéfinie.
->>>>>>> baeed40f8d604430e49a410b0e84a95ae817ac59
+![Pastilles](./images/pastilles.png)
 
 Le code couleur est le suivant :
 
@@ -81,7 +64,6 @@ Le code couleur est le suivant :
 |Vert | Tout va bien pour votre ruche |
 |Blanc | Pas de données sur votre ruche (ou pas de météo) |
 
-![Message BFit](./images/message_bfit.png#thumbnail2)
 
 En activant l'envoi d'alertes dans Mellisphera vous recevrez par email un tableau récapitulatif avec l'ensemble des informations :
 
@@ -130,7 +112,7 @@ Il est également possible de comparer plusieurs ruches entre elles, quel que so
 <div align="center" ><i>La même ruche avec le couvain annuel comparée à deux autres ruches</i></div>
 
 
-Avec l'habitude on arrive à lire plusieurs évenements sur ces courbes. Il est possible de repérer débuts et arrets de ponte certes, mais aussi essaimages, périodes de mauvaise météo qui ont impacté la production de couvain, effet des frelons asiatiques, etc etc. 
+Avec l'habitude on arrive à identifier plusieurs évenements sur ces courbes. Il est possible de repérer débuts et arrets de ponte certes. Mais aussi essaimages, périodes de mauvaise météo qui ont impacté la production de couvain, effet des frelons asiatiques, etc, etc. 
 
 ![Parcours BForce](./images/parcours_bforce.png#thumbnail)
 <div align="center" ><i>Trajectoire de deux ruches sur une saison avec quelques evenements</i></div>
@@ -150,113 +132,79 @@ En premier lieu, dans la journée les variations de poids dépendent des ressour
 
 C'est pour cette raison que les courbes de poids de la ruche présentent des "bosses". Une chaque jour comme dans le graphique ci dessous. Sur le graphique on voit également des variations soudaines de poids qui sont liées aux interventions de l'apiculteur.
 
-![Historique Poids Brut](./images/historique_poids_brut.png#thumbnail)
+![Historique Poids Brut](./images/historique_poids_brut.png#thumbnail0)
 <div align="center" ><i>Historique de poids avec interventions de l'apiculteur</i></div>
 
 
-Avec ces constats on voit que pour bien évaluer la productivité il faut **considérer uniquement les variations de poids provenant d'une production des abeilles**. De cette façon il faut négliger les événements extérieurs : nourrissement, essaimage, ajout/retrait de hausse, interventions de l'apiculteur, perte ou augmentation inexpliquée. L'algorithme BWeight permet de repérer facilement ces événements bien distincts et de les écarter du calcul de productivité. 
+Avec ces constats on voit que **pour bien évaluer la productivité il faut considérer uniquement les variations de poids provenant exclusivement de la production des abeilles**. De cette façon il faut négliger les événements extérieurs : nourrissement, essaimage, ajout/retrait de hausse, interventions de l'apiculteur, perte ou augmentation inexpliquée. L'algorithme BWeight permet de repérer facilement ces événements bien distincts et de les écarter du calcul de productivité. 
 
-Le résultat est une information journalière de gain ou perte de poids. La représentation graphique sur le calendrier permet de suivre les miellées et leur intensité.
+Le résultat est une information journalière de gain ou perte de poids. La représentation graphique sur le calendrier permet de bien repérer la miellée dans la saison ainsi que son intensité.
 
-![BWeight](./images/bweight.png#thumbnail2)
-<div align="center" ><i>Excellente miellée fin juin !</i></div>
-ICI MANQUE LE POP UP sur l'image pour voir les 3kg !  
+![BWeight](./images/bweight2.png#thumbnail1)
+<div align="center" ><i>Excellente miellée de tilleul fin juin !</i></div>
 
-
-POURSUIVRE A CE NIVEAU
-
-### Résultats
-
-Vous pouvez intervenir en conséquence lorsque vous voyez des pertes significatives sur vos ruches, ou au contraire, des augmentations soudaines. En fonction de la période, ces relevés de poids sont très importants.
-
-Il est également visuellement facile de relever une miellée, qui n'est la conséquence que d'une suite de bulles vertes. A vous de faire la jointure avec les fleurs de votre environnement. 
+En prenant une échelle de temps plus large, au niveau de la saison, il est facile de relever et comparer le déroulement des différentes miellées.
 
 ![Miellée](./images/miellee.jpg#thumbnail)
+<div align="center" ><i>Calendrier des miellées d'une ruche transhumante en 2018</i></div>
 
-### A savoir
- 
-Il est important de noter qu'une ruche ne sera productive que si son niveau de couvain évalué par BForce est assez élevé et si l'état de la ruche évaluée par BFit est bon. C'est là toute la force de nos modèles: ils travaillent tous ensemble.
 
-## Cycle lunaire
+# Environnement des colonies
+La Météo et les saisons sont des facteurs clé en apiculture. Avec Mellisphera nous rapprochons ces infromations avec celles des colonies et des apiculteurs pour fournir la vue la plus complète des évenements.
 
-Vous êtes nombreux à vous demander à quoi pourrait servir ces données lunaires.
+## Météorologie
+Deux sources météo sont disponibleqs dans Mellisphera
 
-Premièrement, nous vous donnons accès aux heures de lever et de coucher du soleil. Cela peut vous donner une estimation grossière des heures de sortie de vos abeilles, si la température extérieure le permet.  
+- WeatherSource (recommandée)
+- Open WeatherMaps
 
-Ensuite la lune, couplée à une météo favorable, peut être un vecteur de grande miellée. En effet, on dit que la lune rousse du printemps nuit aux cultures et que les cycles de l'astre de la nuit donnent le tempo à la croissance des plantes. A bon entendeur...
+La météo est associée au rucher, et pourtant à la ruche. Chaque ruche a un registre météo qui lui est propre. C'est à dire que deux ruches qui à un instant t se trouvent sur le même rucher vont partager la même méteo sur cette période. Mais l'une d'elles part en transhumance c'est la météo de chaque rucher qu'elle visitera qui sera enregistrée.
 
-Ce calendrier a été demandé par certains apiculteurs qui utilisent ce calendrier lunaire pour regarder les périodes 'ascendantes', où la croissance des plantes serait au plus fort. Ces périodes sont bleutées sur le calendrier.
 
-![Cycle lunaire](./images/lune_calendrier.png#thumbnail)
+**Prévision à 7 jours**
+Avec WeatherSource il est également possible de visualiser la prévision météo. Le jour J est systématiquyement repéré avec un carré violet comme dans l'image ci dessous.
 
-## Données météorologiques et environnement des colonies
+![Prévision météo](./images/meteo_forecast.png#thumbnail1)
+<div align="center" ><i>Météo moyenne du mois et prévision à J+7</i></div>
 
-La météo est le facteur environnemental le plus déterminant. Une météo propice permet un bon développement des colonies. Le climat est déterminant pour leur développement.
+## Astronomie
+Le calendrier astronomique présente très visuellement les phases de la lune. Mais également la durée du jour avec les heures de lever et coucher du soleil selon votre zone géographique.
 
-Il est également important de connaître la météo en avance pour prévoir ses interventions aux ruchers. Voilà le double intérêt de l'analyse des données météorologiques. 
-
-Prenons le cas de deux de nos ruchers instrumentés: le rucher A et le rucher B. Le rucher A est dans un environnement plus frais que le rucher B. La température maximale moyenne d’avril 2019 était de 18,2°C pour le premier et 21,2°C pour le second. Trois degrés d’écart qui semblent faire toute la différence puisque le ruche B a produit deux fois plus ce mois-ci. Effectivement, il se trouve que le rucher A se situe dans un bois, sous une couverture végétale d’acacias, alors que le rucher B est également en zone boisée mais au milieu d’une clairière.
-
-Si l'on compare les données du même rucher A l'année précédente, on retrouve une différence notable de 2°C et une production trois fois supérieure l'année passée. L’exposition du rucher et l'environnement sont donc des facteurs clés à l’origine des faibles niveaux de production.
-
-Parfois, les abeilles sont présentes, les ressources aussi, mais pas l’ensoleillement. Il a suffit d’une année un peu plus fraîche que la précédente, 2°C d’écart en température maximale mensuelle, pour limiter la production. 
-
-## Données brutes
-
-Terminées les données brutes. Avec nos différents systèmes, vous n'avez plus besoin de vous casser la tête à déchiffrer vos courbes ! Nous le faisons pour vous... Nous vous laissons la possiblité de faire votre propre analyse de vos courbes.
+![Prévision météo](./images/calendrier_lunaire.png#thumbnail1)
+<div align="center" ><i>Au survol du calendrier lunaire on obtient aussi les informations du soleil</i></div>
 
 ## Système d'alertes
 
-Les apiculteurs ont énormément à faire et nous voulons leur alléger leur charge de travail. L’objectif est de leur apporter l’information pertinente en temps utile. C’est le rôle du système d’alertes. Pleinement configurable, il parle à l’apiculteur dans le langage métier : essaimage, vol de ruche, pillage, zéro couvain. Ces alertes concernent les événements à l’instant T, mais aussi les risques identifiés à 3 jours - en particulier pour ce qui concerne les prévisions météorologiques.
+### Alertes de la ruche
+| **Pictogramme** | **Alerte** | **Fréquence** | **Description** | 
+|- |-- | -- | -- |
+| ![](./images/alertes/Honeydew.png#picto) | Miellée | hebdo | l'alerte miellée se déclenche lorsque l'apport de poids net dans la ruche dépasse le seuil indiqué. Par défaut il est défini à 15kg/semaine.| 
+| ![](./images/alertes/Swarm.png#picto) | Essaimage | ??? | Alerte des essaimages en **temps réel** mais aussi **passés** dans le cas d'une synchro manuelle. Cette allerte fonctionne sur ruches équipées de capteurs de température. <br> Si une balance est présente ce sera encore plus précis mais ce n'est pas indispensable. <br> Nous pouvons ajuster les essaimages détectés en fonction de vos retours, n'hésitez pas à nous signaler des incohérences ou des oublis !
+| ![](./images/alertes/Swarm.png#picto) | Risque d'essaimage | ??? | En partant d'un certain nombre de paramètres on évalue le risque d'essaimage à 3 jours. <br> Cette alerte en cours de mise au point.| 
+| ![](./images/alertes/Tmax2.png#picto) | Sur-Temperature | ??? | Certaines colonies n'arrivent pas à gérer leur température interne. Souvent il s'agit de divisions petittes populations. Mais parfois c'est la météo qui e un effet majeur à cause d'un défaut d'exposition <br> Dans ce cas le couvain de la ruche est mis a l'epreuve, car les températures peuvent ateindre les 40°C.| 
+| ![](./images/alertes/Tmin2.png#picto) | Froid extrème | ??? | En hiver la grappe se resserre et maintient la temperature très localement. Etant loin du capteur. Pour cela l'indication de "basse température" ne peut être que informative. En focntion du contexte il faudra peut êter agir, ou pas.| 
+| ![](./images/alertes/LowBrood.png#picto) | Faible couvain | hebdo | En pleine saison, une ruche qui présente des niveaux de couvain en dessous de 30% est une anomalie ou une division/essaim. Cette alerte permet d'identifier les colonies qui décrochent. | 
+| ![](./images/alertes/WIneg.png#picto) | Perte de poids | journée | Une consomation excessive/soudaine signifie souvent pillage de la ruche par une autre colonie.| 
+| ![](./images/alertes/WIpos.png#picto) | Gain de poids | journée | Alerte journalière qui informe d'un gain de poids lié aux apports des abeilles. Certainement à associer avec l'alerte miellée hebdo.| 
+| ![](./images/alertes/Hmax.png#picto) | Forte humidité | journée | En hiver l'humidité dans la ruche peut atteindre 80% de façon naturelle. Toutefois si le seuil est encore plus haut il faut penser à intervenir. <br> Cette alerte est uniquement opérationnelle avec les ruches équipées de capteurs TH| 
+| ![](./images/alertes/Hmin.png#picto) | Faible humidité | journée | En saison la zone optimale d'humidité se situe entre 50 et 75%.| 
+| ![](./images/alertes/Dead.png#picto) | Ruche morte | journée | Si vous voyez arriver cette alerte, c'est trop tard. Cela signifie qu'il n'y a plus de signal de vie dans la ruche.| 
+| ![](./images/alertes/Oxalic.png#picto) | Traiter varroa | journée | Cette alerte se déclenche lorsque le couvain moyen du rucher descend en dessous du seuil fixe (defaut à 15%). C'est le moment de planifier un traitement anti-varroa à l'acide Oxalique.| 
+| ![](./images/alertes/Super+.png#picto) | Ajout hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et afichée sur le calendrier.| 
+| ![](./images/alertes/Super-.png#picto) | Retrait hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et afichée sur le calendrier.| 
+| ![](./images/alertes/Stolen.png#picto) | Ruche volée | ??? | Les capteurs ne disposent pas d'une géolocalisation. Cependant, pour les ruches disposant d'un capteur de poids cette alerte prévient d'un poids anormalement faible, déclencheur possible d'un vol..| 
 
-Voici l'interprétation et l'analyse des alertes qui méritent davantage de détails :
 
-### Essaimage 
+### Alertes Météo
+L'ensemble des alertes météo ne sont que des alertes de prédiction à J+7 maximum. 
+Elles sont évolutives. Si un événement est prévu à J+7 et que le lendemain cet événement n'a plus lieu d'être il n'est plus affiché.
+Les alertes concernent majoritairement des évenements forts à extrèmes.
 
-Nous pouvons vous prévenir à 3 jours un risque d'essaimage fort, dépendant de plusieurs facteurs (poids de la ruche, météo annoncé, essaimage récent, etc.). 
+| **Pictogramme** | **Alerte** | **Fréquence** | **Description** | 
+|- |-- | -- | -- |
+| ![](./images/alertes/Rain.png#picto) | Pluie | jour | Forte pluie.<br> valeur par défaut à 50 mm/j  | 
+| ![](./images/alertes/Snow.png#picto) | Neige | jour | Neige importante.<br> valeur par défaut à 15cm/j   | 
+| ![](./images/alertes/Wind.png#picto) | Vent | jour | Vents forts.<br> valeur par défaut pour des raffales à 30 km/h <br> Dans certaines régions, il est conseillé d'augmenter le seuil par défaut si les alertes sont trop régulières.| 
+| ![](./images/alertes/ColdPeriod.png#picto) | Froid | jour | Cette alerte est déclenchée en pleine saison lorsqu'il est prévu une période dite 'froide'. Cela inclut des journées ou des nuits jugées fraiches par rapport aux normales de saison. Nous fixons les paramètres nous-mêmes.| 
 
-Nous vous alertons également des essaimages en temps réel ou passés avec notre algorithme de détection liant la température interne de votre ruche et le cas échéant son poids.
 
-Nous pouvons ajuster les essaimages détectés en fonction de vos retours, n'hésitez pas à nous signaler des incohérences ou des oublis. 
-
-### Ruche volée
-
-Les capteurs ne disposent pas d'une géolocalisation. Cependant, pour les ruches disposant d'un capteur de poids, nous vous alertons lorsqu'une ruche a un poids anormalement faible, déclencheur possible d'un vol.
-
-### Météo 
-
-L'ensemble des alertes météo ne sont que des alertes de prédiction à J+3 maximum. Elles sont évolutives. Si nous détectons un événement à J+3 et que le lendemain cet événement n'a plus lieu d'être, nous l'effaçons. 
-
-**Vent**
-
-C'est le vent maximum que nous considérons. Dans certaines régions, nous conseillons d'augmenter le seuil par défaut si vous ne souhaitez pas être averti régulièrement de certains phénomènes jugés normaux. 
-
-**Pluie/Neige**
-
-Le seuil fixé est relativement haut. Cette alerte a été créée pour des cas exceptionnels. 
-
-**Période froide**
-
-Sûrement une des alertes les plus importantes. Elle est déclenchée en pleine saison lorsque l'on envisage une période dite 'froide'. Cela inclue des journées ou des nuits jugées fraiches par rapport aux normales de saison. Nous fixons les paramètres nous-même.
-
-Il est important de prévenir à l'avance ce genre d'événement pour pouvoir anticiper, par exemple, le nourrissement de vos abeilles.
-
-### Couvain 
-
-Nous vous alertons une fois par semaine lorsqu'une ruche a un couvain en-dessous du seuil fixé en pleine saison selon le modèle BForce. Cette ruche est à surveiller car son couvain est anormalement faible. 
-
-### Poids
-
-Nous avons deux types d'alertes de poids. 
-
-Le premier est le repérage d'une perte de poids significative en une journée. Cela peut signifier que vos abeilles ont beaucoup consommé ou qu'un pillage est en cours. Il est donc conseillé d'aller vérifier auprès de vos ruches.
-
-Le second concerne les gains de poids. Les gains journaliers sont signe d'une ruche productive. Nous associons ces gains de poids journaliers à un gain de poids hebdomadaire, signe d'une miellée. En effet, nous calculons l'apport hebdomadaire de chaque ruche lors des 7 derniers jours afin de répérer ce type d'événement. Vous pouvez donc suivre facilement l'avancement d'une miellée en cours. Les seuils sont facilement ajustables. 
-
-### Morte
-
-C'est le résultat de notre algorithme BFit. Vous recevez, en plus de cela, une alerte mentionnant les ruches concernées. 
-
-### Trait. Oxalique
-
-Nous avons développé un algorithme qui analyse le couvain de chacune des ruches d'un même rucher. Lorsque la moyenne de couvain du rucher est en dessous d'un certain seuil en fin de saison, nous envoyons cette alerte pour conseiller de faire le traitement à l'acide oxalique. 
