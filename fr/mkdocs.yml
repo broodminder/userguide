@@ -1,0 +1,11 @@
+site_name: GUIDE UTILISATEUR
+dev_addr: 127.0.0.1:3000
+theme: material
+#markdown_extensions:
+#  - toc:
+#    baselevel: 2
+#theme: readthedocs
+#nav:
+#plugins:
+#    - search
+#    - pdf-export

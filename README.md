@@ -29,9 +29,8 @@ nav:
 ```
 _nav_ would allow to force the site doc structure tree, but the default output is fine too
 
-## Managing multiple languages
-
-There is one Mkdocs repo for each lang. This will build a separate site per language. And allows using the "search" tool properly
+## Multi-lang management
+There is one MkDocs repo for each lang. This will build a separate site per language. And allows using the "search" tool properly
 When multiple langs where managed on a single MKDocs repo, the search was searching all of them together 
 When integrated in mybroodminder or mellisphera we'll point to the right lang based on user prefs.
 
