@@ -37,7 +37,7 @@ img[src*="#picto"] {
 Le capteur de température T2 fait un grand bond en avant ce printemps. Le matériel reste inchangé mais le cœur de ce petit capteur est complètement revu. En effet le logiciel embarqué est maintenant capable de détecter les événements au sein de la ruche. 
 
 
-## Comment convertir un T2 standard en T2-SM?
+## Comment convertir un T2 classique en T2-SM?
 ![](./images/01_T2.png#thumbnail1) 
 
 Les capteurs T2 classiques sont référencés avec le type 41:xx:yy. Pour les convertir en T2-SwarmMinder il faut mettre à jour le micrologiciel (firmware). Pour cela prenez l'App Apiary et affichez vos capteurs. Lorsqu'elle les retrouve, l'application détecte la version du micro logiciel comme dans l'exemple ci dessous
