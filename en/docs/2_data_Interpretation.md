@@ -31,17 +31,11 @@ These reports were written in the summer of 2016. You can look directly at the d
 Reports
 
 5.1 Hive Weight Profiles
-
 5.2 Swarm Detection with a BroodMinder TH Device in a Top Bar Hive
-
 5.3 Avoiding Excessive Heat in the Hive During Summer Months
-
 5.4 Detection of Cluster/Queen Movement and Spring Brood Buildup
-
 5.5 Pull the Supers When the Dearth Hits
-
 5.6 Promising Citizen Science Project Observations
-
 5.7 Using BroodMinder Data to Optimize Hive Preparation for Winter
 
 ### 10.1Hive Weight Profiles
