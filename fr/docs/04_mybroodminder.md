@@ -1,6 +1,6 @@
 # MyBroodminder.com
 
-## 7. Stockage dans le Cloud MyBroodMinder.com
+## Stockage dans le Cloud MyBroodMinder.com
 
 Les données transmises par les capteurs sont stockées MyBroodmidner.com. Nous avons fait de notre mieux pour rendre le transfert des données aussi simple que possible. **Depuis l'App BroodMinder Lite, il vous suffit d'appuyer sur le bouton Sync et de répondre à quelques questions**. L'application s'occupera pour vous de créer un nouveau compte MyBroodMinder et de vous fournir tout le nécessaire pour démarrer. Après cette étape, les données seront transférées. _Vous n'avez pas besoin de créer un compte MyBroodMinder avant d'envoyer vos données._
 
@@ -11,7 +11,7 @@ Allez sur MyBroodMinder.com avec n'importe quel navigateur. Vous devrez entrer v
 ![](./images/13_1_cloud_storage.png)
 
 
-## 7.1 Configurer le rucher
+## Configurer le rucher
 
 La création et édition de ruches se fait à partir du menu _Configuration_ comme le montre l'image ci-dessous. Toutefois quelques fonctions courantes sont également disponibles dans les menus contextuels associés aux ruchers et ruches (voir plus bas).
 
@@ -20,35 +20,35 @@ La création et édition de ruches se fait à partir du menu _Configuration_ com
 ![](./images/13_3_cloud_storage.png)
 
 
-### 7.1.1 Créer un rucher
+### Créer un rucher
 Chaque objet du menu de gauche dispose d'un menu contextuel indiqué par les trois petits points "..."
 
 Au niuveau de _Ruchers_ on accède à la fonction de création du rucher
 ![](./images/13_5_nw_apiary.png)
 
 
-### 7.1.2 Créer une ruche
+### Créer une ruche
 Au niuveau de chaque _Rucher_ on accède à la fonction de création des ruches
 
 ![](./images/13_6_nw_hive.png)
 
 
 
-### 7.1.3 Affecter un capteur
+### Affecter un capteur
 Dans la même logique les capteurs sont affectés à chaque ruche. 
 ![](./images/13_7_nw_device.png)
 
 
-### 7.1.4 Déplacer un capteur 
+### 7Déplacer un capteur 
 Dans le menu contextuel de la ruche (ci-dessus) il est également possible de déplacer le capteur (à une autre ruche) 
 
 
-### 7.1.6 Transhumer une ruche 
+### Transhumer une ruche 
 Il est possible de déplacer une ruche d'un rucher à un autre. Cela la change d'emplacement et lui affecte également la météo du nouveau lieu. Cette fonction est accessible depuis le menu contextuel et aussi depuis le menu _Configurer_ puis _Ruches_ puis dans le tableau la colonne _Historique Ruchers_ permet de définir la séquence des emplacements.
 
 ![](./images/13_8_hist_ruchers.png)
 
-### 7.1.5 Ruche morte
+### Ruche morte
 Les ruches mortes ou disparues peuvent être desactivées pour ne plus les avoir en vue sur le rucher. Leurs données restent néanmoins accessibles et peuvent être exploitées ultérieurement. 
 
 Attention cette action est IRREVERSIBLE.
@@ -56,7 +56,7 @@ Attention cette action est IRREVERSIBLE.
 ![](./images/13_9_desactiver.png)
 
 
-## 7.2 Visualiser les données
+## Visualiser les données
 
 En cliquant sur le nom d'une ruche, vous pouvez visualiser un graphique qui combine tous les capteurs de la ruche sélectionnée en un seul rapport :
 
