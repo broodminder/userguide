@@ -1,15 +1,15 @@
 # Capteurs
 
-## 2. Installation des capteurs BroodMinder
+## Installation des capteurs
 
 [![Présentation et mise en route des 3 capteurs](https://img.youtube.com/vi/fanEzs-6fb4/0.jpg)](https://www.youtube.com/watch?v=fanEzs-6fb4)
 
-### 2.1 Position des capteurs
+### Position des capteurs
 Le pack Citizen Science contient deux dispositifs BroodMinder-TH (Température et Humidité) ou BroodMinder-T2 (Température seulement) ainsi qu’une balance BroodMinder-W. Voici où installer ces appareils : 
 
 ![](./images/03_sensor_locs.png)
 
-### 2.2 BroodMinder-TH
+###  BroodMinder-TH
 ![](./images/01_TH.png)
 
 Tous les appareils BroodMinder-TH ont un identifiant qui commence par 42 – ils devraient donc être faciles à reconnaitre. Le capteur est normalement placé au-dessus des cadres, près du centre du corps de la ruche qui vous intéresse. Cette position est choisie pour plusieurs raisons :
@@ -32,7 +32,7 @@ Quelle que soit la position du capteur choisie, vous pouvez ajouter un marqueur 
 
 La pile CR2032 est remplaçable en ouvrant l'emballage. Elle dure en moyenne plus d'un an mais nous recommandons un remplacement à chaque automne, avant les basses températures de l'hiver.
 
-### 2.3 BroodMinder-T2
+###  BroodMinder-T2
 ![](./images/01_T2.png) 
 
 Tous les appareils BroodMinder-T2 ont un identifiant qui commence par 41 – ils devraient donc être faciles à reconnaitre. Le BroodMinder-T2 (**Température**) est une version à prix réduit du BroodMinder-TH. Il détectera la température de la ruche qui indiquera le développement du couvain durant la saison ainsi que sa survie hivernale. Placez-le au-dessus de l'endroit où vous pensez qu'il y aura le plus de couvain. Durant l'hiver, nous vous conseillons de le placer sur les cadres du corps supérieur de la ruche afin qu'il puisse prendre toute la chaleur montante de l'essaim.
@@ -52,7 +52,7 @@ Si vous souhaitez éteindre le T2, nous vous conseillons de le faire avec l'appl
 - Sélectionnez Taux d'Échantillonnage puis cliquez sur « éteindre ». Cette opération n'est possible que pour les appareils T2
 - Retournez au graphique et synchronisez l'appareil. Une fois fini, le T2 sera éteint
 
-### 2.4 BroodMinder-W
+###  BroodMinder-W
 ![](./images/01_W.png)
 
 Le BroodMinder-W (**Poids**) se place sous la ruche. Il existe un rapport détaillé sur la façon dont on positionne la balance (annexe A). C'est très intéressant à lire mais si vous manquez de temps, voici l'essentiel.
@@ -63,13 +63,13 @@ La pile CR2032 est remplaçable. Elle dure en moyenne plus d'un an mais nous rec
 
 *Remarque supplémentaire : si vous ne souhaitez surveiller que la miellée, un bon support sous la balance n'est pas nécessaire. Il vous faudra simplement ignorer les variations quotidiennes. Vous serez toujours en mesure d'observer l'évolution générale du poids.*
 
-#### 2.4.1 Placer la balance à l'ombre
+####  Placer la balance à l'ombre
 
 Le BroodMinder-W dispose d'un capteur de température à l'intérieur duquel est lue la température locale. Pour que la température soit précise, la balance doit être placée à l'abri du soleil direct. Cette prise de température est également utilisée pour compenser les capteurs de poids afin d'éviter les pics de température créés par l'ensoleillement direct et ainsi améliorer les performances.
 
 Placer la balance à l'ombre permettra également de prolonger la durée de vie de son emballage. Nous utilisons du plastique résistant aux UV, mais en plein soleil, même celui-ci se dégradera au fil du temps. Si cela se produit, il est possible de commander un nouvel emballage sur BroodMinder.com.
 
-#### 2.4.2 Faire le niveau du BroodMinder-W
+####  Niveler le BroodMinder-W
 
 Même si nous avons fait de notre mieux pour simplifier au maximum l'installation, vous devez tout de même rester attentif à quelques éléments :
 
@@ -77,7 +77,7 @@ Tout d'abord, assurez-vous que la ruche soit de niveau. Pas forcément _parfaite
 
 Une fois le BroodMinder-W installé, regardez au bout de celui-ci. À travers le couvercle en plastique, (souvenez-vous... il faut l'installer _avec_ le couvercle en plastique), vous pourrez voir la pièce supérieure en bois et la pièce inférieure en aluminium. Assurez-vous qu'elles ne se touchent pas : cela permettra de garantir que l'ensemble du poids repose sur les deux petits boutons situés au-dessus de la base en aluminium, et non ailleurs.
 
-#### 2.4.3 Installation classique
+####  Installation classique
 
 En utilisant l'installation type, vous pourrez voir de petits changements dans la ruche, mais le degré de précision des résultats ne sera pas absolu. Afin d'obtenir plus de précision, reportez-vous à la section suivante.
 
@@ -87,7 +87,7 @@ Le BroodMinder-W sera donc placé sous le côté opposé.
 
 Vous trouverez une explication mathématique et physique plus détaillée dans l'annexe A, mais elle se résume à ceci. Essayez de placer le support et la balance directement sous les parois du corps de la ruche : cela donnera de meilleurs résultats.
 
-#### 2.4.4 Installation améliorée
+####  Installation améliorée
 
 Cette installation améliorée nécessitera d'apporter quelques modifications au plateau du fond, notamment quelques petites coupes. Elles permettront de placer et de pouvoir replacer de façon répétée dans le temps la balance et son support avec précision.
 
@@ -102,32 +102,8 @@ Ensuite, vous allez couper le plateau du fond. Pour le côté de la cornière 
 ![](./images/04_accurate_w_01.png)
 
 ![](./images/04_accurate_w_02.png)
-## 3. Entretien régulier
-Nos appareils ne nécessitent pas beaucoup d'entretien. Merci de noter que si vos piles durent moins de 6 mois, ceci est anormal. Dans ce cas, contactez-nous à [support@BroodMinder.com](mailto:support@BroodMinder.com) pour un remplacement ou une remise à neuf.
 
-### 3.1 Au printemps
-
-Une vidéo sur l'entretien à effectuer au printemps est disponible sur mybroodminder.com/resources
-
-Le printemps est le moment idéal pour nettoyer vos appareils. Pour cela, vous pouvez utiliser de l'acool isopropylique ou éthylique à 95% et plus, qui n'endommageront pas l'électronique.
-
-Vous pouvez placer les emballages au congélateur : la propolis se rompra plus facilement.
-
-**Assurez-vous que l'emballage de la balance n'est pas fissuré. La pluie pourrait pénétrer à l'intérieur et endommager les capteurs.** Vous pouvez sceller toute fissure à l'aide de ruban adhésif.
-
-Nous avons également des emballages de remplacement pour tous nos produits, disponibles sur notre site internet BroodMinder.com
-
-### 3.2 A l'automne
-
-Avant l'arrivée de l'hiver, changez toutes les piles de vos BroodMinders. Vous pouvez en acheter facilement et à petit prix sur Amazon.com ou Digikey.com. Toutes les piles sont de type CR2032.
-
-**Assurez-vous que l'emballage de la balance n'est pas fissuré. La pluie pourrait pénétrer à l'intérieur et endommager les capteurs.** Vous pouvez sceller toute fissure à l'aide de ruban adhésif ou commander un nouvel emballage sur BroodMinder.com.
-
-## 4. Mises à jour des micro-logiciels (firmware)
-
-Les mises à jour pour le Hub BroodMinder et les BroodMinder-T2 se font automatiquement par OTA (Over-The-Air, soit sans fil). Elles sont effectuées par l'application Apiary ou l'application Cell. Pour plus d'informations, cliquez sur ce lien : mybroodminder.com/resources
-
-## Annexe A – Les caractéristiques du BroodMinder-W
+#### Caractéristiques
 
 Il existe de nombreuses façons d’utiliser la balance de ruche BroodMinder. Comme cette dernière ne mesure qu’une portion du poids total de la ruche, la conception et l’emplacement du support auxiliaire tout comme la position de la balance elle-même font partie intégrante du système de mesure du poids total de la ruche. En général, plus on fait d’efforts sur cette partie, meilleurs sont les résultats obtenus. Les systèmes de support de la ruche montrés ci-dessous vont du plus facile au plus sophistiqué, avec un taux d’incertitude du plus faible au plus élevé. Le choix du système revient à l’utilisateur.
 
@@ -222,3 +198,31 @@ Ce graphique montre l’influence de la position de la balance sur le facteur de
 ![](./images/24_2_AppendixA_positioning.png)
 
 Il est conseillé de marquer la position de la balance sur le plateau de fond de la ruche ou de fixer une butée mécanique. Cela permettrait de pouvoir remettre la balance exactement au même endroit si elle venait à être enlevée pour changer la pile ou pour toute autre raison. 
+
+
+
+## Entretien régulier
+Nos appareils ne nécessitent pas beaucoup d'entretien. Merci de noter que si vos piles durent moins de 6 mois, ceci est anormal. Dans ce cas, contactez-nous à [support@BroodMinder.com](mailto:support@BroodMinder.com) pour un remplacement ou une remise à neuf.
+
+###  Au printemps
+
+Une vidéo sur l'entretien à effectuer au printemps est disponible sur mybroodminder.com/resources
+
+Le printemps est le moment idéal pour nettoyer vos appareils. Pour cela, vous pouvez utiliser de l'acool isopropylique ou éthylique à 95% et plus, qui n'endommageront pas l'électronique.
+
+Vous pouvez placer les emballages au congélateur : la propolis se rompra plus facilement.
+
+**Assurez-vous que l'emballage de la balance n'est pas fissuré. La pluie pourrait pénétrer à l'intérieur et endommager les capteurs.** Vous pouvez sceller toute fissure à l'aide de ruban adhésif.
+
+Nous avons également des emballages de remplacement pour tous nos produits, disponibles sur notre site internet BroodMinder.com
+
+### A l'automne
+
+Avant l'arrivée de l'hiver, changez toutes les piles de vos BroodMinders. Vous pouvez en acheter facilement et à petit prix sur Amazon.com ou Digikey.com. Toutes les piles sont de type CR2032.
+
+**Assurez-vous que l'emballage de la balance n'est pas fissuré. La pluie pourrait pénétrer à l'intérieur et endommager les capteurs.** Vous pouvez sceller toute fissure à l'aide de ruban adhésif ou commander un nouvel emballage sur BroodMinder.com.
+
+## Mises à jour de firmware
+
+Les mises à jour des micro-logiciels du Hub BroodMinder et les BroodMinder-T2 se font automatiquement par OTA (Over-The-Air, soit sans fil). Elles sont effectuées par l'application Apiary ou l'application Cell. Pour plus d'informations, cliquez sur ce lien : [mybroodminder.com/resources](https://mybroodminder.com/resources)
+

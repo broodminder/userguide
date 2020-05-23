@@ -36,19 +36,17 @@ img[src*="#picto"] {
 
 ## Présentation générale 
 
-Vidéo ancienne en français : https://www.youtube.com/watch?v=Nqh_R37O8IE 
+<!-- Vidéo ancienne en français : https://www.youtube.com/watch?v=Nqh_R37O8IE  -->
 
-Vidéo récente en anglais : https://www.youtube.com/watch?v=pbCqpf8EY0s
+<!-- Vidéo récente en anglais : https://www.youtube.com/watch?v=pbCqpf8EY0s -->
 
-## Mellisphera & BroodMinder
-
-Mellisphera est intégrée avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers / ruches sur https://mybroodminder.com. Le site vous permet d'affecter les capteurs à chaque ruche et de visualiser les données mesurées. 
+Mellisphera est intégrée avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers / ruches sur [MyBroodMinder.com](https://mybroodminder.com). Le site vous permet d'affecter les capteurs à chaque ruche et de visualiser les données mesurées. 
 
 ![Ecran BroodMinder](./images/ecran_MBM.png#thumbnail)
 
-Un bouton Mellisphera sera toujours visible sur le menu de gauche, il suffit de cliquer sur celui-ci pour y accéder. Si vous vous êtes connectés récemment, la connexion se fera sans que vous ayez besoin de rentrer votre email et votre mot de passe. Dans le cas contraire, le champ de l'email sera auto rempli. 
+Un bouton Mellisphera est toujours visible sur le menu de gauche, il suffit de cliquer sur celui-ci pour y accéder. Si vous vous êtes connectés récemment, la connexion se fera sans que vous ayez besoin de rentrer votre email et votre mot de passe. Dans le cas contraire, le champ de l'email sera pré-rempli. 
 
-Votre aventure commence donc maintenant https://bzz.mellisphera.com/login.
+Votre aventure commence donc maintenant [https://bzz.mellisphera.com/login](https://bzz.mellisphera.com/login)
 
 ## Page de connexion 
 
@@ -76,7 +74,7 @@ Des infobulles sont également positionnées à côté de chaque fonctionnalité
 
 En haut à droite sur l'app Mellisphera, vous avec accès à vos paramètres de compte. 
 
-![Paramètres de compte](./images/settings_app.png)
+![Paramètres de compte](./images/settings_app.png#thumbnail2)
 
 Vous pouvez réinitialiser votre mot de passe. Attention, cela ne modifie le mot de passe que pour la plateforme Mellisphera. 
 
@@ -89,13 +87,14 @@ Vous pouvez également définir quelques préférences:
 - la langue (français, espagnol ou anglais pour le moment)
 - la source météo
 
-![Préférences](./images/all_settings.png)
+![Préférences](./images/all_settings.png#thumbnail)
 
 ## Vue du rucher
 
+![Vue du rucher](./images/acceuil_sidebar.png)
+
 Cette page est le point de départ de Mellisphera. Sélectionnez le rucher à explorer sur le menu déroulant tout en haut et ensuite naviguez visuellement parmi les principales informations.
 
-![Vue du rucher](./images/acceuil_sidebar.png)
 
 ![Ecran d'accueil](./images/home_app.png#thumbnail)
 
@@ -174,7 +173,7 @@ Pour accéder à la vue d'une ruche, vous devez cliquer sur sa pastille ou son n
 
 Les données affichées sont des données issues des 5 dernières semaines ainsi que des 3 prochains jours puisque nous pouvons prédire des événements à 3 jours. 
 
-![Vue de la ruche](./images/calendrier_UX.png#thumbnail)
+![Vue de la ruche](./images/calendrier_UX.png#thumbnail2)
 
 **Evénements**
 
@@ -201,7 +200,7 @@ De plus, les données du dernier mois s'afficheront par défaut. Vous pouvez mod
 
 ![Explorer navigation](./images/navig_explorer.png#thumbnail)
 
-![Personnaliser date](./images/personnaliser_date.png)
+![Personnaliser date](./images/personnaliser_date.png#thumbnail2)
 
 **Ruche**
 
@@ -264,7 +263,7 @@ Il est très facile de se servir de l’outil. Les petites icones sur la droite 
 
 Dans cet espace vous trouverez toutes les fonctions pour mettre en oeuvre un service de notifications et alertes sur chacun de vos ruchers. Ici aussi vous trouverez une nouvelle barre de navigation qui est en fait un classement dy type d'alertes selon 3 catégories: 'Ruche', 'Météo', 'Capteur' plus le bouton 'Paramètres' qui est dédié à la configuration 
 
-![Alertes barre](./images/barre_alertes.png#thumbnail)
+![Alertes barre](./images/barre_alertes.png#thumbnail1)
 
 ### Ruche
 

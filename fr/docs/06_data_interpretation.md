@@ -1,12 +1,14 @@
 # Interprétation des données
 
+## 🚧 En construction 🚧
 
-##	Hive Weight Profiles    
-## Swarm Detection with a BroodMinder TH Device in a Top Bar Hive  
-## Avoiding Excessive Heat in the Hive During Summer Months 
-## Detection of Cluster/Queen Movement and Spring Brood Buildup 
-## Pull the Supers When the Dearth Hits 
-## Promising Citizen Science Project Observations 
-## Using BroodMinder Data to Optimize Hive Preparation for Winter 
+## Courbes de poids des ruches    
+## Détection d'essaim avec un capteur TH dans une ruche kényane
+## Éviter la surchauffe dans la ruche pendant les mois d'été 
+## Détection des mouvements de la reine et du couvain au printemps 
+## Retirez les hausses quand la famine frappe 
+## Observations prometteuses sur projet des science collaborative
+## Utilisation des données pour optimiser la préparation des ruches pour l'hiver
+
 
 
