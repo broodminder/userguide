@@ -251,7 +251,7 @@ Cet outil est extrêmement performant pour analyser des données sur des longues
 
 **Données** 
 
-Dans le mode Données, vous visualiserez les données brutes de vos ruches avec la température interne en haut, le poids au centre et l'humidité en bas (un peu comme sur mybroodminder). En vert, vous aurez les zones optimales pour le couvain et l'humidité.  vous pouvez également sélectionner autant de ruches que vous le souhaitez et ce, même si ces ruches sont dans deux ruchers différents. Cela vous permet de comparer des ruchers ou des ruches entre elles.
+Dans le mode Données, vous visualiserez les données brutes de vos ruches avec la température interne en haut, le poids au centre et l'humidité en bas (un peu comme sur mybroodminder). En vert, vous aurez les zones optimales pour le couvain et l'humidité. Vous pouvez également sélectionner autant de ruches que vous le souhaitez et ce, même si ces ruches sont dans deux ruchers différents. Cela vous permet de comparer des ruchers ou des ruches entre elles.
 
 ![Données brutes](./images/raw_data.png#thumbnail)
 
@@ -261,7 +261,7 @@ Il est très facile de se servir de l’outil. Les petites icones sur la droite 
 
 ![Alertes bouton](./images/alertes_sidebar.png)
 
-Dans cet espace vous trouverez toutes les fonctions pour mettre en oeuvre un service de notifications et alertes sur chacun de vos ruchers. Ici aussi vous trouverez une nouvelle barre de navigation qui est en fait un classement dy type d'alertes selon 3 catégories: 'Ruche', 'Météo', 'Capteur' plus le bouton 'Paramètres' qui est dédié à la configuration 
+Dans cet espace vous trouverez toutes les fonctions pour mettre en oeuvre un service de notifications et alertes sur chacun de vos ruchers. Ici aussi vous trouverez une nouvelle barre de navigation qui est en fait un classement du type d'alertes selon 3 catégories: 'Ruche', 'Météo', 'Capteur' plus le bouton 'Paramètres' qui est dédié à la configuration 
 
 ![Alertes barre](./images/barre_alertes.png#thumbnail1)
 
@@ -271,29 +271,30 @@ Dans cet onglet, vous pouvez voir toutes les alertes concernant vos ruches. Ces 
 
 ![Alertes ruche](./images/ruche_alertes.png#thumbnail)
 
-Chaque alerte peut être activée/désactivée 'ON/OFF'. Pour un grand nombre d'entre elles il est possible de modifier les seuils en faisant glisser le curseure. Par défaut, tout est activé avec des paramètres auto ajustés. 
+Chaque alerte peut être activée/désactivée 'ON/OFF'. Pour un grand nombre d'entre elles il est possible de modifier les seuils en faisant glisser le curseur. Par défaut, tout est activé avec des paramètres auto ajustés. 
 
 Sur l'interface la petite icône 'i' d'information permet au survol, d'avoir un bref descriptif de l'alerte. 
+
 De façon plus détaillée, voici les alertes disponibles et leurs caractéristiques :
 
 
 | **Pictogramme** | **Alerte** | **Fréquence** | **Description** | 
 |- |-- | -- | -- |
 | ![](./images/alertes/Honeydew.png#picto) | Miellée | hebdo | l'alerte miellée se déclenche lorsque l'apport de poids net dans la ruche dépasse le seuil indiqué. Par défaut il est défini à 15kg/semaine.| 
-| ![](./images/alertes/Swarm.png#picto) | Essaimage | ??? | Alerte des essaimages en **temps réel** mais aussi **passés** dans le cas d'une synchro manuelle. Cette allerte fonctionne sur ruches équipées de capteurs de température. Avec une balance ce sera encore plus précis mais ce n'est pas indispensable. <br> **Nous pouvons ajuster les essaimages détectés en fonction de vos retours, n'hésitez pas à nous signaler des incohérences ou des oublis !**
-| ![](./images/alertes/Swarm.png#picto) | Risque d'essaimage | ??? | En partant d'un certain nombre de paramètres on évalue le risque d'essaimage à 3 jours. <br> Cette alerte en cours de mise au point.| 
-| ![](./images/alertes/Tmax2.png#picto) | Sur-Temperature | ??? | Certaines colonies n'arrivent pas à gérer leur température interne. Souvent il s'agit de divisions petittes populations. Mais parfois c'est la météo qui e un effet majeur à cause d'un défaut d'exposition <br> Dans ce cas le couvain de la ruche est mis a l'epreuve, car les températures peuvent ateindre les 40°C.| 
-| ![](./images/alertes/Tmin2.png#picto) | Froid extrème | ??? | En hiver la grappe se resserre et maintient la temperature très localement. Etant loin du capteur. Pour cela l'indication de "basse température" ne peut être que informative. En focntion du contexte il faudra peut êter agir, ou pas.| 
+| ![](./images/alertes/Swarm.png#picto) | Essaimage | ??? | Alerte des essaimages en **temps réel** mais aussi **passés** dans le cas d'une synchro manuelle. Cette alerte fonctionne sur ruches équipées de capteurs de température. Avec une balance ce sera encore plus précis mais ce n'est pas indispensable. <br> **Nous pouvons ajuster les essaimages détectés en fonction de vos retours, n'hésitez pas à nous signaler des incohérences ou des oublis !**
+| ![](./images/alertes/Swarm.png#picto) | Risque d'essaimage | ??? | En partant d'un certain nombre de paramètres on évalue le risque d'essaimage à 3 jours. <br> Cette alerte est en cours de mise au point.| 
+| ![](./images/alertes/Tmax2.png#picto) | Sur-Temperature | ??? | Certaines colonies n'arrivent pas à gérer leur température interne. Souvent il s'agit de divisions petites populations. Mais parfois c'est la météo qui a un effet majeur à cause d'un défaut d'exposition <br> Dans ce cas, le couvain de la ruche est mis à l'épreuve, car les températures peuvent atteindre les 40°C.| 
+| ![](./images/alertes/Tmin2.png#picto) | Froid extrême | ??? | En hiver, la grappe se resserre et maintient la température très localement - en étant parfois loin du capteur. C'est pour cela que l'indication de "basse température" ne peut être qu'informative. En fonction du contexte, il faudra peut être agir.| 
 | ![](./images/alertes/LowBrood.png#picto) | Faible couvain | hebdo | En pleine saison, une ruche qui présente des niveaux de couvain en dessous de 30% est une anomalie ou une division/essaim. Cette alerte permet d'identifier les colonies qui décrochent. | 
-| ![](./images/alertes/WIneg.png#picto) | Perte de poids | journée | Une consomation excessive/soudaine signifie souvent pillage de la ruche par une autre colonie.| 
+| ![](./images/alertes/WIneg.png#picto) | Perte de poids | journée | Une consommation excessive/soudaine signifie souvent pillage de la ruche par une autre colonie.| 
 | ![](./images/alertes/WIpos.png#picto) | Gain de poids | journée | Alerte journalière qui informe d'un gain de poids lié aux apports des abeilles. Certainement à associer avec l'alerte miellée hebdo.| 
-| ![](./images/alertes/Hmax.png#picto) | Forte humidité | journée | En hiver l'humidité dans la ruche peut atteindre 80% de façon naturelle. Toutefois si le seuil est encore plus haut il faut penser à intervenir. <br> Cette alerte est uniquement opérationnelle avec les ruches équipées de capteurs TH| 
-| ![](./images/alertes/Hmin.png#picto) | Faible humidité | journée | En saison la zone optimale d'humidité se situe entre 50 et 75%.| 
+| ![](./images/alertes/Hmax.png#picto) | Forte humidité | journée | En hiver, l'humidité dans la ruche peut atteindre 80% de façon naturelle. Toutefois, si le seuil est encore plus haut il faut penser à intervenir. <br> Cette alerte est uniquement opérationnelle avec les ruches équipées de capteurs TH| 
+| ![](./images/alertes/Hmin.png#picto) | Faible humidité | journée | En saison, la zone optimale d'humidité se situe entre 50 et 75%.| 
 | ![](./images/alertes/Dead.png#picto) | Ruche morte | journée | Si vous voyez arriver cette alerte, c'est trop tard. Cela signifie qu'il n'y a plus de signal de vie dans la ruche.| 
 | ![](./images/alertes/Oxalic.png#picto) | Traiter varroa | journée | Cette alerte se déclenche lorsque le couvain moyen du rucher descend en dessous du seuil fixe (defaut à 15%). C'est le moment de planifier un traitement anti-varroa à l'acide Oxalique.| 
-| ![](./images/alertes/Super+.png#picto) | Ajout hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et afichée sur le calendrier.| 
-| ![](./images/alertes/Super-.png#picto) | Retrait hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et afichée sur le calendrier.| 
-| ![](./images/alertes/Stolen.png#picto) | Ruche volée | ??? | Les capteurs ne disposent pas d'une géolocalisation. Cependant, pour les ruches disposant d'un capteur de poids cette alerte prévient d'un poids anormalement faible, déclencheur possible d'un vol..| 
+| ![](./images/alertes/Super+.png#picto) | Ajout hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et affichée sur le calendrier.| 
+| ![](./images/alertes/Super-.png#picto) | Retrait hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et affichée sur le calendrier.| 
+| ![](./images/alertes/Stolen.png#picto) | Ruche volée | ??? | Les capteurs ne disposent pas d'une géolocalisation. Cependant, pour les ruches disposant d'un capteur de poids, cette alerte prévient d'un poids anormalement faible, déclencheur possible d'un vol...| 
 
 
 
@@ -306,13 +307,13 @@ Dans cet onglet, vous pourrez voir toutes les alertes concernant la météo. Ces
 
 Toutes les alertes météo sont des alertes de prédiction à J+7 maximum. 
 Elles sont évolutives. Si un événement est prévu à J+7 et que le lendemain cet événement n'a plus lieu d'être il n'est plus affiché.
-Les alertes concernent majoritairement des évenements forts à extrèmes.
+Les alertes concernent majoritairement des évenements forts à extrêmes.
 
 | **Pictogramme** | **Alerte** | **Fréquence** | **Description** | 
 |- |-- | -- | -- |
-| ![](./images/alertes/Rain.png#picto) | Pluie | jour | Forte pluie.<br> valeur par défaut à 50 mm/j  | 
-| ![](./images/alertes/Snow.png#picto) | Neige | jour | Neige importante.<br> valeur par défaut à 15cm/j   | 
-| ![](./images/alertes/Wind.png#picto) | Vent | jour | Vents forts.<br> valeur par défaut pour des raffales à 30 km/h <br> Dans certaines régions, il est conseillé d'augmenter le seuil par défaut si les alertes sont trop régulières.| 
+| ![](./images/alertes/Rain.png#picto) | Pluie | jour | Forte pluie.<br> Valeur par défaut à 50 mm/j  | 
+| ![](./images/alertes/Snow.png#picto) | Neige | jour | Neige importante.<br> Valeur par défaut à 15cm/j   | 
+| ![](./images/alertes/Wind.png#picto) | Vent | jour | Vents forts.<br> Valeur par défaut pour des rafales à 30 km/h <br> Dans certaines régions, il est conseillé d'augmenter le seuil par défaut si les alertes sont trop régulières.| 
 | ![](./images/alertes/ColdPeriod.png#picto) | Froid | jour | Cette alerte est déclenchée en pleine saison lorsqu'il est prévu une période dite 'froide'. Cela inclut des journées ou des nuits jugées fraiches par rapport aux normales de saison. Nous fixons les paramètres nous-mêmes.| 
 
 ### Capteurs
@@ -335,11 +336,11 @@ Voici le détail des alertes disponibles pour chaque type de capteur
 
 | **Pictogramme** | **Alerte** | **Fréquence** | **Description** | 
 |- |-- | -- | -- |
-| ![](./images/alertes/cell_nowifi.png#picto) | Hub déconecté | jour | Le transmetteur n'a pas envoyé de données durant le dernier jour  | 
-| ![](./images/alertes/W_nowifi.png#picto) | W déconecté | jour | Le capteur n'a pas envoyé de données durant le dernier jour   | 
-| ![](./images/alertes/T_nowifi.png#picto) | T déconecté | jour | Le capteur n'a pas envoyé de données durant le dernier jour   | 
-| ![](./images/alertes/W_poorwifi.png#picto) | W faible signal | jour | Le capteur W a envoyé des relevés horaires incompletes le dernier jour   | 
-| ![](./images/alertes/T_poorwifi.png#picto) | T faible signal | jour | Le capteur T a envoyé des relevés horaires incompletes le dernier jour   | 
+| ![](./images/alertes/cell_nowifi.png#picto) | Hub déconnecté | jour | Le transmetteur n'a pas envoyé de données durant le dernier jour  | 
+| ![](./images/alertes/W_nowifi.png#picto) | W déconnecté | jour | Le capteur n'a pas envoyé de données durant le dernier jour   | 
+| ![](./images/alertes/T_nowifi.png#picto) | T déconnecté | jour | Le capteur n'a pas envoyé de données durant le dernier jour   | 
+| ![](./images/alertes/W_poorwifi.png#picto) | W faible signal | jour | Le capteur W a envoyé des relevés horaires incomplets le dernier jour   | 
+| ![](./images/alertes/T_poorwifi.png#picto) | T faible signal | jour | Le capteur T a envoyé des relevés horaires incomplets le dernier jour   | 
 | ![](./images/alertes/W_bat.png#picto) | W faible signal | jour | Le capteur W a un faible niveau de batterie  | 
 | ![](./images/alertes/T_bat.png#picto) | T faible signal | jour | Le capteur T a un faible niveau de batterie  | 
 
@@ -381,7 +382,7 @@ A partir de ce lien vous pouvez contacter notre support. Soit par message direct
 
 ![Message support](./images/support_msg.png#thumbnail1)
 
-Envoyez nous vos questions, vos retours, votre expérience, vos idées d'améliorations et vos problèmes. On aime les retours client! les bons et ceux qui nous aident à propgresser.
+Envoyez nous vos questions, vos retours, votre expérience, vos idées d'améliorations et vos problèmes. On aime les retours client! les bons et ceux qui nous aident à progresser.
 
 ## Guide utilisateur 
 
@@ -408,19 +409,19 @@ Un exemple ici avec le mot clé "batterie"
 
 
 ## Environnement des colonies
-La Météo et les saisons sont des facteurs clé en apiculture. Avec Mellisphera nous rapprochons ces infromations avec celles des colonies et des apiculteurs pour fournir la vue la plus complète des évenements.
+La météo et les saisons sont des facteurs clé en apiculture. Avec Mellisphera, nous rapprochons ces informations avec celles des colonies et des apiculteurs pour vous fournir la vue la plus complète des évènements.
 
 ### Météorologie
-Deux sources météo sont disponibleqs dans Mellisphera
+Deux sources météo sont disponibles dans Mellisphera
 
 - WeatherSource (recommandée)
 - Open WeatherMaps
 
-La météo est associée au rucher, et pourtant à la ruche. Chaque ruche a un registre météo qui lui est propre. C'est à dire que deux ruches qui à un instant t se trouvent sur le même rucher vont partager la même méteo sur cette période. Mais l'une d'elles part en transhumance c'est la météo de chaque rucher qu'elle visitera qui sera enregistrée.
+La météo est associée au rucher, ainsi qu'à chacune des ruches. Chaque ruche a un registre météo qui lui est propre. C'est à dire que deux ruches qui, à un instant T, se trouvent dans le même rucher vont partager la même météo sur cette période. Mais si l'une d'elles part en transhumance, c'est la météo de chaque rucher qu'elle visitera qui sera enregistrée.
 
 
 **Prévision à 7 jours**
-Avec WeatherSource il est également possible de visualiser la prévision météo. Le jour J est systématiquyement repéré avec un carré violet comme dans l'image ci dessous.
+Avec WeatherSource, il est également possible de visualiser la prévision météo. Le jour J est systématiquement repéré avec un carré violet comme dans l'image ci-dessous.
 
 ![Prévision météo](./images/meteo_forecast.png#thumbnail1)
 <div align="center" ><i>Météo moyenne du mois et prévision à J+7</i></div>
@@ -462,7 +463,7 @@ En activant l'envoi d'alertes dans Mellisphera vous recevrez par email un tablea
 
 BFit repose sur les algorithmes qui collectent les événements. L’algorithme ‘Learning’ apprend des événements précédents pour conserver, ou non, les événements futurs. Il y a, par la suite, une classification entre les événements détectés ayant une incidence sur l’état de la ruche et les autres. 
 
-BFit prend aussi en compte les résultats fournis par BForce. De cette façon il est capable de déterminer l’écart entre la dynamique actuelle de la ruche et une dynamique du couvain théorique en constante évolution. Cette dynamique théorique est régulièrement actualisée. Elle prend également en compte les diférentes régions du monde pour fournir des informations pertinentes selon la latitude ou le climat. 
+BFit prend aussi en compte les résultats fournis par BForce. De cette façon il est capable de déterminer l’écart entre la dynamique actuelle de la ruche et une dynamique du couvain théorique en constante évolution. Cette dynamique théorique est régulièrement actualisée. Elle prend également en compte les différentes régions du monde pour fournir des informations pertinentes selon la latitude ou le climat. 
 
 ### Niveau de couvain - BForce
 
@@ -471,19 +472,19 @@ Le développement du couvain est un facteur clé pour les colonies d'abeilles. L
 Lorsque la colonie est à plein régime elle atteint un état stable à 35°C. Cet état est associé au 100% de couvain. La ruche est forte. 
 Au contraire lorsqu'elle n'a pas de couvain, les abeilles n'ont pas besoin de réguler la température de la grappe. Dans ce cas la température interne de la ruche suivra peu ou prou la température ambiante. Dans ce cas on aura 0% de couvain.
 
-Entre ces deux points extrèmes on peut imaginer toutes les situations intermédiaires. 
+Entre ces deux points extrêmes on peut imaginer toutes les situations intermédiaires. 
 
 ![Constat BForce](./images/constat_bforce.png)
 
 Pour illustrer ces propos, voici les mesures horaires sur deux ruches du même rucher. La première est représentée en rouge et la deuxième en gris. Chacune présente un état bien différent. La rouge possède une température interne avoisinant les 25°C/30°C suivant les mêmes fluctuations que la température extérieure (en pointillés), tandis que la grise, est constante autour des 35°C dans la fameuse ‘Zone optimale de couvain' ou 'Brood zone'.
 
-Dans cet exemple la ruche grise a une grande proportion de couvain alors que la rouge n’en a que très peu. **BForce met en équation cete caractéristique des colonies et traduit la mesure brute de température en une information standardisée et compréhensible**. Le modèle prend en compte un certain nombre de paramètres pour estimer au mieux le niveau de couvain.
+Dans cet exemple la ruche grise a une grande proportion de couvain alors que la rouge n’en a que très peu. **BForce met en équation cette caractéristique des colonies et traduit la mesure brute de température en une information standardisée et compréhensible**. Le modèle prend en compte un certain nombre de paramètres pour estimer au mieux le niveau de couvain.
 
 - température interne de la ruche
 - température ambiante
 - évolution des colonies voisines
 - saison, latitude et climat
-- autres évenements identifiés dans la ruche
+- autres évènements identifiés dans la ruche
 - type de ruche
 
 BForce est également un **outil de renforcement dans la détection d’essaimage** puisque lorsqu’un essaimage a déjà été détecté par un autre de nos outils de Machine Learning, le couvain s’en voit impacté par la perte de la reine et donc l’arrêt de la ponte. Cela nous permet donc également de classifier nos différents essaimages détectés. 
