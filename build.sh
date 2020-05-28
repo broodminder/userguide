@@ -18,3 +18,7 @@ cp index.html /var/www/html/doc/
 cp -r img/ /var/www/html/doc/
 cp -r ./en/site/ /var/www/html/doc/en/
 cp -r ./fr/site/ /var/www/html/doc/fr/
+
+echo " "
+echo "done"
+ll  /var/www/html/doc/
