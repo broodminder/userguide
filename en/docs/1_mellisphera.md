@@ -9,10 +9,6 @@ img[src*="#thumbnail"] {
 
 ## General overview 
 
-Recent video in English: https://www.youtube.com/watch?v=pbCqpf8EY0s
-
-## Mellisphera & BroodMinder
-
 Mellisphera is integrated with BroodMinder. Therefore, you must create an account MyBroodMinder and set up your apiaries / hives on https://mybroodminder.com. This website enables you to assign the sensors to each of your hives and to visualize the measured data. 
 
 ![BroodMinder screen](./images/ecran_MBM.png#thumbnail)
@@ -25,7 +21,7 @@ Now begins your adventure https://bzz.mellisphera.com/login.
 
 ![Mellisphera screen](./images/ecran_MS.png#thumbnail)
 
-On the login page, you have the possibility to connect to a demo apiary if you do not have an account, if you are curious or simply eager for something new. You can read about the relationship between BroodMinder and Mellisphera, and learn about what Mellisphera can get you. 
+On the login page, you have the possibility to connect to a demo apiary if you do not have an account or if you are simply curious and eager for something new. You can read about the relationship between BroodMinder and Mellisphera, and learn about what Mellisphera can get you. 
 
 Regarding the login step, **you must use your BroodMinder IDs**. Once you are logged in, you will have access to the complete history of your sensors. You will have the opportunity to explore the past events and to see the evolution of the season from a completely new angle. The first time you log in, you will be warned that the entire history of your data is being loaded. Your missing data will be loaded at every new connection. 
 
@@ -45,9 +41,9 @@ Next to each feature, you will find tooltips. They detail the essential informat
 
 ## Account settings
 
-![Account settings](./images/settings_app.png)
-
 In the top right corner of the app, you will have access to your account settings. 
+
+![Account settings](./images/settings_app.png)
 
 This is where you can reset your password. Please note that this will only change the password for the Mellisphera app. 
 
@@ -164,7 +160,7 @@ This calendar offers a global view of the daily weight gain in bubble form. The 
 
 It is possible to make annotations on each hive. These notes are separated from your apiary notes and concern only the selected hive. In order to switch back to the apiary mode, just click on the apiary button on the grey navigation bar. 
 
-## Exploring
+## Explore
 
 ![Explorer](./images/explorer_sidebar.png)
 
@@ -191,9 +187,9 @@ In the hive mode, you can choose among all the hives of all your apiaries, but p
 - External maximum temperature
 - External minimum temperature
 
-**The second calendar** reports the events of your hive as well as the moon calendar. 
+**The second calendar** reports the events of your hive as well as the astronomical calendar. 
 - Events, annotations and alerts
-- Moon calendar
+- Astronomical calendar - biodynamics
 
 **The third calendar** shows the weather data of your apiary. This calendar is therefore identical for all of your hives that are in this apiary. You will have access to the general 'weather' data:
 - External maximum temperature
@@ -222,7 +218,7 @@ It is  an extremely powerful tool for analysing data over long or short periods 
 
 ### Data mode
 
-In the data mode, you will see your hive raw data: the internal temperature will be displayed at the top of the screen, the weight in the center and the humidity at the bottom (just like on mybroodminder). You can also select as many hives as you wish, even if these hives are situated in two different apiaries. This allows you to compare apiaries or hives between each other.
+In the data mode, you will see your hive raw data: the internal temperature will be displayed at the top of the screen, the weight in the center and the humidity at the bottom (just like on mybroodminder). In green, you will have the optimal areas for brood and humidity. You can also select as many hives as you wish, even if these hives are situated in two different apiaries. This allows you to compare apiaries or hives between each other.
 
 ![Raw data](./images/raw_data.png#thumbnail)
 
@@ -236,13 +232,37 @@ In this section, you will find the functions that enable you to implement a noti
 
 ![Alert bar](./images/barre_alertes.png#thumbnail)
 
+### Hive
+
 In this tab, you can see all the alerts concerning your hives. These alert icons can also be found in your hive event calendar. 
 
 ![Hive alert](./images/ruche_alertes.png#thumbnail)
 
-You can turn the alerts on and off and change their thresholds thanks to the bar. By default, everything will be activated with auto-adjusted settings. 
+You can turn the alerts on and off. And for many of them, you can change their thresholds by sliding the cursor. By default, everything will be activated with auto-adjusted settings. 
 
-You also have an 'i' icon for information. By hovering over it, you will find the alert information. 
+On the interface, you also have an 'i' icon for information. By hovering it, you will have a short description of the alert. 
+
+In more detail, here are the available alerts and their characteristics:
+
+
+| **Pictogram** | **Alert** | **Frequency** | **Description** | 
+|- |-- | -- | -- |
+| ![](./images/Pictos/Honeydew.png#picto) | Honeydew | weekly | The honeydew alert is triggered when the net weight added to the hive exceeds the indicated threshold. By default, it is set to 15kg/week.| 
+| ![](./images/Pictos/Swarm.png#picto) | Swarming | ??? | The swarm alert operates in **real time** but also indicates **passed** swarms in the case of manual sync. This alert works on hives equipped with temperature sensors. The results will be even more accurate with a scale, but it is not essential. <br> **We can adjust the detected swarms according to your feedback, do not hesitate to report discrepancies or omissions!**
+| ![](./images/Pictos/Swarm.png#picto) | Swarming risk | ??? | Based on a range of parameters, we can estimate the risk of swarming 3 days before. <br> This alert is currently in development.| 
+| ![](./images/Pictos/Tmax2.png#picto) | Over-Temperature | ??? | Some colonies can't manage their internal temperature. Often these are small population divisions. But sometimes the weather can have a major effect because of a lack of exposure. <br> In this case, the hive brood is challenged as temperatures can reach 40°C.| 
+| ![](./images/Pictos/Tmin2.png#picto) | Extreme cold | ??? | During winter, the cluster tightens and maintains the temperature very locally - sometimes far away from the sensor. This is why the "low temperature" indication can only be informative. Depending on the context, action may be required.| 
+| ![](./images/Pictos/LowBrood.png#picto) | Low brood | weekly | In the high season, a hive with brood level below 30% is an anomaly or a division/swarm. This alert can identify colonies that are declining. | 
+| ![](./images/Pictos/WIneg.png#picto) | Weight loss | daily | An excessive/sudden consumption often means that the hive is being robbed by another colony.| 
+| ![](./images/Pictos/WIpos.png#picto) | Weight gain | daily | Daily alert that informs you of weight gains due to bee inputs. To be associated with the weekly honeydew alert.| 
+| ![](./images/Pictos/Hmax.png#picto) | High humidity | daily | During winter, humidity in the hive can naturally reach 80%. However, if the threshold is even higher, you should think about taking action. <br> Please note that this alert only works with hives equipped with TH sensors. | 
+| ![](./images/Pictos/Hmin.png#picto) | Low humidity | daily | During the season, the optimum humidity zone is between 50 and 75%.| 
+| ![](./images/Pictos/Dead.png#picto) | Dead hive | daily | If you see this alert, it's too late. It means that there's no life signs left in the hive.| 
+| ![](./images/Pictos/Oxalic.png#picto) | Varroa treatment | daily | This alert is triggered when the average brood in the apiary falls below the fixed threshold (15% by default). This is the ideal time to plan an anti-varroa treatment with Oxalic acid.| 
+| ![](./images/Pictos/Super+.png#picto) | Supper addition | daily | For the hives equipped with scales, this action is automatically detected and displayed on the calendar.| 
+| ![](./images/Pictos/Super-.png#picto) | Supper removal | daily | For the hives equipped with scales, this action is automatically detected and displayed on the calendar.| 
+| ![](./images/Pictos/Stolen.png#picto) | Stolen hive | ??? | The sensors do not have geolocation. However, for the hives eqquiped with a weight sensor, this alert notifies in case of an abnormally low weight, which could be a possible theft...| 
+
 
 ### Weather
 
@@ -252,13 +272,42 @@ Here again, you can adjust, deactivate/activate the different alerts. By default
 
 ![Weather alert](./images/meteo_alertes.png#thumbnail)
 
-### Devices
+All weather alerts are predictive at D+7 maximum. 
+They are constantly evolving. For example, if an event is predicted at D+7 and then the next day this event is obsolete, it will no longer be displayed.
+The alerts mainly concern strong to extreme events.
 
-In this tab, you will see the alerts concerning your sensors status but also the stolen hive case. This time, these alert icons won't be displayed on your event calendars. But you can visualize them in 'My Apiary' section when selecting 'Sensor'. Likewise, if the email alerts (next section) is activated, you will be notified of your sensors status. 
+| **Pictogram** | **Alert** | **Frequency** | **Description** | 
+|- |-- | -- | -- |
+| ![](./images/Pictos/Rain.png#picto) | Rain | daily | Heavy rainfall.<br> Default value at 50 mm/d  | 
+| ![](./images/Pictos/Snow.png#picto) | Snow | daily | Heavy snowfall.<br> Default value at 15cm/d   | 
+| ![](./images/Pictos/Wind.png#picto) | Wind | daily | Strong winds.<br> Default value for 30 km/h gusts. <br> In some regions, we recommend to increase the default value if the alerts become too regular.| 
+| ![](./images/Pictos/ColdPeriod.png#picto) | Cold | daily | This alert is triggered in high season when a 'cold' period is expected. This includes days and nights that are considered cooler than the seasonal norm. We set the parameters ourselves.| 
+
+### Sensors
+
+The alerts, associated with our sensors, provide information on any connection or battery anomalies. So you are sure that the system is always working nominally. You can configure them in this tab. 
+
+Please note that **these alert icons won't be displayed on your event calendars**. But you can visualize them in 'My Apiary' section, in the 'Sensor' tab. 
+
+![Capteurs rucher](./images/devices_apiary.png#thumbnail)
+
+Likewise, if the email alerts (next section) are activated, you will be notified of your sensors status. 
 
 Here again, you can adjust, deactivate/activate the different alerts. By default, everything will be activated with auto-adjusted settings. 
 
 ![Sensor alert](./images/devices_alertes.png#thumbnail)
+
+Here are the detailed alerts available for each type of sensor:
+
+| **Pictogram** | **Alert** | **Frequency** | **Description** | 
+|- |-- | -- | -- |
+| ![](./images/Pictos/cell_nowifi.png#picto) | Hub offline | daily | The transmitter did not send any data on the last day | 
+| ![](./images/Pictos/W_nowifi.png#picto) | W offline | daily | The sensor did not send any data on the last day | 
+| ![](./images/Pictos/T_nowifi.png#picto) | T offline | daily | The sensor did not send any data on the last day | 
+| ![](./images/Pictos/W_poorwifi.png#picto) | W low signal | daily | The W-sensor sent incomplete time records on the last day | 
+| ![](./images/Pictos/T_poorwifi.png#picto) | T low signal | daily | The T-sensor sent incomplete time records on the last day | 
+| ![](./images/Pictos/W_bat.png#picto) | W low signal | daily | The W-sensor has a low battery level | 
+| ![](./images/Pictos/T_bat.png#picto) | T low signal | daily | The T-sensor has a low battery level | 
 
 ### Email settings
 
@@ -274,7 +323,7 @@ In these emails, you will have access to the following information:
 - Your hive status
 - Your sensor status
 
-Please note that deactivating an alert will make it disappear from the emails or calendars as from the deactivation date - this action is not retroactive. Likewise, if you modify the thresholds, this will only be effective for upcoming alerts. 
+Please note that deactivating an alert will make it disappear from the emails and calendars as from the deactivation date - this action is not retroactive. Likewise, if you modify the thresholds, this will only be effective for upcoming alerts. 
 
 Here is a preview of the kind of email that you may receive:
 
@@ -282,7 +331,7 @@ Here is a preview of the kind of email that you may receive:
 
 ![Alert email](./images/email_2.png#thumbnail)
 
-## MyBroodMinder
+## MyBroodMinder link
 
 ![MBM button](./images/MBM_sidebar.png)
 
@@ -294,13 +343,11 @@ Please remember that if you make changes to MyBroodMinder, they will be saved wh
 
 ![Support button](./images/support_sidebar.png)
 
-It is actually a link to send a message directly to our support team.
+You can contact our support team from this link. Either by direct message, by email at [support@mellisphera.com](mailto:support@mellisphera.com) or by logging in directly on Slack.
 
 ![Support message](./images/support_msg.png#thumbnail)
 
-Do not hesitate to send us your questions, feedback, experience, improvement ideas and problems. 
-
-You can also email us at: support@mellisphera.com.
+Do not hesitate to send us your questions, feedback, experience, improvement ideas and problems. We love customer feedbacks! The good ones and the ones that help us progressing.
 
 ## User guide
 
@@ -323,3 +370,81 @@ Don't hesitate to use the **keyword search**: it is extremely efficient and give
 Here is an example with the 'battery' keyword
 
 ![User guide portal](./images/user_doc_portal_srch_example.png#thumbnail)
+
+## Colony environnement 
+
+Weather and seasons are key factors in beekeeping. With Mellisphera, we combine this information with the colony and beekeeper ones in order to provide you the most complete event overview.
+
+### Weather
+Two weather sources are available in Mellisphera
+
+- WeatherSource (recommended)
+- Open WeatherMaps
+
+The weather is associated with the apiary, as well as with each of the hives. Each hive has its own weather record. In other words, if two hives are in the same apiary at a given time, they will share the same weather forecast for that period. But if one of them goes on transhumance, it is the weather of each apiary visited that will be recorded.
+
+**7-day forecast**
+With WeatherSource, you can also visualize the weather forecast. The D-day is always marked with a purple square as in the image below.
+
+![Weather forecast](./images/meteo_forecast.png#thumbnail1)
+<div align="center" ><i>Monthly average weather and D+7 forecast</i></div>
+
+### Astronomy
+The astronomical calendar clearly shows the moon's phases. It also shows the day length with the sunrise/sunset times, according to your geographical area.
+
+![Weather forecast](./images/calendrier_lunaire.png#thumbnail1)
+<div align="center" ><i>By hovering the moon calendar, you will also get information about the sun.</i></div>
+
+## Models & algorithms
+
+In this section, we will discuss the more technical aspects of Mellisphera's way of functioning. We will thus present the different models - BFIT, BFORCE, BWEIGHT - as well as the WEATHER sources and ALERTS.
+
+### Colony Health - BFit
+BFIT for _Bee Fitness_ is the algorithm that informs the beekeeper of each hive's condition. We use benchmarks such as the time of the season and the surrounding hive state in order to define a "nominal" state. Then we position each hive in relation to this reference.
+
+The display is very easy to understand, with coloured stickers to indicate their condition. To complete the information, a tooltip (on the flyover) specifies the nature of the situation.
+
+![Stickers](./images/pastilles.png)
+
+The color code is the following:
+
+| color | meaning |
+|---|---|
+|Green | Healthy |
+|Orange | Disturbed (declining or with abnormal events) |
+|Red | In trouble |
+|Black | Dead |
+|White | No data or no weather |
+
+By activating the alerts in Mellisphera, you will receive by e-mail a summary table with all the information:
+
+![BFit email](./images/bfit_email.png)
+
+BFit is based on algorithms that collect events. The 'Learning' algorithm learns from previous events to preserve, or not, future events. Afterwards, it classifies the detected events between those affecting the hive state and the others. 
+
+BFit also takes into account the results from BForce. In this way, it can determine the difference between the current hive dynamics and a theoretical brood dynamics that is constantly changing. These theoretical dynamics are regularly updated. It also takes into account the different regions of the world to provide relevant information according to latitude or climate. 
+
+### Brood level - BForce
+
+Brood development is a key factor for bee colonies. The aim of BForce is to provide an indication of the brood level in the hive on a range of 0 to 100%. 
+
+When the colony is at its full capacity, it reaches a stable state of 35°C. This state is associated with 100% brood. This means that the hive is strong. 
+
+On the contrary, when there is no brood, the bees do not need to regulate the cluster temperature. In this case, the hive internal temperature will roughly follow the ambient temperature. If this is the case, there will be 0% brood.
+
+Between these two extreme points, we can imagine a lot of intermediate situations. 
+
+![BForce report](./images/constat_bforce.png)
+
+In order to illustrate this, here are the hourly measurements on two hives from the same apiary. The first is represented in red and the second in grey. Each hive has a very different condition. The red one has an internal temperature close to 25°C/30°C - following the same fluctuations as the external temperature (dotted lines) - while the grey one is situated in the famous 'Optimal Brood Zone' with a constant temperature of 35°C.
+
+In this example, the grey hive has a high proportion of brood, contrary to the red one. **BForce correlates this colony characteristic and translates the raw temperature measurement into standardized and understandable information**. The model takes a range of parameters into account to optimally estimate the brood level.
+
+- hive internal temperature
+- ambient temperature
+- evolution of surrounding colonies
+- season, latitude & climate
+- other events identified in the hive
+- hive type
+
+BForce is also a **strengthening tool in swarm detection**. In fact, when a swarm has been detected by one of our Machine Learning tools, the brood is impacted by the queen loss and thus the interruption of egg-laying. With BForce, we can classify the different swarms detected. 
