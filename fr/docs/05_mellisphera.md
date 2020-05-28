@@ -493,7 +493,7 @@ BForce est également un **outil de renforcement dans la détection d’essaimag
 
 Les calendriers et graphiques du couvain affichent la progression journalière du couvain de chaque ruche. Les valeurs sont graduées de 0% (pas de couvain) à 100% (couvain complet). En règle générale, 10% est un cadre de couvain, 40% 4 cadres, etc. Selon votre pratique et le modèle de ruche utilisé (Langstroth, Dadant) vous devez ajuster ces relations. Ainsi, **en général les ruches dont le niveau de couvain est supérieur à 80% produisent du miel**. 
 
-En un coup d’oeil il est possible de visualiser l’historique de la saison. Les arrêts et reprise de ponte étant clairement repérables.
+En un coup d’oeil il est possible de visualiser l’historique de la saison. Les arrêts et reprises de ponte étant clairement repérables.
 
 ![Calendrier BForce](./images/calendrier_bforce.png#thumbnail2)
 <div align="center" ><i>Calendrier de couvain</i></div>
@@ -503,32 +503,27 @@ Il est également possible de comparer plusieurs ruches entre elles, quel que so
 ![Graphique BForce](./images/graph_bforce.png#thumbnail)
 <div align="center" ><i>La même ruche avec le couvain annuel comparée à deux autres ruches</i></div>
 
-
-Avec l'habitude on arrive à identifier plusieurs évenements sur ces courbes. Il est possible de repérer débuts et arrets de ponte certes. Mais aussi essaimages, périodes de mauvaise météo qui ont impacté la production de couvain, effet des frelons asiatiques, etc, etc. 
+Avec l'habitude on arrive à identifier plusieurs évènements sur ces courbes. Il est possible de repérer les débuts et arrêts de ponte certes. Mais aussi les essaimages, les périodes de mauvaise météo qui ont impacté la production de couvain, l'effet des frelons asiatiques, etc. 
 
 ![Parcours BForce](./images/parcours_bforce.png#thumbnail)
-<div align="center" ><i>Trajectoire de deux ruches sur une saison avec quelques evenements</i></div>
-
-
+<div align="center" ><i>Trajectoire de deux ruches sur une saison avec quelques évènements</i></div>
 
 ### Productivité - BWeight
-Avoir des fleurs n’implique pas nécessairement l’existence de nectar, donc de ressources pour les abeilles. En effet, nombreux facteurs conditionnent l’existence d’une miellée : la température et l'humidité ambiantes, les dernières pluies et leur intensité, la profondeur des racines pour des plantes comme le colza ou le tournesol. La miellée n’est donc pas acquise ni aisée à identifier. Pourtant comprendre les miellées est un besoin élémentaire pour chaque apiculteur 
+Avoir des fleurs n’implique pas nécessairement l’existence de nectar, et donc de ressources pour les abeilles. En effet, de nombreux facteurs conditionnent l’existence d’une miellée : la température et l'humidité ambiantes, les dernières pluies et leur intensité, la profondeur des racines pour des plantes comme le colza ou le tournesol. La miellée n’est donc pas acquise ni aisée à identifier. Pourtant, comprendre les miellées est un besoin élémentaire pour chaque apiculteur.
 
 Un capteur de poids installé sous la ruche fournit des informations détaillées de gain et perte de poids. Toutefois ces informations prennent en compte plusieurs aspects qui ne sont pas en lien avec la productivité.
 
 En premier lieu, dans la journée les variations de poids dépendent des ressources apportées ou consommées, mais aussi du déplacement des abeilles qui, en journée, sortent butiner plus ou moins nombreuses. 
 
-
 ![Sortie abeilles](./images/sortie_abeilles.png#thumbnail)
 <div align="center" ><i>Sortie des abeilles butineuses et retour avec du nectar</i></div>
 
-C'est pour cette raison que les courbes de poids de la ruche présentent des "bosses". Une chaque jour comme dans le graphique ci dessous. Sur le graphique on voit également des variations soudaines de poids qui sont liées aux interventions de l'apiculteur.
+C'est pour cette raison que les courbes de poids de la ruche présentent des "bosses". Une chaque jour, comme dans le graphique ci-dessous. Sur le graphique, on voit également des variations soudaines de poids qui sont liées aux interventions de l'apiculteur.
 
 ![Historique Poids Brut](./images/historique_poids_brut.png#thumbnail0)
 <div align="center" ><i>Historique de poids avec interventions de l'apiculteur</i></div>
 
-
-Avec ces constats on voit que **pour bien évaluer la productivité il faut considérer uniquement les variations de poids provenant exclusivement de la production des abeilles**. De cette façon il faut négliger les événements extérieurs : nourrissement, essaimage, ajout/retrait de hausse, interventions de l'apiculteur, perte ou augmentation inexpliquée. L'algorithme BWeight permet de repérer facilement ces événements bien distincts et de les écarter du calcul de productivité. 
+Avec ces constats, on voit que **pour bien évaluer la productivité, il faut considérer uniquement les variations de poids provenant exclusivement de la production des abeilles**. De cette façon, il faut négliger les évènements extérieurs : nourrissement, essaimage, ajout/retrait de hausse, interventions de l'apiculteur, perte ou augmentation inexpliquée. L'algorithme BWeight permet de repérer facilement ces évènements bien distincts et de les écarter du calcul de productivité. 
 
 Le résultat est une information journalière de gain ou perte de poids. La représentation graphique sur le calendrier permet de bien repérer la miellée dans la saison ainsi que son intensité.
 
@@ -539,6 +534,3 @@ En prenant une échelle de temps plus large, au niveau de la saison, il est faci
 
 ![Miellée](./images/miellee.jpg#thumbnail)
 <div align="center" ><i>Calendrier des miellées d'une ruche transhumante en 2018</i></div>
-
-
-
