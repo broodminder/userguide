@@ -37,7 +37,7 @@ When integrated in mybroodminder or mellisphera we'll point to the right lang ba
 ## Deployment on a server with a vhost
 1. clonner  repo sur le VPS dans ```/mellisphera/prod/userguide```
 
-2. lancer ```sudo ./build.sh```
+2. lancer ```./build.sh```
 le site en version html est généré et installé sur un virtual host dans `/var/www/html/doc`
 
 3. vérifier que tout est actualisé https://doc.mellisphera.com/
