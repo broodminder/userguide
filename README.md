@@ -35,14 +35,12 @@ When multiple langs where managed on a single MKDocs repo, the search was search
 When integrated in mybroodminder or mellisphera we'll point to the right lang based on user prefs.
 
 ## Deployment on a server with a vhost
-1. clonner  repo sur le VPS dans ```/apiwatch/production/userguide```
+1. clonner  repo sur le VPS dans ```/mellisphera/prod/userguide```
 
 2. lancer ```sudo ./build.sh```
-le site en version html est généré et installé sur un virtual host.
+le site en version html est généré et installé sur un virtual host dans `/var/www/html/doc`
 
-3. vérifier que tout est actualisé à partir du lien ci dessous
-
-4. Visualiser la doc sur : https://doc.mellisphera.com/#user-gude
+3. vérifier que tout est actualisé https://doc.mellisphera.com/
 
 ## Building a PDF file out of it
 use the mkpdfs-mkdocs-plugin

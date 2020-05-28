@@ -1,6 +1,9 @@
 site_name: GUIDE UTILISATEUR
 dev_addr: 127.0.0.1:3000
 theme: material
+site_url: https://doc.mellisphera.com
+site_description : precision beekeeping documentation system Broodminder-Mellisphera
+#google_analytics: ['UA-36723568-3', 'mkdocs.org']
 #markdown_extensions:
 #  - toc:
 #    baselevel: 2
