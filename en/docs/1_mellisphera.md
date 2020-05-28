@@ -447,4 +447,54 @@ In this example, the grey hive has a high proportion of brood, contrary to the r
 - other events identified in the hive
 - hive type
 
-BForce is also a **strengthening tool in swarm detection**. In fact, when a swarm has been detected by one of our Machine Learning tools, the brood is impacted by the queen loss and thus the interruption of egg-laying. With BForce, we can classify the different swarms detected. 
+BForce is also a **strengthening tool in swarm detection**. In fact, when a swarm has been detected by one of our Machine Learning tools, the brood is impacted by the queen loss and thus the interruption of egg-laying. With BForce, we can classify the different swarms detected.
+
+**Comprehensive results**
+
+Brood calendars & charts show the daily progress of the brood in each hive. The values vary from 0% (no brood) to 100% (complete brood). Generally, 10% is one brood frame, 40% 4 frames, etc. Depending on your practice and the hive model used (Langstroth, Dadant) you might have to adjust these values. Therefore, **hives with a brood level higher than 80% generally produce honey**. 
+
+You can visualize the season's history at a glance. The egg laying stops and restarts are clearly visible.
+
+![BForce calendar](./images/calendrier_bforce.png#thumbnail2)
+<div align="center" ><i>Brood calendar</i></div>
+
+You can also compare several hives with each other, whatever their apiary.
+
+![BForce chart](./images/graph_bforce.png#thumbnail)
+<div align="center" ><i>Annual brood - same hive compared with two others</i></div>
+
+With practice, we can identify several events on these graphs. We can identify when the egg-laying starts & stops, of course. But we can also detect swarms, bad weather periods that have impacted brood production, the effect of Asian hornets, etc.  
+
+![BForce path](./images/parcours_bforce.png#thumbnail)
+<div align="center" ><i>Two hive path over a season, with some events</i></div>
+
+### Productivity - BWeight
+Having flowers does not necessarily imply nectar - and thus resources for bees. Indeed, many factors condition the occurence of a honeydew: the ambient temperature and humidity, the last rains and their intensity, the root depth for plants such as rapeseed or sunflower. Honeydews are therefore not acquired nor easy to identify. However, understanding them is a basic need for every beekeeper.
+
+A weight sensor installed under a hive provides detailed information on weight gain and loss. However, this information takes into account several factors that are not necessarily related to productivity.
+
+First of all, during the day, weight variations depend on the resources brought in or consumed. But they also depend on the bees' movements: during the day, they are more or less numerous to come out to forage. 
+
+![Bee's movements](./images/sortie_abeilles.png#thumbnail)
+<div align="center" ><i>In red: when bees get out of the hive
+
+In blue: when they bring back nectar
+
+In black: dehydration </i></div>
+
+This is why the hive weight graph shows some "bumps". A bump every day, as you can see in the graph below. On the chart, you can also see sudden weight variations, related to the beekeeper's interventions.
+
+![Gross weight history](./images/historique_poids_brut.png#thumbnail0)
+<div align="center" ><i>Gross weight history with beekeeper's interventions in blue</i></div>
+
+With these facts, we can see that **for a proper productivity evaluation, we must only consider the weight variations coming exclusively from the bees' production**. In this way, external events must be ignored: feeding, swarming, addition/withdrawal of suppers, beekeeper interventions, unexplained loss or gain. The BWeight algorithm makes it easy to identify these distinct events and to exclude them from the productivity calculation.
+
+As a result, we have a daily information about weight gain or loss. The graphical representation on the calendar makes it easy to identify the honeydew and its intensity during the season.
+
+![BWeight](./images/bweight2.png#thumbnail1)
+<div align="center" ><i>Excellent linden honeydew at the end of June!</i></div>
+
+Taking a wider time scale makes it easy to record and compare the progress of different honeydews.
+
+![Honeydew](./images/miellee.jpg#thumbnail)
+<div align="center" ><i>Honeydew calendar from a transhumant hive in 2018 (from left to right): rapeseed, pear, apple, acacia, cornouille, mulberry tree, chestnut tree, linden</i></div>
