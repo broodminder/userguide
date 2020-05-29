@@ -156,6 +156,8 @@ Here is an overview of the data collected. The green line represents the tempera
 
 * Temperatures equalize between the boxes but are not high enough for brood to develop.
 
+* Both boxes are getting warmer which could be a sign that the queen started lying, potentially in both boxes. 
+
 ![nom de l'image](./images/dataint/15.png#thumbnail)
 
 This chart is broken down in sections for a closer look at the data and corresponding analysis.
@@ -164,9 +166,7 @@ This chart is broken down in sections for a closer look at the data and correspo
 
 ![nom de l'image](./images/dataint/17.png#thumbnail)
 
-Here a switch happens and the box begins to get develop. The bottom box is now kept at 90+F. Perfect conditions for brood to bottom. The top box follows the ambient temperature swings. Not warmer than the top indication many bees up there.
-
-that the queen has moved down into the lower box.
+Here a switch happens and the bottom box begins to get many bees up there. The bottom box is now kept at 90+F. Perfect conditions for brood to develop. The top box follows the ambient temperature swings. Not warmer than the top indication that the queen has moved down into the lower box.
 
 These data indicate a healthy hive and a subsequent inspection revealed that this is in fact the case and the colony is ready for the nectar flow.
 
