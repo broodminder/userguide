@@ -46,24 +46,29 @@ Présentée en 2018, BroodMinder-APIARY est l'application la plus puissante. Ell
 
 Nous vous conseillons d'utiliser **Broodminder APIARY**
 
+L'ensemble des utilisateurs peuvent visualiser l'état actuel de leurs capteurs et les télécharger leurs données sur MyBroodMinder.com. Cela permettra un contrôle de base des capteurs ainsi que les mises à jour des micrologiciels.
 
-APIARY détecte tous les capteurs de votre entourage et télécharge les données récoltées directement dans MyBroodMinder avec une simple touche. Elle peut également être utilisée en mode  "hub" ce qui lui permet de transmettre les données automatiquement vers le cloud toutes les 10 minutes.
+Les utilisateurs de MyBroodMinder-Premium peuvent visualiser et télécharger les données de chaque capteur BroodMinder de leur rucher directement dans MyBroodMinder en appuyant sur une touche. Il pourront également choisir d'envoyer automatiquement leurs données en temps réel à MyBroodMinder.com toutes les 10 minutes.
 
 Une fois vos données transférées, leur analyse et leur notation peuvent se faire directement sur MyBroodMinder.com. Nous vous le recommandons pour sa facilité d'utilisation.
 
 Veuillez noter que cette application stocke uniquement vos données récoltées heure par heure dans le cloud mais ne conserve pas une copie sur votre téléphone et/ou tablette.
 
-De nouvelles fonctionnalités ont été ajoutées en 2019 :
+De nouvelles fonctionnalités ont été ajoutées en 2019-2020 :
 
-  - Toutes les informations sont disponibles à distance – l'application fonctionne désormais avec ou sans connexion internet
-  - Le mode Hub – vous pouvez utiliser tout smartphone (iOS ou Android) connecté à internet pour envoyer des données toutes les 10 minutes depuis votre rucher
-  - L'activation de BroodMinder-CELL –dispositif qui peut être tiré d'un profond sommeil
+   - L'affichage de plus de détails concernant les capteurs sont affichés, y compris le nom de la ruche.
+   
+   - Le téléchargement à distance - l'application fonctionne désormais avec ou sans connexion Internet (pour les utilisateurs Premium uniquement).
 
-Cette application, qui vous permet de gagner beaucoup de temps grâce à la collecte de données à partir de vos capteurs, a tout de même une réserve. Vous devez posséder MyBroodMinder Premium pour pouvoir télécharger automatiquement les données de tous vos capteurs et pour pouvoir utiliser le mode Hub. Afin de pouvoir tester toutes les fonctionnalités de la version Premium, vous avez la possibilité d'utiliser l'application gratuitement pendant 30 jours après la création de votre compte MyBroodMinder.
+  - Le mode Hub – vous pouvez utiliser tout smartphone (iOS ou Android) connecté à internet pour envoyer des données toutes les 10 minutes depuis votre rucher (pour les utilisateurs Premium uniquement).
 
-Nous avons décidé de rendre la version Premium payante afin d'assurer un petit revenu à notre équipe informatique BroodMinder. En effet, ils travaillent très dur pour créer et gérer les sites internet MyBroodMinder et BeeCounted.org. L'application BroodMinder – Standard restera toujours gratuite. De même, le téléchargement de données sur MyBroodMinder à partir de l'application standard restera toujours gratuit.
-
-Vous pouvez utiliser l'application Apiary indéfiniment pour télécharger les données de vos capteurs. Elle est très utile car il s'agit d'un logiciel plus récent, donc le processus de téléchargement est plus simple que dans l'application originale.
+  - L'activation de BroodMinder-CELL – le capteur peut être tiré d'un profond sommeil.
+  
+  - La modification de la fréquence d'échantillonnage (de 60 à 15 minutes).
+  
+  - Les mises à jour du micrologiciel T2 pour le SwarmMinder.
+  
+  - Le contrôle de la mise hors tension pour le T2.
 
 L'utilisation de l'application est super simple :
 
@@ -78,8 +83,6 @@ L'utilisation de l'application est super simple :
 5. Une fois que les identifiants de vos capteurs BroodMinder sont devenus verts, cliquez sur l'icône ![](./images/11_6_cloud_up.png) pour commencer le téléchargement des données sur MyBroodMinder
 
 6. L'application vous montrera l'état de progression du téléchargement. La ligne supérieure indique l'état d'avancement de la collecte des données. La ligne inférieure montre le transfert de ces dernières vers MyBroodMinder
-
-7. Une fois que tous les capteurs ont été enregistré et que toutes les données ont été téléchargées, un message apparaitra pour vous indiquer que le transfert est terminé
 
 Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder. Si vous avez déjà configuré vos capteurs, il vous suffit de regarder le résultat. S'il s'agit de nouveaux capteurs, vous devrez les trouver sur MyBroodMinder « Device Inventory » (inventaire des capteurs) et de les attribuer à un rucher puis à une ruche. Allez à la section suivante pour plus d'informations à ce sujet.
 
@@ -100,11 +103,13 @@ Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder.
 
 ### Menu de configuration générale
 
-- **Vider manuellement la mémoire des capteurs** : si votre capteur BroodMinder fonctionne depuis longtemps (plus de 9 mois), il se peut que la mémoire soit pleine. Si c'est le cas, l'application Apiary se réinitialisera automatiquement afin de pouvoir stocker davantage de données. Si vous souhaitez contrôler cette étape manuellement, appuyez sur ce bouton
+- **Affichage en métrique** 
 
-- **Connexion rapide** : ce bouton permettra d'accélérer le temps de connexion en accélérant le « taux de collecte ». Cela signifie que le capteur BroodMinder enverra un signal toutes les secondes au lieu de toutes les 5 secondes. L'inconvénient de cette option est qu'elle réduit la durée de vie de la pile. Il est possible d'accélérer la connexion durant l'été et de la ralentir durant l'hiver
+- **Connexion rapide** : ce bouton permettra d'accélérer le temps de connexion en accélérant le « taux de collecte ». Cela signifie que le capteur BroodMinder enverra un signal toutes les secondes au lieu de toutes les 5 secondes. L'inconvénient de cette option est qu'elle réduit la durée de vie de la pile. Il est possible d'accélérer la connexion durant l'été et de la ralentir durant l'hiver.
 
-- **Activer la synchronisation déportée (Remote device Sync)** : vous pouvez récupérer vos données même lorsqu'il n'y a pas de connexion internet ou de couverture cellulaire dans votre rucher.
+- **Mode Hub** : voir ci-dessous.
+
+- **Activer la synchronisation à distance (Remote device Sync)** : vous pouvez récupérer vos données même lorsqu'il n'y a pas de connexion internet ou de couverture cellulaire dans votre rucher.
 
     1. Avant de vous rendre à votre rucher (tant que vous êtes encore connecté), allez sur l'application à l'écran de la liste des capteurs et cliquez sur l'icône ![](./images/11_7_cloud_dwn.png). Cela permettra le téléchargement de la liste de tous vos capteurs ainsi que le statut des données remontées lors de la dernière synchronisation. 
     _ATTENTION : Si vous contournez cette étape, c'est l'ensemble de des données dans la mémoire du capteur qui sera récupéré : ça pourrait représenter une année entière de données !_
@@ -127,6 +132,24 @@ Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder.
 
 
 ![](./images/05_broodminder_lite.png)
+
+Remarque: Nous vous recommandons désormais d'utiliser l'application BroodMinder Apiary. Elle est plus fiable.
+
+### Compatibilité des appareils
+
+#### Apple - iOS
+
+Les capteurs BroodMinder fonctionnent avec tout appareil Apple disposant de la technologie Bluetooth Low Energy (BLE). Ils fonctionnent avec les iPhones 4s & plus récents et avec les iPads de 3e génération & plus récents.
+
+#### Android
+
+Pour Android, c'est un peu plus compliqué. Android a introduit le support BLE dans la version 4.3 (Jelly Bean, juillet 2012). Les appareils plus vieux ne fonctionneront pas. La plupart des nouveaux appareils (2015 & plus récents) fonctionneront. Cependant, il existe de nombreux modèles de téléphones et nous en avons trouvé quelques-uns qui nous posent problème. Si votre appareil ne fonctionne pas, contactez-nous à l'adresse suivante : Support@BroodMinder.com.
+
+Une nouvelle fonctionnalité a été ajoutée à l'application dans la version 2.97 afin d'augmenter le taux d'envoi des capteurs BroodMinder. Tel qu'il est livré, un capteur BroodMinder envoie un message toutes les cinq secondes qui contient des informations sur la température et le poids. La page des paramètres généraux dispose désormais d'un bouton de configuration Bluetooth qui vous permet de modifier le taux d'envoi à un message toutes les secondes. Cela accélérera la connexion du capteur et rendra la récupération des données plus rapide. Il réduira toutefois la durée de vie de la batterie à 3-6 mois.
+
+Un bouton "Reset Android Bluetooth" a également été ajouté sous le bouton "Bluetooth Config". Cela vous permettra de réinitialiser le système de la fonction Bluetooth. Nous avons constaté que sur certains téléphones, cela aide à rétablir la communication.
+
+Vous trouverez plus d'informations sur le site https://mybroodminder.com/app/resources.
 
 ### Installation
 

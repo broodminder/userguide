@@ -9,7 +9,7 @@ Le pack Citizen Science contient deux dispositifs BroodMinder-TH (Température 
 
 ![](./images/03_sensor_locs.png)
 
-###  BroodMinder-TH
+###  BroodMinder-TH (BMR 42)
 ![](./images/01_TH.png)
 
 Tous les appareils BroodMinder-TH ont un identifiant qui commence par 42 – ils devraient donc être faciles à reconnaitre. Le capteur est normalement placé au-dessus des cadres, près du centre du corps de la ruche qui vous intéresse. Cette position est choisie pour plusieurs raisons :
@@ -32,7 +32,7 @@ Quelle que soit la position du capteur choisie, vous pouvez ajouter un marqueur 
 
 La pile CR2032 est remplaçable en ouvrant l'emballage. Elle dure en moyenne plus d'un an mais nous recommandons un remplacement à chaque automne, avant les basses températures de l'hiver.
 
-###  BroodMinder-T2
+###  BroodMinder-T2 (BRM-41)
 ![](./images/01_T2.png) 
 
 Tous les appareils BroodMinder-T2 ont un identifiant qui commence par 41 – ils devraient donc être faciles à reconnaitre. Le BroodMinder-T2 (**Température**) est une version à prix réduit du BroodMinder-TH. Il détectera la température de la ruche qui indiquera le développement du couvain durant la saison ainsi que sa survie hivernale. Placez-le au-dessus de l'endroit où vous pensez qu'il y aura le plus de couvain. Durant l'hiver, nous vous conseillons de le placer sur les cadres du corps supérieur de la ruche afin qu'il puisse prendre toute la chaleur montante de l'essaim.
@@ -47,12 +47,36 @@ Pour changer la pile, coupez simplement le ruban adhésif sur trois côtés auto
 
 Si vous souhaitez éteindre le T2, nous vous conseillons de le faire avec l'application BroodMinder.
 
-- Trouvez l'appareil et sélectionner l'écran du graphique
+- Trouvez le capteur et sélectionner l'écran du graphique
 - Sélectionnez la page de configuration (icône d'engrenage dans le coin supérieur droit de l'écran)
 - Sélectionnez Taux d'Échantillonnage puis cliquez sur « éteindre ». Cette opération n'est possible que pour les appareils T2
-- Retournez au graphique et synchronisez l'appareil. Une fois fini, le T2 sera éteint
+- Retournez au graphique et synchronisez le capteur. Une fois fini, le T2 sera éteint
 
-###  BroodMinder-W
+
+###  BroodMinder-T2SM (BRM-47)
+![](./images/01_T2.png) 
+
+Le BroodMinder-T2SM a été lancé en mai 2020. Ce capteur est identique au BroodMinder-T2, sauf qu'il surveille également les événements liés à la température, tels que les essaims. Chaque fois que le capteur détecte une augmentation de température de 15°C (en présence de couvain), il enregistre les 30 minutes avant & les 40 minutes après en mettant en place un drapeau indiquant un événement de température. Rendez-vous à la section interprétation des données pour plus d'informations.
+
+Tous les appareils BroodMinder-T2SM ont un identifiant qui commence par 47 - ils devraient donc être faciles à reconnaître. Le BroodMinder-T2 (**Température**) est une version à prix réduit du BroodMinder-TH. Il détectera la température de la ruche qui indiquera le développement du couvain durant la saison ainsi que sa survie hivernale. Placez-le au-dessus de l'endroit où vous pensez qu'il y aura le plus de couvain. Durant l'hiver, nous vous conseillons de le placer sur les cadres du corps supérieur de la ruche afin qu'il puisse prendre toute la chaleur montante de l'essaim.
+
+Afin de mettre en marche le BroodMinder-T2SM, appuyez sur le bouton pendant 5 secondes. 
+
+**La LED clignotera pendant une minute pour indiquer le succès de l'opération. SI VOUS NE MAINTENEZ PAS LE BOUTON ASSEZ LONGTEMPS, VOTRE T2 S'ETEINDRA AU BOUT DE 10 SECONDES ENVIRON.** 
+
+Pour vous assurer que le T2SM est en marche, appuyez une nouvelle fois sur le bouton et la LED se mettra à clignoter momentanément, ce qui indique le bon état de la pile ainsi que le fonctionnement de l'appareil.
+
+Pour changer la pile, coupez simplement le ruban adhésif sur trois côtés autour du circuit imprimé. Puis faites pivoter le circuit et remplacez la pile avec une nouvelle CR2032. Assurez-vous de bien resceller le circuit imprimé en utilisant du ruban adhésif.
+
+Si vous souhaitez éteindre le T2SM, nous vous conseillons de le faire avec l'application BroodMinder.
+
+- Trouvez le capteur et sélectionner l'écran du graphique
+- Sélectionnez la page de configuration (icône d'engrenage dans le coin supérieur droit de l'écran)
+- Sélectionnez Taux d'Échantillonnage puis cliquez sur « éteindre ». Cette opération n'est possible que pour les appareils T2
+- Retournez au graphique et synchronisez le capteur. Une fois fini, le T2SM sera éteint
+
+
+###  BroodMinder-W (BRM-43)
 ![](./images/01_W.png)
 
 Le BroodMinder-W (**Poids**) se place sous la ruche. Il existe un rapport détaillé sur la façon dont on positionne la balance (annexe A). C'est très intéressant à lire mais si vous manquez de temps, voici l'essentiel.
