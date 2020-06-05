@@ -21,4 +21,6 @@ cp -r ./fr/site/ /var/www/html/doc/fr/
 
 echo " "
 echo "done"
-ll  /var/www/html/doc/
+ls -l  /var/www/html/doc/
+
+echo "terminé"
