@@ -15,7 +15,7 @@ L'application BroodMinder (ou BroodMinder Lite) est l'application gratuite de ba
 
 ![BroodMinder](./images/05_broodminder_lite.png#thumbnail)
  
-BroodMinder Apiary est une application plus performante. Elle permet de télécharger les données de tous vos appareils BroodMinder en un seul geste. C'est un excellent gain de temps pour les utilisateurs disposant de nombreux capteurs. L'application est gratuite mais elle nécessite de disposer d'un abonnement pour les fonctionalités de productivité.
+BroodMinder Apiary est une application plus performante. Elle permet de télécharger les données de tous vos appareils BroodMinder en un seul geste. C'est un excellent gain de temps pour les utilisateurs disposant de nombreux capteurs. L'application est gratuite mais elle nécessite de disposer d'un abonnement pour les fonctionnalités de productivité.
 
 ![BroodMinder Apiary](./images/11_0_broodminder_apiary.png#thumbnail)
 
