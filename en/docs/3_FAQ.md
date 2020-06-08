@@ -135,3 +135,64 @@ This means that you have several scales assigned to your hive. Please check your
 
 ![White sticker](./images/pastille_blanche.png#thumbnail)
 
+When you have a white sticker (without color), it means that there is no data associated with this sensor at the selected time. The reasons can be multiple, but the main cause is a transmission or a synchronization problem.
+
+#### I don't want to see any more weather alerts on my calendar, is it possible ?
+
+Yes! You can modify and customize the alerts as you wish. Simply go to the alert settings. 
+
+![Alert icon](./images/alerts_settings.png)
+
+![Alert interface](./images/config_alert_prob.png#thumbnail)
+
+However, please note that this action is not retroactive. The modification will be active from the moment you change the settings - we don't go back to the alert history. The changes mde will only affect the new alerts. Be careful, the message displayed when you hover over the alerts only depends on your current settings. Changes will be immediately effective in your event calendars.
+
+#### I don't get any alert by email, why ?
+
+The email sending is by default deactivated. You must go to the alert settings (see green button), then go to the settings (see below).
+
+![Alert icon](./images/alerts_settings.png)
+
+![Email](./images/email_test.png#thumbnail)
+
+You can activate it simply by clicking 'ON'. By default, your login email is written in the 'Email 1' box but you can modify it or add a second one. Emails will be sent to both addresses if you choose to enter two. You can test that this is working by pressing the test button - an email will be instantly sent to you. 
+
+Lastly, you can set the sending frequency as you wish. In this email, you will find a summary of the past & future events, but also a summary of your hive and sensor status.
+
+#### One of my sensors is displayed in red, what does that mean?
+
+![Sensor problem](./images/problem_sensor.png#thumbnail)
+
+Indeed, in the 'My Apiary' section of Mellisphera, you can check your sensor status in the 'Sensor' tab. In this case, this means that there is actually a problem with your sensor. If your sensor is displayed in orange or red, we recommend you to go and check it. When you hover the sensor, the message displayed can give you some indications (see above). The battery might be low or if you are equipped with a Hub, your sensor might have a signal problem. We recommend you anyway to go and check your device. 
+
+Mellisphera has an alert system that notifies you when this type of event happens on your hive. We can therefore inform you by email (as long as you have activated the email option) of your sensor status.
+
+![Sensor alerts](./images/device_problem.png#thumbnail)
+
+## Sharing
+
+#### Is there any way to share my data with the community?
+
+Yes! On MyBroodminder, you can select different ways of sharing:
+
+- share your sensor readings with https://beecounted.org, a collaborative science initiative
+
+- share your scale readings with Bee Informed Partnership https://beeinformed.org/
+
+- share one or more of your apiaries with other Broodminder/Mellisphera users
+
+Please note that every free account by default share the **sensor data** on beecounted.org.
+
+#### Will people know where my hive is?
+
+No. We don't and won't know the exact location of your apiary. We only know the zip code. Your apiary will be then displayed on your local church tower. :)
+
+#### Can I see this public data?
+
+Yes, simply go to BeeCounted.org. There you can visualize dozens of hives from beekeepers all over the world!
+
+#### Can I share my apiaries with my beekeeper friends?
+
+This feature is not yet available on Mellisphera, but this is possible on MyBroodMinder. Go to Configuring/Finding/Sharing. Choose the o's, select an apiary and click on "sharing". You only need to enter the email of the user you want to share with. 
+
+Once shared, your apiary will be visible from their own account in read-only mode. 

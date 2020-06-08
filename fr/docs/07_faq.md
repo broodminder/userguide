@@ -170,7 +170,7 @@ Par défaut, l’envoi d’email est désactivé. Vous devez vous rendre dans le
 
 Vous pouvez les activer simplement en cliquant sur ‘ON’. Par défaut, votre email de connexion est inscrit dans l’encart ‘Email 1’, vous pouvez le modifier ou en ajouter un deuxième. Les emails s’envoient sur les deux adresses si vous choisissiez d’en inscrire deux. Vous pouvez tester que cela est bien fonctionnel en appuyant sur le bouton de test, un email vous sera envoyé instantanément. 
 
-Enfin, vous pouvez régler la fréquence d’envoi comme vous le souhaitez. Dans cet email, vous retrouverez un récapitulatif des événements à venir et passés, mais également un récapitualitf de l'état de vos ruches et capteurs.
+Enfin, vous pouvez régler la fréquence d’envoi comme vous le souhaitez. Dans cet email, vous retrouverez un récapitulatif des événements à venir et passés, mais également un récapitulaitf de l'état de vos ruches et capteurs.
 
 #### Un de mes capteurs est affiché en rouge, qu’est-ce que cela veut dire ?
 
