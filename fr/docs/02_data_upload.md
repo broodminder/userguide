@@ -253,21 +253,21 @@ Le bouton « *Inspection* » présente un intérêt particulier. En appuyant 
 
 BroodMinder-WIFI/CELL est un composant facultatif qui se place dans votre rucher et vous permet de transmettre les données depuis vos appareils BroodMinder directement sur MyBroodMinder.com par connexion wifi ou mobile. Nous avons conçu le BroodMinder-WIFI/CELL pour se mettre automatiquement en marche à la mise sous tension.
 
-Pour de meilleurs résultats, regardez la vidéo de l'installation sur BroodMinder.com/pages/videos
+Pour de meilleurs résultats, regardez la vidéo de l'installation sur [BroodMinder.com/pages/videos](https://broodminder.com/pages/videos)
 
 ![](./images/14_1_broodminder_wifi.png)
 
 ### Instructions de démarrage rapide
 
-**IMPORTANT** : synchronisez tous vos appareils et transférez vos données sur Beekeeping.io avant de démarrer votre appareil BroodMinder-WIFI/CELL
+**IMPORTANT** : synchronisez tous vos appareils et transférez vos données sur MyBroodminder.com avant de démarrer votre appareil BroodMinder-WIFI/CELL
 
 - Placer votre BroodMinder-WIFI/CELL dans le rucher avec le panneau solaire orienté vers le soleil
 
 - Téléchargez l'application BroodMinder-CELL (que vous ayez un appareil BroodMinder-CELL ou BroodMinder-WIFI)
 - Lancez l'application – votre appareil BroodMinder-WIFI/CELL devrait apparaitre dans la liste
 - Cliquez sur « exit deep sleep » (tirer du sommeil profond)
-- WIFI/CELL uniquement – entrer le nom de votre réseau wifi ou mobile ainsi que le mot de passe associé
-- Vos données devraient apparaitre automatiquement sur beekeeping.io une heure après
+- WIFI uniquement – entrer le nom de votre réseau wifi ou mobile ainsi que le mot de passe associé
+- Vos données devraient apparaitre automatiquement sur MyBroodminder.com une heure après
 
 ### Installation
 
@@ -285,7 +285,7 @@ Quelques remarques relatives à l'installation :
 - Des colliers de serrage ou pour tuyaux peuvent être utilisés afin de sécuriser le système
 - Ceux de 7cm que l'on trouve dans les magasins de bricolage fonctionnent parfaitement. Ils ont des languettes qui peuvent être légèrement pliées pour permettre l'insertion du BroodMinder-WIFI/CELL. Ensuite, un collier de serrage en bas permet de sécurise l'installation
 
-### La batterie solaire en mode permanent
+### La batterie solaire en mode permanent (Always-On)
 
 Nous vous envoyons le BroodMinder-WIFI/CELL avec la batterie en mode permanent (Always-On). Dans des conditions normales, vous n'aurez pas besoin d'ouvrir le boîtier électronique.
 
@@ -301,10 +301,9 @@ Pour récapituler : nous vous envoyons le BroodMinder-WIFI/CELL avec la batterie
 
 Si vous avez maintenu le bouton d'alimentation de la batterie pendant plus de 5 secondes, cela aura modifié le mode d'alimentation. Cette action permet d'alterner entre le mode permanent et le mode arrêt automatique mais il peut s'avérer difficile de savoir sur quel mode vous êtes.
 
-Pour faire la différence entre les deux modes, regardez la lumière de la batterie APRES les 3 flashs décrits ci-dessous :
+Pour faire la différence entre les deux modes, **regardez la lumière de la batterie APRES les 3 flashs** décrits ci-dessous :
 
 - Bloquez le panneau solaire afin d'avoir moins de confusion
-
 - Appuyez sur le bouton d'alimentation et maintenez-le enfoncé
 - Au bout de 6 secondes, les LED de la batterie clignoteront 3 fois
 - Si la lumière reste allumée pendant encore quelques secondes, cela signifie que la batterie est sur le mode permanent (_Always-On_). C'est bon !
@@ -330,7 +329,7 @@ L'application BroodMinder-CELL vous permet de gérer votre HUB qu'ils soit 3G ou
 - Force du signal du WIFI
 - De nombreuses fonctions de diagnostic
 
-Nous n'entrerons pas dans les détails dans ce manuel car il n'y a pas beaucoup d'ajustements à faire sur l'application. En effet, les seuls éléments que vous pouvez ajuster sont le moment et la fréquence de transferts de données sur beekeeping.io. Le reste de l'application est destiné à aider notre équipe de support client à diagnostiquer des problèmes.
+Nous n'entrerons pas dans les détails dans ce manuel car il n'y a pas beaucoup d'ajustements à faire sur l'application. En effet, les seuls éléments que vous pouvez ajuster sont le moment et la fréquence de transferts de données sur MyBroodminder.com.io. Le reste de l'application est destiné à aider notre équipe de support client à diagnostiquer des problèmes.
 
 Lorsque vous recevez votre BroodMinder-WIFI/CELL, ce dernier devrait être en mode sommeil profond (_Deep Sleep_) afin d'économiser la batterie pendant le transport. Vous aurez besoin de l'application BroodMinder-CELL pour le sortir de ce sommeil profond.
 
