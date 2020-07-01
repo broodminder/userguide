@@ -7,7 +7,6 @@ Ces données sont publiquement accessibles et aident chercheurs et scientifiques
 
 ![](./images/40_1_beecounted.png)
 
-Beecounted c'est également el moyen de faire un tour du monde des ruches. Comment se portent les colonies au Canada en ce moment? Allez voir!
+Beecounted c'est également le moyen de faire un tour du monde des ruches. Comment se portent les colonies au Canada en ce moment? Allez voir!
 
-![](./images/40_2_beecounted.png)
-
+![](./images/40_2_beecounted.png) 
