@@ -309,9 +309,9 @@ Pour faire la différence entre les deux modes, **regardez la lumière de la bat
 - Si la lumière reste allumée pendant encore quelques secondes, cela signifie que la batterie est sur le mode permanent (_Always-On_). C'est bon !
 - Relâchez le bouton
 
-Si après les 3 flashs, la lumière de la batterie s'éteint, cela signifie qu'elle est sur le mode arrêt automatique (_Auto-Off_). Recommencer la manipulation et la batterie devrait être sur le bon mode cette fois.
+Si après les 3 flashs, la lumière de la batterie s'éteint, cela signifie qu'elle est sur le mode arrêt automatique (_Auto-Off_). Recommencez la manipulation et la batterie devrait être sur le bon mode cette fois.
 
-Vous trouverez plus d'informations à ce sujet sur [https://www.voltaicsystems.com/always-on/](https://www.voltaicsystems.com/always-on/)
+Accédez à notre vidéo pour activer facilement le mode _Always-On_ ici https://youtu.be/geVp0FDxm3U 
 
 ### Les voyants lumineux WIFI/CELL
 
