@@ -29,11 +29,11 @@ BroodMinder Cell est l'application qui permet de contrôler les Hub.
 
 Tous les capteurs ont une mémoire interne. A chaque heure, ils effectuent un relevé et ils l'enregistrent dans leur mémoire. La capacité de stockage est d'environ un an de mesures. On voit souvent des capteurs avec plus de 7000 relevés ! (365*24=8760 relevés/an). Il est possible de vider cette mémoire soit en enlevant la pile quelques secondes, soit à partir de l'application mobile. Bien sûr avant de faire cela, assurez-vous que vous avez bien synchronisé les données avec mybroodminder ! 
 
-#### Comment fonctionne la récupération de données avec smartphone?
+#### Comment fonctionne la récupération de données avec smartphone ?
 
 Vous devez vous rendre sur votre rucher avec un smartphone possédant l'une des applications BroodMinder (Lite ou Apiary). La synchronisation pour les comptes gratuits se fait capteur par capteur. L'ensemble des capteurs fonctionne en Bluetooth. La portée du smartphone est de quelques mètres.
 
-#### Comment fonctionne la récupération de données avec un Hub?
+#### Comment fonctionne la récupération de données avec un Hub ?
 
 Avec le Hub, vous bénéficiez d’un suivi en temps réel. Vous avez accès à l’ensemble des alertes et pouvez anticiper les travaux sur votre rucher avant même de vous y déplacer. Il existe deux déclinaisons, Wifi ou GSM, selon votre connectivité. Ce transmetteur se place au milieu de votre rucher. Il récoltera et vous transmettra les données de façon automatique, que vous ayez un seul ou des dizaines de capteurs sur un rayon d'environ 20 mètres. 
 
@@ -90,6 +90,7 @@ Vous pouvez changer votre système d’unité (métrique ou impérial). Vous pou
 ### Je n'ai aucune donnée à ma connexion, pourquoi ? 
 
 Vos données se chargent à chaque nouvelle connexion. Lors de votre première connexion, il se peut que le processus soit long si vous disposez d’un nombre conséquent de capteurs. Soyez patient, cela peut prendre plusieurs dizaines de minutes lors de votre toute première connexion.
+De manière générale, nous actualisons les données chaque heure si de nouvelles données sont disponibles. De même, nous tentons de calculer l'ensemble de vos données journalières (météo, couvain, poids, etc.) à deux moments de la journée : en début de matinée (entre 6h30 et 7h30 heures UTC) et en début d'après-midi (entre 12h30 et 13h30 UTC). Enfin, nous récupérons vos données manquantes et réajustons les données des capteurs et ruches qui ont changé d'emplacement dans la journée chaque nuit (entre 1h et 3h UTC).
 
 ### Déplacer un capteur ou une ruche
 
@@ -114,7 +115,7 @@ Toutefois rassurez vous, les données restent et vous pouvez encore les retrouve
 
 Attention, cette action est irréversible. Vous ne pourrez plus activer de nouveau cette ruche mais vous pourrez toutefois en créer une nouvelle sous le même nom.
 
-#### Mon calendrier lunaire ainsi que les calendriers associés à la météo sont toujours vides, que faire? 
+#### Mon calendrier lunaire ainsi que les calendriers associés à la météo sont toujours vides, que faire ? 
 
 Vos calendriers sont vides si vous n’avez pas rempli les champs ‘Code Postal’ et ‘Code Pays’ à la création de votre rucher. Si c’est le cas, nous vous conseillons de vérifier ces paramètres sur MyBroodMinder (dans Configurer puis Ruchers). 
 

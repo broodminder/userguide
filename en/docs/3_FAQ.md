@@ -86,6 +86,7 @@ You can change as you wish the unit system (metric or imperial), the date format
 ### I don't have any data when I log in, why ? 
 
 Your data is loaded each time you log in. At your first connection, the process may be long if you have many sensors. Be patient, it can take up to ten minutes at your very first connection.
+In general, we update the data every hour if new data is available. In the same way, we try to calculate all your daily data (weather, brood, weight, etc.) at two times of the day: in the early morning (between 6:30 am and 7:30 am UTC) and in the early afternoon (between 12:30 pm and 1:30 pm UTC). Finally, we retrieve your missing data and readjust the data from sensors and hives that have changed location during the day each night (between 1 am and 3 am UTC).
 
 ### Moving a sensor or a hive
 
