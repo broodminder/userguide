@@ -7,6 +7,9 @@ plugins:
   - search:
       min_search_length: 3
       lang: 'fr'
+
+
+      
 #google_analytics: ['UA-125989472-3', 'mkdocs.org']
 #markdown_extensions:
 #  - toc:
