@@ -777,7 +777,7 @@ To tell the difference, watch the V15 lights AFTER the 3 flashes described below
 
 If after the 3 flashes, the V15 lights turn off, it is in Auto-off mode. This is not good. Try again and it should be correct this time.
 
-You can find more information at [https://www.voltaicsystems.com/always-on/](https://www.voltaicsystems.com/always-on/)
+Watch our video to easily activate the _Always-On_ mode here https://youtu.be/geVp0FDxm3U
 
 ### 9.4 WIFI/CELL Indicator Lights
 ![](./images/14_1_broodminder_wifi.png)
