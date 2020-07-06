@@ -45,22 +45,25 @@ Les capteurs T2 classiques sont référencés avec le type 41:xx:yy. Pour les co
 ![](./images/t2sm_apiary_upgrade_version.png#thumbnail1)
 
 
-En tappant dessous on rentre dans l'écran de configuration du capteur. Ici il faut suivre deux étapes dans l'ordre suivant 
+En tapant dessous, on rentre dans l'écran de configuration du capteur. 
 
-1. Synchroniser le capteur pour récupérer les dernières données. **IMPORTANT la mise à jour effacera les données de la mémoire**
+Ici, il faut suivre deux étapes dans l'ordre suivant :
+
+1. Synchroniser le capteur pour récupérer les dernières données. **IMPORTANT - la mise à jour effacera les données de la mémoire**
+
 2. Lancer la mise à jour du micrologiciel
 
 ![](./images/t2sm_upgrade.jpeg#thumbnail2)
 
-3. Redémarrer le capteur en apuyant sur le bouton plus de 5 secondes. *Il doit flasher 20 fois* 
+3. Redémarrer le capteur en appuyant sur le bouton plus de 5 secondes. *Il doit flasher 20 fois* 
 
-4. Actualiser la liste des capteurs dans Apiary. Vérifier qu'il s'appelle maintenant 47:xx:yy. Effectivement tnous les T2SM changent sa référence de 41 à 47.   
+4. Actualiser la liste des capteurs dans Apiary. Vérifier qu'il s'appelle maintenant 47:xx:yy. Effectivement tous les T2SM changent leur référence de 41 à 47.   
 
-5. Une fois le micrologiciel installé il est également possible de changer la fréquence de mesure de 60 a 15 minutes (Bouton *Rate 15 minutes*). C'est votre choix. Mais ne laissez pas cette configuration toute l'année (elle consomme plus d’énergie). Seulement durant la saison des essaimages.
+5. Une fois le micrologiciel installé, il est également possible de changer la fréquence de mesure de 60 à 15 minutes (Bouton *Rate 15 minutes*). C'est votre choix. Mais ne laissez pas cette configuration toute l'année (elle consomme plus d’énergie). Seulement durant la saison des essaimages.
 
 
 ## Pour ceux qui ont un Hub
-Actuellement le Hub transmet les relevés toutes les heures. Pour intégrer les fonctions du T2-SM son micrologiciel évolue. Il continuera à transmettre toutes les heures sauf qu'en cas de détection d'un événement, il le transmettra à l'instant même de la détection. 
+Actuellement le Hub transmet les relevés toutes les heures. Pour intégrer les fonctions du T2-SM son micrologiciel évolue. Il continuera à transmettre toutes les heures sauf en cas de détection d'un événement - dans ce cas il le transmettra à l'instant même de la détection. 
 
 Pour que ces fonctions aient effet il faut également actualiser son micrologiciel.
 

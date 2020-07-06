@@ -37,11 +37,13 @@ La pile CR2032 est remplaçable en ouvrant l'emballage. Elle dure en moyenne plu
 
 Tous les appareils BroodMinder-T2 ont un identifiant qui commence par 41 – ils devraient donc être faciles à reconnaitre. Le BroodMinder-T2 (**Température**) est une version à prix réduit du BroodMinder-TH. Il détectera la température de la ruche qui indiquera le développement du couvain durant la saison ainsi que sa survie hivernale. Placez-le au-dessus de l'endroit où vous pensez qu'il y aura le plus de couvain. Durant l'hiver, nous vous conseillons de le placer sur les cadres du corps supérieur de la ruche afin qu'il puisse prendre toute la chaleur montante de l'essaim.
 
-Afin de mettre en marche le BroodMinder-T2, appuyez sur le bouton pendant 5 secondes. 
+Afin de mettre en marche le BroodMinder-T2, appuyez sur le bouton pendant 10 secondes. 
 
-**La LED clignotera pendant une minute pour indiquer le succès de l'opération. SI VOUS NE MAINTENEZ PAS LE BOUTON ASSEZ LONGTEMPS, VOTRE T2 S'ETEINDRA AU BOUT DE 10 SECONDES ENVIRON.** 
+**La LED clignotera 10 fois pour indiquer le succès de l'opération. SI VOUS NE MAINTENEZ PAS LE BOUTON ASSEZ LONGTEMPS, VOTRE T2 S'ETEINDRA AU BOUT DE 10 SECONDES ENVIRON.** 
 
 Pour vous assurer que le T2 est en marche, appuyez une nouvelle fois sur le bouton et la LED se mettra à clignoter momentanément, ce qui indique le bon état de la pile ainsi que le fonctionnement de l'appareil.
+
+Regardez notre vidéo pour mettre facilement en marche votre capteur T2: https://youtu.be/xOa4Pd5B9Zk 
 
 Pour changer la pile, coupez simplement le ruban adhésif sur trois côtés autour du circuit imprimé. Puis faites pivoter le circuit et remplacez la pile avec une nouvelle CR2032. Assurez-vous de bien resceller le circuit imprimé en utilisant du ruban adhésif.
 
@@ -60,11 +62,13 @@ Le BroodMinder-T2SM a été lancé en mai 2020. Ce capteur est identique au Broo
 
 Tous les appareils BroodMinder-T2SM ont un identifiant qui commence par 47 - ils devraient donc être faciles à reconnaître. Le BroodMinder-T2 (**Température**) est une version à prix réduit du BroodMinder-TH. Il détectera la température de la ruche qui indiquera le développement du couvain durant la saison ainsi que sa survie hivernale. Placez-le au-dessus de l'endroit où vous pensez qu'il y aura le plus de couvain. Durant l'hiver, nous vous conseillons de le placer sur les cadres du corps supérieur de la ruche afin qu'il puisse prendre toute la chaleur montante de l'essaim.
 
-Afin de mettre en marche le BroodMinder-T2SM, appuyez sur le bouton pendant 5 secondes. 
+Afin de mettre en marche le BroodMinder-T2SM, appuyez sur le bouton pendant 10 secondes. 
 
-**La LED clignotera pendant une minute pour indiquer le succès de l'opération. SI VOUS NE MAINTENEZ PAS LE BOUTON ASSEZ LONGTEMPS, VOTRE T2 S'ETEINDRA AU BOUT DE 10 SECONDES ENVIRON.** 
+**La LED clignotera 10 fois pour indiquer le succès de l'opération. SI VOUS NE MAINTENEZ PAS LE BOUTON ASSEZ LONGTEMPS, VOTRE T2 S'ETEINDRA AU BOUT DE 10 SECONDES ENVIRON.** 
 
 Pour vous assurer que le T2SM est en marche, appuyez une nouvelle fois sur le bouton et la LED se mettra à clignoter momentanément, ce qui indique le bon état de la pile ainsi que le fonctionnement de l'appareil.
+
+Regardez notre vidéo pour mettre facilement en marche votre capteur T2: https://youtu.be/xOa4Pd5B9Zk 
 
 Pour changer la pile, coupez simplement le ruban adhésif sur trois côtés autour du circuit imprimé. Puis faites pivoter le circuit et remplacez la pile avec une nouvelle CR2032. Assurez-vous de bien resceller le circuit imprimé en utilisant du ruban adhésif.
 
@@ -246,7 +250,7 @@ Avant l'arrivée de l'hiver, changez toutes les piles de vos BroodMinders. Vous 
 
 **Assurez-vous que l'emballage de la balance n'est pas fissuré. La pluie pourrait pénétrer à l'intérieur et endommager les capteurs.** Vous pouvez sceller toute fissure à l'aide de ruban adhésif ou commander un nouvel emballage sur BroodMinder.com.
 
-## Mises à jour de firmware
+## Mises à jour des micrologiciels
 
 Les mises à jour des micro-logiciels du Hub BroodMinder et les BroodMinder-T2 se font automatiquement par OTA (Over-The-Air, soit sans fil). Elles sont effectuées par l'application Apiary ou l'application Cell. Pour plus d'informations, cliquez sur ce lien : [mybroodminder.com/resources](https://mybroodminder.com/resources)
 

@@ -10,7 +10,9 @@ Un seul compte pour tout créer: rucher, ruches & capteurs.
 
 **2 - Activez vos capteurs** 
 
-Regardez la vidéo YouTube: https://www.youtube.com/watch?v=fanEzs-6fb4 
+Regardez nos vidéos YouTube: 
+https://www.youtube.com/watch?v=fanEzs-6fb4 
+https://youtu.be/xOa4Pd5B9Zk  
 
 **3 - Installez l'app Broodminder Apiary** 
 

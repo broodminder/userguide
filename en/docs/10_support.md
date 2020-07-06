@@ -34,26 +34,23 @@ img[src*="#picto"] {
    width:50px;
 }</style>
 
-Vous ne trouvez pas de réponse à votre question dans cette documentation?
+Can't find the answer to your question in this documentation?
 
-La [recherche par mot clé](#srch) n'a pas donné le résultat que vous attendez?
+The [keyword search](#srch) didn't give the result you were expecting?
 
-Contactez le support Mellisphera par email à [support@mellisphera.com](mailto:support@mellisphera.com) 
+Contact Mellisphera support by email at [support@mellisphera.com](mailto:support@mellisphera.com) 
 
-
-Vous pouvez nous joindre directement depuis l'interface Mellisphera
+You can reach us directly from the Mellisphera interface
 
 ![Bouton support](./images/support_sidebar.png)
 
 ![Message support](./images/support_msg.png#thumbnail1)
 
 
+## Keyword search {#srch}
 
-## Recherche par mot clé {#srch}
+Feel free to use the **keyword search**: it is extremely powerful and provides you with results on all available documentation.
 
-N'hésitez pas à utiliser la **recherche par mot clé**: elle est extremement puissante et vous fournit des résultats sur l'ensemble de la documentation disponible
-
-Un exemple ici avec le mot clé "batterie"
+An example here with the keyword "battery".
 
 ![Doc portal](./images/user_doc_portal_srch_example.png)
-
