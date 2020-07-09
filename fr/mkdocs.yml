@@ -17,8 +17,8 @@ nav:
  - Interpretation: 'data_interpretation.md'
  - Science collaborative: 'beecounted.md'
  - 🎉 T2 Swarminder: 'new_t2sm.md'
- - _: ''
- - FAQ: 'FAQ.md'
+ - _: 'void.md'
+ - FAQ: 'faq.md'
  - Support: 'support.md'
 
       

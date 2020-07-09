@@ -18,6 +18,6 @@ nav:
  - Data interpretation: 'data_Interpretation.md'
  - Beecounted: 'beecounted.md'
  - 🎉 New T2 Swarminder: 'new_t2sm.md'
- - _: ''
+ - _: 'void.md'
  - FAQ: 'faq.md'
  - Support: 'support.md'
