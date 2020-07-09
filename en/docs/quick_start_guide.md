@@ -26,7 +26,7 @@ Analyze raw (MyBroodminder) or refined (Mellisphera) data.
 
 ![](./images/guide/3.png)
 
-**Need some help?** [info@mellisphera.com](info@mellisphera.com)
+**Need some help?** [info@mellisphera.com](mailto:info@mellisphera.com)
 
 ## Tips to install efficiently your devices
 
