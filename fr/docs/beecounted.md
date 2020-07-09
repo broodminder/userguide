@@ -1,4 +1,4 @@
-# Science Citoyenne
+# Science Collaborative
 
 Broodminder et Mellisphera collaborent avec [Beecounted.org](https://beecounted.org). Nos applications ouvrent la possibilité de partager ses données avec cette initiative internationale. 
 

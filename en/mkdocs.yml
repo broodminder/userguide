@@ -5,7 +5,19 @@ theme: material
 #  - toc:
 #    baselevel: 2
 #theme: readthedocs
-#nav:
 #plugins:
 #    - search
 #    - pdf-export
+nav:
+ - Introduction: 'intro.md'
+ - ▶️ Quick start guide: 'quick_start_guide.md'
+ - Sensors: 'sensors.md'
+ - Data upload: 'data_upload.md'
+ - MyBroodminder: 'mybroodminder.md'
+ - Mellisphera: 'mellisphera.md'
+ - Data interpretation: 'data_Interpretation.md'
+ - Beecounted: 'beecounted.md'
+ - 🎉 New T2 Swarminder: 'new_t2sm.md'
+ - _: ''
+ - FAQ: 'faq.md'
+ - Support: 'support.md'

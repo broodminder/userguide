@@ -36,7 +36,7 @@ img[src*="#picto"] {
 
 Can't find the answer to your question in this documentation?
 
-The [keyword search](#srch) didn't give the result you were expecting?
+The keyword search didn't give the result you were expecting?
 
 Contact Mellisphera support by email at [support@mellisphera.com](mailto:support@mellisphera.com) 
 

@@ -7,7 +7,19 @@ plugins:
   - search:
       min_search_length: 3
       lang: 'fr'
-
+nav:
+ - Introduction: 'intro.md'
+ - ▶️ Guide de démarrage rapide: 'quick_start_guide.md'
+ - Capteurs: 'capteurs.md'
+ - Récupération de données: 'data_upload.md'
+ - MyBroodminder: 'mybroodminder.md'
+ - Mellisphera: 'mellisphera.md'
+ - Interpretation: 'data_interpretation.md'
+ - Science collaborative: 'beecounted.md'
+ - 🎉 T2 Swarminder: 'new_t2sm.md'
+ - _: ''
+ - FAQ: 'FAQ.md'
+ - Support: 'support.md'
 
       
 #google_analytics: ['UA-125989472-3', 'mkdocs.org']

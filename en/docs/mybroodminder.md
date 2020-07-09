@@ -30,7 +30,7 @@ The creation and edition of hives is done from the _Configuration_ menu, as you 
 
 ![](./images/13_3_cloud_storage.png)
 
-### Creating an apiary
+### New apiary
 
 Each item in the left menu has a contextual menu indicated by three dots "..."
 
@@ -39,23 +39,23 @@ On _Apiaries_, you access the function of apiary creation.
 ![](./images/13_5_nw_apiary.png)
 
 
-### Creating a hive 
+### New hive 
 
 Also on _Apiaries_, you access the function of hive creation.
 
 ![](./images/13_6_nw_hive.png)
 
-### Assigning a sensor
+### New device
 
 In the same logic, the sensors are assigned to each hive. 
 
 ![](./images/13_7_nw_device.png)
 
-### Moving a sensor 
+### Move device 
 
 In the hive menu (above), you can also move the sensor (to another hive for example). 
 
-### Transhumming a hive 
+### Move hive 
 
 It is possible to move a hive from one apiary to another. This changes its location and also adapts the weather to the new location. This function is accessible from the contextual menu and also from the _Configure_ menu, then _Apiaries_, then in the table the column _History Apiaries_ which enables you to define the location sequence.
 
@@ -69,7 +69,7 @@ Please note that this action is IRREVERSIBLE.
 
 ![](./images/13_9_desactiver.png)
 
-## Visualizing data
+## Viewing data
 
 By clicking on the hive name, you can visualize a graph that combines all the sensors of the selected hive into a single report :
 

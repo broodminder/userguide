@@ -2,41 +2,41 @@
 
 ## How to start the system in 3 steps
 
-**1 - Creating your MyBroodminder.com account**
+### 1 - Create your MyBroodminder.com account
 
 A single account to create everything: apiary, hives & sensors. 
 
 ![](./images/guide/1.png)
 
-**2 - Activating your sensors** 
+### 2 - Activate devices
 
 Watch our YouTube video: https://www.youtube.com/watch?v=fanEzs-6fb4 
 
-**3 - Installing the Broodminder Apiary app** 
+### 3 - Install the Broodminder Apiary App
 
-Collect your sensor data. 
+Collect your device data. 
 
 ![](./images/guide/Picto3logo.png)
 
 ![](./images/guide/2fr.png)
 
-**4 - Visualizing & exploring** 
+### 4 - View & explore
 
 Analyze raw (MyBroodminder) or refined (Mellisphera) data.
 
 ![](./images/guide/3.png)
 
-**Need some help?** info@mellisphera.com 
+**Need some help?** [info@mellisphera.com](info@mellisphera.com)
 
-## Tips to install efficiently your sensors
+## Tips to install efficiently your devices
 
-**1 - Numbering your hives** 
+### Name your hives
 
 ![](./images/guide/Picto4.png)
 
 Identify your hives: numbered, engraved or painted plate... Whatever you want. The main thing is to be able to spot them from afar, without any problem.  
 
-**2 - Preparing the system at home** 
+### Set-up the system at home
 
 - Settle down on a large table with your computer, your sensors and some post-it notes. 
 
@@ -60,15 +60,15 @@ Identify your hives: numbered, engraved or painted plate... Whatever you want. T
 
 ![](./images/guide/8.png)
 
-**IF YOU HAVE A HUB** 
+## If you have a Hub
 
-**3 - Downloading the Broodminder Cell app** 
+### Download the Cell App
 
 ![](./images/guide/Picto5.png)
 
 With this app, you can communicate with the hub. 
 
-**4 - Taking your hub out of the "deep sleep" mode** 
+### Wake up the Hub
 
 - Don't open the hub. It's already ready to use.  
 
@@ -84,7 +84,7 @@ With this app, you can communicate with the hub.
 
 - You're done, the system is working! Now you can get some well-deserved rest ;) 
 
-## The apiary set-up 
+## Install at your apiary 
 
 **On the apiary, putting the autopilot on** 
 
