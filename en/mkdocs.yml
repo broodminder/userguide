@@ -9,6 +9,7 @@ theme: material
 #    - search
 #    - pdf-export
 nav:
+ - index.md
  - Introduction: 'intro.md'
  - ▶️ Quick start guide: 'quick_start_guide.md'
  - Sensors: 'sensors.md'

@@ -8,6 +8,7 @@ plugins:
       min_search_length: 3
       lang: 'fr'
 nav:
+ - index.md
  - Introduction: 'intro.md'
  - ▶️ Guide de démarrage rapide: 'quick_start_guide.md'
  - Capteurs: 'capteurs.md'
