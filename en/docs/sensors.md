@@ -40,7 +40,7 @@ To turn on the Broodminder-T2, press the button for 10 seconds **. The LED will 
 
 If you ever want to know if the -T2 is operating, press the button again, and the LED will flash momentarily to indicate the battery is fine and the device is operating.
 
-Watch our video to easily switch your T2 sensor on: https://youtu.be/tN9xUTq_bSc
+[![Switch-On T2 sensor](https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg)](https://www.youtube.com/watch?v=tN9xUTq_bSc)
 
 To change the battery, simply cut the tape on three sides around the circuit board. Then swing the board out and replace the battery with a new CR2032. Be sure to seal the circuit board again using packing tape.
 
@@ -64,7 +64,7 @@ To turn on the BroodMinder-T2, press the button for 10 seconds. **The LED will f
 
 If you ever want to know if the -T2 is operating, press the button again, and the LED will flash momentarily to indicate the battery is fine and the device is operating.
 
-Watch our video to easily switch your T2 sensor on: https://youtu.be/tN9xUTq_bSc
+[![Switch-On T2SM sensor](https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg)](https://www.youtube.com/watch?v=tN9xUTq_bSc)
 
 To change the battery, simply cut the tape on three sides around the circuit board. Then swing the board out and replace the battery with a new CR2032. Be sure to seal the circuit board again using packing tape.
 

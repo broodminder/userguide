@@ -311,7 +311,8 @@ Pour faire la différence entre les deux modes, **regardez la lumière de la bat
 
 Si après les 3 flashs, la lumière de la batterie s'éteint, cela signifie qu'elle est sur le mode arrêt automatique (_Auto-Off_). Recommencez la manipulation et la batterie devrait être sur le bon mode cette fois.
 
-Accédez à notre vidéo pour activer facilement le mode _Always-On_ ici https://youtu.be/geVp0FDxm3U 
+[![Activation du mode Always_On](https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U)
+
 
 ### Les voyants lumineux WIFI/CELL
 
