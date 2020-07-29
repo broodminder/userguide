@@ -87,10 +87,25 @@ Vous pouvez changer votre système d’unité (métrique ou impérial). Vous pou
 
 ## Données
 
+### A quel moment sont actualisées les données ?
+Les données horaires sont actualisées toutes les heures si de nouvelles données sont disponibles. 
+
+Les données journalières (météo, couvain, poids, etc.) sont actualisées à deux moments de la journée pour que chaque matin en Europe et en Amérique les données soient disponibles : entre 6h30 et 7h30 et entre 12h30 et 13h30 UTC.
+
+Actualisation des données journalières
+
+Heure <br> UTC | Paris <br> CET | NewYork <br> EDT
+--- | --- | ---
+7:00 | 8:00 | 1:00
+13:00 | 14:00 | 9:00
+
+(*) a noter qu'il peut s'appliquer +1h en heure d'été.
+
+Enfin, nous récupérons vos données manquantes et réajustons les données des capteurs et ruches qui ont changé d'emplacement dans la journée chaque nuit (entre 1h et 3h UTC).
+
 ### Je n'ai aucune donnée à ma connexion, pourquoi ? 
 
 Vos données se chargent à chaque nouvelle connexion. Lors de votre première connexion, il se peut que le processus soit long si vous disposez d’un nombre conséquent de capteurs. Soyez patient, cela peut prendre plusieurs dizaines de minutes lors de votre toute première connexion.
-De manière générale, nous actualisons les données chaque heure si de nouvelles données sont disponibles. De même, nous tentons de calculer l'ensemble de vos données journalières (météo, couvain, poids, etc.) à deux moments de la journée : en début de matinée (entre 6h30 et 7h30 heures UTC) et en début d'après-midi (entre 12h30 et 13h30 UTC). Enfin, nous récupérons vos données manquantes et réajustons les données des capteurs et ruches qui ont changé d'emplacement dans la journée chaque nuit (entre 1h et 3h UTC).
 
 ### Déplacer un capteur ou une ruche
 
