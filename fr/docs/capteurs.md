@@ -43,7 +43,7 @@ Afin de mettre en marche le BroodMinder-T2, appuyez sur le bouton pendant 10 sec
 
 Pour vous assurer que le T2 est en marche, appuyez une nouvelle fois sur le bouton et la LED se mettra à clignoter momentanément, ce qui indique le bon état de la pile ainsi que le fonctionnement de l'appareil.
 
-Regardez notre vidéo pour mettre facilement en marche votre capteur T2: https://youtu.be/xOa4Pd5B9Zk 
+[![Mettre en marche T2](https://img.youtube.com/vi/xOa4Pd5B9Zk/0.jpg)](https://www.youtube.com/watch?v=xOa4Pd5B9Zk)
 
 Pour changer la pile, coupez simplement le ruban adhésif sur trois côtés autour du circuit imprimé. Puis faites pivoter le circuit et remplacez la pile avec une nouvelle CR2032. Assurez-vous de bien resceller le circuit imprimé en utilisant du ruban adhésif.
 
@@ -68,7 +68,7 @@ Afin de mettre en marche le BroodMinder-T2SM, appuyez sur le bouton pendant 10 s
 
 Pour vous assurer que le T2SM est en marche, appuyez une nouvelle fois sur le bouton et la LED se mettra à clignoter momentanément, ce qui indique le bon état de la pile ainsi que le fonctionnement de l'appareil.
 
-Regardez notre vidéo pour mettre facilement en marche votre capteur T2: https://youtu.be/xOa4Pd5B9Zk 
+[![Mettre en marche T2SM](https://img.youtube.com/vi/xOa4Pd5B9Zk/0.jpg)](https://www.youtube.com/watch?v=xOa4Pd5B9Zk)
 
 Pour changer la pile, coupez simplement le ruban adhésif sur trois côtés autour du circuit imprimé. Puis faites pivoter le circuit et remplacez la pile avec une nouvelle CR2032. Assurez-vous de bien resceller le circuit imprimé en utilisant du ruban adhésif.
 
