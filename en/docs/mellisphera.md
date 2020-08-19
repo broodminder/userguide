@@ -248,10 +248,10 @@ In more detail, here are the available alerts and their characteristics:
 | **Pictogram** | **Alert** | **Frequency** | **Description** | 
 |- |-- | -- | -- |
 | ![](./images/Pictos/Honeydew.png#picto) | Honeydew | weekly | The honeydew alert is triggered when the net weight added to the hive exceeds the indicated threshold. By default, it is set to 15kg/week.| 
-| ![](./images/Pictos/Swarm.png#picto) | Swarming | ??? | The swarm alert operates in **real time** but also indicates **passed** swarms in the case of manual sync. This alert works on hives equipped with temperature sensors. The results will be even more accurate with a scale, but it is not essential. <br> **We can adjust the detected swarms according to your feedback, do not hesitate to report discrepancies or omissions!**
-| ![](./images/Pictos/Swarm.png#picto) | Swarming risk | ??? | Based on a range of parameters, we can estimate the risk of swarming 3 days before. <br> This alert is currently in development.| 
-| ![](./images/Pictos/Tmax2.png#picto) | Over-Temperature | ??? | Some colonies can't manage their internal temperature. Often these are small population divisions. But sometimes the weather can have a major effect because of a lack of exposure. <br> In this case, the hive brood is challenged as temperatures can reach 40°C.| 
-| ![](./images/Pictos/Tmin2.png#picto) | Extreme cold | ??? | During winter, the cluster tightens and maintains the temperature very locally - sometimes far away from the sensor. This is why the "low temperature" indication can only be informative. Depending on the context, action may be required.| 
+| ![](./images/Pictos/Swarm.png#picto) | Swarming | hourly | The swarm alert operates in **real time** but also indicates **passed** swarms in the case of manual sync. This alert works on hives equipped with temperature sensors. The results will be even more accurate with a scale, but it is not essential. <br> **We can adjust the detected swarms according to your feedback, do not hesitate to report discrepancies or omissions!**
+| ![](./images/Pictos/Swarm.png#picto) | Swarming risk | daily | Based on a range of parameters, we can estimate the risk of swarming 3 days before. <br> This alert is currently in development.| 
+| ![](./images/Pictos/Tmax2.png#picto) | Over-Temperature | daily | Some colonies can't manage their internal temperature. Often these are small population divisions. But sometimes the weather can have a major effect because of a lack of exposure. <br> In this case, the hive brood is challenged as temperatures can reach 40°C.| 
+| ![](./images/Pictos/Tmin2.png#picto) | Extreme cold | daily | During winter, the cluster tightens and maintains the temperature very locally - sometimes far away from the sensor. This is why the "low temperature" indication can only be informative. Depending on the context, action may be required.| 
 | ![](./images/Pictos/LowBrood.png#picto) | Low brood | weekly | In the high season, a hive with brood level below 30% is an anomaly or a division/swarm. This alert can identify colonies that are declining. | 
 | ![](./images/Pictos/WIneg.png#picto) | Weight loss | daily | An excessive/sudden consumption often means that the hive is being robbed by another colony.| 
 | ![](./images/Pictos/WIpos.png#picto) | Weight gain | daily | Daily alert that informs you of weight gains due to bee inputs. To be associated with the weekly honeydew alert.| 
@@ -259,10 +259,10 @@ In more detail, here are the available alerts and their characteristics:
 | ![](./images/Pictos/Hmin.png#picto) | Low humidity | daily | During the season, the optimum humidity zone is between 50 and 75%.| 
 | ![](./images/Pictos/Dead.png#picto) | Dead hive | daily | If you see this alert, it's too late. It means that there's no life signs left in the hive.| 
 | ![](./images/Pictos/Oxalic.png#picto) | Varroa treatment | daily | This alert is triggered when the average brood in the apiary falls below the fixed threshold (15% by default). This is the ideal time to plan an anti-varroa treatment with Oxalic acid.| 
-| ![](./images/Pictos/Super+.png#picto) | Supper addition | daily | For the hives equipped with scales, this action is automatically detected and displayed on the calendar.| 
-| ![](./images/Pictos/Super-.png#picto) | Supper removal | daily | For the hives equipped with scales, this action is automatically detected and displayed on the calendar.| 
-| ![](./images/Pictos/Stolen.png#picto) | Stolen hive | ??? | The sensors do not have geolocation. However, for the hives eqquiped with a weight sensor, this alert notifies in case of an abnormally low weight, which could be a possible theft...| 
-
+| ![](./images/Pictos/Super+.png#picto) | Supper addition | daily | For the hives equipped with scales, this action is automatically detected and displayed on the calendar with an indication of the weight of your empty supers. <br> We have set the default value for an empty rise to 5kg. <br> For a dadant hive, we have taken some steps that can help you set this value: <br> An empty super is between 8.2 and 9.5lbs. <br> A super with embossed frames weighs about 14.1lbs. <br> A super with stretched frames will be close to 14.5lbs.| 
+| ![](./images/Pictos/Super-.png#picto) | Supper removal | daily | For the hives equipped with scales, this action is automatically detected and displayed on the calendar with an indication of the weight of your full supers. <br> We have set the default value for a full super to 45lbs.| 
+| ![](./images/Pictos/Stolen3.png#picto) | Stolen hive | daily | The sensors do not have geolocation. However, for the hives eqquiped with a weight sensor, this alert notifies in case of an abnormally low weight, which could be a possible theft...| 
+| ![](./images/Pictos/weightThresold.png#picto) | Weight limit | hourly | It may sometimes be important to monitor the weight of the hives and to set thresholds in order to carry out operations on your hives after they have been reached. <br> The default value has been set to 220lbs.| 
 
 ### Weather
 
@@ -281,7 +281,8 @@ The alerts mainly concern strong to extreme events.
 | ![](./images/Pictos/Rain.png#picto) | Rain | daily | Heavy rainfall.<br> Default value at 50 mm/d  | 
 | ![](./images/Pictos/Snow.png#picto) | Snow | daily | Heavy snowfall.<br> Default value at 15cm/d   | 
 | ![](./images/Pictos/Wind.png#picto) | Wind | daily | Strong winds.<br> Default value for 30 km/h gusts. <br> In some regions, we recommend to increase the default value if the alerts become too regular.| 
-| ![](./images/Pictos/ColdPeriod.png#picto) | Cold | daily | This alert is triggered in high season when a 'cold' period is expected. This includes days and nights that are considered cooler than the seasonal norm. We set the parameters ourselves.| 
+| ![](./images/Pictos/ColdDay.png#picto) | Cold | daily | Cold day.<br> Default value for days below 0°C. <br> In some regions, we recommend to decrease the default value if the alerts become too regular.| 
+| ![](./images/Pictos/HotDay.png#picto) | Hot | daily | Hot day.<br> Default value for days above 40°C. <br> You must adjust the default value according to your region.| 
 
 ### Sensors
 

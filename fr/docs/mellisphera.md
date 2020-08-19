@@ -281,7 +281,7 @@ De façon plus détaillée, voici les alertes disponibles et leurs caractéristi
 | **Pictogramme** | **Alerte** | **Fréquence** | **Description** | 
 |- |-- | -- | -- |
 | ![](./images/alertes/Honeydew.png#picto) | Miellée | hebdo | l'alerte miellée se déclenche lorsque l'apport de poids net dans la ruche dépasse le seuil indiqué. Par défaut il est défini à 15kg/semaine.| 
-| ![](./images/alertes/Swarm.png#picto) | Potentiel essaimage détecté | journée | Alerte des essaimages en **temps réel** mais aussi **passés** dans le cas d'une synchro manuelle. Cette alerte fonctionne sur ruches équipées de capteurs de température. Avec une balance ce sera encore plus précis mais ce n'est pas indispensable. <br> **Nous pouvons ajuster les essaimages détectés en fonction de vos retours, n'hésitez pas à nous signaler des incohérences ou des oublis !**
+| ![](./images/alertes/Swarm.png#picto) | Potentiel essaimage détecté | horaire | Alerte des essaimages en **temps réel** mais aussi **passés** dans le cas d'une synchro manuelle. Cette alerte fonctionne sur ruches équipées de capteurs de température. Avec une balance ce sera encore plus précis mais ce n'est pas indispensable. <br> **Nous pouvons ajuster les essaimages détectés en fonction de vos retours, n'hésitez pas à nous signaler des incohérences ou des oublis !**
 | ![](./images/alertes/SwarmyPeriod.png#picto) | Journée a risque pour l'essaimage | journée | En partant d'un certain nombre de paramètres on évalue le risque d'essaimage à 3 jours. <br> **Cette alerte est en cours de mise au point.**| 
 | ![](./images/alertes/Tmax2.png#picto) | Sur-Temperature | journée | Certaines colonies n'arrivent pas à gérer leur température interne. Souvent il s'agit de divisions petites populations. Mais parfois c'est la météo qui a un effet majeur à cause d'un défaut d'exposition <br> Dans ce cas, le couvain de la ruche est mis à l'épreuve, car les températures peuvent atteindre les 40°C.| 
 | ![](./images/alertes/Tmin2.png#picto) | Froid extrême | journée | En hiver, la grappe se resserre et maintient la température très localement - en étant parfois loin du capteur. C'est pour cela que l'indication de "basse température" ne peut être qu'informative. En fonction du contexte, il faudra peut être agir.| 
@@ -292,10 +292,10 @@ De façon plus détaillée, voici les alertes disponibles et leurs caractéristi
 | ![](./images/alertes/Hmin.png#picto) | Faible humidité | journée | En saison, la zone optimale d'humidité se situe entre 50 et 75%.| 
 | ![](./images/alertes/Dead.png#picto) | Ruche morte | journée | Si vous voyez arriver cette alerte, c'est trop tard. Cela signifie qu'il n'y a plus de signal de vie dans la ruche.| 
 | ![](./images/alertes/Oxalic.png#picto) | Traiter varroa | journée | Cette alerte se déclenche lorsque le couvain moyen du rucher descend en dessous du seuil fixe (defaut à 15%). C'est le moment de planifier un traitement anti-varroa à l'acide Oxalique.| 
-| ![](./images/alertes/Super+.png#picto) | Ajout hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et affichée sur le calendrier.| 
-| ![](./images/alertes/Super-.png#picto) | Retrait hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et affichée sur le calendrier.| 
-| ![](./images/alertes/Stolen.png#picto) | Ruche volée | journée | Les capteurs ne disposent pas d'une géolocalisation. Cependant, pour les ruches disposant d'un capteur de poids, cette alerte prévient d'un poids anormalement faible, déclencheur possible d'un vol...| 
-
+| ![](./images/alertes/Super+.png#picto) | Ajout hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et affichée sur le calendrier à l'aide d'une indication du poids de vos hausses vides. <br> Nous avons fixé la valeur par défaut d'une hausse vide à 5kg. <br> Pour une ruche dadant, nous avons pris certaines mesures pouvant vous aider à fixer cette valeur : <br> Une hausse vide se situe entre 3,7 et 4,3kg. <br> Une hausse avec des cadres gaufrés pèse environ 6,40kg. <br> Une hausse avec des cadres etirés sera proche de 6,60kg.| 
+| ![](./images/alertes/Super-.png#picto) | Retrait hausse | journée | Pour les ruches équipées de balance, cette action est automatiquement détectée et affichée sur le calendrier à l'aide d'une indication du poids de vos hausses pleines. <br> Nous avons fixé la valeur par défaut d'une hausse pleine à 20kg. <br>| 
+| ![](./images/alertes/Stolen3.png#picto) | Ruche volée | journée | Les capteurs ne disposent pas d'une géolocalisation. Cependant, pour les ruches disposant d'un capteur de poids, cette alerte prévient d'un poids anormalement faible, déclencheur possible d'un vol...| 
+| ![](./images/alertes/weightThresold.png#picto) | Seuil de poids | horaire | Il peut être parfois important de suivre le poids des ruches et d'en fixer des seuils afin d'effectuer des opérations sur vos ruches après ceux-ci atteints. <br> La valeur par défaut a été fixée à 100kg. | 
 
 
 
@@ -314,7 +314,8 @@ Les alertes concernent majoritairement des évenements forts à extrêmes.
 | ![](./images/alertes/Rain.png#picto) | Pluie | jour | Forte pluie.<br> Valeur par défaut à 50 mm/j  | 
 | ![](./images/alertes/Snow.png#picto) | Neige | jour | Neige importante.<br> Valeur par défaut à 15cm/j   | 
 | ![](./images/alertes/Wind.png#picto) | Vent | jour | Vents forts.<br> Valeur par défaut pour des rafales à 30 km/h <br> Dans certaines régions, il est conseillé d'augmenter le seuil par défaut si les alertes sont trop régulières.| 
-| ![](./images/alertes/ColdPeriod.png#picto) | Froid | jour | Cette alerte est déclenchée en pleine saison lorsqu'il est prévu une période dite 'froide'. Cela inclut des journées ou des nuits jugées fraiches par rapport aux normales de saison. Nous fixons les paramètres nous-mêmes.| 
+| ![](./images/alertes/ColdDay.png#picto) | Froid | jour | Journée froide.<br> Valeur par défaut pour des journée en dessous de 0°C. <br> Dans certaines régions, il est conseillé de diminuer le seuil par défaut si les alertes sont trop régulières.|
+| ![](./images/alertes/HotDay.png#picto) | Chaud | jour | Journée chaude.<br> Valeur par défaut pour des journée au dessus de 40°C. <br> Vous devez ajuster le seuil par défaut en fonction de votre région.|
 
 ### Capteurs
 
