@@ -36,7 +36,7 @@ Les principales coulées de nectar dans le nord du Delaware ont lieu pendant les
 
 Les conditions météorologiques ont un impact important sur la manière dont la colonie, qui cherche de la nourriture, collecte le nectar des diverses fleurs disponibles. Les conditions de vol (pluie, vent, température, humidité, etc.) doivent être idéales lorsque les fleurs sont omniprésentes afin de maximiser le taux mensuel de recherche de nourriture. En examinant les formes des profils mensuels et le moment où les floraisons se produisent, les principales ressources en nectar du rucher peuvent être identifiées (et comparées d'une année sur l'autre).
 
-![nom de l'image](./images/dataint/02_monthlypng.png#thumbnail)
+![nom de l'image](./images/dataint/02_monthlypng.png#thumbnail2)
 
 ### Tableau de bord mensuel
 
@@ -50,7 +50,7 @@ En identifiant la semaine où le nectar est maximal, une série de profils récu
 
 Des profils hebdomadaires des gains de poids maximums peuvent être ajoutés à une bibliothèque de graphiques de tendances pour évaluer la capacité de recherche de nourriture d'un rucher par rapport à celle d'un autre rucher.
 
-![nom de l'image](./images/dataint/03_weekly.png#thumbnail)
+![nom de l'image](./images/dataint/03_weekly.png#thumbnail2)
 
 ### Tableau de bord hebdomadaire
 
@@ -62,7 +62,7 @@ Le taux moyen de cueillette pour les quatre meilleurs jours était d'environ 4,5
 
 En traçant le(s) jour(s) où le débit de nectar est maximal, on peut étudier le fonctionnement quotidien typique de la colonie. Les premiers vols de recherche de nourriture de la colonie ont lieu à la même heure chaque matin. Plusieurs "missions" de recherche de nourriture peuvent être observées au fur et à mesure que le poids augmente à différents rythmes (en fonction des fleurs disponibles à différentes heures de la journée). Vers le soir, les butineuses retournent à la ruche et le poids atteint son maximum pour la journée. Pendant la nuit, l'humidité du nectar s'évapore et les abeilles consomment le nectar.
 
-![nom de l'image](./images/dataint/04_daily.png#thumbnail)
+![nom de l'image](./images/dataint/04_daily.png#thumbnail2)
 
 ### Tableau de bord quotidien
 
@@ -76,7 +76,7 @@ C'est l'étude d'un cas où un capteur TH dans une ruche kenyane a permis de sui
 
 La colonie a été installée à partir d'un essaim dans cette ruche, puis déplacée plus loin. Une personne sur place a eu la gentillesse de recueillir les données du dispositif BM sur une base de données quotidienne et de les télécharger sur MyBroodMinder.com
 
-![nom de l'image](./images/dataint/05_th.png#thumbnail)
+![nom de l'image](./images/dataint/05_th.png#thumbnail2)
 
 Vous trouverez ci-dessous une capture d'écran de MyBroodMinder.com montrant toute la période durant laquelle la colonie a été dans cette ruche :
 
@@ -88,11 +88,11 @@ En raison de la nature de cette ruche et de l'emplacement du capteur à une extr
 
 Certes, la température ambiante a également baissé, mais à partir du 16 mai, les températures ambiantes étaient plus basses à l'époque, à température égale ou supérieure à celle de la ruche. J'en ai conclu que la colonie avait essaimé parce qu'une température plus basse signifie moins de chaleur produite, donc moins d'abeilles à l'intérieur de la ruche pour produire de la chaleur et maintenir la température de la ruche à un niveau plus élevé la nuit. J'y suis allé pour une inspection et voici ce que j'ai trouvé :
 
-![nom de l'image](./images/dataint/08.png#thumbnail)
+![nom de l'image](./images/dataint/08.png#thumbnail2)
 
 Peu d'abeilles sur le rayon et deux cellules d'essaim ouvertes au fond de deux rayons.
 
-![nom de l'image](./images/dataint/09.png#thumbnail)
+![nom de l'image](./images/dataint/09.png#thumbnail2)
 
 Il est clair que beaucoup d'abeilles ont déménagé. Ce n'est pas forcément une mauvaise chose car les abeilles qui restent ont de nombreuses ressources dans la ruche (pollen, nectar, miel). Le processus naturel de remplacement des reines a déjà commencé, puisque deux nouvelles reines ont éclos, comme le montrent les cellules d'essaim ouvertes. De plus, le nombre de parasites dans cette ruche va diminuer puisque le cycle du couvain a été interrompu.
 
@@ -139,7 +139,7 @@ Le coût de cette analyse est le prix d'achat du capteur BroodMinder, rien de pl
 
 Cet exemple montre comment plusieurs capteurs BroodMinder dans la même ruche peuvent être utilisés pour détecter un certain nombre de choses sans ouvrir la ruche.
 
-![nom de l'image](./images/dataint/14.png#thumbnail)
+![nom de l'image](./images/dataint/14.png#thumbnail2)
 
 L'installation est une ruche Langstorth à 8 cadres avec deux boîtes à couvain profondes, un plateau de fond grillagé (mais fermé), une planche à sucre avec une entrée supérieure au-dessus de la boîte supérieure, un couvercle intérieur et un couvercle extérieur isolés.
 
@@ -177,7 +177,7 @@ Il y a les variations quotidiennes causées par les abeilles qui apportent du ne
 
 À plus long terme, l'augmentation du poids a clairement cessé à la mi-juin. La ruche de droite montre même une tendance à la baisse du poids de la ruche. C'est un signe clair que la pénurie s'est installée et qu'il n'y a pas assez de nourriture naturelle disponible. Les abeilles commencent à consommer les réserves de miel ou, pire encore, les voleurs s'emparent de ce qu'ils peuvent obtenir. Le tableau ci-dessous illustre une telle situation.
 
-![nom de l'image](./images/dataint/19.png#thumbnail)
+![nom de l'image](./images/dataint/19.png#thumbnail2)
 
 La ruche pesait un poids impressionnant de 84 kg lorsque la pénurie a frappé. Le 28 juin, le poids a commencé à chuter comme une pierre. La nuit suivante, il s'est stabilisé à environ 70 kg. 14 kg perdus. Le jour suivant, une nouvelle perte de poids massive a eu lieu jusqu'à 60 kg, une autre perte de 10 kg. La perte de poids s'est poursuivie le lendemain jusqu'à ce que l'apiculteur retire les hausses de miel et reprenne le contrôle de la ruche. Les voleurs savaient exactement ce qu'ils faisaient après avoir découvert la vénérable ruche. Sortir ce que l'on peut le premier jour, se reposer, puis revenir en chercher d'autres, jour après jour. Il n'y avait pas d'autre ruche avec une balance à proximité, sinon nous aurions probablement vu où était passé le butin !
 
@@ -258,21 +258,21 @@ C'était vers le début du mois d'octobre.
 
 32° a été pris comme seuil pour déterminer la présence de couvain/reine. Les inspections des ruches ont confirmé la présence de couvain ouvert dans les cases indiquées en vert ci-dessus et l'absence ou la très faible présence de couvain operculé dans les cases indiquées en rouge.
 
-3) Reconfiguration et consolidation de la ruche
+3. Reconfiguration et consolidation de la ruche
 
 Les mesures suivantes seront prises ou ont déjà été prises :
 
-Ruche 1 : Ruche sans reine. Les deux boîtes seront combinées avec les ruches 4 et 6. La ruche 1 sera fermée pour l'hiver.
+- Ruche 1 : Ruche sans reine. Les deux boîtes seront combinées avec les ruches 4 et 6. La ruche 1 sera fermée pour l'hiver.
 
-Ruche 3 : pas de changement de configuration
+- Ruche 3 : pas de changement de configuration
 
-Ruche 4 : Combinez le couvain des deux boîtes à la boîte du bas. Cela crée un emplacement plus petit pour le couvain, plus facile à garder au chaud
+- Ruche 4 : Combinez le couvain des deux boîtes à la boîte du bas. Cela crée un emplacement plus petit pour le couvain, plus facile à garder au chaud
 
-Ruche 5 : pas de changement de configuration
+- Ruche 5 : pas de changement de configuration
 
-Ruche 6 : déplacer le couvain vers la boîte du bas
+- Ruche 6 : déplacer le couvain vers la boîte du bas
 
-Ruche 7 : pas de changement de configuration
+- Ruche 7 : pas de changement de configuration
 
 Toutes les ruches vivantes recevront une planche à sucre de 9 kg avec entrée par le haut. Cela permettra de s'occuper des ressources manquantes. Elles reçoivent également un isolant en polystyrène de 2 pouces pour le dessus de la ruche. Les entrées inférieures seront réduites à une largeur de 2 cm, les plateaux inférieurs grillagés seront fermés et les mangeoires d'entrée de Boardman seront supprimées.
 
