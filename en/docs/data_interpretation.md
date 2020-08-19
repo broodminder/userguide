@@ -39,7 +39,7 @@ The main nectar flows in northern Delaware occur during the months of May and Ju
 
 Weather conditions have a big impact on how well the colony's foraging population collects nectar from the variety of available blooms. Flying conditions (rain, wind, temperature, humidity, etc.) must be ideal when blooms are pervasive to maximize monthly foraging rate. By examining the shapes of the monthly profiles and observing when specific blooms occur, the major nectar resources for the apiary location can be determined (and compared year-to-year).
 
-![nom de l'image](./images/dataint/02_monthlypng.png#thumbnail)
+![nom de l'image](./images/dataint/02_monthlypng.png#thumbnail2)
 
 ### Monthly Trend Chart
 
@@ -53,7 +53,7 @@ By charting the week of maximum nectar flow, a series of repetitive profiles sho
 
 Weekly profiles of maximum weight gains can be added to a library of trend charts for evaluating an apiary's foraging capability to other apiary location's capability.
 
-![nom de l'image](./images/dataint/03_weekly.png#thumbnail)
+![nom de l'image](./images/dataint/03_weekly.png#thumbnail2)
 
 ### Weekly Trend Chart
 
@@ -65,7 +65,7 @@ The average foraging rate for the best four days was about 10 pounds per day. Th
 
 By charting the day(s) of maximum nectar flow, the typical daily routine of the colony can be studied. The colony's initial foraging flights occur at the same time each morning. Several foraging "missions" can be observed as the weight increases at various rates (depending on which blooms are available at different times of the day). Towards evening, the foraging force returns to the hive and the weight peaks for the day. During the night-time, moisture from the nectar is evaporated and bees consume nectar.
 
-![nom de l'image](./images/dataint/04_daily.png#thumbnail)
+![nom de l'image](./images/dataint/04_daily.png#thumbnail2)
 
 ### Daily Trend Chart
 
@@ -81,7 +81,7 @@ colony in a remote hive. The BroodMinder Temperature and Humidity Device was ins
 
 The colony was installed from a swarm into this hive and then moved to a remote location. My remote agent was kind enough to obtain the data from the BM device on a daily basis and upload it to MyBroodMinder.com
 
-![nom de l'image](./images/dataint/05_th.png#thumbnail)
+![nom de l'image](./images/dataint/05_th.png#thumbnail2)
 
 Below is a screen shot from MyBroodMinder.com showing the entire time period since the colony was in this hive:
 
@@ -93,11 +93,11 @@ Because of the nature of this hive and the location of the device at one end of 
 
 Granted, ambient temperature dropped, too but going back to May 16th, ambient temperatures were lower back then at the same or higher hive temperatures. I concluded from this that the colony had swarmed because lower temperature means less heat generated means less bees inside the hive to generate heat and keep the hive temperature at a higher level at night. I went there for an inspection and this is what I found:
 
-![nom de l'image](./images/dataint/08.png#thumbnail)
+![nom de l'image](./images/dataint/08.png#thumbnail2)
 
 Few bees on the comb and two open swarm cells at the bottom of two combs.
 
-![nom de l'image](./images/dataint/09.png#thumbnail)
+![nom de l'image](./images/dataint/09.png#thumbnail2)
 
 Clearly, a lot of bees have moved out to find a home elsewhere. This is not necessarily a bad thing because the bees which are left behind have ample resources in the hive (pollen, nectar, honey). The natural process of queen replacement has already begun since two new queens have hatched as evident from the open swarm cells. Also, the mite count in this hive will drop since the brood cycle has been interrupted.
 
@@ -144,7 +144,7 @@ The cost to do this analysis is the purchase price of the BroodMinder device, no
 
 This example shows how multiple BroodMinder devices in the same hive can be used to detect a number of things without actually opening the hive for physical inspection.
 
-![nom de l'image](./images/dataint/14.png#thumbnail)
+![nom de l'image](./images/dataint/14.png#thumbnail2)
 
 The setup is a 8-frame Langstorth hive with two deep brood boxes, screened (but closed) bottom board, sugar board with top entrance above the top box, insulated inner cover and outer cover.
 
@@ -182,7 +182,7 @@ There are the daily ripples caused by the bees bringing in nectar during the day
 
 Longer term, the weight increase clearly ceased middle of June. The hive on the right even shows a decreasing trend in hive weight. This is a clear sign that the dearth has set in and there is not enough natural food available. The bees begin to consume the honey stores or ever worse, robbers grab what they can get. Below is a chart of such a situation.
 
-![nom de l'image](./images/dataint/19.png#thumbnail)
+![nom de l'image](./images/dataint/19.png#thumbnail2)
 
 The hive weighed a whopping 185lb when the dearth hit. Then, on June 28th the weight started to drop like a rock. It stabilized at about 155lb the next night. 30lb lost. The following day, again massive weight loss took place down to 133lb, another 22lb lost. The weight loss continued the following day until the beekeeper removed the honey supers and got the hive under control. The robbers knew exactly what they were doing after they discovered the venerable hive. Take out what we can the first day, take a rest and then go back for more, day after day. There was no other hive with a scale nearby otherwise we would probably see where the loot went!
 
@@ -263,26 +263,26 @@ This was around the beginning of October
 
 90F was taken as a threshold to determine brood/queen presence. The hive inspections confirmed open brood presence in the boxes indicated in green above and no or very little capped brood in the boxes shown in red.
 
-3)Hive Reconfiguration and Consolidation
+3. Hive Reconfiguration and Consolidation
 
 The following actions will be taken or were taken already:
 
-Hive 1: Queenless hive. The two boxes will be combined with hives 4 and 6. Hive 1 will be closed for the winter.
+- Hive 1: Queenless hive. The two boxes will be combined with hives 4 and 6. Hive 1 will be closed for the winter.
 
-Hive 3: No configuration change
+- Hive 3: No configuration change
 
-Hive 4: Combine brood from both boxes to the bottom box. This creates a smaller brood location, easier to keep warm
+- Hive 4: Combine brood from both boxes to the bottom box. This creates a smaller brood location, easier to keep warm
 
-Hive 5: No configuration change
+- Hive 5: No configuration change
 
-Hive 6: Move brood to the bottom box
+- Hive 6: Move brood to the bottom box
 
-Hive 7: No configuration change
+- Hive 7: No configuration change
 
 All live hives will get a 20lb sugar board with top entrance. This will take care of the missing resources. They also get a 2" Styrofoam hive top insulation. Bottom entrances will be reduced to ¾" width, screened bottom boards will be closed and the Boardman entrance feeders will be removed.
 
 Good night girls. Sleep well and see you in the spring!
 
-All detailed charts from these hives can be viewed in the demo account of MyBroodMinder.com, use link below
+All detailed charts from these hives can be viewed in the demo account of MyBroodMinder.com, use link below:
 
 [http://app.MyBroodMinder.com/apiary/detail/bEz8YnexZpjyiMd6s7lSFvqGVKkaIAP5](http://app.beekeeping.io/apiary/detail/bEz8YnexZpjyiMd6s7lSFvqGVKkaIAP5)
