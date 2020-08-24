@@ -1,26 +1,12 @@
 # Data Interpretation
 
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
-
-<style>
-img[src*="#thumbnail2"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:250px;
-}</style>
-
 In this section, we present some initial findings from Theo's hives. We are still very much in the learning mode and will appreciate your observations shared on the BroodMinder forum at BroodMinder.com.
 
 We are constantly posting updates and videos at [BroodMinder.com/pages/videos](https://broodminder.com/pages/videos). Be sure to check there.
 
 These reports were written in the summer of 2016. You can look directly at the data in MyBroodMinder.com by looking in the Claypoint apiary. This is available as a demo apiary.
 
-![nom de l'image](./images/dataint/01_rucher.png#thumbnail#thumbnail)
+![nom de l'image](./images/dataint/01_rucher.png#mediumImg)
 
 
 ## Hive Weight Profiles
@@ -39,7 +25,7 @@ The main nectar flows in northern Delaware occur during the months of May and Ju
 
 Weather conditions have a big impact on how well the colony's foraging population collects nectar from the variety of available blooms. Flying conditions (rain, wind, temperature, humidity, etc.) must be ideal when blooms are pervasive to maximize monthly foraging rate. By examining the shapes of the monthly profiles and observing when specific blooms occur, the major nectar resources for the apiary location can be determined (and compared year-to-year).
 
-![nom de l'image](./images/dataint/02_monthlypng.png#thumbnail2)
+![nom de l'image](./images/dataint/02_monthlypng.png#mediumImg)
 
 ### Monthly Trend Chart
 
@@ -53,7 +39,7 @@ By charting the week of maximum nectar flow, a series of repetitive profiles sho
 
 Weekly profiles of maximum weight gains can be added to a library of trend charts for evaluating an apiary's foraging capability to other apiary location's capability.
 
-![nom de l'image](./images/dataint/03_weekly.png#thumbnail2)
+![nom de l'image](./images/dataint/03_weekly.png#mediumImg)
 
 ### Weekly Trend Chart
 
@@ -65,7 +51,7 @@ The average foraging rate for the best four days was about 10 pounds per day. Th
 
 By charting the day(s) of maximum nectar flow, the typical daily routine of the colony can be studied. The colony's initial foraging flights occur at the same time each morning. Several foraging "missions" can be observed as the weight increases at various rates (depending on which blooms are available at different times of the day). Towards evening, the foraging force returns to the hive and the weight peaks for the day. During the night-time, moisture from the nectar is evaporated and bees consume nectar.
 
-![nom de l'image](./images/dataint/04_daily.png#thumbnail2)
+![nom de l'image](./images/dataint/04_daily.png#mediumImg)
 
 ### Daily Trend Chart
 
@@ -81,23 +67,23 @@ colony in a remote hive. The BroodMinder Temperature and Humidity Device was ins
 
 The colony was installed from a swarm into this hive and then moved to a remote location. My remote agent was kind enough to obtain the data from the BM device on a daily basis and upload it to MyBroodMinder.com
 
-![nom de l'image](./images/dataint/05_th.png#thumbnail2)
+![nom de l'image](./images/dataint/05_th.png#mediumImg)
 
 Below is a screen shot from MyBroodMinder.com showing the entire time period since the colony was in this hive:
 
-![nom de l'image](./images/dataint/06.png#thumbnail)
+![nom de l'image](./images/dataint/06.png#largeImg)
 
 Because of the nature of this hive and the location of the device at one end of the hive, it is not expected that the measured hive temperature stays at one level as it is the case in a Langstroth hive. What caught my eye were the last two days where the temperature dropped to the lowest level since the bees were introduced into this hive.
 
-![nom de l'image](./images/dataint/07.png#thumbnail)
+![nom de l'image](./images/dataint/07.png#largeImg)
 
 Granted, ambient temperature dropped, too but going back to May 16th, ambient temperatures were lower back then at the same or higher hive temperatures. I concluded from this that the colony had swarmed because lower temperature means less heat generated means less bees inside the hive to generate heat and keep the hive temperature at a higher level at night. I went there for an inspection and this is what I found:
 
-![nom de l'image](./images/dataint/08.png#thumbnail2)
+![nom de l'image](./images/dataint/08.png#largeImg)
 
 Few bees on the comb and two open swarm cells at the bottom of two combs.
 
-![nom de l'image](./images/dataint/09.png#thumbnail2)
+![nom de l'image](./images/dataint/09.png#largeImg)
 
 Clearly, a lot of bees have moved out to find a home elsewhere. This is not necessarily a bad thing because the bees which are left behind have ample resources in the hive (pollen, nectar, honey). The natural process of queen replacement has already begun since two new queens have hatched as evident from the open swarm cells. Also, the mite count in this hive will drop since the brood cycle has been interrupted.
 
@@ -109,21 +95,21 @@ The BroodMinder TH device together with a remote agent and MyBroodMinder.com pro
 
 This document describes findings on two hives which were started this spring. One was from package and the other one was a small swarm. Both colonies were introduced into Langstroth 8-frame deep box hives and were developing at a more on less identical pace and both hives were expanded to two brood boxes per hive pretty quickly. The BroodMinder Temperature and Humidity devices (TH) were placed on top of the upper brood box. There is no super above that, just the inner and outer covers. Temperature peaks started to appear on June 6th at times when the mid-day sun was hitting the outer cover of the hives as can be seen on the chart below.
 
-![nom de l'image](./images/dataint/10.png#thumbnail)
+![nom de l'image](./images/dataint/10.png#largeImg)
 
 The peaks would reach 100+F almost every day between June 6th and June 15th. At times, these temperatures were 20F above ambient temperature and clearly, this must have put unnecessary stress on the bees. The hives essentially became greenhouses. This was surprising because both hives have screened bottom boards and screened and ventilated inner covers for the summer months. A 2" high density Styrofoam insulation was placed on top of the screened and ventilated inner cover on the starter hives on June 15th. This resulted in elimination of the temperature peaks.
 
 For comparison, here is a temperature profile from a mature hive with honey supers:
 
-![nom de l'image](./images/dataint/11.png#thumbnail)
+![nom de l'image](./images/dataint/11.png#largeImg)
 
 No peaks and a more mellow change in temperature.
 
 These same to charts are shown again below and a few additional things can be concluded from them:
 
-![nom de l'image](./images/dataint/12.png#thumbnail)
+![nom de l'image](./images/dataint/12.png#largeImg)
 
-![nom de l'image](./images/dataint/13.png#thumbnail)
+![nom de l'image](./images/dataint/13.png#largeImg)
 
 Notice that the difference between the hive temperature and ambient temperature generally is smaller for the starter hive (top) compared to the established hive (bottom). The reason is the number of bees in the hive. The starter colony is affected much more by changes in ambient temperature than the established colony.
 
@@ -144,7 +130,7 @@ The cost to do this analysis is the purchase price of the BroodMinder device, no
 
 This example shows how multiple BroodMinder devices in the same hive can be used to detect a number of things without actually opening the hive for physical inspection.
 
-![nom de l'image](./images/dataint/14.png#thumbnail2)
+![nom de l'image](./images/dataint/14.png#mediumImg)
 
 The setup is a 8-frame Langstorth hive with two deep brood boxes, screened (but closed) bottom board, sugar board with top entrance above the top box, insulated inner cover and outer cover.
 
@@ -158,13 +144,13 @@ Here is an overview of the data collected. The green line represents the tempera
 
 * Both boxes are getting warmer which could be a sign that the queen started lying, potentially in both boxes. 
 
-![nom de l'image](./images/dataint/15.png#thumbnail)
+![nom de l'image](./images/dataint/15.png#largeImg)
 
 This chart is broken down in sections for a closer look at the data and corresponding analysis.
 
-![nom de l'image](./images/dataint/16.png#thumbnail)
+![nom de l'image](./images/dataint/16.png#largeImg)
 
-![nom de l'image](./images/dataint/17.png#thumbnail)
+![nom de l'image](./images/dataint/17.png#largeImg)
 
 Here a switch happens and the bottom box begins to get many bees up there. The bottom box is now kept at 90+F. Perfect conditions for brood to develop. The top box follows the ambient temperature swings. Not warmer than the top indication that the queen has moved down into the lower box.
 
@@ -176,13 +162,13 @@ These data indicate a healthy hive and a subsequent inspection revealed that thi
 
 Every spring it is a pleasure for beekeepers to watch the bees going on their daily excursions and bringing back pollen and nectar. As we all know, this is to both feed the larva and also to produce honey stores for the next winter for the colony to feed on. Having the hive weight available is a great help in making the decision when to harvest honey from the hive. There is a spring nectar flow which can produce large amounts of honey in a short time as seen in the charts copied from the mobile app below. The hive weight increased rapidly during the second part of May.
 
-![nom de l'image](./images/dataint/18.png#thumbnail)
+![nom de l'image](./images/dataint/18.png#largeImg)
 
 There are the daily ripples caused by the bees bringing in nectar during the day causing weight increase. Then, during the night, bees are busy reducing the water content and the hive weight decreases. There also are the larger jumps where the beekeeper added or removed frames or supers.
 
 Longer term, the weight increase clearly ceased middle of June. The hive on the right even shows a decreasing trend in hive weight. This is a clear sign that the dearth has set in and there is not enough natural food available. The bees begin to consume the honey stores or ever worse, robbers grab what they can get. Below is a chart of such a situation.
 
-![nom de l'image](./images/dataint/19.png#thumbnail2)
+![nom de l'image](./images/dataint/19.png#mediumImg)
 
 The hive weighed a whopping 185lb when the dearth hit. Then, on June 28th the weight started to drop like a rock. It stabilized at about 155lb the next night. 30lb lost. The following day, again massive weight loss took place down to 133lb, another 22lb lost. The weight loss continued the following day until the beekeeper removed the honey supers and got the hive under control. The robbers knew exactly what they were doing after they discovered the venerable hive. Take out what we can the first day, take a rest and then go back for more, day after day. There was no other hive with a scale nearby otherwise we would probably see where the loot went!
 
@@ -206,9 +192,9 @@ As an early adopter of the Citizen Science (CS) Project, I have seven hives set 
 
 True to their name, BroodMinder devices detect the presence of brood: The measured temperatures show that the bees hold the nest temperature at a constant 95-96°F when good brood is present. The charts below show both, the superb job the bees are doing raising babies and also the quality of the BM devices showing exact temperatures. 
 
-![nom de l'image](./images/dataint/20.png#thumbnail)
+![nom de l'image](./images/dataint/20.png#largeImg)
 
-![nom de l'image](./images/dataint/21.png#thumbnail)
+![nom de l'image](./images/dataint/21.png#largeImg)
 
 ## Using BroodMinder Data to Optimize Hive Preparation for Winter
 
@@ -250,7 +236,7 @@ Hive temperatures indicate that the queens have slowed down their laying rates, 
 
 Below is an example to show this condition. The bee colony kept both brood boxes at around 96F until the end of September. Then the bottom box dropped off followed by the upper one. This would indicate that the queen stopped laying in the bottom box first followed by the top one. Beekeepers who use Oxalic acid to reduce the Varroah mite count in their hives can use this temperature drop as a trigger to start treating their hives because from that point forward there will be a minimal number of capped brood cells in the hive.
 
-![nom de l'image](./images/dataint/22.png#thumbnail)
+![nom de l'image](./images/dataint/22.png#largeImg)
 
 Taking a snapshot of the temperature levels before the queen laying rate started to decrease showed the following:
 

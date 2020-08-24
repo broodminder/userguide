@@ -1,11 +1,5 @@
 # FAQ
 
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
 
 ## Sensors & software
 
@@ -13,15 +7,15 @@ img[src*="#thumbnail"] {
 
 The BroodMinder app (also called BroodMinder Lite) is the basic free application. With this app, you can visualize your sensors, send your data by e-mail, see different graphs, annotate your inspections, etc.
 
-![BroodMinder](./images/05_broodminder_lite.png#thumbnail) 
+![BroodMinder](./images/05_broodminder_lite.png#smallImg) 
 
 BroodMinder Apiary is a more powerful app. It makes it possible to download data from all your BroodMinder sensors in a single step. This is an efficient time-saver for users that have many sensors. The app is free but requires a subscription for productivity features.
 
-![BroodMinder Apiary](./images/11_0_broodminder_apiary.png#thumbnail)
+![BroodMinder Apiary](./images/11_0_broodminder_apiary.png#smallImg)
 
 BroodMinder Cell is the app for controlling Hubs.
 
-![BroodMinder Cell](./images/11_0_broodminder_cell.png#thumbnail)
+![BroodMinder Cell](./images/11_0_broodminder_cell.png#smallImg)
 
 ### Retrieving data from sensors
 
@@ -61,13 +55,13 @@ Don't worry as long as the battery is replaced. The sensors will last for many y
 
 Contact us via the link below the login button. We will help you as fast as possible. 
 
-![Login problem](./images/fail_login.png#thumbnail)
+![Login problem](./images/fail_login.png#mediumImg)
 
 ### I'd like to explore Mellisphera but I'm not equipped yet ###
 
 You can use our demo account. You will visualize data from a few hives so you can see the solution functionalities. Browse and edit freely, we reset the account every night!
 
-![Demo account](./images/demo_account.png#thumbnail)
+![Demo account](./images/demo_account.png#mediumImg)
 
 ### Account Settings
 
@@ -75,11 +69,11 @@ You can use our demo account. You will visualize data from a few hives so you ca
 
 You have access to all your account settings in the top right corner of the Mellisphera app. 
 
-![Account settings](./images/settings_app.png)
+![Account settings](./images/settings_app.png#smallImg)
 
 You can change as you wish the unit system (metric or imperial), the date format and the language (French, Spanish and English available for the moment). You can also choose your weather source. Depending on your preference and your feedback, you will have the possibility to choose your favourite source. 
 
-![Account settings](./images/all_settings.png)
+![Account settings](./images/all_settings.png#smallImg)
 
 ## Data
 
@@ -93,8 +87,8 @@ Computing daily data :
 
 Time <br> UTC | Paris <br> CET | NewYork <br> EDT
 --- | --- | ---
-7:00 | 8:00 | 1:00
-13:00 | 14:00 | 9:00
+6:00 | 7:00 | 1:00
+12:00 | 13:00 | 7:00
 
 (*) note that it may apply +1h in summer time.
 
@@ -129,17 +123,17 @@ If your calendars are empty, please check if you filled in the 'Postal Code' and
 
 In order to collect moon and weather data, we need to know a bit about your apiary location. If your settings are correct, your calendars should look like this:
 
-![Moon calendar](./images/lune.png#thumbnail)
+![Moon calendar](./images/lune.png#mediumImg)
 
-![Weather](./images/meteo.png#thumbnail)
+![Weather](./images/meteo.png#mediumImg)
 
 #### My weather calendar indicates that it rained a lot yesterday, but it didn't. Why ?
 
-![Rainfall](./images/pluie_mm.png#thumbnail)
+![Rainfall](./images/pluie_mm.png#mediumImg)
 
 Weather services are based on models and locations that are not always accurate. In some cases, your data may be slightly different from reality. If you are not satisfied with the results, you can change your weather source in the Mellisphera account settings (see above in the settings section).
 
-![Rainfall](./images/choix_model.png#thumbnail)
+![Rainfall](./images/choix_model.png#smallImg)
 
 #### My hive lost a lot of weight yesterday due to the removal of a supper but I can't see it in the weight chart. Why ? 
 
@@ -149,11 +143,11 @@ The "weight" chart displays the daily productivity of your connected hives. We c
 
 This means that you have several scales assigned to your hive. Please check your sensor assignments on MyBroodMinder.com. If this is on purpose, you can check or uncheck (on top of the calendar) the sensor you want to display. All weight sensors are displayed by defaults.
 
-![Sensor choice](./images/choix_capteurW.png#thumbnail)
+![Sensor choice](./images/choix_capteurW.png#mediumImg)
 
 #### Why do I have white stickers on my apiary picture? 
 
-![White sticker](./images/pastille_blanche.png#thumbnail)
+![White sticker](./images/pastille_blanche.png#smallImg)
 
 When you have a white sticker (without color), it means that there is no data associated with this sensor at the selected time. The reasons can be multiple, but the main cause is a transmission or a synchronization problem.
 
@@ -161,9 +155,9 @@ When you have a white sticker (without color), it means that there is no data as
 
 Yes! You can modify and customize the alerts as you wish. Simply go to the alert settings. 
 
-![Alert icon](./images/alerts_settings.png)
+![Alert icon](./images/alerts_settings.png#picto)
 
-![Alert interface](./images/config_alert_prob.png#thumbnail)
+![Alert interface](./images/config_alert_prob.png#largeImg)
 
 However, please note that this action is not retroactive. The modification will be active from the moment you change the settings - we don't go back to the alert history. The changes mde will only affect the new alerts. Be careful, the message displayed when you hover over the alerts only depends on your current settings. Changes will be immediately effective in your event calendars.
 
@@ -171,9 +165,9 @@ However, please note that this action is not retroactive. The modification will 
 
 The email sending is by default deactivated. You must go to the alert settings (see green button), then go to the settings (see below).
 
-![Alert icon](./images/alerts_settings.png)
+![Alert icon](./images/alerts_settings.png#picto)
 
-![Email](./images/email_test.png#thumbnail)
+![Email](./images/email_test.png#mediumImg)
 
 You can activate it simply by clicking 'ON'. By default, your login email is written in the 'Email 1' box but you can modify it or add a second one. Emails will be sent to both addresses if you choose to enter two. You can test that this is working by pressing the test button - an email will be instantly sent to you. 
 
@@ -181,13 +175,13 @@ Lastly, you can set the sending frequency as you wish. In this email, you will f
 
 #### One of my sensors is displayed in red, what does that mean?
 
-![Sensor problem](./images/problem_sensor.png#thumbnail)
+![Sensor problem](./images/problem_sensor.png#mediumImg)
 
 Indeed, in the 'My Apiary' section of Mellisphera, you can check your sensor status in the 'Sensor' tab. In this case, this means that there is actually a problem with your sensor. If your sensor is displayed in orange or red, we recommend you to go and check it. When you hover the sensor, the message displayed can give you some indications (see above). The battery might be low or if you are equipped with a Hub, your sensor might have a signal problem. We recommend you anyway to go and check your device. 
 
 Mellisphera has an alert system that notifies you when this type of event happens on your hive. We can therefore inform you by email (as long as you have activated the email option) of your sensor status.
 
-![Sensor alerts](./images/device_problem.png#thumbnail)
+![Sensor alerts](./images/device_problem.png#largeImg)
 
 ## Sharing
 

@@ -1,23 +1,9 @@
 # Data Interpretation
 
 
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
-
-<style>
-img[src*="#thumbnail2"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:250px;
-}</style>
-
 Dans cette partie, nous présentons les premiers résultats des ruches de Théo au cours de l'été 2016. Nous publions constamment des mises à jour et des articles sur notre [Blog](https://www.mellisphera.com/blog/).
 
-![nom de l'image](./images/dataint/01_rucher.png#thumbnail#thumbnail)
+![nom de l'image](./images/dataint/01_rucher.png#mediumImg)
 
 
 ## Profil de poids des ruches
@@ -36,7 +22,7 @@ Les principales coulées de nectar dans le nord du Delaware ont lieu pendant les
 
 Les conditions météorologiques ont un impact important sur la manière dont la colonie, qui cherche de la nourriture, collecte le nectar des diverses fleurs disponibles. Les conditions de vol (pluie, vent, température, humidité, etc.) doivent être idéales lorsque les fleurs sont omniprésentes afin de maximiser le taux mensuel de recherche de nourriture. En examinant les formes des profils mensuels et le moment où les floraisons se produisent, les principales ressources en nectar du rucher peuvent être identifiées (et comparées d'une année sur l'autre).
 
-![nom de l'image](./images/dataint/02_monthlypng.png#thumbnail2)
+![nom de l'image](./images/dataint/02_monthlypng.png#mediumImg)
 
 ### Tableau de bord mensuel
 
@@ -50,7 +36,7 @@ En identifiant la semaine où le nectar est maximal, une série de profils récu
 
 Des profils hebdomadaires des gains de poids maximums peuvent être ajoutés à une bibliothèque de graphiques de tendances pour évaluer la capacité de recherche de nourriture d'un rucher par rapport à celle d'un autre rucher.
 
-![nom de l'image](./images/dataint/03_weekly.png#thumbnail2)
+![nom de l'image](./images/dataint/03_weekly.png#mediumImg)
 
 ### Tableau de bord hebdomadaire
 
@@ -62,7 +48,7 @@ Le taux moyen de cueillette pour les quatre meilleurs jours était d'environ 4,5
 
 En traçant le(s) jour(s) où le débit de nectar est maximal, on peut étudier le fonctionnement quotidien typique de la colonie. Les premiers vols de recherche de nourriture de la colonie ont lieu à la même heure chaque matin. Plusieurs "missions" de recherche de nourriture peuvent être observées au fur et à mesure que le poids augmente à différents rythmes (en fonction des fleurs disponibles à différentes heures de la journée). Vers le soir, les butineuses retournent à la ruche et le poids atteint son maximum pour la journée. Pendant la nuit, l'humidité du nectar s'évapore et les abeilles consomment le nectar.
 
-![nom de l'image](./images/dataint/04_daily.png#thumbnail2)
+![nom de l'image](./images/dataint/04_daily.png#mediumImg)
 
 ### Tableau de bord quotidien
 
@@ -76,23 +62,23 @@ C'est l'étude d'un cas où un capteur TH dans une ruche kenyane a permis de sui
 
 La colonie a été installée à partir d'un essaim dans cette ruche, puis déplacée plus loin. Une personne sur place a eu la gentillesse de recueillir les données du dispositif BM sur une base de données quotidienne et de les télécharger sur MyBroodMinder.com
 
-![nom de l'image](./images/dataint/05_th.png#thumbnail2)
+![nom de l'image](./images/dataint/05_th.png#smallImg)
 
 Vous trouverez ci-dessous une capture d'écran de MyBroodMinder.com montrant toute la période durant laquelle la colonie a été dans cette ruche :
 
-![nom de l'image](./images/dataint/06.png#thumbnail)
+![nom de l'image](./images/dataint/06.png#largeImg)
 
 En raison de la nature de cette ruche et de l'emplacement du capteur à une extrémité de la ruche, il n'est pas prévu que la température mesurée de la ruche reste à un seul niveau comme c'est le cas dans une ruche Langstroth. Ce qui a attiré mon attention, ce sont les deux derniers jours où la température est tombée au niveau le plus bas depuis que les abeilles ont été introduites dans cette ruche.
 
-![nom de l'image](./images/dataint/07.png#thumbnail)
+![nom de l'image](./images/dataint/07.png#largeImg)
 
 Certes, la température ambiante a également baissé, mais à partir du 16 mai, les températures ambiantes étaient plus basses à l'époque, à température égale ou supérieure à celle de la ruche. J'en ai conclu que la colonie avait essaimé parce qu'une température plus basse signifie moins de chaleur produite, donc moins d'abeilles à l'intérieur de la ruche pour produire de la chaleur et maintenir la température de la ruche à un niveau plus élevé la nuit. J'y suis allé pour une inspection et voici ce que j'ai trouvé :
 
-![nom de l'image](./images/dataint/08.png#thumbnail2)
+![nom de l'image](./images/dataint/08.png#mediumImg)
 
 Peu d'abeilles sur le rayon et deux cellules d'essaim ouvertes au fond de deux rayons.
 
-![nom de l'image](./images/dataint/09.png#thumbnail2)
+![nom de l'image](./images/dataint/09.png#mediumImg)
 
 Il est clair que beaucoup d'abeilles ont déménagé. Ce n'est pas forcément une mauvaise chose car les abeilles qui restent ont de nombreuses ressources dans la ruche (pollen, nectar, miel). Le processus naturel de remplacement des reines a déjà commencé, puisque deux nouvelles reines ont éclos, comme le montrent les cellules d'essaim ouvertes. De plus, le nombre de parasites dans cette ruche va diminuer puisque le cycle du couvain a été interrompu.
 
@@ -104,21 +90,21 @@ Le capteur BroodMinder TH, associé à une personne à distance et à MyBroodMin
 
 Ce document décrit les résultats obtenus sur deux ruches qui ont débuté ce printemps. L'une d'entre elles provenait d'un regroupement et l'autre d'un petit essaim. Les deux colonies ont été introduites dans des ruches Langstroth à 8 cadres et à boîtes profondes et se sont développées à un rythme plus ou moins identique. Les deux ruches se sont étendues assez rapidement à deux boîtes de couvain par ruche. Les capteurs de température et d'humidité (TH) de BroodMinder ont été placés sur le dessus de la boîte de couvain supérieure. Il n'y a pas de cadre supérieur au-dessus, seulement les couvercles intérieur et extérieur. Les pics de température ont commencé à apparaître le 6 juin au moment où le soleil de midi frappait le couvercle extérieur des ruches, comme le montre le tableau ci-dessous.
 
-![nom de l'image](./images/dataint/10.png#thumbnail)
+![nom de l'image](./images/dataint/10.png#largeImg)
 
 Les pics ont atteint plus de 37° presque chaque jour entre le 6 et le 15 juin. Parfois, ces températures étaient supérieures de 7° à la température ambiante et, de toute évidence, cela a dû imposer un stress inutile aux abeilles. Les ruches sont devenues des serres. C'était surprenant car les deux ruches ont des plateaux de fond et des couvercles intérieurs grillagés et ventilés pour les mois d'été. Le 15 juin, un isolant en polystyrène haute densité de 2 pouces a été placé sur le couvercle intérieur grillagé et ventilé des ruches de démarrage. Cela a permis d'éliminer les pics de température.
 
 À titre de comparaison, voici un profil de température d'une ruche mature avec des hausses de miel :
 
-![nom de l'image](./images/dataint/11.png#thumbnail)
+![nom de l'image](./images/dataint/11.png#largeImg)
 
 Pas de pics et un changement de température plus doux.
 
 Ces mêmes graphiques sont présentés à nouveau ci-dessous et permettent de tirer quelques conclusions supplémentaires :
 
-![nom de l'image](./images/dataint/12.png#thumbnail)
+![nom de l'image](./images/dataint/12.png#largeImg)
 
-![nom de l'image](./images/dataint/13.png#thumbnail)
+![nom de l'image](./images/dataint/13.png#largeImg)
 
 Notez que la différence entre la température de la ruche et la température ambiante est généralement plus faible pour la ruche de démarrage (en haut) que pour la ruche établie (en bas). La raison en est le nombre d'abeilles dans la ruche. La ruche de démarrage est beaucoup plus affectée par les changements de température ambiante que la colonie établie.
 
@@ -139,7 +125,7 @@ Le coût de cette analyse est le prix d'achat du capteur BroodMinder, rien de pl
 
 Cet exemple montre comment plusieurs capteurs BroodMinder dans la même ruche peuvent être utilisés pour détecter un certain nombre de choses sans ouvrir la ruche.
 
-![nom de l'image](./images/dataint/14.png#thumbnail2)
+![nom de l'image](./images/dataint/14.png#mediumImg)
 
 L'installation est une ruche Langstorth à 8 cadres avec deux boîtes à couvain profondes, un plateau de fond grillagé (mais fermé), une planche à sucre avec une entrée supérieure au-dessus de la boîte supérieure, un couvercle intérieur et un couvercle extérieur isolés.
 
@@ -153,13 +139,13 @@ Voici un aperçu des données recueillies. La ligne verte représente la tempér
 
 * Les deux boîtes se réchauffent, ce qui pourrait être un signe que la reine a commencé à pondre, potentiellement dans les deux boîtes. 
 
-![nom de l'image](./images/dataint/15.png#thumbnail)
+![nom de l'image](./images/dataint/15.png#largeImg)
 
 Ce graphique est divisé en sections pour un examen plus approfondi des données et de l'analyse correspondante.
 
-![nom de l'image](./images/dataint/16.png#thumbnail)
+![nom de l'image](./images/dataint/16.png#largeImg)
 
-![nom de l'image](./images/dataint/17.png#thumbnail)
+![nom de l'image](./images/dataint/17.png#largeImg)
 
 Ici, un changement se produit et l'état de la boîte du bas commence à faire monter de nombreuses abeilles. La boîte du bas est maintenant maintenue à 32°. Des conditions parfaites pour le développement du couvain. La boîte supérieure suit les variations de la température ambiante. L'indication du haut montre que la reine est descendue dans la boîte inférieure.
 
@@ -171,13 +157,13 @@ Ces données indiquent une ruche saine et une inspection ultérieure a révélé
 
 Chaque printemps, les apiculteurs ont le plaisir d'observer les abeilles qui font leurs sorties quotidiennes et ramènent du pollen et du nectar. Comme nous le savons tous, cela sert à la fois à nourrir les larves et à produire des réserves de miel pour l'hiver suivant, afin que la colonie puisse se nourrir. Le fait de disposer du poids de la ruche est une grande aide pour décider du moment de la récolte du miel de la ruche. Il existe un flux de nectar de printemps qui peut produire de grandes quantités de miel en peu de temps, comme le montrent les graphiques copiés à partir de l'application mobile ci-dessous. Le poids de la ruche a augmenté rapidement pendant la deuxième partie du mois de mai.
 
-![nom de l'image](./images/dataint/18.png#thumbnail)
+![nom de l'image](./images/dataint/18.png#largeImg)
 
 Il y a les variations quotidiennes causées par les abeilles qui apportent du nectar pendant la journée, ce qui entraîne une augmentation de poids. Ensuite, pendant la nuit, les abeilles s'occupent de réduire la teneur en eau et le poids de la ruche diminue. Il y a aussi les grandes variations où l'apiculteur ajoute ou enlève des cadres ou des hausses.
 
 À plus long terme, l'augmentation du poids a clairement cessé à la mi-juin. La ruche de droite montre même une tendance à la baisse du poids de la ruche. C'est un signe clair que la pénurie s'est installée et qu'il n'y a pas assez de nourriture naturelle disponible. Les abeilles commencent à consommer les réserves de miel ou, pire encore, les voleurs s'emparent de ce qu'ils peuvent obtenir. Le tableau ci-dessous illustre une telle situation.
 
-![nom de l'image](./images/dataint/19.png#thumbnail2)
+![nom de l'image](./images/dataint/19.png#mediumImg)
 
 La ruche pesait un poids impressionnant de 84 kg lorsque la pénurie a frappé. Le 28 juin, le poids a commencé à chuter comme une pierre. La nuit suivante, il s'est stabilisé à environ 70 kg. 14 kg perdus. Le jour suivant, une nouvelle perte de poids massive a eu lieu jusqu'à 60 kg, une autre perte de 10 kg. La perte de poids s'est poursuivie le lendemain jusqu'à ce que l'apiculteur retire les hausses de miel et reprenne le contrôle de la ruche. Les voleurs savaient exactement ce qu'ils faisaient après avoir découvert la vénérable ruche. Sortir ce que l'on peut le premier jour, se reposer, puis revenir en chercher d'autres, jour après jour. Il n'y avait pas d'autre ruche avec une balance à proximité, sinon nous aurions probablement vu où était passé le butin !
 
@@ -201,9 +187,9 @@ En tant que pionnier du projet Science citoyenne (CS), j'ai installé sept ruche
 
 Fidèles à leur nom, les appareils BroodMinder détectent la présence de couvain : les températures mesurées montrent que les abeilles maintiennent la température du nid à une valeur constante de 35°C en présence de bon couvain. Les graphiques ci-dessous montrent à la fois le superbe travail des abeilles dans l'élevage des bébés et la qualité des appareils de mesure de la température qui indiquent les températures exactes. 
 
-![nom de l'image](./images/dataint/20.png#thumbnail)
+![nom de l'image](./images/dataint/20.png#largeImg)
 
-![nom de l'image](./images/dataint/21.png#thumbnail)
+![nom de l'image](./images/dataint/21.png#largeImg)
 
 ## Utiliser les données pour optimiser la préparation des ruches pour l'hiver
 
@@ -245,7 +231,7 @@ Les températures des ruches indiquent que les reines ont ralenti leur taux de p
 
 Vous trouverez ci-dessous un exemple pour illustrer cela. La colonie d'abeilles a maintenu les deux boîtes à couvain à environ 95°C jusqu'à la fin du mois de septembre. Ensuite, la boîte du bas est tombée, suivie de celle du haut. Cela indiquerait que la reine a cessé de pondre dans la boîte du bas en premier, suivie par celle du haut. Les apiculteurs qui utilisent l'acide oxalique pour réduire le nombre d'acariens Varroa dans leurs ruches peuvent utiliser cette baisse de température comme un déclencheur pour commencer à traiter leurs ruches : en effet, à partir de ce moment, il y aura un nombre minimal de cellules à couvain operculées dans la ruche.
 
-![nom de l'image](./images/dataint/22.png#thumbnail)
+![nom de l'image](./images/dataint/22.png#largeImg)
 
 La prise d'un instantané des niveaux de température avant que le taux de ponte des reines ne commence à diminuer a montré ce qui suit :
 

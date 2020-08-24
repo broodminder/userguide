@@ -1,38 +1,4 @@
 # Mellisphera.com
-<style>
-img[src*="#thumbnail0"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:750px;
-}</style>
-
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
-
-<style>
-img[src*="#thumbnail1"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:375px;
-}</style>
-
-<style>
-img[src*="#thumbnail2"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:250px;
-}</style>
-
-<style>
-img[src*="#picto"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:50px;
-}</style>
 
 ## Présentation générale 
 
@@ -42,7 +8,7 @@ img[src*="#picto"] {
 
 Mellisphera est intégrée avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers / ruches sur [MyBroodMinder.com](https://mybroodminder.com). Le site vous permet d'affecter les capteurs à chaque ruche et de visualiser les données mesurées. 
 
-![Ecran BroodMinder](./images/ecran_MBM.png#thumbnail)
+![Ecran BroodMinder](./images/ecran_MBM.png#largeImg)
 
 Un bouton Mellisphera est toujours visible sur le menu de gauche, il suffit de cliquer sur celui-ci pour y accéder. Si vous vous êtes connectés récemment, la connexion se fera sans que vous ayez besoin de rentrer votre email et votre mot de passe. Dans le cas contraire, le champ de l'email sera pré-rempli. 
 
@@ -50,7 +16,7 @@ Votre aventure commence donc maintenant [https://bzz.mellisphera.com/login](http
 
 ## Page de connexion 
 
-![Ecran Mellisphera](./images/ecran_MS.png#thumbnail)
+![Ecran Mellisphera](./images/ecran_MS.png#largeImg)
 
 Sur la page de connexion, vous avez la possibilité de vous connecter à un rucher démo si vous ne possédez aucun compte ou si vous êtes curieux et avide de nouveauté. Vous pouvez lire les informations qui vous en apprendront davantage sur la relation entre BroodMinder et Mellisphera et sur ce que Mellisphera peut vous apporter.
 
@@ -62,23 +28,23 @@ Nous allons faire un tour ensemble des différentes fonctionnalités de Mellisph
 
 Une fois connecté à Mellisphera vous devriez arriver sur cette interface. Elle se décompose en trois zones:
 
-![Ecran d'accueil](./images/home_app.png#thumbnail)
+![Ecran d'accueil](./images/home_app.png#largeImg)
 
 La barre d'en haut vous permet de sélectionner le rucher à visualiser. Un peu plus loin se trouvent vos préférences. Sur le côté gauche se trouvent les différents environnements de Mellisphera. Nous allons explorer chacun de ces espaces dans les prochains chapitres. 
 
 Des infobulles sont également positionnées à côté de chaque fonctionnalité. Elles détaillent les informations essentielles à la compréhension des données.
 
-![Infobulles](./images/infobulles.png#thumbnail)
+![Infobulles](./images/infobulles.png#mediumImg)
 
 ## Paramètres de compte
 
 En haut à droite sur l'app Mellisphera, vous avec accès à vos paramètres de compte. 
 
-![Paramètres de compte](./images/settings_app.png#thumbnail2)
+![Paramètres de compte](./images/settings_app.png#smallImg)
 
 Vous pouvez réinitialiser votre mot de passe. Attention, cela ne modifie le mot de passe que pour la plateforme Mellisphera. 
 
-![Mot de passe](./images/password.png#thumbnail)
+![Mot de passe](./images/password.png#mediumImg)
 
 Vous pouvez également définir quelques préférences:
 
@@ -87,16 +53,16 @@ Vous pouvez également définir quelques préférences:
 - la langue (français, espagnol ou anglais pour le moment)
 - la source météo
 
-![Préférences](./images/all_settings.png#thumbnail)
+![Préférences](./images/all_settings.png#smallImg)
 
 ## Vue du rucher
 
-![Vue du rucher](./images/acceuil_sidebar.png)
+![Vue du rucher](./images/acceuil_sidebar.png#picto)
 
 Cette page est le point de départ de Mellisphera. Sélectionnez le rucher à explorer sur le menu déroulant tout en haut et ensuite naviguez visuellement parmi les principales informations.
 
 
-![Ecran d'accueil](./images/home_app.png#thumbnail)
+![Ecran d'accueil](./images/home_app.png#largeImg)
 
 Cette navigation est contextualisée sur le rucher à l'aide d'une photo qui vous permet de situer l'emplacement de vos ruches. Par dessous vous pourrez positionner des "pastilles" qui matérialisent la ruche et portent les informations associées (nom, poids, couvain etc).
 
@@ -108,13 +74,13 @@ Lors de votre première connexion, vous pourrez ajouter une photo de votre ruche
 
 Sur l'image, vous avez également un icône pour l'export de vos données. C'est un export excel (csv ou .xlx) des données de vos ruchers (ruches, capteurs, batterie, couvain, poids) et de vos dernières notes. Cela s'avère très utile lors de vos visites au rucher.
 
-![Export des données](./images/export_MS.png#thumbnail)
+![Export des données](./images/export_MS.png#mediumImg)
 
 **Navigation photo**
 
 L'image du rucher et les pastilles, sont associées à un ensemble de boutons positionnés juste au dessus. Cette barre de navigation vous permet de visualiser contextuellement diverses informations: 
 
-![Navigation photo](./images/barre_navig.png#thumbnail)
+![Navigation photo](./images/barre_navig.png#mediumImg)
 
 Les boutons 'Nom', 'Couvain', 'Poids', et 'Capteur' sont activables. Cela permet d'afficher sur la photo en dessous des pastilles respectivement le nom, le couvain, le poids et les capteurs de l'ensemble des ruches de votre rucher à la date affichée en haut à droite. Par défaut, c'est la date de la veille (qui correspond au dernier jour de données en général). Vous pouvez bien entendu changer de date. 
 
@@ -123,7 +89,7 @@ Les boutons 'Nom', 'Couvain', 'Poids', et 'Capteur' sont activables. Cela permet
 
 Petite particularité pour les capteurs, vous visualisez leur état en temps réel par une couleur (grise, rouge, orange) qui détermine l'état et un affichage au survol du problème.
 
-![Etat capteurs](./images/problem_sensor.png#thumbnail)
+![Etat capteurs](./images/problem_sensor.png#mediumImg)
 
 Le niveau de batterie est calculé systématiquement. Pour les ruchers équipés d'un Transmetteur sont également traitées les informations de signal et de connexion. Le code couleur est le suivant :
 
@@ -144,28 +110,28 @@ Notez que les ruches non équipées de capteurs ou celles qui n'ont pas de donn�
 
 Pour plus d'information à propos du modèle BFit calculant l'état des ruches, vous pouvez consulter la section 'Interprétation des données'. 
 
-![Pastilles](./images/pastilles.png#thumbnail)
+![Pastilles](./images/pastilles.png#largeImg)
 
 **Calendrier des événements du rucher**
 
 Vous disposez d'un calendrier d'événements propre à chaque rucher. Ce calendrier vous permet de tracer les interventions réalisées au niveau de l'ensemble du rucher, ou des observations générales. 
 Le calendrier affiche également les alertes et notifications (nous verrons comment les configurer plus loin) au niveau du rucher. 
 
-![Evenement rucher](./images/event_rucher.png#thumbnail)
+![Evenement rucher](./images/event_rucher.png#mediumImg)
 
 **Notes de rucher**
 
 Pour terminer la vue rucher, vous pouvez saisir vos notes/inspections de rucher. Cela se situe juste en dessous de la photo de votre rucher.
 
-![Notes rucher](./images/rucher_note.png#thumbnail)
+![Notes rucher](./images/rucher_note.png#largeImg)
 
 Pour écrire une nouvelle note, il suffit de cliquer sur le '+' de l'encart, c'est très simple. 
 
-![Nouvelle note](./images/new_note.png#thumbnail)
+![Nouvelle note](./images/new_note.png#mediumImg)
 
 Vous verrez apapraître la note directement sur le calendrier des événements avec l'icône suivante.
 
-![Icone note](./images/icon_note.png)
+![Icone note](./images/icon_note.png#picto)
 
 ## Vue de la ruche
 
@@ -173,7 +139,7 @@ Pour accéder à la vue d'une ruche, vous devez cliquer sur sa pastille ou son n
 
 Les données affichées sont des données issues des 5 dernières semaines ainsi que des 3 prochains jours puisque nous pouvons prédire des événements à 3 jours. 
 
-![Vue de la ruche](./images/calendrier_UX.png#thumbnail2)
+![Vue de la ruche](./images/calendrier_UX.png#mediumImg)
 
 **Evénements**
 
@@ -193,18 +159,18 @@ Il est possible de prendre des annotations au niveau de chaque ruche. Ce sont de
 
 ## Explorer
 
-![Explorer](./images/explorer_sidebar.png)
+![Explorer](./images/explorer_sidebar.png#picto)
 
 La vue **Rucher** donne un aperçu global de la situation. Dans **Explorer**, vous pourrez naviguer parmi vos données de façon plus approfondie. Une nouvelle barre grise apparait avec trois nouveaux espaces : 'Ruche', 'Couvain', 'Données'. Par défaut, vous arrivez sur le mode 'Ruche'. 
 De plus, les données du dernier mois s'afficheront par défaut. Vous pouvez modifier la date en haut à droite. Vous pouvez modifier et personnaliser cette période de données à votre guise ou en utilisant les flèches pour vous déplacer dans le temps de période en période. 
 
-![Explorer navigation](./images/navig_explorer.png#thumbnail)
+![Explorer navigation](./images/navig_explorer.png#mediumImg)
 
-![Personnaliser date](./images/personnaliser_date.png#thumbnail2)
+![Personnaliser date](./images/personnaliser_date.png#mediumImg)
 
 **Ruche**
 
-![Explorer ruche](./images/ruche_explorer.png#thumbnail)
+![Explorer ruche](./images/ruche_explorer.png#largeImg)
 
 Dans le mode ruche, vous pouvez choisir entre toutes les ruches de tous vos ruchers mais vous ne pouvez sélectionner qu'une seule ruche à la fois. Vous avez une vue de trois calendriers. 
 
@@ -237,13 +203,13 @@ Si vous n'avez aucune donnée météo, veuillez vous référer à la FAQ. Pour a
 
 Vous pouvez donc visualiser et échanger les modes du calendrier comme vous le souhaitez. Voici un exemple :
 
-![Calendrier](./images/manier_calendrier.png#thumbnail)
+![Calendrier](./images/manier_calendrier.png#largeImg)
 
 **Couvain**
 
 Dans le mode Couvain, vous pouvez, cette fois-ci, **sélectionner autant de ruches que vous le souhaitez** et ce, même si ces ruches sont dans deux ruchers différents. Cela vous permet de comparer des ruchers ou des ruches entre elles.
 
-![Couvain explorer](./images/couvain_explorer.png#thumbnail)
+![Couvain explorer](./images/couvain_explorer.png#largeImg)
 
 Au survol, vous pourrez voir les informations relatives aux ruches. 
 
@@ -253,23 +219,23 @@ Cet outil est extrêmement performant pour analyser des données sur des longues
 
 Dans le mode Données, vous visualiserez les données brutes de vos ruches avec la température interne en haut, le poids au centre et l'humidité en bas (un peu comme sur mybroodminder). En vert, vous aurez les zones optimales pour le couvain et l'humidité. Vous pouvez également sélectionner autant de ruches que vous le souhaitez et ce, même si ces ruches sont dans deux ruchers différents. Cela vous permet de comparer des ruchers ou des ruches entre elles.
 
-![Données brutes](./images/raw_data.png#thumbnail)
+![Données brutes](./images/raw_data.png#largeImg)
 
 Il est très facile de se servir de l’outil. Les petites icones sur la droite du graphique vous permettent de zoomer, sélectionner des zones, vous déplacer, voir les données en listing, etc. 
 
 ## Alertes
 
-![Alertes bouton](./images/alertes_sidebar.png)
+![Alertes bouton](./images/alertes_sidebar.png#picto)
 
 Dans cet espace vous trouverez toutes les fonctions pour mettre en oeuvre un service de notifications et alertes sur chacun de vos ruchers. Ici aussi vous trouverez une nouvelle barre de navigation qui est en fait un classement du type d'alertes selon 3 catégories: 'Ruche', 'Météo', 'Capteur' plus le bouton 'Paramètres' qui est dédié à la configuration 
 
-![Alertes barre](./images/barre_alertes.png#thumbnail1)
+![Alertes barre](./images/barre_alertes.png#mediumImg)
 
 ### Ruche
 
 Dans cet onglet, vous pouvez voir toutes les alertes concernant vos ruches. Ces icônes d'alertes pourront se retrouver dans votre calendrier d'événements de ruches. 
 
-![Alertes ruche](./images/ruche_alertes.png#thumbnail)
+![Alertes ruche](./images/ruche_alertes.png#largeImg)
 
 Chaque alerte peut être activée/désactivée 'ON/OFF'. Pour un grand nombre d'entre elles il est possible de modifier les seuils en faisant glisser le curseur. Par défaut, tout est activé avec des paramètres auto ajustés. 
 
@@ -303,7 +269,7 @@ De façon plus détaillée, voici les alertes disponibles et leurs caractéristi
 
 Dans cet onglet, vous pourrez voir toutes les alertes concernant la météo. Ces icônes d'alertes pourront se retrouver dans votre calendrier d'événements de rucher. Vous pouvez une nouvelle fois ajuster et désactiver/activer les différentes alertes. Par défaut, tout est activé avec des paramètres auto ajustés. 
 
-![Alertes météo](./images/meteo_alertes.png#thumbnail)
+![Alertes météo](./images/meteo_alertes.png#largeImg)
 
 Toutes les alertes météo sont des alertes de prédiction à J+7 maximum. 
 Elles sont évolutives. Si un événement est prévu à J+7 et que le lendemain cet événement n'a plus lieu d'être il n'est plus affiché.
@@ -323,14 +289,14 @@ Les alertes associées aux capteurs informent sur les éventuelles anomalies de 
 
 Il faut noter que **ces icônes d'alertes ne s'affichent pas dans les calendriers d'événements**. A la place, leur état est visible dans la partie 'Mon Rucher' avec l'onglet 'Capteur'. 
 
-![Capteurs rucher](./images/devices_apiary.png#thumbnail)
+![Capteurs rucher](./images/devices_apiary.png#largeImg)
 
 
 De même, si vous avez activé les emails d'alertes (prochaine partie), vous serez averti des états de vos capteurs. 
 
 Vous pouvez une nouvelle fois ajuster et désactiver/activer les différentes alertes. Par défaut, tout est activé avec des paramètres auto ajustés. 
 
-![Alertes capteurs](./images/devices_alertes.png#thumbnail)
+![Alertes capteurs](./images/devices_alertes.png#largeImg)
 
 
 Voici le détail des alertes disponibles pour chaque type de capteur
@@ -351,7 +317,7 @@ C'est dans cet onglet que vous pourrez configurer les envois par email. Nous vou
 
 Par défaut, l'envoi est OFF et votre adresse mail est inscrite dans la première case. Vous pouvez ajouter une deuxième adresse. Les emails seront envoyés aux deux adresses. Pour vérifier que l'outil fonctionne, vous pouvez cliquer sur le bouton 'Tester email', un email sera instantanément envoyer vers les adresses enregistrées. Si vous ne recevez rien dans les minutes suivantes, veuillez contacter support@mellisphera.com. 
 
-![Alertes paramètres](./images/parametres_alertes.png#thumbnail)
+![Alertes paramètres](./images/parametres_alertes.png#mediumImg)
 
 Dans ces emails, vous aurez accès à quatre informations :
 - Les alertes obtenues depuis le dernier envoi de l'ensemble de vos ruches et ruchers
@@ -363,13 +329,13 @@ Attention, lorsque vous désactivez une alerte, elle n'apparaitra plus dans les 
 
 Voici un aperçu d'un mail que vous pourrez recevoir :
 
-![Alertes email](./images/email_1.png#thumbnail)
+![Alertes email](./images/email_1.png#largeImg)
 
-![Alertes email](./images/email_2.png#thumbnail)
+![Alertes email](./images/email_2.png#largeImg)
 
 ## Lien MyBroodMinder
 
-![MBM bouton](./images/MBM_sidebar.png)
+![MBM bouton](./images/MBM_sidebar.png#picto)
 
 Vous serez redirigé vers la plateforme MyBroodMinder.com en cliquant sur l'icône de MyBroodMinder. En un seul clic vous pouvez passer d'une plateforme à l'autre, d'un côté sur MyBroodMinder pour gérer vos configurations de ruchers, ruches, capteurs et de l'autre sur Mellisphera pour analyser vos données avec précision et être informé en temps réel de ce qu'il se passe sur vos ruches.
 
@@ -377,17 +343,17 @@ Rappelez-vous que les modifications effectuées sur MyBroodMinder seront récup�
 
 ## Support
 
-![Bouton support](./images/support_sidebar.png)
+![Bouton support](./images/support_sidebar.png#picto)
 
 A partir de ce lien vous pouvez contacter notre support. Soit par message direct, soit par email à [support@mellisphera.com](mailto:support@mellisphera.com) ou en vous connectant directement sur Slack.
 
-![Message support](./images/support_msg.png#thumbnail1)
+![Message support](./images/support_msg.png#mediumImg)
 
 Envoyez nous vos questions, vos retours, votre expérience, vos idées d'améliorations et vos problèmes. On aime les retours client! les bons et ceux qui nous aident à progresser.
 
 ## Guide utilisateur 
 
-![Bouton documentation](./images/doc_sidebar.png)
+![Bouton documentation](./images/doc_sidebar.png#picto)
 
 Ce bouton vous renvoie sur l'ensemble de la documentation utilisateur : https://doc.mellisphera.com. 
 
@@ -405,7 +371,7 @@ N'hésitez pas à utiliser la **recherche par mot clé**: elle est extremement p
 
 Un exemple ici avec le mot clé "batterie"
 
-![Doc portal](./images/user_doc_portal_srch_example.png#thumbnail)
+![Doc portal](./images/user_doc_portal_srch_example.png#largeImg)
 
 
 
@@ -424,13 +390,13 @@ La météo est associée au rucher, ainsi qu'à chacune des ruches. Chaque ruche
 **Prévision à 7 jours**
 Avec WeatherSource, il est également possible de visualiser la prévision météo. Le jour J est systématiquement repéré avec un carré violet comme dans l'image ci-dessous.
 
-![Prévision météo](./images/meteo_forecast.png#thumbnail1)
+![Prévision météo](./images/meteo_forecast.png#mediumImg)
 <div align="center" ><i>Météo moyenne du mois et prévision à J+7</i></div>
 
 ### Astronomie
 Le calendrier astronomique présente très visuellement les phases de la lune. Mais également la durée du jour avec les heures de lever et coucher du soleil selon votre zone géographique.
 
-![Prévision météo](./images/calendrier_lunaire.png#thumbnail1)
+![Prévision météo](./images/calendrier_lunaire.png#mediumImg)
 <div align="center" ><i>Au survol du calendrier lunaire on obtient aussi les informations du soleil</i></div>
 
 
@@ -445,7 +411,7 @@ BFIT comme _Bee Fitness_ est l'algorithme qui informe l’apiculteur de l'état 
 
 Le rendu est très visuel avec des pastilles de couleurs pour indiquer leur état. Pour compléter l'information une infobulle (au survol) précise la nature de la situation.
 
-![Pastilles](./images/pastilles.png)
+![Pastilles](./images/pastilles.png#largeImg)
 
 Le code couleur est le suivant :
 
@@ -460,7 +426,7 @@ Le code couleur est le suivant :
 
 En activant l'envoi d'alertes dans Mellisphera vous recevrez par email un tableau récapitulatif avec l'ensemble des informations :
 
-![Email BFit](./images/bfit_email.png)
+![Email BFit](./images/bfit_email.png#mediumImg)
 
 BFit repose sur les algorithmes qui collectent les événements. L’algorithme ‘Learning’ apprend des événements précédents pour conserver, ou non, les événements futurs. Il y a, par la suite, une classification entre les événements détectés ayant une incidence sur l’état de la ruche et les autres. 
 
@@ -475,7 +441,7 @@ Au contraire lorsqu'elle n'a pas de couvain, les abeilles n'ont pas besoin de r�
 
 Entre ces deux points extrêmes on peut imaginer toutes les situations intermédiaires. 
 
-![Constat BForce](./images/constat_bforce.png)
+![Constat BForce](./images/constat_bforce.png#largeImg)
 
 Pour illustrer ces propos, voici les mesures horaires sur deux ruches du même rucher. La première est représentée en rouge et la deuxième en gris. Chacune présente un état bien différent. La rouge possède une température interne avoisinant les 25°C/30°C suivant les mêmes fluctuations que la température extérieure (en pointillés), tandis que la grise, est constante autour des 35°C dans la fameuse ‘Zone optimale de couvain' ou 'Brood zone'.
 
@@ -496,17 +462,17 @@ Les calendriers et graphiques du couvain affichent la progression journalière d
 
 En un coup d’oeil il est possible de visualiser l’historique de la saison. Les arrêts et reprises de ponte étant clairement repérables.
 
-![Calendrier BForce](./images/calendrier_bforce.png#thumbnail2)
+![Calendrier BForce](./images/calendrier_bforce.png#smallImg)
 <div align="center" ><i>Calendrier de couvain</i></div>
 
 Il est également possible de comparer plusieurs ruches entre elles, quel que soit leur rucher.
 
-![Graphique BForce](./images/graph_bforce.png#thumbnail)
+![Graphique BForce](./images/graph_bforce.png#largeImg)
 <div align="center" ><i>La même ruche avec le couvain annuel comparée à deux autres ruches</i></div>
 
 Avec l'habitude on arrive à identifier plusieurs évènements sur ces courbes. Il est possible de repérer les débuts et arrêts de ponte certes. Mais aussi les essaimages, les périodes de mauvaise météo qui ont impacté la production de couvain, l'effet des frelons asiatiques, etc. 
 
-![Parcours BForce](./images/parcours_bforce.png#thumbnail)
+![Parcours BForce](./images/parcours_bforce.png#largeImg)
 <div align="center" ><i>Trajectoire de deux ruches sur une saison avec quelques évènements</i></div>
 
 ### Productivité - BWeight
@@ -516,22 +482,22 @@ Un capteur de poids installé sous la ruche fournit des informations détaillée
 
 En premier lieu, dans la journée les variations de poids dépendent des ressources apportées ou consommées, mais aussi du déplacement des abeilles qui, en journée, sortent butiner plus ou moins nombreuses. 
 
-![Sortie abeilles](./images/sortie_abeilles.png#thumbnail)
+![Sortie abeilles](./images/sortie_abeilles.png#largeImg)
 <div align="center" ><i>Sortie des abeilles butineuses et retour avec du nectar</i></div>
 
 C'est pour cette raison que les courbes de poids de la ruche présentent des "bosses". Une chaque jour, comme dans le graphique ci-dessous. Sur le graphique, on voit également des variations soudaines de poids qui sont liées aux interventions de l'apiculteur.
 
-![Historique Poids Brut](./images/historique_poids_brut.png#thumbnail0)
+![Historique Poids Brut](./images/historique_poids_brut.png#largeImg)
 <div align="center" ><i>Historique de poids avec interventions de l'apiculteur</i></div>
 
 Avec ces constats, on voit que **pour bien évaluer la productivité, il faut considérer uniquement les variations de poids provenant exclusivement de la production des abeilles**. De cette façon, il faut négliger les évènements extérieurs : nourrissement, essaimage, ajout/retrait de hausse, interventions de l'apiculteur, perte ou augmentation inexpliquée. L'algorithme BWeight permet de repérer facilement ces évènements bien distincts et de les écarter du calcul de productivité. 
 
 Le résultat est une information journalière de gain ou perte de poids. La représentation graphique sur le calendrier permet de bien repérer la miellée dans la saison ainsi que son intensité.
 
-![BWeight](./images/bweight2.png#thumbnail1)
+![BWeight](./images/bweight2.png#mediumImg)
 <div align="center" ><i>Excellente miellée de tilleul fin juin !</i></div>
 
 En prenant une échelle de temps plus large, au niveau de la saison, il est facile de relever et comparer le déroulement des différentes miellées.
 
-![Miellée](./images/miellee.jpg#thumbnail)
+![Miellée](./images/miellee.jpg#largeImg)
 <div align="center" ><i>Calendrier des miellées d'une ruche transhumante en 2018</i></div>

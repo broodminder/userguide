@@ -43,11 +43,10 @@ le site en version html est généré et installé sur un virtual host dans `/va
 3. vérifier que tout est actualisé https://doc.mellisphera.com/
 
 ## Building a PDF file out of it
-use the mkpdfs-mkdocs-plugin
-https://comwes.github.io/mkpdfs-mkdocs-plugin/pdf/documentation.pdf
+use the mkdocs-pdf-export-plugin
+https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
 Note that this plugin is based onto WeasyPrint
 https://weasyprint.readthedocs.io/en/latest/install.html
 
-On my Mac it seems that Weasyprint has a problem with a "fonts.py" file. Hav'nt found any workarround to solve it. 
-However on a linux or windows machine it should work.
+Works on MacOs and Linux.
 

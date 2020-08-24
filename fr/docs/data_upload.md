@@ -1,45 +1,12 @@
 # Récupération des données
-<style>
-img[src*="#thumbnail0"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:750px;
-}</style>
 
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
-
-<style>
-img[src*="#thumbnail1"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:375px;
-}</style>
-
-<style>
-img[src*="#thumbnail2"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:250px;
-}</style>
-
-<style>
-img[src*="#picto"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:50px;
-}</style>
 Tous les capteurs de la gamme BroodMinder transmettent en Bluetooth. Il existe plusieurs manières de récupérer les données qu'ils enregistrent. En essence via votre smartphone ou via un transmetteur automatique.
 
 [![Présentation et mise en route des 3 capteurs](https://img.youtube.com/vi/HFkD4pLsBHU/0.jpg)](https://www.youtube.com/watch?v=HFkD4pLsBHU)
 
 
 ## BroodMinder - APIARY
-![](./images/11_0_broodminder_apiary.png)
+![](./images/11_0_broodminder_apiary.png#smallImg)
 
 
 Présentée en 2018, BroodMinder-APIARY est l'application la plus puissante. Elle prend la relève de l'application BroodMinder-LITE.
@@ -80,26 +47,26 @@ L'utilisation de l'application est super simple :
 
 4. Retournez à l'écran de la liste et dans quelques secondes, tous les capteurs BroodMinder présents dans la zone s'afficheront automatiquement à l'écran
 
-5. Une fois que les identifiants de vos capteurs BroodMinder sont devenus verts, cliquez sur l'icône ![](./images/11_6_cloud_up.png) pour commencer le téléchargement des données sur MyBroodMinder
+5. Une fois que les identifiants de vos capteurs BroodMinder sont devenus verts, cliquez sur l'icône ![](./images/11_6_cloud_up.png#picto) pour commencer le téléchargement des données sur MyBroodMinder
 
 6. L'application vous montrera l'état de progression du téléchargement. La ligne supérieure indique l'état d'avancement de la collecte des données. La ligne inférieure montre le transfert de ces dernières vers MyBroodMinder
 
 Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder. Si vous avez déjà configuré vos capteurs, il vous suffit de regarder le résultat. S'il s'agit de nouveaux capteurs, vous devrez les trouver sur MyBroodMinder « Device Inventory » (inventaire des capteurs) et de les attribuer à un rucher puis à une ruche. Allez à la section suivante pour plus d'informations à ce sujet.
 
 ### Écran de la liste des capteurs
-![](./images/11_1_list_screen.png)
+![](./images/11_1_list_screen.png#largeImg)
 
 ### Écran de progression
-![](./images/11_2_progress_screen.png)
+![](./images/11_2_progress_screen.png#largeImg)
 
 ### Écran des détails du capteur
-![](./images/11_3_details_screen.png)
+![](./images/11_3_details_screen.png#largeImg)
 
 ### Écran des options
-![](./images/11_4_options_screen.png)
+![](./images/11_4_options_screen.png#largeImg)
 
 ### Menu des paramètres
-![](./images/11_5_settings_screen.png)
+![](./images/11_5_settings_screen.png#largeImg)
 
 ### Menu de configuration générale
 
@@ -111,7 +78,7 @@ Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder.
 
 - **Activer la synchronisation à distance (Remote device Sync)** : vous pouvez récupérer vos données même lorsqu'il n'y a pas de connexion internet ou de couverture cellulaire dans votre rucher.
 
-    1. Avant de vous rendre à votre rucher (tant que vous êtes encore connecté), allez sur l'application à l'écran de la liste des capteurs et cliquez sur l'icône ![](./images/11_7_cloud_dwn.png). Cela permettra le téléchargement de la liste de tous vos capteurs ainsi que le statut des données remontées lors de la dernière synchronisation. 
+    1. Avant de vous rendre à votre rucher (tant que vous êtes encore connecté), allez sur l'application à l'écran de la liste des capteurs et cliquez sur l'icône ![](./images/11_7_cloud_dwn.png#picto). Cela permettra le téléchargement de la liste de tous vos capteurs ainsi que le statut des données remontées lors de la dernière synchronisation. 
     _ATTENTION : Si vous contournez cette étape, c'est l'ensemble de des données dans la mémoire du capteur qui sera récupéré : ça pourrait représenter une année entière de données !_
 
     2. Une fois sur le terrain, procédez à la synchronisation de vos capteurs comme d'habitude. Le téléchargement vers le cloud échouera mais c'est normal vu que vous n'avez pas d'accès à internet
@@ -119,7 +86,7 @@ Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder.
     3. Lorsque vous revenez à la civilisation, relancez l'application qui vous suggèrera de procéder au téléchargement vers le cloud. Faites-le et MyBroodMinder.com sera mis à jour.
 
 - **Mode Hub** : Le mode Hub vous permet d'utiliser un vieux modèle de téléphone/tablette pour l'envoi automatique de vos données BroodMinder sur MyBroodMinder toutes les 10 minutes. De cette façon, vous pouvez suivre l'état de vos abeilles 24/24h 7/7j depuis n'importe où dans le monde. Il vous suffit d'autoriser le Mode Hub et de revenir à l'écran de la liste de vos capteurs :
-![](./images/12_hubmode.png)
+![](./images/12_hubmode.png#largeImg)
 
 
 
@@ -131,7 +98,7 @@ Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder.
 ## BroodMinder - LITE
 
 
-![](./images/05_broodminder_lite.png)
+![](./images/05_broodminder_lite.png#smallImg)
 
 Remarque: Nous vous recommandons désormais d'utiliser l'application BroodMinder Apiary. Elle est plus fiable.
 
@@ -171,19 +138,19 @@ BroodMinder-T affichera la température
 BroodMinder-TH affichera la température et le taux d'humidité
 BoordMinder-W affichera la température et le poids
 
-![](./images/05_homescreen_app.png)
+![](./images/05_homescreen_app.png#largeImg)
 
 ### Détails et graphiques
 
-![](./images/06_graphscreen_app.png)
+![](./images/06_graphscreen_app.png#largeImg)
 
 ### Page de configuration générale
 
-![](./images/07_generalsettings_page.png)
+![](./images/07_generalsettings_page.png#largeImg)
 
 ### Page de configuration du capteur
 
-![](./images/08_devicesettings_page.png)
+![](./images/08_devicesettings_page.png#largeImg)
 
 ### Mode Temps Réel
 
@@ -202,7 +169,7 @@ Ré-appuyer sur le bouton « *Real Time* » permettra de ce mode et fera repasse
 
 ### Réglage du facteur de poids BroodMinder-W
 
-![](./images/09_scalefactor.png)
+![](./images/09_scalefactor.png#largeImg)
 
 Par défaut, le facteur de poids du BroodMinder-W est fixé à 2.0. Cela signifie que tout poids observé par le BroodMinder-W sera doublé afin de refléter le poids total de la ruche. En regardant les caractéristiques de la situation (annexe ci-dessous), nous savons qu'il s'agit d'une approximation, qui n'est donc pas totalement exacte. Dans la plupart des cas, elle est suffisamment proche de la réalité car de petits changements seront encore visibles et une erreur à 5-10% du poids total n'est pas importante.
 
@@ -233,7 +200,7 @@ Si vous constatez des pics de poids même après ajustement, c'est probablemen
 
 ### Annotations sur les graphiques
 
-![](./images/10_tagging_graphs.png)
+![](./images/10_tagging_graphs.png#largeImg)
 
 En appuyant sur « *Hive Notes* », vous pourrez ajouter du texte à tout moment sur le graphique. C'est particulièrement utile pour expliquer un brusque changement dans les données récoltées ou encore indiquer une inspection de la ruche.
 
@@ -249,13 +216,13 @@ Le bouton « *Inspection* » présente un intérêt particulier. En appuyant 
 
 ## BroodMinder - HUB 
 
-![Cell/Wifi](./images/02_broodminder_cell.png)
+![Cell/Wifi](./images/02_broodminder_cell.png#smallImg)
 
 BroodMinder-WIFI/CELL est un composant facultatif qui se place dans votre rucher et vous permet de transmettre les données depuis vos appareils BroodMinder directement sur MyBroodMinder.com par connexion wifi ou mobile. Nous avons conçu le BroodMinder-WIFI/CELL pour se mettre automatiquement en marche à la mise sous tension.
 
 Pour de meilleurs résultats, regardez la vidéo de l'installation sur [BroodMinder.com/pages/videos](https://broodminder.com/pages/videos)
 
-![](./images/14_1_broodminder_wifi.png)
+![](./images/14_1_broodminder_wifi.png#largeImg)
 
 ### Instructions de démarrage rapide
 
@@ -273,7 +240,7 @@ Pour de meilleurs résultats, regardez la vidéo de l'installation sur [BroodMin
 
 Vous pouvez installer votre BroodMinder-WIFI/CELL avec de nombreuses configurations différentes selon les circonstances. Le support à l'arrière du boîtier électronique peut être retournée comme on peut le voir sur quelques exemples.
 
-![](./images/14_2_installation.png)
+![](./images/14_2_installation.png#largeImg)
 
 Quelques remarques relatives à l'installation :
 
@@ -316,11 +283,11 @@ Si après les 3 flashs, la lumière de la batterie s'éteint, cela signifie qu'e
 
 ### Les voyants lumineux WIFI/CELL
 
-![](./images/14_3_indicator_lights.png)
+![](./images/14_3_indicator_lights.png#largeImg)
 
 ## BroodMinder - CELL
 
-![](./images/11_0_broodminder_cell.png)
+![](./images/11_0_broodminder_cell.png#picto)
 
 L'application BroodMinder-CELL vous permet de gérer votre HUB qu'ils soit 3G ou WiFi. Parmi les éléments que vous pouvez contrôler :
 
@@ -338,31 +305,31 @@ Par défaut, le BroodMinder-WIFI/CELL transférera vos données toutes les heure
 
 ### Écran d'accueil de l'application WIFI/CELL
 
-![](./images/14_4_homescreen.png)
+![](./images/14_4_homescreen.png#largeImg)
 
 *Remarque : si vous balayez l'écran vers gauche, vous pouvez supprimer les appareils BroodMinder-WIFI/CELL non utilisés.*
 
 ### Écran de configuration de l'application WIFI/CELL
 
-![](./images/14_5_configure_screen.png)
+![](./images/14_5_configure_screen.png#largeImg)
 
 ### Écran de diagnostic de l'application WIFI/CELL
 
-![](./images/14_6_diagnostics_screen.png)
+![](./images/14_6_diagnostics_screen.png#largeImg)
 
 ### Écran de réseau wifi/mobile de l'application WIFI/CELL
 
-![](./images/14_7_network_screen_wifi.png)
+![](./images/14_7_network_screen_wifi.png#largeImg)
 
 ### Écran de réseau cellulaire de l'application WIFI/CELL
 
-![](./images/14_8_network_screen_cell.png)
+![](./images/14_8_network_screen_cell.png#largeImg)
 
 *Remarque : il s'agit des commandes du modem mobile. Pour les commandes du modem wifi, rendez-vous à la page suivante. Si le modem n'est pas allumé, l'actionnement de toute commande entrainera son allumage. Attendez quelques secondes et actionnez de nouveau la commande souhaitée. Le résultat s'affichera en bas de l'écran.*
 
 ### Écran de réseau wifi/cellulaire de l'application WIFI/CELL
 
-![](./images/14_9_network_screen.png)
+![](./images/14_9_network_screen.png#largeImg)
 
 
 

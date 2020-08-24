@@ -7,6 +7,10 @@ plugins:
   - search:
       min_search_length: 3
       lang: 'fr'
+  - pdf-export
+  #- with-pdf
+extra_css:
+    - css/extra.css
 nav:
  - index.md
  - Introduction: 'intro.md'
@@ -18,7 +22,7 @@ nav:
  - Interpretation: 'data_interpretation.md'
  - Science collaborative: 'beecounted.md'
  - 🎉 T2 Swarminder: 'new_t2sm.md'
- - _: 'void.md'
+ - _____: 'void.md'
  - FAQ: 'faq.md'
  - Support: 'support.md'
 

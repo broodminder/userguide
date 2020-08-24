@@ -1,0 +1,43 @@
+@page {
+    size: a4 portrait;
+    margin: 25mm 10mm 25mm 10mm;
+    counter-increment: page;
+    font-size: 12px;
+    white-space: pre;
+    color: black;
+    @top-left {
+        content: '© 2020 Mellisphera';
+    }
+    @top-center {
+        content: string(chapter);
+    }
+    @top-right {
+        content: 'Page ' counter(page);
+    }
+}
+
+
+img[src*="#largeImg"] {
+   margin: 10px auto 20px;
+   display: block;
+   width:550px;
+}
+
+img[src*="#mediumImg"] { 
+   margin: 10px auto 20px;
+   display: block;
+   width:300px;
+}
+
+img[src*="#smallImg"] {  
+   margin: 10px auto 20px;
+   display: block;
+   width:150px;
+}
+
+
+img[src*="#picto"] { 
+   margin: 10px auto 20px;
+   display: block;
+   width:50px;
+}

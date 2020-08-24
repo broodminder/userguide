@@ -1,43 +1,10 @@
 # Data upload
-<style>
-img[src*="#thumbnail0"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:750px;
-}</style>
 
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
-
-<style>
-img[src*="#thumbnail1"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:375px;
-}</style>
-
-<style>
-img[src*="#thumbnail2"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:250px;
-}</style>
-
-<style>
-img[src*="#picto"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:50px;
-}</style>
 All BroodMinder sensors transmit data via Bluetooth. There are several ways to collect the recorded data - via your smartphone or via a hub.
 
 ## Broominder - APIARY App
 
-![](./images/11_0_broodminder_apiary.png)
+![](./images/11_0_broodminder_apiary.png#smallImg)
 
 Introduced in 2018, the BroodMinder-APIARY app is our most powerful app. We strongly recommend using it as opposed to the BroodMinder-Lite app. 
 
@@ -75,17 +42,17 @@ Usage of the app is super simple.
 
 4. Return to the list screen and in a few seconds it will automatically find every BroodMinder device in the area and display them on the screen.
 
-5. After the BroodMinder IDs turn green, press the cloud icon ![](./images/11_6_cloud_up.png) in the upper right of the screen to begin upload to MyBroodMinder.
+5. After the BroodMinder IDs turn green, press the cloud icon ![](./images/11_6_cloud_up.png#picto) in the upper right of the screen to begin upload to MyBroodMinder.
 
 6. Now the app will show you a upload progress screen. The top line is status while harvesting the BroodMinder data. The lower line shows the transfer to MyBroodMinder status. 6)After all of the devices have uploaded you will see a transfer complete message.
 
 After the transfer is complete, the data will show up in MyBroodMinder. If you have already set up your devices, all you do is look. If these are new devices, you will need to find them in your MyBroodMinder &quot;Device Inventory&quot; and assign them to an apiary and to a hive. See the next section on MyBroodMinder.com for more on that.
 
-![](./images/11_1_list_screen.png)
+![](./images/11_1_list_screen.png#largeImg)
 
-![](./images/11_2_progress_screen.png)
+![](./images/11_2_progress_screen.png#largeImg)
 
-![](./images/11_3_details_screen.png)
+![](./images/11_3_details_screen.png#largeImg)
 
 
 ### Settings
@@ -98,7 +65,7 @@ After the transfer is complete, the data will show up in MyBroodMinder. If you h
 
 - **Enable remote device sync** – You can retrieve data even when there is no internet connection or cell coverage in your apiary.
 
-1. Before going to the apiary – go to the device list and press the cloud with the down arrow ![](./images/11_7_cloud_dwn.png)<br>
+1. Before going to the apiary – go to the device list and press the cloud with the down arrow ![](./images/11_7_cloud_dwn.png#picto)<br>
 This will load the list with all of your devices and the last time data was retrieved. (If you don&#39;t do this, all of the data will be retrieved from your BroodMinder. This could be a full year of data!)
 . 
 
@@ -112,12 +79,12 @@ Hub mode lets you use and old phone or tablet to automatically send your BroodMi
 
 Just enable hub mode and return to the list screen.
 
-![](./images/12_hubmode.png)
+![](./images/12_hubmode.png#largeImg)
 
 
 ## BroodMinder - LITE App
 
-![](./images/05_broodminder_lite.png)
+![](./images/05_broodminder_lite.png#smallImg)
 
 NOTE: We now recommend using the BroodMinder Apiary app. It is more reliable and will work for most people.
 
@@ -159,16 +126,16 @@ BroodMinder-T will display Temperature
 BroodMinder-TH will display Temperature & Humidity 
 BroodMinder-W will display Temperature & Weight
 
-![](./images/05_homescreen_app.png)
+![](./images/05_homescreen_app.png#largeImg)
 
 ### Details/Graph Screen of BroodMinder App
-![](./images/06_graphscreen_app.png)
+![](./images/06_graphscreen_app.png#largeImg)
 
 ### General Setting Page
-![](./images/07_generalsettings_page.png)
+![](./images/07_generalsettings_page.png#largeImg)
 
 ### Device Setting Page
-![](./images/08_devicesettings_page.png)
+![](./images/08_devicesettings_page.png#largeImg)
 
 
 ### Real Time Mode
@@ -186,7 +153,7 @@ This data will also be saved in the log file.
 Pressing the &quot;Real Time&quot; button again will leave this mode and set the sampling rate back to 60 minutes.
 
 ### Setting the Broodminder-W scale factor
-![](./images/09_scalefactor.png)
+![](./images/09_scalefactor.png#largeImg)
 
 By default, the BroodMinder-W scale factor is set to 2.0. This means that any weight the BroodMinder-W sees is doubled to reflect the full weight of the hive. From looking at the physics of the situation (see appendix below) we know that this is an approximation and not totally accurate. In most cases, it is close enough since small changes will still be seen and a 5-10% error in total weight is not important.
 
@@ -221,13 +188,13 @@ If you see weight spikes even after adjusting, then possibly it is due to the sc
 
 ### Device diagnostics 
 
-![](./images/Device_diagnostic.png)
+![](./images/Device_diagnostic.png#largeImg)
 
 ### Tagging Graphs
 
-![](./images/10_tagging_graphs-1.png)
+![](./images/10_tagging_graphs-1.png#largeImg)
 
-![](./images/10_tagging_graphs-2.png)
+![](./images/10_tagging_graphs-2.png#largeImg)
 
 
 Pressing the Hive Notes button lets you add text to any point in time on the graph. This is useful to explain abrupt changes in the data or whenever you do a hive inspection.
@@ -243,13 +210,13 @@ Of particular interest is the &quot;Inspection&quot; button. This button will wa
 
 ## BroodMinder - CELL App
 
-![Cell/Wifi](./images/02_broodminder_cell.png)
+![Cell/Wifi](./images/02_broodminder_cell.png#smallImg)
 
 BroodMinder-WIFI/CELL is an optional component which sits in your apiary and relays data from your BroodMinders directly to mybroodminder.com via a WIFI or CELL connection. We have designed the BroodMinder-WIFI/CELL to automatically begin working when power is turned on.
 
 For best results, watch the installation video at [BroodMinder.com/pages/videos](https://broodminder.com/pages/videos)
 
-![](./images/14_1_broodminder_wifi.png)
+![](./images/14_1_broodminder_wifi.png#largeImg)
 
 ### Quick Start Instructions
 
@@ -271,7 +238,7 @@ For best results, watch the installation video at [BroodMinder.com/pages/videos]
 
 You can install your BroodMinder-WIFI/CELL in many different configurations depending on circumstances. The bracket on the back of the electronics enclosure may be flipped as shown in some of the examples.
 
-![](./images/9_installation.png)
+![](./images/9_installation.png#largeImg)
 
 Here are a few installation considerations
 
@@ -310,7 +277,7 @@ If after the 3 flashes, the V15 lights turn off, it is in Auto-off mode. This is
 [![Always_On Mode activation](https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U)
 
 ### WIFI/CELL Indicator Lights
-![](./images/14_1_broodminder_wifi.png)
+![](./images/14_1_broodminder_wifi.png#largeImg)
 
 
 ### BroodMinder - WIFI/CELL App
@@ -330,15 +297,15 @@ When you receive your BroodMinder-WIFI/CELL, it should be in Deep Sleep mode in 
 By default, the BroodMinder-WIFI/CELL will transfer data hourly.
 
 ### WIFI/CELL App Home Screen
-![](./images/14_2_cell_app.png)
+![](./images/14_2_cell_app.png#largeImg)
 
 Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CELL devices.
 
 ### WIFI/CELL App Configure Screen
-![](./images/14_3_cell_app.png)
+![](./images/14_3_cell_app.png#largeImg)
 
 ### WIFI/CELL App Diagnostics Screen
-![](./images/14_4_cell_app.png)
+![](./images/14_4_cell_app.png#largeImg)
 
 **Firmware Version –** This shows the version of firmware in the BroodMinder. (e.g. 0.17) <br>
 
@@ -358,7 +325,7 @@ Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CEL
 
 
 ### WIFI/CELL App WIFI/CELL Network Screen
-![](./images/14_5_cell_app.png)
+![](./images/14_5_cell_app.png#largeImg)
 
 
 **Send Now –** Immediately connect the modem and send this data to MyBroodminder.com <br>
@@ -366,7 +333,7 @@ Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CEL
 **Copy –** Copy this screen. You can paste into e-mail 
 
 ### WIFI/CELL App CELL Network Screen
-![](./images/14_6_cell_app.png)
+![](./images/14_6_cell_app.png#largeImg)
 
 **NOTE:** These are commands to the CELL modem. See the next page for Wifi commands. If the modem is not on, invoking a command will turn it on. Give it a few seconds and then try the command again. The result will be printed at the bottom of the screen.<br>
 
@@ -382,7 +349,7 @@ Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CEL
 
 
 ### BroodMinder-WIFI/CELL App WIFI/CELL Network Screen
-![](./images/14_7_cell_app.png)
+![](./images/14_7_cell_app.png#largeImg)
 
 **SSID –** Make sure that capitalization matches your network name.<br>
 

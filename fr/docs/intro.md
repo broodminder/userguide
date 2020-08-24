@@ -9,7 +9,7 @@ Si vous lisez cela, c'est le début d'une nouvelle aventure qui s'annonce. Vous 
 En apiculture de Précision l'objectif est de tirer le meilleur parti de toutes les données disponibles pour fournir à l'apiculteur simplement, les bonnes informations, au bon moment. L'apiculteur est informé en temps réel de tous les événements de son rucher. Ceux qui se déroulent à l'instant présent, mais aussi ceux à venir. De cette façon il prévoit ses inspections en amont et sait à l'avance à quoi s'attendre. Le diagnostic est fait avant le déplacement au rucher et complété par l'inspection elle même.
 
 
-![Inspections 15 jours](./images/precision_inspect.png#thumbnail)
+![Inspections 15 jours](./images/precision_inspect.png#largeImg)
 
 
 Pour atteindre cet objectif, les algorithmes sont nos amis. Des modèles qui analysent les informations récoltées et les traduisent en "langage apiculteur". 
@@ -31,30 +31,31 @@ Voici en quelques mots les composantes principales du système.
 
 Des capteurs de poids, de température, d'humidité.. Une gamme complète et en même temps modulaire de dispositifs qui permettent d'équiper vos ruches selon vos besoins. 
 
-![](./images/01_broodminder_products.png)
+![](./images/01_broodminder_products.png#mediumImg)
 
 Tous les capteurs transmettent les informations en Bluetooth et, bien entendu, vous pouvez utiliser votre smartphone pour recueillir ces données. Il suffit de télécharger l'App BroodMinder Apiary à partir de votre store préféré (Apple ou Android).
 
-![](./images/11_0_broodminder_apiary.png)
+![](./images/11_0_broodminder_apiary.png#smallImg)
 
 
 ### Transmetteur de données (Hub)
 Pour ceux qui souhaitent disposer de données en temps réel, le hub est la solution.  Ce boitier autonome s'installe au milieu du rucher et relève automatiquement les informations de tous les capteurs. Il les transmet ensuite via le réseau cellulaire 3G/4G ou WiFI vers le cloud où elles sont traitées.
 
-![](./images/02_broodminder_cell.png)
+![](./images/02_broodminder_cell.png#smallImg)
 
 
 
 ### MyBroodMinder.com
 Les données transmises par votre téléphone ou par le hub arrivent sur le portail [Mybroodminder.com](https://mybroodminder.com). Dans cet espace, vous pouvez configurer votre rucher, vos ruches et leur affecter vos capteurs. Il permet également de visualiser les données brutes sur des graphiques fluides et interactifs.
 
-![](./images/13_0_mybroodminder.png)
+![](./images/13_0_mybroodminder.png#largeImg)
 
 
 ### Bzz.mellisphera.com 
 Le portail [bzz.mellisphera.com](https://bzz.mellisphera.com) est directement connecté avec MyBroodminder. Il récupère les données brutes pour les analyser et les traduire en informations directement utilisables par l'apiculteur. Santé des colonies, miellées, détection d'événements multiples... Nous mettons en oeuvre des algorithmes qui analysent ce qu'il se passe sur le rucher pour informer l'apiculteur au bon moment grâce au système d'alertes intégré.
 
-![](./images/30_1_mellisphera.png)
+
+![](./images/30_1_mellisphera.png#largeImg)
 
 
 ## C'est parti pour l'aventure !

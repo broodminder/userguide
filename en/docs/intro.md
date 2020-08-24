@@ -25,26 +25,26 @@ Here in a few words are the main components of the system.
 
 Weight, temperature, humidity sensors... A complete and at the same time modular range of devices that enable you to equip your hives according to your needs. 
 
-![](./images/01_broodminder_products.png)
+![](./images/01_broodminder_products.png#mediumImg)
 
 All the sensors transmit the information via Bluetooth and, of course, you can use your smartphone to collect this data. Simply download the BroodMinder Apiary App from your favorite store (Apple or Android).
 
-![](./images/11_0_broodminder_apiary.png)
+![](./images/11_0_broodminder_apiary.png#smallImg)
 
 ### Hub 
 For those who want real-time data, the hub is the solution. This autonomous box must be installed in the middle of the apiary. It automatically reads the information from all the sensors and transmits them via the 3G/4G cellular network or WiFI to the cloud, where they are processed.
 
-![](./images/02_broodminder_cell.png)
+![](./images/02_broodminder_cell.png#smallImg)
 
 ### MyBroodMinder.com
 The data transmitted by your phone or by the hub arrive on the [Mybroodminder.com](https://mybroodminder.com) portal. In this space, you can configure your apiary, your hives and assign your sensors to them. You can also visualize the raw data on fluid and interactive graphs.
 
-![](./images/13_0_mybroodminder.png)
+![](./images/13_0_mybroodminder.png#largeImg)
 
 ### Bzz.mellisphera.com 
 The [bzz.mellisphera.com](https://bzz.mellisphera.com) portal is directly connected to MyBroodminder. The raw data is analysed and translated into information directly usable by the beekeeper. Colony health, honeydews, detection of multiple events... We implement algorithms that analyse what is happening in the apiary to inform the beekeeper at the right time, thanks to the integrated alert system.
 
-![](./images/30_1_mellisphera.png)
+![](./images/30_1_mellisphera.png#largeImg)
 
 ## And the adventure begins!
 We hope that this first round makes you want to continue discovering the full potential of the system. Each brick that makes up the system has its own features and you will explore them in greater depth as you go along.

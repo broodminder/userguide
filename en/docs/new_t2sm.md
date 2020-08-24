@@ -1,48 +1,14 @@
 # 🎉 New T2 SwarmMinder
-<style>
-img[src*="#thumbnail0"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:750px;
-}</style>
-
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
-
-<style>
-img[src*="#thumbnail1"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:375px;
-}</style>
-
-<style>
-img[src*="#thumbnail2"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:250px;
-}</style>
-
-<style>
-img[src*="#picto"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:50px;
-}</style>
 
 The T2 temperature sensor makes a big leap forward this spring. The hardware remains unchanged but the heart of this small sensor is completely redesigned. Indeed the embedded software is now able to detect events within the hive. 
 
 ## How to convert a conventional T2 into a T2-SM?
 
-![](./images/01_T2.png#thumbnail1) 
+![](./images/01_T2.png#smallImg) 
 
 Conventional T2 sensors are referenced with type 41:xx:yy. To convert them to T2-SwarmMinder, the firmware has to be updated. To do this, open the Apiary App and display your sensors. When it finds them, the app detects the firmware version as in the example below.
 
-![](./images/t2sm_apiary_upgrade_version.png#thumbnail1)
+![](./images/t2sm_apiary_upgrade_version.png#mediumImg)
 
 By tapping underneath, you enter the sensor configuration screen. 
 
@@ -52,7 +18,7 @@ Here you have to follow two steps in the following order:
 
 2. Launch the firmware update
 
-![](./images/t2sm_upgrade.jpeg#thumbnail2)
+![](./images/t2sm_upgrade.jpeg#mediumImg)
 
 3. Restart the sensor by pressing the button for more than 5 seconds. *It must flash 20 times* 
 
@@ -70,7 +36,7 @@ For these functions to take effect, you must also update your firmware.
 
 2. Launch the proposed update
 
-![](./images/t2sm_updateCell.png#thumbnail2) 
+![](./images/t2sm_updateCell.png#mediumImg) 
 
 ## Go to MyBroodminder.com 
 

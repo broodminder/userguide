@@ -1,13 +1,18 @@
 site_name: USER DOCUMENTATION
 dev_addr: 127.0.0.1:2000
 theme: material
-#markdown_extensions:
-#  - toc:
-#    baselevel: 2
-#theme: readthedocs
-#plugins:
-#    - search
-#    - pdf-export
+site_name: GUIDE UTILISATEUR
+dev_addr: 127.0.0.1:3000
+theme: material
+site_url: https://doc.mellisphera.com
+site_description : precision beekeeping documentation system Broodminder-Mellisphera
+plugins:
+  - search:
+      min_search_length: 3
+      lang: 'en'
+  - pdf-export
+extra_css:
+    - css/extra.css
 nav:
  - index.md
  - Introduction: 'intro.md'
@@ -19,6 +24,6 @@ nav:
  - Data interpretation: 'data_interpretation.md'
  - Beecounted: 'beecounted.md'
  - 🎉 New T2 Swarminder: 'new_t2sm.md'
- - _: 'void.md'
+ - _____: 'void.md'
  - FAQ: 'faq.md'
  - Support: 'support.md'

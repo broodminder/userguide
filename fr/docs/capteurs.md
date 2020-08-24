@@ -7,10 +7,10 @@
 ### Position des capteurs
 Le pack Citizen Science contient deux dispositifs BroodMinder-TH (Température et Humidité) ou BroodMinder-T2 (Température seulement) ainsi qu’une balance BroodMinder-W. Voici où installer ces appareils : 
 
-![](./images/03_sensor_locs.png)
+![](./images/03_sensor_locs.png#largeImg)
 
 ###  BroodMinder-TH (BMR 42)
-![](./images/01_TH.png)
+![](./images/01_TH.png#mediumImg)
 
 Tous les appareils BroodMinder-TH ont un identifiant qui commence par 42 – ils devraient donc être faciles à reconnaitre. Le capteur est normalement placé au-dessus des cadres, près du centre du corps de la ruche qui vous intéresse. Cette position est choisie pour plusieurs raisons :
 
@@ -33,7 +33,7 @@ Quelle que soit la position du capteur choisie, vous pouvez ajouter un marqueur 
 La pile CR2032 est remplaçable en ouvrant l'emballage. Elle dure en moyenne plus d'un an mais nous recommandons un remplacement à chaque automne, avant les basses températures de l'hiver.
 
 ###  BroodMinder-T2 (41)
-![](./images/01_T2.png) 
+![](./images/01_T2.png#mediumImg) 
 
 Tous les appareils BroodMinder-T2 ont un identifiant qui commence par 41 – ils devraient donc être faciles à reconnaitre. Le BroodMinder-T2 (**Température**) est une version à prix réduit du BroodMinder-TH. Il détectera la température de la ruche qui indiquera le développement du couvain durant la saison ainsi que sa survie hivernale. Placez-le au-dessus de l'endroit où vous pensez qu'il y aura le plus de couvain. Durant l'hiver, nous vous conseillons de le placer sur les cadres du corps supérieur de la ruche afin qu'il puisse prendre toute la chaleur montante de l'essaim.
 
@@ -56,7 +56,7 @@ Si vous souhaitez éteindre le T2, nous vous conseillons de le faire avec l'appl
 
 
 ###  BroodMinder-T2SM (47)
-![](./images/01_T2.png) 
+![](./images/01_T2.png#mediumImg) 
 
 Le BroodMinder-T2SM a été lancé en mai 2020. Ce capteur est identique au BroodMinder-T2, sauf qu'il surveille également les événements liés à la température, tels que les essaims. Chaque fois que le capteur détecte une augmentation de température de 15°C (en présence de couvain), il enregistre les 30 minutes avant & les 40 minutes après en mettant en place un drapeau indiquant un événement de température. Rendez-vous à la section interprétation des données pour plus d'informations.
 
@@ -81,7 +81,7 @@ Si vous souhaitez éteindre le T2SM, nous vous conseillons de le faire avec l'ap
 
 
 ###  BroodMinder-W (43)
-![](./images/01_W.png)
+![](./images/01_W.png#mediumImg)
 
 Le BroodMinder-W (**Poids**) se place sous la ruche. Il existe un rapport détaillé sur la façon dont on positionne la balance (annexe A). C'est très intéressant à lire mais si vous manquez de temps, voici l'essentiel.
 
@@ -127,9 +127,9 @@ Il est préférable de placer le BroodMinder-W à l'abri du soleil. En effet,
 
 Ensuite, vous allez couper le plateau du fond. Pour le côté de la cornière aluminium, vous découperez une rainure de la largeur de votre lame de scie dans laquelle la pointe de l'angle viendra s'insérer. Pour le côté de la balance, vous découperez la paroi du corps de la ruche en faisant une entaille de 5cm de largeur (largeur de la balance) sur 0,25cm de profondeur afin que celle-ci puisse s'emboiter facilement dans le corps de la ruche. Voir les images ci-dessous.
 
-![](./images/04_accurate_w_01.png)
+![](./images/04_accurate_w_01.png#largeImg)
 
-![](./images/04_accurate_w_02.png)
+![](./images/04_accurate_w_02.png#largeImg)
 
 #### Caractéristiques
 
@@ -143,7 +143,7 @@ Il existe de nombreuses façons d’utiliser la balance de ruche BroodMinder. Co
 
 Voici la correction des défauts avec la balance positionnée à l’avant de la ruche ainsi qu’un support auxiliaire (point d’appui) de 2x4cm placé à l’arrière : 
 
-![](./images/21_1_appendixA_arrangement.png)
+![](./images/21_1_appendixA_arrangement.png#mediumImg)
 
 Voici maintenant les calculs de cette mise en place :
 
@@ -153,20 +153,21 @@ Calculs du
 
 -	Poids de la balance (S):
 
-![](./images/21_2_appendixA_calcul_S.png)
+![](./images/21_2_appendixA_calcul_S.png#smallImg)
 
 - Poids du support arrière (B):
 
-![](./images/21_3_appendixA_calcul_B.png)
+![](./images/21_3_appendixA_calcul_B.png#smallImg)
 
 En utilisant comme support auxiliaire un morceau de bois standard de 2x4cm et en l’alignant avec l’arrière de la ruche, le poids total de la ruche (W) peut être calculé à partir du poids de la balance (S) : 
-![](./images/21_4_appendixA_calcul_W.png)
+
+![](./images/21_4_appendixA_calcul_W.png#smallImg)
 
 Par conséquent, indiquez 2.09 comme facteur d’échelle de la ruche par défaut sur l’application si vous utilisez cette configuration. On pourra évidemment affiner ce chiffre une fois que des mesures de poids seront possibles. 
 
 Le graphique ci-dessous montre le facteur de correction d’échelle pour différentes dispositions de la balance et du support. L’axe X représente la position du support (en pouces) à partir de l’arrière de la ruche. Les différentes lignes représentent la position centrale de la balance (en pouces) à partir de l’arrière de la ruche. Les flèches montrent l’exemple donné ci-dessus.
 
-![](./images/21_5_appendixA_chart.png)
+![](./images/21_5_appendixA_chart.png#mediumImg)
 
 *La croix rouge sur le graphique représente les positions idéales du support et de la balance (facteur de correction d’échelle = 2.0).*
 
@@ -174,15 +175,15 @@ Le graphique ci-dessous montre le facteur de correction d’échelle pour diffé
 
 Compte tenu de ce que l’on vient de voir, le support auxiliaire devrait être placé à 25mm (1 pouce) de l’arrière de la ruche. Il est recommandé d’ajouter une pièce sur le support auxiliaire comme indiqué sur le schéma afin de pouvoir le positionner avec plus de précision. 
 
-![](./images/22_1_appendixA_alternate1.png)
+![](./images/22_1_appendixA_alternate1.png#mediumImg)
 
 Nous avons désormais les segments E et F de même longueur et le facteur de correction d’échelle de la ruche est de 2.0 (soit la valeur par défaut sur l’application mobile). Cependant, il existe d'autres facteurs d'influence qui ne doivent pas être négligés. Le véritable point d’appui du support auxiliaire se situe quelque part entre l’arrière de la ruche et le devant du support, à cause des variations de niveau du support ainsi qu’une éventuelle déformation du support lui-même. 
 
-![](./images/22_2_appendixA_alternate1.png)
+![](./images/22_2_appendixA_alternate1.png#smallImg)
 
 Compte-tenu de l’incertitude introduite qui est assez importante, le facteur de correction d’échelle est compris entre 1.90 et 2.13 (ou entre -5% et +6.5%).
 
-![](./images/22_3_appendixA_alternate1.png)
+![](./images/22_3_appendixA_alternate1.png#mediumImg)
 
 **3) Autre disposition n°2**
 
@@ -190,8 +191,8 @@ Il y a un autre système de support qui peut être utilisé, qui a un point d’
 
 Prenez un morceau de bois (pin ou chêne) d’à peu près 20mm d’épaisseur et 50mm de largeur. La longueur du morceau doit être égale à la largeur de la ruche. Découpez-y une petite entaille : elle doit être aussi profonde que la largeur de la lame de votre scie. Fixez ce morceau en-dessous du plateau de fond de la ruche. Alignez-le avec l’arrière de la ruche. Prenez maintenant une cornière en aluminium (6061 ou 6063) de 25x3mm, de la même longueur que le morceau de bois. Placez-la sous ce dernier afin de soutenir la ruche. L’angle de la cornière en aluminium doit reposer dans l’entaille. La hauteur totale de ce dispositif (cornière en aluminium + morceau de bois) doit être égale ou légèrement plus élevée que la haute de la ruche. En effet, il faut s’assurer que la ruche est de niveau voir légèrement inclinée vers l’avant afin d’éloigner l’écoulement de l’eau de l’entrée de la ruche.
 
-![](./images/22_4_appendixA_alternate2.png)
-![](./images/22_5_appendixA_alternate2.png)
+![](./images/22_4_appendixA_alternate2.png#mediumImg)
+![](./images/22_5_appendixA_alternate2.png#smallImg)
 
 Cela permet de définir un point d’appui précis qui ne bougera pas et ne sera pas non plus affecté par un support dont la structure est inégale. 
 
@@ -205,11 +206,11 @@ Sinon, calez la balance du côté où le % est le plus faible jusqu’à ce que 
 
 **5) Support de ruche sur trois points**
 
-![](./images/23_1_AppendixA_Hivesupport.png)
+![](./images/23_1_AppendixA_Hivesupport.png#mediumImg)
 
 Il existe un moyen d’alléger ce besoin d’équilibrage latéral en mettant en place un véritable système de support sur trois points. Les morceaux nécessaires sont similaires à ceux utilisés dans la disposition n°2, sauf qu’au lieu d’utiliser une cornière en aluminium de 25mm, vous aurez besoin ici d’une cornière de 20mm. Percez un trou de 5mm au centre du morceau (au lieu d’une entaille). Une vis à métaux 6x12mm est utilisée comme support central. La fente de la tête de vis est alignée de manière à ce que l’angle de la cornière en aluminium puisse s’y emboiter en un seul point sans glisser. 
 
-![](./images/23_2_AppendixA_Hivesupport.png)
+![](./images/23_2_AppendixA_Hivesupport.png#largeImg)
 
 Il y aura un léger écart entre la cornière en aluminium et la planche de bois. Assurez-vous que cet écart soit de largeur égale tout le long de la ruche. La vis placée au centre doit être l’unique point de contact, ce qui garantira que le poids mesuré est correct. Elle fait également office de « filet de sécurité » qui protège la ruche de la chute si le poids est réparti de manière trop inégale ou irrégulière – lors d’inspections de la ruche par exemple. 
 
@@ -219,11 +220,11 @@ La plupart des éléments ci-dessus concernaient le support auxiliaire. Concentr
 
 Comme indiqué dans les sections précédentes, il est préférable que la partie avant de la balance soit alignée avec la partie avant du corps de la ruche. Décaler la balance plus vers l’intérieur de la ruche apporterait plus de précision dans les résultats au détriment de la stabilité de la ruche. La décaler plus vers l’extérieur réduirait la précision des résultats sans pour autant améliorer la stabilité de la ruche. 
 
-![](./images/24_1_AppendixA_positioning.png)
+![](./images/24_1_AppendixA_positioning.png#mediumImg)
 
 Ce graphique montre l’influence de la position de la balance sur le facteur de correction d’échelle et sur l’erreur de poids, introduite par un positionnement inexact de la balance. L’influence est de 5,6% par pouce (soit 25mm). 
 
-![](./images/24_2_AppendixA_positioning.png)
+![](./images/24_2_AppendixA_positioning.png#mediumImgg)
 
 Il est conseillé de marquer la position de la balance sur le plateau de fond de la ruche ou de fixer une butée mécanique. Cela permettrait de pouvoir remettre la balance exactement au même endroit si elle venait à être enlevée pour changer la pile ou pour toute autre raison. 
 

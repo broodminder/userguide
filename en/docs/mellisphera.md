@@ -1,17 +1,11 @@
 # Mellisphera.com 
 
-<style>
-img[src*="#thumbnail"] {
-   margin: 10px auto 20px;
-   display: block;
-   width:550px;
-}</style>
 
 ## General overview 
 
 Mellisphera is integrated with BroodMinder. Therefore, you must create an account MyBroodMinder and set up your apiaries / hives on https://mybroodminder.com. This website enables you to assign the sensors to each of your hives and to visualize the measured data. 
 
-![BroodMinder screen](./images/ecran_MBM.png#thumbnail)
+![BroodMinder screen](./images/ecran_MBM.png#largeImg)
 
 You will always have a Mellisphera button on the left-hand menu. Simply click on it to get to Mellisphera. If you have recently logged in, you will be automatically connected without needing to enter your email and password. Otherwise, the email field will be auto-filled. 
 
@@ -19,7 +13,7 @@ Now begins your adventure https://bzz.mellisphera.com/login.
 
 ## Login page
 
-![Mellisphera screen](./images/ecran_MS.png#thumbnail)
+![Mellisphera screen](./images/ecran_MS.png#largeImg)
 
 On the login page, you have the possibility to connect to a demo apiary if you do not have an account or if you are simply curious and eager for something new. You can read about the relationship between BroodMinder and Mellisphera, and learn about what Mellisphera can get you. 
 
@@ -31,23 +25,23 @@ Let's take a look of Mellisphera different features.
 
 Once you are connected to Mellisphera, you will access this interface, composed of three areas: 
 
-![Home screen](./images/home_app.png#thumbnail)
+![Home screen](./images/home_app.png#largeImg)
 
 You can select the apiary to display with the top bar. This is also where you can choose your preferences. On the left side, you can see the different environments of Mellisphera. We will explore them in the next chapters.  
 
 Next to each feature, you will find tooltips. They detail the essential information in order to understand the data. 
 
-![Tooltips](./images/infobulles.png#thumbnail)
+![Tooltips](./images/infobulles.png#mediumImg)
 
 ## Account settings
 
 In the top right corner of the app, you will have access to your account settings. 
 
-![Account settings](./images/settings_app.png)
+![Account settings](./images/settings_app.png#smallImg)
 
 This is where you can reset your password. Please note that this will only change the password for the Mellisphera app. 
 
-![Password](./images/password.png#thumbnail)
+![Password](./images/password.png#mediumImg)
 
 You can also set some of your preferences:
 
@@ -56,15 +50,15 @@ You can also set some of your preferences:
 - the language (French, Spanish or English for the moment)
 - the weather source
 
-![Preferences](./images/all_settings.png)
+![Preferences](./images/all_settings.png#smallImg)
 
 ## Apiary overview 
 
-![Apiary overview](./images/acceuil_sidebar.png)
+![Apiary overview](./images/acceuil_sidebar.png#picto)
 
 This page is the starting point of Mellisphera. You can select the apiary to explore from the top drop-down menu and then navigate through the main information. 
 
-![Home screen](./images/home_app.png#thumbnail)
+![Home screen](./images/home_app.png#largeImg)
 
 Your navigation is contextualized on the apiary thanks to a picture that enables you to define the location of your hives. You can place "stickers" underneath, carrying the main information (name, weight, brood, etc.) in order to materialize your hives. 
 
@@ -82,7 +76,7 @@ On the picture, you also have an icon for exporting your data. It is an Excel do
 
 Your apiary picture - with its stickers - is associated with a set of buttons placed just above. This navigation bar enables you to visualize contextually some information:
 
-![Picture browsing](./images/barre_navig.png#thumbnail)
+![Picture browsing](./images/barre_navig.png#largeImg)
 
 You can activate the "name", "brood", "weight" and "device" buttons. This enables you to display respectively the name, the brood, the weight and the sensors of all your hives below the stickers, on the date displayed on the top right of the screen. The date of the previous day - which corresponds to the last day of data in general - is set by default. You can obviously change this date. 
 
@@ -90,7 +84,7 @@ You can activate the "name", "brood", "weight" and "device" buttons. This enable
 
 What is special about the sensors is that you can see their status in real time with a color code (grey, red, orange) that determines the status and displays the problem. 
 
-![Sensor status](./images/problem_sensor.png#thumbnail)
+![Sensor status](./images/problem_sensor.png#mediumImg)
 
 The battery level is systematically calculated. Regarding apiaries that are equipped with a Hub, the signal and connection information are also evaluated. Here is the colour code:
 
@@ -110,27 +104,27 @@ Please note that hives which do not have sensors or those which have no data on 
 
 For more information about our BFit model and how it calculates the hive health status, please refer to the "data interpretation" section. 
 
-![Stickers](./images/pastilles.png#thumbnail)
+![Stickers](./images/pastilles.png#mediumImg)
 
 #### Apiary calendar of events
 
 You have a specific calendar of events for each of your apiaries. This calendar enables you to track the tasks carried out at the level of the apiary as a whole and to display general observations. The calendar also includes alerts and notifications - we will see how to configure them later - at the apiary level. 
 
-![Apiary event](./images/event_rucher.png#thumbnail)
+![Apiary event](./images/event_rucher.png#mediumImg)
 
 #### Apiary notes
 
 In order to complete the apiary overview, you can write your apiary notes/observations/inspections. This would be placed just below the picture of your apiary. 
 
-![Apiary notes](./images/rucher_note.png#thumbnail)
+![Apiary notes](./images/rucher_note.png#largeImg)
 
 In order to add a note, just click on the "+" of the insert, it's very simple! 
 
-![New note](./images/new_note.png#thumbnail)
+![New note](./images/new_note.png#mediumImg)
 
 You will directly see the note on the calendar of events with this icon: 
 
-![Icon note](./images/icon_note.png)
+![Icon note](./images/icon_note.png#picto)
 
 ### Hive overview
 
@@ -138,11 +132,11 @@ In order to access the hive overview, you should click on its sticker or on its 
 
 The displayed data go from the last 5 weeks to the next 3 days - since we can predict 3-day events. 
 
-![Hive overview](./images/calendrier_UX1.png#thumbnail)
+![Hive overview](./images/calendrier_UX1.png#mediumImg)
 
-![Hive overview](./images/calendrier_UX2.png#thumbnail)
+![Hive overview](./images/calendrier_UX2.png#mediumImg)
 
-![Hive overview](./images/calendrier_UX3.png#thumbnail)
+![Hive overview](./images/calendrier_UX3.png#mediumImg)
 
 #### Events
 
@@ -162,19 +156,19 @@ It is possible to make annotations on each hive. These notes are separated from 
 
 ## Explore
 
-![Explorer](./images/explorer_sidebar.png)
+![Explorer](./images/explorer_sidebar.png#picto)
 
 The **apiary** overview gives an insight of the overall situation. In **explorer**, you can navigate through your data in more detail. You will see a new grey navigation bar with three sections: 'Hive', 'Brood' and 'Data'. By default, you will be in the 'Hive' mode. 
 
 Please note that the data for the last month will be displayed by default. You can obviously change the date at the top right of the screen. You can change and customize this data period as you wish or use the arrows to move through the time period. 
 
-![Browsing explorer](./images/navig_explorer.png#thumbnail)
+![Browsing explorer](./images/navig_explorer.png#largeImg)
 
-![Modification date](./images/personnaliser_date.png)
+![Modification date](./images/personnaliser_date.png#mediumImg)
 
 ### Hive mode
 
-![Hive mode](./images/ruche_explorer.png#thumbnail)
+![Hive mode](./images/ruche_explorer.png#largeImg)
 
 In the hive mode, you can choose among all the hives of all your apiaries, but please note that you can only select one hive at the time. Once you chose the hive, you will see three calendars. 
 
@@ -204,13 +198,13 @@ If you do not have any weather data, please refer to the FAQ. For more details a
 
 So you can visualize and switch calendar modes as you wish. Here's an example:
 
-![Calendar](./images/manier_calendrier.png#thumbnail)
+![Calendar](./images/manier_calendrier.png#largeImg)
 
 ### Brood mode
 
 In the brood mode, you can, this time, **select as many hives as you wish**, even if these hives are situated in two different apiaries. This way you can compare apiaries or hives with each other.
 
-![Brood mode](./images/couvain_explorer.png#thumbnail)
+![Brood mode](./images/couvain_explorer.png#largeImg)
 
 By hovering over it, you will see information about your hives. 
 
@@ -220,23 +214,23 @@ It is  an extremely powerful tool for analysing data over long or short periods 
 
 In the data mode, you will see your hive raw data: the internal temperature will be displayed at the top of the screen, the weight in the center and the humidity at the bottom (just like on mybroodminder). In green, you will have the optimal areas for brood and humidity. You can also select as many hives as you wish, even if these hives are situated in two different apiaries. This allows you to compare apiaries or hives between each other.
 
-![Raw data](./images/raw_data.png#thumbnail)
+![Raw data](./images/raw_data.png#largeImg)
 
 This tool is very easy to use. The small icons that are on the right side of the graph enable you to zoom in, select areas, move around, view listing data etc. 
 
 ## Alerts 
 
-![Alert button](./images/alertes_sidebar.png)
+![Alert button](./images/alertes_sidebar.png#picto)
 
 In this section, you will find the functions that enable you to implement a notification and alert service on each of your apiaries. You will also find a new navigation bar which displays the 3 types of alert: 'Hive', 'Weather', 'Sensor' and the 'Settings' button,dedicated to the configuration. 
 
-![Alert bar](./images/barre_alertes.png#thumbnail)
+![Alert bar](./images/barre_alertes.png#mediumImg)
 
 ### Hive
 
 In this tab, you can see all the alerts concerning your hives. These alert icons can also be found in your hive event calendar. 
 
-![Hive alert](./images/ruche_alertes.png#thumbnail)
+![Hive alert](./images/ruche_alertes.png#largeImg)
 
 You can turn the alerts on and off. And for many of them, you can change their thresholds by sliding the cursor. By default, everything will be activated with auto-adjusted settings. 
 
@@ -270,7 +264,7 @@ In this tab, you will see all weather alerts. These alert icons can also be foun
 
 Here again, you can adjust, deactivate/activate the different alerts. By default, everything will be activated with auto-adjusted settings. 
 
-![Weather alert](./images/meteo_alertes.png#thumbnail)
+![Weather alert](./images/meteo_alertes.png#largeImg)
 
 All weather alerts are predictive at D+7 maximum. 
 They are constantly evolving. For example, if an event is predicted at D+7 and then the next day this event is obsolete, it will no longer be displayed.
@@ -290,13 +284,13 @@ The alerts, associated with our sensors, provide information on any connection o
 
 Please note that **these alert icons won't be displayed on your event calendars**. But you can visualize them in 'My Apiary' section, in the 'Sensor' tab. 
 
-![Capteurs rucher](./images/devices_apiary.png#thumbnail)
+![Capteurs rucher](./images/devices_apiary.png#largeImg)
 
 Likewise, if the email alerts (next section) are activated, you will be notified of your sensors status. 
 
 Here again, you can adjust, deactivate/activate the different alerts. By default, everything will be activated with auto-adjusted settings. 
 
-![Sensor alert](./images/devices_alertes.png#thumbnail)
+![Sensor alert](./images/devices_alertes.png#largeImg)
 
 Here are the detailed alerts available for each type of sensor:
 
@@ -316,7 +310,7 @@ In this section, you can configure the email sendings. We strongly recommend you
 
 The sending is deactivated by default and your email address is written in the first box. You can add a second email address. In this case, emails will be sent to both addresses. To make sure that the tool is working, you can click on the 'Test email' button: an email will be instantly sent to the registered addresses. If you don't receive it in the next few minutes, please contact support@mellisphera.com. 
 
-![Alert settings](./images/parametres_alertes.png#thumbnail)
+![Alert settings](./images/parametres_alertes.png#mediumImg)
 
 In these emails, you will have access to the following information:
 - The received alerts since the last time data was sent
@@ -328,13 +322,13 @@ Please note that deactivating an alert will make it disappear from the emails an
 
 Here is a preview of the kind of email that you may receive:
 
-![Alert email](./images/email_1.png#thumbnail)
+![Alert email](./images/email_1.png#largeImg)
 
-![Alert email](./images/email_2.png#thumbnail)
+![Alert email](./images/email_2.png#largeImg)
 
 ## MyBroodMinder link
 
-![MBM button](./images/MBM_sidebar.png)
+![MBM button](./images/MBM_sidebar.png#picto)
 
 If you click on the MyBroodMinder icon, this will redirect you to the MyBroodMinder.com platform. With a single click, you can switch from one platform to the other: on one side MyBroodMinder to manage your apiary / hive / sensor configurations, and on the other side Mellisphera to accurately analyze your data and to be informed in real time about what is happening on your hives.
 
@@ -342,23 +336,23 @@ Please remember that if you make changes to MyBroodMinder, they will be saved wh
 
 ## Support
 
-![Support button](./images/support_sidebar.png)
+![Support button](./images/support_sidebar.png#picto)
 
 You can contact our support team from this link. Either by direct message, by email at [support@mellisphera.com](mailto:support@mellisphera.com) or by logging in directly on Slack.
 
-![Support message](./images/support_msg.png#thumbnail)
+![Support message](./images/support_msg.png#largeImg)
 
 Do not hesitate to send us your questions, feedback, experience, improvement ideas and problems. We love customer feedbacks! The good ones and the ones that help us progressing.
 
 ## User guide
 
-![User guide button](./images/doc_sidebar.png)
+![User guide button](./images/doc_sidebar.png#picto)
 
 Click on this link to access the complete user guide: https://doc.mellisphera.com. 
 
 This portal is entirely dedicated to the documentation of our whole system. It is structured in several areas as shown in the image below. 
 
-![User guide portal](./images/user_doc_portal.png#thumbnail)
+![User guide portal](./images/user_doc_portal.png#largeImg)
 
 1. Language choice
 2. Documents available
@@ -370,7 +364,7 @@ Don't hesitate to use the **keyword search**: it is extremely efficient and give
 
 Here is an example with the 'battery' keyword
 
-![User guide portal](./images/user_doc_portal_srch_example.png#thumbnail)
+![User guide portal](./images/user_doc_portal_srch_example.png#largeImg)
 
 ## Colony environnement 
 
@@ -387,13 +381,13 @@ The weather is associated with the apiary, as well as with each of the hives. Ea
 **7-day forecast**
 With WeatherSource, you can also visualize the weather forecast. The D-day is always marked with a purple square as in the image below.
 
-![Weather forecast](./images/meteo_forecast.png#thumbnail1)
+![Weather forecast](./images/meteo_forecast.png#mediumImg)
 <div align="center" ><i>Monthly average weather and D+7 forecast</i></div>
 
 ### Astronomy
 The astronomical calendar clearly shows the moon's phases. It also shows the day length with the sunrise/sunset times, according to your geographical area.
 
-![Weather forecast](./images/calendrier_lunaire.png#thumbnail1)
+![Weather forecast](./images/calendrier_lunaire.png#mediumImg)
 <div align="center" ><i>By hovering the moon calendar, you will also get information about the sun.</i></div>
 
 ## Models & algorithms
@@ -405,7 +399,7 @@ BFIT for _Bee Fitness_ is the algorithm that informs the beekeeper of each hive'
 
 The display is very easy to understand, with coloured stickers to indicate their condition. To complete the information, a tooltip (on the flyover) specifies the nature of the situation.
 
-![Stickers](./images/pastilles.png)
+![Stickers](./images/pastilles.png#largeImg)
 
 The color code is the following:
 
@@ -419,7 +413,7 @@ The color code is the following:
 
 By activating the alerts in Mellisphera, you will receive by e-mail a summary table with all the information:
 
-![BFit email](./images/bfit_email.png)
+![BFit email](./images/bfit_email.png#largeImg)
 
 BFit is based on algorithms that collect events. The 'Learning' algorithm learns from previous events to preserve, or not, future events. Afterwards, it classifies the detected events between those affecting the hive state and the others. 
 
@@ -435,7 +429,7 @@ On the contrary, when there is no brood, the bees do not need to regulate the cl
 
 Between these two extreme points, we can imagine a lot of intermediate situations. 
 
-![BForce report](./images/constat_bforce.png)
+![BForce report](./images/constat_bforce.png#largeImg)
 
 In order to illustrate this, here are the hourly measurements on two hives from the same apiary. The first is represented in red and the second in grey. Each hive has a very different condition. The red one has an internal temperature close to 25°C/30°C - following the same fluctuations as the external temperature (dotted lines) - while the grey one is situated in the famous 'Optimal Brood Zone' with a constant temperature of 35°C.
 
@@ -456,17 +450,17 @@ Brood calendars & charts show the daily progress of the brood in each hive. The 
 
 You can visualize the season's history at a glance. The egg laying stops and restarts are clearly visible.
 
-![BForce calendar](./images/calendrier_bforce.png#thumbnail2)
+![BForce calendar](./images/calendrier_bforce.png#smallImg)
 <div align="center" ><i>Brood calendar</i></div>
 
 You can also compare several hives with each other, whatever their apiary.
 
-![BForce chart](./images/graph_bforce.png#thumbnail)
+![BForce chart](./images/graph_bforce.png#largeImg)
 <div align="center" ><i>Annual brood - same hive compared with two others</i></div>
 
 With practice, we can identify several events on these graphs. We can identify when the egg-laying starts & stops, of course. But we can also detect swarms, bad weather periods that have impacted brood production, the effect of Asian hornets, etc.  
 
-![BForce path](./images/parcours_bforce.png#thumbnail)
+![BForce path](./images/parcours_bforce.png#largeImg)
 <div align="center" ><i>Two hive path over a season, with some events</i></div>
 
 ### Productivity - BWeight
@@ -476,7 +470,7 @@ A weight sensor installed under a hive provides detailed information on weight g
 
 First of all, during the day, weight variations depend on the resources brought in or consumed. But they also depend on the bees' movements: during the day, they are more or less numerous to come out to forage. 
 
-![Bee's movements](./images/sortie_abeilles.png#thumbnail)
+![Bee's movements](./images/sortie_abeilles.png#largeImg)
 <div align="center" ><i>In red: when bees get out of the hive
 
 In blue: when they bring back nectar
@@ -485,17 +479,17 @@ In black: dehydration </i></div>
 
 This is why the hive weight graph shows some "bumps". A bump every day, as you can see in the graph below. On the chart, you can also see sudden weight variations, related to the beekeeper's interventions.
 
-![Gross weight history](./images/historique_poids_brut.png#thumbnail0)
+![Gross weight history](./images/historique_poids_brut.png#largeImg)
 <div align="center" ><i>Gross weight history with beekeeper's interventions in blue</i></div>
 
 With these facts, we can see that **for a proper productivity evaluation, we must only consider the weight variations coming exclusively from the bees' production**. In this way, external events must be ignored: feeding, swarming, addition/withdrawal of suppers, beekeeper interventions, unexplained loss or gain. The BWeight algorithm makes it easy to identify these distinct events and to exclude them from the productivity calculation.
 
 As a result, we have a daily information about weight gain or loss. The graphical representation on the calendar makes it easy to identify the honeydew and its intensity during the season.
 
-![BWeight](./images/bweight2.png#thumbnail1)
+![BWeight](./images/bweight2.png#mediumImg)
 <div align="center" ><i>Excellent linden honeydew at the end of June!</i></div>
 
 Taking a wider time scale makes it easy to record and compare the progress of different honeydews.
 
-![Honeydew](./images/miellee.jpg#thumbnail)
+![Honeydew](./images/miellee.jpg#largeImg)
 <div align="center" ><i>Honeydew calendar from a transhumant hive in 2018 (from left to right): rapeseed, pear, apple, acacia, cornouille, mulberry tree, chestnut tree, linden</i></div>
