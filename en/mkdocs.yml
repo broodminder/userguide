@@ -1,14 +1,10 @@
 site_name: USER DOCUMENTATION
 dev_addr: 127.0.0.1:2000
 theme: material
-site_name: GUIDE UTILISATEUR
-dev_addr: 127.0.0.1:3000
-theme: material
 site_url: https://doc.mellisphera.com
 site_description : precision beekeeping documentation system Broodminder-Mellisphera
 plugins:
   - search:
-      min_search_length: 3
       lang: 'en'
   - pdf-export
 extra_css:
