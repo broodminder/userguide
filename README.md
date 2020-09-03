@@ -35,9 +35,9 @@ When multiple langs where managed on a single MKDocs repo, the search was search
 When integrated in mybroodminder or mellisphera we'll point to the right lang based on user prefs.
 
 ## Deployment on a server with a vhost
-1. clonner  repo sur le VPS dans ```/mellisphera/prod/userguide```
+1. clone repo on the VPS in ```/mellisphera/prod/userguide```
 
-2. lancer ```./build.sh```
+2. launch ```./build.sh```
 le site en version html est généré et installé sur un virtual host dans `/var/www/html/doc`
 
 3. vérifier que tout est actualisé https://doc.mellisphera.com/
@@ -50,3 +50,4 @@ https://weasyprint.readthedocs.io/en/latest/install.html
 
 Works on MacOs and Linux.
 
+Note for Mac users : use brew to install ALL packages and dependencies. Sometimes conflicts can arise if not all packages are installed in the same environment (ex Anaconda python or pip conflicting with Brew python3 or pip3)
