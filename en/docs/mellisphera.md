@@ -70,7 +70,7 @@ The first time you connect to the Mellisphera app, you will have the opportunity
 
 On the picture, you also have an icon for exporting your data. It is an Excel document (csv or .xlx) of your apiary data (hives, sensors, battery, brood, weight) and your last notes. This is very useful during your visits to the apiary. 
 
-![Exporting data](./images/export_MS.png#thumbnail)
+![Exporting data](./images/export_MS.png#largeImg)
 
 #### Picture browsing
 

@@ -359,7 +359,7 @@ Ce bouton vous renvoie sur l'ensemble de la documentation utilisateur : https://
 
 Ce portail, entièrement dédié à la documentation de l'ensemble du système, est structuré en plusieurs zones comme indiqué dans l'image ci-dessous. 
 
-![Doc portal](./images/user_doc_portal.png#thumbnail)
+![Doc portal](./images/user_doc_portal.png#largeImg)
 
 1. Choix de la langue de la documentation
 2. Documents disponibles
