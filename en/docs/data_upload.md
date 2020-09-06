@@ -208,7 +208,7 @@ When noting a past event, it is useful to move the chart and line up the time of
 Of particular interest is the &quot;Inspection&quot; button. This button will walk you through a 6 easy to answer questions about the state of the hive. The list was shared with us by Dick Rogers and we think it is a quick and effective way to document the hive.
 
 
-## BroodMinder - CELL App
+## BroodMinder Hub
 
 ![Cell/Wifi](./images/02_broodminder_cell.png#smallImg)
 
@@ -280,9 +280,9 @@ If after the 3 flashes, the V15 lights turn off, it is in Auto-off mode. This is
 ![](./images/14_1_broodminder_wifi.png#largeImg)
 
 
-### BroodMinder - WIFI/CELL App
+### BroodMinder Cell App
 
-The BroodMinder-WIFI/CELL App allows you to closely watch how things are going. Some of the things that you can monitor include:
+The BroodMinder Cell App allows you to closely watch how things are going. Some of the things that you can monitor include:
 
 - Deep Sleep Mode – see below.
 - Current status of BroodMinder-WIFI/CELL (Initializing, time until next data transfer, connecting to WIFI, sending data)
@@ -290,21 +290,21 @@ The BroodMinder-WIFI/CELL App allows you to closely watch how things are going. 
 - WIFIlular signal strength
 - Lots of diagnostic features
 
-We won&#39;t go into a lot of detail in the manual because there is not much to adjust with the app. In fact, the only things that you can adjust is when and how often data is transferred to Mybroodminder.com. The rest of the app is to aid our support personnel in diagnosing problems.
+We won't go into a lot of detail in the manual because there is not much to adjust with the app. In fact, the only things that you can adjust is when and how often data is transferred to Mybroodminder.com. The rest of the app is to aid our support personnel in diagnosing problems.
 
 When you receive your BroodMinder-WIFI/CELL, it should be in Deep Sleep mode in order to conserve the battery during shipment. You will need the BroodMinder-CELL app to wake it up.
 
 By default, the BroodMinder-WIFI/CELL will transfer data hourly.
 
-### WIFI/CELL App Home Screen
+#### App Home Screen
 ![](./images/14_2_cell_app.png#largeImg)
 
 Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CELL devices.
 
-### WIFI/CELL App Configure Screen
+#### App Configure Screen
 ![](./images/14_3_cell_app.png#largeImg)
 
-### WIFI/CELL App Diagnostics Screen
+#### App Diagnostics Screen
 ![](./images/14_4_cell_app.png#mediumImg)
 
 - **Firmware Version –** This shows the version of firmware in the BroodMinder. (e.g. 0.17) <br>
@@ -317,14 +317,14 @@ Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CEL
 - **Enter Deep Sleep –** When we ship the device, we put the -WIFI/CELL in deep sleep to suspend all WIFIular connection and thus save battery life so that when it show us, it is ready to go.<br>
 
 
-### WIFI/CELL App WIFI/CELL Readings Screen
+#### App Readings Screen
 ![](./images/14_5_cell_app.png#mediumImg)
 
 
 - **Send Now –** Immediately connect the modem and send this data to MyBroodminder.com <br>
 - **Copy –** Copy this screen. You can paste into e-mail 
 
-### WIFI/CELL App CELL Network Screen
+#### App Cell Network Screen
 ![](./images/14_6_cell_app.png#mediumImg)
 
 **NOTE:** These are commands to the CELL modem. See the next page for Wifi commands. If the modem is not on, invoking a command will turn it on. Give it a few seconds and then try the command again. The result will be printed at the bottom of the screen.<br>
@@ -340,7 +340,7 @@ Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CEL
 - **Get SIM ID –** This should match the number stickered inside the enclosure.<br>
 
 
-### BroodMinder-WIFI/CELL App WIFI Network Screen
+#### App WIFI Network Screen
 ![](./images/14_7_cell_app.png#mediumImg)
 
 - **SSID –** Make sure that capitalization matches your network name.<br>
