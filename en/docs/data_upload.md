@@ -280,7 +280,7 @@ If after the 3 flashes, the V15 lights turn off, it is in Auto-off mode. This is
 ![](./images/14_1_broodminder_wifi.png#largeImg)
 
 
-### BroodMinder Cell App
+## BroodMinder CELL App
 
 The BroodMinder Cell App allows you to closely watch how things are going. Some of the things that you can monitor include:
 
@@ -296,15 +296,15 @@ When you receive your BroodMinder-WIFI/CELL, it should be in Deep Sleep mode in 
 
 By default, the BroodMinder-WIFI/CELL will transfer data hourly.
 
-#### App Home Screen
+### App Home Screen
 ![](./images/14_2_cell_app.png#largeImg)
 
 Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CELL devices.
 
-#### App Configure Screen
+### App Configure Screen
 ![](./images/14_3_cell_app.png#largeImg)
 
-#### App Diagnostics Screen
+### App Diagnostics Screen
 ![](./images/14_4_cell_app.png#mediumImg)
 
 - **Firmware Version –** This shows the version of firmware in the BroodMinder. (e.g. 0.17) <br>
@@ -317,14 +317,14 @@ Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CEL
 - **Enter Deep Sleep –** When we ship the device, we put the -WIFI/CELL in deep sleep to suspend all WIFIular connection and thus save battery life so that when it show us, it is ready to go.<br>
 
 
-#### App Readings Screen
+### App Readings Screen
 ![](./images/14_5_cell_app.png#mediumImg)
 
 
 - **Send Now –** Immediately connect the modem and send this data to MyBroodminder.com <br>
 - **Copy –** Copy this screen. You can paste into e-mail 
 
-#### App Cell Network Screen
+### App Cell Network Screen
 ![](./images/14_6_cell_app.png#mediumImg)
 
 **NOTE:** These are commands to the CELL modem. See the next page for Wifi commands. If the modem is not on, invoking a command will turn it on. Give it a few seconds and then try the command again. The result will be printed at the bottom of the screen.<br>
@@ -340,7 +340,7 @@ Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CEL
 - **Get SIM ID –** This should match the number stickered inside the enclosure.<br>
 
 
-#### App WIFI Network Screen
+### App WIFI Network Screen
 ![](./images/14_7_cell_app.png#mediumImg)
 
 - **SSID –** Make sure that capitalization matches your network name.<br>
