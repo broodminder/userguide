@@ -205,7 +205,7 @@ The time shown in the top half of the screen is the current time if the graphs h
 
 When noting a past event, it is useful to move the chart and line up the time of the event with the “Note Time Indicator” and then press Hive Notes. In this case, the note time in the notes window is the time at the “Notes Time Indicator” and not the current time. 
 
-Of particular interest is the &quot;Inspection&quot; button. This button will walk you through a 6 easy to answer questions about the state of the hive. The list was shared with us by Dick Rogers and we think it is a quick and effective way to document the hive.
+Of particular interest is the "Inspection" button. This button will walk you through a 6 easy to answer questions about the state of the hive. The list was shared with us by Dick Rogers and we think it is a quick and effective way to document the hive.
 
 
 ## BroodMinder Hub
@@ -276,7 +276,7 @@ If after the 3 flashes, the V15 lights turn off, it is in Auto-off mode. This is
 
 [![Always_On Mode activation](https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U)
 
-### WIFI/CELL Indicator Lights
+### Indicator Lights
 ![](./images/14_1_broodminder_wifi.png#largeImg)
 
 

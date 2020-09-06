@@ -29,18 +29,22 @@ nav:
 ```
 _nav_ would allow to force the site doc structure tree, but the default output is fine too
 
+## Mkdocs-Material reference
+This resource details all available plugins and options for Material Theme
+https://squidfunk.github.io/mkdocs-material/
+
+
+## Deployment on a server with a vhost
+
+1. clone repo on the VPS in ```/mellisphera/prod/userguide```
+2. launch ```./build.sh```
+le site en version html est généré et installé sur un virtual host dans `/var/www/html/doc`
+3. vérifier que tout est actualisé https://doc.mellisphera.com/
+
 ## Multi-lang management
 There is one MkDocs repo for each lang. This will build a separate site per language. And allows using the "search" tool properly
 When multiple langs where managed on a single MKDocs repo, the search was searching all of them together 
 When integrated in mybroodminder or mellisphera we'll point to the right lang based on user prefs.
-
-## Deployment on a server with a vhost
-1. clone repo on the VPS in ```/mellisphera/prod/userguide```
-
-2. launch ```./build.sh```
-le site en version html est généré et installé sur un virtual host dans `/var/www/html/doc`
-
-3. vérifier que tout est actualisé https://doc.mellisphera.com/
 
 ## Building a PDF file out of it
 use the mkdocs-pdf-export-plugin
