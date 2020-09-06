@@ -305,59 +305,48 @@ Note: if you left swipe on the screen you can delete unused BroodMinder-WIFI/CEL
 ![](./images/14_3_cell_app.png#largeImg)
 
 ### WIFI/CELL App Diagnostics Screen
-![](./images/14_4_cell_app.png#largeImg)
+![](./images/14_4_cell_app.png#mediumImg)
 
-**Firmware Version –** This shows the version of firmware in the BroodMinder. (e.g. 0.17) <br>
-
-**Sent Samples –** The number of samples sent to Mybroodminder.com <br>
-
-**Missed Samples –** The number of missed samples as indicated by missing sequence numbers.<br>
-
-**WIFI/CELL Network –** WIFI/CELL diagnostics, see next page.<br>
-
-**Modem Communication –** Watch the communications to the Wifi/Cell modem.<br>
-
-**Reboot Device –** This will restart the BroodMinderWIFI/CELL and purge it of all stored data.<br>
-
-**Debug Values –** These are Amanda&#39;s secret debug values.<br>
-
-**Enter Deep Sleep –** When we ship the device, we put the -WIFI/CELL in deep sleep to suspend all WIFIular connection and thus save battery life so that when it show us, it is ready to go.<br>
+- **Firmware Version –** This shows the version of firmware in the BroodMinder. (e.g. 0.17) <br>
+- **Sent Samples –** The number of samples sent to Mybroodminder.com <br>
+- **Missed Samples –** The number of missed samples as indicated by missing sequence numbers.<br>
+- **WIFI/CELL Network –** WIFI/CELL diagnostics, see next page.<br>
+- **Modem Communication –** Watch the communications to the Wifi/Cell modem.<br>
+- **Reboot Device –** This will restart the BroodMinderWIFI/CELL and purge it of all stored data.<br>
+- **Debug Values –** These are Amanda's secret debug values.<br>
+- **Enter Deep Sleep –** When we ship the device, we put the -WIFI/CELL in deep sleep to suspend all WIFIular connection and thus save battery life so that when it show us, it is ready to go.<br>
 
 
-### WIFI/CELL App WIFI/CELL Network Screen
-![](./images/14_5_cell_app.png#largeImg)
+### WIFI/CELL App WIFI/CELL Readings Screen
+![](./images/14_5_cell_app.png#mediumImg)
 
 
-**Send Now –** Immediately connect the modem and send this data to MyBroodminder.com <br>
-
-**Copy –** Copy this screen. You can paste into e-mail 
+- **Send Now –** Immediately connect the modem and send this data to MyBroodminder.com <br>
+- **Copy –** Copy this screen. You can paste into e-mail 
 
 ### WIFI/CELL App CELL Network Screen
-![](./images/14_6_cell_app.png#largeImg)
+![](./images/14_6_cell_app.png#mediumImg)
 
 **NOTE:** These are commands to the CELL modem. See the next page for Wifi commands. If the modem is not on, invoking a command will turn it on. Give it a few seconds and then try the command again. The result will be printed at the bottom of the screen.<br>
 
-**Network Signal Strength –** for reliable operation, it should be 4, (maybe 5) or more.<br>
+- **Network Signal Strength –** for reliable operation, it should be 4, (maybe 5) or more.<br>
 
-**Check Network Time –** Time from the WIFI/CELL network.<br>
+- **Check Network Time –** Time from the WIFI/CELL network.<br>
 
-**Connected Network Provider –** Typically ATT but may be others.<br>
+- **Connected Network Provider –** Typically ATT but may be others.<br>
 
-**List Network Providers –** See all the providers in the area.<br>
+- **List Network Providers –** See all the providers in the area.<br>
 
-**Get SIM ID –** This should match the number stickered inside the enclosure.<br>
+- **Get SIM ID –** This should match the number stickered inside the enclosure.<br>
 
 
-### BroodMinder-WIFI/CELL App WIFI/CELL Network Screen
-![](./images/14_7_cell_app.png#largeImg)
+### BroodMinder-WIFI/CELL App WIFI Network Screen
+![](./images/14_7_cell_app.png#mediumImg)
 
-**SSID –** Make sure that capitalization matches your network name.<br>
-
-**Password –** Password for your network.<br>
-
-**Security –** Typically WPA-Personal but may be none or WEP.<br>
-
-**List Networks -** Lists all available networks.<br>
+- **SSID –** Make sure that capitalization matches your network name.<br>
+- **Password –** Password for your network.<br>
+- **Security –** Typically WPA-Personal but may be none or WEP.<br>
+- **List Networks -** Lists all available networks.<br>
 
 
 ## Device compatibility
