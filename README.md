@@ -41,6 +41,24 @@ https://squidfunk.github.io/mkdocs-material/
 le site en version html est généré et installé sur un virtual host dans `/var/www/html/doc`
 3. vérifier que tout est actualisé https://doc.mellisphera.com/
 
+### Option B
+Pour mkdocs, un diff montre trop de différence entre serveur et local, le sed peut fonctionner mais la ligne est longue, trop facile de se tromper. Ainsi la solution la plus simple que j’ai trouvé est :
+
+- ./build.sh sur le serveur comme d’habitude
+- mkdocs build en en local
+- mkdocs build fr en local
+- Copier les fichiers en et fr sur le serveur. Se placer dans le bon répertoire puis :
+```
+ scp -r -v -P 1150 en/ msrun@51.68.71.91:/var/www/html/doc/
+```
+
+Cela a pour but d’écraser les fichiers s’il y a des modifications.
+- Vérifier sur toutes les pages https://doc.mellisphera.com/ si la disposition est correcte et que le bouton d’export pdf est bien placé. Dans le cas où une page pose problème (ce qui m’est arrivé pour la page ‘Introduction’), il faut répérer puis remplacer la ligne de l’export PDF par le bout de code suivant (avec nano par exemple):
+```
+<article class="md-content__inner md-typeset"><a class="md-content__button md-icon" download href="intro.pdf" title="PDF Export"><svg style="height: 1.2rem; width: 1.2rem;" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z"></path></svg></a>
+```
+
+
 ## Multi-lang management
 There is one MkDocs repo for each lang. This will build a separate site per language. And allows using the "search" tool properly
 When multiple langs where managed on a single MKDocs repo, the search was searching all of them together 
