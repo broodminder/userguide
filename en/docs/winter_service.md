@@ -29,12 +29,12 @@ Starting the next season with empty memory devices, loaded bateries and updated 
 
 - [ ] Start the device
 
-VIDEO DEMARRAGE T2
+[![Alt text](https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg)](https://www.youtube.com/watch?v=tN9xUTq_bSc)
 
 
 - [ ] upgrade firmware as needed
 
-VIDEO UPDATE FIRMWARE
+[![Alt text](https://img.youtube.com/vi/zK4vYvpur1E/0.jpg)](https://www.youtube.com/watch?v=zK4vYvpur1E)
 
 
 
