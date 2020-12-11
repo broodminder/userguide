@@ -17,8 +17,7 @@ Starting the next season with empty memory devices, loaded bateries and updated 
 - [ ] Collect all your devices and bring them at home, you want to work comfortable
 - [ ] make a full sync of all your devices with the Apiary App to catch any sample that the hub eventually missed  (leave your phone syncing and charging and go for a coffee or two)
 
-**@Axelle Photo avec un tas de capteurs et le telephone par dessus avec Apiary Sync**
-
+![Image sans style](./images/wintersce/sync.jpg)
 
 
 ## T2 Maintenance
@@ -67,7 +66,7 @@ VIDEO UPDATE FIRMWARE
 
 - [ ] charge the battery to its maximum using a phone charger with a micro-usb cable
 
-![Image sans style](./images/wintersce/demo_img.png)
+![Image sans style](./images/wintersce/hub.jpg)
 
 
 - [ ] install any available firmware updates (Broodminder Cell App will tell you)
