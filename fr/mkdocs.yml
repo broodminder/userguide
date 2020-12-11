@@ -3,6 +3,11 @@ dev_addr: 127.0.0.1:2000
 theme: material
 site_url: https://doc.mellisphera.com
 site_description : precision beekeeping documentation system Broodminder-Mellisphera
+markdown_extensions:
+  - admonition
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
 plugins:
   - search:
       lang: 'fr'
@@ -23,8 +28,15 @@ nav:
  - _____: 'void.md'
  - FAQ: 'faq.md'
  - Support: 'support.md'
-
+ - _____: 'void.md'
+ - Dépanner le Hub GSM : 'troubleshooting_cell_hub.md'
+ - Maintenance d'hiver : 'winter_service.md'
       
+
+# check for documentation on commands
+# https://squidfunk.github.io/mkdocs-material/reference/lists/
+
+
 #google_analytics: ['UA-125989472-3', 'mkdocs.org']
 #markdown_extensions:
 #  - toc:

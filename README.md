@@ -17,6 +17,7 @@
 - MKDocs user guide https://www.mkdocs.org/
 - converting Word to Markdown https://word2md.com/
 - converting to pdf https://github.com/zhaoterryy/mkdocs-pdf-export-plugin This one is still explored, having an issue ongoing
+- NOTE : Install all missing libraries with brew (same installer for python and mkdocs) to have everything in the same path
 
 ## Configuration file mkdocs.yml
 This file allows for multiple options and configuration.
@@ -32,7 +33,7 @@ _nav_ would allow to force the site doc structure tree, but the default output i
 ## Mkdocs-Material reference
 This resource details all available plugins and options for Material Theme
 https://squidfunk.github.io/mkdocs-material/
-
+https://squidfunk.github.io/mkdocs-material/reference/lists/
 
 ## Deployment on a server with a vhost
 
@@ -41,13 +42,13 @@ https://squidfunk.github.io/mkdocs-material/
 le site en version html est généré et installé sur un virtual host dans `/var/www/html/doc`
 3. vérifier que tout est actualisé https://doc.mellisphera.com/
 
-### Option B
+### Deployement avec les docs pdf
 Pour mkdocs, un diff montre trop de différence entre serveur et local, le sed peut fonctionner mais la ligne est longue, trop facile de se tromper. Ainsi la solution la plus simple que j’ai trouvé est :
 
 - ./build.sh sur le serveur comme d’habitude
 - mkdocs build en en local
 - mkdocs build fr en local
-- Copier les fichiers en et fr sur le serveur. Se placer dans le bon répertoire puis :
+- Copier les fichiers EN et FR sur le serveur. Se placer dans le bon répertoire puis :
 ```
  scp -r -v -P 1150 en/ msrun@51.68.71.91:/var/www/html/doc/
 ```
