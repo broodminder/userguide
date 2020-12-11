@@ -1,4 +1,4 @@
-# Winter inspection check-list
+# Winter Service check-list
 
 For peace of mind and greater efficiency, we recommend servicing all of your devices at the end of each season. 
 Starting the next season with empty memory devices, loaded bateries and updated firmwares will put all the chances on your side.
@@ -28,7 +28,12 @@ Starting the next season with empty memory devices, loaded bateries and updated 
 [![Alt text](https://img.youtube.com/vi/alaZtXpn-g4/0.jpg)](https://www.youtube.com/watch?v=alaZtXpn-g4)
 
 
--  [ ] upgrade firmware as needed
+- [ ] Start the device
+
+VIDEO DEMARRAGE T2
+
+
+- [ ] upgrade firmware as needed
 
 VIDEO UPDATE FIRMWARE
 
