@@ -45,9 +45,9 @@ le site en version html est généré et installé sur un virtual host dans `/va
 ### Deployement avec les docs pdf
 Pour mkdocs, un diff montre trop de différence entre serveur et local, le sed peut fonctionner mais la ligne est longue, trop facile de se tromper. Ainsi la solution la plus simple que j’ai trouvé est :
 
-- ./build.sh sur le serveur comme d’habitude
-- mkdocs build en en local
-- mkdocs build fr en local
+- `./build.sh` sur le serveur comme d’habitude
+- `mkdocs build` FR en local
+- `mkdocs build` EN en local
 - Copier les fichiers EN et FR sur le serveur. Se placer dans le bon répertoire puis :
 ```
  scp -r -v -P 1150 en/ msrun@51.68.71.91:/var/www/html/doc/
