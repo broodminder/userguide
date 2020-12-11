@@ -11,11 +11,12 @@ Démarrer la saison suivante avec des mémoires vides, des batteries chargées e
 - [ ] Commandez quelques piles CR2032 pour avoir suffisamment de stock.
 
 !!! note 
-    Oubliez les supermarchés et les sites low cost où il n'y aucune qualité garantie. Commandez un lot de pile dans des magasins spécialisés pour trouver le meilleur rapport qualité prix (environ 0,50€).
-    [Farnell](https://fr.farnell.com/renata/cr-2032-mfr-1bl/pile-bouton-3v/dp/1823479?st=cr2032)        
+    Oubliez les supermarchés tout comme l'achat en ligne sur sites low cost où la qualité des piles n'est pas garantie. 
+    Le bon choix : commandez un lot de piles dans un magasin spécialisé pour avoir le meilleur rapport qualité prix. Il faut compter environ 0,50€ par pile pour des lots >10 unités.
+    Consultez chez [Farnell](https://fr.farnell.com/renata/cr-2032-mfr-1bl/pile-bouton-3v/dp/1823479?st=cr2032) par exemple.   
 
 
-- [ ] Collectez tous vos capteurs et ramenez les chez vous, on veut travailler confortablement
+- [ ] Récupérez tous vos capteurs et ramenez-les chez vous pour travailler confortablement.
 - [ ] Synchronisez tous vos capteurs avec l'App Apiary pour récupérer toutes les informations que le hub aurait éventuellement pu oublier (laissez votre téléphone faire la synchronisation et prenez vous un café ou deux)
 
 ![Image sans style](./images/winter/sync.jpg)
@@ -30,10 +31,10 @@ Démarrer la saison suivante avec des mémoires vides, des batteries chargées e
 
 - [ ] Démarrez le capteur
 
-[![Alt text](https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg)](https://www.youtube.com/watch?v=tN9xUTq_bSc)
+[![Alt text](https://img.youtube.com/vi/xOa4Pd5B9Zk/0.jpg)](https://www.youtube.com/watch?v=xOa4Pd5B9Zk)
 
 
-- [ ] Faîte la mise à jour du micro logiciel si nécessaire
+- [ ] Faîtes la mise à jour du micro logiciel si nécessaire
 
 [![Alt text](https://img.youtube.com/vi/zK4vYvpur1E/0.jpg)](https://www.youtube.com/watch?v=zK4vYvpur1E)
 
@@ -47,7 +48,7 @@ Démarrer la saison suivante avec des mémoires vides, des batteries chargées e
 [![Alt text](https://img.youtube.com/vi/tJTuL12vjps/0.jpg)](https://www.youtube.com/watch?v=tJTuL12vjps)
 
 
--  [ ] Faîte la mise à jour du micro logiciel si nécessaire (voir plus haut)
+-  [ ] Faîtes la mise à jour du micro logiciel si nécessaire (voir plus haut)
 
 
 
@@ -59,10 +60,10 @@ Démarrer la saison suivante avec des mémoires vides, des batteries chargées e
 
 
 !!! Attention
-    Retirez la pile délicatement en la soulevant d'un côté et de l'autre de son support, en appuyant légérement sur la carte électronique pour qu'elle reste bien contre la partie en bois. Cela vous evitera de faire sortir la carte électronique hors de la balance ou de casser le support de la pile avec trop de pression.
+    Retirez la pile délicatement en la soulevant d'un côté et de l'autre de son support, en appuyant légérement sur la carte électronique pour qu'elle reste bien plaquée contre la partie en bois. Cela vous evitera de faire sortir la carte électronique hors de la balance ou de casser le support de la pile avec trop de pression.
 
 !!! Attention
-    Une fois que c'est fait, replacez soigneusement le petit outil à son emplacement d'origine pour éviter toute interférence s'il se retrouvait coincé entre les deux parties amovibles de la balance. 
+    Une fois que c'est fait, remetez soigneusement le petit outil à son emplacement d'origine pour éviter toute interférence s'il se retrouvait coincé entre les deux parties amovibles de la balance. 
 
 ## Maintenance Hub
 
