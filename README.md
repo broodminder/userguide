@@ -49,8 +49,12 @@ Pour mkdocs, un diff montre trop de différence entre serveur et local, le sed p
 - `mkdocs build` FR en local
 - `mkdocs build` EN en local
 - Copier les fichiers EN et FR sur le serveur. Se placer dans le bon répertoire puis :
-```
- scp -r -v -P 1150 en/ msrun@51.68.71.91:/var/www/html/doc/
+`````
+cd userguide/en/site
+scp -r -v -P 1150 * msrun@51.68.71.91:/var/www/html/doc/en
+
+cd ../../fr/site
+scp -r -v -P 1150 * msrun@51.68.71.91:/var/www/html/doc/fr
 ```
 
 Cela a pour but d’écraser les fichiers s’il y a des modifications.
