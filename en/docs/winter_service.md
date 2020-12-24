@@ -15,14 +15,14 @@ Starting the next season with empty memory devices, loaded bateries and updated 
 
 
 - [ ] Collect all your devices and bring them at home, you want to work comfortable
-- [ ] make a full sync of all your devices with the Apiary App to catch any sample that the hub eventually missed  (leave your phone syncing and charging and go for a coffee or two)
+- [ ] Make a full sync of all your devices with the Apiary App to catch any sample that the hub eventually missed  (leave your phone syncing and charging and go for a coffee or two)
 
 ![Image sans style](./images/wintersce/sync.jpg)
 
 
 ## T2 Maintenance
 
-- [ ] change the battery as described in the video
+- [ ] Change the battery as described in the video
 
 [![Alt text](https://img.youtube.com/vi/alaZtXpn-g4/0.jpg)](https://www.youtube.com/watch?v=alaZtXpn-g4)
 
@@ -40,12 +40,12 @@ Starting the next season with empty memory devices, loaded bateries and updated 
 
 ## TH Maintenance
 
-- [ ] change the battery as described in the video
+- [ ] Change the battery as described in the video
 
 [![Alt text](https://img.youtube.com/vi/tJTuL12vjps/0.jpg)](https://www.youtube.com/watch?v=tJTuL12vjps)
 
 
--  [ ] upgrade firmware as needed (see above)
+-  [ ] Upgrade firmware as needed (see above)
 
 
 
@@ -64,12 +64,14 @@ Starting the next season with empty memory devices, loaded bateries and updated 
 
 ## Hub Maintenance
 
-- [ ] charge the battery to its maximum using a phone charger with a micro-usb cable
+- [ ] Charge the battery to its maximum using a phone charger with a micro-usb cable
 
 ![Image sans style](./images/wintersce/hub.jpg)
 
 
-- [ ] install any available firmware updates (Broodminder Cell App will tell you)
+- [ ] Install any available firmware updates (Broodminder Cell App will tell you)
+- [ ] After upgrading the Cell Hub check you have the right APN either `hologram` or `matooma.m2m` (into `Configure > Diagnostics > Cell Network > Custom APN`)
+
 
 
 !!! warning

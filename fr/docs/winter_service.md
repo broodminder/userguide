@@ -73,6 +73,7 @@ Démarrer la saison suivante avec des mémoires vides, des batteries chargées e
 
 
 - [ ] Installez toutes les mise à jour disponibles (l'App Broodminder Cell vous le dira)
+- [ ] Après la mise à jour du Hub 3G vérifiez que l'APN est toujours le bon `matooma.m2m` (dans `Configure > Diagnostics > Cell Network > Custom APN`)
 
 
 !!! Attention
