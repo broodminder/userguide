@@ -30,15 +30,15 @@ Analyser les données brutes (MyBroodminder) ou raffinées (Mellisphera).
 
 **Besoin d'aide?** info@mellisphera.com 
 
-## Trucs & astuces pour installer vos capteurs efficacement 
+## Conseils pour installer vos capteurs efficacement
 
-**1 - Numérotation des ruches** 
+### Numérotez vos ruches
 
 ![](./images/guide/Picto4.png#picto)
 
 Identifiez vos ruches: plaque numérotée, gravure, peinture... Faites comme vous voulez. L'essentiel est de pouvoir les repérer de loin, sans problème. 
 
-**2 - Préparez le système à la maison** 
+### Préparez le système à la maison
 
 - Posez-vous sur une grande table avec votre ordinateur, vos capteurs et des post-it. 
 
@@ -62,15 +62,15 @@ Identifiez vos ruches: plaque numérotée, gravure, peinture... Faites comme vou
 
 ![](./images/guide/8.png#mediumImg)
 
-**SI VOUS AVEZ UN BOÎTIER TRANSMETTEUR (HUB)** 
+## Si vous avez un HHub 
 
-**3 - Installez l'app Broodminder Cell** 
+### Installez l'app Broodminder Cell
 
-![](./images/guide/Picto5.png#picto)
+![](./images/guide/Picto5.png#mediumImg)
 
 Elle vous permet de communiquer avec le boîtier. 
 
-**4 - Sortez le boîtier du "deep sleep"** 
+### Sortez le boîtier du "deep sleep" 
 
 - N'ouvrez pas le boîtier. Il est déjà prêt à l'emploi. 
 
@@ -80,7 +80,7 @@ Elle vous permet de communiquer avec le boîtier.
 
 - Attendez que le boîtier se connecte au réseau 3G.
 
-- Vérifiez qu'il recense tous les capteurs qui l'entourent.
+- Vérifiez qu'il retrouve tous les capteurs des environs.
 
 ![](./images/guide/11.png#mediumImg)
 

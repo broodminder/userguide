@@ -19,7 +19,7 @@ At startup after switching on you should see
 - Led D1 (orange) blinking several times
 - Led PWR1 (green) on
 - Led STAT (yellow) on
-- then after a while, when it has established connectionto the network all off
+- then after a while, when it has established connectionto the network => all leds off
 
 Note that for every time you’ll go with the Cell app to `Configure > Diagnostics > Cell network` you should see the PWR1 green led lighting on
 
