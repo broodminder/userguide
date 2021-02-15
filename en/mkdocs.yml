@@ -1,8 +1,11 @@
 site_name: USER DOCUMENTATION
 dev_addr: 127.0.0.1:2000
-theme: material
+theme: 
+  name : material
+  palette:
+    scheme: default
 site_url: https://doc.mellisphera.com
-site_description : precision beekeeping documentation system Broodminder-Mellisphera
+site_description : Broodminder-Mellisphera User Guide
 markdown_extensions:
   - admonition
   - pymdownx.tasklist:
@@ -17,14 +20,14 @@ extra_css:
 nav:
  - index.md
  - Introduction: 'intro.md'
- - ▶️ Quick start guide: 'quick_start_guide.md'
+ - Quick start guide 🚀 : 'quick_start_guide.md'
  - Sensors: 'sensors.md'
  - Data upload: 'data_upload.md'
  - MyBroodminder: 'mybroodminder.md'
  - Mellisphera: 'mellisphera.md'
  - Data interpretation: 'data_interpretation.md'
  - Beecounted: 'beecounted.md'
- - 🎉 New T2 Swarminder: 'new_t2sm.md'
+ - T2 Swarminder: 'new_t2sm.md'
  - _____: 'void.md'
  - FAQ: 'faq.md'
  - Support: 'support.md'

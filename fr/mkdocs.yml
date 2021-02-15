@@ -1,8 +1,11 @@
 site_name: GUIDE UTILISATEUR
 dev_addr: 127.0.0.1:2000
-theme: material
+theme: 
+  name : material
+  palette:
+    scheme: default
 site_url: https://doc.mellisphera.com
-site_description : precision beekeeping documentation system Broodminder-Mellisphera
+site_description : Broodminder-Mellisphera Guide Utilisateur
 markdown_extensions:
   - admonition
   - pymdownx.tasklist:
@@ -11,20 +14,20 @@ markdown_extensions:
 plugins:
   - search:
       lang: 'fr'
-  - pdf-export
+  - pdf-export    # disable this item to run tests on the doc (mkdoc serve without building pdf every time
 extra_css:
     - css/extra.css
 nav:
  - index.md
  - Introduction: 'intro.md'
- - ▶️ Guide de démarrage rapide: 'quick_start_guide.md'
+ - Guide de démarrage rapide 🚀 : 'quick_start_guide.md'
  - Capteurs: 'capteurs.md'
  - Récupération de données: 'data_upload.md'
  - MyBroodminder: 'mybroodminder.md'
  - Mellisphera: 'mellisphera.md'
  - Interpretation: 'data_interpretation.md'
  - Science collaborative: 'beecounted.md'
- - 🎉 T2 Swarminder: 'new_t2sm.md'
+ - T2 Swarminder: 'new_t2sm.md'
  - _____: 'void.md'
  - FAQ: 'faq.md'
  - Support: 'support.md'

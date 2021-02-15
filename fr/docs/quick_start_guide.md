@@ -1,20 +1,21 @@
 # Guide de démarrage rapide
 
-## Mise en route du système en 3 étapes
+## Mise en route du système en 4 étapes
 
-**1 - Créez votre compte MyBroodminder.com**
+### 1 - Créez votre compte MyBroodminder.com
 
 Un seul compte pour tout créer: rucher, ruches & capteurs. 
 
 ![](./images/guide/1.png#mediumImg)
 
-**2 - Activez vos capteurs** 
+### 2 - Activez vos capteurs
 
-Regardez nos vidéos YouTube: 
-https://www.youtube.com/watch?v=fanEzs-6fb4 
-https://youtu.be/xOa4Pd5B9Zk  
+Regardez les tutos sur YouTube: 
 
-**3 - Installez l'app Broodminder Apiary** 
+- [Présentation et mise en route des 3 capteurs](https://www.youtube.com/watch?v=fanEzs-6fb4)
+- [Comment activer le capteur T2](https://youtu.be/xOa4Pd5B9Zk)
+
+### 3 - Installez l'app Broodminder Apiary
 
 Récupérez les données de vos capteurs. 
 
@@ -22,13 +23,39 @@ Récupérez les données de vos capteurs.
 
 ![](./images/guide/2fr.png#largeImg)
 
-**4 - Visualisez et explorez** 
+### 4 - Visualisez et explorez
 
 Analyser les données brutes (MyBroodminder) ou raffinées (Mellisphera). 
 
 ![](./images/guide/3.png#mediumImg)
 
-**Besoin d'aide?** info@mellisphera.com 
+**Besoin d'aide ?** [support@mellisphera.com](mailto:support@mellisphera.com )
+
+
+## Si vous avez un Hub 
+
+### Installez l'app Broodminder Cell
+
+![](./images/guide/Picto5.png#mediumImg)
+
+Elle vous permet de communiquer avec le boîtier. 
+
+### Sortez le boîtier du "deep sleep" 
+
+- N'ouvrez pas le boîtier. Il est déjà prêt à l'emploi. 
+
+- Seule action à réaliser: le sortir du mode "deep sleep".
+
+![](./images/guide/10.png#mediumImg)
+
+- Attendez que le boîtier se connecte au réseau 3G.
+
+- Vérifiez qu'il retrouve tous les capteurs des environs.
+
+![](./images/guide/11.png#mediumImg)
+
+- Vous avez terminé, le système est en route! Prenez du repos bien mérité ;) 
+
 
 ## Conseils pour installer vos capteurs efficacement
 
@@ -62,33 +89,8 @@ Identifiez vos ruches: plaque numérotée, gravure, peinture... Faites comme vou
 
 ![](./images/guide/8.png#mediumImg)
 
-## Si vous avez un HHub 
 
-### Installez l'app Broodminder Cell
-
-![](./images/guide/Picto5.png#mediumImg)
-
-Elle vous permet de communiquer avec le boîtier. 
-
-### Sortez le boîtier du "deep sleep" 
-
-- N'ouvrez pas le boîtier. Il est déjà prêt à l'emploi. 
-
-- Seule action à réaliser: le sortir du mode "deep sleep".
-
-![](./images/guide/10.png#mediumImg)
-
-- Attendez que le boîtier se connecte au réseau 3G.
-
-- Vérifiez qu'il retrouve tous les capteurs des environs.
-
-![](./images/guide/11.png#mediumImg)
-
-- Vous avez terminé, le système est en route! Prenez du repos bien mérité ;) 
-
-## Installation sur le rucher 
-
-**Sur le rucher, mettez le pilote automatique** 
+### Sur le rucher, mettez le pilote automatique
 
 Vous avez tout préparé en amont. Maintenant, il ne vous reste qu'à positionner les capteurs dans leur ruche. 
 

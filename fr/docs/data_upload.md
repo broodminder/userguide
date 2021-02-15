@@ -287,7 +287,7 @@ Si après les 3 flashs, la lumière de la batterie s'éteint, cela signifie qu'e
 
 ## BroodMinder - CELL
 
-![](./images/11_0_broodminder_cell.png#picto)
+![](./images/11_0_broodminder_cell.png#smallImg)
 
 L'application BroodMinder-CELL vous permet de gérer votre HUB qu'ils soit 3G ou WiFi. Parmi les éléments que vous pouvez contrôler :
 
