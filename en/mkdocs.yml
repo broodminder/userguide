@@ -4,7 +4,7 @@ theme:
   name : material
   palette:
     scheme: default
-site_url: https://doc.mellisphera.com
+site_url: https://doc.mybroodminder.com
 site_description : Broodminder-Mellisphera User Guide
 markdown_extensions:
   - admonition
