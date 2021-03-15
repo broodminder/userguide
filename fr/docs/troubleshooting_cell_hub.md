@@ -1,10 +1,10 @@
-# Troubleshooting Cell Hub
+# Dépannage du Cell Hub
 
-## Install SIM
-Here are the steps to install SIM
-1. unplug the 3G Card
-2. open the shield : slide it up through the antenna with the thumb then pull up to leave it
-3. introduce SIM in the right position
+## Installez la SIM
+Voici les étapes pour installer la SIM
+1. débranchez la carte 3G
+2. ouvrir le boitier : le faire glisser vers le haut à travers l'antenne avec le pouce puis le tirer vers le haut pour le sortir
+3. introduisez la SIM dans la bonne position
 ![Sim card](./images/chub/IMG_7755.JPG#mediumImg)
 
 4. pull down and slide down to lock
@@ -12,16 +12,16 @@ Here are the steps to install SIM
 
 
 
-## Typical startup
-Switch on the hub,
-you should see :
-At startup after switching on you should see
-- Led D1 (orange) blinking several times
-- Led PWR1 (green) on
-- Led STAT (yellow) on
-- then after a while, when it has established connectionto the network all off
+## Démarrage typique
+Allumez le hub,
+vous devriez voir :
 
-Note that for every time you’ll go with the Cell app to `Configure > Diagnostics > Cell network` you should see the PWR1 green led lighting on
+- la led D1 (orange) cligniter plusieurs fois
+- la led PWR1 (verte) allumée
+- la led STAT (jaune) allumée
+- puis, après un moment, quans la connection au réseau est établie, tout s'éteint
+
+Notez qu'à chaque fois que vous irez dans l'app Cell dans `Configure > Diagnostics > Cell network` vous devriez voir la led PWR1 verte allumée
 
 ![Start1](./images/chub/start1.JPG#mediumImg)
 ![Start2](./images/chub/start2.JPG#mediumImg)
@@ -31,15 +31,15 @@ Note that for every time you’ll go with the Cell app to `Configure > Diagnosti
 
 
 
-## Cell network connection
-It can happen that your hub finds out 3G network but it is not able to acquire cervice. 
+## Connection au réseau Cell
+Il pleut arriver que votre hub trouve un réseau 3G mais ne soit pas capable d'aquérir le service. 
 ![Acquiring cellular service](./images/chub/IMG_7749.JPG#mediumImg)
 
-To find out what is wrong first of all check your APN code
+Pour trouver ce qui ne va pas, vérifiez d'abord votre code APN
 
-### Check you have the right APN
-Every SIM provider has its own APN (Access Point Name) it can be *hologram*, *matooma.m2m*, etc...
-Go to `Configure > Diagnostics > Cell network > Custom APN`
+### Vérifiez que vous avons le bon APN
+Chaque fournisseur de SIM a son propre APN (Access Point Name) il pleut être *hologram*, *matooma.m2m*, etc...
+Allez dans `Configure > Diagnostics > Cell network > Custom APN`
 
 ![APN](./images/chub/IMG_7758.PNG#mediumImg)
 
@@ -47,10 +47,10 @@ Go to `Configure > Diagnostics > Cell network > Custom APN`
 
 
 
-### Check modem communication and trace
-Just after switching on the hub, go quick to `Configure > Diagnostics > Modem communication` There you can follow the connection process. Let it run until it stops and then copy this output and send it to support
+### Vérifiez la communication par modem et tracez
+Juste après avoir allumé le hub, allez rapidemment dans `Configure > Diagnostics > Modem communication` Ici vous pouvez suivre le processus de connection. Laissez le tourner jusqu'à ce qu'il s'arrête puis copiez le résltat et envoyez le au support
 
-This is a typical startup trace :
+Voici une trace de démarrage typique :
 ````
 AT
 +UMWI: 0,1
@@ -118,6 +118,6 @@ AT+URDFILE="r.txt"
 OK
 ````
 
-### Typical trace with a wrong APN 
-left is wrong APN, right is OK
+### Trace typique avec un mauvais APN 
+À gauche le mauvais APN, à droit OK
 ![Wrong APN trace](./images/chub/wrong_apn_trace.png#mediumImg)
