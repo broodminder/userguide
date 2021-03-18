@@ -110,7 +110,7 @@ Les capteurs BroodMinder fonctionnent avec tout appareil Apple disposant de la t
 
 #### Android
 
-Pour Android, c'est un peu plus compliqué. Android a introduit le support BLE dans la version 4.3 (Jelly Bean, juillet 2012). Les appareils plus vieux ne fonctionneront pas. La plupart des nouveaux appareils (2015 & plus récents) fonctionneront. Cependant, il existe de nombreux modèles de téléphones et nous en avons trouvé quelques-uns qui nous posent problème. Si votre appareil ne fonctionne pas, contactez-nous à l'adresse suivante : Support@BroodMinder.com.
+Pour Android, c'est un peu plus compliqué. Android a introduit le support BLE dans la version 4.3 (Jelly Bean, juillet 2012). Les appareils plus vieux ne fonctionneront pas. La plupart des nouveaux appareils (2015 & plus récents) fonctionneront. Cependant, il existe de nombreux modèles de téléphones et nous en avons trouvé quelques-uns qui nous posent problème. Si votre appareil ne fonctionne pas, contactez-nous à l'adresse suivante : Support@Mellisphera.com.
 
 Une nouvelle fonctionnalité a été ajoutée à l'application dans la version 2.97 afin d'augmenter le taux d'envoi des capteurs BroodMinder. Tel qu'il est livré, un capteur BroodMinder envoie un message toutes les cinq secondes qui contient des informations sur la température et le poids. La page des paramètres généraux dispose désormais d'un bouton de configuration Bluetooth qui vous permet de modifier le taux d'envoi à un message toutes les secondes. Cela accélérera la connexion du capteur et rendra la récupération des données plus rapide. Il réduira toutefois la durée de vie de la batterie à 3-6 mois.
 
@@ -248,7 +248,7 @@ Quelques remarques relatives à l'installation :
 
 - La batterie devrait tenir 3-4 jours sans ensoleillement
 - La réception sans fil est entravée par les arbres. Mais monter sur un arbre peut s'avérer problématique si votre connexion est instable
-- Pour les cas les plus extrêmes, nous vous suggérons d'utiliser une antenne plus sensible (pour le réseau mobile uniquement). Contactez-nous sur [support@BroodMinder.com](mailto:support@BroodMinder.com) pour plus d'informations
+- Pour les cas les plus extrêmes, nous vous suggérons d'utiliser une antenne plus sensible (pour le réseau mobile uniquement). Contactez-nous sur [support@Mellisphera.com](mailto:support@Mellisphera.com) pour plus d'informations
 - Des colliers de serrage ou pour tuyaux peuvent être utilisés afin de sécuriser le système
 - Ceux de 7cm que l'on trouve dans les magasins de bricolage fonctionnent parfaitement. Ils ont des languettes qui peuvent être légèrement pliées pour permettre l'insertion du BroodMinder-WIFI/CELL. Ensuite, un collier de serrage en bas permet de sécurise l'installation
 

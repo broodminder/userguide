@@ -1,19 +1,20 @@
-# Vue d'ensemble
+# Balance DIY - Faites-le vous même
 
-Le DIY est la carte que nous utilisons dans les autres balances Broodminder. Avec elle, vous pouvez construire votre propre balance et elle fonctionnera avec tous les logiciels standard BroodMinder et Mellisphera. Nous espérons que cette carte permettra à de nombreux artisans de créer, chez eux, de parfaits appareils pour surveiller leurs ruches. N'oubliez pas de partager vos créations avec nous et nous les partagerons avec le reste du monde
+## Vue d'ensemble
 
-- Une conception approuvée, autonomie de 5 ans
-- Aucune ligne de code à écrire
-- Fonctionne avec la plupart des cellules de charge du marché
+Le DIY est la carte que nous utilisons dans les autres balances Broodminder. Avec elle, vous pouvez construire votre propre balance et elle fonctionnera avec tous les logiciels standard BroodMinder et Mellisphera. Nous espérons que cette carte permettra à de nombreux bricoleurs de créer, chez eux, de parfaits appareils pour surveiller leurs ruches. N'oubliez pas de partager vos créations avec nous et nous les partagerons avec le reste du monde !
+
+- Une conception épprouvée, autonomie de 5 ans
+- **Aucune ligne de code à écrire**
+- Fonctionne avec la plupart des pesons et cellules de charge du marché
 - S'intègre dans le vaste écosystème BroodMinder-Mellisphera
 - Utilise un circuit intégré de cellule de charge 24 bits à 4 canaux (TI ADS1234)
-- Les données sont disponibles par publicité BLE (Bluetooth Low Energy)
+- Les données sont diffusées via BLE (Bluetooth Low Energy)
 - Les données stockées sont lisibles par l'application BroodMinder et Mellisphera
 
 Pour pouvoir utiliser le DIY, vous devrez ajouter une cellule de charge. 
-La carte fonctionne avec la plupart des cellules de charge que vous trouverez sur le marché, mais attention de ne pas faire le mauvais choix. Par exemple, si vous essayez d’utiliser des cellules de charge classique pour pèse-personne, vous constaterez d’énormes fluctuations (creep en anglais). 
+La carte fonctionne avec la plupart des cellules de charge que vous trouverez sur le marché, mais attention de ne pas faire le mauvais choix. Chaque dispositif a ses avantages et inconvénients. Par exemple, les cellules de pese personne peuvent présenter des fluctuations plus importantes que d'autres modèles plus industriels. 
 
-Sous charge, les valeurs obtenues peuvent changer de 50% du jour au lendemain.
 
 ## Modèles
 
@@ -24,19 +25,22 @@ Voici un aperçu :
 
 Le support métallique de la ruche est disponible chez [Lyson](http://lyson.eu/home/3254-bee-hive-stand-zinc-set-2-pcs-5903661513191.html?search_query=hive+stand&results=303).
 
-Voici un autre modèle basé sur balance balance W2, dont la mise en œuvre est minimale et qui utilise des [pieds de 5mm](https://urlz.fr/f1XW). Assurez-vous de protéger l'électronique des intempéries si vous décidez de construire cette balance.
+Voici un autre modèle basé sur balance balance W2, dont la mise en œuvre est minimale et qui utilise des [pieds de 5mm](https://www.amazon.fr/poignet-Cheville-Machines-broche-filet%C3%A9e/dp/B01NAPROVJ/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Pieds+nivellement+M5&qid=1616082834&sr=8-6). Assurez-vous de protéger l'électronique des intempéries si vous décidez de construire cette balance.
 
 ![Image sans style](./images/diy/rich_scale.png)
 
-Il est facile de créer un espace sous le capteur pour la flexion en utilisant les bits de Forstner. (1-1/4” & 5/8”).
+Il est facile de créer un espace sous le capteur pour permettre la flèche en utilisant des forets Forstner.
 
-La version de gauche a été créée avec 2x4s en une heure environ. Vous pouvez couper des canaux pour les fils et les remplir de silicone. Créez un renfoncement pour y loger la carte et la protéger de la pluie. Il faudra également utiliser un bois traité et peindre le tout puis créer un couvercle pour la carte. 
+La version de gauche a été créée avec des longerons bois de 40x80 en une heure environ. Vous pouvez fraiser des canaux pour les fils et les remplir de silicone. Créez un renfoncement pour y loger la carte et la protéger de la pluie. Il faudra également utiliser un bois traité et peindre le tout puis créer un couvercle pour la carte. 
 
-Nous vous recommandons également de visiter certains sites web open source sur les ruches pour avoir une idée de la conception de votre balance. En voici quelques-uns à consulter, ou inventez la vôtre : 
-- https://www.honey-pi.de/
-- https://community.hiveeyes.org
-- http://www.openhivescale.org/
-- http://wiki.hivetool.org/
+## Autres modèles
+Nous vous recommandons également de visiter certains sites web open source sur les ruches pour avoir une idée de la conception de votre balance. 
+En voici quelques-uns à consulter, ou inventez la vôtre : 
+
+- [https://www.honey-pi.de/](https://www.honey-pi.de/)
+- [https://community.hiveeyes.org](https://community.hiveeyes.org)
+- [http://www.openhivescale.org/](http://www.openhivescale.org/)
+- [http://wiki.hivetool.org/](http://wiki.hivetool.org/)
 
 N'oubliez pas de partager vos idées, nous les rendrons publiques, si vous nous le permettez. 
 
@@ -44,10 +48,10 @@ N'oubliez pas de partager vos idées, nous les rendrons publiques, si vous nous 
 
 La météo est votre ennemie, vous aurez donc besoin d'un boîtier et de presse-étoupes, nous vous recommandons ceux de chez Digikey.com : 
 
-- Bud Industries PN-1322-CMB 9,22€
-- Boîte étanche - Hammond 1554N2GYCL 18,80€
-- Pas tout à fait étanche, mais une bonne taille avec des oreilles - Hammond 1591CSFLBK 4,53€
-- Presse-étoupe Bud Industries IPG-2227 0,41€
+- Boîte étanche - Bud Industries PN-1322-CMB 9,50€
+- Boîte étanche - Hammond 1554N2GYCL 21,65€
+- Pas tout à fait étanche, mais une bonne taille avec des oreilles - Hammond 1591CSFLBK 4,90€
+- Presse-étoupe - Bud Industries IPG-2227 0,41€
 
 ![Image sans style](./images/diy/boitier.png)
 
@@ -71,7 +75,7 @@ Nous espérons que le circuit vous aidera si vous en avez besoin ou si vous voul
 
 ![Image sans style](./images/diy/cellule.png)
 
-Voici deux types de cellules de charge (également appelées jauges de contrainte). Nous sommes ravis de pouvoir vous fournir l'une ou l'autre. Si vous vous procurez les vôtres, assurez-vous qu'elles sont compensées en température et qu'elles ont un très faible fluage (creep). La résistance de la cellule de charge de 200KG est d'environ 300 ohms par jambe (leg. Pour la charge de 50KG il est d'environ 750 ohms.
+Voici deux types de cellules de charge (également appelées jauges de contrainte). Nous sommes ravis de pouvoir vous fournir l'une ou l'autre. Si vous vous procurez les vôtres, assurez-vous qu'elles sont compensées en température et qu'elles ont un très faible fluage (creep). La résistance de la cellule de charge de 200KG est d'environ 300 ohms par canal. Pour la charge de 50KG il est d'environ 750 ohms.
 
 ![Image sans style](./images/diy/fil1.png)
 
@@ -83,9 +87,11 @@ Les sorties se trouvent au milieu. Si les choses sont mélangées, elles seront 
 
 Le trou central de la cellule de charge de 50KG a un diamètre de 5mm.
 
-# Étalonnage
+## Étalonnage de la balance
 
 Cette partie est en cours de construction et sera disponible très prochainement. 
+
+🚧 🏗
 
 
 
