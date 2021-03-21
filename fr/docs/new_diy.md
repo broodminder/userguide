@@ -87,6 +87,10 @@ Les sorties se trouvent au milieu. Si les choses sont mélangées, elles seront 
 
 Le trou central de la cellule de charge de 50KG a un diamètre de 5mm.
 
+La longueur du cable 
+- peson de 50kg : 74cm 
+- cellule de charge de 200kg : 140cm
+
 ## Étalonnage de la balance
 
 Cette partie est en cours de construction et sera disponible très prochainement. 
