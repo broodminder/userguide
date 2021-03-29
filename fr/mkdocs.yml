@@ -14,7 +14,7 @@ markdown_extensions:
 plugins:
   - search:
       lang: 'fr'
-  - pdf-export    # disable this item to run tests on the doc (mkdoc serve without building pdf every time
+#  - pdf-export    # disable this item to run tests on the doc (mkdoc serve without building pdf every time
 extra_css:
     - css/extra.css
 nav:
@@ -27,15 +27,18 @@ nav:
  - Mellisphera: 'mellisphera.md'
  - Interpretation: 'data_interpretation.md'
  - Science collaborative: 'beecounted.md'
+ - _____: 'void.md'
  - T2 Swarminder: 'new_t2sm.md'
- - Balance DIY: 'new_diy.md'
+ - 🆕 Balance DIY: 'new_diy.md'
+ - 🆕 Sub-Hub: 'new_subhub.md'
  - _____: 'void.md'
  - FAQ: 'faq.md'
  - Support: 'support.md'
- - _____: 'void.md'
  - Dépanner le Hub GSM : 'troubleshooting_cell_hub.md'
  - Maintenance d'hiver : 'winter_service.md'
-      
+ - _____: 'void.md'
+ - Projets customisés : 'projets_custom.md'
+
 
 # check for documentation on commands
 # https://squidfunk.github.io/mkdocs-material/reference/lists/
