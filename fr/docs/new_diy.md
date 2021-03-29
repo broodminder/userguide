@@ -46,11 +46,11 @@ N'oubliez pas de partager vos idées, nous les rendrons publiques, si vous nous 
 
 ## Protection et étanchéité
 
-La météo est votre ennemie, vous aurez donc besoin d'un boîtier et de presse-étoupes, nous vous recommandons ceux de chez Digikey.com : 
+La météo est votre ennemie, vous aurez donc besoin d'un boîtier et de presse-étoupes, nous vous recommandons ceux de chez Digikey.com ou Mouser.fr : 
 
-- [Boîte étanche - Bud Industries](https://www.digikey.fr/products/en?keywords=•%09Bud%20Industries%20PN-1322-CMB%20) PN-1322-CMB 9,50€
-- [Boîte étanche - Hammond](https://www.digikey.fr/products/en?keywords=Hammond%201554N2GYCL%20) 1554N2GYCL 21,65€
-- Pas tout à fait étanche, mais une bonne taille avec des oreilles [Hammond 1591CS FLBK](https://www.digikey.fr/products/en?keywords=Hammond%201591CSFLBK%20) - 4,90€
+- Boîte étanche - [Bud Industries PN-1332-CMB](https://www.budind.com/wp-content/uploads/2019/01/hbpn1332.pdf) 15,00€
+- Boîte étanche - [Hammond 1554N2GYCL](http://www.hammondmfg.com/pdf/1554N.pdf) 19,00€ 
+- Boite IP55 - [Hammond 1591XXTSFL](https://www.hammfg.com/files/parts/pdf/1591XXTSFLBK.pdf) 6,90€ (Pas tout à fait étanche, mais une bonne taille avec des oreilles)
 - [Presse-étoupe - Bud Industries IPG-2227](https://www.digikey.fr/product-detail/en/bud-industries/IPG-2227/377-2183-ND/5291485) 0,41€
 
 ![Image sans style](./images/diy/boitier.png)
