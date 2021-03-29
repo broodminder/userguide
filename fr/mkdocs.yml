@@ -14,7 +14,7 @@ markdown_extensions:
 plugins:
   - search:
       lang: 'fr'
-#  - pdf-export    # disable this item to run tests on the doc (mkdoc serve without building pdf every time
+  - pdf-export    # disable this item to run tests on the doc (mkdoc serve without building pdf every time
 extra_css:
     - css/extra.css
 nav:
