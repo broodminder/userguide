@@ -44,7 +44,63 @@ En voici quelques-uns à consulter, ou inventez la vôtre :
 
 N'oubliez pas de partager vos idées, nous les rendrons publiques, si vous nous le permettez. 
 
-## Protection et étanchéité
+## Matériel nécessaire
+Pour vous lancer dans l'aventure il vous faudra cette petite liste de courses
+- [ ] une carte DIY
+- [ ] une ou plusieurs cellules de charge, quel que soit le modèle
+- [ ] un PC windows 7, 10,  
+- [ ] un dongle Bluetooth Silicon Labs (BLED112)
+- [ ] l'application broodminder PC
+
+
+
+
+
+### Cellules de charge 
+
+![Image sans style](./images/diy/cellule.png)
+
+Voici deux types de cellules de charge (également appelées jauges de contrainte). Nous sommes ravis de pouvoir vous fournir l'une ou l'autre. Si vous vous procurez les vôtres, assurez-vous qu'elles sont compensées en température et qu'elles ont un très faible fluage (creep). La résistance de la cellule de charge de 200KG est d'environ 300 ohms par canal. Pour la charge de 50KG il est d'environ 750 ohms.
+
+![Image sans style](./images/diy/fil1.png)
+
+La plupart des cellules de charge semblent utiliser ce schéma de couleurs pour les fils. Si c'est le cas, alors câblez-les comme ceci.
+Noir, vert, blanc, rouge (de haut en bas).
+Les sorties se trouvent au milieu. Si les choses sont mélangées, elles seront généralement corrigées pendant l’étalonnage. 
+
+![Image sans style](./images/diy/schema_cellule.png)
+
+Le trou central de la cellule de charge de 50KG a un diamètre de 5mm.
+
+La longueur du cable 
+- peson de 50kg : 74cm 
+- cellule de charge de 200kg : 140cm
+
+### Dongle bluetooth
+Pour communiquer avec la carte il est nécessaire d'utiliser le [dongle BLED112 de silicon labs.](https://www.silabs.com/wireless/bluetooth/bluegiga-low-energy-legacy-modules/device.bled112)
+
+
+
+
+Parfois il peut être nécessaire d'adapter le pilote. Notre ami ABU en Suisse a résolu un problème d’installation du dongle sous Windows 10 avec la procédure suivante :
+
+1.   Aller sur le site Silabs pour prendre le dernier driver v1.09 (la date plus récente que la 1.10) [https://www.silabs.com/wireless/bluetooth/bluegiga-low-energy-legacy-modules/device.bled112](https://www.silabs.com/wireless/bluetooth/bluegiga-low-energy-legacy-modules/device.bled112)
+2.   Déziper le fichier Bluegiga
+3.   Connecter le dongle
+4.   Appuyez en même temps les touches Windows   et Pause   de votre clavier. La page Informations système générales s’ouvre.
+5.   Dans la colonne de gauche, sélectionnez Gestionnaire de périphériques.
+6.   Sous Ports (COM et LPT) on trouve un nouveau port Périphérique série USB (par exemple COM 3 ou COM4).
+7.   Clique de droite pour choisir mettre à jour le pilote.
+8.   Choisir Parcourir mon poste de travail pour rechercher des pilotes.
+9.   Par le bouton parcourir choisir le répertoire Bluegiga que vous avez dézippé précédemment et cliquer sur le bouton suivant.
+10.  A la question Voulez-vous installer ce logiciel de périphérique ? cliquer sur le bouton Installer.
+11.  Une fois la mise à jour effectuée cliquer sur le bouton suivant.
+12.  Vous devez obtenir dans Gestionnaire de périphérique Bluegiga Bluetooth Low Energy (com..) (COM 3 ou4).
+13.  Fermer les fenêtres de configuration.
+
+Et maintenant ouvrir l'application BroodMinderPC
+
+### Protection et étanchéité
 
 La météo est votre ennemie, vous aurez donc besoin d'un boîtier et de presse-étoupes, nous vous recommandons ceux de chez Digikey.com ou Mouser.fr : 
 
@@ -71,31 +127,11 @@ Nous espérons que le circuit vous aidera si vous en avez besoin ou si vous voul
 ![Image sans style](./images/diy/carte1.png)
 ![Image sans style](./images/diy/carte_2.png)
 
-## Cellules de charge 
-
-![Image sans style](./images/diy/cellule.png)
-
-Voici deux types de cellules de charge (également appelées jauges de contrainte). Nous sommes ravis de pouvoir vous fournir l'une ou l'autre. Si vous vous procurez les vôtres, assurez-vous qu'elles sont compensées en température et qu'elles ont un très faible fluage (creep). La résistance de la cellule de charge de 200KG est d'environ 300 ohms par canal. Pour la charge de 50KG il est d'environ 750 ohms.
-
-![Image sans style](./images/diy/fil1.png)
-
-La plupart des cellules de charge semblent utiliser ce schéma de couleurs pour les fils. Si c'est le cas, alors câblez-les comme ceci.
-Noir, vert, blanc, rouge (de haut en bas).
-Les sorties se trouvent au milieu. Si les choses sont mélangées, elles seront généralement corrigées pendant l’étalonnage. 
-
-![Image sans style](./images/diy/schema_cellule.png)
-
-Le trou central de la cellule de charge de 50KG a un diamètre de 5mm.
-
-La longueur du cable 
-- peson de 50kg : 74cm 
-- cellule de charge de 200kg : 140cm
 
 ## Étalonnage de la balance
 
 Cette partie est en cours de construction et sera disponible très prochainement. 
 
 🚧 🏗
-
 
 

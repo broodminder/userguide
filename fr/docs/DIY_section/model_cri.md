@@ -3,11 +3,11 @@
 
 Le besoin :
 
-![Assemby](./images/customprojs/costarica/hive_and_stand.jpeg)
+![Assemby](./images/model_cri/hive_and_stand.jpeg)
 
 
 ## La solution
-![Assemby](./images/customprojs/costarica/assembly.png)
+![Assemby](./images/model_cri/assembly.png)
 
 
 ## Version 4 
@@ -22,13 +22,13 @@ Rien ne change sur l'empilement vertical de la cellule
 Seul hic les déplacements aux extremités ne sont pas symétriques. -3,5mm vs -2,5 du côté où la cellule appuie
 Il va falloir déplacer la celulle pour que l'appui haut se fasse plus au centre, car il n'y a pas suffisament de compensation
 
-![v05 CAO](./images/customprojs/costarica/v05_cao.png)
-![v05 CAO](./images/customprojs/costarica/v05_displ_a.png)
-![v05 CAO](./images/customprojs/costarica/v05_displ_b.png)
+![v05 CAO](./images/model_cri/v05_cao.png)
+![v05 CAO](./images/model_cri/v05_displ_a.png)
+![v05 CAO](./images/model_cri/v05_displ_b.png)
 
 On voit aussi les limites de la cornière sur la rigidité de la structure. Elle a tendance a se déplier, ici augmenté x12.
 Il faut peut être un crochet au centre également
-![v05 CAO](./images/customprojs/costarica/v05_displ_c.png)
+![v05 CAO](./images/model_cri/v05_displ_c.png)
 
 
 ## Version 6
@@ -40,32 +40,32 @@ Si j'utilise une Part pour déplacer le sous ensemble ça fore lors de la créat
 
 Donc je deplace chaque body à la main
 
-![v06 CAO](./images/customprojs/costarica/v06_cao.png)
+![v06 CAO](./images/model_cri/v06_cao.png)
 
 On a deplacé le problème de l'autre côté de la balance. 3,30mm de déplacement sur la gauche maintenant. Et seulement 2.4mm sur la droite
-![v06](./images/customprojs/costarica/v06_displ_c.png)
-![v06](./images/customprojs/costarica/v06_displ_b.png)
+![v06](./images/model_cri/v06_displ_c.png)
+![v06](./images/model_cri/v06_displ_b.png)
 
-![v06](./images/customprojs/costarica/v06_displ_d.png)
+![v06](./images/model_cri/v06_displ_d.png)
 
-![v06](./images/customprojs/costarica/v06_displ.png)
-![v06](./images/customprojs/costarica/v06_displ_load.png)
+![v06](./images/model_cri/v06_displ.png)
+![v06](./images/model_cri/v06_displ_load.png)
 
 
 Au niveau du chargement on dépasse les 90MPa sur la première attache. Ce sera moins ponctuel avec les vis, mais il faut des rondelles larges.
-![v06](./images/customprojs/costarica/v06_stress.png)
-![v06](./images/customprojs/costarica/v06_stress_clip90.png)
+![v06](./images/model_cri/v06_stress.png)
+![v06](./images/model_cri/v06_stress_clip90.png)
 
 
 Eventuellement mettre un deuxième crochet au niveau de l'attache inférieure de la cellule s'il n'y a pas d'interférence
-![v06](./images/customprojs/costarica/v06_deform.png)
+![v06](./images/model_cri/v06_deform.png)
 
 
 ## Version 7
 
 Cellule déplacée de 15 mm vers la droite. (retour en arrière)
 
-![v07 CAO](./images/customprojs/costarica/v07_cao.png)
+![v07 CAO](./images/model_cri/v07_cao.png)
 
 Dans cette configuration on mesure des déplacements de 2,95mm
 Ce qui avec l'empilement actuel 40+5+5 = 50mm comparé a la hauteur de paroi du support = 50-4 = 46mm
@@ -73,24 +73,24 @@ Ce qui avec l'empilement actuel 40+5+5 = 50mm comparé a la hauteur de paroi du 
 On a 4 mm de battement pour une déformation maxi à 3mm sous 200kg.
 Cela ne mène pas large !
 
-![v07 CAO](./images/customprojs/costarica/v07_displ.png)
+![v07 CAO](./images/model_cri/v07_displ.png)
 
 Déplacements 
 Droite  : 2,90
 Gauche : 2,70
 
-![v07 CAO](./images/customprojs/costarica/v07_displ_b.png)
+![v07 CAO](./images/model_cri/v07_displ_b.png)
 
 les crochets se déforment mais très peu comparé avec l'autre moitié de la structure. On peut les laisser là où ils sont.
 
-![v07](./images/customprojs/costarica/v07_displ_c.png)
+![v07](./images/model_cri/v07_displ_c.png)
 
 
 ## Fabrication proto v07
 Voici donc la version 7 fabriquée
 
-![v07](./images/customprojs/costarica/v07_proto_a.png)
-![v07](./images/customprojs/costarica/v07_proto_b.png)
+![v07](./images/model_cri/v07_proto_a.png)
+![v07](./images/model_cri/v07_proto_b.png)
 
 Quelques leçons apprises
 
@@ -109,21 +109,21 @@ Quelques leçons apprises
 ## Version 07 avec charge latérale
 
 Charge latérale de 50kg resulte en un déplacement de 4,19mm == collision
-![v07](./images/customprojs/costarica/v07b_sideload.png)
+![v07](./images/model_cri/v07b_sideload.png)
 
-![v07](./images/customprojs/costarica/v07_assy.png)
+![v07](./images/model_cri/v07_assy.png)
 
 
 ## Version 08 avec pattes d'appui anti-basculement
 
 Ajout de deux pattes d'arret
-![v08](./images/customprojs/costarica/v08_all.png)
+![v08](./images/model_cri/v08_all.png)
 
 Elargir les trous des cales à 7mm et des cornières à 6,5mm pour les tolérances
-![v08](./images/customprojs/costarica/v08_cross.png)
+![v08](./images/model_cri/v08_cross.png)
 
 On a centré la cellule par rapport a l'espace disponible (+1mm ver l'ext)
-![v08](./images/customprojs/costarica/v08_side.png)
+![v08](./images/model_cri/v08_side.png)
 
 
 Descendu les trous des crochets pour pouvoir insérer le supérieur
@@ -132,6 +132,6 @@ Choix de ne pas desaligner les cornières. c'est trop moche sinon.
 Si on avait des collisions on ajouterait une cale supplémentaire de 3-5mm pour faire plus haut
 
 ## A l'atelier
-![v08](./images/customprojs/costarica/v08_IMG_0354.JPG)
-![v08](./images/customprojs/costarica/v08_IMG_0356.JPG)
-![v08](./images/customprojs/costarica/v08_IMG_0364.JPG)
+![v08](./images/model_cri/v08_IMG_0354.JPG)
+![v08](./images/model_cri/v08_IMG_0356.JPG)
+![v08](./images/model_cri/v08_IMG_0364.JPG)
