@@ -44,13 +44,69 @@ En voici quelques-uns à consulter, ou inventez la vôtre :
 
 N'oubliez pas de partager vos idées, nous les rendrons publiques, si vous nous le permettez. 
 
-## Protection et étanchéité
+## Matériel nécessaire
+Pour vous lancer dans l'aventure il vous faudra cette petite liste de courses
+- [ ] une carte DIY
+- [ ] une ou plusieurs cellules de charge, quel que soit le modèle
+- [ ] un PC windows 7, 10,  
+- [ ] un dongle Bluetooth Silicon Labs (BLED112)
+- [ ] l'application broodminder PC
 
-La météo est votre ennemie, vous aurez donc besoin d'un boîtier et de presse-étoupes, nous vous recommandons ceux de chez Digikey.com : 
 
-- [Boîte étanche - Bud Industries](https://www.digikey.fr/products/en?keywords=•%09Bud%20Industries%20PN-1322-CMB%20) PN-1322-CMB 9,50€
-- [Boîte étanche - Hammond](https://www.digikey.fr/products/en?keywords=Hammond%201554N2GYCL%20) 1554N2GYCL 21,65€
-- Pas tout à fait étanche, mais une bonne taille avec des oreilles [Hammond 1591CS FLBK](https://www.digikey.fr/products/en?keywords=Hammond%201591CSFLBK%20) - 4,90€
+
+
+
+### Cellules de charge 
+
+![Image sans style](./images/diy/cellule.png)
+
+Voici deux types de cellules de charge (également appelées jauges de contrainte). Nous sommes ravis de pouvoir vous fournir l'une ou l'autre. Si vous vous procurez les vôtres, assurez-vous qu'elles sont compensées en température et qu'elles ont un très faible fluage (creep). La résistance de la cellule de charge de 200KG est d'environ 300 ohms par canal. Pour la charge de 50KG il est d'environ 750 ohms.
+
+![Image sans style](./images/diy/fil1.png)
+
+La plupart des cellules de charge semblent utiliser ce schéma de couleurs pour les fils. Si c'est le cas, alors câblez-les comme ceci.
+Noir, vert, blanc, rouge (de haut en bas).
+Les sorties se trouvent au milieu. Si les choses sont mélangées, elles seront généralement corrigées pendant l’étalonnage. 
+
+![Image sans style](./images/diy/schema_cellule.png)
+
+Le trou central de la cellule de charge de 50KG a un diamètre de 5mm.
+
+La longueur du cable 
+- peson de 50kg : 74cm 
+- cellule de charge de 200kg : 140cm
+
+### Dongle bluetooth
+Pour communiquer avec la carte il est nécessaire d'utiliser le [dongle BLED112 de silicon labs.](https://www.silabs.com/wireless/bluetooth/bluegiga-low-energy-legacy-modules/device.bled112)
+
+
+
+
+Parfois il peut être nécessaire d'adapter le pilote. Notre ami ABU en Suisse a résolu un problème d’installation du dongle sous Windows 10 avec la procédure suivante :
+
+1.   Aller sur le site Silabs pour prendre le dernier driver v1.09 (la date plus récente que la 1.10) [https://www.silabs.com/wireless/bluetooth/bluegiga-low-energy-legacy-modules/device.bled112](https://www.silabs.com/wireless/bluetooth/bluegiga-low-energy-legacy-modules/device.bled112)
+2.   Déziper le fichier Bluegiga
+3.   Connecter le dongle
+4.   Appuyez en même temps les touches Windows   et Pause   de votre clavier. La page Informations système générales s’ouvre.
+5.   Dans la colonne de gauche, sélectionnez Gestionnaire de périphériques.
+6.   Sous Ports (COM et LPT) on trouve un nouveau port Périphérique série USB (par exemple COM 3 ou COM4).
+7.   Clique de droite pour choisir mettre à jour le pilote.
+8.   Choisir Parcourir mon poste de travail pour rechercher des pilotes.
+9.   Par le bouton parcourir choisir le répertoire Bluegiga que vous avez dézippé précédemment et cliquer sur le bouton suivant.
+10.  A la question Voulez-vous installer ce logiciel de périphérique ? cliquer sur le bouton Installer.
+11.  Une fois la mise à jour effectuée cliquer sur le bouton suivant.
+12.  Vous devez obtenir dans Gestionnaire de périphérique Bluegiga Bluetooth Low Energy (com..) (COM 3 ou4).
+13.  Fermer les fenêtres de configuration.
+
+Et maintenant ouvrir l'application BroodMinderPC
+
+### Protection et étanchéité
+
+La météo est votre ennemie, vous aurez donc besoin d'un boîtier et de presse-étoupes, nous vous recommandons ceux de chez Digikey.com ou Mouser.fr : 
+
+- Boîte étanche - [Bud Industries PN-1332-CMB](https://www.budind.com/wp-content/uploads/2019/01/hbpn1332.pdf) 15,00€
+- Boîte étanche - [Hammond 1554N2GYCL](http://www.hammondmfg.com/pdf/1554N.pdf) 19,00€ 
+- Boite IP55 - [Hammond 1591XXTSFL](https://www.hammfg.com/files/parts/pdf/1591XXTSFLBK.pdf) 6,90€ (Pas tout à fait étanche, mais une bonne taille avec des oreilles)
 - [Presse-étoupe - Bud Industries IPG-2227](https://www.digikey.fr/product-detail/en/bud-industries/IPG-2227/377-2183-ND/5291485) 0,41€
 
 ![Image sans style](./images/diy/boitier.png)
@@ -71,21 +127,6 @@ Nous espérons que le circuit vous aidera si vous en avez besoin ou si vous voul
 ![Image sans style](./images/diy/carte1.png)
 ![Image sans style](./images/diy/carte_2.png)
 
-## Cellules de charge 
-
-![Image sans style](./images/diy/cellule.png)
-
-Voici deux types de cellules de charge (également appelées jauges de contrainte). Nous sommes ravis de pouvoir vous fournir l'une ou l'autre. Si vous vous procurez les vôtres, assurez-vous qu'elles sont compensées en température et qu'elles ont un très faible fluage (creep). La résistance de la cellule de charge de 200KG est d'environ 300 ohms par canal. Pour la charge de 50KG il est d'environ 750 ohms.
-
-![Image sans style](./images/diy/fil1.png)
-
-La plupart des cellules de charge semblent utiliser ce schéma de couleurs pour les fils. Si c'est le cas, alors câblez-les comme ceci.
-Noir, vert, blanc, rouge (de haut en bas).
-Les sorties se trouvent au milieu. Si les choses sont mélangées, elles seront généralement corrigées pendant l’étalonnage. 
-
-![Image sans style](./images/diy/schema_cellule.png)
-
-Le trou central de la cellule de charge de 50KG a un diamètre de 5mm.
 
 ## Étalonnage de la balance
 
@@ -134,7 +175,6 @@ qu'ils sont vraiment bons et résistants aux intempéries. Ils sont généraleme
 Essayez d'éviter tout ce qui pourrait entraîner des frictions ou des frottements. Il est important de constater qu'un frottement minuscule aura un grand impact. N'utilisez pas de charnières, elles ne sont pas adaptées. Même les roulements à billes entraînent des erreurs importantes. Les pivots sont biens.
 
 Voici un très bref aperçu de la manière de procéder. Si vous avez besoin d'aide supplémentaire ou si vous voyez des choses que nous devrions ajouter pour le prochain utilisateur, n'hésitez pas à nous contacter. 
-
 
 
 
