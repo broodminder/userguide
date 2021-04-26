@@ -133,8 +133,53 @@ Nous espérons que le circuit vous aidera si vous en avez besoin ou si vous voul
 
 ## Étalonnage de la balance
 
-Cette partie est en cours de construction et sera disponible très prochainement. 
+Une fois que vous aurez construit votre balance, il faudra l’étalonner. Vous devez régler le décalage et l'échelle pour chaque canal ADC qui sont stockés en mémoire flash dans le processeur. Pour ce faire, nous mettons à votre disposition notre application PC interne. Malheureusement, elle n'est pas disponible pour Apple mais elle fonctionnera sur un PC Windows. L'application est disponible [ici](lien).
 
-🚧 🏗
+Pour la communication BLE (Bluetooth Low Energy), vous devez disposer d'un [Doogle BLE112](https://www.mellisphera.com/produit/balance-diy/) de Silicon Labs.
+
+Beaucoup de fonctions sont expliquées rien qu’en survolant avec la souris sur le contrôle. Cette application n'a pas été conçue pour une utilisation externe, pardonnez-nous pour son design pas de toute beauté 😅. Il fonctionne, nous avons calibré des milliers de balances avec.
+
+Le processus est le suivant :
+1)	Démarrez l'application et vérifiez que le BroodMinder-DIY apparaît sur la liste des annonces.
+2)	Assurez-vous que l'ID (58:xx:xx) se trouve dans la case "Dispositif de connexion »
+3)	Sélectionnez l'onglet "Configuration", le BRM-58 devrait se connecter automatiquement.
+4)	Au départ, la période de connexion est de 3600 secondes. Réglez le log sur 3 secondes et cliquez sur « update log period ».
+5)	Appuyez sur « Start real time », vous devriez voir l'enregistrement démarrer et "Elapsed" augmenter toutes les 3 secondes.
+6)	Une fois vos cellules de chargement déchargées, appuyez sur "Tare XLR" (XLR est notre nom pour la carte). Tous les capteurs doivent afficher 0.0 pounds après cela.
+7)	Mettez un poids connu sur la balance.
+8)	Ajustez le diviseur pour chaque chaîne et appuyez sur la touche « Cal xx Weight » pour transférer et stocker les facteurs d'échelle.
+9)	Notez vos facteurs de division. A l'heure actuelle, ils ne peuvent pas être lus à partir du BRM-58.
+
+Remarques : 
+- si vous n'utilisez pas de canal, réglez le diviseur sur 0 et il lira toujours le poids 0.
+- Les diviseurs sont les valeurs qui convertissent les lectures brutes de l'ADC en poids. 31 000 est un bon point de départ pour les petites cellules de charge. Pour une grande c’est plutôt de l'ordre de 11 000. Les relevés que vous voyez dans ce programme sont en livres. Il est simple de fixer le diviseur à une valeur, après faites un test de poids. Et ajustez ensuite le diviseur de manière appropriée. Par exemple :
+Poids réel = 30,0 livres, Diviseur = 31 000, le poids du BRM-58 est de 20,0 livres.
+Changez le diviseur à 31000 * 20,0 / 30,0 = 20 666 et le poids devrait lire correctement 30,0.
+
+Tous les décalages devraient rester à 0 pour le BRM-58.
+
+![Image sans style](./images/diy/logiciel.png)
+
+Il existe de nombreuses autres commandes et fonctionnalités que nous n'aborderons pas ici. Vous pouvez toujours les explorer.
+Si vous utilisez 4 capteurs ensemble, alors vous devez utiliser l'onglet Cal-W2 comme expliqué ci-après.
+
+![Image sans style](./images/diy/logiciel2.png)
+
+1)	Saisissez le poids réel que vous utiliserez pour l’étalonnage. Si vous calibrez un BroodMinder-W2 vous devez ajouter 1,7 livre pour le poids de la moitié supérieure de la balance.
+2)	Enlevez tout le poids des cellules de charge et appuyez sur Cal W2. La première chose qu'il fera est de mettre à zéro le système. Vous verrez les valeurs brutes de l'ADC apparaître dans la ligne mise à zéro. Après cette étape, vous verrez les poids approximatifs apparaître dans les lignes (lb). C’est basé sur la pente de la ligne de pente. Nous utilisons une valeur par défaut pour les capteurs -W2. Vous pouvez jouer avec cela pour vous rapprocher de vos capteurs.
+3)	Ensuite, vous devez déplacer le poids d'étalonnage comme indiqué sur la zone C ci-dessus. Le programme avance automatiquement lorsqu'il voit un poids > 5 livres sur le capteur approprié. Une fois les 4 coins complets, le programme calcule la pente pour chaque capteur et met à jour la ligne de pente. Les 5 positions suivantes sont utilisées pour vérifier l'échelle. Si la valeur est inférieure à 0,5, la case s'allume en vert.
+4)	Lorsque vous êtes satisfait de l'étalonnage, appuyez sur "Update W2" et les valeurs seront inscrites dans la carte. Vous savez que c’est terminé lorsque les valeurs de poids (Wgt) reviennent aux livres.
+
+En gros, ce qui se passe ici, c'est que nous utilisons l'algèbre linéaire pour résoudre les équations simultanées générées par les 5 premières positions. Après la mise à zéro des capteurs, il y a 4 poids et 4 variables (pentes). Par la magie des mathématiques, nous obtenons les réponses.
+
+Vous pouvez utiliser cette planche pour faire fonctionner 4 ruches, cela nous convient. Si vous utilisez des connecteurs, mais que certains
+qu'ils sont vraiment bons et résistants aux intempéries. Ils sont généralement le point d'échec.
+
+Essayez d'éviter tout ce qui pourrait entraîner des frictions ou des frottements. Il est important de constater qu'un frottement minuscule aura un grand impact. N'utilisez pas de charnières, elles ne sont pas adaptées. Même les roulements à billes entraînent des erreurs importantes. Les pivots sont biens.
+
+Voici un très bref aperçu de la manière de procéder. Si vous avez besoin d'aide supplémentaire ou si vous voyez des choses que nous devrions ajouter pour le prochain utilisateur, n'hésitez pas à nous contacter. 
+
+
+
 
 
