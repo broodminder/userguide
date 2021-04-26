@@ -2,7 +2,9 @@
 
 ## Vue d'ensemble
 
-Le DIY est la carte que nous utilisons dans les autres balances Broodminder. Avec elle, vous pouvez construire votre propre balance et elle fonctionnera avec tous les logiciels standard BroodMinder et Mellisphera. Nous espérons que cette carte permettra à de nombreux bricoleurs de créer, chez eux, de parfaits appareils pour surveiller leurs ruches. N'oubliez pas de partager vos créations avec nous et nous les partagerons avec le reste du monde !
+Le DIY est la carte que nous utilisons dans les autres balances Broodminder. Avec elle, vous pouvez construire votre propre balance et elle fonctionnera avec toute la suite BroodMinder et Mellisphera. Nous espérons que cette carte permettra à de nombreux bricoleurs de créer, chez eux, de parfaits appareils pour surveiller leurs ruches. N'oubliez pas de partager vos créations avec nous et nous les partagerons avec le reste du monde !
+
+Le DIY c'est :
 
 - Une conception épprouvée, autonomie de 5 ans
 - **Aucune ligne de code à écrire**
@@ -12,29 +14,41 @@ Le DIY est la carte que nous utilisons dans les autres balances Broodminder. Ave
 - Les données sont diffusées via BLE (Bluetooth Low Energy)
 - Les données stockées sont lisibles par l'application BroodMinder et Mellisphera
 
-Pour pouvoir utiliser le DIY, vous devrez ajouter une cellule de charge. 
+Pour pouvoir utiliser le DIY, vous devrez vous équiper à minima de
+- une carte DIY
+- un peson ou cellule de charge (voir modèles) 
+- un dongle BLED112 de Silicon labs
+- un PC windows et le logiciel BroodMinder PC pour calibrer le dispositif.
+
 La carte fonctionne avec la plupart des cellules de charge que vous trouverez sur le marché, mais attention de ne pas faire le mauvais choix. Chaque dispositif a ses avantages et inconvénients. Par exemple, les cellules de pese personne peuvent présenter des fluctuations plus importantes que d'autres modèles plus industriels. 
 
 
-## Modèles
+
+
+
+## Quelques Modèles
 
 Nos équipes ont créé quelques modèles dont nous vous partageront la conception bientôt.
-Voici un aperçu : 
+
+### Bâti avec 4 balances
 
 ![Image sans style](./images/diy/theo_scale.png)
 
-Le support métallique de la ruche est disponible chez [Lyson](http://lyson.eu/home/3254-bee-hive-stand-zinc-set-2-pcs-5903661513191.html?search_query=hive+stand&results=303).
+Cet ensemble est réalisé avec une plateforme équipée d'une cellule de 200kg. Le support métallique de la ruche est disponible chez [Lyson](http://lyson.eu/home/3254-bee-hive-stand-zinc-set-2-pcs-5903661513191.html?search_query=hive+stand&results=303).
 
-Voici un autre modèle basé sur balance balance W2, dont la mise en œuvre est minimale et qui utilise des [pieds de 5mm](https://www.amazon.fr/poignet-Cheville-Machines-broche-filet%C3%A9e/dp/B01NAPROVJ/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Pieds+nivellement+M5&qid=1616082834&sr=8-6). Assurez-vous de protéger l'électronique des intempéries si vous décidez de construire cette balance.
+
+### Balance socle pour ruche
 
 ![Image sans style](./images/diy/rich_scale.png)
 
-Il est facile de créer un espace sous le capteur pour permettre la flèche en utilisant des forets Forstner.
+Voici un autre modèle basé sur balance balance W2, dont la mise en œuvre est minimaliste et qui utilise des [pieds de 5mm](https://www.amazon.fr/poignet-Cheville-Machines-broche-filet%C3%A9e/dp/B01NAPROVJ/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Pieds+nivellement+M5&qid=1616082834&sr=8-6). Assurez-vous de protéger l'électronique des intempéries si vous décidez de construire cette balance.
+
+Il est facile de créer un espace sous le peson pour permettre la déformation sans interférence en utilisant des forets Forstner.
 
 La version de gauche a été créée avec des longerons bois de 40x80 en une heure environ. Vous pouvez fraiser des canaux pour les fils et les remplir de silicone. Créez un renfoncement pour y loger la carte et la protéger de la pluie. Il faudra également utiliser un bois traité et peindre le tout puis créer un couvercle pour la carte. 
 
-## Autres modèles
-Nous vous recommandons également de visiter certains sites web open source sur les ruches pour avoir une idée de la conception de votre balance. 
+### Autres modèles
+Nous vous recommandons également de visiter ces sites web open source sur les ruches pour avoir une idée de la conception de votre balance. 
 En voici quelques-uns à consulter, ou inventez la vôtre : 
 
 - [https://www.honey-pi.de/](https://www.honey-pi.de/)
@@ -44,14 +58,18 @@ En voici quelques-uns à consulter, ou inventez la vôtre :
 
 N'oubliez pas de partager vos idées, nous les rendrons publiques, si vous nous le permettez. 
 
+
+***
+
 ## Matériel nécessaire
-Pour vous lancer dans l'aventure il vous faudra cette petite liste de courses
+Pour vous lancer dans l'aventure DIY il vous faudra :
 - [ ] une carte DIY
 - [ ] une ou plusieurs cellules de charge, quel que soit le modèle
-- [ ] un PC windows 7, 10,  
+- [ ] un PC windows 7, 10 avec l'application broodminder PC
 - [ ] un dongle Bluetooth Silicon Labs (BLED112)
-- [ ] l'application broodminder PC
 
+
+Photo AVEC TOUT CE QUI EST POSSIBLE
 
 
 
@@ -60,7 +78,17 @@ Pour vous lancer dans l'aventure il vous faudra cette petite liste de courses
 
 ![Image sans style](./images/diy/cellule.png)
 
-Voici deux types de cellules de charge (également appelées jauges de contrainte). Nous sommes ravis de pouvoir vous fournir l'une ou l'autre. Si vous vous procurez les vôtres, assurez-vous qu'elles sont compensées en température et qu'elles ont un très faible fluage (creep). La résistance de la cellule de charge de 200KG est d'environ 300 ohms par canal. Pour la charge de 50KG il est d'environ 750 ohms.
+Nous vous porposons trois types de cellules de charge: 
+- pesons de 50kg
+- cellule de 100kg
+- cellule de 200kg
+
+![cell50](./images/diy/cell050.png)
+![cell100](./images/diy/cell100.png)
+![cell200](./images/diy/cell200.png)
+
+
+Nous sommes ravis de pouvoir vous les fournir. Si vous vous procurez les vôtres, assurez-vous qu'elles sont compensées en température et qu'elles ont un très faible fluage (creep). La résistance de la cellule de charge de 200KG est d'environ 300 ohms par canal. Pour la charge de 50kg il est d'environ 750 ohms.
 
 ![Image sans style](./images/diy/fil1.png)
 
@@ -68,18 +96,16 @@ La plupart des cellules de charge semblent utiliser ce schéma de couleurs pour 
 Noir, vert, blanc, rouge (de haut en bas).
 Les sorties se trouvent au milieu. Si les choses sont mélangées, elles seront généralement corrigées pendant l’étalonnage. 
 
-![Image sans style](./images/diy/schema_cellule.png)
 
 Le trou central de la cellule de charge de 50KG a un diamètre de 5mm.
+La longueur du cable :
 
-La longueur du cable 
 - peson de 50kg : 74cm 
+- cellule de charge de 100kg : 40cm
 - cellule de charge de 200kg : 140cm
 
 ### Dongle bluetooth
 Pour communiquer avec la carte il est nécessaire d'utiliser le [dongle BLED112 de silicon labs.](https://www.silabs.com/wireless/bluetooth/bluegiga-low-energy-legacy-modules/device.bled112)
-
-
 
 
 Parfois il peut être nécessaire d'adapter le pilote. Notre ami ABU en Suisse a résolu un problème d’installation du dongle sous Windows 10 avec la procédure suivante :
@@ -101,8 +127,6 @@ Parfois il peut être nécessaire d'adapter le pilote. Notre ami ABU en Suisse a
 Et maintenant ouvrir l'application BroodMinderPC
 
 
-### Nouveau chapitre
-
 ### Protection et étanchéité
 
 La météo est votre ennemie, vous aurez donc besoin d'un boîtier et de presse-étoupes, nous vous recommandons ceux de chez Digikey.com ou Mouser.fr : 
@@ -116,7 +140,17 @@ La météo est votre ennemie, vous aurez donc besoin d'un boîtier et de presse-
 
 Voici la boîte étanche Hammond 1554N2GYCL installée sur le support Lyson.
 
-REMARQUE : Les premières cartes DIY expédiées mesureront 11,43cm x 4,5cm. Celles expédiées en juin seront un peu plus petite (10,92cm x 3,91cm). Il est possible de réduire la carte de  11,43cm x 4,5cm en 10,92cm x 3,91cm sans affecter les opérations mais nous ne le recommandons pas. Procurez-vous une taille de boîte adéquate. Beaucoup sont disponibles sur Digikey.com et Mouser.com. 
+### Carte DIY
+
+******** Photo carte + socle piles
+
+La carte est fournie avec un socle pour deux piles AA. Vous devrez le monter, plier les pattes et les souder sur les pôles + et -.
+
+!!! Attention 
+    La tension maximale d'alimentation de la carte est de 3.5V. Audelà vous risquez de l'abimer !
+
+
+REMARQUE : Les premières cartes DIY expédiées mesurent 11,43 x 4,5cm. Celles expédiées en juin seront un peu plus petites (10,92 x 3,91cm). Il est possible de réduire la carte de  11,43 x 4,5cm en 10,92 x 3,91cm sans affecter les opérations mais nous ne le recommandons pas. Procurez-vous une taille de boîte adéquate. 
 
 NOTEZ AUSSI CECI... Si vous décidez de couper la carte, N'UTILISEZ PAS une scie circulaire classique. Cela risque de déchirer la carte et de vous blesser. J'ai utilisé une scie à carreaux (sans dents), ou les "cisailles à métaux" fonctionnent également assez bien.
 
@@ -130,56 +164,79 @@ Nous espérons que le circuit vous aidera si vous en avez besoin ou si vous voul
 ![Image sans style](./images/diy/carte1.png)
 ![Image sans style](./images/diy/carte_2.png)
 
+***
 
 ## Étalonnage de la balance
 
-Une fois que vous aurez construit votre balance, il faudra l’étalonner. Vous devez régler le décalage et l'échelle pour chaque canal ADC qui sont stockés en mémoire flash dans le processeur. Pour ce faire, nous mettons à votre disposition notre application PC interne. Malheureusement, elle n'est pas disponible pour Apple mais elle fonctionnera sur un PC Windows. L'application est disponible [ici](lien).
+Une fois que vous aurez construit votre balance, il faudra l’étalonner. Vous devez régler le décalage (offset) et l'échelle (divisor) pour chaque canal ADC qui sont stockés en mémoire flash dans le processeur. Pour ce faire, nous mettons à votre disposition notre application PC interne. Malheureusement, elle n'est pas disponible pour Apple mais elle fonctionnera sur un PC Windows. L'application est disponible [ici](https://www.dropbox.com/sh/nmhfpuy9s5x086f/AADkyDIcJrfsqsd9yUJ-7Lr6a?dl=0).
 
 Pour la communication BLE (Bluetooth Low Energy), vous devez disposer d'un [Doogle BLE112](https://www.mellisphera.com/produit/balance-diy/) de Silicon Labs.
 
-Beaucoup de fonctions sont expliquées rien qu’en survolant avec la souris sur le contrôle. Cette application n'a pas été conçue pour une utilisation externe, pardonnez-nous pour son design pas de toute beauté 😅. Il fonctionne, nous avons calibré des milliers de balances avec.
+Beaucoup de fonctions sont expliquées rien qu’en survolant avec la souris sur le contrôle. Cette application n'a pas été conçue pour une utilisation externe, pardonnez-nous pour son design pas de toute beauté 😅. Elle fonctionne, nous avons calibré des milliers de balances avec.
+
+### Balance à 1 ou 2 pesons
 
 Le processus est le suivant :
-1)	Démarrez l'application et vérifiez que le BroodMinder-DIY apparaît sur la liste des annonces.
-2)	Assurez-vous que l'ID (58:xx:xx) se trouve dans la case "Dispositif de connexion »
-3)	Sélectionnez l'onglet "Configuration", le BRM-58 devrait se connecter automatiquement.
-4)	Au départ, la période de connexion est de 3600 secondes. Réglez le log sur 3 secondes et cliquez sur « update log period ».
-5)	Appuyez sur « Start real time », vous devriez voir l'enregistrement démarrer et "Elapsed" augmenter toutes les 3 secondes.
-6)	Une fois vos cellules de chargement déchargées, appuyez sur "Tare XLR" (XLR est notre nom pour la carte). Tous les capteurs doivent afficher 0.0 pounds après cela.
-7)	Mettez un poids connu sur la balance.
-8)	Ajustez le diviseur pour chaque chaîne et appuyez sur la touche « Cal xx Weight » pour transférer et stocker les facteurs d'échelle.
-9)	Notez vos facteurs de division. A l'heure actuelle, ils ne peuvent pas être lus à partir du BRM-58.
 
-Remarques : 
-- si vous n'utilisez pas de canal, réglez le diviseur sur 0 et il lira toujours le poids 0.
-- Les diviseurs sont les valeurs qui convertissent les lectures brutes de l'ADC en poids. 31 000 est un bon point de départ pour les petites cellules de charge. Pour une grande c’est plutôt de l'ordre de 11 000. Les relevés que vous voyez dans ce programme sont en livres. Il est simple de fixer le diviseur à une valeur, après faites un test de poids. Et ajustez ensuite le diviseur de manière appropriée. Par exemple :
-Poids réel = 30,0 livres, Diviseur = 31 000, le poids du BRM-58 est de 20,0 livres.
-Changez le diviseur à 31000 * 20,0 / 30,0 = 20 666 et le poids devrait lire correctement 30,0.
+1. Démarrez l'application et vérifiez que le BroodMinder-DIY apparaît sur la liste des annonces.
 
-Tous les décalages devraient rester à 0 pour le BRM-58.
+2.	Assurez-vous que l'ID `58:xx:xx` se trouve dans la case `Device to connect to`
+
+3.	Sélectionnez l'onglet "Configuration", le BRM-58 devrait se connecter automatiquement.
+
+4.	Par défaut la période de connexion est de 3600 secondes. Réglez-la sur 3 secondes et cliquez sur `update log period`.
+
+5.	Appuyez sur `Start real time`, vous devriez voir l'enregistrement démarrer et `Elapsed` s'incrémenter toutes les 3 secondes.
+
+6.	Mettez à vide votre balance et appuyez sur `Tare XLR` (XLR est notre nom pour la carte). Tous les capteurs doivent afficher `0.0 pounds` après cela.
+
+7.	Mettez un poids connu sur la balance.
+
+8.	Ajustez le `divisor` pour chaque canal et appuyez sur la touche `Cal xx Weight` pour transférer et stocker les facteurs sur la carte.
+
+9.	Notez vos diviseurs. A l'heure actuelle, ils ne peuvent pas être lus à partir du BRM-58.
+
+!!! Attention 
+    toute la calibration se fait en livres. Prenez vos dispositions pour ne pas vous tromper! Un petit fichier excel fait très bien l'affaire.
+    
+!!! Note 
+    saisisez `divisor = 0` pour les canaux qui restent inutilisés
+    en général les `offset` restent à 0 sur tous les canaux
+    A chaque fois que vous actualiserez un diviseur il faudra relancer `start real time`
+
+!!! Note 
+    Les diviseurs sont les valeurs qui convertissent les lectures brutes de l'ADC en poids. 31 000 est un bon point de départ pour les petites cellules de charge. Pour une grande c’est plutôt de l'ordre de 10 000. Les relevés que vous voyez dans ce programme sont en livres. Il est simple de fixer le diviseur à une valeur, après faites un test de poids. Et ajustez ensuite le diviseur de manière appropriée. Par exemple :
+    Poids réel = 30,0 livres, Diviseur = 31 000, le poids du BRM-58 est de 20,0 livres.
+    Changez le diviseur à 31000 * 20,0 / 30,0 = 20 666 et le poids devrait lire correctement 30,0.
+
 
 ![Image sans style](./images/diy/logiciel.png)
 
+
 Il existe de nombreuses autres commandes et fonctionnalités que nous n'aborderons pas ici. Vous pouvez toujours les explorer.
-Si vous utilisez 4 capteurs ensemble, alors vous devez utiliser l'onglet Cal-W2 comme expliqué ci-après.
+Si vous utilisez 4 capteurs ensemble, alors vous devez utiliser l'onglet `Cal-W2` comme expliqué ci-après.
+
+### Balance à 4 pesons
 
 ![Image sans style](./images/diy/logiciel2.png)
 
-1)	Saisissez le poids réel que vous utiliserez pour l’étalonnage. Si vous calibrez un BroodMinder-W2 vous devez ajouter 1,7 livre pour le poids de la moitié supérieure de la balance.
-2)	Enlevez tout le poids des cellules de charge et appuyez sur Cal W2. La première chose qu'il fera est de mettre à zéro le système. Vous verrez les valeurs brutes de l'ADC apparaître dans la ligne mise à zéro. Après cette étape, vous verrez les poids approximatifs apparaître dans les lignes (lb). C’est basé sur la pente de la ligne de pente. Nous utilisons une valeur par défaut pour les capteurs -W2. Vous pouvez jouer avec cela pour vous rapprocher de vos capteurs.
-3)	Ensuite, vous devez déplacer le poids d'étalonnage comme indiqué sur la zone C ci-dessus. Le programme avance automatiquement lorsqu'il voit un poids > 5 livres sur le capteur approprié. Une fois les 4 coins complets, le programme calcule la pente pour chaque capteur et met à jour la ligne de pente. Les 5 positions suivantes sont utilisées pour vérifier l'échelle. Si la valeur est inférieure à 0,5, la case s'allume en vert.
-4)	Lorsque vous êtes satisfait de l'étalonnage, appuyez sur "Update W2" et les valeurs seront inscrites dans la carte. Vous savez que c’est terminé lorsque les valeurs de poids (Wgt) reviennent aux livres.
+1.	Saisissez le poids réel que vous utiliserez pour l’étalonnage. Si vous calibrez un BroodMinder-W2 vous devez ajouter 1,7 lbs pour le poids de la moitié supérieure de la balance.
+
+2.	Enlevez tout le poids des cellules de charge et appuyez sur `Cal W2`. La première chose qu'il fera est de mettre à zéro le système. Vous verrez les valeurs brutes de l'ADC apparaître dans la ligne mise à zéro. Après cette étape, vous verrez les poids approximatifs apparaître dans les lignes (lb). C’est basé sur la pente de la ligne de pente. Nous utilisons une valeur par défaut pour les capteurs -W2. Vous pouvez jouer avec cela pour vous rapprocher de vos capteurs.
+
+3.	Ensuite, vous devez déplacer le poids d'étalonnage comme indiqué sur la zone C ci-dessus. Le programme avance automatiquement lorsqu'il voit un poids > 5 livres sur le capteur approprié. Une fois les 4 coins complets, le programme calcule la pente pour chaque capteur et met à jour la ligne de pente. Les 5 positions suivantes sont utilisées pour vérifier l'échelle. Si la valeur est inférieure à 0,5, la case s'allume en vert.
+
+4.	Lorsque vous êtes satisfait de l'étalonnage, appuyez sur `Update W2` et les valeurs seront enregistrées dans la carte. Vous savez que c’est terminé lorsque les valeurs de poids (Wgt) reviennent à livres.
 
 En gros, ce qui se passe ici, c'est que nous utilisons l'algèbre linéaire pour résoudre les équations simultanées générées par les 5 premières positions. Après la mise à zéro des capteurs, il y a 4 poids et 4 variables (pentes). Par la magie des mathématiques, nous obtenons les réponses.
 
-Vous pouvez utiliser cette planche pour faire fonctionner 4 ruches, cela nous convient. Si vous utilisez des connecteurs, mais que certains
-qu'ils sont vraiment bons et résistants aux intempéries. Ils sont généralement le point d'échec.
+Vous pouvez utiliser cette carte pour connecter 4 ruches, cela nous convient. 
 
-Essayez d'éviter tout ce qui pourrait entraîner des frictions ou des frottements. Il est important de constater qu'un frottement minuscule aura un grand impact. N'utilisez pas de charnières, elles ne sont pas adaptées. Même les roulements à billes entraînent des erreurs importantes. Les pivots sont biens.
+Si vous utilisez des connecteurs, assurez-vous d'en utiliser de bonne qualité et résistants aux intempéries. Ils sont généralement le maillon faible.
 
-Voici un très bref aperçu de la manière de procéder. Si vous avez besoin d'aide supplémentaire ou si vous voyez des choses que nous devrions ajouter pour le prochain utilisateur, n'hésitez pas à nous contacter. 
+Essayez d'éviter tout ce qui pourrait entraîner des frictions ou des frottements. Il est important de constater qu'un frottement minuscule aura un grand impact. N'utilisez pas de charnières, elles ne sont pas adaptées. Même les roulements à billes entraînent des erreurs importantes. Les pivots sont bien.
 
+Voici donc un très bref aperçu de la manière de procéder. Si vous avez besoin d'aide supplémentaire ou si vous voyez des choses que nous devrions ajouter à ce guide pour les prochains utilisateurs, n'hésitez pas à nous contacter à [support@mellisphera.com](mailto:support@mellisphera.com)
 
-
-
-
+## Dépannage 
+Le plus souvent, le problème est simplement le câblage. Commencez par mesurer entre les fils de la cellule de charge. Vous devriez voir des centaines d'ohms, pas 0 ni l'infini. Sachez également que nous utilisons des trous traversants plaqués. Si vous les percez (comme Lorenzo l'a fait), les plots ne seront plus conducteurs du haut vers le bas de la carte. Vous pouvez résoudre ce problème en soudant des fils de liaison avec le schéma comme guide.

@@ -16,11 +16,7 @@ markdown_extensions:
 plugins:
   - search:
       lang: 'fr'
-<<<<<<< HEAD
   #- pdf-export    # disable this item to run tests on the doc (mkdoc serve without building pdf every time
-=======
-#  - pdf-export    # disable this item to run tests on the doc (mkdoc serve without building pdf every time
->>>>>>> 9bd22b2296935bf48f0a566cbd0068e8d835e6ec
 extra_css:
     - css/extra.css
 nav:
@@ -35,18 +31,11 @@ nav:
  - Science collaborative: 'beecounted.md'
  - _____: 'void.md'
  - T2 Swarminder: 'new_t2sm.md'
-<<<<<<< HEAD
- - 🆕  Balance DIY: 'new_diy.md'
- - 🆕  Sub-Hub: 'new_subhub.md'
-=======
  - Balance DIY 🆕 :
     #- DIY_section/index.md
     - Guide utilisateur: DIY_section/guide_utilisateur.md
     - Modèle CRI: DIY_section/model_cri.md
-
-
  - Sub-Hub 🆕 : 'new_subhub.md'
->>>>>>> 9bd22b2296935bf48f0a566cbd0068e8d835e6ec
  - _____: 'void.md'
  - FAQ: 'faq.md'
  - Support: 'support.md'
