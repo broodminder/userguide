@@ -2,6 +2,9 @@
 
 ## Vue d'ensemble
 
+![DIY Kit](./images/diy/diy_all.jpg)
+
+
 Le DIY est la carte que nous utilisons dans les autres balances Broodminder. Avec elle, vous pouvez construire votre propre balance et elle fonctionnera avec toute la suite BroodMinder et Mellisphera. Nous espérons que cette carte permettra à de nombreux bricoleurs de créer, chez eux, de parfaits appareils pour surveiller leurs ruches. N'oubliez pas de partager vos créations avec nous et nous les partagerons avec le reste du monde !
 
 Le DIY c'est :
@@ -14,7 +17,7 @@ Le DIY c'est :
 - Les données sont diffusées via BLE (Bluetooth Low Energy)
 - Les données stockées sont lisibles par l'application BroodMinder et Mellisphera
 
-Pour pouvoir utiliser le DIY, vous devrez vous équiper à minima de
+Pour pouvoir utiliser le DIY, vous devrez vous équiper à minima avec
 - une carte DIY
 - un peson ou cellule de charge (voir modèles) 
 - un dongle BLED112 de Silicon labs
@@ -28,7 +31,7 @@ La carte fonctionne avec la plupart des cellules de charge que vous trouverez su
 
 ## Quelques Modèles
 
-Nos équipes ont créé quelques modèles dont nous vous partageront la conception bientôt.
+Nos équipes ont créé quelques modèles dont nous vous partagerons la conception bientôt.
 
 ### Bâti avec 4 balances
 
@@ -68,15 +71,9 @@ Pour vous lancer dans l'aventure DIY il vous faudra :
 - [ ] un PC windows 7, 10 avec l'application broodminder PC
 - [ ] un dongle Bluetooth Silicon Labs (BLED112)
 
-
-Photo AVEC TOUT CE QUI EST POSSIBLE
-
-
-
+- [ ] quelques accessoires éventuellement (cales pour les céllules, boite étanche, presse étoupes PG9, )
 
 ### Cellules de charge 
-
-![Image sans style](./images/diy/cellule.png)
 
 Nous vous porposons trois types de cellules de charge: 
 - pesons de 50kg
@@ -142,7 +139,7 @@ Voici la boîte étanche Hammond 1554N2GYCL installée sur le support Lyson.
 
 ### Carte DIY
 
-******** Photo carte + socle piles
+![DIY Board](./images/diy/diy_carte.jpg)
 
 La carte est fournie avec un socle pour deux piles AA. Vous devrez le monter, plier les pattes et les souder sur les pôles + et -.
 
@@ -186,9 +183,9 @@ Le processus est le suivant :
 
 4.	Par défaut la période de connexion est de 3600 secondes. Réglez-la sur 3 secondes et cliquez sur `update log period`.
 
-5.	Appuyez sur `Start real time`, vous devriez voir l'enregistrement démarrer et `Elapsed` s'incrémenter toutes les 3 secondes.
+5.	Appuyez sur `Start real time`, vous devriez voir l'enregistrement démarrer et le compteur `Elapsed` s'incrémenter toutes les 3 secondes.
 
-6.	Mettez à vide votre balance et appuyez sur `Tare XLR` (XLR est notre nom pour la carte). Tous les capteurs doivent afficher `0.0 pounds` après cela.
+6.	Mettez à vide votre balance et appuyez sur `Tare XLR` (XLR est notre nom pour la carte). Tous les capteurs doivent afficher `Wgt : 0.0 pounds` après cela.
 
 7.	Mettez un poids connu sur la balance.
 
@@ -197,7 +194,9 @@ Le processus est le suivant :
 9.	Notez vos diviseurs. A l'heure actuelle, ils ne peuvent pas être lus à partir du BRM-58.
 
 !!! Attention 
-    toute la calibration se fait en livres. Prenez vos dispositions pour ne pas vous tromper! Un petit fichier excel fait très bien l'affaire.
+    toute la calibration se fait en livres (lb). Prenez vos dispositions pour ne pas vous tromper ! 
+    
+    Un petit fichier excel comme [celui-ci](./images/diy/calibration_bench.xlsx.zip) fait très bien l'affaire.
     
 !!! Note 
     saisisez `divisor = 0` pour les canaux qui restent inutilisés
@@ -209,8 +208,10 @@ Le processus est le suivant :
     Poids réel = 30,0 livres, Diviseur = 31 000, le poids du BRM-58 est de 20,0 livres.
     Changez le diviseur à 31000 * 20,0 / 30,0 = 20 666 et le poids devrait lire correctement 30,0.
 
+!!! Note 
+    Si vous réalisez une balance pour peser la moitié de la ruche il vous faudra multiplier le `divisor` par le facteur d'échelle (normalement x2) pour obtenir le poids complet de la ruche.
 
-![Image sans style](./images/diy/logiciel.png)
+![Image sans style](./images/diy/usingBroodminderPC.png)
 
 
 Il existe de nombreuses autres commandes et fonctionnalités que nous n'aborderons pas ici. Vous pouvez toujours les explorer.
