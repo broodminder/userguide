@@ -165,7 +165,7 @@ Nous espérons que le circuit vous aidera si vous en avez besoin ou si vous voul
 
 ## Étalonnage de la balance
 
-Une fois que vous aurez construit votre balance, il faudra l’étalonner. Vous devez régler le décalage (offset) et l'échelle (divisor) pour chaque canal ADC qui sont stockés en mémoire flash dans le processeur. Pour ce faire, nous mettons à votre disposition notre application PC interne. Malheureusement, elle n'est pas disponible pour Apple mais elle fonctionnera sur un PC Windows. L'application est disponible [ici](https://www.dropbox.com/sh/nmhfpuy9s5x086f/AADkyDIcJrfsqsd9yUJ-7Lr6a?dl=0).
+Une fois que vous aurez construit votre balance, il faudra l’étalonner. Vous devez régler le décalage (offset) et l'échelle (divisor) pour chaque canal ADC qui sont stockés en mémoire flash dans le processeur. Pour ce faire, nous mettons à votre disposition notre application PC interne. Malheureusement, elle n'est pas disponible pour Apple mais elle fonctionnera sur un PC Windows. [L'application est disponible ici](https://www.dropbox.com/sh/nmhfpuy9s5x086f/AADkyDIcJrfsqsd9yUJ-7Lr6a?dl=0).
 
 Pour la communication BLE (Bluetooth Low Energy), vous devez disposer d'un [Doogle BLE112](https://www.mellisphera.com/produit/balance-diy/) de Silicon Labs.
 
