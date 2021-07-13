@@ -161,14 +161,14 @@ Il est possible de prendre des annotations au niveau de chaque ruche. Ce sont de
 
 ![Explorer](./images/explorer_sidebar.png#picto)
 
-La vue **Rucher** donne un aperçu global de la situation. Dans **Explorer**, vous pourrez naviguer parmi vos données de façon plus approfondie. Une nouvelle barre grise apparait avec trois nouveaux espaces : 'Ruche', 'Couvain', 'Poids', 'Données', 'Evenements. Par défaut, vous arrivez sur le mode 'Ruche'. 
+La vue **Rucher** donne un aperçu global de la situation. Dans **Explorer**, vous pourrez naviguer parmi vos données de façon plus approfondie. Une nouvelle barre grise apparait avec trois nouveaux espaces : 'Ruche', 'Couvain', 'Données'. Par défaut, vous arrivez sur le mode 'Ruche'. 
 De plus, les données du dernier mois s'afficheront par défaut. Vous pouvez modifier la date en haut à droite. Vous pouvez modifier et personnaliser cette période de données à votre guise ou en utilisant les flèches pour vous déplacer dans le temps de période en période. 
 
 ![Explorer navigation](./images/navig_explorer.png#mediumImg)
 
 ![Personnaliser date](./images/personnaliser_date.png#mediumImg)
 
-### **Ruche**
+**Ruche**
 
 ![Explorer ruche](./images/ruche_explorer.png#largeImg)
 
@@ -205,7 +205,7 @@ Vous pouvez donc visualiser et échanger les modes du calendrier comme vous le s
 
 ![Calendrier](./images/manier_calendrier.png#largeImg)
 
-### **Couvain**
+**Couvain**
 
 Dans le mode Couvain, vous pouvez, cette fois-ci, **sélectionner autant de ruches que vous le souhaitez** et ce, même si ces ruches sont dans deux ruchers différents. Cela vous permet de comparer des ruchers ou des ruches entre elles.
 
@@ -215,146 +215,13 @@ Au survol, vous pourrez voir les informations relatives aux ruches.
 
 Cet outil est extrêmement performant pour analyser des données sur des longues ou courtes périodes de temps, sur des ruches d'un même rucher ou de différents ruchers. Il donne une énorme flexibilité pour l'analyse.
 
-### **Poids**
-
-Dans le mode Poids, vous pouvez afficher toutes les ruches de vos rucher ou selectionner une par une celles que vous souhaitez afficher. 
-
-Vous avez le choix entre 4 vues : 
-
-- Poids horaire
-- Poids journalier
-- Gain de poids
-- Productivité
-
-![Mode poids](./images/mode_poids.png#largeImg)
-
-Par défaut, c'est la vue en Poids journalier qui s'affiche.
-
-La vue **Horaire** affiche le graphique des mesures de poids horaires brutes. En survolant le graphique, vous verrez s'afficher, la date, l'heure et le poids correspondant. 
-
-La vue **Journalier** affiche les mesures de poids journalières brutes. Comme pour le poids horaires, au survol vous verrez s'afficher la date et le poids correspondant. Vous pouvez selectionner une date de référence et observer dans le tableau au dessous du graphique : le poids à cette date (T0), et le poids 7 jours ou 15 jours avant cette date. 
-
-La vue **Gain** affiche le gain de poids journalier (barres) et le gain cumulé (ligne). Le gain de poids journalier est calculé par rapport au poids de la ruche la veille. Le gain de poids cumulé est calculé par rapport à la date de référence que vous aurez choisi. Dans le tableau au dessous du graphique, vous observrez le poids cumulé depuis la date de référence (T0), depuis les 7 derniers jours et depuis les 15 derniers jours. Dans cette vue, il s'agit de données brutes.
-
-La vue **Productivité** affiche le gain de poids journalier et le gain cumulé ajustés, XXX
-
-Pour toutes les vues, sur la droite **5 ficônes** :
-- "zoom" : pour zoomer sur une zone du graphique
-- "zoom reset" : pour revenir à la vue initiale (enlever le zoom)
-- "data view" : pour voir les données en listing
-- "restore" : pour actualiser les données
-- "save as image" : pour télécharger le graphique en temps qu'image 
-
-
-### **Données** 
+**Données** 
 
 Dans le mode Données, vous visualiserez les données brutes de vos ruches avec la température interne en haut, le poids au centre et l'humidité en bas (un peu comme sur mybroodminder). En vert, vous aurez les zones optimales pour le couvain et l'humidité. Vous pouvez également sélectionner autant de ruches que vous le souhaitez et ce, même si ces ruches sont dans deux ruchers différents. Cela vous permet de comparer des ruchers ou des ruches entre elles.
 
 ![Données brutes](./images/raw_data.png#largeImg)
 
 Il est très facile de se servir de l’outil. Les petites icones sur la droite du graphique vous permettent de zoomer, sélectionner des zones, vous déplacer, voir les données en listing, etc. 
-
-### **Évènements**
-
-Dans le mode Évènements, vous verrez appaître tous les évènements créés. Vous pouvez afficher les évenements du rucher dans son intégralité en cliquant sur le rucher, ou d'afficher les évènements de certaines ruches en les selctionnant une par une. 
-
-Vous pouvez ajouter un évènements depuis tous les espaces disponibles dans le menu Explorer. En survolant vos ruches ou vous ruchers, qui s'affichent dans la liste à gauche, vous verrez 3 petits points apparaître. Si vous cliquez dessus vous pourrez **Ajouter un évènement**. 
-Si vous effectuez cette action sur votre rucher, il s'agira d'un évènement qui concerne l'ensemble du rucher, si vous l'effecuter sur une ruche, l'évènement concernera cette ruche uniquement.
-
-![evenement +](./images/evenement+.png)
-
-
-Dans le menu Mon rucher, vous avez aussi la possibilité d'ajouter un évènement, en cliquant sur les 3 petits points dans l'espace Notes. Là aussi vous pouvez selectionner tous le rucher pour ajouter un évènement au rucher ou une seule ruche.
-
-Dans la fenêtre qui s'ouvre lorsque vous souahitez ajouter un évènement, plutôt que d'écrire de longues phrases, pensez à utliser les pictogrammes disponibles. Nous avons distingué les Notes qui correspondent à ce que vous avez observé, des Tâches qui correspondent aux actions réalisées sur la ruche ou le rucher. 
-
-![ajouter un evenement ruche](./images/ajouter_evenement.png#largeImg)
-
-Le mode évènement **récapitule tous les évènements** entrés, vous pouvez ici les modifier ou les supprimer. Le lève cadre rouge indique un évènement du rucher et le lève cadre jaune indique un évènement de la ruche. C'est ce même code couleur qui est utilisé dans les évènement qui apparaissent dans le calendrier des évènement du mode Ruche. Enfin, dans la partie "Notes et Taches" : en noir les notes et en bleu les taches. 
-
-![Mode evenement](./images/mode_evenement.png#largeImg)
-
-## Inspecter
-
-Dans **Inspecter** vous pouvez noter de manière simple et rapide toutes vos inspections, et garder une trace de chacune d'entre elles. Dans la barre grise, vous verrez qu'il y a 3 espaces :'Nouvelle', 'Historique' et 'Paramètres'.
-
-Le mode **Nouvelle** permet d'ajouter une nouvelle inspection. Vous pouvez prendre note de l'inspection du rucher dans son ensemble. Dans ce cas, des pictogrammes vous permettent d'évaluer l'état général du rucher. Puis commme pour les évènements, vous avez un espace pour prendre des notes et écrire les tâches à venir. Utilisez les pictogrammes pour avoir à écrire le moins possible.
-
-![inspection rucher](./images/inspection_rucher.png)
-
-
-Vous pouvez prendre des notes de l'inspection pour chaque ruche. Dans ce cas vous commencez par faire état de la force :
-- des abeilles
-- du couvain 
-- des réserves
-Ensuite, comme pour le rucher, vous pouvez prendre des notes, en utilisant au maximum les pictogrammes pour aller plus vite.
-
-![inspection ruche](./images/inspection_ruche.png)
-
-
-Quand vous avez terminé, vous enregistrez votre inspection. Cette dernière apparaîtra, sous la même forme et avec le même code couleur que pour les évènements, dans votre calendrier des évènements. Elle figurera également dans les notes de la vue Rucher. 
-Si vous souhaitez garder votre inspection en format papier ou ailleurs que dans Mellisphera, vous pouvez 'générer un PDF' du document. 
-
-Le mode **Historique** retrace l'ensemble de vos inspections. Ici vous ne pouvez pas modifier ou supprimer une inspection. Pour ce faire, allez dans la vue Mon Rcuher, dans les notes et trouvez l'inspection à modifier ou à supprimer. 
-
-Le mode **Paramètres** vous permet d'ajuster votre espace de prise de notes. Vous pouvez choisir d'afficher ou non certains pictrogrammes et/ou choisir à quelle saison tel ou tel pictogramme devra apparaître. 
-
-![Reglages](./images/parametres_inspecter.png)
-
-Par example l'ajout d'une hausse peut survenir au printemps ou en été mais pas en automne ou en hiver. Donc vous pouvez choisir d'afficher ce pictogramme uniquement au pintemps et en été, et le désactiver pour l'hiver et l'automne. Si certains pictogrammes ne vous sont jamais utiles, vous pouvez les mettre en mode "OFF". Ces réglagles permettent de na pas surcharger l'espace prise de notes de pictogrammes qui ne vous sont pas utiles. 
-
-Voici tous les pictogrammes d'évènement/observations/tâches disponibles : 
-
-| **Pictogramme** | **Inspection** | **Description** | 
-|- |-- | -- |
-| ![](./images/events/egg_cb.png#picto) | Présence d'oeuf | Utiliser ce picto si vous remarquez la présence d'oeufs lors de vos inspections| 
-| ![](./images/events/larva_cb.png#picto) | Présence de larve | xxx |
-| ![](./images/events/pupa_cb.png#picto) | Présence de couvain operculé | Si vous remarquez du couvain operculé, c'est qu'il y a des abeilles au stade de pupe| 
-| ![](./images/events/dronebrood_cb.png#picto) | Présence de couvain mâle | XXX | 
-| ![](./images/events/nobees_cb.png#picto) | Pas d'abeilles | Ruche sans abeilles| 
-| ![](./images/events/lowbees_cb.png#picto) | Peu d'abeilles | Ruche contenant peu d'abeilles | 
-| ![](./images/events/normbees_cb.png#picto) | Moyenne en abeille | Ruche contenant moyennement des abeilles| 
-| ![](./images/events/highbees_cb.png#picto) | Populeuse | Ruche populeuse | 
-| ![](./images/events/nobrood_cb.png#picto) | Sans couvain | Pas de couvain dans la ruche | 
-| ![](./images/events/lowbrood_cb.png#picto) | Niveau de couvain faible | Ruche avec un faible niveau de couvain | 
-| ![](./images/events/normbrood_cb.png#picto) | Niveau de couvain normal | Ruche avec un niveau de couvain normal | 
-| ![](./images/events/highbrood_cb.png#picto) | Niveau de couvain élevé | Ruche avec un niveau de couvain élevé | 
-| ![](./images/events/nores_cb.png#picto) | Pas de réserves | Ruche sans réserve | 
-| ![](./images/events/lowres_cb.png#picto) | Peu de réserves | Ruche avec peu de réserves | 
-| ![](./images/events/normres_cb.png#picto) | Moyenne en reserves | Ruches avec une quantité de réserves moyenne | 
-| ![](./images/events/highres_cb.png#picto) | Bon niveau de reserves | Ruche avec un bon niveau de réserves | 
-| ![](./images/events/honeydew_cb.png#picto) | Miéllée |  | 
-| ![](./images/events/buzzinghive_cb.png#picto) | Bourdonneuse | xxxx | 
-| ![](./images/events/mosaicbrood_cb.png#picto) | Couvain mosaïque | xxxx | 
-| ![](./images/events/drones_cb.png#picto) | Présence de male | xxxx | 
-| ![](./images/events/sick_cb.png#picto) | Abeilles malades | xxxx | 
-| ![](./images/events/queenseen_cb.png#picto) | Reine vue | xxxx | 
-| ![](./images/events/queenabsent_cb.png#picto) | Reine absente | xxxx | 
-| ![](./images/events/requeen_cb.png#picto) | Remérage | xxxx |
-| ![](./images/events/swarm_cb.png#picto) | Essaimage | xxxx |
-| ![](./images/events/rswarmatedqueen_cb.png#picto) | Essaim avec une reine fécondée | xxxx |
-| ![](./images/events/virginqueen_cb.png#picto) | Essaim vierge | xxxx |
-| ![](./images/events/swarmreturn_cb.png#picto) | Essaim et retour dans la ruche | xxxx |
-| ![](./images/events/mitevapor_cb.png#picto) | Traitement varroa acide oxalique Vap. | xxxx |
-| ![](./images/events/mitedribble_cb.png#picto) | Traitement varroa acide oxalique Deg.| xxxx |
-| ![](./images/events/miteformicpro_cb.png#picto) | Traitement varroa formic | xxxx |
-| ![](./images/events/mitestripadd_cb.png#picto) | Ajout traitement varroa lanière | xxxx |
-| ![](./images/events/mitestripremove_cb.png#picto) | Retrait traitement lanière varroa | xxxx |
-| ![](./images/events/candifeed_cb.png#picto) | Nourissement au candi | xxxx |
-| ![](./images/events/syrupfeed_cb.png#picto) | Nourissement au rirop | xxxx |
-| ![](./images/events/super+_cb.png#picto) | Ajout d'une hausse | xxxx |
-| ![](./images/events/super-_cb.png#picto) | Retrait d'une hausse | xxxx |
-| ![](./images/events/queeninsert_cb.png#picto) | Introduction d'une reine | xxxx |
-| ![](./images/events/division_cb.png#picto) | Divison | xxxx |
-| ![](./images/events/broodadd_cb.png#picto) | Ajout de cadres de couvain | xxxx |
-| ![](./images/events/combinedhive_cb.png#picto) | Ruches combinées | xxxx |
-| ![](./images/events/harvest_cb.png#picto) | Récolte | xxxx |
-| ![](./images/events/installpkg_cb.png#picto) | Installer essaim d'abeilles | xxxx |
-| ![](./images/events/nucleushive_cb.png#picto) | Installer ruche nucleus  | xxxx |
-| ![](./images/events/splitqueenremove_cb.png#picto) | Divison avec retrait de la reine | xxxx |
-| ![](./images/events/markqueen_cb.png#picto) | Marquage reine | xxxx |
-| ![](./images/events/stolen_cb.png#picto) | Ruche volée | xxxx |
-
 
 ## Alertes
 
