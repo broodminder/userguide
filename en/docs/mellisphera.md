@@ -1,6 +1,5 @@
 # Mellisphera.com 
 
-
 ## General overview 
 
 Mellisphera is integrated with BroodMinder. Therefore, you must create an account MyBroodMinder and set up your apiaries / hives on https://mybroodminder.com. This website enables you to assign the sensors to each of your hives and to visualize the measured data. 
@@ -52,7 +51,7 @@ You can also set some of your preferences:
 
 ![Preferences](./images/all_settings.png#smallImg)
 
-## Apiary overview 
+## My Apiary 
 
 ![Apiary overview](./images/acceuil_sidebar.png#picto)
 
@@ -62,17 +61,17 @@ This page is the starting point of Mellisphera. You can select the apiary to exp
 
 Your navigation is contextualized on the apiary thanks to a picture that enables you to define the location of your hives. You can place "stickers" underneath, carrying the main information (name, weight, brood, etc.) in order to materialize your hives. 
 
-#### Picture & location 
+**Picture & location** 
 
 The first time you connect to the Mellisphera app, you will have the opportunity to add a picture of your apiary. You can drag/drop a file from your favourite file explorer or you can open the contextual menu represented by a camera icon (in the top right corner of the photo frame. 
 
-#### Exporting data
+**Exporting data**
 
 On the picture, you also have an icon for exporting your data. It is an Excel document (csv or .xlx) of your apiary data (hives, sensors, battery, brood, weight) and your last notes. This is very useful during your visits to the apiary. 
 
 ![Exporting data](./images/export_MS.png#largeImg)
 
-#### Picture browsing
+### Apiary view
 
 Your apiary picture - with its stickers - is associated with a set of buttons placed just above. This navigation bar enables you to visualize contextually some information:
 
@@ -80,7 +79,7 @@ Your apiary picture - with its stickers - is associated with a set of buttons pl
 
 You can activate the "name", "brood", "weight" and "device" buttons. This enables you to display respectively the name, the brood, the weight and the sensors of all your hives below the stickers, on the date displayed on the top right of the screen. The date of the previous day - which corresponds to the last day of data in general - is set by default. You can obviously change this date. 
 
-#### Sensor status
+**Device status**
 
 What is special about the sensors is that you can see their status in real time with a color code (grey, red, orange) that determines the status and displays the problem. 
 
@@ -96,23 +95,23 @@ The battery threshold is by default set to 20% but you can modify it in the aler
 
 The signal and connection information are based on the daily data reading frequency. The quantity and quality of this information is used to determine if there is a disconnection or a bad signal. The first alert is sent 24 hours after the problem started.
 
-#### Coloured stickers
+**Color stickers**
 
 The stickers indicate the health status of each hive with a color code (black, red, orange, green). You can also hover the hive in order to see the message associated with its status. The health status is calculated every day, at the end of the day, by our BFit model. This is why you systematically visualize the day D-1. You can also navigate through the previous days with the date selector in the top right corner of the screen. 
 
-Please note that hives which do not have sensors or those which have no data on day D-1 have a white sticker. 
+Please note that hives which do not have devices or those which have no data on day D-1 have a white sticker. 
 
 For more information about our BFit model and how it calculates the hive health status, please refer to the "data interpretation" section. 
 
 ![Stickers](./images/pastilles.png#mediumImg)
 
-#### Apiary calendar of events
+**Apiary calendar of events**
 
 You have a specific calendar of events for each of your apiaries. This calendar enables you to track the tasks carried out at the level of the apiary as a whole and to display general observations. The calendar also includes alerts and notifications - we will see how to configure them later - at the apiary level. 
 
 ![Apiary event](./images/event_rucher.png#mediumImg)
 
-#### Apiary notes
+**Apiary notes**
 
 In order to complete the apiary overview, you can write your apiary notes/observations/inspections. This would be placed just below the picture of your apiary. 
 
@@ -138,19 +137,19 @@ The displayed data go from the last 5 weeks to the next 3 days - since we can pr
 
 ![Hive overview](./images/calendrier_UX3.png#mediumImg)
 
-#### Events
+**Events**
 
 You will see a calendar of events - this time, specific to the selected hive. Apiary and hive events are different. For more precision, please go to the "data interpretation" section. 
 
-#### Brood
+**Brood**
 
 You have a global vision of the daily brood evolution with a heatmap calendar. The colours vary from red to green and the percentage from 0 to 100%. For more details about the brood calculation model, please go to the "data interpreration" section. If you have several temperature sensors in your hive, you can check/uncheck the one you want to display. 
 
-#### Productivity 
+**Productivity** 
 
 This calendar offers a global view of the daily weight gain in bubble form. The red color indicates a weight loss and the green color indicates a weight gain. The bubble size is proportional to the weight variation generated by the bees - we remove any possible manipulation of adding/removing material. We will therefore call this "hive productivity". For more details about our model for calculating productivity, please go the "data interpretation" section. You can choose to only display the gains or the losses on the calendar by checking/unchecking the boxes below the calendar. 
 
-#### Notes
+**Notes**
 
 It is possible to make annotations on each hive. These notes are separated from your apiary notes and concern only the selected hive. In order to switch back to the apiary mode, just click on the apiary button on the grey navigation bar. 
 
@@ -166,6 +165,8 @@ Please note that the data for the last month will be displayed by default. You c
 
 ![Modification date](./images/personnaliser_date.png#mediumImg)
 
+
+
 ### Hive mode
 
 ![Hive mode](./images/ruche_explorer.png#largeImg)
@@ -173,19 +174,27 @@ Please note that the data for the last month will be displayed by default. You c
 In the hive mode, you can choose among all the hives of all your apiaries, but please note that you can only select one hive at the time. Once you chose the hive, you will see three calendars. 
 
 **The first calendar** summarizes your hive data. You can choose between different options: 
+
 - Brood 
 - Productivity
+- fitness
 - Internal maximum temperature
 - Internal minimum temperature
 - Internal maximum humidity
 - External maximum temperature
 - External minimum temperature
 
-**The second calendar** reports the events of your hive as well as the astronomical calendar. 
+The availability of this information depends on the devices installed in the hive. Brood and internal temperatures require an internal sensor, while productivity and external conditions are associated with a scale.
+
+In case there is a sensor in the `lower brood box` and another in the `upper brood box`, both will be displayed and selectable sequentially at the calendar footer.
+
+**The second calendar** reports the events of your hive as well as the astronomical calendar.
+
 - Events, annotations and alerts
 - Astronomical calendar - biodynamics
 
 **The third calendar** shows the weather data of your apiary. This calendar is therefore identical for all of your hives that are in this apiary. You will have access to the general 'weather' data:
+
 - External maximum temperature
 - External minimum temperature
 - External maximum humidity
@@ -193,8 +202,10 @@ In the hive mode, you can choose among all the hives of all your apiaries, but p
 - Wind
 - Precipitation
 
-You also have access to weather forecasts for up to 15 days, depending on the model selected. 
-If you do not have any weather data, please refer to the FAQ. For more details about the different models, please refer to the 'Data interpretation' section. 
+The information displayed depends on the selected source (at the calendar footer). By default all apiaries are connected to an internet weather service provided by the company `WeatherSource`. This is a data resulting from a weather model which depending on the apiary location can be quite accurate (or not). Nevertheless, depending on the location, it is also useful to have a `local` source of weather data. This can be done by installing a TH sensor or a scale and declaring it as a weather source (see chapter Weather below).
+This latter source can be less complete (no wind or rain measurement) but more accurate on ambient temperature or hygrometry than what WeatherSource does.
+
+Comparing among two sources can be very useful to confirm or not the relevance of WeatherSource and therefore the confidence that can be given.
 
 So you can visualize and switch calendar modes as you wish. Here's an example:
 
@@ -210,13 +221,165 @@ By hovering over it, you will see information about your hives.
 
 It is  an extremely powerful tool for analysing data over long or short periods of time, on hives that are from the same apiary or from different ones because the analysis benefits from a great flexibility.
 
-### Data mode
+### Weight
+
+The Weights tab offers a complete tool for the analysis of hive weights of all apiaries with 4 views available: 
+
+- Hourly weight
+- Daily weight
+- Weight gain
+- Productivity
+
+Weight mode](./images/weight-mode.png#largeImg)
+
+By default, the `Daily weight` view is displayed.
+
+**Hourly** displays the graph of the raw hourly weight measurements. Hovering over the graph will display the date, time and corresponding weight. 
+
+**Daily** displays the daily weight measurements taken at midnight. As for the hourly weight, when you hover over the graph, you will see the date and the corresponding weight. An input box allows you to set a 'reference date' or 'T0' which is shown on the graph as a vertical dotted red line. The summary table below the graph automatically lists the weight values at this date. It is completed by the weights at D-7 days and at D-15 days (D being the current day). 
+
+**Gain** displays the daily weight gain (bars) and the cumulative gain (line). The daily weight gain is calculated in relation to the weight of the hive the day before. The cumulative weight gain is calculated in relation to the `reference date` you have chosen. In the table below the graph, the cumulative weight since the reference date (T0), since the last 7 days and since the last 15 days are listed.
+
+**Productivity** displays the daily weight gain and the cumulative gain adjusted by keeping only the gains or losses associated with the bees' activity. That is to say that the possible actions of the beekeeper (addition/removal of supers, feedings, etc.) are not considered.
+
+For all views, on the right of the graph there is a toolbar with 5 icons:
+- "zoom" : to zoom in on an area of the graph
+- zoom reset" : to return to the initial view (remove the zoom)
+- data view" : to see the data in listing
+- restore" : to update the data
+- save as image" : to download the graph as an image 
+
+The `Gain` and `Productivity` views are complementary. The gain view is used in a feeding context where you want to see the global evolution of the hive weight while the productivity view is more interesting for the follow-up of nectar flow for example or the comparison of performances between colonies/queens.
+
+
+### Events
+
+It is possible to add events from all available spaces in the Explorer menu. By hovering over the hives or apiaries in the list on the left, the contextual menu with 3 small dots `'...'` appears. Just select the option `Add an event`. Depending on the context it will either be an event that concerns the whole apiary (red frame lift), or only one hive (yellow frame lift).
+
+![event +](./images/event+.png)
+
+![add an event hive](./images/add_event.png#largeImg)
+
+Shortcut: In the menu `My apiary`, it is also possible to add an event, by clicking on `'...'` in the Notes area. Again the result will depend on the starting context (hive).
+
+In the window that opens when you want to add an event, rather than writing long sentences, consider using the available pictograms. We have distinguished the `Notes` which correspond to what you have observed, from the `Tasks` which correspond to actions done or to be done on the hive or apiary. 
+
+
+
+The tab `Events` lists and allows you to filter all the events created. You can display the events of the whole apiary by clicking on the apiary, or display the events of some hives by selecting them. This is where you can edit or delete them. **The red frame lift indicates an event in the apiary** and **the yellow frame lift indicates an event in the hive**. This is the same color code that is used in the events that appear in the calendar of events in the hive mode. Finally, in the "Notes and Stains" part: in black the notes and in blue the stains. 
+
+![Event mode](./images/event_mode.png#largeImg)
+
+### Hourly Data
 
 In the data mode, you will see your hive raw data: the internal temperature will be displayed at the top of the screen, the weight in the center and the humidity at the bottom (just like on mybroodminder). In green, you will have the optimal areas for brood and humidity. You can also select as many hives as you wish, even if these hives are situated in two different apiaries. This allows you to compare apiaries or hives between each other.
 
 ![Raw data](./images/raw_data.png#largeImg)
 
-This tool is very easy to use. The small icons that are on the right side of the graph enable you to zoom in, select areas, move around, view listing data etc. 
+This tool is very easy to use. The small icons that are on the right side of the graph enable you to zoom in, select areas, move around, view listing data etc.
+
+
+## Inspect
+
+View of the apiary](./images/inspect_sidebar.png#picto)
+
+Above we have seen how the `Events` work. Notes, observations or alerts that are assigned either to the apiary or to the hive in a specific way manually (in the case of notes or spots) or automatically (in the case of alerts). An `Inspection` is a set of events, often entered one after the other in an integrated apiary+hives context.
+At the end of the input, the inspection is broken down into Events that are attached to hives and apiaries. 
+
+!!! Attention 
+    Once entered and saved, it is no longer possible to edit an inspection. But you can edit the events that resulted from it separately.
+
+
+### New inspection
+The **New** mode allows you to add a new inspection. You can take note of the inspection of the whole apiary. In this case, pictograms allow you to evaluate the general state of the apiary. Then, as for the events, you have a space to make notes and write down the tasks to come. Use the pictograms so that you have to write (but also read!) as little as possible.
+
+![apiary inspection](./images/inspection_rucher.png)
+
+
+Once the general condition of the apiary has been described, it is necessary to make an inventory of each colony. In this case you start by making a systematic survey of :
+
+- bees
+- brood 
+- stores
+
+Then, as for the apiary, it is possible to complete with notes and pictograms.
+
+![hive inspection](./images/hive_inspection.png)
+ 
+
+Once the inspection has been completed and saved, the elements that build up the inspection will be visible on all the screens of the application in their own context (the apiary, the hive(s)).
+
+**Paper inspection**
+
+The option `generate PDF` is designed for those who prefer to bring only paper to the apiary. A printable form is generated with contextual information. 
+At this level nothing is entered, to keep track of the inspection it will be necessary to make the entry afterwards.
+
+![paper inspection](./images/inspection_ruche_pdf.png)
+
+### Inspection history
+
+The **History** tab tracks all inspections. It is not possible to modify or delete an inspection in this screen. To do so, you must go to `My Apiary`. 
+
+### Settings
+
+The **Settings** tab allows you to adapt the note-taking space according to the practices of each beekeeper. It is thus possible to configure the display or not of each pictogram and to assign them a prevalence season. In this case, the rest of the year they will not be proposed. 
+
+![Settings](./images/parameters_inspecter.png)
+
+For example the addition of a rise can occur in spring or summer but not in autumn or winter. By default this pictogram is only proposed in spring and summer, and disabled for winter and fall. If some pictograms are never useful to you, you can set them to "OFF". These settings allow you to avoid overloading the note-taking area.
+
+Here are all the event/observation/task pictograms available: 
+
+| **Pictogram** | **Description** | **Notes** | 
+|- |-- | -- |
+| ![](./images/events/egg_cb.png#picto) | Présence d'oeuf | | 
+| ![](./images/events/larva_cb.png#picto) | Présence de larve |  |
+| ![](./images/events/pupa_cb.png#picto) | Présence de couvain operculé | | 
+| ![](./images/events/dronebrood_cb.png#picto) | Présence de couvain mâle |  | 
+| ![](./images/events/nobees_cb.png#picto) | Pas d'abeilles | | 
+| ![](./images/events/lowbees_cb.png#picto) | Peu d'abeilles | | 
+| ![](./images/events/normbees_cb.png#picto) | Moyenne en abeille | | 
+| ![](./images/events/highbees_cb.png#picto) | Populeuse |  | 
+| ![](./images/events/nobrood_cb.png#picto) | Sans couvain |  | 
+| ![](./images/events/lowbrood_cb.png#picto) | Niveau de couvain faible |  | 
+| ![](./images/events/normbrood_cb.png#picto) | Niveau de couvain normal |  | 
+| ![](./images/events/highbrood_cb.png#picto) | Niveau de couvain élevé |  | 
+| ![](./images/events/nores_cb.png#picto) | Pas de réserves |  | 
+| ![](./images/events/lowres_cb.png#picto) | Peu de réserves |  | 
+| ![](./images/events/normres_cb.png#picto) | Moyenne en reserves |  | 
+| ![](./images/events/highres_cb.png#picto) | Bon niveau de reserves |  | 
+| ![](./images/events/honeydew_cb.png#picto) | Miéllée |  | 
+| ![](./images/events/buzzinghive_cb.png#picto) | Bourdonneuse |  | 
+| ![](./images/events/mosaicbrood_cb.png#picto) | Couvain mosaïque |  | 
+| ![](./images/events/drones_cb.png#picto) | Présence de male |   | 
+| ![](./images/events/sick_cb.png#picto) | Abeilles malades |   | 
+| ![](./images/events/queenseen_cb.png#picto) | Reine vue |   | 
+| ![](./images/events/queenabsent_cb.png#picto) | Reine absente |   | 
+| ![](./images/events/requeen_cb.png#picto) | Remérage |  |
+| ![](./images/events/swarm_cb.png#picto) | Essaimage |   |
+| ![](./images/events/rswarmatedqueen_cb.png#picto) | Essaim avec une reine fécondée |  |
+| ![](./images/events/virginqueen_cb.png#picto) | Essaim vierge |  |
+| ![](./images/events/swarmreturn_cb.png#picto) | Essaim et retour dans la ruche |  |
+| ![](./images/events/mitevapor_cb.png#picto) | Traitement varroa acide oxalique Vap. |  |
+| ![](./images/events/mitedribble_cb.png#picto) | Traitement varroa acide oxalique Deg.|  |
+| ![](./images/events/miteformicpro_cb.png#picto) | Traitement varroa formic |  |
+| ![](./images/events/mitestripadd_cb.png#picto) | Ajout traitement varroa lanière | |
+| ![](./images/events/mitestripremove_cb.png#picto) | Retrait traitement lanière varroa |  |
+| ![](./images/events/candifeed_cb.png#picto) | Nourissement au candi |   |
+| ![](./images/events/syrupfeed_cb.png#picto) | Nourissement au rirop |   |
+| ![](./images/events/super+_cb.png#picto) | Ajout d'une hausse |  |
+| ![](./images/events/super-_cb.png#picto) | Retrait d'une hausse |  |
+| ![](./images/events/queeninsert_cb.png#picto) | Introduction d'une reine |  |
+| ![](./images/events/division_cb.png#picto) | Divison |  |
+| ![](./images/events/broodadd_cb.png#picto) | Ajout de cadres de couvain |  |
+| ![](./images/events/combinedhive_cb.png#picto) | Ruches combinées |  |
+| ![](./images/events/harvest_cb.png#picto) | Récolte |  |
+| ![](./images/events/installpkg_cb.png#picto) | Installer essaim d'abeilles |  |
+| ![](./images/events/nucleushive_cb.png#picto) | Installer ruche nucleus  |  |
+| ![](./images/events/splitqueenremove_cb.png#picto) | Divison avec retrait de la reine |  |
+| ![](./images/events/markqueen_cb.png#picto) | Marquage reine |  |
+| ![](./images/events/stolen_cb.png#picto) | Ruche volée |   |
+
 
 ## Alerts 
 
@@ -258,11 +421,10 @@ In more detail, here are the available alerts and their characteristics:
 | ![](./images/Pictos/Stolen3.png#picto) | Stolen hive | daily | The sensors do not have geolocation. However, for the hives eqquiped with a weight sensor, this alert notifies in case of an abnormally low weight, which could be a possible theft...| 
 | ![](./images/Pictos/weightThresold.png#picto) | Weight limit | hourly | It may sometimes be important to monitor the weight of the hives and to set thresholds in order to carry out operations on your hives after they have been reached. <br> The default value has been set to 220lbs.| 
 
+
 ### Weather
 
-In this tab, you will see all weather alerts. These alert icons can also be found in your apiary events calendar. 
-
-Here again, you can adjust, deactivate/activate the different alerts. By default, everything will be activated with auto-adjusted settings. 
+In this tab, you will see all weather alerts. These alert icons can also be found in your apiary events calendar. Here again, you can adjust, deactivate/activate the different alerts. By default, everything will be activated with auto-adjusted settings. 
 
 ![Weather alert](./images/meteo_alertes.png#largeImg)
 
@@ -278,7 +440,7 @@ The alerts mainly concern strong to extreme events.
 | ![](./images/Pictos/ColdDay.png#picto) | Cold | daily | Cold day.<br> Default value for days below 0°C. <br> In some regions, we recommend to decrease the default value if the alerts become too regular.| 
 | ![](./images/Pictos/HotDay.png#picto) | Hot | daily | Hot day.<br> Default value for days above 40°C. <br> You must adjust the default value according to your region.| 
 
-### Sensors
+### Devices
 
 The alerts, associated with our sensors, provide information on any connection or battery anomalies. So you are sure that the system is always working nominally. You can configure them in this tab. 
 
@@ -286,11 +448,10 @@ Please note that **these alert icons won't be displayed on your event calendars*
 
 ![Capteurs rucher](./images/devices_apiary.png#largeImg)
 
-Likewise, if the email alerts (next section) are activated, you will be notified of your sensors status. 
-
-Here again, you can adjust, deactivate/activate the different alerts. By default, everything will be activated with auto-adjusted settings. 
+Likewise, if the email alerts (next section) are activated, you will be notified of your sensors status. Here again, you can adjust, deactivate/activate the different alerts. By default, everything will be activated with auto-adjusted settings. 
 
 ![Sensor alert](./images/devices_alertes.png#largeImg)
+
 
 Here are the detailed alerts available for each type of sensor:
 
@@ -303,6 +464,8 @@ Here are the detailed alerts available for each type of sensor:
 | ![](./images/Pictos/T_poorwifi.png#picto) | T low signal | daily | The T-sensor sent incomplete time records on the last day | 
 | ![](./images/Pictos/W_bat.png#picto) | W low signal | daily | The W-sensor has a low battery level | 
 | ![](./images/Pictos/T_bat.png#picto) | T low signal | daily | The T-sensor has a low battery level | 
+
+
 
 ### Email settings
 

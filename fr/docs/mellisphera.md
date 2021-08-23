@@ -2,10 +2,6 @@
 
 ## Présentation générale 
 
-<!-- Vidéo ancienne en français : https://www.youtube.com/watch?v=Nqh_R37O8IE  -->
-
-<!-- Vidéo récente en anglais : https://www.youtube.com/watch?v=pbCqpf8EY0s -->
-
 Mellisphera est intégrée avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers / ruches soit avec la `BeesApp` soit sur [MyBroodMinder.com](https://mybroodminder.com). Ces deux outils permettent de façon indistincte de créer des ruchers et ruches, leur affecter les capteurs et de visualiser les données brutes mesurées. 
 
 ![Ecran BroodMinder](./images/ecran_MBM.png#largeImg)
@@ -55,12 +51,11 @@ Vous pouvez également définir quelques préférences:
 
 ![Préférences](./images/all_settings.png#smallImg)
 
-## Vue du rucher
+## Mon rucher
 
 ![Vue du rucher](./images/accueil_sidebar.png#picto)
 
 Cette page est le point de départ de Mellisphera. Sélectionnez le rucher à explorer sur le menu déroulant tout en haut et ensuite naviguez visuellement parmi les principales informations.
-
 
 ![Ecran d'accueil](./images/home_app.png#largeImg)
 
@@ -76,14 +71,13 @@ Sur l'image, vous avez également un icône pour l'export de vos données. C'est
 
 ![Export des données](./images/export_MS.png#mediumImg)
 
-**Navigation photo**
+### Vue du rucher
 
 L'image du rucher et les pastilles, sont associées à un ensemble de boutons positionnés juste au dessus. Cette barre de navigation vous permet de visualiser contextuellement diverses informations: 
 
 ![Navigation photo](./images/barre_navig.png#mediumImg)
 
 Les boutons 'Nom', 'Couvain', 'Poids', et 'Capteur' sont activables. Cela permet d'afficher sur la photo en dessous des pastilles respectivement le nom, le couvain, le poids et les capteurs de l'ensemble des ruches de votre rucher à la date affichée en haut à droite. Par défaut, c'est la date de la veille (qui correspond au dernier jour de données en général). Vous pouvez bien entendu changer de date. 
-
 
 **Etat des capteurs**
 
@@ -100,7 +94,6 @@ Le niveau de batterie est calculé systématiquement. Pour les ruchers équipés
 Le seuil de batterie est fixé à 20% par défaut, vous pouvez le régler dans les paramètres d'alertes. 
 
 Les informations de signal et de connexion sont basées sur la fréquence des relevés de données chaque jour. Leur quantité et qualité permet de déterminer s'il y a une déconnexion ou un mauvais signal. La première alerte est envoyée 24 heures après le début du problème. 
-
 
 **Pastilles de couleur des ruches**
 
@@ -133,13 +126,15 @@ Vous verrez apapraître la note directement sur le calendrier des événements a
 
 ![Icone note](./images/icon_note.png#picto)
 
-## Vue de la ruche
+### Vue de la ruche
 
 Pour accéder à la vue d'une ruche, vous devez cliquer sur sa pastille ou son nom. La pastille s'entoure en rose et trois nouveaux calendriers correspondant à la ruche selectionnée apparaissent sur la droite. 
 
 Les données affichées sont des données issues des 5 dernières semaines ainsi que des 3 prochains jours puisque nous pouvons prédire des événements à 3 jours. 
 
 ![Vue de la ruche](./images/calendrier_UX.png#mediumImg)
+
+
 
 **Evénements**
 
@@ -172,20 +167,17 @@ Les filtres permettent de trier le type d'information qui sera présenté sur l'
 ![Filtres](./images/filtres.png#mediumImg)
 
 
-
-
-
 ### Ruche
 
 Dans ce mode il est possible d'éxplorer en détail les données d'une ruche à la fois. Le résultat est présenté sur la forme de trois calendriers qui regroupent les informations 1/ de la ruche 2/ de l'apiculteur 3/ de l'environnement.
 
 ![Explorer ruche](./images/ruche_explorer.png#largeImg)
 
-
 **Le premier calendrier** récapitule les données de la ruche. Plusieurs données peuvent être selectionnées avec les icones au dessus du calendrier : 
 
 - Couvain 
 - Productivité
+- santé de la ruche
 - Température interne maximum
 - Température interne minimum
 - Humidité interne maximum
@@ -195,7 +187,6 @@ Dans ce mode il est possible d'éxplorer en détail les données d'une ruche à 
 La disponibilité de ces informations dépend des capteurs qui sont installés sur la ruche. Le couvain et les températures internes nécessitent une sonde interne, alors que la productivité et les conditions externes sont associées à une balance.
 
 Dans le cas où il existe un capteur dans le `corps` et un autre dans la `hausse`, les deux sont affichés et selectionnables sequentiellement en pied du calendrier.
-
 
 **Le deuxième calendrier** fait état des événements de votre ruche et du calendrier astronomique. 
 
@@ -211,7 +202,7 @@ Dans le cas où il existe un capteur dans le `corps` et un autre dans la `hausse
 - Vent
 - Précipitations
 
-Les informations affichées dépendent de la source selectionnée (en pied du calendrier). Par défaut tous les ruchers sont branchés avec un service météorologique sur internet fourni par la société `WeatherSource`. C'est une donnée résultant d'un modèle météo qui selon les ruchers peut s'averer assez précise (ou non). Néanmoins selon les localisations, il est aussi utile de disposer d'une source `locale` de données météo. Cela peut être fait en installant un capteur TH ou une balance et en le déclarant comme source météo (voir chapitre Météo plus bas).
+Les informations affichées dépendent de la source selectionnée (en pied du calendrier). Par défaut tous les ruchers sont branchés avec un service météorologique sur internet fourni par la société `WeatherSource`. C'est une donnée résultant d'un modèle météo qui selon la localisation du rucher peut s'averer assez précise (ou non). Néanmoins selon les localisations, il est aussi utile de disposer d'une source `locale` de données météo. Cela peut être fait en installant un capteur TH ou une balance et en le déclarant comme source météo (voir chapitre Météo plus bas).
 Cette dernière source peut être moins complète (pas de mesure de vent ou de pluie) mais plus précise sur la température ambiente ou l'hygrométrie que ce que fait WeatherSource. 
 
 La comparaison entre les deux sources est souvent d'une grande utilité pour affermir ou pas la pertinence de WeatherSource et donc la confiance qu'on peut lui donner.
@@ -234,7 +225,6 @@ Cet outil est extrêmement performant pour analyser des données sur des longues
 
 L'onglet Poids propose un outil complet pour l'analyse des poids des ruches de tous les ruchers avec 4 vues qui sont disponibles : 
 
-
 - Poids horaire
 - Poids journalier
 - Gain de poids
@@ -250,7 +240,6 @@ Par défaut, c'est la vue en `Poids journalier` qui s'affiche.
 
 **Vue Gain** affiche le gain de poids journalier (barres) et le gain cumulé (ligne). Le gain de poids journalier est calculé par rapport au poids de la ruche la veille. Le gain de poids cumulé est calculé par rapport à la `date de référence` que vous aurez choisi. Dans le tableau en dessous du graphique, sont listés le poids cumulé depuis la date de référence (T0), depuis les 7 derniers jours et depuis les 15 derniers jours.
 
-
 **Vue Productivité** affiche le gain de poids journalier et le gain cumulé ajustés en gardant uniquement les gains ou pertes associés à l'activité des abeilles. C'est à dire que les éventuelles actions de l'apiculteur (ajout/retrait de hausse, nourrissements, etc) ne sont pas considérées.
 
 Pour toutes les vues, sur la droite du graphique il y a une barre d'outils avec 5 icônes :
@@ -259,7 +248,6 @@ Pour toutes les vues, sur la droite du graphique il y a une barre d'outils avec 
 - "data view" : pour voir les données en listing
 - "restore" : pour actualiser les données
 - "save as image" : pour télécharger le graphique comme une image 
-
 
 L'utilité des vues de `Gain` et de `Productivité` est complémentaire. Le gain est utilie dans un cadre de  nourrissement où l'on souhaite voir l'évolution globale du poids de la ruche alors que la vue productivité est plus intéressante pour le suivi de miellées par exemple ou la comparaison de performances entre colonies/souches.
 
@@ -309,9 +297,11 @@ Le mode **Nouvelle** permet d'ajouter une nouvelle inspection. Vous pouvez prend
 
 
 Une fois décrit l'état général du rucher il faut recenser celui de chaque colonie. Dans ce cas vous commencez par faire un état systématique :
+
 - des abeilles
 - du couvain 
 - des réserves
+
 Ensuite, comme pour le rucher, il est possible de compléter avec des notes et pictogrammes.
 
 ![inspection ruche](./images/inspection_ruche.png)
@@ -325,9 +315,6 @@ L'option `générer un PDF` est pensée pour ceux qui préfèrent amener seuleme
 A ce niveau rien n'est enrtegistré, pour garder une trace de l'inspection il faudra réaliser la saisie à posteriori.
 
 ![inspection papier](./images/inspection_ruche_pdf.png)
-
-
-
 
 ### Historique des inspections
 
@@ -435,7 +422,6 @@ De façon plus détaillée, voici les alertes disponibles et leurs caractéristi
 | ![](./images/alertes/weightThresold.png#picto) | Seuil de poids | horaire | Il peut être parfois important de suivre le poids des ruches et d'en fixer des seuils afin d'effectuer des opérations sur vos ruches après ceux-ci atteints. <br> La valeur par défaut a été fixée à 100kg. | 
 
 
-
 ### Météo 
 
 Dans cet onglet sont listées les alertes concernant la météo. Ces icônes d'alertes pourront se retrouver dans le calendrier d'événements de rucher. Vous pouvez une nouvelle fois ajuster et désactiver/activer les différentes alertes. Par défaut, tout est activé avec des paramètres auto ajustés. 
@@ -462,9 +448,7 @@ Il faut noter que **ces icônes d'alertes ne s'affichent pas dans les calendrier
 
 ![Capteurs rucher](./images/devices_apiary.png#largeImg)
 
-De même, si vous avez activé les emails d'alertes (prochaine partie), vous serez averti des états de vos capteurs. 
-
-Vous pouvez une nouvelle fois ajuster et désactiver/activer les différentes alertes. Par défaut, tout est activé avec des paramètres auto ajustés. 
+De même, si vous avez activé les emails d'alertes (prochaine partie), vous serez averti des états de vos capteurs. Vous pouvez une nouvelle fois ajuster et désactiver/activer les différentes alertes. Par défaut, tout est activé avec des paramètres auto ajustés. 
 
 ![Alertes capteurs](./images/devices_alertes.png#largeImg)
 
@@ -480,6 +464,8 @@ Voici le détail des alertes disponibles pour chaque type de capteur
 | ![](./images/alertes/T_poorwifi.png#picto) | T faible signal | jour | Le capteur T a envoyé des relevés horaires incomplets le dernier jour   | 
 | ![](./images/alertes/W_bat.png#picto) | W faible signal | jour | Le capteur W a un faible niveau de batterie  | 
 | ![](./images/alertes/T_bat.png#picto) | T faible signal | jour | Le capteur T a un faible niveau de batterie  | 
+
+
 
 ### Paramètres d'email
 
