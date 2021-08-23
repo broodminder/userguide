@@ -18,30 +18,31 @@ plugins:
       lang: 'fr'
 #  - pdf-export    # disable this item to run tests on the doc (mkdoc serve without building pdf every time
 extra_css:
-    - css/extra.css
+  - css/extra.css
 nav:
- - index.md
- - Introduction: 'intro.md'
- - Guide de démarrage rapide 🚀 : 'quick_start_guide.md'
- - Capteurs: 'capteurs.md'
- - Récupération de données: 'data_upload.md'
- - MyBroodminder: 'mybroodminder.md'
- - Mellisphera: 'mellisphera.md'
- - Interpretation: 'data_interpretation.md'
- - Science collaborative: 'beecounted.md'
- - _____: 'void.md'
- - T2 Swarminder: 'new_t2sm.md'
- - Balance DIY 🆕 :
+  - index.md
+  - Introduction: 'intro.md'
+  - Guide de démarrage rapide 🚀 : 'quick_start_guide.md'
+  - Capteurs: 'capteurs.md'
+  - Récupération de données: 'data_upload.md'
+  - MyBroodminder: 'mybroodminder.md'
+  - Mellisphera: 'mellisphera.md'
+  - Interpretation: 'data_interpretation.md'
+  - Science collaborative: 'beecounted.md'
+  - _____: 'void.md'
+  - BeesApp: 'beesApp.md'
+  - Sub-Hub 🆕 : 'new_subhub.md'
+  - Balance DIY 🆕 :
     #- DIY_section/index.md
     - Guide utilisateur: DIY_section/guide_utilisateur_diy.md
     - Modèle CRI: DIY_section/model_cri.md
- - Sub-Hub 🆕 : 'new_subhub.md'
- - _____: 'void.md'
- - FAQ: 'faq.md'
- - Support: 'support.md'
- - Dépanner le Hub GSM : 'troubleshooting_cell_hub.md'
- - Maintenance d'hiver : 'winter_service.md'
- - _____: 'void.md'
+  - T2 Swarminder: 'new_t2sm.md'
+  - _____: 'void.md'
+  - FAQ: 'faq.md'
+  - Support: 'support.md'
+  - Dépanner le Hub GSM : 'troubleshooting_cell_hub.md'
+  - Maintenance d'hiver : 'winter_service.md'
+  - _____: 'void.md'
 
 
 # check for documentation on commands
