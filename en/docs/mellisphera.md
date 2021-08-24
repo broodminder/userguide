@@ -155,7 +155,7 @@ It is possible to make annotations on each hive. These notes are separated from 
 
 ## Explore
 
-![Explorer](./images/explorer_sidebar.png#picto)
+![Explorer](./images/explore_sidebar.png#picto)
 
 The **apiary** overview gives an insight of the overall situation. In **explorer**, you can navigate through your data in more detail. You will see a new grey navigation bar with three sections: 'Hive', 'Brood' and 'Data'. By default, you will be in the 'Hive' mode. 
 
@@ -167,7 +167,7 @@ Please note that the data for the last month will be displayed by default. You c
 
 
 
-### Hive mode
+### Hive
 
 ![Hive mode](./images/ruche_explorer.png#largeImg)
 
@@ -211,7 +211,7 @@ So you can visualize and switch calendar modes as you wish. Here's an example:
 
 ![Calendar](./images/manier_calendrier.png#largeImg)
 
-### Brood mode
+### Brood
 
 In the brood mode, you can, this time, **select as many hives as you wish**, even if these hives are situated in two different apiaries. This way you can compare apiaries or hives with each other.
 
@@ -223,14 +223,14 @@ It is  an extremely powerful tool for analysing data over long or short periods 
 
 ### Weight
 
-The Weights tab offers a complete tool for the analysis of hive weights of all apiaries with 4 views available: 
+The Weight tab offers a complete tool for the analysis of hive weights of all apiaries with 4 views available: 
 
 - Hourly weight
 - Daily weight
 - Weight gain
 - Productivity
 
-Weight mode](./images/weight-mode.png#largeImg)
+[Weight mode](./images/explore_weight.png#largeImg)
 
 By default, the `Daily weight` view is displayed.
 
@@ -332,53 +332,54 @@ Here are all the event/observation/task pictograms available:
 
 | **Pictogram** | **Description** | **Notes** | 
 |- |-- | -- |
-| ![](./images/events/egg_cb.png#picto) | Présence d'oeuf | | 
-| ![](./images/events/larva_cb.png#picto) | Présence de larve |  |
-| ![](./images/events/pupa_cb.png#picto) | Présence de couvain operculé | | 
-| ![](./images/events/dronebrood_cb.png#picto) | Présence de couvain mâle |  | 
-| ![](./images/events/nobees_cb.png#picto) | Pas d'abeilles | | 
-| ![](./images/events/lowbees_cb.png#picto) | Peu d'abeilles | | 
-| ![](./images/events/normbees_cb.png#picto) | Moyenne en abeille | | 
-| ![](./images/events/highbees_cb.png#picto) | Populeuse |  | 
-| ![](./images/events/nobrood_cb.png#picto) | Sans couvain |  | 
-| ![](./images/events/lowbrood_cb.png#picto) | Niveau de couvain faible |  | 
-| ![](./images/events/normbrood_cb.png#picto) | Niveau de couvain normal |  | 
-| ![](./images/events/highbrood_cb.png#picto) | Niveau de couvain élevé |  | 
-| ![](./images/events/nores_cb.png#picto) | Pas de réserves |  | 
-| ![](./images/events/lowres_cb.png#picto) | Peu de réserves |  | 
-| ![](./images/events/normres_cb.png#picto) | Moyenne en reserves |  | 
-| ![](./images/events/highres_cb.png#picto) | Bon niveau de reserves |  | 
-| ![](./images/events/honeydew_cb.png#picto) | Miéllée |  | 
-| ![](./images/events/buzzinghive_cb.png#picto) | Bourdonneuse |  | 
-| ![](./images/events/mosaicbrood_cb.png#picto) | Couvain mosaïque |  | 
-| ![](./images/events/drones_cb.png#picto) | Présence de male |   | 
-| ![](./images/events/sick_cb.png#picto) | Abeilles malades |   | 
-| ![](./images/events/queenseen_cb.png#picto) | Reine vue |   | 
-| ![](./images/events/queenabsent_cb.png#picto) | Reine absente |   | 
-| ![](./images/events/requeen_cb.png#picto) | Remérage |  |
-| ![](./images/events/swarm_cb.png#picto) | Essaimage |   |
-| ![](./images/events/rswarmatedqueen_cb.png#picto) | Essaim avec une reine fécondée |  |
-| ![](./images/events/virginqueen_cb.png#picto) | Essaim vierge |  |
-| ![](./images/events/swarmreturn_cb.png#picto) | Essaim et retour dans la ruche |  |
-| ![](./images/events/mitevapor_cb.png#picto) | Traitement varroa acide oxalique Vap. |  |
-| ![](./images/events/mitedribble_cb.png#picto) | Traitement varroa acide oxalique Deg.|  |
-| ![](./images/events/miteformicpro_cb.png#picto) | Traitement varroa formic |  |
-| ![](./images/events/mitestripadd_cb.png#picto) | Ajout traitement varroa lanière | |
-| ![](./images/events/mitestripremove_cb.png#picto) | Retrait traitement lanière varroa |  |
-| ![](./images/events/candifeed_cb.png#picto) | Nourissement au candi |   |
-| ![](./images/events/syrupfeed_cb.png#picto) | Nourissement au rirop |   |
-| ![](./images/events/super+_cb.png#picto) | Ajout d'une hausse |  |
-| ![](./images/events/super-_cb.png#picto) | Retrait d'une hausse |  |
-| ![](./images/events/queeninsert_cb.png#picto) | Introduction d'une reine |  |
-| ![](./images/events/division_cb.png#picto) | Divison |  |
-| ![](./images/events/broodadd_cb.png#picto) | Ajout de cadres de couvain |  |
-| ![](./images/events/combinedhive_cb.png#picto) | Ruches combinées |  |
-| ![](./images/events/harvest_cb.png#picto) | Récolte |  |
-| ![](./images/events/installpkg_cb.png#picto) | Installer essaim d'abeilles |  |
-| ![](./images/events/nucleushive_cb.png#picto) | Installer ruche nucleus  |  |
-| ![](./images/events/splitqueenremove_cb.png#picto) | Divison avec retrait de la reine |  |
-| ![](./images/events/markqueen_cb.png#picto) | Marquage reine |  |
-| ![](./images/events/stolen_cb.png#picto) | Ruche volée |   |
+| ![](./images/events/egg_cb.png#picto) | Eggs | | 
+| ![](./images/events/larva_cb.png#picto) | Larva |  |
+| ![](./images/events/pupa_cb.png#picto) | Capped brood | | 
+| ![](./images/events/dronebrood_cb.png#picto) | Drone brood |  | 
+| ![](./images/events/nobees_cb.png#picto) | No bees | | 
+| ![](./images/events/lowbees_cb.png#picto) | Low bees | | 
+| ![](./images/events/normbees_cb.png#picto) | Average bees | | 
+| ![](./images/events/highbees_cb.png#picto) | High bees |  | 
+| ![](./images/events/nobrood_cb.png#picto) | No brood |  | 
+| ![](./images/events/lowbrood_cb.png#picto) | Low brood |  | 
+| ![](./images/events/normbrood_cb.png#picto) | Average brood |  | 
+| ![](./images/events/highbrood_cb.png#picto) | High brood |  | 
+| ![](./images/events/nores_cb.png#picto) | No stores |  | 
+| ![](./images/events/lowres_cb.png#picto) | Low stores |  | 
+| ![](./images/events/normres_cb.png#picto) | Average stores|  | 
+| ![](./images/events/highres_cb.png#picto) | High stores |  | 
+| ![](./images/events/honeydew_cb.png#picto) | Nectar flow |  | 
+| ![](./images/events/buzzinghive_cb.png#picto) | Buzzing hive |  | 
+| ![](./images/events/mosaicbrood_cb.png#picto) | Mosaic brood |  | 
+| ![](./images/events/drones_cb.png#picto) | Drones |   | 
+| ![](./images/events/sick_cb.png#picto) | Sick |   | 
+| ![](./images/events/queenseen_cb.png#picto) | Queen seen |   | 
+| ![](./images/events/queenabsent_cb.png#picto) | No queen |   | 
+| ![](./images/events/requeen_cb.png#picto) | Requeen |  |
+| ![](./images/events/swarm_cb.png#picto) | Swarm |   |
+| ![](./images/events/swarmmatedqueen_cb.png#picto) | Swarm with mated queen |  |
+| ![](./images/events/swarmvirginqueen_cb.png#picto) | Swarm with virgin queen|  |
+| ![](./images/events/swarmreturn_cb.png#picto) | Swarm & return to hive |  |
+| ![](./images/events/mitevapor_cb.png#picto) | Oxalic acid vapor |  |
+| ![](./images/events/mitedribble_cb.png#picto) | Oxalic acid drop |  |
+| ![](./images/events/miteformicpro_cb.png#picto) | Formic acid |  |
+| ![](./images/events/mitestripadd_cb.png#picto) | Added strip | |
+| ![](./images/events/mitestripremove_cb.png#picto) | Removed strip |  |
+| ![](./images/events/candifeed_cb.png#picto) | Candi feed |   |
+| ![](./images/events/syrupfeed_cb.png#picto) | Syrup feed |   |
+| ![](./images/events/super+_cb.png#picto) | Added super |  |
+| ![](./images/events/super-_cb.png#picto) | Removed super |  |
+| ![](./images/events/queeninsert_cb.png#picto) | Insert queen |  |
+| ![](./images/events/division_cb.png#picto) | Split |  |
+| ![](./images/events/broodadd_cb.png#picto) | Added brood frames |  |
+| ![](./images/events/combinedhive_cb.png#picto) | Combined hives |  |
+| ![](./images/events/harvest_cb.png#picto) | Harvest |  |
+| ![](./images/events/installpkg_cb.png#picto) | Install package with bees |  |
+| ![](./images/events/nucleushive_cb.png#picto) | Instal nuclei  |  |
+| ![](./images/events/splitqueenremove_cb.png#picto) | Split with queen removal |  |
+| ![](./images/events/markqueen_cb.png#picto) | Marked queen |  |
+| ![](./images/events/stolen_cb.png#picto) | Stolen hive |   |
+|   |   |   |
 
 
 ## Alerts 
@@ -489,6 +490,49 @@ Here is a preview of the kind of email that you may receive:
 
 ![Alert email](./images/email_2.png#largeImg)
 
+
+## Weather
+![Bweather side](./images/bweather_sidebar.png#picto)
+
+This space is dedicated to the analysis of the apiary environment. For each apiary, several information are presented from several sources.
+- apiary weather: typically temperature, hygrometry, rainfall and wind.
+- Foraging and Honeyflow indexes (see below)
+- sources from which these values are derived or computed
+
+### Readings
+The weather data displayed in this space is derived from two main sources:
+
+1. By default, they come from WeatherSource. This service provides real-time weather conditions for a given location defined by its country/postal code. The service also includes a 10-day forecast. The current day is indicated by the vertical dotted line. All users have access to this source.
+2. When the user has defined a local weather source, the data measured by this personal source is also displayed.
+
+[Meteo graphs](./images/bweather_graphs.png#largeImg)
+
+Each apiary is represented with one color. The WeatherSource always displays in lighter color and the local source (when available) in darker color.
+
+On top of the raw weather data we have developed an algorithm translating this information into beekeeping specific metrics. The result takes the form of two indices on a scale of 0-100%: 
+
+- Foraging Index: evaluates the atmospheric conditions for **bees** to forage. This index considers the outside temperature, the hygrometry, rain and wind.
+
+- Honey flow index : evaluates the atmospheric conditions for the nectarification of the **flowers**. Here too, several factors are analyzed in relation to the honeyflow conditions. 0% means that the conditions for honeyflow are not met, 100% that it is damn great. But beware, depending on your climate zone, 100% may never be reached and you will have to be satisfied with lower rates! 
+To validate the forecast range, this algorithm has been developed with apiaries located in various climatic zones (temperate, cold, very cold, tropical...); We ensure you that in some cases it can reach 100% 😉
+
+The 10-day weather forecast allows to project these indices over a week and a half. These foraging and honeyflow forecasts are helpful for the beekeeper to identify the relevance of certain actions.
+
+### Configuration
+This tab is used to define the devices used as a local weather source.
+It can be a T2 or TH sensor placed in a weather envelope, a scale, a hub (model 54 only) or even a Davis Vantage Vue station (the only model supported for the moment)
+Our favorite is the Broodminder-TH because compared to the T2 and scales it brings the hygrometry while keeping low cost investment.
+
+![Meteo config](./images/bweather_config.png#mediumImg)
+
+
+Defining a local weather source has two main pourposes:
+
+- computing indexes (only with a TH, Hub or Weather Station)
+- refining brood algorithm computations with more acurate ambient temperature (whatever the sensor is)
+
+
+
 ## MyBroodMinder link
 
 ![MBM button](./images/MBM_sidebar.png#picto)
@@ -529,23 +573,7 @@ Here is an example with the 'battery' keyword
 
 ![User guide portal](./images/user_doc_portal_srch_example.png#largeImg)
 
-## Colony environnement 
 
-Weather and seasons are key factors in beekeeping. With Mellisphera, we combine this information with the colony and beekeeper ones in order to provide you the most complete event overview.
-
-### Weather
-Two weather sources are available in Mellisphera
-
-- WeatherSource (recommended)
-- Open WeatherMaps
-
-The weather is associated with the apiary, as well as with each of the hives. Each hive has its own weather record. In other words, if two hives are in the same apiary at a given time, they will share the same weather forecast for that period. But if one of them goes on transhumance, it is the weather of each apiary visited that will be recorded.
-
-**7-day forecast**
-With WeatherSource, you can also visualize the weather forecast. The D-day is always marked with a purple square as in the image below.
-
-![Weather forecast](./images/meteo_forecast.png#mediumImg)
-<div align="center" ><i>Monthly average weather and D+7 forecast</i></div>
 
 ### Astronomy
 The astronomical calendar clearly shows the moon's phases. It also shows the day length with the sunrise/sunset times, according to your geographical area.

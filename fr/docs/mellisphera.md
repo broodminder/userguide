@@ -357,16 +357,16 @@ Voici tous les pictogrammes d'évènement/observations/tâches disponibles :
 | ![](./images/events/queenabsent_cb.png#picto) | Reine absente |   | 
 | ![](./images/events/requeen_cb.png#picto) | Remérage |  |
 | ![](./images/events/swarm_cb.png#picto) | Essaimage |   |
-| ![](./images/events/rswarmatedqueen_cb.png#picto) | Essaim avec une reine fécondée |  |
-| ![](./images/events/virginqueen_cb.png#picto) | Essaim vierge |  |
+| ![](./images/events/swarmmatedqueen_cb.png#picto) | Essaim avec une reine fécondée |  |
+| ![](./images/events/swarmvirginqueen_cb.png#picto) | Essaim avec reine vierge |  |
 | ![](./images/events/swarmreturn_cb.png#picto) | Essaim et retour dans la ruche |  |
 | ![](./images/events/mitevapor_cb.png#picto) | Traitement varroa acide oxalique Vap. |  |
 | ![](./images/events/mitedribble_cb.png#picto) | Traitement varroa acide oxalique Deg.|  |
 | ![](./images/events/miteformicpro_cb.png#picto) | Traitement varroa formic |  |
-| ![](./images/events/mitestripadd_cb.png#picto) | Ajout traitement varroa lanière | |
-| ![](./images/events/mitestripremove_cb.png#picto) | Retrait traitement lanière varroa |  |
+| ![](./images/events/mitestripadd_cb.png#picto) | Ajout lanière | |
+| ![](./images/events/mitestripremove_cb.png#picto) | Retrait lanière |  |
 | ![](./images/events/candifeed_cb.png#picto) | Nourissement au candi |   |
-| ![](./images/events/syrupfeed_cb.png#picto) | Nourissement au rirop |   |
+| ![](./images/events/syrupfeed_cb.png#picto) | Nourissement au sirop |   |
 | ![](./images/events/super+_cb.png#picto) | Ajout d'une hausse |  |
 | ![](./images/events/super-_cb.png#picto) | Retrait d'une hausse |  |
 | ![](./images/events/queeninsert_cb.png#picto) | Introduction d'une reine |  |
@@ -375,11 +375,11 @@ Voici tous les pictogrammes d'évènement/observations/tâches disponibles :
 | ![](./images/events/combinedhive_cb.png#picto) | Ruches combinées |  |
 | ![](./images/events/harvest_cb.png#picto) | Récolte |  |
 | ![](./images/events/installpkg_cb.png#picto) | Installer essaim d'abeilles |  |
-| ![](./images/events/nucleushive_cb.png#picto) | Installer ruche nucleus  |  |
+| ![](./images/events/nucleushive_cb.png#picto) | Installer nuclei  |  |
 | ![](./images/events/splitqueenremove_cb.png#picto) | Divison avec retrait de la reine |  |
-| ![](./images/events/markqueen_cb.png#picto) | Marquage reine |  |
+| ![](./images/events/markqueen_cb.png#picto) | Marquage de la reine |  |
 | ![](./images/events/stolen_cb.png#picto) | Ruche volée |   |
-
+|   |   |   |
 
 ## Alertes
 
@@ -490,6 +490,7 @@ Voici un aperçu d'un mail que vous pourrez recevoir :
 ![Alertes email](./images/email_2.png#largeImg)
 
 
+
 ## Météo
 ![Bweather side](./images/bweather_sidebar.png#picto)
 
@@ -531,6 +532,7 @@ La définition de ces sources météo locales sert a plusieurs choses :
 - alimenter plus finement les algorithmes de couvain (quel qu'il soit le capteur)
 
 
+
 ## Lien MyBroodMinder
 
 ![MBM bouton](./images/MBM_sidebar.png#picto)
@@ -570,34 +572,6 @@ N'hésitez pas à utiliser la **recherche par mot clé**: elle est extremement p
 Un exemple ici avec le mot clé "batterie"
 
 ![Doc portal](./images/user_doc_portal_srch_example.png#largeImg)
-
-
-
-## Environnement des colonies
-La météo et les saisons sont des facteurs clé en apiculture. Avec Mellisphera, nous rapprochons ces informations avec celles des colonies et des apiculteurs pour vous fournir la vue la plus complète des évènements.
-
-### Météorologie
-Deux sources météo sont disponibles dans Mellisphera
-
-- WeatherSource (recommandée)
-- Open WeatherMaps
-
-La météo est associée au rucher, ainsi qu'à chacune des ruches. Chaque ruche a un registre météo qui lui est propre. C'est à dire que deux ruches qui, à un instant T, se trouvent dans le même rucher vont partager la même météo sur cette période. Mais si l'une d'elles part en transhumance, c'est la météo de chaque rucher qu'elle visitera qui sera enregistrée.
-
-
-**Prévision à 7 jours**
-Avec WeatherSource, il est également possible de visualiser la prévision météo. Le jour J est systématiquement repéré avec un carré violet comme dans l'image ci-dessous.
-
-![Prévision météo](./images/meteo_forecast.png#mediumImg)
-<div align="center" ><i>Météo moyenne du mois et prévision à J+7</i></div>
-
-### Astronomie
-Le calendrier astronomique présente très visuellement les phases de la lune. Mais également la durée du jour avec les heures de lever et coucher du soleil selon votre zone géographique.
-
-![Prévision météo](./images/calendrier_lunaire.png#mediumImg)
-<div align="center" ><i>Au survol du calendrier lunaire on obtient aussi les informations du soleil</i></div>
-
-
 
 
 ## Modèles et algorithmes 
