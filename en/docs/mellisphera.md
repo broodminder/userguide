@@ -281,7 +281,7 @@ This tool is very easy to use. The small icons that are on the right side of the
 
 ## Inspect
 
-View of the apiary](./images/inspect_sidebar.png#picto)
+![View of the apiary](./images/inspect_sidebar.png#picto)
 
 Above we have seen how the `Events` work. Notes, observations or alerts that are assigned either to the apiary or to the hive in a specific way manually (in the case of notes or spots) or automatically (in the case of alerts). An `Inspection` is a set of events, often entered one after the other in an integrated apiary+hives context.
 At the end of the input, the inspection is broken down into Events that are attached to hives and apiaries. 
@@ -293,7 +293,7 @@ At the end of the input, the inspection is broken down into Events that are atta
 ### New inspection
 The **New** mode allows you to add a new inspection. You can take note of the inspection of the whole apiary. In this case, pictograms allow you to evaluate the general state of the apiary. Then, as for the events, you have a space to make notes and write down the tasks to come. Use the pictograms so that you have to write (but also read!) as little as possible.
 
-![apiary inspection](./images/inspection_rucher.png)
+![apiary inspection](./images/inspect_apiary.png)
 
 
 Once the general condition of the apiary has been described, it is necessary to make an inventory of each colony. In this case you start by making a systematic survey of :
@@ -304,7 +304,7 @@ Once the general condition of the apiary has been described, it is necessary to 
 
 Then, as for the apiary, it is possible to complete with notes and pictograms.
 
-![hive inspection](./images/hive_inspection.png)
+![hive inspection](./images/inspect_hive.png)
  
 
 Once the inspection has been completed and saved, the elements that build up the inspection will be visible on all the screens of the application in their own context (the apiary, the hive(s)).
@@ -314,7 +314,7 @@ Once the inspection has been completed and saved, the elements that build up the
 The option `generate PDF` is designed for those who prefer to bring only paper to the apiary. A printable form is generated with contextual information. 
 At this level nothing is entered, to keep track of the inspection it will be necessary to make the entry afterwards.
 
-![paper inspection](./images/inspection_ruche_pdf.png)
+![paper inspection](./images/inspect_hive_pdf.png)
 
 ### Inspection history
 
@@ -324,62 +324,54 @@ The **History** tab tracks all inspections. It is not possible to modify or dele
 
 The **Settings** tab allows you to adapt the note-taking space according to the practices of each beekeeper. It is thus possible to configure the display or not of each pictogram and to assign them a prevalence season. In this case, the rest of the year they will not be proposed. 
 
-![Settings](./images/parameters_inspecter.png)
+![Settings](./images/inspect_settings.png)
 
 For example the addition of a rise can occur in spring or summer but not in autumn or winter. By default this pictogram is only proposed in spring and summer, and disabled for winter and fall. If some pictograms are never useful to you, you can set them to "OFF". These settings allow you to avoid overloading the note-taking area.
 
 Here are all the event/observation/task pictograms available: 
 
-| **Pictogram** | **Description** | **Notes** | 
-|- |-- | -- |
-| ![](./images/events/egg_cb.png#picto) | Eggs | | 
-| ![](./images/events/larva_cb.png#picto) | Larva |  |
-| ![](./images/events/pupa_cb.png#picto) | Capped brood | | 
-| ![](./images/events/dronebrood_cb.png#picto) | Drone brood |  | 
-| ![](./images/events/nobees_cb.png#picto) | No bees | | 
-| ![](./images/events/lowbees_cb.png#picto) | Low bees | | 
-| ![](./images/events/normbees_cb.png#picto) | Average bees | | 
-| ![](./images/events/highbees_cb.png#picto) | High bees |  | 
-| ![](./images/events/nobrood_cb.png#picto) | No brood |  | 
-| ![](./images/events/lowbrood_cb.png#picto) | Low brood |  | 
-| ![](./images/events/normbrood_cb.png#picto) | Average brood |  | 
-| ![](./images/events/highbrood_cb.png#picto) | High brood |  | 
-| ![](./images/events/nores_cb.png#picto) | No stores |  | 
-| ![](./images/events/lowres_cb.png#picto) | Low stores |  | 
-| ![](./images/events/normres_cb.png#picto) | Average stores|  | 
-| ![](./images/events/highres_cb.png#picto) | High stores |  | 
-| ![](./images/events/honeydew_cb.png#picto) | Nectar flow |  | 
-| ![](./images/events/buzzinghive_cb.png#picto) | Buzzing hive |  | 
-| ![](./images/events/mosaicbrood_cb.png#picto) | Mosaic brood |  | 
-| ![](./images/events/drones_cb.png#picto) | Drones |   | 
-| ![](./images/events/sick_cb.png#picto) | Sick |   | 
-| ![](./images/events/queenseen_cb.png#picto) | Queen seen |   | 
-| ![](./images/events/queenabsent_cb.png#picto) | No queen |   | 
-| ![](./images/events/requeen_cb.png#picto) | Requeen |  |
-| ![](./images/events/swarm_cb.png#picto) | Swarm |   |
-| ![](./images/events/swarmmatedqueen_cb.png#picto) | Swarm with mated queen |  |
-| ![](./images/events/swarmvirginqueen_cb.png#picto) | Swarm with virgin queen|  |
-| ![](./images/events/swarmreturn_cb.png#picto) | Swarm & return to hive |  |
-| ![](./images/events/mitevapor_cb.png#picto) | Oxalic acid vapor |  |
-| ![](./images/events/mitedribble_cb.png#picto) | Oxalic acid drop |  |
-| ![](./images/events/miteformicpro_cb.png#picto) | Formic acid |  |
-| ![](./images/events/mitestripadd_cb.png#picto) | Added strip | |
-| ![](./images/events/mitestripremove_cb.png#picto) | Removed strip |  |
-| ![](./images/events/candifeed_cb.png#picto) | Candi feed |   |
-| ![](./images/events/syrupfeed_cb.png#picto) | Syrup feed |   |
-| ![](./images/events/super+_cb.png#picto) | Added super |  |
-| ![](./images/events/super-_cb.png#picto) | Removed super |  |
-| ![](./images/events/queeninsert_cb.png#picto) | Insert queen |  |
-| ![](./images/events/division_cb.png#picto) | Split |  |
-| ![](./images/events/broodadd_cb.png#picto) | Added brood frames |  |
-| ![](./images/events/combinedhive_cb.png#picto) | Combined hives |  |
-| ![](./images/events/harvest_cb.png#picto) | Harvest |  |
-| ![](./images/events/installpkg_cb.png#picto) | Install package with bees |  |
-| ![](./images/events/nucleushive_cb.png#picto) | Instal nuclei  |  |
-| ![](./images/events/splitqueenremove_cb.png#picto) | Split with queen removal |  |
-| ![](./images/events/markqueen_cb.png#picto) | Marked queen |  |
-| ![](./images/events/stolen_cb.png#picto) | Stolen hive |   |
-|   |   |   |
+| **Pictogram** | **Description** |
+|- |-- |
+| ![](./images/events/egg_cb.png#picto) | Eggs |
+| ![](./images/events/larva_cb.png#picto) | Larva |
+| ![](./images/events/pupa_cb.png#picto) | Capped brood | 
+| ![](./images/events/dronebrood_cb.png#picto) | Drone brood |
+| ![](./images/events/queencellseen_cb.png#picto) | Queen cell seen | 
+| ![](./images/events/nobees_cb.png#picto) | No bees |
+| ![](./images/events/lowbees_cb.png#picto) | Low bees |
+| ![](./images/events/normbees_cb.png#picto) | Average bees | 
+| ![](./images/events/highbees_cb.png#picto) | High bees |
+| ![](./images/events/nobrood_cb.png#picto) | No brood |
+| ![](./images/events/lowbrood_cb.png#picto) | Low brood | 
+| ![](./images/events/normbrood_cb.png#picto) | Average brood | 
+| ![](./images/events/highbrood_cb.png#picto) | High brood |
+| ![](./images/events/nores_cb.png#picto) | No stores |
+| ![](./images/events/lowres_cb.png#picto) | Low stores |
+| ![](./images/events/normres_cb.png#picto) | Average stores| 
+| ![](./images/events/highres_cb.png#picto) | High stores |
+| ![](./images/events/honeydew_cb.png#picto) | Nectar flow |
+| ![](./images/events/buzzinghive_cb.png#picto) | Buzzing hive | 
+| ![](./images/events/mosaicbrood_cb.png#picto) | Mosaic brood | 
+| ![](./images/events/sick_cb.png#picto) | Sick |
+| ![](./images/events/queenseen_cb.png#picto) | Queen seen |
+| ![](./images/events/swarm_cb.png#picto) | Swarm |
+| ![](./images/events/mitevapor_cb.png#picto) | Oxalic acid vapor |
+| ![](./images/events/mitedribble_cb.png#picto) | Oxalic acid drop |
+| ![](./images/events/mitestripadd_cb.png#picto) | Added strip |
+| ![](./images/events/mitestripremove_cb.png#picto) | Removed strip |
+| ![](./images/events/mitecountwash_cb.png#picto) | Mite counter|
+| ![](./images/events/mitecountlounge_cb.png#picto) | Mite counting|
+| ![](./images/events/candifeed_cb.png#picto) | Candi feed |
+| ![](./images/events/syrupfeed_cb.png#picto) | Syrup feed |
+| ![](./images/events/super+_cb.png#picto) | Added super |
+| ![](./images/events/super-_cb.png#picto) | Removed super |
+| ![](./images/events/queeninsert_cb.png#picto) | Insert queen |
+| ![](./images/events/division_cb.png#picto) | Split |
+| ![](./images/events/broodadd_cb.png#picto) | Added brood frames |
+| ![](./images/events/harvest_cb.png#picto) | Harvest |
+| ![](./images/events/markqueen_cb.png#picto) | Marked queen |
+| ![](./images/events/stolen_cb.png#picto) | Stolen hive |
+|   |   |
 
 
 ## Alerts 
@@ -505,7 +497,7 @@ The weather data displayed in this space is derived from two main sources:
 1. By default, they come from WeatherSource. This service provides real-time weather conditions for a given location defined by its country/postal code. The service also includes a 10-day forecast. The current day is indicated by the vertical dotted line. All users have access to this source.
 2. When the user has defined a local weather source, the data measured by this personal source is also displayed.
 
-[Meteo graphs](./images/bweather_graphs.png#largeImg)
+![Meteo graphs](./images/weather_readings.png#largeImg)
 
 Each apiary is represented with one color. The WeatherSource always displays in lighter color and the local source (when available) in darker color.
 

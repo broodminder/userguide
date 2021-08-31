@@ -330,56 +330,49 @@ Par example l'ajout d'une hausse peut survenir au printemps ou en été mais pas
 
 Voici tous les pictogrammes d'évènement/observations/tâches disponibles : 
 
-| **Pictogramme** | **Description** | **Notes** | 
-|- |-- | -- |
-| ![](./images/events/egg_cb.png#picto) | Présence d'oeuf | | 
-| ![](./images/events/larva_cb.png#picto) | Présence de larve |  |
-| ![](./images/events/pupa_cb.png#picto) | Présence de couvain operculé | | 
-| ![](./images/events/dronebrood_cb.png#picto) | Présence de couvain mâle |  | 
-| ![](./images/events/nobees_cb.png#picto) | Pas d'abeilles | | 
-| ![](./images/events/lowbees_cb.png#picto) | Peu d'abeilles | | 
-| ![](./images/events/normbees_cb.png#picto) | Moyenne en abeille | | 
-| ![](./images/events/highbees_cb.png#picto) | Populeuse |  | 
-| ![](./images/events/nobrood_cb.png#picto) | Sans couvain |  | 
-| ![](./images/events/lowbrood_cb.png#picto) | Niveau de couvain faible |  | 
-| ![](./images/events/normbrood_cb.png#picto) | Niveau de couvain normal |  | 
-| ![](./images/events/highbrood_cb.png#picto) | Niveau de couvain élevé |  | 
-| ![](./images/events/nores_cb.png#picto) | Pas de réserves |  | 
-| ![](./images/events/lowres_cb.png#picto) | Peu de réserves |  | 
-| ![](./images/events/normres_cb.png#picto) | Moyenne en reserves |  | 
-| ![](./images/events/highres_cb.png#picto) | Bon niveau de reserves |  | 
-| ![](./images/events/honeydew_cb.png#picto) | Miéllée |  | 
-| ![](./images/events/buzzinghive_cb.png#picto) | Bourdonneuse |  | 
-| ![](./images/events/mosaicbrood_cb.png#picto) | Couvain mosaïque |  | 
-| ![](./images/events/drones_cb.png#picto) | Présence de male |   | 
-| ![](./images/events/sick_cb.png#picto) | Abeilles malades |   | 
-| ![](./images/events/queenseen_cb.png#picto) | Reine vue |   | 
-| ![](./images/events/queenabsent_cb.png#picto) | Reine absente |   | 
-| ![](./images/events/requeen_cb.png#picto) | Remérage |  |
-| ![](./images/events/swarm_cb.png#picto) | Essaimage |   |
-| ![](./images/events/swarmmatedqueen_cb.png#picto) | Essaim avec une reine fécondée |  |
-| ![](./images/events/swarmvirginqueen_cb.png#picto) | Essaim avec reine vierge |  |
-| ![](./images/events/swarmreturn_cb.png#picto) | Essaim et retour dans la ruche |  |
-| ![](./images/events/mitevapor_cb.png#picto) | Traitement varroa acide oxalique Vap. |  |
-| ![](./images/events/mitedribble_cb.png#picto) | Traitement varroa acide oxalique Deg.|  |
-| ![](./images/events/miteformicpro_cb.png#picto) | Traitement varroa formic |  |
-| ![](./images/events/mitestripadd_cb.png#picto) | Ajout lanière | |
-| ![](./images/events/mitestripremove_cb.png#picto) | Retrait lanière |  |
-| ![](./images/events/candifeed_cb.png#picto) | Nourissement au candi |   |
-| ![](./images/events/syrupfeed_cb.png#picto) | Nourissement au sirop |   |
-| ![](./images/events/super+_cb.png#picto) | Ajout d'une hausse |  |
-| ![](./images/events/super-_cb.png#picto) | Retrait d'une hausse |  |
-| ![](./images/events/queeninsert_cb.png#picto) | Introduction d'une reine |  |
-| ![](./images/events/division_cb.png#picto) | Divison |  |
-| ![](./images/events/broodadd_cb.png#picto) | Ajout de cadres de couvain |  |
-| ![](./images/events/combinedhive_cb.png#picto) | Ruches combinées |  |
-| ![](./images/events/harvest_cb.png#picto) | Récolte |  |
-| ![](./images/events/installpkg_cb.png#picto) | Installer essaim d'abeilles |  |
-| ![](./images/events/nucleushive_cb.png#picto) | Installer nuclei  |  |
-| ![](./images/events/splitqueenremove_cb.png#picto) | Divison avec retrait de la reine |  |
-| ![](./images/events/markqueen_cb.png#picto) | Marquage de la reine |  |
-| ![](./images/events/stolen_cb.png#picto) | Ruche volée |   |
-|   |   |   |
+| **Pictogramme** | **Description** |
+|- |-- |
+| ![](./images/events/egg_cb.png#picto) | Présence d'oeuf |
+| ![](./images/events/larva_cb.png#picto) | Présence de larve |
+| ![](./images/events/pupa_cb.png#picto) | Présence de couvain operculé |
+| ![](./images/events/dronebrood_cb.png#picto) | Présence de couvain mâle | 
+| ![](./images/events/queencellseen_cb.png#picto) | Cellule de reine vue |
+| ![](./images/events/nobees_cb.png#picto) | Pas d'abeilles |
+| ![](./images/events/lowbees_cb.png#picto) | Peu d'abeilles |
+| ![](./images/events/normbees_cb.png#picto) | Moyenne en abeille |
+| ![](./images/events/highbees_cb.png#picto) | Populeuse |
+| ![](./images/events/nobrood_cb.png#picto) | Sans couvain |
+| ![](./images/events/lowbrood_cb.png#picto) | Niveau de couvain faible |
+| ![](./images/events/normbrood_cb.png#picto) | Niveau de couvain normal |
+| ![](./images/events/highbrood_cb.png#picto) | Niveau de couvain élevé |
+| ![](./images/events/nores_cb.png#picto) | Pas de réserves |
+| ![](./images/events/lowres_cb.png#picto) | Peu de réserves |
+| ![](./images/events/normres_cb.png#picto) | Moyenne en reserves |
+| ![](./images/events/highres_cb.png#picto) | Bon niveau de reserves | 
+| ![](./images/events/honeydew_cb.png#picto) | Miéllée |
+| ![](./images/events/buzzinghive_cb.png#picto) | Bourdonneuse |
+| ![](./images/events/mosaicbrood_cb.png#picto) | Couvain mosaïque |
+| ![](./images/events/sick_cb.png#picto) | Abeilles malades |
+| ![](./images/events/queenseen_cb.png#picto) | Reine vue |
+| ![](./images/events/swarm_cb.png#picto) | Essaimage |
+| ![](./images/events/mitevapor_cb.png#picto) | Traitement varroa acide oxalique Vap. |
+| ![](./images/events/mitedribble_cb.png#picto) | Traitement varroa acide oxalique Deg.|
+| ![](./images/events/mitecountwash_cb.png#picto) | Compteur de varroa|
+| ![](./images/events/mitecountlounge_cb.png#picto) | Comptage de varroa|
+| ![](./images/events/mitestripadd_cb.png#picto) | Ajout lanière |
+| ![](./images/events/mitestripremove_cb.png#picto) | Retrait lanière |
+| ![](./images/events/candifeed_cb.png#picto) | Nourissement au candi |
+| ![](./images/events/syrupfeed_cb.png#picto) | Nourissement au sirop |
+| ![](./images/events/super+_cb.png#picto) | Ajout d'une hausse |
+| ![](./images/events/super-_cb.png#picto) | Retrait d'une hausse |
+| ![](./images/events/queeninsert_cb.png#picto) | Introduction d'une reine |
+| ![](./images/events/division_cb.png#picto) | Divison |
+| ![](./images/events/broodadd_cb.png#picto) | Ajout de cadres de couvain |
+| ![](./images/events/harvest_cb.png#picto) | Récolte |
+| ![](./images/events/markqueen_cb.png#picto) | Marquage de la reine |
+| ![](./images/events/stolen_cb.png#picto) | Ruche volée |
+|   |   |
+
 
 ## Alertes
 
