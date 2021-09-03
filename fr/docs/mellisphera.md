@@ -496,11 +496,11 @@ Cet espace est consacré à l'analyse de l'environnement du rucher. Pour chacun 
 ### Relevés
 Les données affichées dans cet espace peuvent être issues de plusieurs sources:
 
-1. Par défaut elles sont issues du service météorologique fourni par la société WeatherSource. Ce service donne en temps réel les conditions météorologiques sur un emplacement donné qui est défini par le couple pays/code postal. Le service comporte également une prévision à 10 jours. Le jour présent est matérialisé par le trait pointillé vertical. Tous les utilisateurs ont accès à cette source.
+Par défaut elles sont issues du service météorologique fourni par la société WeatherSource. Ce service donne en temps réel les conditions météorologiques sur un emplacement donné qui est défini par le couple pays/code postal. Le service comporte également une prévision à 10 jours. Le jour présent est matérialisé par le trait pointillé vertical. Tous les utilisateurs ont accès à cette source.
 
 ![Meteo graphs](./images/bweather_graphs.png#largeImg)
 
-2. Lorsque l'utilisateur a défini une source météo locale, sont également affichées les données mesurées par cette source personnelle.
+Lorsque l'utilisateur a défini une source météo locale, sont également affichées les données mesurées par cette source personnelle.
 
 ![Meteo graphs](./images/bweather_graphs_local.png#largeImg)
 
