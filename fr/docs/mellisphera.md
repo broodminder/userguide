@@ -487,39 +487,44 @@ Voici un aperçu d'un mail que vous pourrez recevoir :
 ## Météo
 ![Bweather side](./images/bweather_sidebar.png#picto)
 
-Cet espace est consacré à l'analyse de l'environnement du rucher. Pour chacun des ruchers sont présentées plusieurs informations issues de plusieurs sources.
-- la météo du rucher : typiquement la température, hygrométrie, pluviométrie et le vent.
-- les indices de Butinage et de Miellée (voir ci dessous)
-- la source à partir de la quelle ces valeurs sont issus ou calculés
+Cet espace est consacré à l'analyse de l'environnement du rucher. Pour chacun des ruchers sont présentées plusieurs informations:
+
+- les `indices de Butinage` et de `Indices de Miellée` (c) (voir plus bas)
+- la météo du rucher : température, hygrométrie, pluviométrie et le vent.
+- les source à partir desquelles ces valeurs sont issues ou calculés.
 
 ### Relevés
-Les données météorologiques qui sont présentées dans cet espace peuvent être issues de plusieurs sources:
+Les données affichées dans cet espace peuvent être issues de plusieurs sources:
 
-1. Par défaut elles sont issues du service météorologique fourni par la société WeatherSource. Ce service donne en temps réel les conditions météorologiques sur un emplacement donné qui est défini par son le couple pays/code postal. Le service comporte également une prévision à 10 jours. Le jour présent est matérialisé par le trait pointillé vertical. Tous les utilisateurs ont accès à cette source.
-2. Lorsque l'utilisateur a défini une source météo locale, sont également affichées les données mesurées par cette source personnelle.
+1. Par défaut elles sont issues du service météorologique fourni par la société WeatherSource. Ce service donne en temps réel les conditions météorologiques sur un emplacement donné qui est défini par le couple pays/code postal. Le service comporte également une prévision à 10 jours. Le jour présent est matérialisé par le trait pointillé vertical. Tous les utilisateurs ont accès à cette source.
 
 ![Meteo graphs](./images/bweather_graphs.png#largeImg)
 
-Chaque rucher est représenté par une couleur. La source WeatherSource en couleur pâle et la source locale (lorsquelle existe) en couleur foncée.
+2. Lorsque l'utilisateur a défini une source météo locale, sont également affichées les données mesurées par cette source personnelle.
+
+![Meteo graphs](./images/bweather_graphs_local.png#largeImg)
+
+
+Chaque rucher est représenté par une couleur. La source `WeatherSource` en couleur pâle et la source `locale` (lorsquelle existe) en couleur foncée.
 
 Par dessus les données météo brutes nous avons mis au point un algorithme qui traduit ces informations en métriques propres à l'apiculture. Le resultat prend le forme de deux indices sur une échelle de 0-100% : 
 
-- Indice de Butinage : évalue les conditions atmosphériques pour le butinage des **abeilles**. Cet indice considère la température extérieure, l'hygrométrie ou encore le vent..
+- **Indice de Miellée** : évalue les conditions atmosphériques pour la **nectarification des fleurs**. Là aussi sont analysés plusieurs facteurs en relation avec les conditions de miellée. 0% signifie que les conditions pour une miellée ne sont pas réunies, 100% que c'est absolument parfait. Mais attention, selon votre zone climatique, le 100% peut ne jamais être atteint et vous devrez vous satisfaire de taux inférieurs!. 
+Pour valider la plage de prévision, cet algorithme a été mis au point avec des ruchers situés dans des zones climatiques diverses (tempérées, froides, très froides, tropicales...). Attention néanmoins, cet indicateur ne sait pas si vous avez des ressources ou pas dans votre emplacement. Il dit seulement si les conditions atmosphériques seraient réunies.
 
-- Indice de Miellée : évalue les conditions atmosphériques pour la nectarification des **fleurs**. Là aussi sont analysés plusieurs facteurs en relation avec les conditions de miellée. 0% signifie que les conditions pour une miellée ne sont pas réunies, 100% que c'est absolument parfait. Mais attention, selon votre zone climatique, le 100% peut ne jamais être atteint et vous devrez vous satisfaire de taux inférieurs!. 
-Pour valider la plage de prévision, cet algorithme a été mis au point avec des ruchers situés dans des zones climatiques diverses (tempérées, froides, très froides, tropicales...) 
+- **Indice de Butinage** : évalue les conditions atmosphériques pour le butinage des **abeilles**. Cet indice considère la température extérieure, l'hygrométrie ou encore le vent. S'il fait grand beau il sera à 100%, si au contraire il fait frais ou il bruine ou il vente l'indice sera inférieur.
 
-La prévision météo à 10 jours permet de projeter ces indices sur une semaine et demie. Ces prévisions de butinage et de miellée servent d'aide à la décision à l'apiculteur qui pourra identifier la pertinence de certaines actions.
+Avec Weathersource les données ne sont pas hyper locales mais en revanche la prévision météo à 10 jours permet de projeter les indices sur une semaine et demie. Ces prévisions de butinage et de miellée servent d'aide à la décision à l'apiculteur qui pourra identifier la pertinence de certaines actions.
 
-### Configuration
+### Configuration des sources locales
 Cet onglet sert à définir les capteurs qui sont utilisés en tant que source météo locale.
 Il peut s'agir d'une sonde T2 ou TH qu'on place dans une enveloppe météo, d'une balance, un hub (modèle 54 uniquement) ou carrement d'une station Davis Vantage Vue (seul modèle supporté pour l'instant)
 Notre préféré est le capteur TH car comparé aux T2 et balances il apporte l'hygrométrie en plus à un cout très modéré.
 
-![Meteo config](./images/bweather_config.png#mediumImg)
+![Meteo config](./images/bweather_config.png#largeImg)
 
 
-La définition de ces sources météo locales sert a plusieurs choses :
+La définition d'une source météo locale sert a deux choses :
 
 - le calcul des indices (seulement avec un TH, Hub ou Station météo)
 - alimenter plus finement les algorithmes de couvain (quel qu'il soit le capteur)
