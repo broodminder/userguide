@@ -65,11 +65,6 @@ Cette navigation est contextualisée sur le rucher à l'aide d'une photo qui vou
 
 Lors de votre première connexion, vous pourrez ajouter une photo de votre rucher. Soit par glisser/déposer d'un fichier depuis votre explorateur de fichiers préféré, soit en ouvrant le menu contextuel matérialisé par une icone "appareil photo" en haut à droite du cadre de la photo.
 
-**Export des données**
-
-Sur l'image, vous avez également un icône pour l'export de vos données. C'est un export excel (csv ou .xlx) des données de vos ruchers (ruches, capteurs, batterie, couvain, poids) et de vos dernières notes. Cela s'avère très utile lors de vos visites au rucher.
-
-![Export des données](./images/export_MS.png#mediumImg)
 
 ### Vue du rucher
 

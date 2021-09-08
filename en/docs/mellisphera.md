@@ -65,11 +65,6 @@ Your navigation is contextualized on the apiary thanks to a picture that enables
 
 The first time you connect to the Mellisphera app, you will have the opportunity to add a picture of your apiary. You can drag/drop a file from your favourite file explorer or you can open the contextual menu represented by a camera icon (in the top right corner of the photo frame. 
 
-**Exporting data**
-
-On the picture, you also have an icon for exporting your data. It is an Excel document (csv or .xlx) of your apiary data (hives, sensors, battery, brood, weight) and your last notes. This is very useful during your visits to the apiary. 
-
-![Exporting data](./images/export_MS.png#largeImg)
 
 ### Apiary view
 
