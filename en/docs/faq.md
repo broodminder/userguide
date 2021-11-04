@@ -71,9 +71,9 @@ You have access to all your account settings in the top right corner of the Mell
 
 ![Account settings](./images/settings_app.png#smallImg)
 
-You can change as you wish the unit system (metric or imperial), the date format and the language (French, Spanish and English available for the moment). You can also choose your weather source. Depending on your preference and your feedback, you will have the possibility to choose your favourite source. 
+You can change as you wish the unit system (metric or imperial), the date format and the language. 
 
-![Account settings](./images/all_settings.png#smallImg)
+![Account settings](./images/all_settings_EN.png#smallImg)
 
 ## Data
 

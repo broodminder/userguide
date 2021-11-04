@@ -248,11 +248,13 @@ The `Gain` and `Productivity` views are complementary. The gain view is used in 
 
 ### Events
 
-It is possible to add events from all available spaces in the Explorer menu. By hovering over the hives or apiaries in the list on the left, the contextual menu with 3 small dots `'...'` appears. Just select the option `Add an event`. Depending on the context it will either be an event that concerns the whole apiary (red frame lift), or only one hive (yellow frame lift).
+It is possible to add events from all available spaces in the Explorer menu. By hovering over the hives or apiaries in the list on the left, the contextual menu with 3 small dots `'...'` appears. Just select the option `Add an event`. Depending on the context it will either be an event that concerns the whole apiary (red frame lift).
 
-![event +](./images/event+.png)
+![event +](./images/event_add_apiary.png)
 
-![add an event hive](./images/add_event.png#largeImg)
+Or only a specific hive (yellow frame lift).
+
+![add an event hive](./images/event_add_hive.png#largeImg)
 
 Shortcut: In the menu `My apiary`, it is also possible to add an event, by clicking on `'...'` in the Notes area. Again the result will depend on the starting context (hive).
 
@@ -260,7 +262,8 @@ In the window that opens when you want to add an event, rather than writing long
 
 
 
-The tab `Events` lists and allows you to filter all the events created. You can display the events of the whole apiary by clicking on the apiary, or display the events of some hives by selecting them. This is where you can edit or delete them. **The red frame lift indicates an event in the apiary** and **the yellow frame lift indicates an event in the hive**. This is the same color code that is used in the events that appear in the calendar of events in the hive mode. Finally, in the "Notes and Stains" part: in black the notes and in blue the stains. 
+The tab `Events` lists and allows you to filter all the events created. You can display the events of the whole apiary by clicking on the apiary, or display the events of some hives by selecting them. This is where you can edit or delete them. **The red frame lift indicates an event in the apiary** and **the yellow frame lift indicates an event in the hive**. This is the same color code that is used in the events that appear in the calendar of events in the hive mode. Finally, in the "Notes and Tasks" part: in black the notes and in blue the tasks. 
+
 
 ![Event mode](./images/event_mode.png#largeImg)
 
