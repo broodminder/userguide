@@ -76,7 +76,7 @@ En haut à droite de l'app Mellisphera, vous avec accès à l'ensemble des param
 
 Vous pouvez changer votre système d’unité (métrique ou impérial). Vous pouvez également changer le format de la date à votre guise ou encore la langue (français, espagnol ou anglais pour le moment). Une dernière possibilité s’offre à vous, celle du choix de la source météo. Selon votre préférence et vos retours, vous pourrez choisir votre source préférée. 
 
-![Paramètres de compte](./images/all_settings.png#smallImg)
+![Paramètres de compte](./images/all_settings_FR.png#smallImg)
 
 ## Données
 
