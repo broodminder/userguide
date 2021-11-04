@@ -44,12 +44,11 @@ This is where you can reset your password. Please note that this will only chang
 
 You can also set some of your preferences:
 
-- the unit system (metric or imperial)
-- the format date
-- the language (French, Spanish or English for the moment)
-- the weather source
+- language
+- date format
+- unit system (metric or imperial)
 
-![Preferences](./images/all_settings.png#smallImg)
+![Preferences](./images/all_settings_EN.png#smallImg)
 
 ## My Apiary 
 

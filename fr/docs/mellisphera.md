@@ -44,12 +44,11 @@ Vous pouvez réinitialiser votre mot de passe. Attention, cela ne modifie le mot
 
 Vous pouvez également définir quelques préférences:
 
-- le format de la date 
-- le système d’unité (métrique ou impérial)
-- la langue
-- la source météo
+- langue
+- format de date 
+- système d’unités (métrique ou impérial)
 
-![Préférences](./images/all_settings.png#smallImg)
+![Préférences](./images/all_settings_FR.png#smallImg)
 
 ## Mon rucher
 
