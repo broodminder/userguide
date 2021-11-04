@@ -410,7 +410,7 @@ De façon plus détaillée, voici les alertes disponibles et leurs caractéristi
 | ![](./images/alertes/weightThresold.png#picto) | Seuil de poids | horaire | Il peut être parfois important de suivre le poids des ruches et d'en fixer des seuils afin d'effectuer des opérations sur vos ruches après ceux-ci atteints. <br> La valeur par défaut a été fixée à 100kg. | 
 
 
-### Météo 
+### Alertes Météo 
 
 Dans cet onglet sont listées les alertes concernant la météo. Ces icônes d'alertes pourront se retrouver dans le calendrier d'événements de rucher. Vous pouvez une nouvelle fois ajuster et désactiver/activer les différentes alertes. Par défaut, tout est activé avec des paramètres auto ajustés. 
 
