@@ -147,9 +147,8 @@ La carte est fournie avec un socle pour deux piles AA. Vous devrez le monter, pl
     La tension maximale d'alimentation de la carte est de 3.5V. Audelà vous risquez de l'abimer !
 
 
-REMARQUE : Les premières cartes DIY expédiées mesurent 11,43 x 4,5cm. Celles expédiées en juin seront un peu plus petites (10,92 x 3,91cm). Il est possible de réduire la carte de  11,43 x 4,5cm en 10,92 x 3,91cm sans affecter les opérations mais nous ne le recommandons pas. Procurez-vous une taille de boîte adéquate. 
+REMARQUE : Les cartes mesurent 10,92 x 3,91cm.
 
-NOTEZ AUSSI CECI... Si vous décidez de couper la carte, N'UTILISEZ PAS une scie circulaire classique. Cela risque de déchirer la carte et de vous blesser. J'ai utilisé une scie à carreaux (sans dents), ou les "cisailles à métaux" fonctionnent également assez bien.
 
 Nous avons décidé de ne pas trop travailler sur la protection électrique de la carte car nous avons constaté que c’était très bien dans notre configuration et voulons faire économiser à nos utilisateurs autant de coûts que possible. Vous pourrez avoir besoin ou envie d’ajouter une protection de circuit. C’est à vous de voir. 
 
