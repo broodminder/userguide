@@ -1,352 +1,218 @@
 # Récupération des données
 
-Tous les capteurs de la gamme BroodMinder transmettent en Bluetooth. Il existe plusieurs manières de récupérer les données qu'ils enregistrent. En essence via votre smartphone ou via un transmetteur automatique.
+Tous les capteurs transmettent en Bluetooth. Il existe deux manières de récupérer les données qu'ils enregistrent. 
+
+1. avec votre smartphone et l'application Broodminder Bees.
+
+2. avec un transmetteur automatique que nous appelons Hub.
 
 [![Présentation et mise en route des 3 capteurs](https://img.youtube.com/vi/HFkD4pLsBHU/0.jpg)](https://www.youtube.com/watch?v=HFkD4pLsBHU)
 
 
-## BroodMinder - APIARY
-![](./images/11_0_broodminder_apiary.png#smallImg)
+## BroodMinder - BEES
+![](./images/Broodminder_Bees.png#smallImg)
 
+Cette application que vous prouverez sur Android et IOS vous permet d'assurer la gestion intégrale des capteurs. De la création de votre premier compte en passant par la création des ruchers et des ruches auxquelles vous allez affecter (ou pas) des capteurs.
 
-Présentée en 2018, BroodMinder-APIARY est l'application la plus puissante. Elle prend la relève de l'application BroodMinder-LITE.
+L'application permet également de visualiser les données mesurées par les capteurs et aussi d'ajouter des notes d'inspection par exemple.
 
-Nous vous conseillons d'utiliser **Broodminder APIARY**
 
-L'ensemble des utilisateurs peuvent visualiser l'état actuel de leurs capteurs et les télécharger leurs données sur MyBroodMinder.com. Cela permettra un contrôle de base des capteurs ainsi que les mises à jour des micrologiciels.
+### Vue d'ensemble
 
-Les utilisateurs de MyBroodMinder-Premium peuvent visualiser et télécharger les données de chaque capteur BroodMinder de leur rucher directement dans MyBroodMinder en appuyant sur une touche. Il pourront également choisir d'envoyer automatiquement leurs données en temps réel à MyBroodMinder.com toutes les 10 minutes.
+Introduite en 2021, l'application BroodMinder-BEES est l'application Broodminder la plus puissante. Nous vous recommandons vivement de l'utiliser plutôt que l'application BroodMinder-Lite ou l'application BroodMinder-Apiary.
 
-Une fois vos données transférées, leur analyse et leur notation peuvent se faire directement sur MyBroodMinder.com. Nous vous le recommandons pour sa facilité d'utilisation.
+L'application BEES est structurée de la même manière que le site Web MyBroodMinder.com. Nous l'avons retravaillée pour améliorer l'expérience utilisateur.
 
-Veuillez noter que cette application stocke uniquement vos données récoltées heure par heure dans le cloud mais ne conserve pas une copie sur votre téléphone et/ou tablette.
+- Une seule touche pour lire tous les capteurs situés dans le rayon d'action du téléphone ou de la tablette
+- Créer et modifier les ruchers, les ruches et l'emplacement des capteurs
+- Vue centrée sur les capteurs et vue centrée sur le rucher
+- Intégration étroite avec MyBroodMinder.com, avec synchronisation automatique pour les ruchers éloignés qui n'ont pas d'accès à internet (cellulaire).
+- Support du SubHub
+    - Affichage en temps réel du niveau de signal des capteurs
+    - Lecture du journal composite du capteur et affectation des données aux capteurs appropriés.
+-   Notes de ruche alimentées par la voix
+- Bluetooth amélioré
+    - support pour les téléchargements de données simultanés
+    - Téléchargement des données du SubHub à grande vitesse 
 
-De nouvelles fonctionnalités ont été ajoutées en 2019-2020 :
+Les fonctionnalités de base pour un nouvel utilisteur 
+- Première fois
+    - Téléchargez BroodMinder-Bees depuis votre App Store ou Google Play
+    - Lancez l'application et entrez (ou créez) votre nom d'utilisateur et votre mot de passe MyBroodMinder.com.
+    - L'onglet CAPTEURS affichera automatiquement tous les capteurs que vous possédez et tous les capteurs qu'il détecte à proximité.
+    - Réclamez vos capteurs
+    - Créez un rucher et une ruche (onglet RUCHERS)
+    - Assignez vos capteurs à un emplacement dans la ruche (onglet CAPTEURS)
 
-   - L'affichage de plus de détails concernant les capteurs sont affichés, y compris le nom de la ruche.
-   
-   - Le téléchargement à distance - l'application fonctionne désormais avec ou sans connexion Internet (pour les utilisateurs Premium uniquement).
+- À chaque visite 
+    - Choisissez l'onglet RUCHERS et appuyez sur SYNC. Les données stockées seront lues et les bases de données locales et bases de données MyBroodMinder.com seront mises à jour.
 
-  - Le mode Hub – vous pouvez utiliser tout smartphone (iOS ou Android) connecté à internet pour envoyer des données toutes les 10 minutes depuis votre rucher (pour les utilisateurs Premium uniquement).
+### Onglet CAPTEURS
 
-  - L'activation de BroodMinder-CELL – le capteur peut être tiré d'un profond sommeil.
-  
-  - La modification de la fréquence d'échantillonnage (de 60 à 15 minutes).
-  
-  - Les mises à jour du micrologiciel T2 pour le SwarmMinder.
-  
-  - Le contrôle de la mise hors tension pour le T2.
+L'onglet CAPTEURS vous donne le contrôle total des capteurs qui sont :
+- dans votre inventaire des capteurs sur MyBroodMinder.com
+- vus par votre téléphone via Bluetooth.
 
-L'utilisation de l'application est super simple :
+Cela signifie que lorsque vous visitez un rucher qui contient des capteurs, vous pouvez voir leurs relevés actuels.
+Vous pouvez synchroniser des capteurs individuels à partir de cette page en appuyant sur le bouton "..." à côté du capteur.
 
-1. Rendez-vous sur MyBroodMinder.com et créez votre compte gratuitement
+![](./images/beesApp/devices_tab.png#largeImg)
 
-2. Téléchargez BroodMinder-Apiary à partir de l'app store
+**Conseil** : Le bouton de filtre est très pratique. Il permet de limiter ce qui est affiché dans cette liste. Par exemple, si vous sélectionnez 'Proches', il n'affichera que les capteurs vus par le téléphone. Ensuite, si vous actualisez l'écran (en tirant vers le bas), il effacera la liste et la remplira à nouveau au fur et à mesure qu'il verra le signal Bluetooth de chaque capteur. C'est une très bonne manière de vérifier que votre BroodMinder fonctionne.
 
-3. Lancez l'application, cliquez sur l'icône d'engrenage (page de configuration) et entrez vos identifiants MyBroodMinder
+### Onglet RUCHERS
 
-4. Retournez à l'écran de la liste et dans quelques secondes, tous les capteurs BroodMinder présents dans la zone s'afficheront automatiquement à l'écran
+L'onglet RUCHERS est celui que vous utiliserez le plus après la mise en place du système. Vous devez avoir un compte MyBroodMinder (MBM) (gratuit ou premium) car la configuration de votre rucher/ruche y est stockée (faites-le sur l'onglet 'réglages' ou sur MyBroodMinder.com).
 
-5. Une fois que les identifiants de vos capteurs BroodMinder sont devenus verts, cliquez sur l'icône ![](./images/11_6_cloud_up.png#picto) pour commencer le téléchargement des données sur MyBroodMinder
+![](./images/beesApp/apiaries_tab.png#largeImg)
 
-6. L'application vous montrera l'état de progression du téléchargement. La ligne supérieure indique l'état d'avancement de la collecte des données. La ligne inférieure montre le transfert de ces dernières vers MyBroodMinder
+**Conseil** : il est parfois préférable de synchroniser ruche par ruche si elles sont éloignées les unes des autres. Vous pouvez choisir 'Synchroniser' avec le "..." pour chaque ruche. Commencez par les ruches près du téléphone, vous n'avez pas besoin d'attendre que la synchronisation de chaque ruche se termine avant de commencer la suivante. Puis déplacez le téléphone vers une nouvelle position proche des ruches restantes et synchronisez à nouveau. Si vous appuyez sur l'état de la synchronisation qui apparaît en haut, il affichera plus de détails sur l'état exact du processus de synchronisation.
 
-Une fois le transfert terminé, les données s'afficheront dans MyBroodMinder. Si vous avez déjà configuré vos capteurs, il vous suffit de regarder le résultat. S'il s'agit de nouveaux capteurs, vous devrez les trouver sur MyBroodMinder « Device Inventory » (inventaire des capteurs) et de les attribuer à un rucher puis à une ruche. Allez à la section suivante pour plus d'informations à ce sujet.
+#### Option des ruchers
 
-### Écran de la liste des capteurs
-![](./images/11_1_list_screen.png#largeImg)
+Vous pouvez maintenant effectuer la configuration du rucher et de la ruche à partir de l'application. Pour y accéder, cliquez sur le bouton "..." en haut de la page.
 
-### Écran de progression
-![](./images/11_2_progress_screen.png#largeImg)
+![](./images/beesApp/apiary_option.png#largeImg)
 
-### Écran des détails du capteur
-![](./images/11_3_details_screen.png#largeImg)
+#### Option des ruches
 
-### Écran des options
-![](./images/11_4_options_screen.png#largeImg)
+Lorsque vous choisissez le "..." à côté de la ruche, vous avez beaucoup de choix. Toutes ces commandes (telles que Sync) fonctionnent au niveau du ruche. C'est-à-dire qu'elles visent à contrôler ou à modifier le répertoire de stockage, et non l'appareil.
+Notez que ces commandes modifieront à la fois les données stockées sur votre téléphone et les données stockées dans Cloud MyBroodMinder.com
 
-### Menu des paramètres
-![](./images/11_5_settings_screen.png#largeImg)
+![](./images/beesApp/hive_option.png#largeImg)
 
-### Menu de configuration générale
+**Conseil** :   Appuyez sur la ruche pour afficher plus de détails sur les capteurs BroodMinder.
+            Appuyez deux fois sur la ruche pour faire apparaître le graphique.
+            La fonction note permet d'utiliser votre microphone pour faciliter la transcription.
 
-- **Affichage en métrique** 
+### Onglet RÉGLAGES
 
-- **Connexion rapide** : ce bouton permettra d'accélérer le temps de connexion en accélérant le « taux de collecte ». Cela signifie que le capteur BroodMinder enverra un signal toutes les secondes au lieu de toutes les 5 secondes. L'inconvénient de cette option est qu'elle réduit la durée de vie de la pile. Il est possible d'accélérer la connexion durant l'été et de la ralentir durant l'hiver.
+L'onglet "Réglages" vous permet de personnaliser votre application Bees.
+ 
+![](./images/beesApp/settings_tab.png#largeImg)
 
-- **Mode Hub** : voir ci-dessous.
+Conseils :  Dans les réglages, vous trouverez des fonctions avancées telles que la suppression de la base de données locale.
+            La connexion rapide modifiera le "ping" publicitaire des capteurs BroodMinder de 5 à 1 seconde. Cela permettra aux capteurs de se connecter plus rapidement, mais réduira également la durée de vie de la batterie à plusieurs mois au lieu de plusieurs années.
 
-- **Activer la synchronisation à distance (Remote device Sync)** : vous pouvez récupérer vos données même lorsqu'il n'y a pas de connexion internet ou de couverture cellulaire dans votre rucher.
+### Onglet AIDE
 
-    1. Avant de vous rendre à votre rucher (tant que vous êtes encore connecté), allez sur l'application à l'écran de la liste des capteurs et cliquez sur l'icône ![](./images/11_7_cloud_dwn.png#picto). Cela permettra le téléchargement de la liste de tous vos capteurs ainsi que le statut des données remontées lors de la dernière synchronisation. 
-    _ATTENTION : Si vous contournez cette étape, c'est l'ensemble de des données dans la mémoire du capteur qui sera récupéré : ça pourrait représenter une année entière de données !_
+De l'aide, c'est de l'aide, nous espérons.
 
-    2. Une fois sur le terrain, procédez à la synchronisation de vos capteurs comme d'habitude. Le téléchargement vers le cloud échouera mais c'est normal vu que vous n'avez pas d'accès à internet
+![](./images/beesApp/help_tab.png#largeImg)
 
-    3. Lorsque vous revenez à la civilisation, relancez l'application qui vous suggèrera de procéder au téléchargement vers le cloud. Faites-le et MyBroodMinder.com sera mis à jour.
+### Mise en place du SUBHUB
 
-- **Mode Hub** : Le mode Hub vous permet d'utiliser un vieux modèle de téléphone/tablette pour l'envoi automatique de vos données BroodMinder sur MyBroodMinder toutes les 10 minutes. De cette façon, vous pouvez suivre l'état de vos abeilles 24/24h 7/7j depuis n'importe où dans le monde. Il vous suffit d'autoriser le Mode Hub et de revenir à l'écran de la liste de vos capteurs :
-![](./images/12_hubmode.png#largeImg)
+Les SubHub sont un peu spéciaux car ils écoutent tous les capteurs à proximité.
+Lorsque vous appuyez sur les trois points à côté d'un SubHub, le menu suivant s'affiche.
 
+![](./images/beesApp/subhub_devices.png#largeImg)
 
+#### Détails du SubHub
 
+Cette page vous permet de contrôler le SubHub. Vous pouvez synchroniser toutes les données et vous pouvez visualiser les données en direct. Voir les pages suivantes pour plus de détails.
 
+![](./images/beesApp/subhub_details.png#largeImg)
 
+#### Le SubHub affiche tous les capteurs
 
+Lorsque vous configurez votre SubHub, vous pouvez utiliser cet affichage pour savoir exactement quels capteurs votre SubHub voit. Tous les capteurs s'annoncent toutes les 5 ou toutes les 1 seconde. Cela signifie que vous devriez les voir tous s'afficher ici si vous êtes assez proche. Il affichera également tout appareil Bluetooth Low Energy (BLE) à portée si vous décochez la case "Capteurs Broodminder uniquement".
 
+![](./images/beesApp/subhub_show.png#largeImg)
 
-## BroodMinder - LITE
+**Conseil** : Cette page est particulièrement utile pour optimiser la position de votre SubHub. Elle est pratique même si vous ne synchronisez pas avec votre téléphone. Vous verrez quels dispositifs sont étendus à votre concentrateur de données.
 
 
-![](./images/05_broodminder_lite.png#smallImg)
 
-Remarque: Nous vous recommandons désormais d'utiliser l'application BroodMinder Apiary. Elle est plus fiable.
 
-### Compatibilité des appareils
 
-#### Apple - iOS
 
-Les capteurs BroodMinder fonctionnent avec tout appareil Apple disposant de la technologie Bluetooth Low Energy (BLE). Ils fonctionnent avec les iPhones 4s & plus récents et avec les iPads de 3e génération & plus récents.
 
-#### Android
+## Transmetteurs de données - HUB 
 
-Pour Android, c'est un peu plus compliqué. Android a introduit le support BLE dans la version 4.3 (Jelly Bean, juillet 2012). Les appareils plus vieux ne fonctionneront pas. La plupart des nouveaux appareils (2015 & plus récents) fonctionneront. Cependant, il existe de nombreux modèles de téléphones et nous en avons trouvé quelques-uns qui nous posent problème. Si votre appareil ne fonctionne pas, contactez-nous à l'adresse suivante : Support@Mellisphera.com.
+A ce jour nous proposons plusieurs types de transmetteurs.
+- Le Hub-T91 est un hub cellulaire equipé avec une carte SIM
 
-Une nouvelle fonctionnalité a été ajoutée à l'application dans la version 2.97 afin d'augmenter le taux d'envoi des capteurs BroodMinder. Tel qu'il est livré, un capteur BroodMinder envoie un message toutes les cinq secondes qui contient des informations sur la température et le poids. La page des paramètres généraux dispose désormais d'un bouton de configuration Bluetooth qui vous permet de modifier le taux d'envoi à un message toutes les secondes. Cela accélérera la connexion du capteur et rendra la récupération des données plus rapide. Il réduira toutefois la durée de vie de la batterie à 3-6 mois.
+![](./images/products/T91_solar.jpg#smallImg)
 
-Un bouton "Reset Android Bluetooth" a également été ajouté sous le bouton "Bluetooth Config". Cela vous permettra de réinitialiser le système de la fonction Bluetooth. Nous avons constaté que sur certains téléphones, cela aide à rétablir la communication.
 
-Vous trouverez plus d'informations sur le site https://mybroodminder.com/app/resources.
+- Il y a également deux modèles de transmetteur Wifi pour les apiculteurs qui ont le rucher dans leur jardin.
 
-### Installation
+![](./images/products/xwifi.jpg#smallImg)
 
-L'application BroodMinder est disponible sur l'App Store d'Apple, sur le Play Store Android ou encore sur le Play Store Amazon, en fonction de votre appareil. Si vous recherchez « BroodMinder » (BroodMinder Lite sur Android), vous le trouverez. Installez-le comme n'importe quelle autre application.
+![](./images/products/xwifi_ext.jpg#smallImg)
 
-Une fois installée, démarrez l'application. Un message de bienvenue et de félicitations devrait apparaitre en ouvrant l'application. Vous pouvez choisir de regarder notre Queen Bee, Laura Davis, vous faire une démonstration de l'installation ou vous pouvez ignorer ce message et laisser l'application faire son travail.
 
-L'application commencera à rechercher les capteurs BroodMinder présents dans la zone et remplira automatiquement l'écran avec tous ceux qu'elle trouvera dans la zone.
+- Le Subub est un concentrateur de données et assure une extension de portée. Il permet de faire le pont avec un Hub-91 par exemple si le rucher est très étendu ou encore de décharger en un seul geste du smartphone toutes les mesures de tous les capteurs.
 
-Si aucun capteur n'apparait :
+![](./images/products/SubHub.jpg#smallImg)
 
-- Assurez-vous que la languette de la pile a été retirée du BroodMinder-TH et que la pile est bien en place sur le BroodMinder-W.
-- Assurez-vous que le Bluetooth est activé sur votre téléphone / tablette.
-- Assurez-vous de vous tenir à une distance de 3 à 6 m de votre dispositif BroodMinder.
 
-### Écran d'accueil
+### Installation du Hub
 
-BroodMinder-T affichera la température
-BroodMinder-TH affichera la température et le taux d'humidité
-BoordMinder-W affichera la température et le poids
-
-![](./images/05_homescreen_app.png#largeImg)
-
-### Détails et graphiques
-
-![](./images/06_graphscreen_app.png#largeImg)
-
-### Page de configuration générale
-
-![](./images/07_generalsettings_page.png#largeImg)
-
-### Page de configuration du capteur
-
-![](./images/08_devicesettings_page.png#largeImg)
-
-### Mode Temps Réel
-
-Si vous souhaitez voir vos données en temps réel, vous pouvez utiliser le bouton « Real Time » sur l'écran du graphique. En pressant ce bouton, le taux d'échantillonnage passera à 5 secondes et vous verrez apparaitre des valeurs dans la partie inférieure de l'écran.
-
-**B** : niveau de la pile <br>
-**T** : température (actuellement uniquement disponible en Fahrenheit :1°F = -17°C)<br>
-**H** : humidité relative (en%)<br>
-**L/R** : équilibre entre les capteurs de droite et de gauche. S'ajoute à 100% (balance BroodMinder-W uniquement)<br>
-**W** : poids total (actuellement uniquement disponible en livre : 1 livre = 453 g) (balance BroodMinder-W uniquement)<br>
-**Delta** : variation de poids depuis le lancement du temps réel (balance BroodMinder-W uniquement)<br>
-
-Ces données seront également enregistrées dans le fichier de suivi.<br>
-
-Ré-appuyer sur le bouton « *Real Time* » permettra de ce mode et fera repasser automatiquement le taux d'échantillonnage à 1 heure.
-
-### Réglage du facteur de poids BroodMinder-W
-
-![](./images/09_scalefactor.png#largeImg)
-
-Par défaut, le facteur de poids du BroodMinder-W est fixé à 2.0. Cela signifie que tout poids observé par le BroodMinder-W sera doublé afin de refléter le poids total de la ruche. En regardant les caractéristiques de la situation (annexe ci-dessous), nous savons qu'il s'agit d'une approximation, qui n'est donc pas totalement exacte. Dans la plupart des cas, elle est suffisamment proche de la réalité car de petits changements seront encore visibles et une erreur à 5-10% du poids total n'est pas importante.
-
-Un affichage plus précis du poids total peut être obtenu en ajustant le facteur d'échelle pour tenir compte de la situation spécifique de la ruche.
-
-Allez à l'écran du graphique de l'échelle et appuyez sur le bouton « Real Time ». En quelques secondes, l'application affichera le relevé de la balance toutes les 5 secondes en bas de l'écran. Vous pouvez également voir le % de charge sur chaque cellule de charge.
-
-Ajoutez maintenant un poids (entre 4 et 10 kg) sur la ruche et centrez-le. Vous devriez voir le poids changer en fonction sur l'application. Vous pouvez ensuite ajuster le facteur d'échelle pour qu'il corresponde exactement au changement de poids effectué.
-
-**Exemple :**
-
-| **Poids** | **Poids delta** | **Facteur d'échelle** | **Notes** |
-| --- | --- | --- | --- |
-| 121.2 | 0.0 | 2.0 | Lancement du temps réel |
-| 132.2 | 11.0 | 2.0 | Ajout du poidsChangement du facteur d'échelle |
-| 129.5 | 10.0 | 1.82 | Calibrage plus proche |
-| 117.0 | 0.0 | 1.82 | Enlèvement du poidsPoids de la ruche plus précis |
-
-### Réglage de la compensation thermique du BroodMinder-W
-
-Les capteurs présents dans le BroodMinder-W sont de très grande qualité et présentent peu d'effet de la température. Cependant, il peut toujours y avoir des variations d'une balance à l'autre. C'est pourquoi nous vous proposons un moyen d'améliorer la précision des résultats grâce au réglage de la compensation thermique de la balance – « Scale TempCo ».
-
-Pour ajuster le TempCo, choisissez une portion de votre graphique de poids pour laquelle vous savez qu'il n'y a que peu de changement en raison de l'activité des abeilles. Un jour nuageux est le moment idéal car nous savons qu'elles ne butinent pas. Il serait également intéressant de choisir un jour où la température extérieure varie d'au moins 6°C au cours de la journée.
-
-En apportant de petites modifications à la valeur TempCo, vous verrez le graphique s'équilibrer pour donner un poids uniforme comme on pourrait s'y attendre.
-
-Si vous constatez des pics de poids même après ajustement, c'est probablement parce que la balance est exposée au soleil. Le soleil peut chauffer la balance assez rapidement et de façon spectaculaire. Il sera donc très difficile pour le TempCo d'être efficace.
-
-### Annotations sur les graphiques
-
-![](./images/10_tagging_graphs.png#largeImg)
-
-En appuyant sur « *Hive Notes* », vous pourrez ajouter du texte à tout moment sur le graphique. C'est particulièrement utile pour expliquer un brusque changement dans les données récoltées ou encore indiquer une inspection de la ruche.
-
-Appuyer sur ce bouton fera apparaître un sous-menu composé de huit groupes d'évènements ou d'actions possibles. Sélectionnez le groupe le plus approprié à votre situation et choisissez la balise correspondante. Choisissez le groupe « *Custom* » (personnaliser) si les groupes de liste ne couvrent pas votre cas. Les sélections dans l'application seront mises à jour au fil du temps pour refléter au mieux les balises les plus utilisées.
-
-L'heure indiquée dans la partie haute de l'écran correspond à l'heure actuelle si les graphiques n'ont pas été déplacés par pincement ou balayage, avant d'avoir appuyé sur le bouton « *Tag Graph* » n'ait été enfoncé. Le temps peut être ajusté en cliquant simplement dessus.
-
-Lorsque vous notez un évènement passé, il serait pertinent de déplacer le graphique pour aligner l'heure de l'évènement avec le « *Note Time Indicator* », avant d'appuyer sur « *Hive Notes* ». Dans ce cas, l'heure qui s'affichera dans la partie haute de l'écran correspondra à l'heure du « *Note Time Indicator* » et non l'heure actuelle.
-
-Le bouton « *Inspection* » présente un intérêt particulier. En appuyant sur ce bouton, vous serez amené à répondre à six questions faciles sur l'état de votre ruche. C'est Dick Rogers qui nous a partagé́ ces questions et nous pensons que c'est un moyen rapide et efficace de documenter la ruche.
-
-
-
-## BroodMinder - HUB 
-
-![Cell/Wifi](./images/02_broodminder_cell.png#smallImg)
-
-BroodMinder-WIFI/CELL est un composant facultatif qui se place dans votre rucher et vous permet de transmettre les données depuis vos appareils BroodMinder directement sur MyBroodMinder.com par connexion wifi ou mobile. Nous avons conçu le BroodMinder-WIFI/CELL pour se mettre automatiquement en marche à la mise sous tension.
-
-Pour de meilleurs résultats, regardez la vidéo de l'installation sur [BroodMinder.com/pages/videos](https://broodminder.com/pages/videos)
-
-![](./images/14_1_broodminder_wifi.png#largeImg)
-
-### Instructions de démarrage rapide
-
-**IMPORTANT** : synchronisez tous vos appareils et transférez vos données sur MyBroodminder.com avant de démarrer votre appareil BroodMinder-WIFI/CELL
-
-- Placer votre BroodMinder-WIFI/CELL dans le rucher avec le panneau solaire orienté vers le soleil
-
-- Téléchargez l'application BroodMinder-CELL (que vous ayez un appareil BroodMinder-CELL ou BroodMinder-WIFI)
-- Lancez l'application – votre appareil BroodMinder-WIFI/CELL devrait apparaitre dans la liste
-- Cliquez sur « exit deep sleep » (tirer du sommeil profond)
-- WIFI uniquement – entrer le nom de votre réseau wifi ou mobile ainsi que le mot de passe associé
-- Vos données devraient apparaitre automatiquement sur MyBroodminder.com une heure après
-
-### Installation
-
-Vous pouvez installer votre BroodMinder-WIFI/CELL avec de nombreuses configurations différentes selon les circonstances. Le support à l'arrière du boîtier électronique peut être retournée comme on peut le voir sur quelques exemples.
+Vous pouvez installer le transmetteur avec de nombreuses configurations différentes selon les circonstances. Le support à l'arrière du boîtier électronique peut être retournée comme on peut le voir sur quelques exemples.
 
 ![](./images/14_2_installation.png#largeImg)
 
 Quelques remarques relatives à l'installation :
 
-- Le panneau solaire aura complètement chargé la batterie en 4 heures d'ensoleillement direct
+- Le panneau solaire aura complètement chargé la batterie en 8 heures d'ensoleillement direct
 
-- La batterie devrait tenir 3-4 jours sans ensoleillement
-- La réception sans fil est entravée par les arbres. Mais monter sur un arbre peut s'avérer problématique si votre connexion est instable
+- La batterie devrait tenir 5 à 10 jours sans ensoleillement
+- La réception sans fil est entravée par les arbres. L'installer sur un arbre peut s'avérer problématique si votre connexion est instable
 - Pour les cas les plus extrêmes, nous vous suggérons d'utiliser une antenne plus sensible (pour le réseau mobile uniquement). Contactez-nous sur [support@Mellisphera.com](mailto:support@Mellisphera.com) pour plus d'informations
-- Des colliers de serrage ou pour tuyaux peuvent être utilisés afin de sécuriser le système
-- Ceux de 7cm que l'on trouve dans les magasins de bricolage fonctionnent parfaitement. Ils ont des languettes qui peuvent être légèrement pliées pour permettre l'insertion du BroodMinder-WIFI/CELL. Ensuite, un collier de serrage en bas permet de sécurise l'installation
-
-### La batterie solaire en mode permanent (Always-On)
-
-Nous vous envoyons le BroodMinder-WIFI/CELL avec la batterie en mode permanent (Always-On). Dans des conditions normales, vous n'aurez pas besoin d'ouvrir le boîtier électronique.
-
-La batterie solaire est une batterie voltaïque 15V qui dispose de deux modes d'alimentation :
-
-- En mode permanent (_Always-On_), la batterie ne s'éteint jamais
-
-- En mode arrêt automatique (_Auto-Off_), la batterie s'éteint automatiquement au bout de 20mn
-
-Il est important de laisser la batterie en mode permanent afin que le BroodMinder-WIFI/CELL puisse fonctionner 24/24h.
-
-Pour récapituler : nous vous envoyons le BroodMinder-WIFI/CELL avec la batterie en mode permanent. Si vous n'avez pas maintenu le bouton d'alimentation de la batterie solaire pendant plus de 5 secondes, vous n'avez rien à changer.
-
-Si vous avez maintenu le bouton d'alimentation de la batterie pendant plus de 5 secondes, cela aura modifié le mode d'alimentation. Cette action permet d'alterner entre le mode permanent et le mode arrêt automatique mais il peut s'avérer difficile de savoir sur quel mode vous êtes.
-
-Pour faire la différence entre les deux modes, **regardez la lumière de la batterie APRES les 3 flashs** décrits ci-dessous :
-
-- Bloquez le panneau solaire afin d'avoir moins de confusion
-- Appuyez sur le bouton d'alimentation et maintenez-le enfoncé
-- Au bout de 6 secondes, les LED de la batterie clignoteront 3 fois
-- Si la lumière reste allumée pendant encore quelques secondes, cela signifie que la batterie est sur le mode permanent (_Always-On_). C'est bon !
-- Relâchez le bouton
-
-Si après les 3 flashs, la lumière de la batterie s'éteint, cela signifie qu'elle est sur le mode arrêt automatique (_Auto-Off_). Recommencez la manipulation et la batterie devrait être sur le bon mode cette fois.
-
-[![Activation du mode Always_On](https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U)
 
 
-### Les voyants lumineux WIFI/CELL
+# Broodminder Sub-Hub 
 
-![](./images/14_3_indicator_lights.png#largeImg)
+## Vue d'ensemble
 
-## BroodMinder - CELL
+Le SubHub est à la fois un prolongateur de portée Bluetooth et un coffre-fort de données à haut débit. Il tient dans un boîtier de la taille d'une télécommande de télévision.
+- Placez le SubHub près de vos ruches et il recueillera les données de vos capteurs et les retransmettra à plus de 300 mètres, vous permettant de recueillir des données sans avoir à vous tenir directement dans votre rucher. 
+- Il est également doté d'un protocole de turbo-transfert, d'un mois de données provenant de 50 appareils en 2 minutes et d'une batterie d'une durée de vie prolongée.
 
-![](./images/11_0_broodminder_cell.png#smallImg)
-
-L'application BroodMinder-CELL vous permet de gérer votre HUB qu'ils soit 3G ou WiFi. Parmi les éléments que vous pouvez contrôler :
-
-- Mode sommeil profond (_Deep Sleep_) – voir ci-dessous
-- État actuel du BroodMinder-WIFI/CELL (initialisation, délai jusqu'au prochain transfert de données, connexion au WIFI, envoi de données)
-- Nombre d'appareils BroodMinder trouvés dans le rucher
-- Force du signal du WIFI
-- De nombreuses fonctions de diagnostic
-
-Nous n'entrerons pas dans les détails dans ce manuel car il n'y a pas beaucoup d'ajustements à faire sur l'application. En effet, les seuls éléments que vous pouvez ajuster sont le moment et la fréquence de transferts de données sur MyBroodminder.com.io. Le reste de l'application est destiné à aider notre équipe de support client à diagnostiquer des problèmes.
-
-Lorsque vous recevez votre BroodMinder-WIFI/CELL, ce dernier devrait être en mode sommeil profond (_Deep Sleep_) afin d'économiser la batterie pendant le transport. Vous aurez besoin de l'application BroodMinder-CELL pour le sortir de ce sommeil profond.
-
-Par défaut, le BroodMinder-WIFI/CELL transférera vos données toutes les heures.
-
-### Écran d'accueil de l'application WIFI/CELL
-
-![](./images/14_4_homescreen.png#largeImg)
-
-*Remarque : si vous balayez l'écran vers gauche, vous pouvez supprimer les appareils BroodMinder-WIFI/CELL non utilisés.*
-
-### Écran de configuration de l'application WIFI/CELL
-
-![](./images/14_5_configure_screen.png#largeImg)
-
-### Écran de diagnostic de l'application WIFI/CELL
-
-![](./images/14_6_diagnostics_screen.png#largeImg)
-
-### Écran de réseau wifi/mobile de l'application WIFI/CELL
-
-![](./images/14_7_network_screen_wifi.png#largeImg)
-
-### Écran de réseau cellulaire de l'application WIFI/CELL
-
-![](./images/14_8_network_screen_cell.png#largeImg)
-
-*Remarque : il s'agit des commandes du modem mobile. Pour les commandes du modem wifi, rendez-vous à la page suivante. Si le modem n'est pas allumé, l'actionnement de toute commande entrainera son allumage. Attendez quelques secondes et actionnez de nouveau la commande souhaitée. Le résultat s'affichera en bas de l'écran.*
-
-### Écran de réseau wifi/cellulaire de l'application WIFI/CELL
-
-![](./images/14_9_network_screen.png#largeImg)
+Pour protéger votre Sub-Hub des intempéries, nous vous conseillons de le placer dans une [enveloppe de protection](https://www.mellisphera.com/produit/enveloppe-de-protection/). 
 
 
+## Scenarios possibles
 
-## Compatibilité
+### Scénario 1 
 
-Nous avons conçu l'application BroodMinder pour fonctionner avec la plupart des appareils iOS (iPhone, iPad) et Android. Nous testons notre logiciel sur de nombreux appareils.
+**Vos ruches équipées de capteurs se trouvent à 150 mètres d'un bâtiment alimenté en électricité et vous avez un vieux téléphone portable.**
 
-### Apple iOS
+Configuration : Placez le SubHub au milieu de vos ruches et le téléphone portable dans le bâtiment. Lancez l'application du rucher en activant dans `Settings > Hub mode` .
 
-L'application BroodMinder fonctionne avec tous les appareils Apple dotés de la technologie Bluetooth Low Energy (BLE). Il fonctionnera avec les modèles iPhone 4 ou plus récents ainsi qu'avec les iPads de 3ème génération ou plus récents.
+Résultat : Les données de votre ruche seront envoyées toutes les 10 minutes. En cas d'essaimage, vous recevrez un e-mail ou un SMS dès qu'il sera détecté, ce qui vous permettra d'agir en conséquence.
 
-### Android
+### Scénario 2
 
-Pour Android, c'est un peu plus compliqué. Android a introduit le support BLE dans sa version 4.3 (Jelly Bean, juillet 2012). Les appareils plus anciens ne fonctionneront pas. La plupart des nouveaux appareils (2015 ou plus récents) fonctionnent. Cependant, il existe de nombreux modèles de téléphone et nous en avons trouvé́ quelques-uns qui posent problème. Si votre appareil ne fonctionne pas, contactez- nous à l'adresse [support@mellisphera.com](mailto:support@mellisphera.com)
+**Le rucher est éloigné et il n'y a pas d'électricité à proximité. Vous êtes déjà équipé d'un BroodMinder-Hub. Cependant, certaines de vos ruches sont à 200 mètres de distance.**
 
-Une nouvelle fonctionnalité a été ajoutée à l'application dans la version 2.97 dans le but d'augmenter le « taux d'annonce » de vos appareils BroodMinder. Tel qu'expédié, le BroodMinder est programmé pour envoyer un message transmettant les données de température et de poids toutes les 5 secondes. La page de configuration générale est désormais dotée d'une section de configuration Bluetooth qui vous permet de passer le taux d'annonce à 1 message par seconde. Cela vous permettra d'accélérer la connexion des appareils ainsi que la récupération des données. Cependant, cette manipulation réduira la durée de vie de la pile à 3-6 mois.
+Configuration : Placez le SubHub près des ruches et il relayera les mesures vers le Hub. Vous pouvez avoir plusieurs SubHubs qui alimentent le hub CELL/WIFI hub si vous le souhaitez.
 
-Nous avons également ajouté l'option « Réinitialiser Bluetooth Android » en-dessous de la section de configuration Bluetooth. Cela permettra de réinitialiser la fonction Bluetooth. En effet, nous avons constaté que sur certains modèles de téléphone, cette manipulation aide à rétablir la communication.
+Résultat : Une plus grande partie de votre rucher peut être surveillée à moindre coût.
 
-Vous trouverez plus d'informations sur MyBroodMinder.com/resources
+### Scénario 3
+
+**Le rucher est isolé et il n'y a pas d'électricité ni de réseau cellulaire à proximité...**
+
+Configuration : Placez le SubHub près des ruches. Il enregistrera les données de tous les capteurs situés à proximité.
+
+Résultat : Lorsque vous visitez votre rucher, vous pouvez décharger toutes les données de toutes les ruches en moins d'une minute. Vous pourrez visualiser ces données avec la prochaine application BroodMinder-Bees, de manière similaire à MyBroodMinder. Bien entendu, vous pourrez ensuite envoyer les données à MyBroodMinder lorsque vous reviendrez à la civilisation.
+
+## Détails techniques
+
+Pour tous ceux qui aiment les détails techniques, voici ce que vous devez savoir : 
+
+Le SubHub utilise le même circuits que la balance W2. Il utilise un module BLE (Bluetooth Low Energy) longue portée de Silicon Labs. Nous avons mesuré la portée du module avec un iPhone 11 à plus de 300 mètres. Nous avons obtenu des données utilisables à 500 mètres.
+
+En utilisant 4 piles AA, nous avons beaucoup plus de puissance disponible. Cela nous permet de recueillir les données des capteurs pendant 20 secondes toutes les dix minutes avec une durée de vie des piles prévue supérieure à un an.
+
+Une mémoire d'un mégaoctet a été ajoutée pour stocker les données du journal. Cela nous permet de stocker 35 000 enregistrements ou à peu près les données de 100 appareils pendant deux semaines (ou moins d'appareils pendant plus longtemps, vous pouvez faire le calcul). Le SubHub a la capacité de garder une trace de 128 appareils BroodMinder en même temps.
+
+Les données seront lues en utilisant le BLE SPP (Serial Port Profile). Nous avons prévu que le transfert de la totalité des 35 000 enregistrements prendrait environ 120 secondes avec iOS et moins que ça pour les nouveaux appareils Android (plus longtemps pour les téléphones de 4 ou 5 ans).
+
+Le dernier point concerne le partage des données du SubHub. Comme mentionné ci-dessus, le SubHub relève les nouvelles données pendant 20 secondes toutes les 10 minutes. Il modifie ensuite son paquet publicitaire BLE pour oublier tous les capteurs qu'il a entendus. Le SubHub annonce un appareil différent toutes les 5 secondes, ce qui permet d'envoyer les données de 12 BroodMinders toutes les minutes, soit plus de 100 appareils en 10 minutes. 
+
+Nous avons établi ces paramètres afin que les piles durent au moins un an. Bien qu'elles puissent être ajustées pour des circonstances particulières, nous pensons que la configuration standard couvrira 99% des cas.
+
+Bien sûr, il y a beaucoup, beaucoup de détails à régler pour que les pièces s'emboîtent parfaitement et qu'elles soient supportées par l'équipement sur le terrain. Et, comme toujours, pendant le déploiement, nous le surveillerons de près.

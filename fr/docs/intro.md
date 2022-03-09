@@ -27,15 +27,15 @@ Le système Broodminder-Mellisphera est composé de plusieurs éléments. Dans l
 
 Voici en quelques mots les composantes principales du système.
 
-### Capteurs BroodMinder
+### Capteurs
 
 Des capteurs de poids, de température, d'humidité.. Une gamme complète et en même temps modulaire de dispositifs qui permettent d'équiper vos ruches selon vos besoins. 
 
 ![](./images/01_broodminder_products.png#mediumImg)
 
-Tous les capteurs transmettent les informations en Bluetooth et, bien entendu, vous pouvez utiliser votre smartphone pour recueillir ces données. Il suffit de télécharger l'App BroodMinder Apiary à partir de votre store préféré (Apple ou Android).
+Tous les capteurs transmettent les informations en Bluetooth et, bien entendu, vous pouvez utiliser votre smartphone pour recueillir ces données. Il suffit de télécharger l'App BroodMinder Bees à partir de votre store préféré (Apple ou Android).
 
-![](./images/11_0_broodminder_apiary.png#smallImg)
+![](./images/Broodminder_Bees.png#smallImg)
 
 
 ### Transmetteur de données (Hub)
@@ -46,7 +46,7 @@ Pour ceux qui souhaitent disposer de données en temps réel, le hub est la solu
 
 
 ### MyBroodMinder.com
-Les données transmises par votre téléphone ou par le hub arrivent sur le portail [Mybroodminder.com](https://mybroodminder.com). Dans cet espace, vous pouvez configurer votre rucher, vos ruches et leur affecter vos capteurs. Il permet également de visualiser les données brutes sur des graphiques fluides et interactifs.
+Les données transmises par votre téléphone ou par le hub arrivent sur le portail [Mybroodminder.com](https://mybroodminder.com). Tout comme avec l'App Bees, dans cet espace, vous pouvez configurer votre rucher, vos ruches et leur affecter vos capteurs. Il permet également de visualiser les données brutes sur des graphiques fluides et interactifs.
 
 ![](./images/13_0_mybroodminder.png#largeImg)
 

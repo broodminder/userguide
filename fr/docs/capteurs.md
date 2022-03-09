@@ -9,13 +9,13 @@ Le pack Citizen Science contient deux dispositifs BroodMinder-TH (Température 
 
 ![](./images/03_sensor_locs.png#largeImg)
 
-###  BroodMinder-TH (BMR 42)
+###  BroodMinder-TH et TH2 (42,56)
 ![](./images/01_TH.png#mediumImg)
 
-Tous les appareils BroodMinder-TH ont un identifiant qui commence par 42 – ils devraient donc être faciles à reconnaitre. Le capteur est normalement placé au-dessus des cadres, près du centre du corps de la ruche qui vous intéresse. Cette position est choisie pour plusieurs raisons :
+Tous les appareils BroodMinder-TH ont un identifiant qui commence par 42 ou 56 – ils devraient donc être faciles à reconnaitre. Le capteur est normalement placé au-dessus des cadres, près du centre du corps de la ruche qui vous intéresse. Cette position est choisie pour plusieurs raisons :
 
 - La chaleur monte, donc le capteur sentira la chaleur de la couvée située en dessous
-- La couvée tend vers le milieu de la ruche et l'entoure de pollen et de miel. Placer le capteur de température à cet endroit optimise donc les chances de détecter le couvain
+- Le couvain tend vers le milieu de la ruche et l'entoure de pollen et de miel. Placer le capteur de température à cet endroit optimise donc les chances de détecter le couvain
 - L'utilisation de cette position standardisée permet des croisements et comparaisons entre les ruches à travers le monde
 
 Si vous êtes situé dans un territoire au climat froid et que mettez à l'hivernage plus de deux essaims, vous pouvez alors remonter les capteurs. En effet, l'essaim se déplaçant au-dessus d'un capteur, ce dernier aura alors tendance à détecter la température extérieure (car la chaleur monte).
@@ -35,7 +35,7 @@ La pile CR2032 est remplaçable en ouvrant l'emballage. Elle dure en moyenne plu
 ###  BroodMinder-T2 (41)
 ![](./images/01_T2.png#mediumImg) 
 
-Tous les appareils BroodMinder-T2 ont un identifiant qui commence par 41 – ils devraient donc être faciles à reconnaitre. Le BroodMinder-T2 (**Température**) est une version à prix réduit du BroodMinder-TH. Il détectera la température de la ruche qui indiquera le développement du couvain durant la saison ainsi que sa survie hivernale. Placez-le au-dessus de l'endroit où vous pensez qu'il y aura le plus de couvain. Durant l'hiver, nous vous conseillons de le placer sur les cadres du corps supérieur de la ruche afin qu'il puisse prendre toute la chaleur montante de l'essaim.
+Tous les appareils BroodMinder-T2 ont un identifiant qui commence par 41 ou 47 – ils devraient donc être faciles à reconnaitre. Le BroodMinder-T2 (**Température**) est une version à prix réduit du BroodMinder-TH. Il détectera la température de la ruche qui indiquera le développement du couvain durant la saison ainsi que sa survie hivernale. Placez-le au-dessus de l'endroit où vous pensez qu'il y aura le plus de couvain. Durant l'hiver, nous vous conseillons de le placer sur les cadres du corps supérieur de la ruche afin qu'il puisse prendre toute la chaleur montante de l'essaim.
 
 Afin de mettre en marche le BroodMinder-T2, appuyez sur le bouton pendant 10 secondes. 
 
