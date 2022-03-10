@@ -1,6 +1,5 @@
 # Balance DIY - Faites-le vous même
 
-## Vue d'ensemble
 
 ![DIY Kit](./images/diy/diy_all.jpg)
 

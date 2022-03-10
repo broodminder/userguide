@@ -1,8 +1,7 @@
 # Application BeesApp
 
-![](./images/Broodminder_bees.png#smallImg)
+![](./images/BroodMinder_Bees.png#smallImg)
 
-## Vue d'ensemble
 Introduite en 2021, l'application BroodMinder-BEES est l'application Broodminder la plus puissante. Nous vous recommandons vivement de l'utiliser plutôt que l'application BroodMinder-Lite ou l'application BroodMinder-Apiary.
 
 L'application BEES est structurée de la même manière que le site Web MyBroodMinder.com. Nous l'avons retravaillée pour améliorer l'expérience utilisateur.

@@ -9,7 +9,7 @@ C'est la troisième génération d'application mobile. Elle a succédé Broodmin
 
 Pour des raisons de compatibilité, et habitude ces anciennes Apps sont encore disponibles sur les stores, mais vous avez tout à ganer en utilisant Bees App. C'est la seule qui soit maintenue à ce jour.
 
-![BroodMinder](./images/broodminder_bees.png#smallImg)
+![BroodMinder](./images/BroodMinder_Bees.png#smallImg)
  
 ### Récupération des données des capteurs
 

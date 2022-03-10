@@ -1,7 +1,5 @@
 # Mellisphera.com
 
-## Présentation générale 
-
 Mellisphera est intégrée avec BroodMinder. Ainsi, vous devez créer un compte MyBroodMinder et configurer vos ruchers / ruches soit avec la `BeesApp` soit sur [MyBroodMinder.com](https://mybroodminder.com). Ces deux outils permettent de façon indistincte de créer des ruchers et ruches, leur affecter les capteurs et de visualiser les données brutes mesurées. 
 
 ![Ecran BroodMinder](./images/ecran_MBM.png#largeImg)

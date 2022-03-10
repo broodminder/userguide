@@ -1,5 +1,7 @@
 # Dépannage du Cell Hub
 
+**NOTA : Ce guide s'applique aux modèles 44, 46 et 50 seulement**
+
 ## Installez la SIM
 Voici les étapes pour installer la SIM
 1. débranchez la carte 3G

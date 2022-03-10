@@ -2,8 +2,6 @@
 
 ![](./images/products/SubHub.jpg#smallImg)
 
-## Vue d'ensemble
-
 Le SubHub est à la fois un prolongateur de portée Bluetooth et un coffre-fort de données à haut débit. Il tient dans un boîtier de la taille d'une télécommande de télévision.
 - Placez le SubHub près de vos ruches et il recueillera les données de vos capteurs et les retransmettra à plus de 300 mètres, vous permettant de recueillir des données sans avoir à vous tenir directement dans votre rucher. 
 - Il est également doté d'un protocole de turbo-transfert, d'un mois de données provenant de 50 appareils en 2 minutes et d'une batterie d'une durée de vie prolongée.

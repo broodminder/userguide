@@ -35,7 +35,7 @@ Des capteurs de poids, de température, d'humidité.. Une gamme complète et en 
 
 Tous les capteurs transmettent les informations en Bluetooth et, bien entendu, vous pouvez utiliser votre smartphone pour recueillir ces données. Il suffit de télécharger l'App BroodMinder Bees à partir de votre store préféré (Apple ou Android).
 
-![](./images/Broodminder_Bees.png#smallImg)
+![](./images/BroodMinder_Bees.png#smallImg)
 
 
 ### Transmetteur de données (Hub)
