@@ -4,18 +4,13 @@
 
 ### Quelles sont les différentes applications mobile de BroodMinder ?
 
-L'application BroodMinder (ou BroodMinder Lite) est l'application gratuite de base. Elle vous permet de consulter vos appareils, de vous envoyer des données par courrier électronique, de voir des graphiques, d'annoter vos inspections...etc.
+Vous devez utiliser Broodminder BEES.
+C'est la troisième génération d'application mobile. Elle a succédé Broodminder Apiary qui avait elle même remplacé Broodminder Lite.
 
-![BroodMinder](./images/05_broodminder_lite.png#smallImg)
+Pour des raisons de compatibilité, et habitude ces anciennes Apps sont encore disponibles sur les stores, mais vous avez tout à ganer en utilisant Bees App. C'est la seule qui soit maintenue à ce jour.
+
+![BroodMinder](./images/broodminder_bees.png#smallImg)
  
-BroodMinder Apiary est une application plus performante. Elle permet de télécharger les données de tous vos appareils BroodMinder en un seul geste. C'est un excellent gain de temps pour les utilisateurs disposant de nombreux capteurs. L'application est gratuite mais elle nécessite de disposer d'un abonnement pour les fonctionnalités de productivité.
-
-![BroodMinder Apiary](./images/11_0_broodminder_apiary.png#smallImg)
-
-BroodMinder Cell est l'application qui permet de contrôler les Hub.
-
-![BroodMinder Cell](./images/11_0_broodminder_cell.png#smallImg)
-
 ### Récupération des données des capteurs
 
 #### Les capteurs enregistrent-ils les mesures ?
@@ -24,7 +19,7 @@ Tous les capteurs ont une mémoire interne. A chaque heure, ils effectuent un re
 
 #### Comment fonctionne la récupération de données avec smartphone ?
 
-Vous devez vous rendre sur votre rucher avec un smartphone possédant l'une des applications BroodMinder (Lite ou Apiary). La synchronisation pour les comptes gratuits se fait capteur par capteur. L'ensemble des capteurs fonctionne en Bluetooth. La portée du smartphone est de quelques mètres.
+Vous devez vous rendre sur votre rucher avec un smartphone possédant BroodMinder Bees. La synchronisation pour les comptes gratuits se fait capteur par capteur. L'ensemble des capteurs fonctionne en Bluetooth. La portée du smartphone est de quelques mètres.
 
 #### Comment fonctionne la récupération de données avec un Hub ?
 
@@ -36,17 +31,17 @@ Vous pouvez visionner la vidéo suivante :
 
 #### Je n'arrive pas à synchroniser mes ruches, que puis-je faire ?
 
-La portée du Bluetooth dépend de nombreux facteurs. Sur certaines ruches, la portée est faible. Positionnez-vous au plus près de la ruche et essayez de nouveau en suivant les instructions. Si un nouvel échec apparaît, contactez-nous à support@mellisphera.com. 
+La portée du Bluetooth dépend de nombreux facteurs. Sur certaines ruches, la portée peut être réduite. Positionnez-vous assez près de la ruche et essayez de nouveau en suivant les instructions. Si un nouvel échec apparaît, contactez-nous à support@mellisphera.com. 
 
 ### Batterie 
 
 #### La pile est-elle remplaçable ?
 
-Oui, toutes les piles sont de type bouton CR2032, disponibles dans toute grande surface.
+Oui, les piles des sondes de couvain sont de type bouton CR2032, disponibles dans toute grande surface. Pour les balances il y a soit des formats AA ou AAA.
 
 #### Combien de temps la batterie dure-t-elle ?
 
-En conditions normales la batterie dure plus d'un an. Il est recommandé de la remplacer pendant la récolte d'automne. On vous avertit lorsqu'il est temps de la remplacer.
+En conditions normales la batterie dure plus d'un an. Il est recommandé de la remplacer pendant la récolte d'automne. Si vous avez les alertes activées, vous serez averti lorsqu'il est temps de la remplacer.
 
 #### Les capteurs BroodMinder durent-t-il plus d'un an ?
 
@@ -81,7 +76,7 @@ Vous pouvez changer votre système d’unité (métrique ou impérial). Vous pou
 ## Données
 
 ### A quel moment sont actualisées les données ?
-Les données horaires sont actualisées toutes les heures si de nouvelles données sont disponibles. 
+Les données horaires sont actualisées toutes les heures si de nouvelles données sont disponibles. Mais aussi à chaque connexion de l'utilisateur.
 
 Les données journalières (météo, couvain, poids, etc.) sont actualisées à deux moments de la journée pour que chaque matin en Europe et en Amérique les données soient disponibles : entre 6h30 et 7h30 et entre 12h30 et 13h30 UTC.
 
@@ -121,7 +116,7 @@ Toutefois rassurez vous, les données restent et vous pouvez encore les retrouve
 
 ![Désactiver ruche](./images/desactive_hive.png#largeImg)
 
-Attention, cette action est irréversible. Vous ne pourrez plus activer de nouveau cette ruche mais vous pourrez toutefois en créer une nouvelle sous le même nom.
+Attention, cette action est irréversible. Vous ne pourrez plus activer de nouveau cette ruche mais vous pourrez toutefois en créer une nouvelle sous le même nom. Les données restent accessibles mais vous ne les verrez plus à partir de l'arbre du rucher.
 
 #### Mon calendrier lunaire ainsi que les calendriers associés à la météo sont toujours vides, que faire ? 
 
