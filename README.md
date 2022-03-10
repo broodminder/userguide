@@ -46,7 +46,7 @@ le site en version html est généré et installé sur un virtual host dans `/va
 Pour mkdocs, un diff montre trop de différence entre serveur et local, le sed peut fonctionner mais la ligne est longue, trop facile de se tromper. Ainsi la solution la plus simple que j’ai trouvé est :
 
 Coté serveur
-- `./build.sh` qui génére les dites FR et EN à la fois
+- `./build.sh` qui génére les sites FR et EN à la fois
 
 Côté machine locale
 ```
