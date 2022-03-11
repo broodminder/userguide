@@ -48,6 +48,9 @@ Pour mkdocs, un diff montre trop de différence entre serveur et local, le sed p
 Coté serveur
 - `./build.sh` qui génére les sites FR et EN à la fois
 
+
+
+
 Côté machine locale
 ```
 cd userguide/en
