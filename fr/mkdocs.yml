@@ -23,25 +23,30 @@ nav:
   - index.md
   - Introduction: 'intro.md'
   - Guide de démarrage rapide 🚀 : 'quick_start_guide.md'
-  - Capteurs: 'capteurs.md'
+  - Capteurs: 
+    - gamme de capteurs : 'capteurs_gamme.md'
+    - installation: 'capteurs_install.md'
+    - balance DIY: 
+      - guide utilisateur: DIY_section/guide_utilisateur_diy.md
+      - modèle CRI: DIY_section/model_cri.md
   - Récupération de données: 
-    - Avec smartphone: 'beesApp.md'
-    - Avec Hub 4G/WiFi: 'hub.md'
-    - Avec SubHub: 'subhub.md'
+    - avec smartphone: 'beesApp.md'
+    - avec Hub 4G/WiFi: 'hub.md'
+    - avec SubHub: 'subhub.md'
   - MyBroodminder: 'mybroodminder.md'
   - Mellisphera: 'mellisphera.md'
   - Interpretation: 'data_interpretation.md'
   - Science collaborative: 'beecounted.md'
   - _____: 'void.md'
-  - Balance DIY 🆕 :
-    #- DIY_section/index.md
-    - Guide utilisateur: DIY_section/guide_utilisateur_diy.md
-    - Modèle CRI: DIY_section/model_cri.md
-  - T2 Swarminder: 'new_t2sm.md'
-  - _____: 'void.md'
+  #- Balance DIY 🆕 :
+  #  #- DIY_section/index.md
+  #  - Guide utilisateur: DIY_section/guide_utilisateur_diy.md
+  #  - Modèle CRI: DIY_section/model_cri.md
+  #- T2 Swarminder: 'new_t2sm.md'
+  #- _____: 'void.md'
   - FAQ: 'faq.md'
   - Support: 'support.md'
-  - Dépanner le Hub GSM : 'troubleshooting_cell_hub.md'
+  - Dépanner l'ancien Hub 4G : 'troubleshooting_cell_hub.md'
   - Maintenance d'hiver : 'winter_service.md'
   - _____: 'void.md'
 

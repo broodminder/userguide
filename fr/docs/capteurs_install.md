@@ -1,6 +1,4 @@
-# Capteurs
-
-## Installation des capteurs
+# Installation des capteurs
 
 [![Présentation et mise en route des 3 capteurs](https://img.youtube.com/vi/fanEzs-6fb4/0.jpg)](https://www.youtube.com/watch?v=fanEzs-6fb4)
 
