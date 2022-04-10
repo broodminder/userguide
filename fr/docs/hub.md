@@ -4,7 +4,7 @@ A ce jour nous proposons plusieurs types de transmetteurs.
 
 - Le Hub-T91 est un hub cellulaire complètement autonome (solaire) equipé avec une carte SIM.
 
-![](./images/products/T91_solar.jpg#smallImg)
+![](./images/products/t91_solar.jpg#smallImg)
 
 
 - Il y a également deux modèles de transmetteur Wifi pour les apiculteurs qui ont le rucher dans leur jardin. 
