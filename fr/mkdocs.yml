@@ -24,18 +24,22 @@ nav:
   - Introduction: 'intro.md'
   - Guide de démarrage rapide 🚀 : 'quick_start_guide.md'
   - Capteurs: 
-    - gamme de capteurs : 'capteurs_gamme.md'
-    - installation: 'capteurs_install.md'
-    - balance DIY: 
-      - guide utilisateur: DIY_section/guide_utilisateur_diy.md
-      - modèle CRI: DIY_section/model_cri.md
+    - Gamme de capteurs : 'capteurs_gamme.md'
+    - Spec technique: 'capteurs_tech_specs.md'
+    - Installation: 'capteurs_install.md'
+    - Balance DIY: 
+      - Guide utilisateur: DIY_section/guide_utilisateur_diy.md
+      - Modèle CRI: DIY_section/model_cri.md
   - Récupération de données: 
-    - avec smartphone: 'beesApp.md'
-    - avec Hub 4G/WiFi: 'hub.md'
-    - avec SubHub: 'subhub.md'
-  - MyBroodminder: 'mybroodminder.md'
-  - Mellisphera: 'mellisphera.md'
-  - Interpretation: 'data_interpretation.md'
+    - App Bees: 'beesApp.md'
+    - Hub 4G/WiFi: 'hub.md'
+    - SubHub: 'subhub.md'
+  - Analyse de données:
+    - MyBroodminder: 'mybroodminder.md'
+    - Mellisphera: 'mellisphera.md'
+    - Interpretation: 'data_interpretation.md'
+    - Périmètre fonctionel: 'features.md'
+
   - Science collaborative: 'beecounted.md'
   - _____: 'void.md'
   #- Balance DIY 🆕 :

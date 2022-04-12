@@ -1,4 +1,6 @@
-# La plus large gamme de capteurs au monde
+# La plus large gamme de capteurs pour l'apiculture
+
+ ![](./images/products/gamme_complete.jpg#medium)
 
 | **Produit** | **Dénomination** | **Description** |
 |-            |--               |                  |
@@ -15,5 +17,5 @@
 | ![](./images/products/t91.png#medium) | Hub 4G | Connectivité optimale avec sa carte SIM multi-opérateur. |
 | ![](./images/products/t91_weather.jpg#medium) | Hub 4G Météo | Deux en un : Transmission de données ET station météo (température, hygro et pression) |
 | ![](./images/products/t91_solar.jpg#medium) | Hub 4G Solaire | Autonomie à l'infini avec cette version boostée avec un kit solaire. |
-|   |   |  |
 
+Pour plus de détails [voir la spec technique de chaque produit ](https://doc.mellisphera.com/fr/capteurs_tech_specs/)
