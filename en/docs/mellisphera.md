@@ -215,6 +215,9 @@ By hovering over it, you will see information about your hives.
 
 It is  an extremely powerful tool for analysing data over long or short periods of time, on hives that are from the same apiary or from different ones because the analysis benefits from a great flexibility.
 
+I you want to dive deeper into what this metric means and how the brood model is working you should [read this](#brood-level-bforce).
+
+
 ### Weight
 
 The Weight tab offers a complete tool for the analysis of hive weights of all apiaries with 4 views available: 

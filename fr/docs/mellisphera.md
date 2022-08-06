@@ -213,6 +213,8 @@ Au survol, vous pourrez voir les informations relatives aux ruches et les evenem
 
 Cet outil est extrêmement performant pour analyser des données sur des longues ou courtes périodes de temps, sur des ruches d'un même rucher ou de différents ruchers. Il donne une large flexibilité pour l'analyse.
 
+Nota : si vous souhaitez approfondir cette métrique de couvain et le fonctionnement de l'algorithme subjacent, vous pouvez [lire ceci](#niveau-de-couvain-bforce).
+
 ### Poids
 
 L'onglet Poids propose un outil complet pour l'analyse des poids des ruches de tous les ruchers avec 4 vues qui sont disponibles : 
