@@ -1,6 +1,12 @@
-# Dépannage du Cell Hub
+# Dépannage du Cell Hub modèles 44, 46 et 50
 
 **NOTA : Ce guide s'applique aux modèles 44, 46 et 50 seulement**
+
+Ces hubs ne sont pas configurables avec Broodminder Bees app. **Vous devez installer Broodminder Cell App** [Android](https://play.google.com/store/apps/details?id=com.broodminder.cell&hl=en_US&gl=US), [iOs](https://play.google.com/store/apps/details?id=com.broodminder.cell&hl=en_US&gl=US) to manage the settings
+
+
+
+![Hub Cell](./images/hub_gsm_old.png)
 
 ## Installez la SIM
 Voici les étapes pour installer la SIM
