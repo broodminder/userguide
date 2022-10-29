@@ -10,6 +10,7 @@ Ces hubs ne sont pas configurables avec Broodminder Bees app. **Vous devez insta
 
 ## Installez la SIM
 Voici les étapes pour installer la SIM
+
 1. débranchez la carte 3G
 2. ouvrir le boitier : le faire glisser vers le haut à travers l'antenne avec le pouce puis le tirer vers le haut pour le sortir
 3. introduisez la SIM dans la bonne position
@@ -22,7 +23,7 @@ Voici les étapes pour installer la SIM
 
 ## Démarrage typique
 Allumez le hub,
-vous devriez voir :
+au démarrage vous devriez voir :
 
 - la led D1 (orange) cligniter plusieurs fois
 - la led PWR1 (verte) allumée

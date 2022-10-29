@@ -11,6 +11,7 @@ Those hubs are not available trough the Broodminder Bees app. **You will need to
 
 ## Install SIM
 Here are the steps to install SIM
+
 1. unplug the 3G Card
 2. open the shield : slide it up through the antenna with the thumb then pull up to leave it
 3. introduce SIM in the right position
@@ -25,6 +26,7 @@ Here are the steps to install SIM
 Switch on the hub,
 you should see :
 At startup after switching on you should see
+
 - Led D1 (orange) blinking several times
 - Led PWR1 (green) on
 - Led STAT (yellow) on
