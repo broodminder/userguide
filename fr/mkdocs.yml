@@ -7,7 +7,7 @@ theme:
   palette:
     scheme: default
 site_url: https://doc.mellisphera.com
-site_description : Broodminder-Mellisphera Guide Utilisateur
+site_description : Guide Utilisateur BroodMinder
 markdown_extensions:
   - admonition
   - pymdownx.tasklist:
