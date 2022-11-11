@@ -27,7 +27,7 @@ nav:
     - Gamme de capteurs : 'capteurs_gamme.md'
     - Spec technique: 'capteurs_tech_specs.md'
     - Installation: 'capteurs_install.md'
-    - W3 en kit: 'W3_section/W3-Assembly-Guide-1v30.md'
+    - W3 en kit: 'W3_section/W3-Assembly-Guide.md'
     - Balance DIY: 
       - Guide utilisateur: DIY_section/guide_utilisateur_diy.md
       - Modèle CRI: DIY_section/model_cri.md
