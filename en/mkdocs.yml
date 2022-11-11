@@ -23,7 +23,9 @@ nav:
   - index.md
   - Introduction: 'intro.md'
   - Quick start guide 🚀 : 'quick_start_guide.md'
-  - Sensors: 'sensors.md'
+  - Sensors: 
+    - Installation : 'sensors.md'
+    - W3 Kit guide: 'W3_section/W3-Assembly-Guide-1v30.md'
   - Data upload: 'data_upload.md'
   - MyBroodminder: 'mybroodminder.md'
   - Mellisphera: 'mellisphera.md'
