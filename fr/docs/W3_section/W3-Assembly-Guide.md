@@ -1,8 +1,5 @@
 # BroodMinder-W3 Kit Guide
 
-This full assembly guide (12 pages) can be found at
-[https://doc.mybroodminder.com/en/W3_section/W3-Assembly-Guide/](https://doc.mybroodminder.com/en/W3_section/W3-Assembly-Guide/)
-
 ## Overview
 
 For the purposes of this guide, we will refer to the BroodMinder-W3 as:
