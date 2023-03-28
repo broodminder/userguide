@@ -3,8 +3,8 @@
 ## ***********************************
 
 
-## IMPORTANT NOTE THJIS USER GUIDE IS NO MORE MAINTAINED. 
-## CONTENTS HAVE BEEN MOVED TO https://github.com/broodminder/userguide
+## IMPORTANT NOTE THIS REPOSITORY IS NO MORE MAINTAINED. 
+## USER GUIDE HAS BEEN MOVED TO https://github.com/broodminder/userguide
 
 ## ***********************************
 
