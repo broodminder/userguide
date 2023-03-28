@@ -1,16 +1,5 @@
 # userguide
 
-## ***********************************
-
-
-## IMPORTANT NOTE THIS REPOSITORY IS NO MORE MAINTAINED. 
-## USER GUIDE HAS BEEN MOVED TO https://github.com/broodminder/userguide
-
-## ***********************************
-
-
-
-
 
 ## Install mkdocs
 ```pip install mkdocs```
