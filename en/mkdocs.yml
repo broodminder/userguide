@@ -21,32 +21,33 @@ extra_css:
   - css/extra.css
 nav:
   - index.md
-  - Introduction: 'intro.md'
-  - Quick start guide 🚀 : 'quick_start_guide.md'
-  - Sensors: 
-    - Installation : 'sensors.md'
-    - W3 Kit guide: 'W3_section/W3-Assembly-Guide.md'
-  - Data upload: 'data_upload.md'
-  - MyBroodminder: 'mybroodminder.md'
-  - Mellisphera: 'mellisphera.md'
-  - Data interpretation: 'data_interpretation.md'
-  - Beecounted: 'beecounted.md'
+  - Introduction: '10_intro.md'
+  - Quick start guide 🚀 : '20_quick_start_guide.md'  
   - _____: 'void.md'
-  - BeesApp: 'beesApp.md'
-# - Sub-Hub 🆕 : 'new_subhub.md'
-# - Balance DIY 🆕 :
-#    #- DIY_section/index.md
-#    - Guide utilisateur: DIY_section/guide_utilisateur_diy.md
-#    - Modèle CRI: DIY_section/model_cri.md
-  - T2 Swarminder: 'new_t2sm.md'
+  - Sensors: '30_sensors.md'
+  - BeesApp: '40_beesApp.md'
+  - MyBroodminder: '50_mybroodminder_v5.md'
+  - Hubs: '60_hubs.md'
+  - Tokens: '65_tokens.md'
+  - Winter service : '70_winter_service.md' 
+  
   - _____: 'void.md'
-  - FAQ: 'faq.md'
-  - Support: 'support.md'
+  - Example setups: '73_examples.md'
+  - Data interpretation: '76_data_interpretation.md'
+  - Beecounted: '79_beecounted.md'
   - _____: 'void.md'
-  - Hub Troublehooting : 'troubleshooting_cell_hub.md'
-  - Winter service : 'winter_service.md'
+  - W3 Kit guide: '82_diy_guide.md'
   - _____: 'void.md'
+  - FAQ: '85_faq.md'
+  - Video Library: '86_video_library.md' 
+  - Tech Stuff and Physics: '87_physics_and_tech_stuff.md'  
+  - Troublehooting: '88_troubleshooting.md'
+  - Repair Guide: '89_repair_guide.md'
 
+  - _____: 'void.md'
+  - Distributors: '94_distributorInfo.md'  
+  - Legacy Devices: '97_legacy_devices.md'   
+  - _____: 'void.md'
 
 # check for documentation on commands
 # https://squidfunk.github.io/mkdocs-material/reference/lists/
