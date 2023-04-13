@@ -66,11 +66,9 @@ NOTE: On the next page you will find our circuitry. You may wonder why we share 
 
 ​     ![image-20230409111316247](./82_diy_guide.assets/image-20230409111316247.png)
 
-![image-20230409111316498](./82_diy_guide.assets/image-20230409111316498.png)
 
- 
 
-Here are two types of load cells (also called strain gauges). We are happy to provide you with either type. If you get your own, be sure that they are temperature compensated and have very low creep. The resistance of the 200KG load cell is roughly 300 ohms per leg. For the 50KG load cells it is around 750 ohms.
+ Here are two types of load cells (also called strain gauges). We are happy to provide you with either type. If you get your own, be sure that they are temperature compensated and have very low creep. The resistance of the 200KG load cell is roughly 300 ohms per leg. For the 50KG load cells it is around 750 ohms.
 
 Most load cells seem to use this color scheme for the wires. If that is the case, then wire them like this.
 

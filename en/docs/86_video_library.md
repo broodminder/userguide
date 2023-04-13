@@ -4,41 +4,41 @@ We've made lots of videos over the years. Here is a list of them with links.
 
 ## Installation
 
-[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)
-[BroodMinder ASP Installation](https://youtu.be/B14U5S49EEE)
-[BroodMinder-SubHub](https://youtu.be/Y0EgtksIqHU)
-[BroodMinder-WIFI](https://youtu.be/10jw51jqmT0)
-[BroodMinder-CELL](https://youtu.be/4Mh9DT7VblI)
-[BroodMinder-BeeDar](https://youtu.be/Pw1EFYKX2KU)
-[S1:E17 BroodMinder-W3 Full Hive Scale](https://youtu.be/tI6Kw-PU_3A)
-[S1:E19 BroodMinder-DIY](https://youtu.be/3xdnkD1NpHo)
+- [Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)
+- [BroodMinder ASP Installation](https://youtu.be/B14U5S49EEE)
+- [BroodMinder-SubHub](https://youtu.be/Y0EgtksIqHU)
+- [BroodMinder-WIFI](https://youtu.be/10jw51jqmT0)
+- [BroodMinder-CELL](https://youtu.be/4Mh9DT7VblI)
+- [BroodMinder-BeeDar](https://youtu.be/Pw1EFYKX2KU)
+- [S1:E17 BroodMinder-W3 Full Hive Scale](https://youtu.be/tI6Kw-PU_3A)
+- [S1:E19 BroodMinder-DIY](https://youtu.be/3xdnkD1NpHo)
 
 ## MyBroodMinder
 
-[Getting Started](https://youtu.be/yVJyK7epnaY)
-[The Data Views](https://youtu.be/kOA9ApkkQgo)
-[Configuration](https://youtu.be/TAwZaPr-d20)
-[Moving Devices](https://youtu.be/xAiVaRKCRZo)
-[Cell, WIFI and Hub Monitoring](https://youtu.be/JXfLwWaJT_A)
-[Alternate Navigation](https://youtu.be/82msJgNy8Ms)
-[MyBroodMinder.com Premium](https://youtu.be/JAAVzttW6ag)
+- [Getting Started](https://youtu.be/yVJyK7epnaY)
+- [The Data Views](https://youtu.be/kOA9ApkkQgo)
+- [Configuration](https://youtu.be/TAwZaPr-d20)
+- [Moving Devices](https://youtu.be/xAiVaRKCRZo)
+- [Cell, WIFI and Hub Monitoring](https://youtu.be/JXfLwWaJT_A)
+- [Alternate Navigation](https://youtu.be/82msJgNy8Ms)
+- [MyBroodMinder.com Premium](https://youtu.be/JAAVzttW6ag)
 
 ## Apps
 
-[S1:E14 The BroodMinder-Bees App](https://youtu.be/qF0VykUFYzs)
-[Apiary App - Hub Mode](https://youtu.be/LQsblm7G-SI)
+- [S1:E14 The BroodMinder-Bees App](https://youtu.be/qF0VykUFYzs)
+- [Apiary App - Hub Mode](https://youtu.be/LQsblm7G-SI)
 
 ## Data Interpretation
 
-[S1:E4 BroodMinder and Mellisphera](https://youtu.be/wru1jOZ9qbk)
-[S1:E3 Colony size vs temperature](https://youtu.be/r1XjAYiTHgE)
-[S1:E8 Swarm Detection presentation](https://youtu.be/jmRjC8yvCQU)
+- [S1:E4 BroodMinder and Mellisphera](https://youtu.be/wru1jOZ9qbk)
+- [S1:E3 Colony size vs temperature](https://youtu.be/r1XjAYiTHgE)
+- [S1:E8 Swarm Detection presentation](https://youtu.be/jmRjC8yvCQU)
 
 ## Maintenance
 
-[S1:E1 Hive Monitoring Spring Maintenance](https://youtu.be/3bXVbkQ1t_8)
-[S1:E18 Batteries](https://youtu.be/RmTpYHZxrf0)
-[Troubleshooting T2 Power On](https://youtu.be/NtjtV7TKFgc)
+- [S1:E1 Hive Monitoring Spring Maintenance](https://youtu.be/3bXVbkQ1t_8)
+- [S1:E18 Batteries](https://youtu.be/RmTpYHZxrf0)
+- [Troubleshooting T2 Power On](https://youtu.be/NtjtV7TKFgc)
 
 ## DIY
 

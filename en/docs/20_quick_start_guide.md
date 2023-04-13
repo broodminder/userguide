@@ -20,7 +20,7 @@ We have done our best to make the installation and usage of your BroodMinder int
 
 - Start the bees app and create a MyBroodMinder.com account.
 
-   ![image-20230407171611908](./20_quick_start_guide.assets/image-20230407171611908.png)
+   ![image-20230407171611908](./20_quick_start_guide.assets/image-20230407171611908.png#mediumImg)
 
    
 

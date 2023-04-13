@@ -31,14 +31,15 @@ All the sensors transmit the information via Bluetooth and, of course, you can u
 
 The 4th generation app for your phone or table is call the "Bees" app and is available for iPhone or Android. This is the quickest and easiest way to start collection data from the sensors. Use it in the apiary to locate the sensors and to take hive/apiary notes by either typing or speaking to the phone. With the app you can collect and review the data regardless of if the apiary has cellular or WiFi connectivity. The app will then automatically synchronize with MyBroodMinder.com, our cloud based analysis system. when internet becomes available.
 
-![](.\10_intro.assets\image-20230407160940733.png#smallImg)
+
+![](.\10_intro.assets\image-20230407160940733.png#mediumImg)
 
 
 ### MyBroodMinder.com
 
 The data transmitted by your phone or by the hub arrive on the [Mybroodminder.com](https://mybroodminder.com) portal. In this space, you can configure your apiary, your hives and assign your sensors to them. You can also visualize the raw data on fluid and interactive graphs.
 
-![image-20230407155319801 ](10_intro.assets\image-20230407155319801.png)
+![image-20230407155319801 ](.\10_intro.assets\image-20230407155319801.png)
 
 ### Hub 
 

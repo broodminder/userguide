@@ -8,8 +8,6 @@ The quick tour is pretty long. There are a lot of useful features. Let's start b
 
 The best way to learn is to read this guide while looking at your MyBroodMinder account.
 
-![(C:\Users\Rich Morris\BroodMinder Dropbox\UserDocumentation\userguide\en\docs\50_mybroodminder_v5.assets\image-20230407161449194.png)
-
 ![image-20230407161237301](./50_mybroodminder_v5.assets/image-20230407161237301.png)
 
 ### Home Screen

@@ -23,4 +23,4 @@ echo " "
 echo "done"
 ls -l  /var/www/html/doc/
 
-echo "terminé"
+echo "done"
