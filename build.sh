@@ -5,9 +5,11 @@
 # cp -Rr /mellisphera/prod/userguide/fr/site/* /var/www/html/doc/
 # sudo docker container rm -f doc
 
-echo "build"
+echo "build en"
 cd ./en
  mkdocs build --clean
+
+echo "build fr"
 cd ../fr
  mkdocs build --clean
 cd ..
