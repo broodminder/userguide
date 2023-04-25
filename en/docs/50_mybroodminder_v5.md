@@ -22,10 +22,10 @@ Here you will find a quick glanceable view of all the hives that you own. Hives 
 
 At a glance information shown here:
 
-* Fitness - Daily hive fitness state, learn more [here](#colony-health---bfit)
-* Brood - Daily brood level, learn more [here](#brood-level---bforce)
+* Fitness - Daily hive fitness state, learn more [here](#colony-health-bfit)
+* Brood - Daily brood level, learn more [here](#brood-level-bforce)
 * Weight - Daily hive weight
-* Productivity - Daily hive productivity, learn more [here](#productivity---bweight)
+* Productivity - Daily hive productivity, learn more [here](#productivity-bweight)
 * Alerts
 * Notes
 
