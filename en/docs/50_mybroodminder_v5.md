@@ -248,7 +248,6 @@ In this example, the grey hive has a high proportion of brood, contrary to the r
 - evolution of surrounding colonies
 - season, latitude & climate
 - other events identified in the hive
-- hive type
 
 BForce is also a **strengthening tool in swarm detection**. In fact, when a swarm has been detected by one of our Machine Learning tools, the brood is impacted by the queen loss and thus the interruption of egg-laying. With BForce, we can classify the different swarms detected.
 
