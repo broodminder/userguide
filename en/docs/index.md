@@ -9,5 +9,5 @@ You can also check out the video help that you will find at  [MyBroodMinder.com]
 
 Our legacy manual (2015-2022) is available [here.](https://www.dropbox.com/s/hwmde6h97sbmzl4/BroodMinder-User-Guide.pdf?dl=0)
 
-We appreciate your help in making this documentation complete and accurate. Please report errors, ideas, and suggestions to docs@broodminder.com
+We appreciate your help in making this documentation complete and accurate. Please report errors, ideas, and suggestions to [docs@broodminder.com](mailto:docs@broodminder.com)
 
