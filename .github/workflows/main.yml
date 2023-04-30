@@ -22,5 +22,5 @@ jobs:
           whoami >> toto.txt
           env >> toto.txt
           git pull >> toto.txt
-          build.sh >> toto.txt
+          ./build.sh >> toto.txt
         
