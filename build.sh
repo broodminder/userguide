@@ -5,6 +5,8 @@
 # cp -Rr /mellisphera/prod/userguide/fr/site/* /var/www/html/doc/
 # sudo docker container rm -f doc
 
+PATH=/home/msrun/.pyenv/plugins/pyenv-virtualenv/shims:/home/msrun/.pyenv/shims:/home/msrun/.pyenv/bin:/opt/mellisphera/anaconda3/bin:/opt/mellisphera/anaconda3/condabin:/opt/anaconda/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
 echo "build en"
 cd ./en
  mkdocs build --clean
