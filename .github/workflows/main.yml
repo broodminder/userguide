@@ -1,0 +1,22 @@
+name: Deploy UserGuide
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy userguide to doc.mybroodminder.com
+      uses: appleboy/ssh-action@master
+      with:
+        username: ${{ secrets.USERNAME }}
+        host: ${{ secrets.HOST }}
+        key: ${{ secrets.PRIVATE_KEY }}
+        port: 1150
+        script: |
+          cd /mellisphera/prod/userguide/
+          git pull 
+          ./build.sh
+        
