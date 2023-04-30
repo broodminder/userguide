@@ -63,13 +63,11 @@ Installation is super easy because we set everything up before shipping.
    - Push the connector into the Thingy91 jack.
    - Secure the bracket with the screw that we included.
 
-
-
-
+![image-20230408084356882](./60_hubs.assets/image-20230408084356882.png)
 
 ## BroodMinder-WIFI Hub (BRM-60)
 
-The BroodMinder-WIFI comes in two flavors. One with an internal antenna and one with an external antenna. If you have good WIFI in your apiary, the internal an![image-20230408084356882](./60_hubs.assets/image-20230408084356882.png)tenna version should work for you.
+The BroodMinder-WIFI comes in two flavors. One with an internal antenna and one with an external antenna. If you have good WIFI in your apiary, the internal antenna version should work for you.
 
 We recommend setting this up where there is strong WIFI and a nice work area prior to placing in your apiary.
 
