@@ -16,11 +16,11 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: 1150
         script: |
+          cd /mellisphera/prod/userguide/
           hostname 
           pwd > toto.txt
           whoami >> toto.txt
           env >> toto.txt
-          #cd /mellisphera/prod/userguide/
-          #git pull 
-          #./build.sh
+          git pull >> toto.txt
+          build.sh >> toto.txt
         
