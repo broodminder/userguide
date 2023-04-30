@@ -7,11 +7,11 @@
 
 PATH=/home/msrun/.pyenv/plugins/pyenv-virtualenv/shims:/home/msrun/.pyenv/shims:/home/msrun/.pyenv/bin:/opt/mellisphera/anaconda3/bin:/opt/mellisphera/anaconda3/condabin:/opt/anaconda/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
-echo "build en"
+echo "build EN"
 cd ./en
  mkdocs build --clean
 
-echo "build fr"
+echo "build FR"
 cd ../fr
  mkdocs build --clean
 cd ..
@@ -27,4 +27,4 @@ echo " "
 echo "done"
 ls -l  /var/www/html/doc/
 
-echo "done"
+echo "Doc is deployed"        
