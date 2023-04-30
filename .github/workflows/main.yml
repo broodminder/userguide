@@ -17,6 +17,10 @@ jobs:
         port: 1150
         script: |
           cd /mellisphera/prod/userguide/
-          git pull 
-          ./build.sh
+          hostname 
+          pwd > toto.txt
+          whoami >> toto.txt
+          env >> toto.txt
+          git pull >> toto.txt
+          ./build.sh >> toto.txt
         
