@@ -24,17 +24,17 @@ If you would like us to do this for you go to [BroodMinder-Refresh](https://broo
 
 ## T2 Maintenance
 
-- [ ] Change the battery as described in the video
+- [ ] Change the battery as described in the <a href="https://img.youtube.com/vi/alaZtXpn-g4/0.jpg)](https://www.youtube.com/watch?v=alaZtXpn-g4" target="_blank">video</a>
 
 [![Alt text](https://img.youtube.com/vi/alaZtXpn-g4/0.jpg)](https://www.youtube.com/watch?v=alaZtXpn-g4)
 
 
-- [ ] Start the device
+- [ ] <a href="https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg)](https://www.youtube.com/watch?v=tN9xUTq_bSc" target="_blank">Start the device</a>
 
 [![Alt text](https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg)](https://www.youtube.com/watch?v=tN9xUTq_bSc)
 
 
-- [ ] upgrade firmware as needed
+- [ ] <a href="https://img.youtube.com/vi/zK4vYvpur1E/0.jpg)](https://www.youtube.com/watch?v=zK4vYvpur1E" target="_blank">upgrade firmware as needed</a>
 
 [![Alt text](https://img.youtube.com/vi/zK4vYvpur1E/0.jpg)](https://www.youtube.com/watch?v=zK4vYvpur1E)
 
@@ -42,7 +42,7 @@ If you would like us to do this for you go to [BroodMinder-Refresh](https://broo
 
 ## TH Maintenance
 
-- [ ] Change the battery as described in the video
+- [ ] <a href="https://img.youtube.com/vi/tJTuL12vjps/0.jpg)](https://www.youtube.com/watch?v=tJTuL12vjps" target="_blank">Change the battery as described in the video</a>
 
 [![Alt text](https://img.youtube.com/vi/tJTuL12vjps/0.jpg)](https://www.youtube.com/watch?v=tJTuL12vjps)
 
@@ -53,7 +53,7 @@ If you would like us to do this for you go to [BroodMinder-Refresh](https://broo
 
 ## W Maintenance
 
-- [ ] change the battery as described in the video using the provided tool to remove the battery
+- [ ] <a href="https://img.youtube.com/vi/UBwJP61q2o4/0.jpg)](https://www.youtube.com/watch?v=UBwJP61q2o4" target="_blank">change the battery as described in the video using the provided tool to remove the battery</a>
 
 [![Alt text](https://img.youtube.com/vi/UBwJP61q2o4/0.jpg)](https://www.youtube.com/watch?v=UBwJP61q2o4)
 
@@ -77,7 +77,7 @@ If you would like us to do this for you go to [BroodMinder-Refresh](https://broo
 
 
 !!! warning
-    remember the battery has two modes **Always on** and **Auto off** : in the apiary it has to be **Always on**.
+    <a href="https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U" target="_blank">remember the battery (older white style, not the new silver battery) has two modes **Always on** and **Auto off** : in the apiary it has to be **Always on**.</a>
 
 [![Alt text](https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U)
 

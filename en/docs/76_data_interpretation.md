@@ -2,8 +2,6 @@
 
 In this section, we present some initial findings from Theo's hives. We are still very much in the learning mode and will appreciate your observations shared on the BroodMinder forum at BroodMinder.com.
 
-We are constantly posting updates and videos at [BroodMinder.com/pages/videos](https://broodminder.com/pages/videos). Be sure to check there.
-
 These reports were written in the summer of 2016. You can look directly at the data in MyBroodMinder.com by looking in the Claypoint apiary. This is available as a demo apiary.
 
 ![nom de l'image](./images/dataint/01_rucher.png#mediumImg)
@@ -268,7 +266,3 @@ The following actions will be taken or were taken already:
 All live hives will get a 20lb sugar board with top entrance. This will take care of the missing resources. They also get a 2" Styrofoam hive top insulation. Bottom entrances will be reduced to ¾" width, screened bottom boards will be closed and the Boardman entrance feeders will be removed.
 
 Good night girls. Sleep well and see you in the spring!
-
-All detailed charts from these hives can be viewed in the demo account of MyBroodMinder.com, use link below:
-
-[http://app.MyBroodMinder.com/apiary/detail/bEz8YnexZpjyiMd6s7lSFvqGVKkaIAP5](http://app.beekeeping.io/apiary/detail/bEz8YnexZpjyiMd6s7lSFvqGVKkaIAP5)

@@ -12,7 +12,7 @@ To achieve this goal, algorithms are our best friends. These are models that ana
 Some resources on precision beekeeping: 
 
 - [Precision beekeeping - Wikipedia](https://en.wikipedia.org/wiki/Precision_beekeeping)
-- [Precision beekeeping 101](https://eu.broodminder.com/blogs/blog/precision-beekeeping-101/)
+- <a href="https://eu.broodminder.com/blogs/blog/precision-beekeeping-101/" target="_blank">Precision beekeeping 101</a>
 
 ## Overview of the system
 The Broodminder system consists of several components. With this very modular system, you can start simply and then expand the use according to your needs.

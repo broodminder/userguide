@@ -90,7 +90,7 @@ After you install the Broodminder -W, look at the end of it. Through the plastic
 
 Using the typical installation, you will see small changes to the hive however, the absolute accuracy will not be as good. For improved accuracy, see the recommendations of the next section.
 
-The Broodminder-W is designed to measure ½ of the hive weight. To do this, we want you to support one side of the hive (front or back, left or right) with a 2x4 or similar [However, we recommend that you use a piece of 2" angle for the support. By orienting it so that the point of the angle iron is up, it gives a very precise pivot point. You should be able get this at your local hardware store. Aluminum is extra nice because it won't rust. A great place to get just what you need for less than $5 each is [Speedy Metals](https://www.speedymetals.com/pc-2186-8344-2-x-2-angle-6061-t6-aluminum-extruded.aspx)(1/8" {A} x 2" {B} x 2" {C} Angle 6061-T6 Aluminum, Extruded).]
+The Broodminder-W is designed to measure ½ of the hive weight. To do this, we want you to support one side of the hive (front or back, left or right) with a 2x4 or similar However, we recommend that you use a piece of 2" angle for the support. By orienting it so that the point of the angle iron is up, it gives a very precise pivot point. You should be able get this at your local hardware store. Aluminum is extra nice because it won't rust. A great place to get just what you need for less than $5 each is  <a href="https://www.speedymetals.com/pc-2186-8344-2-x-2-angle-6061-t6-aluminum-extruded.aspx" target="_blank">Speedy Metals</a> (1/8" {A} x 2" {B} x 2" {C} Angle 6061-T6 Aluminum, Extruded).]
 
 The Broodminder-W is placed under the opposite side.
 
@@ -100,7 +100,7 @@ There is a nice explanation of the math and physics involved in Appendix A, howe
 
 A better way to install will require a few modifications to your bottom board. You will make a couple of small cuts that will be used to accommodate precise and repeatable placement of the scale and support.
 
-First off, we recommend that you use a piece of 2" angle for the support. By orienting it so that the point of the angle iron is up, it gives a very precise pivot point. You should be able get this at your local hardware store. Aluminum is extra nice because it won't rust. A great place to get just what you need for less than $5 each is [Speedy Metals](https://www.speedymetals.com/pc-2186-8344-2-x-2-angle-6061-t6-aluminum-extruded.aspx)(1/8" {A} x 2" {B} x 2" {C} Angle 6061-T6 Aluminum, Extruded).
+First off, we recommend that you use a piece of 2" angle for the support. By orienting it so that the point of the angle iron is up, it gives a very precise pivot point. You should be able get this at your local hardware store. Aluminum is extra nice because it won't rust. A great place to get just what you need for less than $5 each is <a href="https://www.speedymetals.com/pc-2186-8344-2-x-2-angle-6061-t6-aluminum-extruded.aspx" target="_blank">Speedy Metals</a>  (1/8" {A} x 2" {B} x 2" {C} Angle 6061-T6 Aluminum, Extruded).
 
 Now we want to make the cuts in the bottom board. For this setup we recommend using front and back supports and not side to side. That given, you must choose whether to place the Broodminder-W under the front of the hive, or the back of the hive.
 
@@ -124,7 +124,7 @@ New in 2023, the BroodMinder-BeeDar is an activity monitor for your hive.
 
 The BeeDar was invented by Dr. Herb Aumann from the University of Maine and Main Biosensors LLC. There is a nice academic paper about it here.
 
- https://www.researchgate.net/publication/349017653_Janus_A_Combined_Radar_and_Vibration_Sensor_for_Beehive_Monitoring
+<a href="https://www.researchgate.net/publication/349017653_Janus_A_Combined_Radar_and_Vibration_Sensor_for_Beehive_Monitoring" target="_blank">https://www.researchgate.net/publication/349017653_Janus_A_Combined_Radar_and_Vibration_Sensor_for_Beehive_Monitoring</a>
 
 ![image-20230408071532984](./30_sensors.assets/image-20230408071532984.png)
 
@@ -147,8 +147,8 @@ There is not much routine maintenance that is required. Please note that if your
 
 ### Spring
 
-We have a video talking about spring maintenance on the support page at [mybroodminder.com/resources](https://mybroodminder.com/app/resources).
-
+We have a video talking about spring maintenance on the support page at 
+<a href="https://mybroodminder.com/app/resources" target="_blank">mybroodminder.com/resources</a>.
 In the spring, it is a good time to clean up your devices. You can use 91% or better Isopropyl or Ethyl Alcohol, it will not harm the electronics.
 
 You can place the wrappers in the freezer and then propolis will break off more easily.
@@ -157,7 +157,8 @@ You can place the wrappers in the freezer and then propolis will break off more 
 
 We also have replacem ent wrappers for all the devices on our website at Broodminder.com.
 
-We also offer Refresh service where we replace the housings and batteries and test the devices. This is a very good option every couple of years to ensure that your devices are operating properly. There is more information at https://broodminder.com/collections/service-warranty/products/refresh-broodminder-t2
+We also offer Refresh service where we replace the housings and batteries and test the devices. This is a very good option every couple of years to ensure that your devices are operating properly. There is more information at <a 
+href="https://broodminder.com/collections/service-warranty/products/refresh-broodminder-t2" target="_blank">broodminder.com/collections/service-warranty/products/refresh-broodminder-t2</a>
 
 ### Fall
 
@@ -170,4 +171,4 @@ Prior to winter, replace all of the batteries in your BroodMinders. (A good plac
 
 The Broodminder-T2 and the Broodminder-Hub devices have provision for Over-The-Air (OTA) upgrades. These are performed by the Bees app. For more information, go to this link.
 
-[mybroodminder.com/resources](https://mybroodminder.com/app/resources)
+<a href="https://mybroodminder.com/app/" target="_blank">resourcesmybroodminder.com/resources</a>
