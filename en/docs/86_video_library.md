@@ -5,8 +5,8 @@ We've made lots of videos over the years. Here is a list of them with links.
 ## Installation
 
 - [Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ) <a href="https://youtu.be/6WicH4_l2FQ" target="_blank">
-- <a href="https://youtu.be/6WicH4_l2FQ" target="_blank">
-- [Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ) <a href="https://youtu.be/6WicH4_l2FQ" target="_blank">
+- test of link to new tab <a href="https://youtu.be/6WicH4_l2FQ" target="_blank"> end of line
+- [Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)  xx <a href="https://youtu.be/6WicH4_l2FQ" target="_blank"> end of test
 - [BroodMinder ASP Installation](https://youtu.be/B14U5S49EEE)
 - [BroodMinder-SubHub](https://youtu.be/Y0EgtksIqHU)
 - [BroodMinder-WIFI](https://youtu.be/10jw51jqmT0)
