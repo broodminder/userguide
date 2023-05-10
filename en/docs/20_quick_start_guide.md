@@ -52,12 +52,12 @@ In BeesApp, on the Apiary tab, create your first *apiary* and your first *hive*,
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/003.png) 3. Activate your devices
 
-![activateDevices](./20_quick_start_guide.assets/activateDevices.png)
+![activateDevices](./20_quick_start_guide.assets/activateDevices600.png)
 
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/004.png) 4. Assign devices to hives
 
-![assignDevices](./20_quick_start_guide.assets/assignDevices.png)
+![assignDevices](./20_quick_start_guide.assets/assignDevices600.png)
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 5. Make your first sync
 
