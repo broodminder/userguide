@@ -4,33 +4,41 @@ We have done our best to make the installation and usage of your BroodMinder int
 
 ## Follow these steps
 
-![image-20230508063231846](./20_quick_start_guide.assets/image-20230508063231846.png)
 
+| | |  | |
+| -- | -- | -- | -- |
+| AT HOME   |  | | 
+| 1. | ![image](./20_quick_start_guide.assets/icons/30px/001.png)  | Install the App | 
+| 2. | ![image](./20_quick_start_guide.assets/icons/30px/002.png)  | Create your account | 
+| 3. | ![image](./20_quick_start_guide.assets/icons/30px/003.png)  | Power your devices | 
+| 4. | ![image](./20_quick_start_guide.assets/icons/30px/004.png)  | Assign to a hive | 
+| 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | Make your first sync | 
+|  IN YOUR APIARY  |  | | 
+| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Install in hive | 
+| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Update starting dates | 
+| 8. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | View and explore | 
 
 
 
 
 ## Note the following best practices:
 
-### Use our video library
+A. Use our video library
 
-Watch the video help "[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)"
+- Watch the video help "[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)"
 
-### Identify your hives
+B. Tag your hives
 
-1, 2, 3, A, B, C, *, # : do what it takes to identify your hives, it will be much better.
+- 1, 2, 3, A, B, C, *, # : do what it takes to identify your hives, it will be much better.
 
-### Prepare everything AT HOME
+C. Prepare everything AT HOME
 
-Make sure the system is functional before installing it in the apiary, then it will be less easy to set up.
+- Make sure the system is functional before installing it in the apiary, then it will be less easy to set up.
 
-### Follow the steps one by one
 
-By following the steps in this guide one by one and doing what is advised, there will be no worries.
+Need help?
 
-### Need help?
-
-[Support@BroodMinder.com](mailto:Support@BroodMinder.com)
+- You can always contact us at [Support@BroodMinder.com](mailto:Support@BroodMinder.com)
 
 -----
 
@@ -51,17 +59,52 @@ In BeesApp, on the Apiary tab, create your first *apiary* and your first *hive*,
 ![img](./20_quick_start_guide.assets/beesApp_Login200.png)
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/003.png) 3. Activate your devices
+In general all our devices have a pull strip.
+Older models (T2) might have a push button.
 
 ![activateDevices](./20_quick_start_guide.assets/activateDevices600.png)
 
+!!! warning "Take care of this:"
+    Do not discard any plastic part. Keep them all in place.
+    
+    Check that all seals are properly installed.
+    
+    Verify that cable glands are tight too when appropriate.
+
+
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/004.png) 4. Assign devices to hives
+Attach every device to one hive. All happens into the 3dots `...` menus 
+
+- A devices will appear in the `Devices` tab
+
+- B In the `Apiary` tab you can create apiaries and hives
+
+- C and then assign devices to hives
 
 ![assignDevices](./20_quick_start_guide.assets/assignDevices600.png)
 
+
+
+
 ### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 5. Make your first sync
 
-![firstSync](./20_quick_start_guide.assets/firstSync.png)
+Using BroodMinder Bees App there are multiple ways of syncing: 
+
+- `Multi-Sync` is at the top of the screen in the `Apiaries` tab. This syncs all devices at once and is a Premium feature.
+- `Single Sync`is within the 3dots `...`menus, either in `Devices`or in `Apiaries` tab
+
+!!! Tip
+    You can only sync devices appearing in green (within bluetooth range)
+
+![firstSync](./20_quick_start_guide.assets/firstSyncA.png)
+
+Now look to your data using `... > Show Graph` or `... > Show Details`.
+
+!!! info
+    On your first sync you probably do not see much data since there is only one or two samples.
+
+![firstSync](./20_quick_start_guide.assets/firstSyncB.png)
 
 
 ## 🐝 NOW MOVE TO THE APIARY
@@ -89,7 +132,7 @@ Now you can also go to MyBroodMinder.com and explore your data.
 
 In this interface you will be able to follow the brood levels, the weight gains and losses, configure your alerts or even the past and forecasted weather as well as the nectar-flow indexes  and much more!
 
-!!! note
+!!! info
     Attention: Some data is computed daily and you will begin to see it from D+3 (D1 does not count because partial data, D2 will be the first complete day which will be posted the following day => D3)
 
 
