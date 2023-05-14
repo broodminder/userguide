@@ -56,7 +56,27 @@ Créez votre compte dans l'application Bees. Un seul compte pour tout : App et W
 
 Dans BeesApp, dans l'onglet `Rucher`, créez votre premier *rucher* et votre première *ruche*, ils seront nécessaires pour les étapes suivantes.
 
-![img](./20_quick_start_guide.assets/beesApp_Login200.png)
+![img](./20_quick_start_guide.assets/BeesApp_Welcome300.png)
+
+
+Dans Bees vous avez plusieurs onglets que nous allons naviguer par la suite
+- l'onglet `Capteurs` (Devices)
+- l'onglet `Ruchers` (Apiaries)
+- l'onglet `Paramètres` (settings)
+- l'onglet `Aide` (Help)
+
+![img](./20_quick_start_guide.assets/BeesApp_Tabs500.png)
+
+
+Maintenant allez `Ruchers > ... > Créer rucher` et créez un rucher et des ruches.
+
+Nous pourrons par la suite affecter des capteurs à cette ruche qui vient d'être créée.
+
+
+![img](./20_quick_start_guide.assets/BeesApp_Apiaries300.png)
+
+<br>
+
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/003.png) 3. Activer les capteurs
 En général, tous nos appareils sont équipés d'une tirette.
@@ -74,17 +94,16 @@ Les modèles plus anciens (T2) peuvent avoir un bouton poussoir.
 
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/004.png) 4. Assigner les capteurs aux ruches
-Rattachez chaque appareil à une ruche. Tout se passe dans les menus 3points `...`. 
 
-- A les capteurs apparaîtront dans l'onglet `Capteurs`.
+D'abord vous devez `Réclamer les capteurs` en cliquant sur le bouton vert `Réclamer` que vous trouverez dans l'onglet `Capteurs`. Cette oppération a pour effet d'associer à votre compte chaque capteur que vous réclamerez. 
+Dans la foulée il vous est proposé de rattacher le capteur à une ruche. Vous pouvez procéder ou annule et y revenir plus tard via le menu `...`. 
 
-- B Dans l'onglet `Rucher > ...`, vous pouvez créer des ruchers et des ruches.
-
-- C puis assigner des appareils aux ruches
-
-![assignDevices](./20_quick_start_guide.assets/assignDevices600.png)
+Rattachez chaque appareil à une ruche. 
 
 
+![assignDevices](./20_quick_start_guide.assets/beesApp_ClaimDevice300.png)
+
+<br>
 
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 5. Faites la première syncro
