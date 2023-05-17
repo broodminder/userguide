@@ -123,7 +123,7 @@ Now look to your data using `... > Show Graph` or `... > Show Details`.
 
 
 
-### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 6. Power on your Hub
+### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 6. Power-On your Hub
 
 This stage is optional : only intended for those owning a Hub for real time monitoring.
 Remember from [Hubs page](./60_hubs/) that there are several hub versions : 
@@ -135,6 +135,7 @@ Remember from [Hubs page](./60_hubs/) that there are several hub versions :
 #### 6.1 Cellular Weather hub
 1. Remove the orange silicon protection
 2. Power ON the hub with the small black switch (use a pen tip to operate)
+
 ![Power On](./20_quick_start_guide.assets/T91_powerOn.png)
 
 3. Color Leds will blink green, then blue, then green again
@@ -143,9 +144,11 @@ Remember from [Hubs page](./60_hubs/) that there are several hub versions :
 ![Upload check](./20_quick_start_guide.assets/T91_onBeesApp.jpg)
 
 5. Install orange protection again, starting from the USB side.
+
 ![silicon cover](./20_quick_start_guide.assets/T91_folding.png)
 
 6. Insert the T91 within the weather shield with the USB face sidewise to avoid condensation deposition on this and the opposite face.
+
 ![Upload check](./20_quick_start_guide.assets/T91_inweathershield.png)
 
 #### 6.2 Cellular Solar hub

@@ -130,7 +130,7 @@ Maintenant regardez vos premières données `... > Show Graph` ou `... > Show De
 
 
 
-### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 6. Activer votre Hub
+### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 6. Activez votre Hub
 
 Cette étape est optionnelle : elle n'est destinée qu'à ceux qui possèdent un Hub pour la monitoring en temps réel.
 Rappelez-vous de la [page Hubs](./60_hubs/) qu'il existe plusieurs versions de hub : 
@@ -142,6 +142,7 @@ Rappelez-vous de la [page Hubs](./60_hubs/) qu'il existe plusieurs versions de h
 #### 6.1 Hub 4G version Météo
 1. Retirer la protection orange en silicone
 2. Allumez le hub à l'aide du petit interrupteur noir (utilisez la pointe d'un stylo pour l'actionner).
+
 ![Power On](./20_quick_start_guide.assets/T91_powerOn.png)
 
 3. Les diodes de couleur clignotent en vert, puis en bleu, puis à nouveau en vert.
@@ -150,9 +151,11 @@ Rappelez-vous de la [page Hubs](./60_hubs/) qu'il existe plusieurs versions de h
 ![Upload check](./20_quick_start_guide.assets/T91_onBeesApp.jpg)
 
 5. Installer à nouveau la protection orange, en commençant par le côté de la prise USB.
+
 ![silicon cover](./20_quick_start_guide.assets/T91_folding.png)
 
 6. Insérez le T91 dans la protection météorologique avec la face USB sur le côté pour éviter le dépôt de condensation sur cette face et sur la face opposée.
+
 ![Upload check](./20_quick_start_guide.assets/T91_inweathershield.png)
 
 #### 6.2 Hub 4G version solaire
@@ -171,7 +174,7 @@ Suivez le même processus que ci-dessus, à la différence que vous devrez branc
 
 ## 🐝 PASSER MAINTENANT AU RUCHER
 
-### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 6. Installer les capteurs
+### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 6. Installer les capteurs
 
 Installez les BroodMinder-T et -TH dans le cadre du milieu (généralement le n°5) en commençant par le côté gauche vu de l'avant de la ruche. 
 
@@ -180,13 +183,13 @@ Les balances  BroodMinder-W3 et W4 n’ont pas besoin de nivellement précis.
 
 ![Install devices](./20_quick_start_guide.assets/installDevicesInHive.png)
 
-### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 7. Actualiser la date/heure de départ
+### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 7. Actualiser la date/heure de départ
 
 Pour éviter d'avoir des mesures provenant de l'extérieur de la ruche, modifiez la date de début des capteurs.
 Pour ce faire allez dans `BeesApp > Ruchers > déplier les ruches pour voir les capteurs > "..." > Changer la position actuelle`. 
 Editer la ` date de début`.
 
-### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 8. Exploree et découvrez
+### ![image](./20_quick_start_guide.assets/icons/30px/009.png) 8. Exploree et découvrez
 
 Désormais, vous pouvez également vous rendre sur [MyBroodMinder.com](https://mybroodminder.com) et explorer vos données.
 
