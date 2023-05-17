@@ -13,10 +13,11 @@ We have done our best to make the installation and usage of your BroodMinder int
 | 3. | ![image](./20_quick_start_guide.assets/icons/30px/003.png)  | Power your devices | 
 | 4. | ![image](./20_quick_start_guide.assets/icons/30px/004.png)  | Assign to a hive | 
 | 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | Make your first sync | 
-|  IN YOUR APIARY  |  | | 
-| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Install in hive | 
-| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Update starting dates | 
-| 8. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | View and explore | 
+| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Power on Hub | 
+| IN YOUR APIARY  |  | | 
+| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Install in hive | 
+| 8. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Update starting dates | 
+| 9. | ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | View and explore | 
 
 
 
@@ -60,7 +61,7 @@ In BeesApp, on the Apiary tab, create your first *apiary* and your first *hive*,
 
 
 In Bees you have several tabs that we will navigate :
-![img](./20_quick_start_guide.assets/BeesApp_Tabs500.png)
+![img](./20_quick_start_guide.assets/beesApp_Tabs500.png)
 
 
 Now go to `Hives Tab > ... > New apiary` and create an apiary and a hive.
@@ -68,7 +69,7 @@ Now go to `Hives Tab > ... > New apiary` and create an apiary and a hive.
 We can then assign sensors to this newly created hive.
 
 
-![img](./20_quick_start_guide.assets/BeesApp_Apiaries300.png)
+![img](./20_quick_start_guide.assets/beesApp_Apiaries300.png)
 
 <br>
 
@@ -121,9 +122,47 @@ Now look to your data using `... > Show Graph` or `... > Show Details`.
 ![firstSync](./20_quick_start_guide.assets/firstSyncB.png)
 
 
+
+### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 6. Power on your Hub
+
+This stage is optional : only intended for those owning a Hub for real time monitoring.
+Remember from [Hubs page](./60_hubs/) that there are several hub versions : 
+
+- Broodminder-T91 Cellular Hub [solar, weather, naked]
+- BroodMinder-Wifi Hub
+- BroodMinder-Sub-Hub
+
+#### 6.1 Cellular Weather hub
+1. Remove the orange silicon protection
+2. Power ON the hub with the small black switch (use a pen tip to operate)
+![Power On](./20_quick_start_guide.assets/T91_powerOn.png)
+
+3. Color Leds will blink green, then blue, then green again
+4. Check on Bees App that transmission has been established. Go to `Devices tab > Hub ID > Show details > MBM last upload ` shall display current date/time.
+
+![Upload check](./20_quick_start_guide.assets/T91_onBeesApp.jpg)
+
+5. Install orange protection again, starting from the USB side.
+![silicon cover](./20_quick_start_guide.assets/T91_folding.png)
+
+6. Insert the T91 within the weather shield with the USB face sidewise to avoid condensation deposition on this and the opposite face.
+![Upload check](./20_quick_start_guide.assets/T91_inweathershield.png)
+
+#### 6.2 Cellular Solar hub
+Follow the same process as above, with the difference that you will have to plug in the USB to the battery (we ship unpluged to avoid battery discharge during transport)
+
+1. Unscrew the cover lid.
+2. Insert the USB plug into the battery
+3. Slide the power switch to the right
+
+![Upload check](./20_quick_start_guide.assets/T91_solar.png)
+
+4. Hub will start and you can check data transmission using Bees App as described above.
+
+
 ## 🐝 NOW MOVE TO THE APIARY
 
-### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 6. Install devices in hives
+### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 7. Install devices in hives
 
 Install BroodMinder-T and -TH in the middle frame (usually n°5) starting from the left side seen from the rear of the hive. T2 shall be over the brood box and TH over the super.
 
@@ -131,13 +170,13 @@ Place your BroodMinder-W scale at the rear side of the hive. Make sure that the 
 
 ![Install devices](./20_quick_start_guide.assets/installDevicesInHive.png)
 
-### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 7. Update start date/time
+### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 8. Update start date/time
 
 To avoid having measurements from outside the hive, change the start date of the sensors.
 To do so, go to `BeesApp > Apiaries > unfold the hives to see the sensors > "..." > Change the current position`. 
 Edit the `start date/time`.
 
-### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 8. Explore and discover
+### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 9. Explore and discover
 
 Now you can also go to MyBroodMinder.com and explore your data.
 

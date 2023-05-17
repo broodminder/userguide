@@ -13,10 +13,11 @@ Nous avons fait de notre mieux pour rendre l'installation et l'utilisation de vo
 | 3. | ![image](./20_quick_start_guide.assets/icons/30px/003.png)  | Allumer les capteurs | 
 | 4. | ![image](./20_quick_start_guide.assets/icons/30px/004.png)  | Assigner à une ruche | 
 | 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | Faire la première synchro | 
+| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Activer votre hub | 
 |  AU RUCHER  |  | | 
-| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Installer sur les ruches | 
-| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Actualiser la date de début | 
-| 8. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Voir et explorer | 
+| 6. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Installer sur les ruches | 
+| 7. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Actualiser la date de début | 
+| 8. | ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | Voir et explorer | 
 
 
 
@@ -125,6 +126,46 @@ Maintenant regardez vos premières données `... > Show Graph` ou `... > Show De
 
 !!! info
     Lors de votre première synchronisation, vous ne verrez probablement pas beaucoup de données puisqu'il n'y a qu'un ou deux échantillons.
+
+
+
+
+### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 6. Activer votre Hub
+
+Cette étape est optionnelle : elle n'est destinée qu'à ceux qui possèdent un Hub pour la monitoring en temps réel.
+Rappelez-vous de la [page Hubs](./60_hubs/) qu'il existe plusieurs versions de hub : 
+
+- Broodminder-T91 4G [solaire, météo, nu]
+- BroodMinder-Wifi
+- BroodMinder-SubHub
+
+#### 6.1 Hub 4G version Météo
+1. Retirer la protection orange en silicone
+2. Allumez le hub à l'aide du petit interrupteur noir (utilisez la pointe d'un stylo pour l'actionner).
+![Power On](./20_quick_start_guide.assets/T91_powerOn.png)
+
+3. Les diodes de couleur clignotent en vert, puis en bleu, puis à nouveau en vert.
+4. Vérifier sur Bees App que la transmission a été établie. Se rendre sur `Onglet Capteurs > Hub 54:xx:yy > Afficher details > MBM dernier envoi ` doit afficher la date et l'heure actuelles.
+
+![Upload check](./20_quick_start_guide.assets/T91_onBeesApp.jpg)
+
+5. Installer à nouveau la protection orange, en commençant par le côté de la prise USB.
+![silicon cover](./20_quick_start_guide.assets/T91_folding.png)
+
+6. Insérez le T91 dans la protection météorologique avec la face USB sur le côté pour éviter le dépôt de condensation sur cette face et sur la face opposée.
+![Upload check](./20_quick_start_guide.assets/T91_inweathershield.png)
+
+#### 6.2 Hub 4G version solaire
+Suivez le même processus que ci-dessus, à la différence que vous devrez brancher la fiche USB à la batterie (nous expédions la batterie débranchée pour éviter qu'elle ne se décharge pendant le transport).
+
+1. Dévisser le couvercle transparent du boitier.
+2. Enfoncer la fiche USB dans la batterie
+3. Faire glisser l'interrupteur d'alimentation vers ON
+
+![Upload check](./20_quick_start_guide.assets/T91_solar.png)
+
+4. Le Hub démarre et vous pouvez vérifier la transmission des données à l'aide de l'application Bees comme décrit ci-dessus.
+
 
 
 
