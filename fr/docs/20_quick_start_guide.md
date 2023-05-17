@@ -57,7 +57,7 @@ Créez votre compte dans l'application Bees. Un seul compte pour tout : App et W
 
 Dans BeesApp, dans l'onglet `Rucher`, créez votre premier *rucher* et votre première *ruche*, ils seront nécessaires pour les étapes suivantes.
 
-![img](./20_quick_start_guide.assets/BeesApp_Welcome300.png)
+![img](./20_quick_start_guide.assets/beesApp_Welcome300.png)
 
 
 Dans Bees vous avez plusieurs onglets que nous allons naviguer par la suite
@@ -66,7 +66,7 @@ Dans Bees vous avez plusieurs onglets que nous allons naviguer par la suite
 - l'onglet `Paramètres` (settings)
 - l'onglet `Aide` (Help)
 
-![img](./20_quick_start_guide.assets/BeesApp_Tabs500.png)
+![img](./20_quick_start_guide.assets/beesApp_Tabs500.png)
 
 
 Maintenant allez `Ruchers > ... > Créer rucher` et créez un rucher et des ruches.
@@ -74,7 +74,7 @@ Maintenant allez `Ruchers > ... > Créer rucher` et créez un rucher et des ruch
 Nous pourrons par la suite affecter des capteurs à cette ruche qui vient d'être créée.
 
 
-![img](./20_quick_start_guide.assets/BeesApp_Apiaries300.png)
+![img](./20_quick_start_guide.assets/beesApp_Apiaries300.png)
 
 <br>
 
