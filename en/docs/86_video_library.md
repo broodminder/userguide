@@ -13,14 +13,12 @@ We've made lots of videos over the years. Here is a list of them with links.
 - <a href="https://youtu.be/tI6Kw-PU_3A" target="_blank">S1:E17 BroodMinder-W3 Full Hive Scale</a>
 - <a href="https://youtu.be/3xdnkD1NpHo" target="_blank">S1:E19 BroodMinder-DIY</a>
 
-## MyBroodMinder
+## MyBroodMinder (MBM)
 
-- <a href="https://youtu.be/yVJyK7epnaY" target="_blank">Getting Started</a>
-- <a href="https://youtu.be/kOA9ApkkQgo" target="_blank">The Data Views</a>
-- <a href="https://youtu.be/TAwZaPr-d20" target="_blank">Configuration</a>
-- <a href="https://youtu.be/xAiVaRKCRZo" target="_blank">Moving Devices</a>
+- <a href="https://youtu.be/FoeU-fPR7Fw" target="_blank">MBM V5 Feature Tour</a>
+- <a href="https://youtu.be/L-J3aMZCLUo" target="_blank">MBM V5 Alerts</a>
+- <a href="https://youtu.be/9egE9wHM_Fw" target="_blank">MBM V5 Configuration</a>
 - <a href="https://youtu.be/JXfLwWaJT_A" target="_blank">Cell, WIFI and Hub Monitoring</a>
-- <a href="https://youtu.be/82msJgNy8Ms" target="_blank">Alternate Navigation</a>
 - <a href="https://youtu.be/JAAVzttW6ag" target="_blank">MyBroodMinder.com Premium</a>
 
 ## Apps

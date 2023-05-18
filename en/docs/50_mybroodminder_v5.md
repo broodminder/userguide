@@ -4,6 +4,8 @@
 
 There are many great features available in MyBroodMinder to view and analyze your data. Please note that there is a lot of context help by either hovering your cursor over an item or clicking the ? next to an item.
 
+We have updated the [video library](https://mybroodminder.com/app/resources) for Version 5. 
+
 The quick tour is pretty long. There are a lot of useful features. Let's start by describing the functions available to you.
 
 The best way to learn is to read this guide while looking at your MyBroodMinder account.
