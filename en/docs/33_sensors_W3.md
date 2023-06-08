@@ -10,7 +10,7 @@ There you will find several videos demonstrating assembly of this scale.
 
  There is also an appendix to explain modification for Fixed to Swivel W3.
 
-![image-20230501140246145](./81_w3_assembly.assets/image-20230501140246145.png)
+![image-20230501140246145](./33_sensors_w3_assembly.assets/image-20230501140246145.png)
 
 
 
@@ -18,7 +18,7 @@ There you will find several videos demonstrating assembly of this scale.
 
 ### Hardware (Fixed Feet)
 
-![image-20230501140321798](./81_w3_assembly.assets/image-20230501140321798.png)
+![image-20230501140321798](33_sensors_w3_assembly.assets/image-20230501140321798.png)
 
 | **Item Description**                                         | **Qty** |
 | ------------------------------------------------------------ | ------- |
@@ -40,13 +40,13 @@ There you will find several videos demonstrating assembly of this scale.
 - Test fit the spline and widen the kerfs if necessary.
 - Remove the broad area (marked C) with a chisel so that when the 2x4 tips it does not pinch the wire.
 
-![image-20230501140518611](./81_w3_assembly.assets/image-20230501140518611.png)
+![image-20230501140518611](./33_sensors_w3_assembly.assets/image-20230501140518611.png)
 
 Screw together the frame (Fixed Feet)
 
 Once you’re sure everything is where it needs to be, use 3 letter B screws to secure the boards together.
 
-![image-20230501140556193](./81_w3_assembly.assets/image-20230501140556193.png)
+![image-20230501140556193](./33_sensors_w3_assembly.assets/image-20230501140556193.png)
 
 To assemble your frame, make sure you have a flat surface and ensure your pieces are square. Follow the picture above for the correct orientation of the boards. 
 
@@ -56,17 +56,17 @@ Leave the side with 1 screw very slightly loose so that the board may pivot.
 
 Make sure the box is located center in the frame with the hole opening as shown. There should be a slight gap between the edge of the frame and the box as shown. Use (2) “A” screws.
 
-![image-20230501140742091](./81_w3_assembly.assets/image-20230501140742091.png)
+![image-20230501140742091](./33_sensors_w3_assembly.assets/image-20230501140742091.png)
 
 ### Sensor Mounting (Fixed Feet)
 
 Position sensors marked 1-4 as shown with mounts “D” as shown.
 
-![image-20230501140829711](./81_w3_assembly.assets/image-20230501140829711.png)
+![image-20230501140829711](./33_sensors_w3_assembly.assets/image-20230501140829711.png)
 
 Use 4 “C” screws per sensor.
 
-![image-20230501140843650](./81_w3_assembly.assets/image-20230501140843650.png)
+![image-20230501140843650](./33_sensors_w3_assembly.assets/image-20230501140843650.png)
 
 ***IMPORTANT: Do not fully tighten these screws. Bending the senor will create a measurement error. Tighten then back off ½ turn.***
 
@@ -74,15 +74,15 @@ Use 4 “C” screws per sensor.
 
 Tuck the wires into grooves and secure with spline material “E”.  To secure spline material press into groove with flat object, this allows wires to move in the bottom of groove.  Do not create stress on the wires. Remove (2) circuit board mounting screws. Pull the slack wire into electronics box and fold wire behind circuit board, reinstall mounting screws. Secure spline material with staples.
 
-![image-20230501140944933](./81_w3_assembly.assets/image-20230501140944933.png)
+![image-20230501140944933](./33_sensors_w3_assembly.assets/image-20230501140944933.png)
 
-![image-20230501140951598](./81_w3_assembly.assets/image-20230501140951598.png)
+![image-20230501140951598](./33_sensors_w3_assembly.assets/image-20230501140951598.png)
 
 ### Finish and Enjoy (Fixed Feet)
 
 Now you can remove the battery tab and replace the lid on the electronics box and enjoy your new BroodMinder beehive scale.
 
-![image-20230501141013937](./81_w3_assembly.assets/image-20230501141013937.png)
+![image-20230501141013937](./33_sensors_w3_assembly.assets/image-20230501141013937.png)
 
 
 
@@ -90,7 +90,7 @@ Now you can remove the battery tab and replace the lid on the electronics box an
 
 ### Hardware (Swivel Feet)
 
-![image-20230501141102517](./81_w3_assembly.assets/image-20230501141102517.png)
+![image-20230501141102517](./33_sensors_w3_assembly.assets/image-20230501141102517.png)
 
 | **Item Description**                                         | **Qty** |
 | ------------------------------------------------------------ | ------- |
@@ -114,13 +114,13 @@ Now you can remove the battery tab and replace the lid on the electronics box an
 - Remove the broad area (marked C) with a chisel so that when the 2x4 tips it does not pinch the wire.
 - Drill qty 4, ¾” holes. The centers should be ¾” from the edge and ¾” deep
 
-![image-20230501141223278](./81_w3_assembly.assets/image-20230501141223278.png)
+![image-20230501141223278](./33_sensors_w3_assembly.assets/image-20230501141223278.png)
 
 ### Screw together the frame (Swivel Feet)
 
 Once you’re sure everything is where it needs to be, use 3 letter B screws to secure the boards together.
 
-![image-20230501141255637](./81_w3_assembly.assets/image-20230501141255637.png)
+![image-20230501141255637](./33_sensors_w3_assembly.assets/image-20230501141255637.png)
 
 To assemble your frame, make sure you have a flat surface and ensure your pieces are square. Follow the picture above for the correct orientation of the boards. 
 
@@ -130,29 +130,29 @@ Leave the side with 1 screw very slightly loose so that the board may pivot.
 
 Make sure the box is located center in the frame with the hole opening as shown. There should be a slight gap between the edge of the frame and the box as shown. Use (2) “A” screws.
 
-![image-20230501141339709](./81_w3_assembly.assets/image-20230501141339709.png)
+![image-20230501141339709](./33_sensors_w3_assembly.assets/image-20230501141339709.png)
 
 ### Sensor Mounting (Swivel Feet)
 
-![image-20230501141404588](./81_w3_assembly.assets/image-20230501141404588.png)
+![image-20230501141404588](./33_sensors_w3_assembly.assets/image-20230501141404588.png)
 
 Use 1 “C” screws per sensor.
 
-![image-20230501141419355](./81_w3_assembly.assets/image-20230501141419355.png)
+![image-20230501141419355](./33_sensors_w3_assembly.assets/image-20230501141419355.png)
 
 ### Wire Routing (Swivel Feet)
 
 Tuck the wires into grooves and secure with spline material “E”. To secure spline material press into groove with flat object, this allows wires to move in the bottom of groove. Do not create stress on the wires. Remove (2) circuit board mounting screws. Pull the slack wire into electronics box and fold wire behind circuit board, reinstall mounting screws. Secure spline material with staples.
 
-![image-20230501141444426](./81_w3_assembly.assets/image-20230501141444426.png)
+![image-20230501141444426](./33_sensors_w3_assembly.assets/image-20230501141444426.png)
 
-![image-20230501141450171](./81_w3_assembly.assets/image-20230501141450171.png)
+![image-20230501141450171](./33_sensors_w3_assembly.assets/image-20230501141450171.png)
 
 ### Finish and Enjoy (Swivel Feet)
 
 Now you can remove the battery tab and replace the lid on the electronics box and enjoy your new BroodMinder beehive scale.
 
-![image-20230501141510326](./81_w3_assembly.assets/image-20230501141510326.png)
+![image-20230501141510326](./33_sensors_w3_assembly.assets/image-20230501141510326.png)
 
 ## Appendix: Update fixed feet W3 scales to swivel feet
 
@@ -166,4 +166,4 @@ If you have an Apimaye hive, you may want to upgrade your W3 to include the swiv
 
  All that you must do is remove the skirt that captures the swivel foot.
 
-![image-20230501141552844](./81_w3_assembly.assets/image-20230501141552844.png)
+![image-20230501141552844](./33_sensors_w3_assembly.assets/image-20230501141552844.png)

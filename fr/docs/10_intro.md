@@ -29,7 +29,7 @@ All the sensors transmit the information via Bluetooth and, of course, you can u
 
 ### BroodMinder Bees App
 
-The 4th generation app for your phone or tablet is called the "Bees" app and is available for iPhone or Android. This is the quickest and easiest way to start collecting data from the sensors. Use it in the apiary to locate the sensors and to take hive/apiary notes by either typing or speaking to the phone. With the app you can collect and review the data regardless of if the apiary has cellular or WiFi connectivity. The app will then automatically synchronize with MyBroodMinder.com, our cloud based analysis system. when internet becomes available.
+The 4th generation app for your phone or table is call the "Bees" app and is available for iPhone or Android. This is the quickest and easiest way to start collection data from the sensors. Use it in the apiary to locate the sensors and to take hive/apiary notes by either typing or speaking to the phone. With the app you can collect and review the data regardless of if the apiary has cellular or WiFi connectivity. The app will then automatically synchronize with MyBroodMinder.com, our cloud based analysis system. when internet becomes available.
 
 
 ![BAPP](./10_intro.assets/image-20230407160940733.png#mediumImg)
@@ -37,13 +37,13 @@ The 4th generation app for your phone or tablet is called the "Bees" app and is 
 
 ### MyBroodMinder.com
 
-The data transmitted by your phone or by the hub arrives on the [Mybroodminder.com](https://mybroodminder.com) portal. In this space, you can configure your apiary, your hives and assign your sensors to them. You can also visualize the raw data on fluid and interactive graphs.
+The data transmitted by your phone or by the hub arrive on the [Mybroodminder.com](https://mybroodminder.com) portal. In this space, you can configure your apiary, your hives and assign your sensors to them. You can also visualize the raw data on fluid and interactive graphs.
 
 ![MyBroodMinder](./10_intro.assets/image-20230407155319801.png)
 
 ### Hub 
 
-For those who want real-time data, the Hub is the solution. This autonomous box must be installed in the middle of the apiary. It automatically reads the information from all the sensors and transmits them via the 3G/4G cellular network or WIFI to the cloud, where they are processed.
+For those who want real-time data, the hub is the solution. This autonomous box must be installed in the middle of the apiary. It automatically reads the information from all the sensors and transmits them via the 3G/4G cellular network or WIFI to the cloud, where they are processed.
 
 
 

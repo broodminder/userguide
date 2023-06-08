@@ -28,7 +28,7 @@ The metal hive stand is available from BetterBee: https://www.betterbee.com/wood
 
 
 
-![image-20230409110829483](./82_diy_guide.assets/image-20230409110829483.png)
+![image-20230409110829483](./36_sensors_DIY.assets/image-20230409110829483.png)
 
 ·    
 
@@ -46,7 +46,9 @@ Here is the Hammond 1554N2GYCL box installed on the Betterbee hive stand
 
 
 
-NOTE: T![image-20230409111202294](./82_diy_guide.assets/image-20230409111202294.png)he initial DIY boards will be 4.50” x 1.77”. The ones shipping in June will be slightly smaller (4.30” x 1.54”). It is possible to trim down the 4.50”x1.77” boards 4.30” x 1.62” without affecting operations, however we don’t recommend it. Be sure you get a box of adequate size. There are many available on Digikey.com and Mouser.com. 
+![image-20230409111202294](./36_sensors_DIY.assets/image-20230409111202294.png)
+
+NOTE: The initial DIY boards will be 4.50” x 1.77”. The ones shipping in June (2021) will be slightly smaller (4.30” x 1.54”). It is possible to trim down the 4.50”x1.77” boards 4.30” x 1.62” without affecting operations, however we don’t recommend it. Be sure you get a box of adequate size. There are many available on Digikey.com and Mouser.com. 
 
 NOTE THIS TOO… If you do decide to trim down the board, DO NOT use a normal circular saw. It will likely rip the board apart and injure you. I have used a tile saw (no teeth) with great success, or “penny shears” also work pretty well.
 
@@ -58,13 +60,13 @@ Digikey.com (or Silabs.com or TI.com) is a good place to start for gather the da
 
 A final note, (stepping up on soap box), I (Rich Morris) hate connectors. They are almost always the first thing to fail. Personally, I try to solder everything but your milage may vary. (stepping down now)
 
- ![image-20230409111244594](./82_diy_guide.assets/image-20230409111244594.png)
+ ![image-20230409111244594](./36_sensors_DIY.assets/image-20230409111244594.png)
 
 NOTE: On the next page you will find our circuitry. You may wonder why we share this... The truth is, the circuit doesn’t get you very far. It requires lots and lots (and lots) of software to hold this all together. We hope the circuit helps you if you need it or want to learn more. 
 
  
 
-​     ![image-20230409111316247](./82_diy_guide.assets/image-20230409111316247.png)
+​     ![image-20230409111316247](./36_sensors_DIY.assets/image-20230409111316247.png)
 
 
 
@@ -76,11 +78,11 @@ Black, Green, White, Red (from top to bottom).
 
 The outputs are in the middle. If things are mixed up, usually it will be corrected during calibration.
 
-![image-20230409111357838](./82_diy_guide.assets/image-20230409111357838.png)
+![image-20230409111357838](./36_sensors_DIY.assets/image-20230409111357838.png)
 
 ​       
 
-![image-20230409111416621](./82_diy_guide.assets/image-20230409111416621.png)
+![image-20230409111416621](./36_sensors_DIY.assets/image-20230409111416621.png)
 
 ### 15.2 Calibration 
 
@@ -124,7 +126,7 @@ Change the divisor to 31000 * 20.0 / 30.0 = 20,666 and the weight should correct
 
 All offsets should remain 0 for BRM-58
 
-​          ![image-20230409111507704](./82_diy_guide.assets/image-20230409111507704.png)
+​          ![image-20230409111507704](./36_sensors_DIY.assets/image-20230409111507704.png)
 
 There are many other controls and features that we will not go into here. Feel free to explore.
 
@@ -134,7 +136,7 @@ If you are using 4 sensors together, then you should use the Cal-W2 tab as expla
 
 
 
-![image-20230409111529005](./82_diy_guide.assets/image-20230409111529005.png)
+![image-20230409111529005](./36_sensors_DIY.assets/image-20230409111529005.png)
 
 ​    
 
@@ -166,7 +168,7 @@ It is easy to take an old broken hive scale and convert it to a BroodMinder enab
 
 
 
-1) ![image-20230409111606342](./82_diy_guide.assets/image-20230409111606342.png)Cut the load cell wire to length
+1) ![image-20230409111606342](./36_sensors_DIY.assets/image-20230409111606342.png)Cut the load cell wire to length
 2) Carefully tin the leads. Old wire may be difficult to tin, use plenty of flux if this is the case.
 3) Determine the wiring. In our example, this is the wiring of the load cell 
 4) Connect to the board. In our case, from the top
@@ -179,11 +181,11 @@ It is easy to take an old broken hive scale and convert it to a BroodMinder enab
 
 ​               d.   Black + Shield – Gnd – J1(4) or J2(4)
 
-![image-20230409111659733](./82_diy_guide.assets/image-20230409111659733.png)
+![image-20230409111659733](./36_sensors_DIY.assets/image-20230409111659733.png)
 
 5) Connect pins 2, 3, & 4 of the unused channels (Gnd)
 
-   ![image-20230409111807859](./82_diy_guide.assets/image-20230409111807859.png)
+   ![image-20230409111807859](./36_sensors_DIY.assets/image-20230409111807859.png)
 
 6) I do not recommend using a connector. I tried and the corrosion was a big problem. It worked for a while and then the calibration was way off.
 
@@ -191,11 +193,11 @@ It is easy to take an old broken hive scale and convert it to a BroodMinder enab
 
 8) Ensure the box is sealed, silicone caulk works well if you use the cheaper Hammond box.
 
-   ![image-20230409111906506](./82_diy_guide.assets/image-20230409111906506.png)
+   ![image-20230409111906506](./36_sensors_DIY.assets/image-20230409111906506.png)
 
 9) If the box is tucked up in good spot, you might be able to get away with mounting without sealing the cable entry. Be certain to have a drip loop so that rain doesn’t drip inside.
 
-   ![image-20230409112032307](./82_diy_guide.assets/image-20230409112032307.png)
+   ![image-20230409112032307](./36_sensors_DIY.assets/image-20230409112032307.png)
 
 10) The BLE chip will work better if it is oriented so the circuit board is away from the metal frame.
 
