@@ -34,8 +34,7 @@ nav:
       - BroodMinder W4: 'void.md'
       - BroodMinder BeeDar: '35_sensors_Beedar.md'
       - BroodMinder DIY: '36_sensors_DIY.md'
-      - Yolink devices: 'void.md'
-      - Winter service : '70_winter_service.md' 
+      - Yolink devices: '38_sensors_yolink.md'
   - Hubs: '60_hubs.md'
   - Tokens: '65_tokens.md'
   

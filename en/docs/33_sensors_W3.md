@@ -16,7 +16,7 @@ There you will find several videos demonstrating assembly of this scale.
 
 ## BroodMinder-W3 Assembly - FIXED FEET
 
-### Hardware (Fixed Feet)
+### Hardware
 
 ![image-20230501140321798](33_sensors_w3_assembly.assets/image-20230501140321798.png)
 
@@ -31,7 +31,7 @@ There you will find several videos demonstrating assembly of this scale.
 | 16.5 Inch Pine 2x4 (User provided)   (16.5 inch or adjust for hive width) | 2       |
 | 15-16 Inch Pine 2x4 (User provided)                          | 1       |
 
-### Prepare the frame members (Fixed Feet)
+### Prepare the frame members
 
 - Cut your 2x4s to length. 
   - The length of the end boards should be enough to span the width of your beehive. We typically make them about 16.25”-16.50" long for a typical 10 frame Langstroth hive. The length of the connecting board is not critical but should be around 16”. 
@@ -52,13 +52,13 @@ To assemble your frame, make sure you have a flat surface and ensure your pieces
 
 Leave the side with 1 screw very slightly loose so that the board may pivot.
 
-### Attach the electronics box (Fixed Feet)
+### Attach the electronics box
 
 Make sure the box is located center in the frame with the hole opening as shown. There should be a slight gap between the edge of the frame and the box as shown. Use (2) “A” screws.
 
 ![image-20230501140742091](./33_sensors_w3_assembly.assets/image-20230501140742091.png)
 
-### Sensor Mounting (Fixed Feet)
+### Sensor Mounting
 
 Position sensors marked 1-4 as shown with mounts “D” as shown.
 
@@ -70,7 +70,7 @@ Use 4 “C” screws per sensor.
 
 ***IMPORTANT: Do not fully tighten these screws. Bending the senor will create a measurement error. Tighten then back off ½ turn.***
 
-### Wire Routing (Fixed Feet)
+### Wire Routing
 
 Tuck the wires into grooves and secure with spline material “E”.  To secure spline material press into groove with flat object, this allows wires to move in the bottom of groove.  Do not create stress on the wires. Remove (2) circuit board mounting screws. Pull the slack wire into electronics box and fold wire behind circuit board, reinstall mounting screws. Secure spline material with staples.
 
@@ -78,7 +78,7 @@ Tuck the wires into grooves and secure with spline material “E”.  To secure 
 
 ![image-20230501140951598](./33_sensors_w3_assembly.assets/image-20230501140951598.png)
 
-### Finish and Enjoy (Fixed Feet)
+### Finish and Enjoy
 
 Now you can remove the battery tab and replace the lid on the electronics box and enjoy your new BroodMinder beehive scale.
 
@@ -88,7 +88,7 @@ Now you can remove the battery tab and replace the lid on the electronics box an
 
 ## BroodMinder-W3 Assembly - SWIVEL FEET
 
-### Hardware (Swivel Feet)
+### Hardware
 
 ![image-20230501141102517](./33_sensors_w3_assembly.assets/image-20230501141102517.png)
 
@@ -104,7 +104,7 @@ Now you can remove the battery tab and replace the lid on the electronics box an
 | 16.5 Inch Pine 2x4 (User provided)   (16.5 inch or adjust for hive width) | 2       |
 | 15-16 Inch Pine 2x4 (User provided)                          | 1       |
 
-### Prepare the frame members (Swivel Feet)
+### Prepare the frame members
 
 - Cut your 2x4s to length. 
   - The length of the end boards should be enough to span the width of your beehive. We typically make them about 16.25”-16.50" long for a typical 10 frame Langstroth hive. The length of the connecting board is not critical but should be around 16”. 
@@ -116,7 +116,7 @@ Now you can remove the battery tab and replace the lid on the electronics box an
 
 ![image-20230501141223278](./33_sensors_w3_assembly.assets/image-20230501141223278.png)
 
-### Screw together the frame (Swivel Feet)
+### Screw together the frame
 
 Once you’re sure everything is where it needs to be, use 3 letter B screws to secure the boards together.
 
@@ -126,13 +126,13 @@ To assemble your frame, make sure you have a flat surface and ensure your pieces
 
 Leave the side with 1 screw very slightly loose so that the board may pivot.
 
-### Attach the electronics box (Swivel Feet)
+### Attach the electronics box
 
 Make sure the box is located center in the frame with the hole opening as shown. There should be a slight gap between the edge of the frame and the box as shown. Use (2) “A” screws.
 
 ![image-20230501141339709](./33_sensors_w3_assembly.assets/image-20230501141339709.png)
 
-### Sensor Mounting (Swivel Feet)
+### Sensor Mounting
 
 ![image-20230501141404588](./33_sensors_w3_assembly.assets/image-20230501141404588.png)
 
@@ -140,7 +140,7 @@ Use 1 “C” screws per sensor.
 
 ![image-20230501141419355](./33_sensors_w3_assembly.assets/image-20230501141419355.png)
 
-### Wire Routing (Swivel Feet)
+### Wire Routing 
 
 Tuck the wires into grooves and secure with spline material “E”. To secure spline material press into groove with flat object, this allows wires to move in the bottom of groove. Do not create stress on the wires. Remove (2) circuit board mounting screws. Pull the slack wire into electronics box and fold wire behind circuit board, reinstall mounting screws. Secure spline material with staples.
 
@@ -148,7 +148,7 @@ Tuck the wires into grooves and secure with spline material “E”. To secure s
 
 ![image-20230501141450171](./33_sensors_w3_assembly.assets/image-20230501141450171.png)
 
-### Finish and Enjoy (Swivel Feet)
+### Finish and Enjoy
 
 Now you can remove the battery tab and replace the lid on the electronics box and enjoy your new BroodMinder beehive scale.
 
