@@ -15,9 +15,10 @@ Nous avons fait de notre mieux pour rendre l'installation et l'utilisation de vo
 | 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | Faire la première synchro | 
 | 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Activer votre hub | 
 |  AU RUCHER  |  | | 
-| 6. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Installer sur les ruches | 
-| 7. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Actualiser la date de début | 
-| 8. | ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | Voir et explorer | 
+| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Installer sur les ruches | 
+| 8. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Installer le Hub | 
+| 9. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Actualiser la date de début | 
+| 10. | ![image](./20_quick_start_guide.assets/icons/30px/009.png) | Voir et explorer | 
 
 
 
@@ -174,7 +175,7 @@ Suivez le même processus que ci-dessus, à la différence que vous devrez branc
 
 ## 🐝 PASSER MAINTENANT AU RUCHER
 
-### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 6. Installer les capteurs
+### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 7. Installer les capteurs
 
 Installez les BroodMinder-T et -TH dans le cadre du milieu (généralement le n°5) en commençant par le côté gauche vu de l'avant de la ruche. 
 
@@ -183,13 +184,42 @@ Les balances  BroodMinder-W3 et W4 n’ont pas besoin de nivellement précis.
 
 ![Install devices](./20_quick_start_guide.assets/installDevicesInHive.png)
 
-### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 7. Actualiser la date/heure de départ
+### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 8. Installer le Hub
+
+Cette étape est facultative : elle n'est destinée qu'à ceux qui possèdent un Hub pour la surveillance en temps réel. 
+
+En règle générale, pour tout type de hub, vous devez savoir que :
+- la portée globale pour un Hub <=> sonde interne est de ~ 10 mètres
+- la portée globale pour un Hub <=> capteur externe est de ~ 30-40 m
+
+!!! Important 
+    - les hubs doivent être placés à au moins 1,5 m du sol (la réception cellulaire et Wifi est TRES REDUITE lorsque le dispositif est proche du sol)<br>.
+    - éviter l'exposition directe au soleil
+
+![Install hub](./20_quick_start_guide.assets/hub_install.png)
+
+
+Il existe plusieurs façons d'installer le hub
+- Les versions solaires peuvent être placées sur un poteau, murale ou même sur le toit d'une ruche.
+
+![Install hub](./20_quick_start_guide.assets/hub_install_solar.png)
+
+- les autres versions de 4G et les SubHubs s'installent sans problème dans l'enveloppe météo.
+
+![Install hub](./20_quick_start_guide.assets/hub_weather_shield.jpg)
+
+Vérifiez maintenant la connectivité
+- Vérifiez la connectivité du hub avec l'application Bees (dans l'onglet `Capteurs > ID du hub > ... > Afficher les détails`).
+- Vous devez avoir un signal réseau supérieur à 20% pour être à l'aise.
+
+
+### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 9. Actualiser la date/heure de départ
 
 Pour éviter d'avoir des mesures provenant de l'extérieur de la ruche, modifiez la date de début des capteurs.
 Pour ce faire allez dans `BeesApp > Ruchers > déplier les ruches pour voir les capteurs > "..." > Changer la position actuelle`. 
 Editer la ` date de début`.
 
-### ![image](./20_quick_start_guide.assets/icons/30px/009.png) 8. Exploree et découvrez
+### ![image](./20_quick_start_guide.assets/icons/30px/009.png) 10. Exploree et découvrez
 
 Désormais, vous pouvez également vous rendre sur [MyBroodMinder.com](https://mybroodminder.com) et explorer vos données.
 

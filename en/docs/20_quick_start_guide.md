@@ -15,9 +15,10 @@ We have done our best to make the installation and usage of your BroodMinder int
 | 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | Make your first sync | 
 | 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Power on Hub | 
 | IN YOUR APIARY  |  | | 
-| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Install in hive | 
-| 8. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Update starting dates | 
-| 9. | ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | View and explore | 
+| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Install devices in hive | 
+| 8. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Install your hub | 
+| 9. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Update starting dates | 
+| 10. | ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | View and explore | 
 
 
 
@@ -165,7 +166,7 @@ Follow the same process as above, with the difference that you will have to plug
 
 ## 🐝 NOW MOVE TO THE APIARY
 
-### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 7. Install devices in hives
+### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 7. Install devices in hives
 
 Install BroodMinder-T and -TH in the middle frame (usually n°5) starting from the left side seen from the rear of the hive. T2 shall be over the brood box and TH over the super.
 
@@ -173,13 +174,42 @@ Place your BroodMinder-W scale at the rear side of the hive. Make sure that the 
 
 ![Install devices](./20_quick_start_guide.assets/installDevicesInHive.png)
 
-### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 8. Update start date/time
+### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 8. Install your hub
+
+This stage is optional : only intended for those owning a Hub for real time monitoring.
+
+As a general rule for any kind of hub you should know that
+- overall range for Hub <=> internal devices is ~ 10 meters (30ft)
+- overall range for Hub <=> external devices is ~ 30-40 m
+
+!!! Important 
+    - hubs should be located at least at 1.5m height from the ground (Cellular and Wifi reception damps A LOT when close to the ground)<br>
+    - avoid direct sun exposition
+
+![Install hub](./20_quick_start_guide.assets/hub_install.png)
+
+
+There are multiple ways to install the hub
+- solar versions can go on a pod or mural or even on hive
+
+![Install hub](./20_quick_start_guide.assets/hub_install_solar.png)
+
+- other cell versions and SubHubs install nicely within the weather shield
+
+![Install hub](./20_quick_start_guide.assets/hub_weather_shield.jpg)
+
+Now check Connectivity
+- Check hub connectivity with Bees App (in the `devices Tab > hub ID > ... > Show details`)
+- You should have a Network signal greater than 20% to be comfort.
+
+
+### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 9. Update start date/time
 
 To avoid having measurements from outside the hive, change the start date of the sensors.
 To do so, go to `BeesApp > Apiaries > unfold the hives to see the sensors > "..." > Change the current position`. 
 Edit the `start date/time`.
 
-### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 9. Explore and discover
+### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 10. Explore and discover
 
 Now you can also go to MyBroodMinder.com and explore your data.
 
