@@ -95,10 +95,8 @@ If you want to turn off the T2, you simply have to push long on the button and i
 
 ## SwarmMinder Details
 
-VERIFY CONSISTENCY xxxxxxxxxxxx
-
-The -SM is reading temperature once every minute. Then it compares current and prior values looking for specific changes.
-It watches for a minimum temperature to be obtained. Once obtained, it watches for a temperature increase of at least 1°C from 30 minutes prior. That increase must continue for between 2 and 20 minutes and be followed by a temperature decrease.
+Every SM device (T or TH) is reading temperature once per minute. Then it compares current and prior values looking for specific changes.
+It watches for a minimum temperature change to be obtained. Once achieved, it watches for a temperature increase of at least 1°C from 30 minutes prior. That increase must continue for between 2 and 20 minutes and be followed by a temperature decrease.
 
 Any time the sensor sees a 4°F (2°C) increase in temperature (when brood is present) then the sensor records the 30 minutes before and 40 minutes after with 1 minute resolution and sets a flag indicating a temperature event has occurred. See the data interpretation section for more information. 
 
@@ -107,7 +105,7 @@ Any time the sensor sees a 4°F (2°C) increase in temperature (when brood is pr
 Those informations are displayed at 3 different levels
 
 1. At hive level you will only be notified of Temperature Events (ie. SM triggered).
-Those events are materialized by red needdles displayed on the temperature curve. And you can choose wether you want to see them or not clicking on the corresponding icon qvqilqble on the right side menu bar. 
+Those events are materialized by red needdles displayed on the temperature curve. And you can choose wether you want to see them or not clicking on the corresponding icon available on the right side menu bar. 
 
 ![SM Hive](./30_sensors.assets/SM_hive.png)
 
@@ -118,9 +116,7 @@ Those events are materialized by red needdles displayed on the temperature curve
 
 3. This same data is displayed on the respective table and of course can be exported to csv, just in case you would like to play a bit more with it.
 
-ADD GRAPH TABLE xxxxxxxxxxxx
-
-xxxxxxx
+![SM Device](./30_sensors.assets/SM_data_editor.png)
 
 #### SwarmMinder State Codes (Models 47, 56)
 
@@ -137,7 +133,8 @@ SWM_STATE_CHECKING
     20 Start checking for swarm event
     21 Buffering temperature data
     22 Temperature < Hive Base Temp (32.5C, 90.5F)
-    25 Buffered Hive Temp < Hive Base Temp 29 SWARM EVENT DETECTED
+    25 Buffered Hive Temp < Hive Base Temp 
+    29 SWARM EVENT DETECTED
 
 SWM_STATE_LOGGING
 
@@ -149,7 +146,6 @@ SWM_STATE_WAITING
     60 Swarm Event logging complete- start waiting - swarm detection
     61 Swarm Event logging complete- still waiting
 
-
 <hr>
 
 
@@ -157,5 +153,8 @@ SWM_STATE_WAITING
     The temperature event trigger will only operate if the device position is assigned to the `upper` or `lower brood box`. Since the algorithm is really only meant for brood areas, this prevent spurious triggers when the SwarmMinder devices are located elsewhere.
     
 !!! Note
-    It is important to note that not all `Temperature Events` are swarms. In some cases it can be the consequence of other actions like for example 1/ your own inspection or 2/ a very thin and uninsulated roof that does not protect the hive from overheating at the sun or even 3/ the colony preparing for swarming the days before it actually does. <br><br>
+    It is important to note that not all `Temperature Events` are swarms. In some cases it can be the consequence of other actions like for example 
+    1/ your own inspection or 
+    2/ a very thin and uninsulated roof that does not protect the hive from overheating at the sun => you should think on insulating..
+    3/ the colony preparing for swarming the days before it actually does. <br><br>
     We are still learning on all the different circumstances and patterns that might happen. If you want to contribute to build this knowledge and share your experience with us, feel free to drop us an email to support. 
