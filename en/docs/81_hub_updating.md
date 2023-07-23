@@ -40,6 +40,7 @@ Cycle power and when the led becomes blue, push briefly the central button.
 The upgrade is now triggered.
 Wait for 2 minutes until it is installed and restarted
 
+WATCH THE VIDEO
 [![VIDEO HUB UPGRADE](https://img.youtube.com/vi/8XdTnytzfH8/0.jpg)](https://youtu.be/8XdTnytzfH8)
 
 
