@@ -133,7 +133,8 @@ Maintenant regardez vos premières données `... > Show Graph` ou `... > Show De
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 6. Activez votre Hub
 
-Cette étape est optionnelle : elle n'est destinée qu'à ceux qui possèdent un Hub pour la monitoring en temps réel.
+Cette étape est optionnelle : elle n'est destinée qu'à ceux qui possèdent un Hub pour la monitoring en temps réel. Si vous n'avez pas de Hub, sautez directement à la [section suivante](#🐝-passer-maintenant-au-rucher).
+
 Rappelez-vous de la [page Hubs](./60_hubs/) qu'il existe plusieurs versions de hub : 
 
 - Broodminder-T91 4G [solaire, météo, nu]
