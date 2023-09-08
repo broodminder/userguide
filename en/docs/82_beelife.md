@@ -15,16 +15,16 @@ As a BroodMinder user you can choose to ** share your own hives** data with BeeL
 
 ## FAQ
 
-??? question "When is my data sent?"
+!!! question "When is my data sent?"
     Data is sent daily to BeeLife as far as the sharing is active
 
-??? question "If I activate the sharing now, is past data being sent too"
+!!! question "If I activate the sharing now, is past data being sent too"
     No, sending is done on a daily basis. No catch back is done (except for devices being synced manually)
 
-??? question "What happens if I move a device out of this apiary?"
+!!! question "What happens if I move a device out of this apiary?"
     data from this device won't be sent anymore
 
-??? question "What happens if I move a new device into this apiary?"
+!!! question "What happens if I move a new device into this apiary?"
     adding a device to that apiary will start to share the data from that moment
 
 
