@@ -27,6 +27,7 @@ nav:
   - BeesApp: '40_beesApp.md'
   - MyBroodminder: '50_mybroodminder_v5.md'
   - Sensors: 
+      - Product range:  '30_product_range.md'
       - General aspects:  '30_sensors.md'
       - BroodMinder TH & T: '31_sensors_T_TH.md'
       - BroodMinder W: '32_sensors_W.md'
