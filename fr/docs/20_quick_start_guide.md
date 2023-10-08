@@ -87,6 +87,8 @@ Les modèles plus anciens (T2) peuvent avoir un bouton poussoir.
 ![activateDevices](./20_quick_start_guide.assets/activateDevices600.png)
 
 !!! warning "Faites attention à cela:"
+    Avec n'importe quel appareil, le fait de tirer sur la languette devrait faire clignoter la carte. Si vous ne voyez pas de clignotement, poussez les piles contre le contact +. Parfois, le support des piles peut être trop rigide et empêcher le ressort de les pousser. (principalement pour les piles AA)
+
     Ne retirez aucune partie en plastique. Elles assurent la protection.
     
     Vérifiez que tous les joints sont correctement installés sur les boitiers.

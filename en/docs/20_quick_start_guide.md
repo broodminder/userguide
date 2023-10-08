@@ -81,11 +81,14 @@ Older models (T2) might have a push button.
 ![activateDevices](./20_quick_start_guide.assets/activateDevices600.png)
 
 !!! warning "Take care of this:"
+    With any device, pulling the tab should make the board blink. If you do not see any blink, push the batteries against the + contact. Sometimes the battery holder can be stiff and avoid the spring to push them through. (mostly for AA batteries)
+
     Do not discard any plastic part. Keep them all in place.
     
     Check that all seals are properly installed.
     
     Verify that cable glands are tight too when appropriate.
+
 
 
 
