@@ -65,14 +65,21 @@ In Bees you have several tabs that we will navigate :
 ![img](./20_quick_start_guide.assets/beesApp_Tabs500.png)
 
 
-Now go to `Hives Tab > ... > New apiary` and create an apiary and a hive.
+Now move to the **Apiaries** Tab:
 
-We can then assign sensors to this newly created hive.
+![img](./20_quick_start_guide.assets/beesApp_1NoApiaries300.png)
+
+Create your first apiary with `... > New apiary`
+
+![img](./20_quick_start_guide.assets/beesApp_2NewApiary300.png)
+
+Create your first hive with `... > New hive`
+
+![img](./20_quick_start_guide.assets/beesApp_3NewHive300.png)
+
+We can now move on to assign sensors to this newly created hive. But first we have to pover on devices.
 
 
-![img](./20_quick_start_guide.assets/beesApp_Apiaries300.png)
-
-<br>
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/003.png) 3. Activate your devices
 In general all our devices have a pull strip.
@@ -101,9 +108,29 @@ Attach each device to a hive.
 
 ![assignDevices](./20_quick_start_guide.assets/beesApp_ClaimDevice300.png)
 
+
+![assignDevices](./20_quick_start_guide.assets/beesApp_AssignDevice300.png)
+
+Available device positions are
+
+| Position | typical use |
+|-- | -- |
+| Lower brood | TH or T into the lower brood box |
+| Upper brood | TH or T into the upper brood box |
+| Inner cover | TH or T under the cover |
+| Scale under hive  | full weight scales like W3, W4 |
+| Scale under hive (back) | half weight (bar) scales like W and W5|
+| Beecounter | Beedar |
+| Outside Hive | beekeeper's choice |
+| Other| beekeeper's choice |
+| Custom [1-7]| for research purposes (multiple devices) |
+
+
+!!! info "Device location is important"
+    Carefully select position for internal sensors. Some metrics like brood are only computed if the device is assigned to the brood location.
 <br>
 
-
+Now return to the **Apiaries** tab to perform the first sync.
 
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 5. Make your first sync
@@ -216,7 +243,10 @@ Edit the `start date/time`.
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/008.png) 10. Explore and discover
 
-Now you can also go to MyBroodMinder.com and explore your data.
+Now you can also go to [MyBroodMinder.com](https://mybroodminder.com) and explore your data.
+
+Sign in with the same account you created on the Bees App.
+
 
 ![MBM](./10_intro.assets/image-20230407155319801.png)
 

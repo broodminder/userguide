@@ -70,12 +70,20 @@ Dans Bees vous avez plusieurs onglets que nous allons naviguer par la suite
 ![img](./20_quick_start_guide.assets/beesApp_Tabs500.png)
 
 
-Maintenant allez `Ruchers > ... > Créer rucher` et créez un rucher et des ruches.
 
-Nous pourrons par la suite affecter des capteurs à cette ruche qui vient d'être créée.
+Allez maintenant dans l'onglet **Ruchers** pour créer votre premier Rucher et votre première Ruche :
 
+![img](./20_quick_start_guide.assets/beesApp_1NoApiaries300.png)
 
-![img](./20_quick_start_guide.assets/beesApp_Apiaries300.png)
+Créez votre premier rucher avec `... > Nouveau Rucher`
+
+![img](./20_quick_start_guide.assets/beesApp_2NewApiary300.png)
+
+Créez votre premièrer ruche avec `... > Nouvelle Ruche`
+
+![img](./20_quick_start_guide.assets/beesApp_3NewHive300.png)
+
+Nous pouvons maintenant assigner des capteurs à cette ruche nouvellement créée. Mais d'abord, nous devons allumer les capteurs.
 
 <br>
 
@@ -87,7 +95,7 @@ Les modèles plus anciens (T2) peuvent avoir un bouton poussoir.
 ![activateDevices](./20_quick_start_guide.assets/activateDevices600.png)
 
 !!! warning "Faites attention à cela:"
-    Avec n'importe quel appareil, le fait de tirer sur la languette devrait faire clignoter la carte. Si vous ne voyez pas de clignotement, poussez les piles contre le contact +. Parfois, le support des piles peut être trop rigide et empêcher le ressort de les pousser. (principalement pour les piles AA)
+    Avec n'importe quel appareil, le fait de tirer sur la languette doit faire clignoter la carte. Si vous ne voyez pas de clignotement, poussez les piles contre le contact +. Parfois, le support des piles peut être trop rigide et empêcher le ressort de les pousser. (principalement pour les piles AA)
 
     Ne retirez aucune partie en plastique. Elles assurent la protection.
     
@@ -107,8 +115,31 @@ Rattachez chaque appareil à une ruche.
 
 ![assignDevices](./20_quick_start_guide.assets/beesApp_ClaimDevice300.png)
 
+
+![assignDevices](./20_quick_start_guide.assets/beesApp_AssignDevice300.png)
+
+
+Les positions disponibles sont les suivantes :
+
+| Position | Usage typique |
+|-- | -- |
+| corps | TH ou T dans le corps|
+| hausse | TH ou T dans la hausse |
+| sous le couvre cadres | TH ou T sous le couvre cadre |
+| Balance | balances à poids intégral comme les modèles W3, W4 |
+| Balance(AR) | balances à 1/2 poids comme W et W5|
+| Compteur | Beedar |
+| Extérieur | choix de l'apiculteur |
+| Autre | choix de l'apiculteur  |
+| Custom [1-7]| pour les chercheurs (multiples capteurs) |
+
+
+!!! note "La position est importante"
+    Sélectionnez soigneusement la position des capteurs internes. Certaines mesures, comme la couvée, ne sont calculées que si l'appareil est assigné à l'emplacement de la couvée.
+
 <br>
 
+Maintenant revenez sur l'onglet **Ruchers** pour faire la première synchro.
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/005.png) 5. Faites la première syncro
 
@@ -225,6 +256,8 @@ Editer la ` date de début`.
 ### ![image](./20_quick_start_guide.assets/icons/30px/009.png) 10. Exploree et découvrez
 
 Désormais, vous pouvez également vous rendre sur [MyBroodMinder.com](https://mybroodminder.com) et explorer vos données.
+
+Connectez-vous avec le même compte que celui que vous avez créé sur l'application Bees.
 
 ![MBM](./20_quick_start_guide.assets/image-20230407155319801.png)
 
