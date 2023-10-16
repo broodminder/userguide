@@ -159,7 +159,7 @@ Now look to your data using `... > Show Graph` or `... > Show Details`.
 This stage is optional : only intended for those owning a Hub for real time monitoring.
 If you do not have a Hub, move to the [next chapter](#🐝-now-move-to-the-apiary).
 
-Remember from [Hubs page](./60_hubs/) that there are several hub versions: 
+Remember from [Hubs page](./60_hubs.md) that there are several hub versions: 
 
 - Broodminder-T91 Cellular Hub [solar, weather, naked]
 - BroodMinder-Wifi Hub

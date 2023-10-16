@@ -168,7 +168,7 @@ Maintenant regardez vos premières données `... > Show Graph` ou `... > Show De
 
 Cette étape est optionnelle : elle n'est destinée qu'à ceux qui possèdent un Hub pour la monitoring en temps réel. Si vous n'avez pas de Hub, sautez directement à la [section suivante](#🐝-passer-maintenant-au-rucher).
 
-Rappelez-vous de la [page Hubs](./60_hubs/) qu'il existe plusieurs versions de hub : 
+Rappelez-vous de la [page Hubs](./60_hubs.md) qu'il existe plusieurs versions de hub : 
 
 - Broodminder-T91 4G [solaire, météo, nu]
 - BroodMinder-Wifi

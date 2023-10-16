@@ -1,13 +1,13 @@
 # Introduction
 
-## Welcome to the world of BroodMinder
-If you're reading this, it's the start of a new adventure. You are now part of the precision beekeeper community. A community that uses information to improve bees' health. But also to improve everyone's practice, thanks to a deeper knowledge of the behaviour of colonies and their ecosystems.
+## Bienvenue dans l'univers de BroodMinder
+Si vous lisez ceci, c'est le début d'une nouvelle aventure. Vous faites désormais partie de la communauté des apiculteurs de précision. Une communauté qui utilise l'information pour améliorer la santé des abeilles. Mais aussi pour améliorer la pratique de chacun, grâce à une connaissance plus approfondie du comportement des colonies et de leurs écosystèmes.
 
-## Introduction to precision beekeeping ##
+## Introduction à l'apiculture de précision ##
 
-In precision beekeeping, the objective is to make the best use of all available data to provide the beekeeper with the right information at the right time. The beekeeper is informed in real time of all the events in their apiary. Those that are taking place at the moment, but also those to come. In this way, one can plan inspections in advance and knows in advance what to expect. The diagnosis is made before the journey to the apiary and completed by the inspection itself.
+Dans l'apiculture de précision, l'objectif est d'utiliser au mieux toutes les données disponibles pour fournir à l'apiculteur les bonnes informations au bon moment. L'apiculteur est informé en temps réel de tous les événements qui se produisent dans son rucher. Ceux qui se déroulent en ce moment, mais aussi ceux à venir. Il peut ainsi planifier les inspections à l'avance et sait d'avance à quoi s'attendre. Le diagnostic est établi avant le déplacement au rucher et complété par l'inspection elle-même.
 
-To achieve this goal, algorithms are our best friends. These are models that analyse the collected information and translate it into "beekeeping language". 
+Pour atteindre cet objectif, les algorithmes sont nos meilleurs amis. Il s'agit de modèles qui analysent les informations collectées et les traduisent en "langage apicole". 
 
 Some resources on precision beekeeping: 
 
