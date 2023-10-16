@@ -16,7 +16,7 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: 1150
         script: |
-          cd /mellisphera/prod/userguide/
+          cd /mellisphera/production/userguide/
           git pull &>> github_CD_output.txt
           ./build.sh &>> github_CD_output.txt
         
