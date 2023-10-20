@@ -1,5 +1,7 @@
 # Quick Start Guide
 
+🇫🇷 [french version](http://doc.mybroodminder.com/fr/20_quick_start_guide/)
+
 We have done our best to make the installation and usage of your BroodMinder intuitive and easy. 
 
 ## Follow these steps
