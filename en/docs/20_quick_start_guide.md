@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-🇫🇷 [french version](http://doc.mybroodminder.com/fr/20_quick_start_guide/)
+<p style='text-align: right;'><a href="http://doc.mybroodminder.com/fr/20_quick_start_guide/">🇫🇷 Version Française</a></p>
 
 We have done our best to make the installation and usage of your BroodMinder intuitive and easy. 
 
@@ -20,7 +20,7 @@ We have done our best to make the installation and usage of your BroodMinder int
 | 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Install devices in hive | 
 | 8. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Install your hub | 
 | 9. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Update starting dates | 
-| 10. | ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | View and explore | 
+| 10.| ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | View and explore | 
 
 
 
