@@ -1,6 +1,6 @@
 # Guide de Démarrage Rapide
 
-<p style='text-align: right;'><a href="http://doc.mybroodminder.com/20_quick_start_guide/">🇺🇸 English version</a></p>
+<p style='text-align: right;'><a href="http://doc.mybroodminder.com/en/20_quick_start_guide/">🇺🇸 English version</a></p>
 
 Nous avons fait de notre mieux pour rendre l'installation et l'utilisation de vos BroodMinders intuitives et faciles. Suivez le processus ci-dessous pour bien assimiler tous les aspects de la solution (Capteurs, App et Web..) et vous mettrez toutes les chances de votre côté pour réussir. 
 
