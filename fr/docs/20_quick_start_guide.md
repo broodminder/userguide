@@ -228,7 +228,7 @@ Suivez le même processus que ci-dessus, à la différence que vous devrez branc
 
 Installez les BroodMinder-T (modèle 47) et -TH (modèle 56) sur le cadre du milieu (généralement le n°5) en commençant par le côté gauche vu de l'avant de la ruche. L'identifiant qui se trouve au bout de la languette doit dépasser pour être visible en façade de la ruche.
 
-![Install_BRM-T](./20_quick_start_guide.assets/Install_BRM-T.png)
+![Install_BRM-T](./20_quick_start_guide.assets/install_BRM-T.png)
 
 
 
@@ -236,7 +236,7 @@ Installez les BroodMinder-T (modèle 47) et -TH (modèle 56) sur le cadre du mil
 Placez votre balance BroodMinder-W de préférence **à l'arrière** de la ruche. Veillez à ce que la ruche soit aussi bien nivelée que possible. 
 Les balances BroodMinder-W3 et W4 n’ont pas besoin de nivellement précis.
 
-![Install_BRM-W](./20_quick_start_guide.assets/Install_BRM-W.png)
+![Install_BRM-W](./20_quick_start_guide.assets/install_BRM-W.png)
 
 
 #### Beedar

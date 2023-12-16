@@ -218,7 +218,7 @@ Follow the same process as above, with the difference that you will have to plug
 
 Install BroodMinder-T (model 47) and -TH (model 56) on the middle frame (usually no. 5), starting on the left-hand side as seen from the front of the hive. The identifier at the end of the tab should protrude so as to be visible from the front of the hive.
 
-![Install_BRM-T](./20_quick_start_guide.assets/Install_BRM-T.png)
+![Install_BRM-T](./20_quick_start_guide.assets/install_BRM-T.png)
 
 
 
@@ -226,7 +226,7 @@ Install BroodMinder-T (model 47) and -TH (model 56) on the middle frame (usually
 Place your BroodMinder-W scale preferably **at the back** of the hive. Make sure the hive is as level as possible. 
 BroodMinder-W3 and W4 scales do not require precise levelling.
 
-![Install_BRM-W](./20_quick_start_guide.assets/Install_BRM-W.png)
+![Install_BRM-W](./20_quick_start_guide.assets/install_BRM-W.png)
 
 
 #### Beedar
