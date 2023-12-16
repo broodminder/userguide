@@ -15,7 +15,7 @@ Each step is described in detail later in this document.
 | 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | [Make your first sync](#5-make-your-first-sync) | 
 | 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | [Power on Hub](#6-power-on-your-hub) | 
 
-| AT YOUR APIARY  |  | | |
+| AT YOUR APIARY |  | | |
 | -- | -- | -- | -- |
 | 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | [Install devices in hive](#7-install-devices-in-hives) | 
 | 8. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | [Install your hub](#8-install-your-hub) | 

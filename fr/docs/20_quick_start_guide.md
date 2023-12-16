@@ -1,5 +1,7 @@
 # Guide de Démarrage Rapide
 
+<p style='text-align: right;'><a href="http://doc.mybroodminder.com/20_quick_start_guide/">🇺🇸 English version</a></p>
+
 Nous avons fait de notre mieux pour rendre l'installation et l'utilisation de vos BroodMinders intuitives et faciles. Suivez le processus ci-dessous pour bien assimiler tous les aspects de la solution (Capteurs, App et Web..) et vous mettrez toutes les chances de votre côté pour réussir. 
 
 Chacune des étapes est décrite en détail plus bas dans ce document.
@@ -59,6 +61,7 @@ Dans BeesApp, dans l'onglet `Rucher`, créez votre premier *rucher* et votre pre
 
 
 Dans Bees vous avez plusieurs onglets que nous allons naviguer par la suite
+
 - l'onglet `Capteurs` (Devices)
 - l'onglet `Ruchers` (Apiaries)
 - l'onglet `Paramètres` (settings)
@@ -231,7 +234,7 @@ Installez les BroodMinder-T (modèle 47) et -TH (modèle 56) sur le cadre du mil
 
 #### Balances
 Placez votre balance BroodMinder-W de préférence **à l'arrière** de la ruche. Veillez à ce que la ruche soit aussi bien nivelée que possible. 
-Les balances  BroodMinder-W3 et W4 n’ont pas besoin de nivellement précis.
+Les balances BroodMinder-W3 et W4 n’ont pas besoin de nivellement précis.
 
 ![Install_BRM-W](./20_quick_start_guide.assets/Install_BRM-W.png)
 
@@ -239,7 +242,7 @@ Les balances  BroodMinder-W3 et W4 n’ont pas besoin de nivellement précis.
 #### Beedar
 Le BeeDar se positionne en façade, centré sur l'axe de la ruche. La hauteur par rapport au plancher d'envol est le juste nécessaire pour vous permettre de manipuler sans souci les réducteurs d'entrée. Typiquement 5 à 7 cm au-dessus du plancher.
 
-Beedar a un angle horizontal de 85° et vertical de 30°.
+Beedar a un angle "de vue" horizontal de 85° et vertical de 30°.
 Vous pouvez l'accrocher avantageusement avec deux vis de 4mm de diamètre.
 
 

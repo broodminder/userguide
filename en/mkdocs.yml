@@ -62,6 +62,8 @@ nav:
   - Distributors: '94_distributorInfo.md'  
   - Legacy Devices: '97_legacy_devices.md'   
   - _____: 'void.md'
+  - Version 🇫🇷 : 'http://doc.mybroodminder.com/fr/'
+
 
 # check for documentation on commands
 # https://squidfunk.github.io/mkdocs-material/reference/lists/
