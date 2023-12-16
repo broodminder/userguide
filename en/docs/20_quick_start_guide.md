@@ -2,47 +2,44 @@
 
 <p style='text-align: right;'><a href="http://doc.mybroodminder.com/fr/20_quick_start_guide/">🇫🇷 Version Française</a></p>
 
-We have done our best to make the installation and usage of your BroodMinder intuitive and easy. 
+We've done our best to make the installation and use of your BroodMinders intuitive and easy. Follow the process below to get to grips with all aspects of the solution (Sensors, App and Web...) and you'll have every chance of success.
 
-## Follow these steps
+Each step is described in detail later in this document.
 
-
-| | |  | |
+| AT HOME   |  | | | 
 | -- | -- | -- | -- |
-| AT HOME   |  | | 
-| 1. | ![image](./20_quick_start_guide.assets/icons/30px/001.png)  | Install the App | 
-| 2. | ![image](./20_quick_start_guide.assets/icons/30px/002.png)  | Create your account | 
-| 3. | ![image](./20_quick_start_guide.assets/icons/30px/003.png)  | Power your devices | 
-| 4. | ![image](./20_quick_start_guide.assets/icons/30px/004.png)  | Assign to a hive | 
-| 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | Make your first sync | 
-| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Power on Hub | 
-| IN YOUR APIARY  |  | | 
-| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Install devices in hive | 
-| 8. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Install your hub | 
-| 9. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Update starting dates | 
-| 10.| ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | View and explore | 
+| 1. | ![image](./20_quick_start_guide.assets/icons/30px/001.png)  | [Install the App](#1-install-broodminder-bees) | 
+| 2. | ![image](./20_quick_start_guide.assets/icons/30px/002.png)  | [Create your account](#2-create-your-account) | 
+| 3. | ![image](./20_quick_start_guide.assets/icons/30px/003.png)  | [Power your devices](#3-activate-your-devices) | 
+| 4. | ![image](./20_quick_start_guide.assets/icons/30px/004.png)  | [Assign to a hive](#4-assign-devices-to-hives) | 
+| 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | [Make your first sync](#5-make-your-first-sync) | 
+| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | [Power on Hub](#6-power-on-your-hub) | 
+
+| AT YOUR APIARY  |  | | |
+| -- | -- | -- | -- |
+| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | [Install devices in hive](#7-install-devices-in-hives) | 
+| 8. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | [Install your hub](#8-install-your-hub) | 
+| 9. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | [Update starting dates](#9-update-start-datetime) | 
+| 10.| ![image](./20_quick_start_guide.assets/icons/30px/009.png)  | [View and explore](#10-explore-and-discover) | 
 
 
 
 
-## Note the following best practices:
+## Before you start
+Take note of the following best practices:
 
-A. Use our video library
+!!! info "Set-up everything AT HOME"
+    Make sure the system is functional before installing it in the apiary, then it will be less easy to set up.
 
-- Watch the video help "[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)"
+!!! info "Tag your hives"
+    Do what it takes to identify your hives, it will be much better.
+    1, 2, 3 ..... A, B, C ... K254.
 
-B. Tag your hives
+!!! info "Use our video library"
+    Watch the video help "[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)"
 
-- 1, 2, 3, A, B, C, *, # : do what it takes to identify your hives, it will be much better.
-
-C. Prepare everything AT HOME
-
-- Make sure the system is functional before installing it in the apiary, then it will be less easy to set up.
-
-
-Need help?
-
-- You can always contact us at [Support@BroodMinder.com](mailto:Support@BroodMinder.com)
+!!! tip "Need help?"
+    You can always contact us at [Support@BroodMinder.com](mailto:Support@BroodMinder.com)
 
 -----
 
@@ -98,7 +95,17 @@ Older models (T2) might have a push button.
     
     Verify that cable glands are tight too when appropriate.
 
-
+!!! tip "Understand device model"
+    All BroodMinder sensors have a 6-digit reference number in the form XX:XX:XX. The first two digits of this reference define the model:
+  
+    - 41, 47 : T2
+    - 42, 56 : TH
+    - 43, 57 : W 
+    - 49 : W3 et W4
+    - 52 : SubHub
+    - 54 : Hub
+    - 58 : DIY
+    - 63 : BeeDar
 
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/004.png) 4. Assign devices to hives
@@ -149,16 +156,18 @@ Using BroodMinder Bees App there are multiple ways of syncing:
 
 Now look to your data using `... > Show Graph` or `... > Show Details`.
 
+![firstSync](./20_quick_start_guide.assets/firstSyncB.png)
+
+
 !!! info
     On your first sync you probably do not see much data since there is only one or two samples.
 
-![firstSync](./20_quick_start_guide.assets/firstSyncB.png)
 
 
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 6. Power-On your Hub
 
-This stage is optional : only intended for those owning a Hub for real time monitoring.
+This stage is intended for those owning a Hub for real time monitoring.
 If you do not have a Hub, move to the [next chapter](#🐝-now-move-to-the-apiary).
 
 Remember from [Hubs page](./60_hubs.md) that there are several hub versions: 
@@ -202,11 +211,31 @@ Follow the same process as above, with the difference that you will have to plug
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 7. Install devices in hives
 
-Install BroodMinder-T and -TH in the middle frame (usually n°5) starting from the left side seen from the rear of the hive. T2 shall be over the brood box and TH over the super.
-
-Place your BroodMinder-W scale at the rear side of the hive. Make sure that the hive is leveled as well as possible. 
-
 ![Install devices](./20_quick_start_guide.assets/installDevicesInHive.png)
+
+
+#### Internal sensors
+
+Install BroodMinder-T (model 47) and -TH (model 56) on the middle frame (usually no. 5), starting on the left-hand side as seen from the front of the hive. The identifier at the end of the tab should protrude so as to be visible from the front of the hive.
+
+![Install_BRM-T](./20_quick_start_guide.assets/Install_BRM-T.png)
+
+
+
+#### Scales
+Place your BroodMinder-W scale preferably **at the back** of the hive. Make sure the hive is as level as possible. 
+BroodMinder-W3 and W4 scales do not require precise levelling.
+
+![Install_BRM-W](./20_quick_start_guide.assets/Install_BRM-W.png)
+
+
+#### Beedar
+The BeeDar is mounted on the front of the hive, centered on the hive axis. The height from the flight deck is just right to allow you to handle the entrance reducers without worry. Typically 5 to 7 cm above the floor.
+
+Beedar has a horizontal "view" angle of 85° and a vertical angle of 30°.
+You can hang it with two 4mm-diameter screws.
+
+
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 8. Install your hub
 

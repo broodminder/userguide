@@ -1,46 +1,43 @@
 # Guide de Démarrage Rapide
 
-Nous avons fait de notre mieux pour rendre l'installation et l'utilisation de votre BroodMinder intuitives et faciles. 
+Nous avons fait de notre mieux pour rendre l'installation et l'utilisation de vos BroodMinders intuitives et faciles. Suivez le processus ci-dessous pour bien assimiler tous les aspects de la solution (Capteurs, App et Web..) et vous mettrez toutes les chances de votre côté pour réussir. 
 
-## Suivez ces étapes
+Chacune des étapes est décrite en détail plus bas dans ce document.
 
-
-| | |  | |
+| A LA MAISON   |  | | | 
 | -- | -- | -- | -- |
-| A LA MAISON   |  | | 
-| 1. | ![image](./20_quick_start_guide.assets/icons/30px/001.png)  | Installer l'App | 
-| 2. | ![image](./20_quick_start_guide.assets/icons/30px/002.png)  | Créer votre compte | 
-| 3. | ![image](./20_quick_start_guide.assets/icons/30px/003.png)  | Allumer les capteurs | 
-| 4. | ![image](./20_quick_start_guide.assets/icons/30px/004.png)  | Assigner à une ruche | 
-| 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | Faire la première synchro | 
-| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Activer votre hub | 
-|  AU RUCHER  |  | | 
-| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | Installer sur les ruches | 
-| 8. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | Installer le Hub | 
-| 9. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | Actualiser la date de début | 
-| 10. | ![image](./20_quick_start_guide.assets/icons/30px/009.png) | Voir et explorer | 
+| 1. | ![image](./20_quick_start_guide.assets/icons/30px/001.png)  | [Installer l'App](#1-installer-broodminder-bees) | 
+| 2. | ![image](./20_quick_start_guide.assets/icons/30px/002.png)  | [Créer votre compte](#2-creer-votre-compte) | 
+| 3. | ![image](./20_quick_start_guide.assets/icons/30px/003.png)  | [Allumer les capteurs](#3-activer-les-capteurs) | 
+| 4. | ![image](./20_quick_start_guide.assets/icons/30px/004.png)  | [Assigner à une ruche](#4-assigner-les-capteurs-aux-ruches) | 
+| 5. | ![image](./20_quick_start_guide.assets/icons/30px/005.png)  | [Faire la première synchro](#5-faites-la-premiere-syncro) | 
+| 6. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | [Activer votre hub](#6-activez-votre-hub) | 
+
+|  AU RUCHER  |  | | |
+| -- | -- | -- | -- |
+| 7. | ![image](./20_quick_start_guide.assets/icons/30px/007.png)  | [Installer les capteurs](#7-installer-les-capteurs) | 
+| 8. | ![image](./20_quick_start_guide.assets/icons/30px/006.png)  | [Installer le Hub](#8-installer-le-hub) | 
+| 9. | ![image](./20_quick_start_guide.assets/icons/30px/008.png)  | [Actualiser la date de début](#9-actualiser-la-dateheure-de-depart) | 
+| 10. | ![image](./20_quick_start_guide.assets/icons/30px/009.png) | [Explorez et découvrez](#10-explorez-et-decouvrez) | 
 
 
 
 
-## Notez les bonnes pratiques suivantes:
+## Avant de vous lancer 
+Notez les bonnes pratiques suivantes:
 
-A. Utiliser notre bibliothèque de vidéos
+!!! info "Préparez tout A LA MAISON"
+    Assurez-vous que le système est fonctionnel avant de l'installer dans le rucher. Autrement par la suite tout devient plus compliqué et moins confortable.
 
-- Regardez la vidéo d'aide "[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)"
+!!! info "Etiquetez vos ruches"
+    Faites ce qu'il faut pour identifier vos ruches de façon unique. Vous ne le regretterez pas.
+    R1, R2, R3  ... A, B, C ... K722, ST023...
 
-B. Etiquetez vos ruches
+!!! info "Utiliser notre bibliothèque de vidéos"
+    Regardez la vidéo d'aide [Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)
 
-- R1, R2, R3, A, B, C, K722, ST023 .. : Faites ce qu'il faut pour identifier vos ruches de façon unique. Vous ne le regretterez pas.
-
-C. Préparez tout A LA MAISON
-
-- Assurez-vous que le système est fonctionnel avant de l'installer dans le rucher. Autrement par la suite tout devient plus compliqué et moins confortable.
-
-
-Besoin d'aide ?
-
-- Vous pouvez toujours nous contacter [Support@BroodMinder.com](mailto:Support@BroodMinder.com)
+!!! tip "Besoin d'aide ?"
+    Vous pouvez toujours nous contacter [Support@BroodMinder.com](mailto:Support@BroodMinder.com)
 
 -----
 
@@ -104,6 +101,17 @@ Les modèles plus anciens (T2) peuvent avoir un bouton poussoir.
     Vérifiez que les presse-étoupes sont également bien serrés, le cas échéant.
 
 
+!!! tip "Comprendre les modèles de capteur"
+    Tous les capteurs BroodMinder ont une référence à 6 chiffres de la forme XX:XX:XX. Les deux premières chifres de cette référence définissent le modèle :
+  
+    - 41, 47 : T2
+    - 42, 56 : TH
+    - 43, 57 : W 
+    - 49 : W3 et W4
+    - 52 : SubHub
+    - 54 : Hub
+    - 58 : DIY
+    - 63 : BeeDar
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/004.png) 4. Assigner les capteurs aux ruches
 
@@ -135,7 +143,7 @@ Les positions disponibles sont les suivantes :
 
 
 !!! note "La position est importante"
-    Sélectionnez soigneusement la position des capteurs internes. Certaines mesures, comme la couvée, ne sont calculées que si l'appareil est assigné à l'emplacement de la couvée.
+    Sélectionnez soigneusement la position des capteurs internes. Certaines mesures, comme le couvain, ne sont calculées que si l'appareil est assigné à un emplacement hors-couvain.
 
 <br>
 
@@ -211,23 +219,40 @@ Suivez le même processus que ci-dessus, à la différence que vous devrez branc
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/007.png) 7. Installer les capteurs
 
-Installez les BroodMinder-T et -TH dans le cadre du milieu (généralement le n°5) en commençant par le côté gauche vu de l'avant de la ruche. 
+![Install devices](./20_quick_start_guide.assets/installDevicesInHive.png)
 
-Placez votre balance BroodMinder-W à l'arrière de la ruche. Veillez à ce que la ruche soit aussi bien nivelée que possible. 
+#### Sondes de couvain
+
+Installez les BroodMinder-T (modèle 47) et -TH (modèle 56) sur le cadre du milieu (généralement le n°5) en commençant par le côté gauche vu de l'avant de la ruche. L'identifiant qui se trouve au bout de la languette doit dépasser pour être visible en façade de la ruche.
+
+![Install_BRM-T](./20_quick_start_guide.assets/Install_BRM-T.png)
+
+
+
+#### Balances
+Placez votre balance BroodMinder-W de préférence **à l'arrière** de la ruche. Veillez à ce que la ruche soit aussi bien nivelée que possible. 
 Les balances  BroodMinder-W3 et W4 n’ont pas besoin de nivellement précis.
 
-![Install devices](./20_quick_start_guide.assets/installDevicesInHive.png)
+![Install_BRM-W](./20_quick_start_guide.assets/Install_BRM-W.png)
+
+
+#### Beedar
+Le BeeDar se positionne en façade, centré sur l'axe de la ruche. La hauteur par rapport au plancher d'envol est le juste nécessaire pour vous permettre de manipuler sans souci les réducteurs d'entrée. Typiquement 5 à 7 cm au-dessus du plancher.
+
+Beedar a un angle horizontal de 85° et vertical de 30°.
+Vous pouvez l'accrocher avantageusement avec deux vis de 4mm de diamètre.
+
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/006.png) 8. Installer le Hub
 
-Cette étape est facultative : elle n'est destinée qu'à ceux qui possèdent un Hub pour la surveillance en temps réel. 
+Cette étape concerne uniquement ceux qui possèdent un Hub pour la surveillance en temps réel. 
 
 En règle générale, pour tout type de hub, vous devez savoir que :
 - la portée globale pour un Hub <=> sonde interne est de ~ 10 mètres
 - la portée globale pour un Hub <=> capteur externe est de ~ 30-40 m
 
 !!! Important 
-    - les hubs doivent être placés à au moins 1,5 m du sol (la réception cellulaire et Wifi est TRES REDUITE lorsque le dispositif est proche du sol)<br>.
+    - les hubs doivent être placés à au moins 1,5 m du sol (la réception cellulaire ou Wifi est TRES REDUITE lorsque le dispositif est proche du sol)<br>
     - éviter l'exposition directe au soleil
 
 ![Install hub](./20_quick_start_guide.assets/hub_install.png)
@@ -253,7 +278,7 @@ Pour éviter d'avoir des mesures provenant de l'extérieur de la ruche, modifiez
 Pour ce faire allez dans `BeesApp > Ruchers > déplier les ruches pour voir les capteurs > "..." > Changer la position actuelle`. 
 Editer la ` date de début`.
 
-### ![image](./20_quick_start_guide.assets/icons/30px/009.png) 10. Exploree et découvrez
+### ![image](./20_quick_start_guide.assets/icons/30px/009.png) 10. Explorez et découvrez
 
 Désormais, vous pouvez également vous rendre sur [MyBroodMinder.com](https://mybroodminder.com) et explorer vos données.
 
