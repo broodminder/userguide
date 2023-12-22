@@ -2,8 +2,9 @@
 
  ![](./images/products/gamme_complete.jpg#largeImg)
 
+
 | **Product** | **Name** | **Description** |
-|-            |--        |                 |
+|-            |--        |-                 |
 | ![](./images/products/t2.png#mediumImg) | Internal sensor T | Small sensor, big benefits. The best tool for monitoring hive dynamics. |
 | ![](./images/products/th2.png#mediumImg) | Internal sensor TH | Temperature and humidity, all in one. |
 | ![](./images/products/w.png#mediumImg) | Scale W | Ideal scale for hobby beekeeping Best value for money. |
