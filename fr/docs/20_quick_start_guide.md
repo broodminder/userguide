@@ -90,7 +90,7 @@ Nous pouvons maintenant assigner des capteurs à cette ruche nouvellement créé
 
 ### ![image](./20_quick_start_guide.assets/icons/30px/003.png) 3. Activer les capteurs
 En général, tous nos appareils sont équipés d'une tirette.
-Les modèles plus anciens (T2) peuvent avoir un bouton poussoir.
+Les modèles plus anciens (T) peuvent avoir un bouton poussoir.
 
 ![activateDevices](./20_quick_start_guide.assets/activateDevices600.png)
 
@@ -107,7 +107,7 @@ Les modèles plus anciens (T2) peuvent avoir un bouton poussoir.
 !!! tip "Comprendre les modèles de capteur"
     Tous les capteurs BroodMinder ont une référence à 6 chiffres de la forme XX:XX:XX. Les deux premières chifres de cette référence définissent le modèle :
   
-    - 41, 47 : T2
+    - 41, 47 : T
     - 42, 56 : TH
     - 43, 57 : W 
     - 49 : W3 et W4

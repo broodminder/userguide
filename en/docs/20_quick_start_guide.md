@@ -98,7 +98,7 @@ Older models (T2) might have a push button.
 !!! tip "Understand device model"
     All BroodMinder sensors have a 6-digit reference number in the form XX:XX:XX. The first two digits of this reference define the model:
   
-    - 41, 47 : T2
+    - 41, 47 : T
     - 42, 56 : TH
     - 43, 57 : W 
     - 49 : W3 et W4

@@ -50,6 +50,7 @@ nav:
   #- T2 Swarminder: 'new_t2sm.md'
   #- _____: 'void.md'
   - FAQ: 'faq.md'
+  - Formations: '90_Training.md' 
   - Support: 'support.md'
   - Dépanner l'ancien Hub 4G : 'troubleshooting_cell_hub.md'
   - Maintenance d'hiver : 'winter_service.md'
