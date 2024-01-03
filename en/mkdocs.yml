@@ -54,7 +54,8 @@ nav:
   - _____: 'void.md'
   - FAQ: '85_faq.md'
   - Video Library: '86_video_library.md' 
-  - Training Sessions: '90_Training.md' 
+  - Training Sessions: 
+      - General: '90_Training.md' 
       - MyBroodMinder: '91_Training_MyBroodMinder.md'
       - Bees App: '92_Training_BeesApp.md'
   - Tech Stuff and Physics: '87_physics_and_tech_stuff.md'  

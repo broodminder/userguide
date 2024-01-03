@@ -50,7 +50,8 @@ nav:
   #- T2 Swarminder: 'new_t2sm.md'
   #- _____: 'void.md'
   - FAQ: 'faq.md'
-  - Formations: '90_Training.md' 
+  - Formations: 
+      - Généralités: '90_Training.md' 
       - MyBroodMinder: '91_Training_MyBroodMinder.md'
       - Bees App: '92_Training_BeesApp.md'  
   - Support: 'support.md'
