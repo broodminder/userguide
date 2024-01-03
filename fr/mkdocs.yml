@@ -51,6 +51,8 @@ nav:
   #- _____: 'void.md'
   - FAQ: 'faq.md'
   - Formations: '90_Training.md' 
+      - MyBroodMinder: '91_Training_MyBroodMinder.md'
+      - Bees App: '92_Training_BeesApp.md'  
   - Support: 'support.md'
   - Dépanner l'ancien Hub 4G : 'troubleshooting_cell_hub.md'
   - Maintenance d'hiver : 'winter_service.md'
