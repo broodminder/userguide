@@ -4,3 +4,4 @@ Au cours des dernières années, le système BroodMinder a considérablement év
 
 Nous proposons actuellement deux webinaires de formation et planifions quelques sessions dans l'année. Consultez [notre magasin](https://eu.broodminder.com/collections/training) pour les sessions prévues.
 
+![](./90_training.assets/training.jpg)

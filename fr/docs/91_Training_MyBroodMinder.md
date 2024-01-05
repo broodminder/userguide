@@ -1,7 +1,8 @@
 # MyBroodMinder
 Webinaire Introductif avec Cas d'Utilisation
 
-![](./images/11_0_broodminder_apiary.png#smallImg)
+![mbm training](./90_training.assets/mbm_training.png#smallImg)
+
 
 ### Public Cible
 - La formation est destinée aux utilisateurs actuels de BroodMinder souhaitant approfondir leurs connaissances. Elle est également ouverte à ceux envisageant d'utiliser le système et souhaitant explorer son potentiel avant leur adoption.
