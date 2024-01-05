@@ -3,7 +3,7 @@ Webinaire Introductif avec Cas d'Utilisation
 
 Ces sessions ne sont pas encore entièrement définies. L'une des raisons en est que nous attendons une mise à jour importante ce printemps et nous commencerons la formation sur cette toute dernière version.
 
-![](./90_training.assets/bapp_training.png#smallImg)
+![](./90_training.assets/bapp_training.png#mediumImg)
 
 ### Public Cible
 - La formation est destinée aux utilisateurs actuels de BroodMinder souhaitant approfondir leurs connaissances. Elle est également ouverte à ceux envisageant d'utiliser le système et souhaitant explorer son potentiel avant leur adoption.

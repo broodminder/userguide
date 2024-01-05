@@ -1,7 +1,7 @@
 # MyBroodMinder
 Webinaire Introductif avec Cas d'Utilisation
 
-![mbm training](./90_training.assets/mbm_training.png#smallImg)
+![mbm training](./90_training.assets/mbm_training.png#mediumImg)
 
 
 ### Public Cible
@@ -31,13 +31,13 @@ Webinaire Introductif avec Cas d'Utilisation
 - Notes
 
 ### Cas d'Utilisation
-- Suivi des flux de miel lors des transhumances (BAQ)
+- Suivi des flux de miel lors des transhumances
 - Prévision de la progression des flux de miel en utilisant des indices de butinage/miel
-- Suivi de l'alimentation (LPO)
+- Suivi de l'alimentation
 - Traitements hivernaux / arrêt de la ponte
 - Partage des ruchers entre utilisateurs
 - Évaluation du potentiel de différents emplacements
-- Chasse aux essaims surveillée (Theo)
+- Chasse aux essaims surveillée
 
 ### Conclusion
 - Résumé de la session

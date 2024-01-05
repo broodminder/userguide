@@ -2,7 +2,7 @@
 # MyBroodMinder 
 Introductory Webinar with Use Cases
 
-![](./90_training.assets/mbm_training.png#smallImg)
+![](./90_training.assets/mbm_training.png#mediumImg)
 
 
 ### Target Audience
