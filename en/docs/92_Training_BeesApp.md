@@ -1,9 +1,9 @@
 # Bees App 
 Introductory Webinar with Use Cases
 
-Those sessions are not yet fully defined. One of the reasons is that we expect an important version upgrade this spring and we will start training on that newest version.
+The BeesApp sessions are not yet fully defined. One of the reasons is that we expect an important version upgrade this spring (2024) and we will start training on that newest version.
 
-![](./images/11_0_broodminder_apiary.png#smallImg)
+![](./90_training.assets/bapp_training.png#smallImg)
 
 
 ### Target Audience
