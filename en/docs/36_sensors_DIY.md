@@ -206,7 +206,78 @@ It is easy to take an old broken hive scale and convert it to a BroodMinder enab
 
  Good luck, let us know how it goes.
 
- 
+## Retrofit LabelAbeille Hive Scale model
+Follow these instructions to bring to life again the hive scales from LabelAbeille.
+The objective is to replace the old board with a BroodMinder-XLR board
+
+### Mechanical part
+
+Put the scale upside down and rmove the lower yellow cover
+Then open the "head" black box placed on the Loadcell screws side (reference "S" in te picture below).
+
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_1865.JPG)
+
+In the box remove the "A" board and the "B" harness. Unscrew the "C" harness from the board. This is the one coming from the load-cell to be soldered on the new XLR board.
+
+![cover](./36_sensors_DIY.assets/labelabeille/IMG_1860.JPG)
+
+Now cut the central plot with a cutter to leave space to the XLR board
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_1867.JPG)
+
+Like this
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_1868.JPG)
+
+Now prepare the XLR board. We will only use chanel J3. Therefore we bridge channels J1,J2 and J4 
+
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_2494.JPG)
+
+Solder the battery holder on this side (side is important to be able to have the batteries accessible once the casing will be mounted again.)  
+
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_2496.JPG)
+
+Now solder the cables on the J3 channel. 
+- Order is Black-Green-White-Red 
+- RED goes onto the square pad.
+- The yellow cable can be soldered together with black.
+
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_1869.JPG)
+
+Install the board inside the black box, together with the sticky pods.
+Mount everything together.
+
+Now install batteries. You should see a blinking led.
+(PICTURES MISSING)
+
+Now open BroodMinder-Bees on your phone and go to the `Devices` tab to find the scale. Check battery level, etc.
+
+And you're done with the mechanical part! 
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_1873.JPG)
+
+Now let's move to calibration 
+
+### Calibration
+To calibrate the scale follow the process below. If you need help, you'll find more details in this page http://doc.mybroodminder.com/en/37_sensors_W3_calibration/ 
+
+Open Bees App, move to ` Devices tab > locate the scale ID > ... > show details > ... (top right) > Troubleshooting > Calibrate scale` 
+
+![BAPP](./36_sensors_DIY.assets/labelabeille/bapp_menus.png)
+
+Now follow the process :
+
+1. Place the scale on the up-right position.
+2. With empty scale weight: Hit the button `Tare Scale` (bottom button)
+2. Now insert `Divisor = 0 for ALL chanels` (bottom of the screen)
+3. Now enter `Divisor = 9000 for chanel J3` (starting value)
+4. NOTE : you **do not** need to worry about Offsets
+
+![BAPP](./36_sensors_DIY.assets/labelabeille/bapp_calibration.png)
+
+
+4. Place a known weight on the scale > check "J3 Weight" displayed on the app > modify the divisor iteratively to find the actual weight on the display
+5. once you found the right divisor save and quit this interface
+
+
+You are done, congratulations !
 
 
 ## Troubleshooting
