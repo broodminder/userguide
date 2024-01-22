@@ -2,6 +2,11 @@
 
 What follow will explain you how to assemble the hive scale boards wheter if they are for the BroodMinder-W3 model or for the BroodMinder-DIY
 
+
+!!! Important
+   If you purchased a **W3 Unassembled-Calibrated** scale, all your electronics work is already done and you can jump straight to the next section : [Scale Assembly](http://doc.mybroodminder.com/en/33b_sensors_W3_assembly/)
+
+
 ## Get started with the circuit board.
 The XLR2 is a multi purpose board and the first thing you'll have to do is remove two resistors with your soldering iron : `R41` and `R42` as depicted in the scheme below
 
