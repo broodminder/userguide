@@ -6,11 +6,9 @@
     We suggest that you watch the videos from Section DIY/W3 in the [video Library](http://doc.mybroodminder.com/en/86_video_library/).
 
 !!! tip
-    If you acquired a W3 uncalibrated-unsassembled model consider also reading the [DIY section](http://doc.mybroodminder.com/en/36_sensors_DIY/) about how to assembly board with loadcells.
+    If you acquired a W3 uncalibrated-unassembled model consider also reading the [Calibration section](http://doc.mybroodminder.com/en/37_sensors_W3_calibration/) about how to assemble (solder) board with loadcells.
 
- The first section of this document demonstrates the **fixed feet** version followed by the **swivel feet** version.
-
- There is also an appendix to explain modification for Fixed to Swivel W3.
+ The first section of this document demonstrates the **fixed feet** version followed by the **swivel feet** version. There is also an appendix to explain modification for Fixed to Swivel W3.
 
 ![image-20230501140246145](./33_sensors_w3_assembly.assets/image-20230501140246145.png)
 
@@ -22,16 +20,16 @@
 
 ![image-20230501140321798](33_sensors_w3_assembly.assets/image-20230501140321798.png)
 
-| **Item Description**                                         | **Qty** |
-| ------------------------------------------------------------ | ------- |
-| (Picture A) Phillips Flat Head # 7 x 5/8"                    | 2       |
-| (Picture B) #8x4" Drywall Screw (W3PA &  W3UA)               | 3       |
-| (Picture C) #3 3/4 Phil Brass Flat Wood Screw                | 16      |
-| (Picture D) Load Cell Custom Support                         | 4       |
-| (Picture E) Spline Material                                  | 1       |
-| (Picture F) Electronics Assembly                             | 1       |
-| 16.5 Inch Pine 2x4 (User provided)   (16.5 inch or adjust for hive width) | 2       |
-| 15-16 Inch Pine 2x4 (User provided)                          | 1       |
+| **Item Description**                                         | **Qty** | **Metric** |
+| ------------------------------------------------------------ | ------- |  ---
+| (Picture A) Phillips Flat Head # 7 x 5/8"                    | 2       | 3x20   |
+| (Picture B) #8x4" Drywall Screw (W3PA &  W3UA)               | 3       | 4x70   |
+| (Picture C) #3 3/4 Phil Brass Flat Wood Screw                | 16      | 3x20   |
+| (Picture D) Load Cell Custom Support                         | 4       |        |
+| (Picture E) Spline Material                                  | 1       |        |
+| (Picture F) Electronics Assembly                             | 1       |        |
+| 16.5 Inch Pine 2x4 (User provided) (adjust for hive width)   | 2       | 43x4x6 |
+| 15-16 Inch Pine 2x4 (User provided)                          | 1       | 42x4x6 |
 
 ### Prepare the frame members
 
@@ -40,7 +38,7 @@
 - Cut saw kerfs (1,2,3) as shown in the picture below. They should be around 0.4” -0.75” deep. These will hold the wires from the sensors.
 - Cut kerf 4 for the wires to reach the electronics box. (see picture farther down). 
 - Test fit the spline and widen the kerfs if necessary.
-- Remove the broad area (marked C) with a chisel so that when the 2x4 tips it does not pinch the wire.
+- Remove the broad area (marked 5) with a chisel so that when the 2x4 tips it does not pinch the wire.
 
 ![image-20230501140518611](./33_sensors_w3_assembly.assets/image-20230501140518611.png)
 
@@ -169,3 +167,7 @@ If you have an Apimaye hive, you may want to upgrade your W3 to include the swiv
  All that you must do is remove the skirt that captures the swivel foot.
 
 ![image-20230501141552844](./33_sensors_w3_assembly.assets/image-20230501141552844.png)
+
+
+## Appendix: W3 Unassembled-Uncalibrated parts
+

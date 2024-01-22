@@ -38,7 +38,7 @@ We've made lots of videos over the years. Here is a list of them with links.
 - <a href="https://youtu.be/RmTpYHZxrf0" target="_blank">S1:E18 Batteries</a>
 - <a href="https://youtu.be/NtjtV7TKFgc" target="_blank">Troubleshooting T2 Power On</a>
 
-## DIY
+## DIY/W3
 
 - <a href="https://youtu.be/75ww-pvq3E8" target="_blank">**BroodMinder-W3 Options**</a> - We have some updates to our BroodMInder-W3 kits including an Apimaye kit. 
 

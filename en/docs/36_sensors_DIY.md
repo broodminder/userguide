@@ -56,6 +56,8 @@ A final note, (stepping up on soap box), I (Rich Morris) hate connectors. They a
 ​![image-20230409111316247](./36_sensors_DIY.assets/image-20230409111316247.png)
 
 
+​![wiring](./36_sensors_DIY.assets/xlr_wiring.png)
+
 Here are two types of load cells (also called strain gauges). We are happy to provide you with either type. If you get your own, be sure that they are temperature compensated and have very low creep. The resistance of the 200KG load cell is roughly 300 ohms per leg. For the 50KG load cells it is around 750 ohms.
 
 Most load cells seem to use this color scheme for the wires. If that is the case, then wire them like this.

@@ -32,7 +32,8 @@ nav:
       - BroodMinder TH & T: '31_sensors_T_TH.md'
       - BroodMinder W: '32_sensors_W.md'
       - BroodMinder W3: 
-          - Assembly: '33_sensors_W3.md'
+          - Circuit Board: '37_sensors_W3_boardAssembly'
+          - Scale Assembly: '33_sensors_W3.md'
           - Calibration: '37_sensors_W3_calibration.md'
       - BroodMinder W4: 'void.md'
       - BroodMinder BeeDar: '35_sensors_Beedar.md'
