@@ -6,7 +6,7 @@
     We suggest that you watch the videos from Section DIY/W3 in the [video Library](http://doc.mybroodminder.com/en/86_video_library/).
 
 !!! tip
-    If you acquired a W3 uncalibrated-unassembled model consider also reading the [Calibration section](http://doc.mybroodminder.com/en/37_sensors_W3_calibration/) about how to assemble (solder) board with loadcells.
+    If you acquired a W3 uncalibrated-unassembled model you should first start with the [Circuit board assembly](http://doc.mybroodminder.com/en/33a_sensors_W3_boardAssembly/) about how to assemble (solder) board with loadcells.
 
  The first section of this document demonstrates the **fixed feet** version followed by the **swivel feet** version. There is also an appendix to explain modification for Fixed to Swivel W3.
 
@@ -153,6 +153,11 @@ Tuck the wires into grooves and secure with spline material “E”. To secure s
 Now you can remove the battery tab and replace the lid on the electronics box and enjoy your new BroodMinder beehive scale.
 
 ![image-20230501141510326](./33_sensors_w3_assembly.assets/image-20230501141510326.png)
+
+
+!!! tip
+    If you acquired a W3 uncalibrated-unassembled model you still need to calibrate your scale. Jump to the [Scale calibration](http://doc.mybroodminder.com/en/33c_sensors_W3_calibration/) section
+
 
 ## Appendix: Update fixed feet W3 scales to swivel feet
 
