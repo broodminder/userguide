@@ -4,6 +4,7 @@ What follow will explain you how to assemble the hive scale boards wheter if the
 
 
 !!! Important
+
    If you purchased a **W3 Unassembled-Calibrated** scale, all your electronics work is already done and you can jump straight to the next section : [Scale Assembly](http://doc.mybroodminder.com/en/33b_sensors_W3_assembly/)
 
 
@@ -27,6 +28,7 @@ Now apply labels as shown (in the BAT1 slot)
 Use the pink foam to set the board.
 
 !!! note
+
    Programing is only done internally at BroodMinder HQ. If you acquired a DIY or a W3 kit, the programming is already done.
 
 ## Prepare the board
@@ -63,6 +65,7 @@ Drill a hole in the box with a 1/2in (12mm) bit.
 Route the wires through the hole and solder on the board pads following the color order Black-Green-White-Red as shown in the picture below
 
 !!! note
+
    take care to associate each loadcell with its coresponding pad J[1-4]
 
 
