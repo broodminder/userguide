@@ -2,11 +2,13 @@
 
 ## Overview
 
-We suggest that you watch the videos on the BroodMinder.com product page.
+!!! tip
+    We suggest that you watch the videos from Section DIY/W3 in the [video Library](http://doc.mybroodminder.com/en/86_video_library/).
 
-There you will find several videos demonstrating assembly of this scale.
+!!! tip
+    If you acquired a W3 uncalibrated-unsassembled model consider also reading the [DIY section](http://doc.mybroodminder.com/en/36_sensors_DIY/) about how to assembly board with loadcells.
 
- The first section of this document demonstrates the fixed feet version followed by the swivel feet version.
+ The first section of this document demonstrates the **fixed feet** version followed by the **swivel feet** version.
 
  There is also an appendix to explain modification for Fixed to Swivel W3.
 

@@ -5,21 +5,14 @@ We realize that many of our users are curious and want to invent things. Our DIY
 
 The DIY is the raw circuit board that we use in the BroodMinder-W2. We hope that this board allows many home crafters to create wonderful devices to monitor the hives. Be sure to share your designs with us and we will share them with the world. 
 
-·    Proven design
-
-·    5-year battery life
-
-·    **No software to write**
-
-·    Works with most standard load cells
-
-·    Integrates into the vast BroodMinder ecosystem
-
-·    Utilizes a 4 channel 24-bit load cell IC (TI ADS1234)
-
-·    Data is available by BLE advertising
-
-·    Stored data is readable by BroodMinder apps
+- Proven design
+- 5-year battery life
+- **No software to write**
+- Works with most standard load cells
+- Integrates into the vast BroodMinder ecosystem
+- Utilizes a 4 channel 24-bit load cell IC (TI ADS1234)
+- Data is available by BLE advertising
+- Stored data is readable by BroodMinder apps
 
 In order to utilize the BroodMinder-DIY, you will need to add your own load cells. The board should work with most load cell available, but beware, there are many bad choices. For example, if you try to use normal “bathroom scales” load cells, you will find that they have tremendous “creep”. Under load, the output values can change 50% overnight.
 
@@ -28,12 +21,8 @@ Theo and Lorenzo have also created some examples which we have included in our [
 The metal hive stand is available from BetterBee: https://www.betterbee.com/wooden-hive-equipment-10-frame/LYHE4033.asp
 
 
-
 ![image-20230409110829483](./36_sensors_DIY.assets/image-20230409110829483.png)
 
-·    
-
-​                                 
 
 Weather is your enemy, so you will also want a box and cable glands, we recommend the following available from Digikey.com
 
@@ -45,15 +34,12 @@ Weather is your enemy, so you will also want a box and cable glands, we recommen
 
 Here is the Hammond 1554N2GYCL box installed on the Betterbee hive stand
 
-
-
 ![image-20230409111202294](./36_sensors_DIY.assets/image-20230409111202294.png)
 
 
 The board does not sport much in the way of electrical protection. We have found that in our configuration this is fine and we want to save as much cost as possible for our users. You may need or want to add additional protection circuits. We leave that to you.
 
 !!! warning
-
     THE ABSOLUTE MAXIMUM VOLTAGE FOR THE DIY BOARD IS 3.8 VOLTS DC!
 
 
@@ -67,9 +53,7 @@ A final note, (stepping up on soap box), I (Rich Morris) hate connectors. They a
     On the next page you will find our circuitry. You may wonder why we share this... The truth is, the circuit doesn’t get you very far. It requires lots and lots (and lots) of software to hold this all together. We hope the circuit helps you if you need it or want to learn more. 
 
  
-
-​     ![image-20230409111316247](./36_sensors_DIY.assets/image-20230409111316247.png)
-
+​![image-20230409111316247](./36_sensors_DIY.assets/image-20230409111316247.png)
 
 
 Here are two types of load cells (also called strain gauges). We are happy to provide you with either type. If you get your own, be sure that they are temperature compensated and have very low creep. The resistance of the 200KG load cell is roughly 300 ohms per leg. For the 50KG load cells it is around 750 ohms.
@@ -77,6 +61,10 @@ Here are two types of load cells (also called strain gauges). We are happy to pr
 Most load cells seem to use this color scheme for the wires. If that is the case, then wire them like this.
 
 Black, Green, White, Red (from top to bottom). 
+
+!!! tip
+    red wire (+) always hooks to the Square pad.
+
 
 The outputs are in the middle. If things are mixed up, usually it will be corrected during calibration.
 
@@ -89,13 +77,11 @@ The outputs are in the middle. If things are mixed up, usually it will be correc
 ## Calibration 
 
 !!! tip
-
     We have now built new features into the Bees app for doing calibration. See the video [here]( https://youtu.be/g8QUoGfgbbw) for more information.
 
 Once you have your scale built, you will want to calibrate it. You do this by setting the offset and the scale factor for each ADC channel which are stored in flash memory in the processor. We are providing our in-house PC app to do this. Sorry, it is not available for Apple. However, it will run on a quite inexpensive PC. The PC App is available in our[ public Dropbox folder](https://www.dropbox.com/sh/vj621467gak5bd7/AAAitrIE_vKsw07AGnlgopxha?dl=0) (https://www.dropbox.com/sh/nmhfpuy9s5x086f/AADkyDIcJrfsqsd9yUJ-7Lr6a?dl=0 ) .
 
 !!! info
-    
     For BLE (Bluetooth Low Energy) communication you must have a Silicon Labs BLE112 dongle (Digikey 1446-1030-ND)
 
 Many of the controls are explained by hovering the mouse over the control. This app was not designed for external use, so you must forgive us for the ugly nature of it. It does work, we have calibrated thousands of scales with it.
