@@ -113,7 +113,7 @@ Now you can remove the battery tab and replace the lid on the electronics box an
 - Cut saw kerfs (1,2,3) as shown in the picture below. They should be around 0.4” -0.75” deep. These will hold the wires from the sensors.
 - Cut kerf 4 for the wires to reach the electronics box. (see picture farther down). 
 - Test fit the spline and widen the kerfs if necessary.
-- Remove the broad area (marked C) with a chisel so that when the 2x4 tips it does not pinch the wire.
+- Remove the broad area (marked 5) with a chisel so that when the 2x4 tips it does not pinch the wire.
 - Drill qty 4, ¾” holes. The centers should be ¾” from the edge and ¾” deep
 
 ![image-20230501141223278](./33_sensors_w3_assembly.assets/image-20230501141223278.png)

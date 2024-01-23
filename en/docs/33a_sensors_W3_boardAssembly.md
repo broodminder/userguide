@@ -82,4 +82,4 @@ Route the wires through the hole and solder on the board pads following the colo
 
 ## Mount the scale structure
 
-Go to next chapter : [W3 Assemnly](http://doc.mybroodminder.com/en/33_sensors_W3/)
+Go to next chapter : [W3 Scale Assembly](http://doc.mybroodminder.com/en/33b_sensors_W3_assembly/)
