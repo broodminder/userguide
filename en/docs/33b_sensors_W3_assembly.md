@@ -4,12 +4,13 @@
 
 !!! tip
 
-    We suggest that you watch the videos from Section DIY/W3 in the [video Library](http://doc.mybroodminder.com/en/86_video_library/).
+    If you acquired a W3 uncalibrated-unassembled model you should first start with the [Circuit board assembly](http://doc.mybroodminder.com/en/33a_sensors_W3_boardAssembly/) about how to assemble (solder) board with loadcells.
 
 !!! tip
 
-    If you acquired a W3 uncalibrated-unassembled model you should first start with the [Circuit board assembly](http://doc.mybroodminder.com/en/33a_sensors_W3_boardAssembly/) about how to assemble (solder) board with loadcells.
+    We suggest that you watch the videos from Section DIY/W3 in the [video Library](http://doc.mybroodminder.com/en/86_video_library/).
 
+    
  The first section of this document demonstrates the **fixed feet** version followed by the **swivel feet** version. There is also an appendix to explain modification for Fixed to Swivel W3.
 
 ![image-20230501140246145](./33_sensors_w3_assembly.assets/image-20230501140246145.png)
@@ -22,16 +23,16 @@
 
 ![image-20230501140321798](33_sensors_w3_assembly.assets/image-20230501140321798.png)
 
-| **Item Description**                                         | **Qty** | **Metric** |
-| ------------------------------------------------------------ | ------- |  ---
-| (Picture A) Phillips Flat Head # 7 x 5/8"                    | 2       | 3x20   |
-| (Picture B) #8x4" Drywall Screw (W3PA &  W3UA)               | 3       | 4x70   |
-| (Picture C) #3 3/4 Phil Brass Flat Wood Screw                | 16      | 3x20   |
-| (Picture D) Load Cell Custom Support                         | 4       |        |
-| (Picture E) Spline Material                                  | 1       |        |
-| (Picture F) Electronics Assembly                             | 1       |        |
-| 16.5 Inch Pine 2x4 (User provided) (adjust for hive width)   | 2       | 43x4x6 |
-| 15-16 Inch Pine 2x4 (User provided)                          | 1       | 42x4x6 |
+| Reference | **Item Description**                     | **Qty** | **Metric (mm)** |
+| ----------|----------------------------------------- | ------- |  ----- |
+| A | Phillips Flat Head # 7 x 5/8"                    | 2       | 3x20   |
+| B | #8x4" Drywall Screw (W3PA &  W3UA)               | 3       | 4x70   |
+| C | #3 3/4 Phil Brass Flat Wood Screw                | 16      | 3x20   |
+| D | Load Cell Custom Support                         | 4       |        |
+| E | Spline Material                                  | 1       |        |
+| F | Electronics Assembly                             | 1       |        |
+| user provided |16.5 Inch Pine 2x4 (adjust for hive width)   | 2       | 430x40x60 |
+| user provided |15-16 Inch Pine 2x4                   | 1       | 420x40x60 |
 
 ### Prepare the frame members
 
