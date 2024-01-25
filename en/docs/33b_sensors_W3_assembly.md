@@ -180,3 +180,8 @@ If you have an Apimaye hive, you may want to upgrade your W3 to include the swiv
 
 ## Appendix: W3 Unassembled-Uncalibrated parts
 
+Here are all the parts for a W3 scale H model type : 
+
+(only missing the Spline material)
+
+![W3 Scale Assembly](./33_sensors_w3_assembly.assets/w3_parts_unasembled.jpg))

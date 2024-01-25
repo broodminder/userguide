@@ -38,7 +38,7 @@ Use the pink foam to set the board.
 ![xlr2 label](./36_sensors_DIY.assets/xlr2_tin_pads.jpg)
 
 
-- solder the battery holder on the BAT1 slot (+ goes with the square pad)
+- solder the battery holder on the BAT2 slot (+ goes with the square pad)
 
 ![xlr2 label](./36_sensors_DIY.assets/xlr2_bat_holder.jpg)
 
