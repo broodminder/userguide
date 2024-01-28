@@ -194,7 +194,7 @@ It is easy to take an old broken hive scale and convert it to a BroodMinder enab
 
  Good luck, let us know how it goes.
 
-## Retrofit LabelAbeille Hive Scale model
+## Retrofit Label-Abeille Hive Scale
 Follow these instructions to bring to life again the hive scales from LabelAbeille.
 The objective is to replace the old board with a BroodMinder-XLR board
 
