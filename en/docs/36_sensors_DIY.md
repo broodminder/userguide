@@ -226,20 +226,31 @@ Solder the battery holder on this side (side is important to be able to have the
 Now solder the cables on the J3 channel. 
 - Order is Black-Green-White-Red 
 - RED goes onto the square pad.
-- The yellow cable can be soldered together with black.
+- Big Black is the shield wire. you can hook it to the scale structure if you wish.
+- This loadcell has two other cables (yellow/blue) for voltage feedback (long wiring for industrial applications) : they are not needed here.
 
-![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_1869.JPG)
-
-Install the board inside the black box, together with the sticky pods.
-Mount everything together.
+![wires](./36_sensors_DIY.assets/labelabeille/IMG_20240126_131609.jpg)
 
 Now install batteries. You should see a blinking led.
-(PICTURES MISSING)
+
+Add the sticky supports
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_1869.JPG)
+
+Now you can place it in the box as shown
+![wires](./36_sensors_DIY.assets/labelabeille/IMG_20240126_155146.jpg)
+
+Take care batteries end up aligned with the box opening!
+
+![wires](./36_sensors_DIY.assets/labelabeille/IMG_20240126_134415.jpg)
+
+
 
 Now open BroodMinder-Bees on your phone and go to the `Devices` tab to find the scale. Check battery level, etc.
 
 And you're done with the mechanical part! 
 ![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_1873.JPG)
+
+
 
 Now let's move to calibration 
 
