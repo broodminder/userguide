@@ -217,16 +217,17 @@ Like this
 
 Now prepare the XLR board. We will only use chanel J3. Therefore we bridge channels J1,J2 and J4 
 
-![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_2494.JPG)
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_2494.jpg)
 
 Solder the battery holder on this side (side is important to be able to have the batteries accessible once the casing will be mounted again.)  
 
-![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_2496.JPG)
+![vue ensemble](./36_sensors_DIY.assets/labelabeille/IMG_2496.jpg)
 
 Now solder the cables on the J3 channel. 
-- Order is Black-Green-White-Red 
+
+- The sequence is Black-Green-White-Red 
 - RED goes onto the square pad.
-- Big Black is the shield wire. you can hook it to the scale structure if you wish.
+- Big Black is the shield wire. You can hook it to the scale structure if you wish.
 - This loadcell has two other cables (yellow/blue) for voltage feedback (long wiring for industrial applications) : they are not needed here.
 
 ![wires](./36_sensors_DIY.assets/labelabeille/IMG_20240126_131609.jpg)
@@ -255,7 +256,7 @@ And you're done with the mechanical part!
 Now let's move to calibration 
 
 ### Calibration
-To calibrate the scale follow the process below. If you need help, you'll find more details in this page http://doc.mybroodminder.com/en/37_sensors_W3_calibration/ 
+To calibrate the scale follow the process below. If you need help, you'll find more details in [this page](http://doc.mybroodminder.com/en/33c_sensors_W3_calibration/)
 
 Open Bees App, move to ` Devices tab > locate the scale ID > ... > show details > ... (top right) > Troubleshooting > Calibrate scale` 
 
@@ -266,14 +267,14 @@ Now follow the process :
 1. Place the scale on the up-right position.
 2. With empty scale weight: Hit the button `Tare Scale` (bottom button)
 2. Now insert `Divisor = 0 for ALL chanels` (bottom of the screen)
-3. Now enter `Divisor = 9000 for chanel J3` (starting value)
-4. NOTE : you **do not** need to worry about Offsets
+3. Now enter `Divisor = -9000 for chanel J3` (NEGATIVE starting value)
+4. NOTE : you **do not** have to worry about Offsets
 
 ![BAPP](./36_sensors_DIY.assets/labelabeille/bapp_calibration.png)
 
 
 4. Place a known weight on the scale > check "J3 Weight" displayed on the app > modify the divisor iteratively to find the actual weight on the display
-5. once you found the right divisor save and quit this interface
+5. Once you found the right divisor save and quit this interface
 
 
 You are done, congratulations !
