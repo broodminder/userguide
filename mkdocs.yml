@@ -11,8 +11,8 @@ theme:
   name: material
   font: false
   custom_dir: docs/overrides
-  #logo:
-  #  assets/logo_by_maxicons.png
+  logo:
+    assets/images/BRM.png
   features:
     - navigation.indexes
   palette:
