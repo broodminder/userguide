@@ -101,7 +101,7 @@ plugins:
           link: /fr/
           name: Français
           build: true
-          site_name: "GUIDE DUTILISATEUR"
+          site_name: "GUIDE D'UTILISATEUR"
           nav_translations:
             Home: Accueil
             Quick start guide 🚀 : Guide de démarrage rapide 🚀
