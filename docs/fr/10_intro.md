@@ -1,7 +1,7 @@
 # Introduction
 
 ## Welcome to the world of BroodMinder
-If you're reading this, it's the start of a new adventure. You are now part of the precision beekeeper community. A community that uses information to improve bees' health. But also to improve everyone's practice, thanks to a deeper knowledge of the behaviour of colonies and their ecosystems.
+If you're lire this, it's the start of a new adventure. You are now part of the precision beekeeper community. A community that uses information to improve bees' health. But also to improve everyone's practice, thanks to a deeper knowledge of the behaviour of colonies and their ecosystems.
 
 ## Introduction to precision beekeeping ##
 

@@ -1,100 +1,92 @@
-# Quick Start Guide
+# Guide de Démarrage Rapide
 
-We've done our best to make the installation and use of your BroodMinders intuitive and easy. Follow the process below to get to grips with all aspects of the solution (Sensors, App and Web...) and you'll have every chance of success.
+Nous avons fait de notre mieux pour rendre l'installation et l'utilisation de vos BroodMinders intuitives et faciles. Suivez le processus ci-dessous pour maîtriser tous les aspects de la solution (Capteurs, Application et Web...) et vous aurez toutes les chances de réussir.
 
-Each step is described in detail later in this document.
+Chaque étape est décrite en détail plus loin dans ce document.
 
-| AT HOME   |  | | | 
+| À LA MAISON | | | |
 | -- | -- | -- | -- |
-| 1. | ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png)  | [Install the App](#1-install-broodminder-bees) | 
-| 2. | ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png)  | [Create your account](#2-create-your-account) | 
-| 3. | ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png)  | [Power your devices](#3-activate-your-devices) | 
-| 4. | ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png)  | [Assign to a hive](#4-assign-devices-to-hives) | 
-| 5. | ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png)  | [Make your first sync](#5-make-your-first-sync) | 
-| 6. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Power on Hub](#6-power-on-your-hub) | 
+| 1. | ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png) | [Installer l'Application](#1-install-broodminder-bees) |
+| 2. | ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png) | [Créer votre compte](#2-create-your-account) |
+| 3. | ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png) | [Alimenter vos appareils](#3-activate-your-devices) |
+| 4. | ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png) | [Assigner à une ruche](#4-assign-devices-to-hives) |
+| 5. | ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png) | [Faire votre première synchronisation](#5-make-your-first-sync) |
+| 6. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) | [Allumer le Hub](#6-power-on-your-hub) |
 
-| AT YOUR APIARY |  | | |
+| À VOTRE RUCHER | | | |
 | -- | -- | -- | -- |
-| 7. | ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png)  | [Install devices in hive](#7-install-devices-in-hives) | 
-| 8. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Install your hub](#8-install-your-hub) | 
-| 9. | ![image](../assets/20_quick_start_guide.assets/icons/30px/008.png)  | [Update starting dates](#9-update-start-datetime) | 
-| 10.| ![image](../assets/20_quick_start_guide.assets/icons/30px/009.png)  | [View and explore](#10-explore-and-discover) | 
+| 7. | ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) | [Installer les appareils dans la ruche](#7-install-devices-in-hives) |
+| 8. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) | [Installer votre hub](#8-install-your-hub) |
+| 9. | ![image](../assets/20_quick_start_guide.assets/icons/30px/008.png) | [Mettre à jour les dates de début](#9-update-start-datetime) |
+| 10. | ![image](../assets/20_quick_start_guide.assets/icons/30px/009.png) | [Visualiser et explorer](#10-explore-and-discover) |
 
+## Avant de commencer
+Notez les meilleures pratiques suivantes :
 
+!!! info "Configurer tout À LA MAISON"
+    Assurez-vous que le système est fonctionnel avant de l'installer dans le rucher, il sera alors moins facile à configurer.
 
-
-## Before you start
-Take note of the following best practices:
-
-!!! info "Set-up everything AT HOME"
-    Make sure the system is functional before installing it in the apiary, then it will be less easy to set up.
-
-!!! info "Tag your hives"
-    Do what it takes to identify your hives, it will be much better.
+!!! info "Étiquetez vos ruches"
+    Faites ce qu'il faut pour identifier vos ruches, ce sera bien meilleur.
     1, 2, 3 ..... A, B, C ... K254.
 
-!!! info "Use our video library"
-    Watch the video help "[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)"
+!!! info "Utilisez notre vidéothèque"
+    Regardez l'aide vidéo "[Démarrage rapide avec le kit CS](https://youtu.be/6WicH4_l2FQ)"
 
-!!! tip "Need help?"
-    You can always contact us at [Support@BroodMinder.com](mailto:Support@BroodMinder.com)
+!!! tip "Besoin d'aide ?"
+    Vous pouvez toujours nous contacter à [Support@BroodMinder.com](mailto:Support@BroodMinder.com)
 
 -----
 
+## 🏠 COMMENCEZ À LA MAISON
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png) 1. Installer BroodMinder Bees
 
-## 🏠 START AT HOME
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png) 1. Install BroodMinder Bees
-
-Download [Broodminder Bees](https://mybroodminder.com/beesapp) from your preferred store. Scan this QR code to be headed to it :
+Téléchargez [Broodminder Bees](https://mybroodminder.com/beesapp) depuis votre magasin préféré. Scannez ce code QR pour y accéder :
 
 ![image-20230508064200081](../assets/20_quick_start_guide.assets/beesApp_QRcode.png)
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png) 2. Create your account
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png) 2. Créer votre compte
 
-Create your account into the Bees App. A single account for everything : App and Web MyBroodminder.
+Créez votre compte dans l'application Bees. Un seul compte pour tout : l'application et le site Web MyBroodminder.
 
-In BeesApp, on the Apiary tab, create your first *apiary* and your first *hive*, they will be needed for the next steps.
+Dans BeesApp, sur l'onglet Rucher, créez votre première *rucherie* et votre première *ruche*, elles seront nécessaires pour les prochaines étapes.
 
 ![img](../assets/20_quick_start_guide.assets/beesApp_Welcome300.png)
 
-
-In Bees you have several tabs that we will navigate :
+Dans Bees, vous avez plusieurs onglets que nous allons parcourir :
 ![img](../assets/20_quick_start_guide.assets/beesApp_Tabs500.png)
 
-
-Now move to the **Apiaries** Tab:
+Passez maintenant à l'onglet **Ruchers** :
 
 ![img](../assets/20_quick_start_guide.assets/beesApp_1NoApiaries300.png)
 
-Create your first apiary with `... > New apiary`
+Créez votre première rucherie avec `... > Nouvelle rucherie`
 
 ![img](../assets/20_quick_start_guide.assets/beesApp_2NewApiary300.png)
 
-Create your first hive with `... > New hive`
+Créez votre première ruche avec `... > Nouvelle ruche`
 
 ![img](../assets/20_quick_start_guide.assets/beesApp_3NewHive300.png)
 
-We can now move on to assign sensors to this newly created hive. But first we have to pover on devices.
+Nous pouvons maintenant passer à l'attribution des capteurs à cette ruche nouvellement créée. Mais d'abord, nous devons allumer les appareils.
 
-
-
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png) 3. Activate your devices
-In general all our devices have a pull strip.
-Older models (T2) might have a push button.
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png) 3. Activer vos appareils
+En général, tous nos appareils ont une languette de tirage.
+Les anciens modèles (T2) peuvent avoir un bouton poussoir.
 
 ![activateDevices](../assets/20_quick_start_guide.assets/activateDevices600.png)
 
-!!! warning "Take care of this:"
-    With any device, pulling the tab should make the board blink. If you do not see any blink, push the batteries against the + contact. Sometimes the battery holder can be stiff and avoid the spring to push them through. (mostly for AA batteries)
+!!! warning "Prenez soin de ceci :"
+    Avec n'importe quel appareil, tirer sur la languette devrait faire clignoter la carte. Si vous ne voyez aucun clignotement, appuyez sur les piles contre le contact +. Parfois, le support de pile peut être raide et empêcher le ressort de les pousser à travers. (surtout pour les piles AA)
 
-    Do not discard any plastic part. Keep them all in place.
-    
-    Check that all seals are properly installed.
-    
-    Verify that cable glands are tight too when appropriate.
+    Ne jetez aucune pièce en plastique. Gardez-les toutes en place.
 
-!!! tip "Understand device model"
-    All BroodMinder sensors have a 6-digit reference number in the form XX:XX:XX. The first two digits of this reference define the model:
+    Vérifiez que tous les joints sont correctement installés.
+
+    Vérifiez que les passe-câbles sont bien serrés lorsque cela est approprié.
+
+!!! tip "Comprendre le modèle d'appareil"
+    Tous les capteurs BroodMinder ont un numéro de référence à 6 chiffres sous la forme XX:XX:XX. Les deux premiers chiffres de cette référence définissent le modèle :
   
     - 41, 47 : T
     - 42, 56 : TH
@@ -105,198 +97,166 @@ Older models (T2) might have a push button.
     - 58 : DIY
     - 63 : BeeDar
 
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png) 4. Assigner les appareils aux ruches
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png) 4. Assign devices to hives
+D'abord, vous devez réclamer l'appareil en cliquant sur le bouton vert `Réclamer` trouvé dans l'onglet `Appareils`. Cette opération associera chaque capteur que vous réclamez à votre compte. 
+Vous serez ensuite invité à attacher le capteur à une ruche. Vous pouvez procéder ou annuler et revenir plus tard via le menu `...`. 
 
-First you need to claim the device by clicking on the green `Claim` button found in the `Devices` tab. This operation will associate each sensor you claim to your account . 
-You will then be asked to attach the sensor to a hive. You can proceed or cancel and come back later via the menu `...`. 
-
-Attach each device to a hive. 
+Attachez chaque appareil à une ruche. 
 
 ![assignDevices](../assets/20_quick_start_guide.assets/beesApp_ClaimDevice300.png)
 
-
 ![assignDevices](../assets/20_quick_start_guide.assets/beesApp_AssignDevice300.png)
 
-Available device positions are
+Les positions disponibles pour les appareils sont
 
-| Position | typical use |
+| Position | utilisation typique |
 |-- | -- |
-| Lower brood | TH or T into the lower brood box |
-| Upper brood | TH or T into the upper brood box |
-| Inner cover | TH or T under the cover |
-| Scale under hive  | full weight scales like W3, W4 |
-| Scale under hive (back) | half weight (bar) scales like W and W5|
-| Beecounter | Beedar |
-| Outside Hive | beekeeper's choice |
-| Other| beekeeper's choice |
-| Custom [1-7]| for research purposes (multiple devices) |
+| Bas de la couvée | TH ou T dans la boîte de couvée inférieure |
+| Haut de la couvée | TH ou T dans la boîte de couvée supérieure |
+| Sous le couvercle | TH ou T sous le couvercle |
+| Balance sous la ruche  | balances à poids complet comme W3, W4 |
+| Balance sous la ruche (arrière) | demi-poids (barre) comme W et W5|
+| Beecounter | BeeDar |
+| Extérieur de la ruche | choix de l'apiculteur |
+| Autre| choix de l'apiculteur |
+| Personnalisé [1-7]| à des fins de recherche (plusieurs appareils) |
 
 
-!!! info "Device location is important"
-    Carefully select position for internal sensors. Some metrics like brood are only computed if the device is assigned to the brood location.
+!!! info "L'emplacement de l'appareil est important"
+    Sélectionnez soigneusement l'emplacement pour les capteurs internes. Certaines métriques comme la couvée ne sont calculées que si l'appareil est attribué à l'emplacement de la couvée.
 <br>
 
-Now return to the **Apiaries** tab to perform the first sync.
+Maintenant, retournez à l'onglet **Ruchers** pour effectuer la première synchronisation.
 
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png) 5. Make your first sync
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png) 5. Faire votre première synchronisation
 
-Using BroodMinder Bees App there are multiple ways of syncing: 
+Avec l'application BroodMinder Bees, il existe plusieurs façons de synchroniser :
 
-- `Multi-Sync` is at the top of the screen in the `Apiaries` tab. This syncs all devices at once and is a Premium feature.
-- `Single Sync`is within the 3dots `...`menus, either in `Devices`or in `Apiaries` tab
+- `Multi-Sync` est en haut de l'écran dans l'onglet `Ruchers`. Cela synchronise tous les appareils à la fois et c'est une fonctionnalité Premium.
+- `Single Sync` se trouve dans les menus `...` soit dans l'onglet `Appareils` soit dans l'onglet `Ruchers`
 
 !!! Tip
-    You can only sync devices appearing in green (within bluetooth range)
+    Vous ne pouvez synchroniser que les appareils qui apparaissent en vert (à portée Bluetooth)
 
 ![firstSync](../assets/20_quick_start_guide.assets/firstSyncA.png)
 
-Now look to your data using `... > Show Graph` or `... > Show Details`.
+Maintenant, regardez vos données en utilisant `... > Afficher le graphique` ou `... > Afficher les détails`.
 
 ![firstSync](../assets/20_quick_start_guide.assets/firstSyncB.png)
 
 
 !!! info
-    On your first sync you probably do not see much data since there is only one or two samples.
+    Lors de votre première synchronisation, vous ne verrez probablement pas beaucoup de données car il n'y a qu'un ou deux échantillons.
 
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 6. Allumer votre Hub
 
+Cette étape est destinée à ceux qui possèdent un Hub pour la surveillance en temps réel.
+Si vous n'avez pas de Hub, passez au [chapitre suivant](#🐝-now-move-to-the-apiary).
 
+Souvenez-vous de la [page des Hubs](./60_hubs.md) qu'il existe plusieurs versions de hub :
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 6. Power-On your Hub
-
-This stage is intended for those owning a Hub for real time monitoring.
-If you do not have a Hub, move to the [next chapter](#🐝-now-move-to-the-apiary).
-
-Remember from [Hubs page](./60_hubs.md) that there are several hub versions: 
-
-- Broodminder-T91 Cellular Hub [solar, weather, naked]
+- Broodminder-T91 Cellular Hub [solaire, météo, nu]
 - BroodMinder-Wifi Hub
 - BroodMinder-Sub-Hub
 
-#### 6.1 Cellular Weather hub
-1. Remove the orange silicon protection
-2. Power ON the hub with the small black switch (use a pen tip to operate)
+#### 6.1 Hub Météo Cellulaire
+1. Retirez la protection en silicone orange
+2. Mettez sous tension le hub avec le petit interrupteur noir (utilisez une pointe de stylo pour l'actionner)
 
 ![Power On](../assets/20_quick_start_guide.assets/T91_powerOn.png)
 
-3. Color Leds will blink green, then blue, then green again
-4. Check on Bees App that transmission has been established. Go to `Devices tab > Hub ID > Show details > MBM last upload ` shall display current date/time.
+3. Les voyants de couleur clignoteront en vert, puis en bleu, puis à nouveau en vert
+4. Vérifiez sur l'application Bees que la transmission a été établie. Allez à `onglet Appareils > ID du Hub > Afficher les détails > MBM dernière mise à jour`, cela devrait afficher la date/heure actuelle.
 
 ![Upload check](../assets/20_quick_start_guide.assets/T91_onBeesApp.jpg)
 
-5. Install orange protection again, starting from the USB side.
+5. Réinstallez la protection orange, en commençant par le côté USB.
 
 ![silicon cover](../assets/20_quick_start_guide.assets/T91_folding.png)
 
-6. Insert the T91 within the weather shield with the USB face sidewise to avoid condensation deposition on this and the opposite face.
+6. Insérez le T91 dans le boîtier météo avec la face USB sur le côté pour éviter la condensation sur cette face et la face opposée.
 
 ![Upload check](../assets/20_quick_start_guide.assets/T91_inweathershield.png)
 
-#### 6.2 Cellular Solar hub
-Follow the same process as above, with the difference that you will have to plug in the USB to the battery (we ship unpluged to avoid battery discharge during transport)
+#### 6.2 Hub Solaire Cellulaire
+Suivez le même processus que ci-dessus, à la différence que vous devrez brancher le USB à la batterie (nous l'expédions débranché pour éviter la décharge de la batterie pendant le transport)
 
-1. Unscrew the cover lid.
-2. Insert the USB plug into the battery
-3. Slide the power switch to the right
+1. Dévissez le couvercle.
+2. Insérez la fiche USB dans la batterie.
+3. Faites glisser l'interrupteur d'alimentation vers la droite
 
 ![Upload check](../assets/20_quick_start_guide.assets/T91_solar.png)
 
-4. Hub will start and you can check data transmission using Bees App as described above.
-
+4. Le hub va démarrer et vous pouvez vérifier la transmission des données en utilisant l'application Bees comme décrit ci-dessus.
 
 ## 🐝 NOW MOVE TO THE APIARY
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 7. Install devices in hives
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 7. Installer les appareils dans les ruches
 
-![Install devices](../assets/20_quick_start_guide.assets/installDevicesInHive.png)
+![Installer les appareils](../assets/20_quick_start_guide.assets/installDevicesInHive.png)
 
+#### Capteurs internes
 
-#### Internal sensors
-
-Install BroodMinder-T (model 47) and -TH (model 56) on the middle frame (usually no. 5), starting on the left-hand side as seen from the front of the hive. The identifier at the end of the tab should protrude so as to be visible from the front of the hive.
+Installez le BroodMinder-T (modèle 47) et -TH (modèle 56) sur le cadre central (généralement no. 5), en commençant du côté gauche vu de l'avant de la ruche. L'identifiant à l'extrémité de la languette doit dépasser pour être visible de l'avant de la ruche.
 
 ![Install_BRM-T](../assets/20_quick_start_guide.assets/install_BRM-T.png)
 
-
-
-#### Scales
-Place your BroodMinder-W scale preferably **at the back** of the hive. Make sure the hive is as level as possible. 
-BroodMinder-W3 and W4 scales do not require precise levelling.
+#### Balances
+Placez votre balance BroodMinder-W de préférence **à l'arrière** de la ruche. Assurez-vous que la ruche est aussi nivelée que possible. 
+Les balances BroodMinder-W3 et W4 ne nécessitent pas un nivellement précis.
 
 ![Install_BRM-W](../assets/20_quick_start_guide.assets/install_BRM-W.png)
 
+#### BeeDar
+Le BeeDar est monté à l'avant de la ruche, centré sur l'axe de la ruche. La hauteur depuis le pont de vol est juste pour vous permettre de manipuler les réducteurs d'entrée sans souci. Typiquement 5 à 7 cm au-dessus du sol.
 
-#### Beedar
-The BeeDar is mounted on the front of the hive, centered on the hive axis. The height from the flight deck is just right to allow you to handle the entrance reducers without worry. Typically 5 to 7 cm above the floor.
+Le BeeDar a un angle "vue" horizontal de 85° et un angle vertical de 30°.
+Vous pouvez le suspendre avec deux vis de 4 mm de diamètre.
 
-Beedar has a horizontal "view" angle of 85° and a vertical angle of 30°.
-You can hang it with two 4mm-diameter screws.
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 8. Installer votre hub
 
+Cette étape est facultative : elle est destinée uniquement à ceux qui possèdent un Hub pour la surveillance en temps réel.
 
-
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 8. Install your hub
-
-This stage is optional : only intended for those owning a Hub for real time monitoring.
-
-As a general rule for any kind of hub you should know that
-- overall range for Hub <=> internal devices is ~ 10 meters (30ft)
-- overall range for Hub <=> external devices is ~ 30-40 m
+En règle générale, pour n'importe quel type de hub, vous devez savoir que
+- la portée globale du Hub <=> des capteurs internes est d'environ 10 mètres (30 pieds)
+- la portée globale du Hub <=> des capteurs externes est d'environ 30 à 40 mètres
 
 !!! Important 
-    - hubs should be located at least at 1.5m height from the ground (Cellular and Wifi reception damps A LOT when close to the ground)<br>
-    - avoid direct sun exposition
+    - les hubs doivent être situés à au moins 1,5 mètre du sol (la réception cellulaire et Wifi diminue BEAUCOUP lorsqu'ils sont proches du sol)<br>
+    - évitez une exposition directe au soleil
 
-![Install hub](../assets/20_quick_start_guide.assets/hub_install.png)
+![Installer hub](../assets/20_quick_start_guide.assets/hub_install.png)
 
+Il existe plusieurs façons d'installer le hub
+- les versions solaires peuvent être placées sur une nacelle, murale ou même sur la ruche
 
-There are multiple ways to install the hub
-- solar versions can go on a pod or mural or even on hive
+![Installer hub](../assets/20_quick_start_guide.assets/hub_install_solar.png)
 
-![Install hub](../assets/20_quick_start_guide.assets/hub_install_solar.png)
+- les autres versions cellulaires et les SubHubs s'installent bien à l'intérieur du boîtier météo
 
-- other cell versions and SubHubs install nicely within the weather shield
+![Installer hub](../assets/20_quick_start_guide.assets/hub_weather_shield.jpg)
 
-![Install hub](../assets/20_quick_start_guide.assets/hub_weather_shield.jpg)
+Maintenant, vérifiez la connectivité
+- Vérifiez la connectivité du hub avec l'application Bees (dans l'onglet `Appareils > ID du hub > ... > Afficher les détails`)
+- Vous devriez avoir un signal réseau supérieur à 20% pour être à l'aise.
 
-Now check Connectivity
-- Check hub connectivity with Bees App (in the `devices Tab > hub ID > ... > Show details`)
-- You should have a Network signal greater than 20% to be comfort.
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 9. Mettre à jour la date/heure de début
 
+Pour éviter d'avoir des mesures de l'extérieur de la ruche, modifiez la date de début des capteurs.
+Pour ce faire, allez à `BeesApp > Ruchers > dépliez les ruches pour voir les capteurs > "..." > Changer la position actuelle`. 
+Modifiez la `date/heure de début`.
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 9. Update start date/time
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/008.png) 10. Explorer et découvrir
 
-To avoid having measurements from outside the hive, change the start date of the sensors.
-To do so, go to `BeesApp > Apiaries > unfold the hives to see the sensors > "..." > Change the current position`. 
-Edit the `start date/time`.
+Maintenant, vous pouvez également aller sur [MyBroodMinder.com](https://mybroodminder.com) et explorer vos données.
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/008.png) 10. Explore and discover
-
-Now you can also go to [MyBroodMinder.com](https://mybroodminder.com) and explore your data.
-
-Sign in with the same account you created on the Bees App.
-
+Connectez-vous avec le même compte que celui que vous avez créé dans l'application Bees.
 
 ![MBM](../assets/10_intro.assets/image-20230407155319801.png)
 
-
-In this interface you will be able to follow the brood levels, the weight gains and losses, configure your alerts or even the past and forecasted weather as well as the nectar-flow indexes  and much more!
+Dans cette interface, vous pourrez suivre les niveaux de couvain, les gains et pertes de poids, configurer vos alertes ou même la météo passée et prévue ainsi que les indices de flux de nectar et bien plus encore !
 
 !!! info
-    Attention: Some data is computed daily and you will begin to see it from D+3 (D1 does not count because partial data, D2 will be the first complete day which will be posted the following day => D3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    Attention : Certaines données sont calculées quotidiennement et vous commencerez à les voir à partir du J+3 (le J+1 ne compte pas car données partielles, le J+2 sera le premier jour complet qui sera affiché le jour suivant => J+3)

@@ -7,23 +7,16 @@
 
 # This file shall be saved in VisualStudio Code with an LF end of line sequence
 
-PATH=/home/msrun/.pyenv/versions/userguide/bin/:$PATH
+PATH=/home/maxime/.pyenv/versions/userguide/bin/:$PATH
 
-echo "build EN"
-cd ./en
- mkdocs build --clean
-
-echo "build FR"
-cd ../fr
- mkdocs build --clean
-cd ..
+echo "build DOCUMENTATION"
+mkdocs build --clean
 
 echo "install"
 rm -Rrf /var/www/html/doc/*
-cp index.html /var/www/html/doc/
-cp -r img/ /var/www/html/doc/
-cp -r ./en/site/ /var/www/html/doc/en/
-cp -r ./fr/site/ /var/www/html/doc/fr/
+#cp index.html /var/www/html/doc/
+#cp -r img/ /var/www/html/doc/
+cp -r ./site/* /var/www/html/doc/
 
 echo " "
 echo "done"

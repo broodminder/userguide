@@ -2,16 +2,16 @@
 {% block tabs %}
 {{ super() }}
 <head>
-    <!-- Meta tags -->
+    <!-- Balises méta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Welcome to the MyBroodMinder User Guide repository.">
+    <meta name="description" content="Bienvenue dans le référentiel du Guide de l'Utilisateur MyBroodMinder.">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel ="stylesheet">
     <link type="text/css" rel="index" href="index.css">
 
-    <title>Selection</title>
+    <title>Sélection</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Balise globale du site (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125989472-3"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -41,21 +41,22 @@
     }
 </style>
 <section class="mdx-container">
+    <div class="md-grid md-typeset">
     <div class="mdx-hero">
         <br><br>
         <div class="mdx-hero__content">
-            <h1>🇫🇷 Bienvenue sur la Documentation en ligne</h1>
-            <p>Vous trouverez ici toute la documentation relative à la solution Broodminder.</p>
-            <p>From a quick overview through how to set-up the devices, using the system and analyzing data. This manual is intended to fill in any gaps to make your experience more pleasant and productive.</p>
-            <p>You can <b>navigate</b> to documents on the left side or <b>search</b> for a topic on the top right of this screen</p>
-            <p>You can also check out the video help that you will find at <a href="https://mybroodminder.com/app/resources/video-guides">MyBroodMinder</a>.</p>
-            <p>Our legacy manual (2015-2022) is available <a href="https://www.dropbox.com/s/hwmde6h97sbmzl4/BroodMinder-User-Guide.pdf?dl=0">here</a>.</p>
-            <p>We appreciate your help in making this documentation complete and accurate. Please report errors, ideas, and suggestions to <a href="mailto:docs@broodminder.com">docs@broodminder.com</a></p>
+            <h1>🇫🇷 Bienvenue sur le Portail de Documentation Utilisateur</h1>
+            <p>Vous trouverez ici toute la documentation de référence de BroodMinder.</p>
+            <p>De la vue d'ensemble rapide à la configuration des appareils, en passant par l'utilisation du système et l'analyse des données. Ce manuel est destiné à combler les lacunes pour rendre votre expérience plus agréable et productive.</p>
+            <p>Vous pouvez <b>naviguer</b> vers les documents sur le côté gauche ou <b>chercher</b> un sujet en haut à droite de cet écran.</p>
+            <p>Vous pouvez également consulter l'aide vidéo que vous trouverez sur <a href="https://mybroodminder.com/app/resources/video-guides">MyBroodMinder</a>.</p>
+            <p>Notre manuel officiel (2015-2022) est disponible <a href="https://www.dropbox.com/s/hwmde6h97sbmzl4/BroodMinder-User-Guide.pdf?dl=0">ici</a>.</p>
+            <p>Nous apprécions votre aide pour rendre cette documentation complète et précise. Veuillez signaler les erreurs, idées et suggestions à <a href="mailto:docs@broodminder.com">docs@broodminder.com</a></p>
 
-            <a href="{{ '20_quick_start_guide' | url }}" class="md-button md-button--primary">
-                Démarrage rapide
+            <a href="{{ 'fr/20_quick_start_guide' | url }}" title="Guide de Démarrage Rapide" class="md-button md-button--primary">
+                Guide de Démarrage Rapide
             </a>
-            <a href="{{ '85_faq' | url }}" title="" class="md-button">
+            <a href="{{ 'fr/85_faq' | url }}" title="" class="md-button">
                 FAQ
             </a>
         </div>
