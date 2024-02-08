@@ -11,6 +11,8 @@ theme:
   name: material
   font: false
   custom_dir: docs/overrides
+  icon:
+    alternate: svg/language
   logo:
     assets/images/BRM.png
   features:

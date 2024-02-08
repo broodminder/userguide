@@ -9,6 +9,9 @@
 
 PATH=/home/maxime/.pyenv/versions/userguide/bin/:$PATH
 
+# Translation management
+git diff d25fb1cb44b916884ddf889408ed9a6006b7ed89 5094257306ef912c9164bbc5b518f8b44be84ec8 --name-only > filesChange.txt
+
 echo "build DOCUMENTATION"
 mkdocs build --clean
 

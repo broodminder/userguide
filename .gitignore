@@ -29,4 +29,4 @@ Thumbs.db
 
 # Translation process
 filesChange.txt
-docs/
+*.py
