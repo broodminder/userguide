@@ -3,6 +3,13 @@ import os
 import shutil
 import yaml
 from yaml.loader import SafeLoader
+from openai import OpenAI
+from dotenv import load_dotenv
+from pathlib import Path
+
+# ENV
+load_dotenv(dotenv_path = Path(".env"), override=True)
+client = OpenAI()
 
 totalWORDS = 0
 def translateFolder(parent_folder, lang, **kwargs):

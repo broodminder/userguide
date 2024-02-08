@@ -31,3 +31,4 @@ Thumbs.db
 filesChange.txt
 *.py
 !translateFiles.py
+.env
