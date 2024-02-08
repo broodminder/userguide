@@ -10,15 +10,17 @@
 PATH=/home/maxime/.pyenv/versions/userguide/bin/:$PATH
 
 # Translation management
-git diff d25fb1cb44b916884ddf889408ed9a6006b7ed89 5094257306ef912c9164bbc5b518f8b44be84ec8 --name-only > filesChange.txt
+echo "Get differrence between the two last commit"
+git diff HEAD^ HEAD --name-only > filesChange.txt
+python translateFiles.py
 
+# Build
 echo "build DOCUMENTATION"
 mkdocs build --clean
 
-echo "install"
+# Installation
+echo "install for apache"
 rm -Rrf /var/www/html/doc/*
-#cp index.html /var/www/html/doc/
-#cp -r img/ /var/www/html/doc/
 cp -r ./site/* /var/www/html/doc/
 
 echo " "

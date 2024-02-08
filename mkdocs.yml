@@ -121,3 +121,28 @@ plugins:
             Repair Guide: Guide de réparation
             Distributors: Distributeurs
             Legacy Devices: Legacy Devices
+        - locale: es
+          link: /es/
+          name: Spanish
+          build: true
+          site_name: "GUIDE D'UTILISATEUR"
+          nav_translations:
+            Home: Es
+            Quick start guide 🚀 : Guide de démarrage rapide 🚀
+            Sensors: Capteurs
+            Product range: Gamme de capteurs
+            General aspects:  Aspects général
+            Scale Assembly: Assemblage de la balance
+            Yolink devices: Capteurs Yolink
+            Example setups: Examples de configurations
+            Data interpretation: Interprétation des données
+            BroodMinder Device Updates: Mise à jour des capteurs BroodMinder
+            BroodMinder Hub Updates: Mise à jour des hubs BroodMinder
+            Video Library: Bibliothèques de vidéos
+            Training Sessions: Sessions de tutoriels
+            General: Général
+            Tech Stuff and Physics: Tech Stuff and Physics
+            Troubleshooting: Troubleshooting
+            Repair Guide: Guide de réparation
+            Distributors: Distributeurs
+            Legacy Devices: Legacy Devices
