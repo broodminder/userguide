@@ -32,17 +32,16 @@ def translateFile(filePath, lang, prefix_href = None):
     if prefix_href is not None:
         filedata = re.sub(r'href="', 'href="%s/' % prefix_href, filedata)
     
-    # Manage content
-    translation = translate_text(filedata, "en", lang)
+    # Translate content
+    #filedata = translateText(filedata, "en", lang)
     # Write the file out again
     with open(filePath, 'w') as file:
-        file.write(translation)
+        file.write(filedata)
     totalWORDS = len(re.findall(r'\w+', filedata))
     return totalWORDS
 
-
-def translate_text(text, source_language, target_language):
-    prompt = f"Translate the following '{source_language}' text (html, markdown, etc) to '{target_language}': {text}"
+def translateText(text, source_language, target_language):
+    prompt = f"Translate the following '{source_language}' text (html, markdown, etc) to '{target_language}', couple remarks do not hesitate to translate flag emoji with the correct language: {text}"
 
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -102,4 +101,4 @@ if 'plugins' in mkdocsConfig:
     
     # Print
     print('Total Number of words: %i' % totalWORDS)
-    print('Equivalent to %f $' % (totalWORDS*100/750*0.01))
+    print('Equivalent to %f $' % (totalWORDS*100/750*0.0005))

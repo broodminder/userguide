@@ -22,15 +22,6 @@ theme:
   palette:
     primary: custom
 
-extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-
 extra_css:
   - assets/css/extra.css
 
@@ -105,11 +96,11 @@ plugins:
       languages:
         - locale: en
           default: true
-          name: English
+          name: 🇺🇸 English
           build: true
         - locale: fr
           link: /fr/
-          name: Français
+          name: 🇫🇷 Français
           build: true
           site_name: "GUIDE D'UTILISATEUR"
           nav_translations:
@@ -134,7 +125,7 @@ plugins:
             Legacy Devices: Legacy Devices
         - locale: es
           link: /es/
-          name: Spanish
+          name: 🇪🇸 Spanish
           build: true
           site_name: "GUIDE D'UTILISATEUR"
           nav_translations:
