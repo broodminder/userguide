@@ -31,14 +31,29 @@ def translateFile(filePath, lang, prefix_href = None):
     # add prefix href is wanted
     if prefix_href is not None:
         filedata = re.sub(r'href="', 'href="%s/' % prefix_href, filedata)
-
-    # Write the file out again
-    with open(filePath, 'w') as file:
-        file.write(filedata)
     
     # Manage content
+    translation = translate_text(filedata, "en", lang)
+    # Write the file out again
+    with open(filePath, 'w') as file:
+        file.write(translation)
     totalWORDS = len(re.findall(r'\w+', filedata))
     return totalWORDS
+
+
+def translate_text(text, source_language, target_language):
+    prompt = f"Translate the following '{source_language}' text (html, markdown, etc) to '{target_language}': {text}"
+
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant that translates text."},
+            {"role": "user", "content": prompt}
+        ]
+    )
+
+    translation = response.choices[0].message.content.strip()
+    return translation
 
 # Read filesChange.txt
 CHANGE = open('./filesChange.txt')
