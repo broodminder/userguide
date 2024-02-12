@@ -22,6 +22,7 @@ def translateFolder(parent_folder, lang, **kwargs):
     return totalWORDS
 
 def translateFile(filePath, lang, prefix_href = None):
+    print('Translate file %s to %s' % (filePath, lang))
     # Read in the file
     with open(filePath, 'r') as file:
         filedata = file.read()
@@ -32,16 +33,27 @@ def translateFile(filePath, lang, prefix_href = None):
     if prefix_href is not None:
         filedata = re.sub(r'href="', 'href="%s/' % prefix_href, filedata)
     
-    # Translate content
-    #filedata = translateText(filedata, "en", lang)
+    # GPT3.5 has a maximum of 4097 tokens limit...
+    totalWORDS = len(re.findall(r'\w+', filedata))
+    if (totalWORDS+1462) > 4097:
+        part1, part2 = split_markdown(filedata)
+        print("%s exceed tokens limits" % filePath)
+        # Translate content
+        part1 = translateText(part1, "en", lang)
+        part2 = translateText(part2, "en", lang)
+        filedata = "%s %s" % (part1, part2) 
+    else:
+        # Translate content
+        filedata = translateText(filedata, "en", lang)
+    
     # Write the file out again
     with open(filePath, 'w') as file:
         file.write(filedata)
-    totalWORDS = len(re.findall(r'\w+', filedata))
+    
     return totalWORDS
 
 def translateText(text, source_language, target_language):
-    prompt = f"Translate the following '{source_language}' text (html, markdown, etc) to '{target_language}', couple remarks do not hesitate to translate flag emoji with the correct language: {text}"
+    prompt = f"Translate the following '{source_language}' text (html, markdown, etc) to '{target_language}', couple remarks do not hesitate to translate flag emoji with the correct language also 'apiary' is translate 'rucher' in french: {text}"
 
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -53,6 +65,22 @@ def translateText(text, source_language, target_language):
 
     translation = response.choices[0].message.content.strip()
     return translation
+
+def split_markdown(text):
+    # Trouver la position de coupure en fonction de la longueur totale
+    middle_index = len(text) // 2
+
+    # Rechercher le dernier espace avant ou après la position de coupure
+    while middle_index < len(text) and text[middle_index] != ' ':
+        middle_index += 1
+    while middle_index > 0 and text[middle_index] != ' ':
+        middle_index -= 1
+
+    # Diviser la chaîne en deux parties
+    part1 = text[:middle_index].strip()
+    part2 = text[middle_index:].strip()
+
+    return part1, part2
 
 # Read filesChange.txt
 CHANGE = open('./filesChange.txt')
