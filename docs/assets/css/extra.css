@@ -50,3 +50,13 @@ img[src*="#picto"] {
     --md-footer-fg-color--light:       #26C801;
     --md-footer-fg-color--lighter:     #26C801;
 }
+
+
+.left-40, .right-other { float: left; }
+.left-40 img, .right-other img { width: 100%; }
+.left-40 { width: 40%; }
+.right-other { width: 60%; padding: 10px;}
+
+@media screen and (max-width: 767px) {
+    .left-40, .right-other { width: 100%; }
+}
