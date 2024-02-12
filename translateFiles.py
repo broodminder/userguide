@@ -35,7 +35,7 @@ def translateFile(filePath, lang, prefix_href = None):
     
     # GPT3.5 has a maximum of 4097 tokens limit...
     totalWORDS = len(re.findall(r'\w+', filedata))
-    if (totalWORDS+1462) > 4097:
+    if totalWORDS > 2000:
         part1, part2 = split_markdown(filedata)
         print("%s exceed tokens limits" % filePath)
         # Translate content
