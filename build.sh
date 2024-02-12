@@ -7,7 +7,8 @@
 
 # This file shall be saved in VisualStudio Code with an LF end of line sequence
 
-PATH=/home/maxime/.pyenv/versions/userguide/bin/:$PATH
+source .env
+PATH=/home/$USER/.pyenv/versions/userguide/bin/:$PATH
 
 # Translation management
 echo "Get differrence between the two last commit"
