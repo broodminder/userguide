@@ -1,4 +1,6 @@
 
+## Broodminder Beedar
+
 ![image-20230408071532984](../assets/30_sensors.assets/image-20230408071532984.png)
 
 New in 2023, the BroodMinder-BeeDar is an activity monitor for your hive. 
