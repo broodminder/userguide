@@ -51,7 +51,7 @@ def translateFile(filePath, lang, prefix_href = None):
 def translateText(text, source_language, target_language):
     # Token management
     token_count = len(encoding.encode(text))
-    systemPrompt = f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) '{target_language}'. Couple remarks 'apiary' is translate 'rucher' in french, there is some javascript part, do not translate 'function()', variables names or mustache when we use some templates. Sometimes there is also images tag on markdown title"
+    systemPrompt = f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) to '{target_language}'. Couple remarks 'apiary' translates as 'rucher' in french (also in UPPER case), there is some javascript part, do not translate 'function()', variables names or mustache when we use some templates. Sometimes there is also images tag on markdown title"
     token_prompt = len(encoding.encode(systemPrompt))
     # GPT3.5 has a maximum of 4097 tokens limit...
     if (token_count+token_prompt) > 2000:
