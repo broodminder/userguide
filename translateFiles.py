@@ -54,13 +54,11 @@ def translateFile(filePath, lang, prefix_href = None):
     return totalWORDS
 
 def translateText(text, source_language, target_language):
-    prompt = f"Translate the following '{source_language}' text (html, markdown, etc) to '{target_language}', couple remarks do not hesitate to translate flag emoji with the correct language also 'apiary' is translate 'rucher' in french: {text}"
-
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant that translates text."},
-            {"role": "user", "content": prompt}
+            {"role": "system", "content": f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) '{target_language}'. Couple remarks 'apiary' is translate 'rucher' in french, there is some javascript part, do not translate 'function()' and variables names"},
+            {"role": "user", "content": text}
         ]
     )
 
