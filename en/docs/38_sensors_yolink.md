@@ -1,5 +1,0 @@
-# Yolik devices
-
-
-
-🚧 ongoing documentation 🚧

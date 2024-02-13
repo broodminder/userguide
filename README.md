@@ -1,9 +1,14 @@
-# userguide
+# userguide v1.0.0
 
-## Install mkdocs
-```pip install mkdocs```
+## Install virtualenv
+```pyenv virtualenv 3.11.2 userguide```
 
-```pip install mkdocs-material```
+
+
+## Install librairies
+```pyenv activate userguide```
+
+```pip install -r requirements.txt```
 
 ## Using mkdocs
 ```mkdocs new my-project``` Create new project
@@ -21,7 +26,7 @@
 
 ## Configuration file mkdocs.yml
 This file allows for multiple options and configuration.
-By default we are not changing much in it except site title and theme
+By default we are not changing much in it except site title, theme and new language (be carrefull, the whole translation process is based on the list of langs setted on the yaml file)
 
 ```yml
 site_name: USER DOCUMENTATION

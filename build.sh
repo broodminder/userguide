@@ -7,23 +7,22 @@
 
 # This file shall be saved in VisualStudio Code with an LF end of line sequence
 
-PATH=/home/msrun/.pyenv/versions/userguide/bin/:$PATH
+source .env
+PATH=/home/$USER/.pyenv/versions/userguide/bin/:$PATH
 
-echo "build EN"
-cd ./en
- mkdocs build --clean
+# Translation management
+echo "Get differrence between the two last commit"
+git diff HEAD^ HEAD --name-only > filesChange.txt
+python translateFiles.py
 
-echo "build FR"
-cd ../fr
- mkdocs build --clean
-cd ..
+# Build
+echo "build DOCUMENTATION"
+mkdocs build --clean
 
-echo "install"
+# Installation
+echo "install for apache"
 rm -Rrf /var/www/html/doc/*
-cp index.html /var/www/html/doc/
-cp -r img/ /var/www/html/doc/
-cp -r ./en/site/ /var/www/html/doc/en/
-cp -r ./fr/site/ /var/www/html/doc/fr/
+cp -r ./site/* /var/www/html/doc/
 
 echo " "
 echo "done"

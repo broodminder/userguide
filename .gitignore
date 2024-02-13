@@ -27,3 +27,8 @@ Thumbs.db
 .obsidian/workspaces.json
 .obsidian/workspace-mobile.json
 
+# Translation process
+filesChange.txt
+*.py
+!translateFiles.py
+.env
