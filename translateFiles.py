@@ -62,7 +62,7 @@ def translateText(text, source_language, target_language):
         response = client.chat.completions.create(
             model=GPT_MODEL,
             messages=[
-                {"role": "system", "content": f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) '{target_language}'. Couple remarks 'apiary' is translate 'rucher' in french, there is some javascript part, do not translate 'function()' and variables names. Sometimes there is also images tag on markdown title"},
+                {"role": "system", "content": f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) '{target_language}'. Couple remarks 'apiary' is translate 'rucher' in french, there is some javascript part, do not translate 'function()', variables names or mustache when we use some templates. Sometimes there is also images tag on markdown title"},
                 {"role": "user", "content": text}
             ]
         )
