@@ -171,8 +171,8 @@ plugins:
             Repair Guide: Guida alla riparazione
             Distributors: Distributori
             Legacy Devices: Dispositivi legacy
-        - locale: jp
-          link: /jp/
+        - locale: ja
+          link: /ja/
           name: 🇯🇵 Japanese
           build: true
           site_name: "ユーザーガイド"
