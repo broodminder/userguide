@@ -51,8 +51,10 @@ def translateFile(filePath, lang, prefix_href = None):
 def translateText(text, source_language, target_language):
     # Token management
     token_count = len(encoding.encode(text))
+    systemPrompt = f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) '{target_language}'. Couple remarks 'apiary' is translate 'rucher' in french, there is some javascript part, do not translate 'function()', variables names or mustache when we use some templates. Sometimes there is also images tag on markdown title"
+    token_prompt = len(encoding.encode(systemPrompt))
     # GPT3.5 has a maximum of 4097 tokens limit...
-    if token_count > 2000:
+    if (token_count+token_prompt) > 2000:
         part1, part2 = split_markdown(text)
         # Translate the two part
         part1Translated = translateText(part1, source_language, target_language)
@@ -62,16 +64,18 @@ def translateText(text, source_language, target_language):
         response = client.chat.completions.create(
             model=GPT_MODEL,
             messages=[
-                {"role": "system", "content": f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) '{target_language}'. Couple remarks 'apiary' is translate 'rucher' in french, there is some javascript part, do not translate 'function()', variables names or mustache when we use some templates. Sometimes there is also images tag on markdown title"},
+                {"role": "system", "content": systemPrompt},
                 {"role": "user", "content": text}
             ]
         )
 
-        if response.choices[0].finish_reason == 'lenght':
+        if response.choices[0].finish_reason == 'length':
             # No finished
-            print('ok')
-            
+            print('Be carrefull the answer is not complet')
+           
         translation = response.choices[0].message.content.strip()
+    
+    # Return
     return translation
 
 def split_markdown(text):
