@@ -6,20 +6,23 @@ from yaml.loader import SafeLoader
 from openai import OpenAI
 from dotenv import load_dotenv
 from pathlib import Path
+import tiktoken
 
 # ENV
 load_dotenv(dotenv_path = Path(".env"), override=True)
+GPT_MODEL = "gpt-3.5-turbo"
 client = OpenAI()
+encoding = tiktoken.encoding_for_model(GPT_MODEL)
 
-totalWORDS = 0
+token_count = 0
 def translateFolder(parent_folder, lang, **kwargs):
-    totalWORDS = 0
+    token_count = 0
     files = os.listdir(parent_folder)
     for file in files:
         if file.endswith('.md') or file.endswith('.html'):
-            totalWORDS += translateFile(parent_folder + '/%s' % (file), lang, **kwargs)
+            token_count += translateFile(parent_folder + '/%s' % (file), lang, **kwargs)
     
-    return totalWORDS
+    return token_count
 
 def translateFile(filePath, lang, prefix_href = None):
     print('Translate file %s to %s' % (filePath, lang))
@@ -33,36 +36,41 @@ def translateFile(filePath, lang, prefix_href = None):
     if prefix_href is not None:
         filedata = re.sub(r'href="', 'href="%s/' % prefix_href, filedata)
     
-    # GPT3.5 has a maximum of 4097 tokens limit...
-    totalWORDS = len(re.findall(r'\w+', filedata))
     if not filePath.endswith('index.md'):
-        if totalWORDS > 2000:
-            part1, part2 = split_markdown(filedata)
-            print("%s exceed tokens limits" % filePath)
-            # Translate content
-            part1 = translateText(part1, "en", lang)
-            part2 = translateText(part2, "en", lang)
-            filedata = "%s %s" % (part1, part2) 
-        else:
-            # Translate content
-            filedata = translateText(filedata, "en", lang)
+        # Translate content
+        token_count = len(encoding.encode(filedata))
+        filedata = translateText(filedata, "en", lang)
     
     # Write the file out again
     with open(filePath, 'w') as file:
         file.write(filedata)
     
-    return totalWORDS
+    return token_count
 
 def translateText(text, source_language, target_language):
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) '{target_language}'. Couple remarks 'apiary' is translate 'rucher' in french, there is some javascript part, do not translate 'function()' and variables names. Sometimes there is also images tag on markdown title"},
-            {"role": "user", "content": text}
-        ]
-    )
+    # Token management
+    token_count = len(encoding.encode(text))
+    # GPT3.5 has a maximum of 4097 tokens limit...
+    if token_count > 2000:
+        part1, part2 = split_markdown(text)
+        # Translate the two part
+        part1Translated = translateText(part1, source_language, target_language)
+        part2Translated = translateText(part2, source_language, target_language)
+        translation = "%s %s" % (part1Translated, part2Translated)
+    else:
+        response = client.chat.completions.create(
+            model=GPT_MODEL,
+            messages=[
+                {"role": "system", "content": f"You are a helpful assistant that translates '{source_language}' text (html, markdown, etc) '{target_language}'. Couple remarks 'apiary' is translate 'rucher' in french, there is some javascript part, do not translate 'function()' and variables names. Sometimes there is also images tag on markdown title"},
+                {"role": "user", "content": text}
+            ]
+        )
 
-    translation = response.choices[0].message.content.strip()
+        if response.choices[0].finish_reason == 'lenght':
+            # No finished
+            print('ok')
+            
+        translation = response.choices[0].message.content.strip()
     return translation
 
 def split_markdown(text):
@@ -106,11 +114,11 @@ if 'plugins' in mkdocsConfig:
             shutil.copytree('./docs/en', './docs/%s' % lang['lang'])
             # Should then translate all files
             parent_folder = './docs/%s' % lang['lang']
-            totalWORDS += translateFolder(parent_folder, lang['lang'])
+            token_count += translateFolder(parent_folder, lang['lang'])
             # Should have only one file -> home.html
             shutil.copytree('./docs/overrides/en', './docs/overrides/%s' % lang['lang'], dirs_exist_ok=True)
             parent_folder = './docs/overrides/%s' % lang['lang']
-            totalWORDS += translateFolder(parent_folder, lang['lang'])
+            token_count += translateFolder(parent_folder, lang['lang'])
 
 
     # Loop over each file, found it, if yes -> translate, if no (maybe deleted, moved, etc)
@@ -124,8 +132,8 @@ if 'plugins' in mkdocsConfig:
                     shutil.copy(file, NEW_NAME)
                     # Then translate
                     # TODO: for now count the price
-                    totalWORDS += translateFile(NEW_NAME, lang['lang'])
+                    token_count += translateFile(NEW_NAME, lang['lang'])
     
     # Print
-    print('Total Number of words: %i' % totalWORDS)
-    print('Equivalent to %f $' % (totalWORDS*100/750*0.0005))
+    print('Total token: %i' % token_count)
+    print('Equivalent to %f $' % (token_count*100/750*0.0005))

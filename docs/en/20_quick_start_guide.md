@@ -21,7 +21,6 @@ Each step is described in detail later in this document.
 | 10.| ![image](../assets/20_quick_start_guide.assets/icons/30px/009.png)  | [View and explore](#10-explore-and-discover) | 
 
 
-
 ## Before you start
 Take note of the following best practices:
 
