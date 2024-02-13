@@ -171,5 +171,31 @@ plugins:
             Repair Guide: Guida alla riparazione
             Distributors: Distributori
             Legacy Devices: Dispositivi legacy
+        - locale: ja
+          link: /ja/
+          name: 🇯🇵 Japanese
+          build: true
+          site_name: "ユーザーガイド"
+          nav_translations:
+            Home: ホーム
+            Quick start guide 🚀 : クイックスタートガイド 🚀
+            Sensors: センサー
+            Product range: 製品ラインナップ
+            General aspects: 一般的な側面
+            Scale Assembly: スケールの組み立て
+            Yolink devices: Yolinkデバイス
+            Example setups: 例のセットアップ
+            Data interpretation: データの解釈
+            BroodMinder Device Updates: BroodMinderデバイスの更新
+            BroodMinder Hub Updates: BroodMinder Hubの更新
+            Video Library: 動画ライブラリ
+            Training Sessions: トレーニングセッション
+            General: 一般
+            Tech Stuff and Physics: テクニカルな要素と物理学
+            Troubleshooting: トラブルシューティング
+            Repair Guide: 修理ガイド
+            Distributors: 販売店
+            Legacy Devices: 旧モデルデバイス
+
 
 
