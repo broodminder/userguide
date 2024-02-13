@@ -39,7 +39,7 @@ def translateFile(filePath, lang, prefix_href = None):
     if not filePath.endswith('index.md') and not filePath.endswith('void.md'):
         # Translate content
         token_count = len(encoding.encode(filedata))
-        #filedata = translateText(filedata, "en", lang)
+        filedata = translateText(filedata, "en", lang)
     
     # Write the file out again
     with open(filePath, 'w') as file:
