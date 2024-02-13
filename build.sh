@@ -7,7 +7,6 @@
 
 # This file shall be saved in VisualStudio Code with an LF end of line sequence
 
-. .env
 PATH=/home/$USER/.pyenv/versions/userguide/bin/:$PATH
 
 # Translation management
