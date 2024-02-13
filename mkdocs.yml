@@ -123,26 +123,27 @@ plugins:
             Legacy Devices: Legacy Devices
         - locale: es
           link: /es/
-          name: 🇪🇸 Spanish
+          name: 🇪🇸 Español
           build: true
-          site_name: "GUIDE D'UTILISATEUR"
+          site_name: "GUÍA DEL USUARIO"
           nav_translations:
-            Home: Es
-            Quick start guide 🚀 : Guide de démarrage rapide 🚀
-            Sensors: Capteurs
-            Product range: Gamme de capteurs
-            General aspects:  Aspects général
-            Scale Assembly: Assemblage de la balance
-            Yolink devices: Capteurs Yolink
-            Example setups: Examples de configurations
-            Data interpretation: Interprétation des données
-            BroodMinder Device Updates: Mise à jour des capteurs BroodMinder
-            BroodMinder Hub Updates: Mise à jour des hubs BroodMinder
-            Video Library: Bibliothèques de vidéos
-            Training Sessions: Sessions de tutoriels
-            General: Général
-            Tech Stuff and Physics: Tech Stuff and Physics
-            Troubleshooting: Troubleshooting
-            Repair Guide: Guide de réparation
-            Distributors: Distributeurs
-            Legacy Devices: Legacy Devices
+            Home: Inicio
+            Quick start guide 🚀: Guía de inicio rápido 🚀
+            Sensors: Sensores
+            Product range: Gama de productos
+            General aspects: Aspectos generales
+            Scale Assembly: Montaje de la balanza
+            Yolink devices: Dispositivos Yolink
+            Example setups: Ejemplos de configuraciones
+            Data interpretation: Interpretación de datos
+            BroodMinder Device Updates: Actualizaciones de dispositivos BroodMinder
+            BroodMinder Hub Updates: Actualizaciones de hubs BroodMinder
+            Video Library: Biblioteca de videos
+            Training Sessions: Sesiones de entrenamiento
+            General: General
+            Tech Stuff and Physics: Información técnica y física
+            Troubleshooting: Solución de problemas
+            Repair Guide: Guía de reparación
+            Distributors: Distribuidores
+            Legacy Devices: Dispositivos antiguos
+
