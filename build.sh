@@ -7,12 +7,18 @@
 
 # This file shall be saved in VisualStudio Code with an LF end of line sequence
 
-source .env
+. .env
 PATH=/home/$USER/.pyenv/versions/userguide/bin/:$PATH
 
 # Translation management
 echo "Get differrence between the two last commit"
 git diff HEAD^ HEAD --name-only > filesChange.txt
+
+echo "Activate environment python"
+pyenv activate userguide
+pip install -r requirements.txt
+
+echo "Translate files"
 python translateFiles.py
 
 # Build
