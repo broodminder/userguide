@@ -36,10 +36,10 @@ def translateFile(filePath, lang, prefix_href = None):
     if prefix_href is not None:
         filedata = re.sub(r'href="', 'href="%s/' % prefix_href, filedata)
     
-    if not filePath.endswith('index.md') or not filePath.endswith('void.md'):
+    if not filePath.endswith('index.md') and not filePath.endswith('void.md'):
         # Translate content
         token_count = len(encoding.encode(filedata))
-        filedata = translateText(filedata, "en", lang)
+        #filedata = translateText(filedata, "en", lang)
     
     # Write the file out again
     with open(filePath, 'w') as file:
