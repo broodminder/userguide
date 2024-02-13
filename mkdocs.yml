@@ -1,0 +1,175 @@
+site_name: USER DOCUMENTATION
+dev_addr: 127.0.0.1:3000
+
+docs_dir: docs/
+exclude_docs: overrides/
+
+site_url: https://doc.mybroodminder.com
+site_description : Broodminder User Guide
+
+theme:
+  name: material
+  font: false
+  custom_dir: docs/overrides
+  icon:
+    alternate: svg/language
+  logo:
+    assets/images/BRM.png
+  features:
+    - navigation.indexes
+  palette:
+    primary: custom
+
+extra_css:
+  - assets/css/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Introduction: 10_intro.md
+  - Quick start guide 🚀 : 20_quick_start_guide.md
+  - _____: void.md
+  - BeesApp: 40_beesApp.md
+  - MyBroodminder: 50_mybroodminder_v5.md
+  - Sensors:
+      - Product range:  30_product_range.md
+      - General aspects:  30_sensors.md
+      - BroodMinder TH & T: 31_sensors_T_TH.md
+      - BroodMinder W: 32_sensors_W.md
+      - BroodMinder W3:
+          - Circuit Board: 33a_sensors_W3_boardAssembly.md
+          - Scale Assembly: 33b_sensors_W3_assembly.md
+          - Calibration: 33c_sensors_W3_calibration.md
+      - BroodMinder W4: void.md
+      - BroodMinder BeeDar: 35_sensors_Beedar.md
+      - BroodMinder DIY: 36_sensors_DIY.md
+      - Yolink devices: 38_sensors_yolink.md
+  - Hubs: 60_hubs.md
+  - Tokens: 65_tokens.md
+  
+  - _____: void.md
+  - Example setups: 73_Examples.md
+  - Data interpretation: 76_data_interpretation.md
+  - Beecounted: 79_beecounted.md
+  - Bee-Life: 82_beelife.md
+
+  - _____: void.md
+  - BroodMinder Device Updates: 80_device_updating.md
+  - BroodMinder Hub Updates: 81_hub_updating.md
+
+  - _____: void.md
+  - FAQ: 85_faq.md
+  - Video Library: 86_video_library.md
+  - Training Sessions:
+      - General: 90_Training.md
+      - MyBroodMinder: 91_Training_MyBroodMinder.md
+      - Bees App: 92_Training_BeesApp.md
+  - Tech Stuff and Physics: 87_physics_and_tech_stuff.md
+  - Troubleshooting: 88_troubleshooting.md
+  - Repair Guide: 89_repair_guide.md
+
+  - _____: void.md
+  - Distributors: 94_distributorInfo.md
+  - Legacy Devices: 97_legacy_devices.md
+  - _____: void.md
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: 🇺🇸 English
+          build: true
+        - locale: fr
+          link: /fr/
+          name: 🇫🇷 Français
+          build: true
+          site_name: "GUIDE D'UTILISATEUR"
+          nav_translations:
+            Home: Accueil
+            Quick start guide 🚀 : Guide de démarrage rapide 🚀
+            Sensors: Capteurs
+            Product range: Gamme de capteurs
+            General aspects:  Aspects général
+            Scale Assembly: Assemblage de la balance
+            Yolink devices: Capteurs Yolink
+            Example setups: Examples de configurations
+            Data interpretation: Interprétation des données
+            BroodMinder Device Updates: Mise à jour des capteurs BroodMinder
+            BroodMinder Hub Updates: Mise à jour des hubs BroodMinder
+            Video Library: Bibliothèques de vidéos
+            Training Sessions: Sessions de tutoriels
+            General: Général
+            Tech Stuff and Physics: Tech Stuff and Physics
+            Troubleshooting: Troubleshooting
+            Repair Guide: Guide de réparation
+            Distributors: Distributeurs
+            Legacy Devices: Legacy Devices
+        - locale: es
+          link: /es/
+          name: 🇪🇸 Español
+          build: true
+          site_name: "GUÍA DEL USUARIO"
+          nav_translations:
+            Home: Inicio
+            Quick start guide 🚀: Guía de inicio rápido 🚀
+            Sensors: Sensores
+            Product range: Gama de productos
+            General aspects: Aspectos generales
+            Scale Assembly: Montaje de la balanza
+            Yolink devices: Dispositivos Yolink
+            Example setups: Ejemplos de configuraciones
+            Data interpretation: Interpretación de datos
+            BroodMinder Device Updates: Actualizaciones de dispositivos BroodMinder
+            BroodMinder Hub Updates: Actualizaciones de hubs BroodMinder
+            Video Library: Biblioteca de videos
+            Training Sessions: Sesiones de entrenamiento
+            General: General
+            Tech Stuff and Physics: Información técnica y física
+            Troubleshooting: Solución de problemas
+            Repair Guide: Guía de reparación
+            Distributors: Distribuidores
+            Legacy Devices: Dispositivos antiguos
+        - locale: it
+          link: /it/
+          name: 🇮🇹 Italiano
+          build: true
+          site_name: "GUIDA DELL'UTENTE"
+          nav_translations:
+            Home: Home
+            Quick start guide 🚀 : Guida rapida 🚀
+            Sensors: Sensori
+            Product range: Gamma di prodotti
+            General aspects: Aspetti generali
+            Scale Assembly: Montaggio della bilancia
+            Yolink devices: Dispositivi Yolink
+            Example setups: Esempi di configurazioni
+            Data interpretation: Interpretazione dei dati
+            BroodMinder Device Updates: Aggiornamenti del dispositivo BroodMinder
+            BroodMinder Hub Updates: Aggiornamenti dell'hub BroodMinder
+            Video Library: Libreria video
+            Training Sessions: Sessioni di formazione
+            General: Generale
+            Tech Stuff and Physics: Tecnologia e fisica
+            Troubleshooting: Risoluzione dei problemi
+            Repair Guide: Guida alla riparazione
+            Distributors: Distributori
+            Legacy Devices: Dispositivi legacy
+
+
