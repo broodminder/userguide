@@ -17,8 +17,6 @@ theme:
     assets/images/BRM.png
   features:
     - navigation.indexes
-    - navigation.instant
-    - navigation.instant.progress
   palette:
     primary: custom
 
