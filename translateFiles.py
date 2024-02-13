@@ -25,6 +25,7 @@ def translateFolder(parent_folder, lang, **kwargs):
     return token_count
 
 def translateFile(filePath, lang, prefix_href = None):
+    token_count = 0
     print('Translate file %s to %s' % (filePath, lang))
     # Read in the file
     with open(filePath, 'r') as file:
