@@ -19,7 +19,7 @@
     .md-header{position:initial}
     .md-main__inner{margin:0}
     .md-content{display:none}
-    .mdx-hero{
+    .mdx-hero {
         padding-left: 0.6rem;
         padding-right: 0.6rem;
     }
@@ -44,56 +44,70 @@
     .mdx-hero {
         background-color: rgba(255, 255, 255, 0.8); /* Opacité du conteneur */
         padding: 20px;
+        padding-bottom: 70px;
         box-sizing: border-box;
-    }
-
-    #flag-icons {
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-around;
     }
 
     .flag-icon {
         width: 30px;
-        height: 30px;
+        height: auto;
+        margin-right: 10px;
         cursor: pointer;
         /* Ajoutez ici les styles appropriés pour vos icônes de drapeaux */
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between; /* Ajustement pour aligner à droite */
+      align-items: center;
     }
 </style>
 <div id="mdx-container">
     <div class="md-grid md-typeset">
         <div class="mdx-hero">
-            <br><br>
+            <br>
             <div class="mdx-hero__content">
                 <h1>Welcome to the User Documentation Portal</h1>
                 <p>You'll find here all the BroodMinder reference documentation.</p>
                 <p>From a quick overview through how to set-up the devices, using the system and analyzing data. This manual is intended to fill in any gaps to make your experience more pleasant and productive.</p>
                 <p>You can <b>navigate</b> to documents on the left side or <b>search</b> for a topic on the top right of this screen.</p>
-                <p>You can also check out the video help that you will find at <a href="https://mybroodminder.com/app/resources/video-guides">MyBroodMinder</a>.</p>
+                <p>You can also check out the video help that you will find at <a href="86_video_library">MyBroodMinder</a>.</p>
                 <p>Our legacy manual (2015-2022) is available <a href="https://www.dropbox.com/s/hwmde6h97sbmzl4/BroodMinder-User-Guide.pdf?dl=0">here</a>.</p>
-                <p>We appreciate your help in making this documentation complete and accurate. Please report errors, ideas, and suggestions to <a href="mailto:docs@broodminder.com">docs@broodminder.com</a></p>
 
                 <a href="20_quick_start_guide" title="" class="md-button md-button--primary">
                     Quick Start
                 </a>
-                <a href="85_faq" title="" class="md-button">
-                    FAQ
+                <a href="98_about" title="" class="md-button">
+                    About
                 </a>
             </div>
             <div id="new-search"></div>
-            <div id="flag-icons">
-                <!-- Remplacez les chemins des images par les icônes de drapeaux souhaités -->
-                <a href="/20_quick_start_guide"><img src="/assets/images/flags/us.jpg" class="flag-icon"></a>
-                <a href="/fr/20_quick_start_guide"><img src="/assets/images/flags/fr.jpg" class="flag-icon"></a>
-                <a href="/es/20_quick_start_guide"><img src="/assets/images/flags/es.jpg" class="flag-icon"></a>
-                <a href="/it/20_quick_start_guide"><img src="/assets/images/flags/it.jpg" class="flag-icon"></a>
-                <a href="/nl/20_quick_start_guide"><img src="/assets/images/flags/nl.jpg" class="flag-icon"></a>
-                <a href="/ja/20_quick_start_guide"><img src="/assets/images/flags/ja.jpg" class="flag-icon"></a>
-                <!-- Ajoutez d'autres icônes de drapeaux selon vos besoins -->
-            </div>
         </div>
     </div>
 </div>
+<footer>
+    <div>
+        <p>© 2024 - BroodMinder</p>
+    </div>
+    <div id="flag-icons">
+        <!-- Remplacez les chemins des images par les icônes de drapeaux souhaités -->
+        <a href="/20_quick_start_guide"><img src="/assets/images/flags/us.jpg" class="flag-icon"></a>
+        <a href="/fr/20_quick_start_guide"><img src="/assets/images/flags/fr.jpg" class="flag-icon"></a>
+        <a href="/es/20_quick_start_guide"><img src="/assets/images/flags/es.jpg" class="flag-icon"></a>
+        <a href="/it/20_quick_start_guide"><img src="/assets/images/flags/it.jpg" class="flag-icon"></a>
+        <a href="/nl/20_quick_start_guide"><img src="/assets/images/flags/nl.jpg" class="flag-icon"></a>
+        <a href="/ja/20_quick_start_guide"><img src="/assets/images/flags/ja.jpg" class="flag-icon"></a>
+        <!-- Ajoutez d'autres icônes de drapeaux selon vos besoins -->
+    </div>
+</footer>
+
 <script text="javascript">
     function relocateElementBySelector(elementSelector, destSelector) {
         // Sélectionnez l'élément dont vous souhaitez obtenir la position
