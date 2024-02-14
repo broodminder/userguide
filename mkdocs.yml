@@ -57,20 +57,18 @@ nav:
       - Yolink devices: 38_sensors_yolink.md
   - Hubs: 60_hubs.md
   - Tokens: 65_tokens.md
-  
   - _____: void.md
   - Example setups: 73_Examples.md
   - Data interpretation: 76_data_interpretation.md
   - Beecounted: 79_beecounted.md
   - Bee-Life: 82_beelife.md
-
   - _____: void.md
   - BroodMinder Device Updates: 80_device_updating.md
   - BroodMinder Hub Updates: 81_hub_updating.md
-
   - _____: void.md
   - FAQ: 85_faq.md
   - Video Library: 86_video_library.md
+  - About
   - Training Sessions:
       - General: 90_Training.md
       - MyBroodMinder: 91_Training_MyBroodMinder.md
@@ -78,10 +76,11 @@ nav:
   - Tech Stuff and Physics: 87_physics_and_tech_stuff.md
   - Troubleshooting: 88_troubleshooting.md
   - Repair Guide: 89_repair_guide.md
-
   - _____: void.md
   - Distributors: 94_distributorInfo.md
   - Legacy Devices: 97_legacy_devices.md
+  - _____: void.md
+  - About: 98_about.md
   - _____: void.md
 
 plugins:
