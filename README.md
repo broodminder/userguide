@@ -1,4 +1,4 @@
-# userguide v1.0.5
+# userguide v1.0.6
 
 ## Install virtualenv
 ```pyenv virtualenv 3.11.2 userguide```
