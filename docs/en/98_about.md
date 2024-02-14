@@ -8,7 +8,8 @@ At BroodMinder we know how important documentation is. Having a structured, upda
 
 # How does it work
 
-To use this doc you can : 
+To use this doc you can :
+
 - **navigate** on the left side bar through the topics you're searching for
 - **use the search field** at the top bar with your keywords
 
