@@ -7,6 +7,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from pathlib import Path
 import tiktoken
+import time
 
 # ENV
 load_dotenv(dotenv_path = Path(".env"), override=True)
@@ -61,19 +62,30 @@ def translateText(text, source_language, target_language):
         part2Translated = translateText(part2, source_language, target_language)
         translation = "%s %s" % (part1Translated, part2Translated)
     else:
-        response = client.chat.completions.create(
-            model=GPT_MODEL,
-            messages=[
-                {"role": "system", "content": systemPrompt},
-                {"role": "user", "content": text}
-            ]
-        )
+        try:
+            response = client.chat.completions.create(
+                model=GPT_MODEL,
+                messages=[
+                    {"role": "system", "content": systemPrompt},
+                    {"role": "user", "content": text}
+                ]
+            )
 
-        if response.choices[0].finish_reason == 'length':
-            # No finished
-            print('Be carrefull the answer is not complet')
-           
-        translation = response.choices[0].message.content.strip()
+            if response.choices[0].finish_reason == 'length':
+                # No finished
+                print('Be carrefull the answer is not complet')
+            
+            translation = response.choices[0].message.content.strip()
+        except Exception as err:
+            if err.status_code == 429:
+                print('Exceed time limit -> wait 10min')
+                time.sleep(10*60) # Wait 10minute
+                translation = translateText(text, source_language, target_language)
+            else:
+                print('An error occured, the text will not be translated')
+                print(err)
+                translation = text
+
     
     # Return
     return translation
