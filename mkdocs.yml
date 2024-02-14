@@ -201,7 +201,7 @@ plugins:
             About: 約
         - locale: nl
           link: /nl/
-          name: 🇫🇷 Netherland
+          name: 🇳🇱 Netherland
           build: true
           site_name: "GEBRUIKERSGIDS"
           nav_translations:
