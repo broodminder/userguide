@@ -7,22 +7,19 @@
 
 # This file shall be saved in VisualStudio Code with an LF end of line sequence
 
-PATH=/home/$USER/.pyenv/versions/userguide/bin/:$PATH
+export $(grep -v '^#' .env | xargs -0)
+export PATH=/home/$USER/.pyenv/versions/userguide/bin/:$PATH
 
 # Translation management
 echo "Get differrence between the two last commit"
 git diff HEAD^ HEAD --name-only > filesChange.txt
 
-echo "Activate environment python"
-pyenv activate userguide
-pip install -r requirements.txt
-
 echo "Translate files"
-python translateFiles.py
+/home/$USER/.pyenv/versions/userguide/bin/python translateFiles.py
 
 # Build
 echo "build DOCUMENTATION"
-mkdocs build --clean
+/home/$USER/.pyenv/versions/userguide/bin/mkdocs build --clean
 
 # Installation
 echo "install for apache"
