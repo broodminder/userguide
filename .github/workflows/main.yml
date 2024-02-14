@@ -18,5 +18,5 @@ jobs:
         script: |
           cd /mellisphera/production/userguide/
           git pull &>> github_CD_output.txt
-          sudo /bin/sh build.sh
+          sudo /bin/sh build.sh &>> github_CD_output.txt
         
