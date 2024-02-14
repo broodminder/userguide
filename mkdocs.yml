@@ -68,7 +68,6 @@ nav:
   - _____: void.md
   - FAQ: 85_faq.md
   - Video Library: 86_video_library.md
-  - About
   - Training Sessions:
       - General: 90_Training.md
       - MyBroodMinder: 91_Training_MyBroodMinder.md
@@ -120,6 +119,7 @@ plugins:
             Repair Guide: Guide de réparation
             Distributors: Distributeurs
             Legacy Devices: Legacy Devices
+            About: A propos
         - locale: es
           link: /es/
           name: 🇪🇸 Español
@@ -145,6 +145,7 @@ plugins:
             Repair Guide: Guía de reparación
             Distributors: Distribuidores
             Legacy Devices: Dispositivos antiguos
+            About: Acerca de
         - locale: it
           link: /it/
           name: 🇮🇹 Italiano
@@ -170,6 +171,7 @@ plugins:
             Repair Guide: Guida alla riparazione
             Distributors: Distributori
             Legacy Devices: Dispositivi legacy
+            About: Informazioni
         - locale: ja
           link: /ja/
           name: 🇯🇵 Japanese
@@ -195,6 +197,31 @@ plugins:
             Repair Guide: 修理ガイド
             Distributors: 販売店
             Legacy Devices: 旧モデルデバイス
-
-
+            About: 約
+        - locale: nl
+          link: /nl/
+          name: 🇳🇱 Netherland
+          build: true
+          site_name: "GEBRUIKERSGIDS"
+          nav_translations:
+            Home: Thuis
+            Quick start guide 🚀: Snelle startgids 🚀
+            Sensors: Sensoren
+            Product range: Productassortiment
+            General aspects: Algemene aspecten
+            Scale Assembly: Weegschalenassemblage
+            Yolink devices: Yolink-apparaten
+            Example setups: Voorbeeldconfiguraties
+            Data interpretation: Gegevensinterpretatie
+            BroodMinder Device Updates: BroodMinder-apparaatupdates
+            BroodMinder Hub Updates: BroodMinder-hubupdates
+            Video Library: Videobibliotheek
+            Training Sessions: Trainingsessies
+            General: Algemeen
+            Tech Stuff and Physics: Technische zaken en natuurkunde
+            Troubleshooting: Probleemoplossing
+            Repair Guide: Reparatierichtlijn
+            Distributors: Distributeurs
+            Legacy Devices: Oude apparaten
+            About: Over
 

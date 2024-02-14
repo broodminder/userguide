@@ -15,6 +15,7 @@ jobs:
         host: ${{ secrets.HOST }}
         key: ${{ secrets.PRIVATE_KEY }}
         port: 1150
+        command_timeout: 60m
         script: |
           cd /mellisphera/production/userguide/
           git pull &>> github_CD_output.txt
