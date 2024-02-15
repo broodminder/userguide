@@ -217,7 +217,6 @@ Install BroodMinder-T (model 47) and -TH (model 56) on the middle frame (usually
 ![Install_BRM-T](../assets/20_quick_start_guide.assets/install_BRM-T.png)
 
 
-
 #### Scales
 Place your BroodMinder-W scale preferably **at the back** of the hive. Make sure the hive is as level as possible. 
 BroodMinder-W3 and W4 scales do not require precise levelling.
