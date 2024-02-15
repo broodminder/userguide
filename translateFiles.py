@@ -53,8 +53,9 @@ def translateText(text, source_language, target_language):
     # Token management
     token_count = len(encoding.encode(text))
     systemPrompt = "You are a helpful assistant that translates '%s' text (html, markdown, etc) to '%s'." \
-        "Couple remarks 'apiary' is translated 'rucher' in french (also in UPPER case, I saw someties you translate it 'terrasse' which is wrong), there is some javascript part, do not translate 'function()', variables names." \
-        "Mustache bloc code on .html file (like starting with '{%% extends...', '{%% blocks...' ) should not be translated also." \
+        "Couple remarks 'apiary' word is associated to beekeeper environment, be carreful of the translation."\
+        "There is some javascript part on files, do not translate 'function()', variables names, etc." \
+        "I add some tags <!-- no translate -->, please do not translate things between those tags." \
         "Sometimes there is also images tag on markdown title, and please do no translate markdown images name when this is a path like '/assets/images/...'" % (source_language, target_language)
     
     token_prompt = len(encoding.encode(systemPrompt))
