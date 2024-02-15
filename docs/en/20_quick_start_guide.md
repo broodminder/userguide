@@ -231,7 +231,6 @@ Beedar has a horizontal "view" angle of 85° and a vertical angle of 30°.
 You can hang it with two 4mm-diameter screws.
 
 
-
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 8. Install your hub
 
 This stage is optional : only intended for those owning a Hub for real time monitoring.
