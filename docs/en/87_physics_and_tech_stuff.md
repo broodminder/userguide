@@ -249,3 +249,4 @@ This chart shows the influence of scale placement on the scale correction factor
  ![image-20230409132434621](../assets/87_physics_and_tech_stuff.assets/image-20230409132434621.png) 
 
 It is advisable to mark the scale position on the bottom board of the hive or to attach a mechanical stop. This will help to put the scale back into the same location after it has been pulled for a battery change or some other reason. 
+
