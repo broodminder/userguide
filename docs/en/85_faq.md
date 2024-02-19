@@ -209,4 +209,4 @@ Yes, simply go to BeeCounted.org. There you can visualize dozens of hives from b
 
 This feature is not yet available on Mellisphera, but this is possible on MyBroodMinder. Go to Configuring/Finding/Sharing. Choose the o's, select an apiary and click on "sharing". You only need to enter the email of the user you want to share with. 
 
-Once shared, your apiary will be visible from their own account in read-only mode. 
+Once shared, your apiary will be visible from their own account in read-only mode.
