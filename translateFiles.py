@@ -56,7 +56,8 @@ def translateText(text, source_language, target_language):
         "Couple remarks 'apiary' word is associated to beekeeper environment, be carreful of the translation."\
         "'Scale' word is a sensor which records weight, be carreful of your translation." \
         "There is some javascript part on files, do not translate 'function()', variables names, etc." \
-        "I add some tags <!-- no translate --> <!-- /no translate -->, please do not translate things between those tags." \
+        "On html file, I add some tags '<!-- no translate -->' '<!-- /no translate -->', do not translate strings between those tags (and tags itself)." \
+        "Remember some text are between tags '<!-- no translate --><!-- /no translate -->' like '{%% extends ...}, DO NOT TRANSLATE please (I saw you translate if for 'es' language, I do not want for all languages !)" \
         "Do no translate markdown images path please... things looking like '![*](*.jpg/JPG/PNG/png) also if this is on a markdown title." % (source_language, target_language)
     
     token_prompt = len(encoding.encode(systemPrompt))
