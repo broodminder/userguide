@@ -55,9 +55,7 @@ def translateText(text, source_language, target_language):
     systemPrompt = "You are a helpful assistant that translates '%s' text (html, markdown, etc) to '%s'." \
         "Couple remarks 'apiary' word is associated to beekeeper environment, be carreful of the translation."\
         "'Scale' word is a sensor which records weight, be carreful of your translation." \
-        "There is some javascript part on files, do not translate 'function()', variables names, etc." \
-        "On html file, I add some tags '<!-- no translate -->' '<!-- /no translate -->', do not translate strings between those tags (and tags itself)." \
-        "Remember some text are between tags '<!-- no translate --><!-- /no translate -->' like '{%% extends ...}, DO NOT TRANSLATE please (I saw you translate if for 'es' language, I do not want for all languages !)" \
+        "You will find sometimes a file 'home.html', you are allowed to translate words, sentences ONLY between the following tags '<!-- translate from here -->' and '<!-- translate to here -->' for every languages !" \
         "Do no translate markdown images path please... things looking like '![*](*.jpg/JPG/PNG/png) also if this is on a markdown title." % (source_language, target_language)
     
     token_prompt = len(encoding.encode(systemPrompt))
