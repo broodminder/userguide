@@ -38,7 +38,7 @@ def translateFile(filePath, lang, prefix_href = None):
     if prefix_href is not None:
         filedata = re.sub(r'href="', 'href="%s/' % prefix_href, filedata)
     
-    if not filePath.endswith('index.md') and not filePath.endswith('void.md'):
+    if not filePath.endswith('index.md') and not filePath.endswith('void.md') and not '/templates/' in filePath:
         # Translate content
         token_count = len(encoding.encode(filedata))
         filedata = translateText(filedata, "en", lang)
@@ -55,7 +55,7 @@ def translateText(text, source_language, target_language):
     systemPrompt = "You are a helpful assistant that translates '%s' text (html, markdown, etc) to '%s'." \
         "Couple remarks 'apiary' word is associated to beekeeper environment, be carreful of the translation."\
         "'Scale' word is a sensor which records weight, be carreful of your translation." \
-        "You will find sometimes a file 'home.html', you are allowed to translate words, sentences ONLY between the following tags '<!-- translate from here -->' and '<!-- translate to here -->' for every languages !" \
+        "You will find sometimes a file 'home.html', NEVER translate when the string start with '{%% ...' it is mustache language so no translation required." \
         "Do no translate markdown images path please... things looking like '![*](*.jpg/JPG/PNG/png) also if this is on a markdown title." % (source_language, target_language)
     
     token_prompt = len(encoding.encode(systemPrompt))

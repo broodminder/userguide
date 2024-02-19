@@ -279,7 +279,6 @@ Now follow the process :
 
 You are done, congratulations !
 
-
 ## Troubleshooting
 
 More often than not, the problem is simply wiring. Start by measuring between the load cell leads. You should see hundreds of ohms, not 0 and not infinity. Also be aware that we use plated through holes. If you drill them out (like Lorenzo did), the pads will no longer conduct from the top of the board to the bottom. You can solve this by solder jumper wires with the schematic as a guide.
