@@ -1,0 +1,24 @@
+<script text="javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125989472-3');
+
+    function relocateElementBySelector(elementSelector, destSelector) {
+        // Sélectionnez l'élément dont vous souhaitez obtenir la position
+        var sourceElement = document.querySelector(destSelector);
+        let elementParent = sourceElement.parentElement;
+        // Obtenez la position en pixels par rapport au parent positionné
+        var positionTop = sourceElement.offsetTop;
+        var positionLeft = sourceElement.offsetLeft;
+        console.log('Position from top:', positionTop, 'px');
+        console.log('Position from left:', positionLeft, 'px');
+
+        var destinationElement = document.querySelector(elementSelector);
+        // Ajoutez une règle de style directement au style en ligne de l'élément
+        destinationElement.style.cssText = "position: absolute !important; top: " + positionTop + "px !important; left: " + positionLeft + "px !important;";
+        elementParent.removeChild(sourceElement);
+    }
+    relocateElementBySelector('.md-search', '#search-form');
+</script>
