@@ -54,9 +54,10 @@ def translateText(text, source_language, target_language):
     token_count = len(encoding.encode(text))
     systemPrompt = "You are a helpful assistant that translates '%s' text (html, markdown, etc) to '%s'." \
         "Couple remarks 'apiary' word is associated to beekeeper environment, be carreful of the translation."\
+        "'Scale' word is a sensor which records weight, be carreful of your translation." \
         "There is some javascript part on files, do not translate 'function()', variables names, etc." \
-        "I add some tags <!-- no translate -->, please do not translate things between those tags." \
-        "Sometimes there is also images tag on markdown title, and please do no translate markdown images name when this is a path like '/assets/images/...'" % (source_language, target_language)
+        "I add some tags <!-- no translate --> <!-- /no translate -->, please do not translate things between those tags." \
+        "Do no translate markdown images path please... things looking like '![*](*.jpg/JPG/PNG/png) also if this is on a markdown title." % (source_language, target_language)
     
     token_prompt = len(encoding.encode(systemPrompt))
     # GPT3.5 has a maximum of 4097 tokens limit...

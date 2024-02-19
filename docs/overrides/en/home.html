@@ -3,97 +3,139 @@
 {% block tabs %}
 {{ super() }}
 <head>
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel ="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125989472-3"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'UA-125989472-3');
+        gtag('config', 'UA-125989472-3');
     </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('/assets/images/landscape.png'); /* Remplacez 'background-image.jpg' par le chemin de votre image */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+
+        .md-header{position:initial}
+        .md-main__inner{margin:0}
+        .md-content{display:none}
+        .mdx-hero {
+            padding-left: 0.6rem;
+            padding-right: 0.6rem;
+        }
+        @media screen and (min-width: 60em) {
+            .md-sidebar--primary{display:none}
+            .md-sidebar--secondary{display:none}
+            .md-sidebar--secondary:not([hidden]){display:none}
+        }
+        @media screen and (min-width:76.25em){
+            .md-sidebar--primary{display:none}
+            .md-sidebar--secondary{display:none}
+            .md-sidebar--secondary:not([hidden]){display:none}
+        }
+
+        #container {
+            width: 840px;
+            margin: 250px auto;
+        }
+
+        .mdx-hero {
+            /*background-color: rgba(255, 255, 255, 0.8); /* Opacité du conteneur */
+            padding: 20px;
+            padding-bottom: 70px;
+            box-sizing: border-box;
+        }
+
+        .md-search__inner {
+            width: 800px!important;
+        }
+        .md-search__output {
+            top: unset!important;
+            width: 800px!important;
+        }
+        .md-search-result {
+            width: 800px!important;
+        }
+        .md-search__form {
+            height: 70px!important;
+            background-color: #333333be!important;
+        }
+        .md-search__icon[for=__search] {
+            top: 1.9em!important;
+        }
+
+        .md-button.md-small {
+            height: 45px;
+            /*line-height: 40px;
+            min-height: 40px;*/
+            vertical-align: middle;
+            font-size: 15px;
+            padding: 10 0;
+        }
+
+        .md-button--white {
+            background-color: white;
+        }
+
+        .flag-icon {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+            cursor: pointer;
+            /* Ajoutez ici les styles appropriés pour vos icônes de drapeaux */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between; /* Ajustement pour aligner à droite */
+            align-items: center;
+        }
+    </style>
 </head>
-<style>
-    .md-header{position:initial}
-    .md-main__inner{margin:0}
-    .md-content{display:none}
-    .mdx-hero {
-        padding-left: 0.6rem;
-        padding-right: 0.6rem;
-    }
-    @media screen and (min-width: 60em) {
-        .md-sidebar--primary{display:none}
-        .md-sidebar--secondary{display:none}
-        .md-sidebar--secondary:not([hidden]){display:none}
-    }
-    @media screen and (min-width:76.25em){
-        .md-sidebar--primary{display:none}
-        .md-sidebar--secondary{display:none}
-        .md-sidebar--secondary:not([hidden]){display:none}
-    }
-    .md-container {
-        margin: 0;
-        padding: 0;
-        background-image: url('/assets/images/landscape.png'); /* Remplacez 'background-image.jpg' par le chemin de votre image */
-        background-size: cover;
-        background-position: center;
-    }
-
-    .mdx-hero {
-        background-color: rgba(255, 255, 255, 0.8); /* Opacité du conteneur */
-        padding: 20px;
-        padding-bottom: 70px;
-        box-sizing: border-box;
-    }
-
-    .flag-icon {
-        width: 30px;
-        height: auto;
-        margin-right: 10px;
-        cursor: pointer;
-        /* Ajoutez ici les styles appropriés pour vos icônes de drapeaux */
-    }
-
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-between; /* Ajustement pour aligner à droite */
-      align-items: center;
-    }
-</style>
 <!-- /no translate -->
-<div id="mdx-container">
-    <div class="md-grid md-typeset">
-        <div class="mdx-hero">
-            <br>
-            <div class="mdx-hero__content">
-                <h1>Welcome to the User Documentation Portal</h1>
-                <p>You'll find here all the BroodMinder reference documentation.</p>
-                <p>From a quick overview through how to set-up the devices, using the system and analyzing data. This manual is intended to fill in any gaps to make your experience more pleasant and productive.</p>
-                <p>You can <b>navigate</b> to documents on the left side or <b>search</b> for a topic on the top right of this screen.</p>
-                <p>You can also check out the video help that you will find at <a href="86_video_library">MyBroodMinder</a>.</p>
-                <p>Our legacy manual (2015-2022) is available <a href="https://www.dropbox.com/s/hwmde6h97sbmzl4/BroodMinder-User-Guide.pdf?dl=0">here</a>.</p>
+<div id="container">
 
-                <a href="20_quick_start_guide" title="" class="md-button md-button--primary">
-                    Quick Start
-                </a>
-                <a href="98_about" title="" class="md-button">
-                    About
-                </a>
-            </div>
-            <div id="new-search"></div>
+    <div class="md-grid md-typeset mdx-hero">
+
+        <div id="search-form"></div>
+        <br><br><br>
+        <div>
+            <a href="20_quick_start_guide" title="" class="md-button md-small md-button--primary">
+                Quick Start
+            </a>
+            <a href="86_video_library" title="" class="md-button md-small md-button--white">
+                Videos
+            </a>
+            <a href="85_faq" title="" class="md-button md-small md-button--white">
+                FAQ
+            </a>
+            <a href="98_about" title="" class="md-button md-small md-button--white">
+                About
+            </a>
         </div>
+        
+    
     </div>
+
 </div>
+
 <!-- no translate -->
 <footer>
     <div>
@@ -110,10 +152,11 @@
         <!-- Ajoutez d'autres icônes de drapeaux selon vos besoins -->
     </div>
 </footer>
+
 <script text="javascript">
     function relocateElementBySelector(elementSelector, destSelector) {
         // Sélectionnez l'élément dont vous souhaitez obtenir la position
-        var sourceElement = document.querySelector('#new-search');
+        var sourceElement = document.querySelector(destSelector);
         let elementParent = sourceElement.parentElement;
         // Obtenez la position en pixels par rapport au parent positionné
         var positionTop = sourceElement.offsetTop;
@@ -121,12 +164,13 @@
         console.log('Position from top:', positionTop, 'px');
         console.log('Position from left:', positionLeft, 'px');
 
-        var destinationElement = document.querySelector('.md-search');
+        var destinationElement = document.querySelector(elementSelector);
         // Ajoutez une règle de style directement au style en ligne de l'élément
         destinationElement.style.cssText = "position: absolute !important; top: " + positionTop + "px !important; left: " + positionLeft + "px !important;";
         elementParent.removeChild(sourceElement);
     }
-    relocateElementBySelector('.md-search', '#new-search')
+    relocateElementBySelector('.md-search', '#search-form')
+
 </script>
 {% endblock %}
 {% block content %}{% endblock %}
