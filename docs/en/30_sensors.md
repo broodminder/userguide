@@ -108,14 +108,9 @@ If you would like us to do this for you go to [BroodMinder-Refresh](https://broo
 
 
 !!! warning
-    <a href="https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U" target="_blank">remember the battery (older white style, not the new silver battery) has two modes **Always on** and **Auto off** : in the apiary it has to be **Always on**.</a>
+    <a href="https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U" target="_blank">Remember the battery (older white style, not the new silver battery) has two modes **Always on** and **Auto off** : in the apiary it has to be **Always on**.</a>
 
 [![Alt text](https://img.youtube.com/vi/geVp0FDxm3U/0.jpg)](https://www.youtube.com/watch?v=geVp0FDxm3U)
-
-
-
-
-
 
 
 ## Device Firmware Updates

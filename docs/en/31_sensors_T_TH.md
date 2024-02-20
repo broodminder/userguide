@@ -101,7 +101,6 @@ It watches for a minimum temperature change to be obtained. Once achieved, it wa
 Any time the sensor sees a 4°F (2°C) increase in temperature (when brood is present) then the sensor records the 30 minutes before and 40 minutes after with 1 minute resolution and sets a flag indicating a temperature event has occurred. See the data interpretation section for more information. 
 
 
-
 Those informations are displayed at 3 different levels
 
 1. At hive level you will only be notified of Temperature Events (ie. SM triggered).

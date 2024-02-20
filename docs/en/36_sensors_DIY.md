@@ -252,7 +252,6 @@ And you're done with the mechanical part!
 ![vue ensemble](../assets/36_sensors_DIY.assets/labelabeille/IMG_1873.JPG)
 
 
-
 Now let's move to calibration 
 
 ### Calibration

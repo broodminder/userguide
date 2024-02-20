@@ -52,11 +52,12 @@ def translateFile(filePath, lang, prefix_href = None):
 def translateText(text, source_language, target_language):
     # Token management
     token_count = len(encoding.encode(text))
-    systemPrompt = "You are a helpful assistant that translates '%s' text (html, markdown, etc) to '%s'." \
-        "Couple remarks 'apiary' word is associated to beekeeper environment, be carreful of the translation."\
-        "'Scale' word is a sensor which records weight, be carreful of your translation." \
+    systemPrompt = "You are a translation helper that translates '%s' text (html, markdown, etc) to '%s'." \
+        "Couple remarks 'apiary' word is associated to beekeeper environment."\
+        "'Scale' word is a sensor which records weight." \
+        "Some text speaks about electronics, like 'circuit board', translates this on the right context please." \
         "You will find sometimes a file 'home.html', NEVER translate when the string start with '{%% ...' it is mustache language so no translation required." \
-        "Do no translate markdown images path please... things looking like '![*](*.jpg/JPG/PNG/png) also if this is on a markdown title." % (source_language, target_language)
+        "Do not translate markdown images path please... things looking like '![*](*.jpg/JPG/PNG/png) also if this is on a markdown title." % (source_language, target_language)
     
     token_prompt = len(encoding.encode(systemPrompt))
     # GPT3.5 has a maximum of 4097 tokens limit...

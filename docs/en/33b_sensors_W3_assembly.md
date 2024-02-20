@@ -16,7 +16,6 @@
 ![image-20230501140246145](../assets/33_sensors_w3_assembly.assets/image-20230501140246145.png)
 
 
-
 ## BroodMinder-W3 Assembly - FIXED FEET
 
 ### Hardware

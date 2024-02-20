@@ -183,5 +183,3 @@ Battery Energy  CR2032 = 225 mAh  AA (L91) = 3500 mAh AAA (L92) = 1200 mAh
 
 Note: Validation measurements were performed utilizing a new (wonderful) instrument. The crowdfunded Joulescope, DC Energy Analyzer was designed to make these types of low power DC measurements. 
 
-
-
