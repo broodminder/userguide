@@ -172,6 +172,32 @@ plugins:
             Distributors: Distributori
             Legacy Devices: Dispositivi legacy
             About: Informazioni
+        - locale: de
+          link: /de/
+          name: 🇩🇪 German
+          build: true
+          site_name: "BENUTZERHANDBUCH"
+          nav_translations:
+            Home: Startseite
+            Quick start guide 🚀 : Schnellstartanleitung 🚀
+            Sensors: Sensoren
+            Product range: Produktreihe
+            General aspects: Allgemeine Aspekte
+            Scale Assembly: Montage der Waage
+            Yolink devices: Yolink-Geräte
+            Example setups: Beispielaufbauten
+            Data interpretation: Dateninterpretation
+            BroodMinder Device Updates: BroodMinder Geräte-Updates
+            BroodMinder Hub Updates: BroodMinder Hub-Updates
+            Video Library: Videothek
+            Training Sessions: Schulungssitzungen
+            General: Allgemeines
+            Tech Stuff and Physics: Technik und Physik
+            Troubleshooting: Fehlerbehebung
+            Repair Guide: Reparaturanleitung
+            Distributors: Händler
+            Legacy Devices: Legacy-Geräte
+            About: Über
         - locale: ja
           link: /ja/
           name: 🇯🇵 Japanese
