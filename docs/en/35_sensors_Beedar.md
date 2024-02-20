@@ -16,7 +16,6 @@ The BeeDar was invented by Dr. Herb Aumann from the University of Maine and Main
 The BeeDar senses motion and is tuned to be particularly sensitive to bees. When it collects data, it will record the motion for 30 seconds and then take the average. By default this will happen every 15 minutes. Data is transferred to MyBroodMinder just like every other BroodMinder device.
 
 
-
 ## Installation
 
 - Remove the BeeDar lid and remove the 2 loose flat screws.
