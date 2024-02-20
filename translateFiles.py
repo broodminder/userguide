@@ -53,6 +53,7 @@ def translateText(text, source_language, target_language):
     # Token management
     token_count = len(encoding.encode(text))
     systemPrompt = "You are a translation helper that translates '%s' text (html, markdown, etc) to '%s'." \
+        "Main topic of each text is about sensor, monitoring on beekeeping environment." \
         "Couple remarks 'apiary' word is associated to beekeeper environment."\
         "'Scale' word is a sensor which records weight." \
         "Some text speaks about electronics, like 'circuit board', translates this on the right context please." \
