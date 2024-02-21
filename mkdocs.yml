@@ -250,8 +250,8 @@ plugins:
             Distributors: Distributeurs
             Legacy Devices: Oude apparaten
             About: Over
-        - locale: no
-          link: /no/
+        - locale: nn
+          link: /nn/
           name: 🇳🇴 Norsk
           build: true
           site_name: "BRUKERHÅNDBOK"
