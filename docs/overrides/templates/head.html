@@ -2,58 +2,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel ="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125989472-3"></script>
+    
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-image: url('/assets/images/landscape.png'); /* Remplacez 'background-image.jpg' par le chemin de votre image */
+            font-family: Arial, sans-serif;
+            background-image: url('/assets/images/landscape.png');
             background-size: cover;
             background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .search-container {
             text-align: center;
+            margin-top: 30vh; /* Ajustez cette valeur selon vos besoins */
         }
 
-        .md-header{position:initial}
-        .md-main__inner{margin:0}
-        .md-content{display:none}
-        .mdx-hero {
-            padding-left: 0.6rem;
-            padding-right: 0.6rem;
+        /* SEARCH */
+        .search-bar {
+            background-color: #ffffff00;
+            cursor: none;
+            width: 50%;
+            height: 70px;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px; /* Espacement entre la barre de recherche et les boutons */
         }
-        @media screen and (min-width: 60em) {
-            .md-sidebar--primary{display:none}
-            .md-sidebar--secondary{display:none}
-            .md-sidebar--secondary:not([hidden]){display:none}
-        }
-        @media screen and (min-width:76.25em){
-            .md-sidebar--primary{display:none}
-            .md-sidebar--secondary{display:none}
-            .md-sidebar--secondary:not([hidden]){display:none}
-        }
-
-        #container {
-            width: 840px;
-            margin: 250px auto;
-        }
-
-        .mdx-hero {
-            /*background-color: rgba(255, 255, 255, 0.8); /* Opacité du conteneur */
-            padding: 20px;
-            padding-bottom: 70px;
-            box-sizing: border-box;
-        }
-
         .md-search__inner {
-            width: 800px!important;
+            width: 100%!important;
         }
         .md-search__output {
             top: unset!important;
-            width: 800px!important;
+            width: 100%!important;
         }
         .md-search-result {
-            width: 800px!important;
+            width: 100%!important;
         }
         .md-search__form {
             height: 70px!important;
@@ -67,9 +55,14 @@
             color: white;
         }
         .md-search__scrollwrap {
-            width: 800px!important;
+            width: 100%!important;
         }
 
+        /* BUTTONS */
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
         .md-button.md-small {
             height: 45px;
             /*line-height: 40px;
@@ -78,11 +71,11 @@
             font-size: 15px;
             padding: 10 0;
         }
-
         .md-button--white {
             background-color: white;
         }
 
+        /* FOOTER */
         .flag-icon {
             width: 30px;
             height: auto;
@@ -90,7 +83,6 @@
             cursor: pointer;
             /* Ajoutez ici les styles appropriés pour vos icônes de drapeaux */
         }
-
         footer {
             background-color: #333;
             color: #fff;
@@ -102,6 +94,34 @@
             display: flex;
             justify-content: space-between; /* Ajustement pour aligner à droite */
             align-items: center;
+        }
+
+        /* OVERRIDES MATERIALS */
+        .md-header{position:initial}
+        .md-main__inner{margin:0}
+        .md-content{display:none}
+        @media screen and (max-width: 768px) {
+            .search-bar {
+                width: 90%;
+            }
+
+            .button-container {
+                flex-wrap: wrap; /* Permet aux boutons de passer à la ligne sur les petits écrans */
+            }
+
+            .button {
+                margin: 5px; /* Ajustez l'espacement entre les boutons pour les petits écrans */
+            }
+        }
+        @media screen and (min-width: 60em) {
+            .md-sidebar--primary{display:none}
+            .md-sidebar--secondary{display:none}
+            .md-sidebar--secondary:not([hidden]){display:none}
+        }
+        @media screen and (min-width:76.25em){
+            .md-sidebar--primary{display:none}
+            .md-sidebar--secondary{display:none}
+            .md-sidebar--secondary:not([hidden]){display:none}
         }
     </style>
 </head>
