@@ -1,4 +1,4 @@
-# userguide v1.2.1
+# userguide v1.2.2
 
 ## Deployment
 
