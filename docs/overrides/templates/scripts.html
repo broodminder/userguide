@@ -12,13 +12,20 @@
         // Obtenez la position en pixels par rapport au parent positionné
         var positionTop = sourceElement.offsetTop;
         var positionLeft = sourceElement.offsetLeft;
-        console.log('Position from top:', positionTop, 'px');
+        var width = sourceElement.clientWidth;
+        var height = sourceElement.clientHeight;
+        /*console.log('Position from top:', positionTop, 'px');
         console.log('Position from left:', positionLeft, 'px');
+        console.log('Width:', width, 'px');
+        console.log('Height:', height, 'px');*/
 
         var destinationElement = document.querySelector(elementSelector);
         // Ajoutez une règle de style directement au style en ligne de l'élément
-        destinationElement.style.cssText = "position: absolute !important; top: " + positionTop + "px !important; left: " + positionLeft + "px !important;";
-        elementParent.removeChild(sourceElement);
+        destinationElement.style.cssText = "position: absolute !important; top: " + positionTop + "px !important;";
+        destinationElement.style.cssText += "left: " + positionLeft + "px !important; width: " + width + "px !important";
+        //elementParent.removeChild(sourceElement);
     }
     relocateElementBySelector('.md-search', '#search-form');
+
+    window.addEventListener("resize", function() {relocateElementBySelector('.md-search', '#search-form');});
 </script>
