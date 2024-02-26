@@ -105,4 +105,3 @@ We've made lots of videos over the years. Here is a list of them with links.
 - <a href="https://youtu.be/3xdnkD1NpHo" target="_blank">**S1:E19 BroodMinder-DIY**</a> - Here at BroodMinder we offer up our internal components for do it yourself enthusiasts. 
 
 - <a href="https://youtu.be/Hh9VKOsFOh8" target="_blank">**S1:E20 W3/DIY Assembly and Calibration**</a> - Rich instructs how to assemble and calibrates a W3 kit. 
-
