@@ -15,7 +15,7 @@ echo "Get differrence between the two last commit"
 git diff HEAD^ HEAD --name-only > filesChange.txt
 
 echo "Translate files"
-/home/$USER/.pyenv/versions/userguide/bin/python translateFiles.py
+/home/$USER/.pyenv/versions/userguide/bin/python userguide_utilities/translateFiles.py
 
 # Build
 echo "build DOCUMENTATION"
