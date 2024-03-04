@@ -24,6 +24,21 @@
         destinationElement.style.cssText = "position: absolute !important; top: " + positionTop + "px !important;";
         destinationElement.style.cssText += "left: " + positionLeft + "px !important; width: " + width + "px !important";
         //elementParent.removeChild(sourceElement);
+
+        // Manage window width
+        var mainContainer = document.querySelector(".md-container");
+        var desktopScreen = document.querySelector("#desktopScreen");
+        var mobileScreen = document.querySelector("#mobileScreen");
+        if (mainContainer.clientWidth < 960) {
+            // Hide
+            mobileScreen.style.cssText = "display: block";
+            desktopScreen.style.cssText = "display: none";
+        } else {
+            // Hide
+            mobileScreen.style.cssText = "display: none";
+            desktopScreen.style.cssText = "display: block";
+        }
+        
     }
     relocateElementBySelector('.md-search', '#search-form');
 
