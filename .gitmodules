@@ -1,0 +1,3 @@
+[submodule "userguide_utilities"]
+	path = userguide_utilities
+	url = https://github.com/broodminder/userguide_utilities
