@@ -8,12 +8,11 @@ What follow will explain you how to assemble the hive scale boards wheter if the
     If you purchased a **W3 Unassembled-Calibrated** scale, all your electronics work is already done and you can jump straight to the next section : [Scale Assembly](http://doc.mybroodminder.com/en/33b_sensors_W3_assembly/)
 
 
-## Get started with the circuit board.
-The XLR2 is a multi purpose board and the first thing you'll have to do is remove two resistors with your soldering iron : `R41` and `R42` as depicted in the scheme below
+## Get started with the circuit board
+We are working here with the XLR2-L board. This is a multi purpose board and that's why there are so many components missing. Although for scales you only need the "-L" version shown below. 
 
-![xlr2](../assets/36_sensors_DIY.assets/xlr2_board.jpg)
+![xlr2-l](../assets/36_sensors_DIY.assets/xlr2-l_board.jpg)
 
-![xlr2](../assets/36_sensors_DIY.assets/xlr2_resistors_scheme.png)
 
 
 Now apply labels as shown (in the BAT1 slot)
