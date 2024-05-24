@@ -24,7 +24,12 @@ Most issues are software issues. In general, they get solved in the app or on My
 
 
 
-## **REPAIR - Fast Battery Drain – TH and W**
+## **REPAIR - Fast Battery Drain  **
+
+!!! Note
+
+    This chapter mainly applies to old boards `B42` shipped on TH (model 42) and W (model 43) from 2016 to 2019 (see picture below)
+    ![image-20230409125756254](../assets/89_repair_guide.assets/image-20230409125756254.png#mediumImg)
 
 The typical cause for fast battery drain is a partially shorted decoupling capacitor. They are used to add a bit of life to the battery (ironic huh?) and to ensure stable supply voltage. As time as gone on, we have become more aggressive with conformal coating. I have been told by companies making solder, that the new, more environmentally formulations for flux are the root cause. In particular, moisture can get trapped underneath capacitors and create a current path between pads. (This has also led us to use larger components in more recent designs.)
 
@@ -48,7 +53,12 @@ It is a good idea to coat the components after replacing. You can use nail polis
 
 More info on “Tin Whiskers” - https://nepp.nasa.gov/whisker/background/index.htm & https://www.eevblog.com/forum/projects/removing-tin-whiskers/
 
-## **REPAIR – Will not respond– T2 (and T2SM)**
+## **REPAIR – Will not respond– T2 (mod 47 gen with push button)**
+
+!!! Note
+
+    This chapter applies to BroodMinder-T boards (model 41-47) with a push button. They where shipped from 2019 to 2023 (see picture below). New T (47) and TH (56) boards are without push button.
+
 
 We try to get the best parts possible, but sometimes it doesn’t work out. We have seen instances where it seems the T2 is dead and the only thing dead is the push button. It seems like the interior of the button may have develop a thin film on the connection disk (but we aren’t certain). There are a couple of ways to deal with this.
 

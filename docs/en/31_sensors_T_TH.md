@@ -95,13 +95,35 @@ If you want to turn off the T2, you simply have to push long on the button and i
 
 ## SwarmMinder Details
 
-Every SM device (T or TH) is reading temperature once per minute. Then it compares current and prior values looking for specific changes.
+### Swarm Thermoregulation
+It is well known that during a swarm event there is a lack of thermoregulation from the colony and that this is reflected by a temperature overshoot like the ones displayed in the following picture:
+
+![SM Temp](../assets/30_sensors.assets/SM_paper_examples.png)
+
+And here is an actual swarm trace:
+
+![SM Laville](../assets/30_sensors.assets/ex_laville.png)
+
+We can note the temperature peak in the afternoon of May 31st. This peak is detected by SwarmMinder and the `SM state` code jumps from 25 to 42. At the same time the weight drops down due to bees leaving the hive.
+
+
+### SwarmMinder algorithm
+To capture those events, every SM device (T or TH) is reading temperature once per minute. Then it compares current and prior values looking for specific changes.
 It watches for a minimum temperature change to be obtained. Once achieved, it watches for a temperature increase of at least 1°C from 30 minutes prior. That increase must continue for between 2 and 20 minutes and be followed by a temperature decrease.
 
-Any time the sensor sees a 4°F (2°C) increase in temperature (when brood is present) then the sensor records the 30 minutes before and 40 minutes after with 1 minute resolution and sets a flag indicating a temperature event has occurred. See the data interpretation section for more information. 
+Any time the sensor sees a 2°C (4°F) increase in temperature (when brood is present) then the sensor records the 30 minutes before and 40 minutes after with 1 minute resolution and sets a flag indicating a `Temperature Event` has occurred. See the [data interpretation section](https://doc.mybroodminder.com/76_data_interpretation/#swarm-detection-with-a-broodminder-th-in-a-top-bar-hive) for more information. 
 
+!!! note
+    SwarmMinder delivers `Temperature Events` and not `Swarm events` because so far the events trigering might be from different sources, and not only swarms. 
+    Other SM triggers might be:
 
-Those informations are displayed at 3 different levels
+    - a pre-swarm some days before
+    - a beekeeper inspection (exposing the internal sensor to teh sun)
+    - a very steep ambient temperature variation and/or a low insulated hive 
+
+### SwarmMinder events display
+
+SwarmMinder events are displayed at 3 different levels:
 
 1. At hive level you will only be notified of Temperature Events (ie. SM triggered).
 Those events are materialized by red needdles displayed on the temperature curve. And you can choose wether you want to see them or not clicking on the corresponding icon available on the right side menu bar. 
@@ -117,7 +139,22 @@ Those events are materialized by red needdles displayed on the temperature curve
 
 ![SM Device](../assets/30_sensors.assets/SM_data_editor.png)
 
-#### SwarmMinder State Codes (Models 47, 56)
+
+### Sampling the event
+As described above, the sensor is scanning every minute and if the event is detected it will keep record of the temperatures associated with it. 
+
+For those having a hub in the apiary, the trigger will be automatically detected by the hub and sent through email or SMS to the beekeeper. However the hub is not harvesting the minute information. it only takes a few points of the trace. 
+When you do a sync with the Bees App the whole timeseries is collected and sent to the cloud.
+
+The chart below clearly shows what are the samples sent through the hub (red dots) and the full series collected by BeesApp (green dots).
+
+![SM HUb vs BAPP](../assets/30_sensors.assets/ex_hartmann.png)
+
+
+!!! note
+    There might be some slight time shift between the samples collected by the hub and those from Bees App. This is due to the fact that the timestamp set by the Hub and the BeesApp can be different.
+
+### SwarmMinder State Codes (Models 47, 56)
 
 The following numeric codes (base 10) will be displayed in the `SM State` value.
 
