@@ -1,6 +1,6 @@
 # W3 and DIY circuit board assembly
 
-What follow will explain you how to assemble the hive scale boards wheter if they are for the BroodMinder-W3 model or for the BroodMinder-DIY
+What follow will explain you how to assemble the hive scale boards wheter if they are for the BroodMinder-W3 model or for the BroodMinder-DIY.
 
 
 !!! Important
