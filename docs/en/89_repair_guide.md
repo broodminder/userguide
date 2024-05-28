@@ -23,7 +23,6 @@ Most issues are software issues. In general, they get solved in the app or on My
 - I refer to Digikey a lot, but many supply houses have these parts.
 
 
-
 ## **REPAIR - Fast Battery Drain  **
 
 !!! Note
