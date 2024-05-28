@@ -14,7 +14,6 @@ We are working here with the XLR2-L board. This is a multi purpose board and tha
 ![xlr2-l](../assets/36_sensors_DIY.assets/xlr2-l_board.jpg)
 
 
-
 Now apply labels as shown (in the BAT1 slot)
 
 ![xlr2 label](../assets/36_sensors_DIY.assets/xlr2_label.jpg)

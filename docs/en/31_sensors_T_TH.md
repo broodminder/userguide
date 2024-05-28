@@ -1,7 +1,7 @@
 
 ## Broodminder-TH (56)
 
-This sensor measures in-hive temperature and humidity and will also watch for temperature events such as swarms. Based on those informations we will be computing Brood level, hive fitness and a set of specific alerts (hotter and colder limits, excessive humidity..) 
+This sensor measures in-hive temperature and humidity and will also watch for temperature events such as swarms. Based on those informations we will be computing Brood level, hive fitness and a set of specific alerts (hotter and colder limits, excessive humidity...).
 
 The first BroodMinder-TH was released in 2016. It was model 42 and was evolved into TH2 back in 2019. The SwarmMinder (see below) version TH2SM was introduced in May of 2020 evolving to model 56. In 2023 it was evolved to TH3 which is the current version distributed. 
 

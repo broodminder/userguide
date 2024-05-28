@@ -236,7 +236,6 @@ e.   Now select the RSSI Graph and you will see each time the phone gets an upda
 
 f.   There are many other great options in the program to explore if you like this sort of thing.
 
- 
 
 As a general note, detecting advertisements does not mean that you can connect to a device. Connections require stronger signals. This means that if you want to download the log, or update firmware, you may need at least a 40-50% signal level.
 
