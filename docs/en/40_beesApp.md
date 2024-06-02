@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section contains the nuts and bolts of using the app. Refer to the "Daily Use" chapter just following the quick start guide for practical information in using BroodMinders in your apiary.
+This section contains the nuts and bolts of using the app. 
 
 We have released a major update in June 2024 with numerous new features. We recommend exploring the app, reading the manual, and watching our videos to understand the extensive range of features available to you. Our development team are all beekeepers so we have added many features that we love and know you will love too.
 
@@ -45,7 +45,7 @@ The DEVICES tab gives you full control of BroodMinder devices which are:
 
 You can Sync individual devices from this page by pressing the `...` beside the device.
 
-![Devices](C:\Users\rich\OneDrive\Documents\My BroodMinder\UserGuideLocal\docs\assets\images\beesApp\Devices.png)
+![](../assets/images/beesApp/Devices.png#largeImg)
 
 **Hint**: Image 3 show the filter button and it is awesome. It will limit what is shown on this list. For example if you select `Nearby`, it will show only those device where the phone sees the BroodMinder. Then if you refresh the screen (pull down in iOS or Android) it will clear the list and then fill it back in as it see the Bluetooth signal from each BroodMinder. This is a great way to verify your BroodMinder is operating.
 
@@ -55,7 +55,7 @@ You can Sync individual devices from this page by pressing the `...` beside the 
 
 The MANAGE tab is where you will sync your entire apiary at once as well as move and configure devices. You must have a MyBroodMinder account (free or premium) since your apiary/hive configuration is stored there.
 
-![Manage](C:\Users\rich\OneDrive\Documents\My BroodMinder\UserGuideLocal\docs\assets\images\beesApp\Manage.png)
+![](../assets/images/beesApp/Manage.png#largeImg)
 
 1. This screen shows the hives and current values of the sensors. Clicking on the hive will reveal more details about device numbers as shown for hive "Package" above. Note the Sync button at the top, this button will attempt to sync all of the devices in this apiary. You can see the status of the sync in image 2 right below the apiary name. In this case, the sync completed with 7 devices but was canceled before 8 of the 15 devices were completed.
 2. The  `...`  beside the apiary name allows you to create a new apiary or create new hives in this apiary.
@@ -68,7 +68,7 @@ The MANAGE tab is where you will sync your entire apiary at once as well as move
 
 The Apiaries tab displays information about the selected apiary.
 
-![Apiary](C:\Users\rich\OneDrive\Documents\My BroodMinder\UserGuideLocal\docs\assets\images\beesApp\Apiary.png)
+![](../assets/images/beesApp/Apiary.png#largeImg)
 
 1. Notes from the last inspection are displayed in the upper left and expected nectar flow (based on the weathersource.com forecast) is displayed on the graph. 
    - Note the "+" in the lower right corner. That will allow you to add notes about the apiary. Any place you see that "+" will take you to a new note for your logbook. There is more information about note taking below.
@@ -81,15 +81,13 @@ The Apiaries tab displays information about the selected apiary.
 
 We've created the Hives tab to make it easy to quickly see the status of each of the hives in your apiary. Your hives are listed across the top with the brood level and daily change in weight displayed.  The heart heart displays the estimated health of the hive and the number in the upper right corner indicates if there are any alerts to be reviewed. Selecting any hive will bring all of its data to the graph below.
 
-![Hives1](C:\Users\rich\OneDrive\Documents\My BroodMinder\UserGuideLocal\docs\assets\images\beesApp\Hives1.png)
+![](../assets/images/beesApp/Hives1.png#largeImg)
 
 1. Productivity displays the change in weight after removing any beekeeper instigated changes such as adding or removing a super. Both the daily change (bars) and the cumulative change (dots) are displayed.
 2. Brood is the estimated brood level determined from the hive internal temperature and external (weather) temperature.
 3. Alerts make you aware of any items needing attention. Note that the alerts are set up and adjusted in MyBroodMinder under the Configure|Alerts section.
 
-
-
-![Hives2](C:\Users\rich\OneDrive\Documents\My BroodMinder\UserGuideLocal\docs\assets\images\beesApp\Hives2.png)
+![](../assets/images/beesApp/Hives2.png#largeImg)
 
 *We have included in the Bees app and in MyBroodMinder powerful note taking features. Besides being a useful logbook to track your hives, the notes and tag selections are being used to drive our workflow engine that is under development. Soon we will be using workflows to track hive processes such as swarming and requeening.*
 
@@ -105,7 +103,7 @@ The settings tab allows you to customize your Bees app. It will display the user
 
 Note that if we wish to update the firmware in your devices the "Show available firmware updates" must be selected. This toggle defaults to off unless a mandatory update is required. You can update your older devices in order to utilize the new (2024) battery saver features discussed below.
 
-![Settings](C:\Users\rich\OneDrive\Documents\My BroodMinder\UserGuideLocal\docs\assets\images\beesApp\Settings.png)
+![](../assets/images/beesApp/Settings.png#largeImg)
 
 ## Battery Saver
 
