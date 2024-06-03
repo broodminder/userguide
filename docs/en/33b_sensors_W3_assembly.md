@@ -81,6 +81,7 @@ Use 4 “C” screws per sensor. Make sure that before you drill in the sensors 
 Once the sensors have been mounted, you can run the wires through the groves cut in the wood.
 
 To deal with any extra wire:
+
 - Unmount the circuit board from the electronics box by removing the two screws on either end of the board.
 - Pull the slack wire through the grummit and fold it so that it sits behind the circuit board.
   - Remember not to put any stress directly on the connections for the wires if possible, as that has a high chance to cause the connections to come loose or disconnect entirely.
