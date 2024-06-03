@@ -50,7 +50,7 @@ Once you’re sure everything is where it needs to be, use 3 letter B screws to 
 
 !!! note
 
-  It is recommended to use a 5/32th drill bit or similar for making the pilot holes before drilling in the nails. A 1/8th drill bit or smaller may result in stripping the nail when drilling and prevent the nail from being fully drilled into the board.
+    It is recommended to use a 5/32th drill bit or similar for making the pilot holes before drilling in the nails. A 1/8th drill bit or smaller may result in stripping the nail when drilling and prevent the nail from being fully drilled into the board.
 
 ![image-20230501140556193](../assets/33_sensors_w3_assembly.assets/image-20230501140556193.png)
 
@@ -92,7 +92,7 @@ It is recommended to use a flat object to gently push the spline material into t
 
 !!! note
 
-  Be careful when stapling not to have a staple go directly through the spline material as that may cut the wires to the sensors. 
+    Be careful when stapling not to have a staple go directly through the spline material as that may cut the wires to the sensors. 
 
 ![image-20230501141234567](../assets/33_sensors_w3_assembly.assets/image-20230501141234567.png)
 
