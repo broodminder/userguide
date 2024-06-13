@@ -82,6 +82,16 @@ nav:
   - _____: void.md
 
 plugins:
+  - with-pdf:
+      exclude_pages:
+        - 'fr/'
+        - 'de/'
+        - 'es/'
+        - 'it/'
+        - 'ja/'
+        - 'pt/'
+        - 'nl/'
+        - 'nn/'
   - search
   - i18n:
       docs_structure: folder
