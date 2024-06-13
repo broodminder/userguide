@@ -83,6 +83,7 @@ nav:
 
 plugins:
   - with-pdf:
+      output_path: pdf/userguide.pdf
       exclude_pages:
         - 'fr/'
         - 'de/'
