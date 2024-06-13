@@ -20,6 +20,12 @@ theme:
   palette:
     primary: custom
 
+extra:
+  social:
+    - icon: fontawesome/solid/file-pdf
+      link: /pdf/userguide.pdf
+      name: Version PDF
+
 extra_css:
   - assets/css/extra.css
 
