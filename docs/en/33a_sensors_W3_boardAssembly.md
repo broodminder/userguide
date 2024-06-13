@@ -7,6 +7,15 @@ What follow will explain you how to assemble the hive scale boards wheter if the
 
     If you purchased a **W3 Unassembled-Calibrated** scale, all your electronics work is already done and you can jump straight to the next section : [Scale Assembly](http://doc.mybroodminder.com/en/33b_sensors_W3_assembly/)
 
+!!! Important
+
+    During the assembly process it is important to avoid putting any strain on the connections of the wires to the sensors directly, as if the connection breaks the sensors become UNREPAIRABLE. If it ends up being the case that the connections are broken you will have to request a new sensor(s) to be shipped to you. 
+
+    When working with the wires, it is recommended to use two points of contact as shown in the pictures below to avoid the connections being strained directly.
+
+    This is the most common problem with this kit, so please keep this in the front of your mind when constructing this kit.
+
+![image-2023050114123466](../assets/33_sensors_w3_assembly.assets/image-2023050114123466.png)
 
 ## Get started with the circuit board
 We are working here with the XLR2-L board. This is a multi purpose board and that's why there are so many components missing. Although for scales you only need the "-L" version shown below. 
@@ -21,13 +30,13 @@ Now apply labels as shown (in the BAT1 slot)
 
 ## Program the board
 
+!!! note
+
+    Programing is only done internally at BroodMinder HQ. If you acquired a DIY or a W3 kit, the programming is already done. You can skip this step.
+
 ![xlr2 label](../assets/36_sensors_DIY.assets/xlr2_board_programming.jpg)
 
 Use the pink foam to set the board.
-
-!!! note
-
-    Programing is only done internally at BroodMinder HQ. If you acquired a DIY or a W3 kit, the programming is already done.
 
 ## Prepare the board
 
@@ -45,6 +54,8 @@ Use the pink foam to set the board.
 
 Now with a permanent marker note the load cell position : J1, J2, J3, J4. 
 
+![](../assets/36_sensors_DIY.assets/xlr2_loadcell_mark_pos.jpg)
+
 Remember :
 
 | | Left | Right |
@@ -52,10 +63,9 @@ Remember :
 | Rear | J4 | J2 |
 | Front | J3 | J1 |
 
+![image-20230501140829711](../assets/33_sensors_w3_assembly.assets/image-20230501140829711.png)
 
-![](../assets/36_sensors_DIY.assets/xlr2_loadcell_mark_pos.jpg)
-
-Now cut a slit on the rubber grummit. tape 4 wires together and pull them with a hemostat or pliers.
+Now cut a slit on the rubber grummit. tape the 4 wires together for each sensor and pull them with a hemostat or pliers.
 ![](../assets/36_sensors_DIY.assets/xlr2_loadcell_wiring.png)
 ​  
 
@@ -64,7 +74,13 @@ Route the wires through the hole and solder on the board pads following the colo
 
 !!! note
 
-    Take care to associate each loadcell with its coresponding pad J[1-4]
+    Make sure that before you solder the connections onto the board that the wires have been pulled through the grummit and that the grummit has been slotted into the electronics box. 
+    
+    If you solder the connections before the grummit has been slotted into the electronics box then you will have to un-solder all the connections otherwise the electronics box will not close correctly.
+
+!!! note
+
+    Take care to associate each loadcell with its coresponding pad J[1-4] (This will be printed on the board in small text next to each pad).
 
 
 ![](../assets/36_sensors_DIY.assets/xlr2_wired.jpg)
@@ -74,6 +90,12 @@ Route the wires through the hole and solder on the board pads following the colo
 
 
 ## Mount the scale feet
+
+To mount the feet, simply take the screw so that it is orientated as in the image below then screw on the top piece until tight.
+
+!!! note
+
+    Be sure to use Loctite or a similar product on the screws to prevent them from coming loose over time. If this step is skipped it can cause the feet to become loose and cause the sensor to read inaccurate data.
 
 ![](../assets/36_sensors_DIY.assets/xlr2_loadcell_feet.jpg)
 

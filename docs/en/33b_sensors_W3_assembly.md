@@ -13,7 +13,7 @@
     
  The first section of this document demonstrates the **fixed feet** version followed by the **swivel feet** version. There is also an appendix to explain modification for Fixed to Swivel W3.
 
-![image-20230501140246145](../assets/33_sensors_w3_assembly.assets/image-20230501140246145.png)
+![image-20230501141234560](../assets/33_sensors_w3_assembly.assets/image-20230501141234560.png)
 
 
 ## BroodMinder-W3 Assembly - FIXED FEET
@@ -48,25 +48,29 @@ Screw together the frame (Fixed Feet)
 
 Once you’re sure everything is where it needs to be, use 3 letter B screws to secure the boards together.
 
+!!! note
+
+    It is recommended to use a 5/32th drill bit or similar for making the pilot holes before drilling in the nails. A 1/8th drill bit or smaller may result in stripping the nail when drilling and prevent the nail from being fully drilled into the board.
+
 ![image-20230501140556193](../assets/33_sensors_w3_assembly.assets/image-20230501140556193.png)
 
 To assemble your frame, make sure you have a flat surface and ensure your pieces are square. Follow the picture above for the correct orientation of the boards. 
 
-Leave the side with 1 screw very slightly loose so that the board may pivot.
+Make sure not to completely drill in the side with one screw so that the board can pivot.
 
 ### Attach the electronics box
 
-Make sure the box is located center in the frame with the hole opening as shown. There should be a slight gap between the edge of the frame and the box as shown. Use (2) “A” screws.
+Make sure the box is located center in the frame with the hole opening as shown. There should be a slight gap between the edge of the frame and the box as shown. Use (2) “A” screws which screw into the top right and bottom left of the electronics box.
 
-![image-20230501140742091](../assets/33_sensors_w3_assembly.assets/image-20230501140742091.png)
+![image-20230501141234568](../assets/33_sensors_w3_assembly.assets/image-20230501141234568.png)
 
 ### Sensor Mounting
 
 Position sensors marked 1-4 as shown with mounts “D” as shown.
 
-![image-20230501140829711](../assets/33_sensors_w3_assembly.assets/image-20230501140829711.png)
+![image-20230501141234569](../assets/33_sensors_w3_assembly.assets/image-20230501141234569.png)
 
-Use 4 “C” screws per sensor.
+Use 4 “C” screws per sensor. Make sure that before you drill in the sensors to the wood that you put the load cell custom support () between the sensor and the wood to allow for the sensor to read correctly. If the mount is not installed, it can cause the sensors to record incorrect information.
 
 ![image-20230501140843650](../assets/33_sensors_w3_assembly.assets/image-20230501140843650.png)
 
@@ -74,9 +78,24 @@ Use 4 “C” screws per sensor.
 
 ### Wire Routing
 
-Tuck the wires into grooves and secure with spline material “E”.  To secure spline material press into groove with flat object, this allows wires to move in the bottom of groove.  Do not create stress on the wires. Remove (2) circuit board mounting screws. Pull the slack wire into electronics box and fold wire behind circuit board, reinstall mounting screws. Secure spline material with staples.
+Once the sensors have been mounted, you can run the wires through the groves cut in the wood.
 
-![image-20230501140944933](../assets/33_sensors_w3_assembly.assets/image-20230501140944933.png)
+To deal with any extra wire:
+
+- Unmount the circuit board from the electronics box by removing the two screws on either end of the board.
+- Pull the slack wire through the grummit and fold it so that it sits behind the circuit board.
+  - Remember not to put any stress directly on the connections for the wires if possible, as that has a high chance to cause the connections to come loose or disconnect entirely.
+- Remount the circuit board to the electronics box with the same two screws.
+
+Once the wiring has been routed properly and any slack has been pulled into the back of the electronics box, you can secure/protect the wires using the spline material "E". 
+
+It is recommended to use a flat object to gently push the spline material into the groves so that they do not stick out (this does not take much force, gently tapping with a hammer works well). Once the spline material is in place, it can then be secured to the wood using staples to ensure it doesnt come loose or fall out in the future.
+
+!!! note
+
+    Be careful when stapling not to have a staple go directly through the spline material as that may cut the wires to the sensors. 
+
+![image-20230501141234567](../assets/33_sensors_w3_assembly.assets/image-20230501141234567.png)
 
 ![image-20230501140951598](../assets/33_sensors_w3_assembly.assets/image-20230501140951598.png)
 

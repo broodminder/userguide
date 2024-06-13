@@ -14,7 +14,6 @@ Watch the video to get you started :
 
 [![BroodMinder W3 calibration](https://i3.ytimg.com/vi/g8QUoGfgbbw/maxresdefault.jpg)](https://youtu.be/g8QUoGfgbbw)
 
-
 The excel sheet for calibration is available here :
 [https://docs.google.com/spreadsheets/d/1yNMxpkNxwFt1J_uJ8xHo6vfJbq1KBUc7IOpyQM6JVI4/edit](https://docs.google.com/spreadsheets/d/1yNMxpkNxwFt1J_uJ8xHo6vfJbq1KBUc7IOpyQM6JVI4/edit)
 You will need to make a copy in your own drive (`File > make a copy`)
