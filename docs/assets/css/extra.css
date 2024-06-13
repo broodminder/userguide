@@ -6,7 +6,7 @@
     white-space: pre;
     color: black;
     @top-left {
-        content: '© 2020 Mellisphera';
+        content: '© 2024 BroodMinder';
     }
     @top-center {
         content: string(chapter);

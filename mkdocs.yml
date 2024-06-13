@@ -20,6 +20,12 @@ theme:
   palette:
     primary: custom
 
+extra:
+  social:
+    - icon: fontawesome/solid/file-pdf
+      link: /pdf/userguide.pdf
+      name: Version PDF
+
 extra_css:
   - assets/css/extra.css
 
@@ -82,6 +88,17 @@ nav:
   - _____: void.md
 
 plugins:
+  - with-pdf:
+      output_path: pdf/userguide.pdf
+      exclude_pages:
+        - 'fr/'
+        - 'de/'
+        - 'es/'
+        - 'it/'
+        - 'ja/'
+        - 'pt/'
+        - 'nl/'
+        - 'nn/'
   - search
   - i18n:
       docs_structure: folder
