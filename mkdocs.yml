@@ -20,6 +20,12 @@ theme:
   palette:
     primary: custom
 
+extra:
+  social:
+    - icon: fontawesome/solid/file-pdf
+      link: /pdf/userguide.pdf
+      name: Version PDF
+
 extra_css:
   - assets/css/extra.css
 
@@ -82,6 +88,25 @@ nav:
   - _____: void.md
 
 plugins:
+  - with-pdf:
+      heading_shift: false
+      toc_level: 3
+      ordered_chapter_level: 2
+      two_columns_level: 3
+      output_path: pdf/userguide.pdf
+      cover_logo: assets/images/BroodMinder_Left_Green_en_590px.png
+      cover_subtitle: Welcome to the world of BroodMinder
+      exclude_pages:
+        - 'index.html'
+        - 'void/'
+        - 'fr/'
+        - 'de/'
+        - 'es/'
+        - 'it/'
+        - 'ja/'
+        - 'pt/'
+        - 'nl/'
+        - 'nn/'
   - search
   - i18n:
       docs_structure: folder

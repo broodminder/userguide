@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section contains the nuts and bolts of using the app. 
+This section contains the nuts and bolts of using the app. There is a brief introductory [video](https://youtu.be/88kPkSxHzRE) that you can also watch.
 
 We have released a major update in June 2024 with numerous new features. We recommend exploring the app, reading the manual, and watching our videos to understand the extensive range of features available to you. Our development team are all beekeepers so we have added many features that we love and know you will love too.
 
@@ -107,7 +107,7 @@ Note that if we wish to update the firmware in your devices the "Show available 
 
 ## Battery Saver
 
-Nobody likes changing batteries. 
+We recommend watching the [video](https://youtu.be/zst22oYWPS8) and reading these notes to fully understand battery saver.
 
 You can extend the sensor battery life to 5+ years in two ways. 
 
