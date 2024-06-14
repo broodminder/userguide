@@ -114,7 +114,7 @@ The most simple way to add a note is to double click on a graph at the time you 
 
 You can also add a note for the entire apiary such as `Performed OA treatment on all hives`. Do this by clicking the `...` to the right of the apiary in the side bar and choosing add note. This note will display in all hives.
 
-## Configuring
+## Managing
 
 ### New
 
@@ -129,7 +129,6 @@ When you add a new apiary to your setup you will name it and give it a location.
 #### Hive
 
 It is easiest to add the hive using the `...` to the right of the apiary. This automatically enters the apiary as the location. When you add a hive, you can give a name and a color for the graphs related to this hive. 
-
 
 
 #### Device
@@ -199,6 +198,24 @@ There are almost 30 events from hives, devices, & weather that can trigger an al
 #### My Subscriptions
 
 We wish everything was free, but we want to stay in business and keep paying our bills, so we ask for and appreciate your help. The more advance features, the ones that take a lot of programming work, come at a cost. Here is where you can keep track of your contributions to sustaining the effort.
+
+## Sharing
+From MyBroodMinder you have many options to share your hives with other beekeepers and friends:
+
+1. you can share an Apiary (in the Apiary `… > share` ) with another Mybroodminder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
+
+![](../assets/50_mybroodminder_v5.assets/share_apiary_a.png)
+![](../assets/50_mybroodminder_v5.assets/share_apiary_b.png)
+
+2. you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
+
+
+3. you can share a dashboard (in the Dashboards `… > share`): this produces an URL and anyone having it will see your dashboard. You can post it on social networks too.
+When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
+
+![](../assets/50_mybroodminder_v5.assets/share_dash.png)
+
+
 
 
 
