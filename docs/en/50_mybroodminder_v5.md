@@ -204,20 +204,25 @@ From MyBroodMinder you have many options to share your hives with other beekeepe
 
 1. you can share an Apiary (in the Apiary `… > share` ) with another Mybroodminder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
 
-![](../assets/50_mybroodminder_v5.assets/share_apiary_a.png)
-![](../assets/50_mybroodminder_v5.assets/share_apiary_b.png)
+![](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#smallImg)
+![](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#smallImg)
 
 2. you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
+
+![](../assets/50_mybroodminder_v5.assets/beecounted.png#smallImg)
 
 
 3. you can share a dashboard (in the Dashboards `… > share`): this produces an URL and anyone having it will see your dashboard. You can post it on social networks too.
 When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
 
-![](../assets/50_mybroodminder_v5.assets/share_dash.png)
+![](../assets/50_mybroodminder_v5.assets/share_dash.png#smallImg)
 
 
+4. And Last but not least, there's a fourth and the most classy way to share your hive : **Educational Dashboards**
+This is a big screen mode for associations and corporations that are willing to display their bees to colleagues and fellows. 
+Send us an email to support@broodminder.com to know more about this service.
 
-
+![](../assets/50_mybroodminder_v5.assets/edu_dash.png#smallImg)
 
 ## Models & algorithms
 
