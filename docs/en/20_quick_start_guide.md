@@ -53,7 +53,7 @@ Create your account into the Bees App. A single account for everything : App and
 
 In BeesApp, on the Apiary tab, create your first *apiary* and your first *hive*, they will be needed for the next steps.
 
-![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-100949_edited.jpg)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-100949_edited.jpg#mediumImg)
 
 
 In Bees you have several tabs that we will navigate :
@@ -66,11 +66,11 @@ In Bees you have several tabs that we will navigate :
 
 Create your first apiary with `... > New apiary`
 
-![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240617-163034.jpg)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240617-163034.jpg#mediumImg)
 
 Create your first hive with `Hives > New hive`
 
-![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150228_edited.jpg)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150228_edited.jpg#mediumImg)
 
 We can now move on to assign sensors to this newly created hive. But first we have to power on devices.
 
@@ -111,11 +111,11 @@ You will then be asked to attach the sensor to a hive. You can proceed or cancel
 
 Attach each device to a hive. 
 
-![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150426_edited.jpg)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150426_edited.jpg#mediumImg)
 
 ![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150513_shortened.jpg)
 
-![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150554.jpg)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150554.jpg#mediumImg)
 
 Available device positions are
 
@@ -151,11 +151,11 @@ Using BroodMinder Bees App there are multiple ways of syncing:
 
 <!-- ![firstSync](../assets/20_quick_start_guide.assets/firstSyncA.png) -->
 
-![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104926_edited.jpg)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104926_edited.jpg#mediumImg)
 
 Now look to your data using `... > Show Graph` or `... > Show Details`.
 
-![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104059.jpg)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104059.jpg#mediumImg)
 
 !!! info
     On your first sync you probably do not see much data since there is only one or two samples.
