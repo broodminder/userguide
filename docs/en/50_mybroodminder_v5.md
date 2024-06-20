@@ -256,6 +256,11 @@ BFit is based on algorithms that collect events. The 'Learning' algorithm learns
 BFit also takes into account the results from BForce. In this way, it can determine the difference between the current hive dynamics and a theoretical brood dynamics that is constantly changing. These theoretical dynamics are regularly updated. It also takes into account the different regions of the world to provide relevant information according to latitude or climate. 
 
 ### Brood level - BForce
+
+!!! tip "Note on Brood Levels"
+    Brood is estimated using internal temperature measurements and other parameters (T2 or TH sensor required). Brood levels are given in percentages. Familiarize yourself with these values in your hives. 
+    <br> As a starting point, in a 10-frame hive, 90% brood could mean 9 frames, 80% 8 frames, etc. However, this varies with hive configuration, so learn what these percentages mean for your bees.
+
 Brood development is a key factor for bee colonies. The aim of BForce is to provide an indication of the brood level in the hive on a range of 0 to 100%. 
 
 When the colony is at its full capacity, it reaches a stable state of 35°C. This state is associated with 100% brood. This means that the hive is strong. 
@@ -296,6 +301,7 @@ With practice, we can identify several events on these graphs. We can identify w
 
 ![BForce path](../assets/images/parcours_bforce.png#largeImg)
 <div align="center" ><i>Two hive path over a season, with some events</i></div>
+
 
 ### Productivity - BWeight
 Having flowers does not necessarily imply nectar - and thus resources for bees. Indeed, many factors condition the occurence of a honeydew: the ambient temperature and humidity, the last rains and their intensity, the root depth for plants such as rapeseed or sunflower. Honeydews are therefore not acquired nor easy to identify. However, understanding them is a basic need for every beekeeper.

@@ -46,6 +46,8 @@ nav:
   - Introduction: 10_intro.md
   - Quick start guide 🚀 : 20_quick_start_guide.md
   - _____: void.md
+  - Daily Use: 21_daily_use.md
+  - _____: void.md
   - BeesApp: 40_beesApp.md
   - MyBroodminder: 50_mybroodminder_v5.md
   - Sensors:
@@ -128,7 +130,7 @@ plugins:
             Quick start guide 🚀 : Guide de démarrage rapide 🚀
             Sensors: Capteurs
             Product range: Gamme de capteurs
-            General aspects:  Aspects général
+            General aspects: Généralités
             Scale Assembly: Assemblage de la balance
             Yolink devices: Capteurs Yolink
             Example setups: Examples de configurations
@@ -154,7 +156,7 @@ plugins:
             Quick start guide 🚀: Guía de inicio rápido 🚀
             Sensors: Sensores
             Product range: Gama de productos
-            General aspects: Aspectos generales
+            General aspects: Generalidades
             Scale Assembly: Montaje de la balanza
             Yolink devices: Dispositivos Yolink
             Example setups: Ejemplos de configuraciones
