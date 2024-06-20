@@ -113,7 +113,7 @@ Attach each device to a hive.
 
 ![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150426_edited.jpg#mediumImg)
 
-![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150513_shortened.jpg)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150513_shortened.jpg#mediumImg)
 
 ![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150554.jpg#mediumImg)
 
@@ -183,7 +183,7 @@ Remember from [Hubs page](./60_hubs.md) that there are several hub versions:
 3. Color Leds will blink green, then blue, then green again
 4. Check on Bees App that transmission has been established. Go to `Devices tab > Hub ID > Show details > MBM last upload ` shall display current date/time.
 
-![Upload check](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-110257_shortened.jpg)
+![Upload check](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-110257_shortened.jpg#mediumImg)
 
 5. Install orange protection again, starting from the USB side.
 

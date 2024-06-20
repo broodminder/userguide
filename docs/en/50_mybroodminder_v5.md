@@ -203,31 +203,33 @@ We wish everything was free, but we want to stay in business and keep paying our
 From MyBroodMinder you have many options to share your hives with other beekeepers and friends:
 
 ### With another user
-1. you can share an Apiary (in the Apiary `… > share` ) with another Mybroodminder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
+- you can share an Apiary (in the Apiary `… > share` ) with another Mybroodminder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
 
 ![](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
 ![](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
 
 ### On beecounted
 
-2. you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
+- you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
 
 ![](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
 
 ### With an URL
 
-3. you can share a dashboard (in the Dashboards `… > share`): this produces an URL and anyone having it will see your dashboard. You can post it on social networks too.
+- you can share a dashboard (in the Dashboards `… > share`): this produces an URL and anyone having it will see your dashboard. You can post it on social networks too.
 When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
 
 ![](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
 
 ### Educational Dashboards
 
-4. And Last but not least, there's a fourth and the most classy way to share your hive : **Educational Dashboards**
+- And Last but not least, there's a fourth and the most classy way to share your hive : **Educational Dashboards**
 This is a big screen mode for associations, schools or corporations that are willing to display their bees to colleagues and fellows. 
 Send us an email to support@broodminder.com to know more about this service.
 
 ![](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
+<div align="center" ><i>Educational Dashboards are fun!</i></div>
+
 
 ## Models & algorithms
 
