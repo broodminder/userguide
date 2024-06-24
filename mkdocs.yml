@@ -90,6 +90,7 @@ nav:
   - _____: void.md
 
 plugins:
+# PDF User Guide generation only in EN 
   - with-pdf:
       heading_shift: false
       toc_level: 3
@@ -109,7 +110,9 @@ plugins:
         - 'pt/'
         - 'nl/'
         - 'nn/'
+        - 'ar/'
   - search
+  #Language management, see readme for adding new langs
   - i18n:
       docs_structure: folder
       fallback_to_default: true
@@ -328,4 +331,29 @@ plugins:
             Distributors: Distribuidores
             Legacy Devices: Dispositivos antigos
             About: Sobre
-
+        - locale: ar
+          link: /ar/
+          name: 🇦🇪 Arabic
+          build: true
+          site_name: "دليل المستخدم"
+          nav_translations:
+            Home: الصفحة الرئيسية
+            Quick start guide 🚀 : دليل البدء السريع 🚀
+            Sensors: أجهزة الاستشعار
+            Product range: نطاق المنتجات
+            General aspects: الجوانب العامة
+            Scale Assembly: تجميع المقياس
+            Yolink devices: أجهزة Yolink
+            Example setups: أمثلة على التكوينات
+            Data interpretation: تفسير البيانات
+            BroodMinder Device Updates: تحديثات أجهزة BroodMinder
+            BroodMinder Hub Updates: تحديثات محاور BroodMinder
+            Video Library: مكتبة الفيديو
+            Training Sessions: جلسات التدريب
+            General: عام
+            Tech Stuff and Physics: التكنولوجيا والفيزياء
+            Troubleshooting: استكشاف الأخطاء وإصلاحها
+            Repair Guide: دليل الإصلاح
+            Distributors: الموزعون
+            Legacy Devices: الأجهزة القديمة
+            About: حول

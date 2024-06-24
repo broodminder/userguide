@@ -1,13 +1,11 @@
+<div style="text-align:center;"><img src="../assets/30_sensors.assets/device_w.png"></div>
+
 
 ## Broodminder-W (57)
-
-
 
 The Broodminder-W ( **W**eight) is a single-bar hive scale that goes under the hive. It is an excellent tool to track nectar flows as for following winther ressource consumption.
 
 The first W was released in 2017, it was model 43 and lasted for 5 years unitil in 2022 was released the W+ scale under model 57 improving bluetooth range and battery life.
-
-
 
 
 ### Installation
