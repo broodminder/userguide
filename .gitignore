@@ -18,7 +18,7 @@ Backup of *.doc*
 ~$*.xls*
 
 # System Files
-.DS_Store
+/**/.DS_Store
 site/
 Thumbs.db
 *.icloud
