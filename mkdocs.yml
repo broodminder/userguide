@@ -92,6 +92,7 @@ nav:
 plugins:
 # PDF User Guide generation only in EN 
   - with-pdf:
+      enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: false
       toc_level: 3
       ordered_chapter_level: 2
@@ -114,6 +115,7 @@ plugins:
   - search
   #Language management, see readme for adding new langs
   - i18n:
+      build_only_locale: !ENV [BUILD_ONLY_LOCALE, "en"]
       docs_structure: folder
       fallback_to_default: true
       reconfigure_material: true
