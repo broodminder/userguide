@@ -1,13 +1,13 @@
 # W3 and DIY circuit board assembly
 
-What follow will explain you how to assemble the hive scale boards wheter if they are for the BroodMinder-W3 model or for the BroodMinder-DIY.
+What follows explains how to assemble the hive scale boards wheter if they are for the BroodMinder-W3 model or for the BroodMinder-DIY.
 
 
 !!! Important
 
     If you purchased a **W3 Unassembled-Calibrated** scale, all your electronics work is already done and you can jump straight to the next section : [Scale Assembly](http://doc.mybroodminder.com/en/33b_sensors_W3_assembly/)
 
-!!! Important
+!!! Warning
 
     During the assembly process it is important to avoid putting any strain on the connections of the wires to the sensors directly, as if the connection breaks the sensors become UNREPAIRABLE. If it ends up being the case that the connections are broken you will have to request a new sensor(s) to be shipped to you. 
 
@@ -21,22 +21,6 @@ What follow will explain you how to assemble the hive scale boards wheter if the
 We are working here with the XLR2-L board. This is a multi purpose board and that's why there are so many components missing. Although for scales you only need the "-L" version shown below. 
 
 ![xlr2-l](../assets/36_sensors_DIY.assets/xlr2-l_board.jpg)
-
-
-Now apply labels as shown (in the BAT1 slot)
-
-![xlr2 label](../assets/36_sensors_DIY.assets/xlr2_label.jpg)
-
-
-## Program the board
-
-!!! note
-
-    Programing is only done internally at BroodMinder HQ. If you acquired a DIY or a W3 kit, the programming is already done. You can skip this step.
-
-![xlr2 label](../assets/36_sensors_DIY.assets/xlr2_board_programming.jpg)
-
-Use the pink foam to set the board.
 
 ## Prepare the board
 

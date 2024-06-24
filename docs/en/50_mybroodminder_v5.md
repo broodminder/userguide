@@ -114,7 +114,7 @@ The most simple way to add a note is to double click on a graph at the time you 
 
 You can also add a note for the entire apiary such as `Performed OA treatment on all hives`. Do this by clicking the `...` to the right of the apiary in the side bar and choosing add note. This note will display in all hives.
 
-## Configuring
+## Managing
 
 ### New
 
@@ -129,7 +129,6 @@ When you add a new apiary to your setup you will name it and give it a location.
 #### Hive
 
 It is easiest to add the hive using the `...` to the right of the apiary. This automatically enters the apiary as the location. When you add a hive, you can give a name and a color for the graphs related to this hive. 
-
 
 
 #### Device
@@ -200,6 +199,36 @@ There are almost 30 events from hives, devices, & weather that can trigger an al
 
 We wish everything was free, but we want to stay in business and keep paying our bills, so we ask for and appreciate your help. The more advance features, the ones that take a lot of programming work, come at a cost. Here is where you can keep track of your contributions to sustaining the effort.
 
+## Sharing
+From MyBroodMinder you have many options to share your hives with other beekeepers and friends:
+
+### With another user
+- you can share an Apiary (in the Apiary `… > share` ) with another Mybroodminder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
+
+![Sharing 1](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
+![Sharing 2](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
+
+### On beecounted
+
+- you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
+
+![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
+
+### With an URL
+
+- you can share a dashboard (in the Dashboards `… > share`): this produces an URL and anyone having it will see your dashboard. You can post it on social networks too.
+When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
+
+![Shared_URL](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
+
+### Educational Dashboards
+
+- And Last but not least, there's a fourth and the most classy way to share your hive : **Educational Dashboards**
+This is a big screen mode for associations, schools or corporations that are willing to display their bees to colleagues and fellows. 
+Send us an email to support@broodminder.com to know more about this service.
+
+![Educational Board](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
+<div align="center" ><i>Educational Dashboards are fun!</i></div>
 
 
 ## Models & algorithms
@@ -229,6 +258,11 @@ BFit is based on algorithms that collect events. The 'Learning' algorithm learns
 BFit also takes into account the results from BForce. In this way, it can determine the difference between the current hive dynamics and a theoretical brood dynamics that is constantly changing. These theoretical dynamics are regularly updated. It also takes into account the different regions of the world to provide relevant information according to latitude or climate. 
 
 ### Brood level - BForce
+
+!!! tip "Note on Brood Levels"
+    Brood is estimated using internal temperature measurements and other parameters (T2 or TH sensor required). Brood levels are given in percentages. Familiarize yourself with these values in your hives. 
+    <br> As a starting point, in a 10-frame hive, 90% brood could mean 9 frames, 80% 8 frames, etc. However, this varies with hive configuration, so learn what these percentages mean for your bees.
+
 Brood development is a key factor for bee colonies. The aim of BForce is to provide an indication of the brood level in the hive on a range of 0 to 100%. 
 
 When the colony is at its full capacity, it reaches a stable state of 35°C. This state is associated with 100% brood. This means that the hive is strong. 
@@ -269,6 +303,7 @@ With practice, we can identify several events on these graphs. We can identify w
 
 ![BForce path](../assets/images/parcours_bforce.png#largeImg)
 <div align="center" ><i>Two hive path over a season, with some events</i></div>
+
 
 ### Productivity - BWeight
 Having flowers does not necessarily imply nectar - and thus resources for bees. Indeed, many factors condition the occurence of a honeydew: the ambient temperature and humidity, the last rains and their intensity, the root depth for plants such as rapeseed or sunflower. Honeydews are therefore not acquired nor easy to identify. However, understanding them is a basic need for every beekeeper.

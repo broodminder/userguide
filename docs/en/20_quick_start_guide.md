@@ -53,26 +53,26 @@ Create your account into the Bees App. A single account for everything : App and
 
 In BeesApp, on the Apiary tab, create your first *apiary* and your first *hive*, they will be needed for the next steps.
 
-![img](../assets/20_quick_start_guide.assets/beesApp_Welcome300.png)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-100949_edited.jpg#mediumImg)
 
 
 In Bees you have several tabs that we will navigate :
-![img](../assets/20_quick_start_guide.assets/beesApp_Tabs500.png)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/tabs.jpg)
 
 
-Now move to the **Apiaries** Tab:
+<!-- Now move to the **Apiaries** Tab:
 
-![img](../assets/20_quick_start_guide.assets/beesApp_1NoApiaries300.png)
+![img](../assets/20_quick_start_guide.assets/beesApp_1NoApiaries300.png) -->
 
 Create your first apiary with `... > New apiary`
 
-![img](../assets/20_quick_start_guide.assets/beesApp_2NewApiary300.png)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240617-163034.jpg#mediumImg)
 
-Create your first hive with `... > New hive`
+Create your first hive with `Hives > New hive`
 
-![img](../assets/20_quick_start_guide.assets/beesApp_3NewHive300.png)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150228_edited.jpg#mediumImg)
 
-We can now move on to assign sensors to this newly created hive. But first we have to pover on devices.
+We can now move on to assign sensors to this newly created hive. But first we have to power on devices.
 
 
 
@@ -111,10 +111,11 @@ You will then be asked to attach the sensor to a hive. You can proceed or cancel
 
 Attach each device to a hive. 
 
-![assignDevices](../assets/20_quick_start_guide.assets/beesApp_ClaimDevice300.png)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150426_edited.jpg#mediumImg)
 
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150513_shortened.jpg#mediumImg)
 
-![assignDevices](../assets/20_quick_start_guide.assets/beesApp_AssignDevice300.png)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150554.jpg#mediumImg)
 
 Available device positions are
 
@@ -148,12 +149,13 @@ Using BroodMinder Bees App there are multiple ways of syncing:
 !!! Tip
     You can only sync devices appearing in green (within bluetooth range)
 
-![firstSync](../assets/20_quick_start_guide.assets/firstSyncA.png)
+<!-- ![firstSync](../assets/20_quick_start_guide.assets/firstSyncA.png) -->
+
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104926_edited.jpg#mediumImg)
 
 Now look to your data using `... > Show Graph` or `... > Show Details`.
 
-![firstSync](../assets/20_quick_start_guide.assets/firstSyncB.png)
-
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104059.jpg#mediumImg)
 
 !!! info
     On your first sync you probably do not see much data since there is only one or two samples.
@@ -181,7 +183,7 @@ Remember from [Hubs page](./60_hubs.md) that there are several hub versions:
 3. Color Leds will blink green, then blue, then green again
 4. Check on Bees App that transmission has been established. Go to `Devices tab > Hub ID > Show details > MBM last upload ` shall display current date/time.
 
-![Upload check](../assets/20_quick_start_guide.assets/T91_onBeesApp.jpg)
+![Upload check](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-110257_shortened.jpg#mediumImg)
 
 5. Install orange protection again, starting from the USB side.
 

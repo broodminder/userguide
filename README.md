@@ -1,4 +1,4 @@
-# userguide v1.3.1
+# userguide v1.3.2
 
 ## Deployment
 
@@ -11,13 +11,13 @@
 2. Use a python virtualenv
 To manage different librairies version between *userguide*, *hiveminder*, *flowminder*, etc, we need to use a python environment. If you don't have already a python env, please use the following command.
 
-    ```pyenv virtualenv 3.11.2 userguide```
+  `pyenv virtualenv 3.11.2 userguide`
 
-    Then activate it
-    ```pyenv activate userguide```
+  Then activate it
+  `pyenv activate userguide`
 
 3. Install all packages
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 4. Start the server
 If you only want to work on local, you can use the following command

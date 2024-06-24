@@ -33,7 +33,7 @@ packaging==23.2
 paginate==0.5.6
 pathspec==0.12.1
 pillow==10.3.0
-platformdirs==4.2.0
+#platformdirs==4.2.0
 pyaml==23.12.0
 pycparser==2.22
 pydantic==2.6.1
