@@ -205,21 +205,21 @@ From MyBroodMinder you have many options to share your hives with other beekeepe
 ### With another user
 - you can share an Apiary (in the Apiary `… > share` ) with another Mybroodminder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
 
-![](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
-![](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
+![Sharing 1](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
+![Sharing 2](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
 
 ### On beecounted
 
 - you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
 
-![](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
+![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
 
 ### With an URL
 
 - you can share a dashboard (in the Dashboards `… > share`): this produces an URL and anyone having it will see your dashboard. You can post it on social networks too.
 When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
 
-![](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
+![Shared_URL](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
 
 ### Educational Dashboards
 
@@ -227,7 +227,7 @@ When creating the url you will notice that you have some choices : which hives t
 This is a big screen mode for associations, schools or corporations that are willing to display their bees to colleagues and fellows. 
 Send us an email to support@broodminder.com to know more about this service.
 
-![](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
+![Educational Board](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
 <div align="center" ><i>Educational Dashboards are fun!</i></div>
 
 
