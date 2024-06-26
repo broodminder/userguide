@@ -25,6 +25,7 @@ echo "build DOCUMENTATION"
 echo "install for apache"
 rm -Rrf /var/www/html/doc/*
 cp -r ./site/* /var/www/html/doc/
+rm -r ./site
 
 echo " "
 echo "done"
