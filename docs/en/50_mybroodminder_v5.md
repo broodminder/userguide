@@ -329,7 +329,7 @@ With these facts, we can see that **for a proper productivity evaluation, we mus
 ## Weather
 For each apiary, several information are presented from several sources.
 - apiary weather: typically temperature, hygrometry, rainfall and wind.
-- Foraging and Honeyflow indexes (see below)
+- Foraging and Nectarflow indexes (see below)
 - sources from which these values are derived or computed
 
 ### Readings
@@ -344,8 +344,8 @@ On top of the raw weather data we have developed an algorithm translating this i
 
 - Foraging Index: evaluates the atmospheric conditions for **bees** to forage. This index considers the outside temperature, the hygrometry, rain and wind.
 
-- Honey flow index : evaluates the atmospheric conditions for the nectarification of the **flowers**. Here too, several factors are analyzed in relation to the honeyflow conditions. 0% means that the conditions for honeyflow are not met, 100% that it is damn great. But beware, depending on your climate zone, 100% may never be reached and you will have to be satisfied with lower rates! 
+- Nectar flow index : evaluates the atmospheric conditions for the nectarification of the **flowers**. Here too, several factors are analyzed in relation to the nectarflow conditions. 0% means that the conditions for nectarflow are not met, 100% that it is damn great. But beware, depending on your climate zone, 100% may never be reached and you will have to be satisfied with lower rates! 
 To validate the forecast range, this algorithm has been developed with apiaries located in various climatic zones (temperate, cold, very cold, tropical...); We ensure you that in some cases it can reach 100% 😉
 
-The 10-day weather forecast allows to project these indices over a week and a half. These foraging and honeyflow forecasts are helpful for the beekeeper to identify the relevance of certain actions.
+The 10-day weather forecast allows to project these indices over a week and a half. These foraging and nectarflow forecasts are helpful for the beekeeper to identify the relevance of certain actions.
 
