@@ -1,4 +1,4 @@
-# userguide v1.3.7
+# userguide v1.3.8
 
 ## Deployment
 
