@@ -270,7 +270,7 @@ On the contrary, when there is no brood, the bees do not need to regulate the cl
 
 Between these two extreme points, we can imagine a lot of intermediate situations. 
 
-![BForce report](../assets/images/constat_bforce.png#largeImg)
+![BForce report](../assets/50_mybroodminder_v5.assets/constat_bforce.png#largeImg)
 
 In order to illustrate this, here are the hourly measurements on two hives from the same apiary. The first is represented in red and the second in grey. Each hive has a very different condition. The red one has an internal temperature close to 25°C/30°C - following the same fluctuations as the external temperature (dotted lines) - while the grey one is situated in the famous 'Optimal Brood Zone' with a constant temperature of 35°C.
 
@@ -290,17 +290,17 @@ Brood calendars & charts show the daily progress of the brood in each hive. The 
 
 You can visualize the season's history at a glance. The egg laying stops and restarts are clearly visible.
 
-![BForce calendar](../assets/images/calendrier_bforce.png#smallImg)
+![BForce calendar](../assets/50_mybroodminder_v5.assets/calendrier_bforce.png#smallImg)
 <div align="center" ><i>Brood calendar</i></div>
 
 You can also compare several hives with each other, whatever their apiary.
 
-![BForce chart](../assets/images/graph_bforce.png#largeImg)
+![BForce chart](../assets/50_mybroodminder_v5.assets/graph_bforce.png#largeImg)
 <div align="center" ><i>Annual brood - same hive compared with two others</i></div>
 
 With practice, we can identify several events on these graphs. We can identify when the egg-laying starts & stops, of course. But we can also detect swarms, bad weather periods that have impacted brood production, the effect of Asian hornets, etc.  
 
-![BForce path](../assets/images/parcours_bforce.png#largeImg)
+![BForce path](../assets/50_mybroodminder_v5.assets/parcours_bforce.png#largeImg)
 <div align="center" ><i>Two hive path over a season, with some events</i></div>
 
 
@@ -311,7 +311,7 @@ A weight sensor installed under a hive provides detailed information on weight g
 
 First of all, during the day, weight variations depend on the resources brought in or consumed. But they also depend on the bees' movements: during the day, they are more or less numerous to come out to forage. 
 
-![Bee's movements](../assets/images/sortie_abeilles.png#largeImg)
+![Bee's movements](../assets/50_mybroodminder_v5.assets/sortie_abeilles.png#largeImg)
 <div align="center" ><i>In red: when bees get out of the hive
 
 In blue: when they bring back nectar
@@ -320,7 +320,7 @@ In black: dehydration </i></div>
 
 This is why the hive weight graph shows some "bumps". A bump every day, as you can see in the graph below. On the chart, you can also see sudden weight variations, related to the beekeeper's interventions.
 
-![Gross weight history](../assets/images/historique_poids_brut.png#largeImg)
+![Gross weight history](../assets/50_mybroodminder_v5.assets/historique_poids_brut.png#largeImg)
 <div align="center" ><i>Gross weight history with beekeeper's interventions in blue</i></div>
 
 With these facts, we can see that **for a proper productivity evaluation, we must only consider the weight variations coming exclusively from the bees' production**. In this way, external events must be ignored: feeding, swarming, addition/withdrawal of suppers, beekeeper interventions, unexplained loss or gain. The BWeight algorithm makes it easy to identify these distinct events and to exclude them from the productivity calculation.
