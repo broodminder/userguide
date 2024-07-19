@@ -130,7 +130,6 @@ When you add a new apiary to your setup you will name it and give it a location.
 
 It is easiest to add the hive using the `...` to the right of the apiary. This automatically enters the apiary as the location. When you add a hive, you can give a name and a color for the graphs related to this hive. 
 
-
 #### Device
 
 it is easiest to add the devices using the `...` to the right of the hive. This automatically enters the apiary and hive as the location. You will need to select the location of the device in the hive. You can not have two devices in one location. We include several custom locations if you want to do your own thing.
