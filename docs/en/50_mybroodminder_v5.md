@@ -327,12 +327,12 @@ This is why the hive weight graph shows some "bumps". A bump every day, as you c
 With these facts, we can see that **for a proper productivity evaluation, we must only consider the weight variations coming exclusively from the bees' production**. In this way, external events must be ignored: feeding, swarming, addition/withdrawal of suppers, beekeeper interventions, unexplained loss or gain. The BWeight algorithm makes it easy to identify these distinct events and to exclude them from the productivity calculation.
 
 ## Weather
-For each apiary, several information are presented from several sources.
+For each apiary, several information are presented from several sources:
+
 - apiary weather: typically temperature, hygrometry, rainfall and wind.
-- Foraging and Honeyflow indexes (see below)
+- Foraging and Nectar Flow Indexes (see below)
 - sources from which these values are derived or computed
 
-### Readings
 The weather data displayed in this space is derived from two main sources:
 
 1. By default, they come from WeatherSource. This service provides real-time weather conditions for a given location defined by its country/postal code. The service also includes a 10-day forecast. The current day is indicated by the vertical dotted line. All users have access to this source.
@@ -342,10 +342,32 @@ The weather data displayed in this space is derived from two main sources:
 
 On top of the raw weather data we have developed an algorithm translating this information into beekeeping specific metrics. The result takes the form of two indices on a scale of 0-100%: 
 
-- Foraging Index: evaluates the atmospheric conditions for **bees** to forage. This index considers the outside temperature, the hygrometry, rain and wind.
+- **Foraging Index (FI)**: evaluates the atmospheric conditions for *bees* to forage. This index considers the outside temperature, the hygrometry, rain and wind.
 
-- Honey flow index : evaluates the atmospheric conditions for the nectarification of the **flowers**. Here too, several factors are analyzed in relation to the honeyflow conditions. 0% means that the conditions for honeyflow are not met, 100% that it is damn great. But beware, depending on your climate zone, 100% may never be reached and you will have to be satisfied with lower rates! 
+- **Nectar Flow Index (NFI)** : evaluates the *atmospheric conditions* for the nectarification of the *flowers*. Here too, several factors are analyzed in relation to the nectar flow conditions. 0% means that the conditions for honeyflow are not met, 100% that it is damn great. But beware, depending on your climate zone, 100% may never be reached and you will have to be satisfied with lower rates! 
 To validate the forecast range, this algorithm has been developed with apiaries located in various climatic zones (temperate, cold, very cold, tropical...); We ensure you that in some cases it can reach 100% 😉
 
 The 10-day weather forecast allows to project these indices over a week and a half. These foraging and honeyflow forecasts are helpful for the beekeeper to identify the relevance of certain actions.
+
+!!! Example "Practical use of the Nectar Flow Index (NFI)"
+
+    Understanding and utilizing the Nectar Flow Index (NFI) can significantly enhance your beekeeping practices. Here’s a guide on how to practically apply the NFI:
+
+    **1. Monitor Local Blooming Plants:**
+        Keep track of the types of plants in your area and their blooming periods. The NFI is only useful if there are plants in bloom.
+
+    **2. Understand Plant-Specific NFI Thresholds:**
+        Different plants have varying NFI thresholds for nectar release. For instance:<br>
+        a. Rapeseed: Nectar flow generally starts at an NFI > 7 because of the cooler early-season conditions.<br>
+        b. Sunflower: Nectar flow typically begins at an NFI > 30 during the warmer summer months.
+
+    **3. Observe and Record:**
+        Regularly observe your hives and note when bees start to gather nectar from different plants.
+        Record the NFI readings corresponding to these observations. Over time, you'll identify specific NFI thresholds for various plants in your area.
+
+    **4. Make Informed Decisions:**
+        Use your observations and recorded data to make informed decisions about hive management.
+            For example, if the NFI indicates that nectar flow is likely but your bees are not active, check for other factors such as plants blooming, hive health or local microclimate conditions.<br>Plan hive movements or resource supplementation based on anticipated nectar flows.
+
+    By effectively integrating the NFI into your beekeeping routine, you can optimize nectar collection and overall hive productivity.
 
