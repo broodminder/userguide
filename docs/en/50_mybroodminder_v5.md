@@ -329,11 +329,7 @@ With these facts, we can see that **for a proper productivity evaluation, we mus
 For each apiary, several information are presented from several sources:
 
 - apiary weather: typically temperature, hygrometry, rainfall and wind.
-<<<<<<< HEAD
 - Foraging and Nectar Flow Indexes (see below)
-=======
-- Foraging and Nectarflow indexes (see below)
->>>>>>> 3d7250b58fd17ccb368f94ca4b840ea5696a18b8
 - sources from which these values are derived or computed
 
 The weather data displayed in this space is derived from two main sources:
