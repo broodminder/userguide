@@ -130,7 +130,6 @@ When you add a new apiary to your setup you will name it and give it a location.
 
 It is easiest to add the hive using the `...` to the right of the apiary. This automatically enters the apiary as the location. When you add a hive, you can give a name and a color for the graphs related to this hive. 
 
-
 #### Device
 
 it is easiest to add the devices using the `...` to the right of the hive. This automatically enters the apiary and hive as the location. You will need to select the location of the device in the hive. You can not have two devices in one location. We include several custom locations if you want to do your own thing.
@@ -205,21 +204,21 @@ From MyBroodMinder you have many options to share your hives with other beekeepe
 ### With another user
 - you can share an Apiary (in the Apiary `… > share` ) with another Mybroodminder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
 
-![](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
-![](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
+![Sharing 1](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
+![Sharing 2](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
 
 ### On beecounted
 
 - you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
 
-![](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
+![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
 
 ### With an URL
 
 - you can share a dashboard (in the Dashboards `… > share`): this produces an URL and anyone having it will see your dashboard. You can post it on social networks too.
 When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
 
-![](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
+![Shared_URL](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
 
 ### Educational Dashboards
 
@@ -227,7 +226,7 @@ When creating the url you will notice that you have some choices : which hives t
 This is a big screen mode for associations, schools or corporations that are willing to display their bees to colleagues and fellows. 
 Send us an email to support@broodminder.com to know more about this service.
 
-![](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
+![Educational Board](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
 <div align="center" ><i>Educational Dashboards are fun!</i></div>
 
 
@@ -271,7 +270,7 @@ On the contrary, when there is no brood, the bees do not need to regulate the cl
 
 Between these two extreme points, we can imagine a lot of intermediate situations. 
 
-![BForce report](../assets/images/constat_bforce.png#largeImg)
+![BForce report](../assets/50_mybroodminder_v5.assets/constat_bforce.png#largeImg)
 
 In order to illustrate this, here are the hourly measurements on two hives from the same apiary. The first is represented in red and the second in grey. Each hive has a very different condition. The red one has an internal temperature close to 25°C/30°C - following the same fluctuations as the external temperature (dotted lines) - while the grey one is situated in the famous 'Optimal Brood Zone' with a constant temperature of 35°C.
 
@@ -291,17 +290,17 @@ Brood calendars & charts show the daily progress of the brood in each hive. The 
 
 You can visualize the season's history at a glance. The egg laying stops and restarts are clearly visible.
 
-![BForce calendar](../assets/images/calendrier_bforce.png#smallImg)
+![BForce calendar](../assets/50_mybroodminder_v5.assets/calendrier_bforce.png#smallImg)
 <div align="center" ><i>Brood calendar</i></div>
 
 You can also compare several hives with each other, whatever their apiary.
 
-![BForce chart](../assets/images/graph_bforce.png#largeImg)
+![BForce chart](../assets/50_mybroodminder_v5.assets/graph_bforce.png#largeImg)
 <div align="center" ><i>Annual brood - same hive compared with two others</i></div>
 
 With practice, we can identify several events on these graphs. We can identify when the egg-laying starts & stops, of course. But we can also detect swarms, bad weather periods that have impacted brood production, the effect of Asian hornets, etc.  
 
-![BForce path](../assets/images/parcours_bforce.png#largeImg)
+![BForce path](../assets/50_mybroodminder_v5.assets/parcours_bforce.png#largeImg)
 <div align="center" ><i>Two hive path over a season, with some events</i></div>
 
 
@@ -312,7 +311,7 @@ A weight sensor installed under a hive provides detailed information on weight g
 
 First of all, during the day, weight variations depend on the resources brought in or consumed. But they also depend on the bees' movements: during the day, they are more or less numerous to come out to forage. 
 
-![Bee's movements](../assets/images/sortie_abeilles.png#largeImg)
+![Bee's movements](../assets/50_mybroodminder_v5.assets/sortie_abeilles.png#largeImg)
 <div align="center" ><i>In red: when bees get out of the hive
 
 In blue: when they bring back nectar
@@ -321,7 +320,7 @@ In black: dehydration </i></div>
 
 This is why the hive weight graph shows some "bumps". A bump every day, as you can see in the graph below. On the chart, you can also see sudden weight variations, related to the beekeeper's interventions.
 
-![Gross weight history](../assets/images/historique_poids_brut.png#largeImg)
+![Gross weight history](../assets/50_mybroodminder_v5.assets/historique_poids_brut.png#largeImg)
 <div align="center" ><i>Gross weight history with beekeeper's interventions in blue</i></div>
 
 With these facts, we can see that **for a proper productivity evaluation, we must only consider the weight variations coming exclusively from the bees' production**. In this way, external events must be ignored: feeding, swarming, addition/withdrawal of suppers, beekeeper interventions, unexplained loss or gain. The BWeight algorithm makes it easy to identify these distinct events and to exclude them from the productivity calculation.
@@ -330,7 +329,11 @@ With these facts, we can see that **for a proper productivity evaluation, we mus
 For each apiary, several information are presented from several sources:
 
 - apiary weather: typically temperature, hygrometry, rainfall and wind.
+<<<<<<< HEAD
 - Foraging and Nectar Flow Indexes (see below)
+=======
+- Foraging and Nectarflow indexes (see below)
+>>>>>>> 3d7250b58fd17ccb368f94ca4b840ea5696a18b8
 - sources from which these values are derived or computed
 
 The weather data displayed in this space is derived from two main sources:
@@ -347,7 +350,7 @@ On top of the raw weather data we have developed an algorithm translating this i
 - **Nectar Flow Index (NFI)** : evaluates the *atmospheric conditions* for the nectarification of the *flowers*. Here too, several factors are analyzed in relation to the nectar flow conditions. 0% means that the conditions for honeyflow are not met, 100% that it is damn great. But beware, depending on your climate zone, 100% may never be reached and you will have to be satisfied with lower rates! 
 To validate the forecast range, this algorithm has been developed with apiaries located in various climatic zones (temperate, cold, very cold, tropical...); We ensure you that in some cases it can reach 100% 😉
 
-The 10-day weather forecast allows to project these indices over a week and a half. These foraging and honeyflow forecasts are helpful for the beekeeper to identify the relevance of certain actions.
+The 10-day weather forecast allows to project these indices over a week and a half. These foraging and nectarflow forecasts are helpful for the beekeeper to identify the relevance of certain actions.
 
 !!! Example "Practical use of the Nectar Flow Index (NFI)"
 

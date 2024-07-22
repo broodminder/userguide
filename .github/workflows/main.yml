@@ -18,6 +18,7 @@ jobs:
         command_timeout: 120m
         script: |
           cd /mellisphera/production/userguide/
-          git pull &>> github_CD_output.txt
+          git pull origin master &>> github_CD_output.txt
+          git submodule foreach git pull origin master &>> github_CD_output.txt
           sudo /bin/sh build.sh &>> github_CD_output.txt
         
