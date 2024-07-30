@@ -29,6 +29,9 @@ extra:
 extra_css:
   - assets/css/extra.css
 
+extra_javascript:
+  - assets/javascripts/extra.js
+
 markdown_extensions:
   - admonition
   - attr_list

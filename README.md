@@ -1,6 +1,9 @@
-# userguide v1.3.10
+# userguide v1.3.11
 
 ## Deployment
+
+!!!note
+    The following steps will deploy the userguide in local mode. It means that you will use the *light version* with only english language and no pdf export.
 
 1. Clone the repo on the VPS
 `git clone https://github.com/broodminder/userguide /mellisphera/production/userguide`
@@ -19,17 +22,26 @@ To manage different librairies version between *userguide*, *hiveminder*, *flowm
 3. Install all packages
 `pip install -r requirements.txt`
 
-4. Start the server
-If you only want to work on local, you can use the following command
+4. Create .env file and replace variables
+`cp .env.example .env`
+
+In the [.env](.env) file, replace the variable **USERNAME** by your local username from your machine.
+
+5. Export your environment
+
+`export $(grep -v '^#' .env | xargs -0)`
+
+6. Start the server
+
 `mkdocs serve`
 
+7. Verify your site
+On localhost:3000 if you use local starter or on the DNS you choose on your apache2 configuration.
+
+!!!note
     But if you want to start the server with an apache2 configuration, you need to use the **build.sh** file which will build the documentation on copy it on the following folder `/var/www/html/doc`.
 
     `sudo ./build.sh`
-
-4. Verify your site
-On localhost:3000 if you use local starter or on the DNS you choose on your apache2 configuration.
-
 
 ## Configuration file mkdocs.yml
 This file allows for multiple options and configuration.
