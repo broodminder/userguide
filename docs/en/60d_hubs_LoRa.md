@@ -29,6 +29,5 @@ This means that custom networks can be build using the pair Hub/Gateway to addre
 
 The distance between the gateway and the Hub can range from hundreds of meters to actually kilometers. In an area with little geographical relief the range can go up to 10-15km (20-30Mi).
 
-
 !!! tip
     **If you are considering this technology for your apiary, please contact us and we will advice the solution that could best fit your needs.**
