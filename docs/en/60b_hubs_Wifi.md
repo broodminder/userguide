@@ -26,8 +26,6 @@ Installation![Wifi](../assets/60_hubs.assets/WIFI_Hub.jpg)
 
 - Now start up the Bees App on your phone or tablet and choose the `Devices` page. You should see the BroodMinder-WIFI show up on the list. 
 
-  pic
-
 - Press the `Claim Device` button and follow the prompts to add it to your inventory.
 ![image-20230408093307902](../assets/60_hubs.assets/image-20230408093307902.png#mediumImg)
   
