@@ -1,10 +1,13 @@
 # Introduction to BroodMinder Hubs
 
-All BroodMinder sensors transmit data via Bluetooth. There are several ways to collect the data - via your smartphone (see the Bees App section of the manual) or via a hub.
+All BroodMinder sensors transmit data via Bluetooth. There are several ways to collect the data :
 
-We uses hubs to monitor and send data to the cloud automatically every hour so that you can see your current hive status anywhere there is internet available. You can picture a bicycle wheel where your BroodMinder devices are the spokes and the hub listens to all of them and sends their data to the cloud.
+1. Via your smartphone (see the Bees App section of the manual) or via a hub.
 
+2. We use hubs to monitor and send data to the cloud automatically every hour so that you can see your current hive status anywhere there is internet available. You can picture a bicycle wheel where your BroodMinder devices are the spokes and the hub listens to all of them and sends their data to the cloud.
 We also have special cases for swarming. It will send a text or email notification within 10 minutes of the event.
+
+We offer serveral technologies for data transmission. Depending on your use case, there might be one that fits better than the others.
 
 - BroodMinder-T91 Naked Cell Hub - Cellular hub must be recharged every 6-14 months
 - BroodMinder-T91 Solar Cell Hub - Cellular hub, solar powered, never needs recharging
