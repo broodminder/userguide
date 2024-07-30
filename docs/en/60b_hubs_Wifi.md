@@ -49,7 +49,6 @@ Installation![Wifi](../assets/60_hubs.assets/WIFI_Hub.jpg)
   - You can also send data by pressing the button near the LED on the BroodMinder-WIFI circuit board.
 
     
-
 - Go to MyBroodMinder.com to see the results (results shown beloware from a hub running for > 1 week)![image-20230408093827071](../assets/60_hubs.assets/image-20230408093827071.png)
 
   ![image-20230408094805586](../assets/60_hubs.assets/image-20230408094805586.png)
