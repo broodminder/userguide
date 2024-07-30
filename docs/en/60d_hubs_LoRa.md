@@ -4,9 +4,9 @@
 ## Short Intro
 LoRa (Long Range) and LoRaWAN (Long Range Wide Area Network) are technologies designed for low-power, long-range wireless communication.
 
-    LoRa is a physical layer (or radio modulation) that enables long-range, low-power communication between devices. It uses a spread-spectrum technique to achieve high sensitivity and range, allowing devices to communicate over several kilometers with minimal energy consumption.
+- LoRa is a physical layer (or radio modulation) that enables long-range, low-power communication between devices. It uses a spread-spectrum technique to achieve high sensitivity and range, allowing devices to communicate over several kilometers with minimal energy consumption.
 
-    LoRaWAN is a network protocol built on top of LoRa. It defines the communication protocol and system architecture for a network of LoRa devices. LoRaWAN manages how data is transmitted over the network, including encryption, data rates, and network management. It facilitates communication between end-devices (sensors, actuators) and network gateways, which then connect to a central server or cloud application.
+- LoRaWAN is a network protocol built on top of LoRa. It defines the communication protocol and system architecture for a network of LoRa devices. LoRaWAN manages how data is transmitted over the network, including encryption, data rates, and network management. It facilitates communication between end-devices (sensors, actuators) and network gateways, which then connect to a central server or cloud application.
 
 In summary, LoRa provides the physical layer for long-range communication, while LoRaWAN provides the network protocol and management to support scalable, low-power, wide-area networks.
 
@@ -31,4 +31,4 @@ The distance between the gateway and the Hub can range from hundreds of meters t
 
 
 !!! tip
-    If you are considering this technology for your apiary, please contact us and we will advice the solution that could best fit your needs.
+    **If you are considering this technology for your apiary, please contact us and we will advice the solution that could best fit your needs.**

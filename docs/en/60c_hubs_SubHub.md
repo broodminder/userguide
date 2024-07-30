@@ -1,7 +1,7 @@
 
-## BroodMinder-SubHub (BRM-52)
+# BroodMinder-SubHub (BRM-52)
 
-### **Installation**
+## **Installation**
 
 The video , [BroodMinder-ASP (Apiary Starter Pack) Installation](https://youtu.be/B14U5S49EEE ) shows how this works together.
 
@@ -22,7 +22,7 @@ We have seen better performance with iOS (Apple) phones or tablets. Some of the 
 
 If your apiary spans a long distance, you can employ multiple -SubHubs, one for each group of hives. They do not daisy chain, but they work directly to the central -CELL or app.
 
-### Brief Explanation
+## Brief Explanation
 
 It is a Bluetooth range extender and a high speed data vault in a box about the size of a TV remote.
 
@@ -58,7 +58,7 @@ Configuration: Put the -SubHub near the hives. Since the -SubHub also measures t
 
 Outcome: More of your apiary can be monitored with minimal cost. Temperature increase in swarm traps will show on MyBroodMinder.com when bees move in. 
 
-### **Scenario 3**
+## **Scenario 3**
 
 Setting: This apiary is remote and there is no power and no cell tower nearby..
 
@@ -96,7 +96,7 @@ That is basically how it works. Of course there are many, many details in making
 
 If you have a CELL or WIFI device, the subhub will amplify the data sent from the devices and extend the normal 10-15 foot range up to 300-500 feet (depending on obstacles in the way). Multiple subhubs can be located in the apiary to ensure complete coverage.
 
-### **Range Testing**
+## **Range Testing**
 
 If you are going a long distance, we have a few hints for you.
 
