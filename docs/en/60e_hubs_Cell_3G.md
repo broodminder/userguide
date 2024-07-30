@@ -1,5 +1,5 @@
 
-## BroodMinder-Cell 3G (BRM-44 & BRM-50)
+# BroodMinder-Cell 3G (BRM-44 & BRM-50)
 
 The 3G Cell hubs have been under operation since 2018. In some countries like USA they have been disconnected but they are still delivering a good service in many other places. 
 What is described below is a troubleshooting guide for Cell Hub models 44 and 50. 
@@ -9,7 +9,7 @@ These hubs are not configurable with the Broodminder Bees app. **You must instal
 
 ![Cell Hub](../assets/60_hubs.assets/3G_Hub/hub_gsm_old.png)
 
-### Install the SIM Card
+## Install the SIM Card
 Here are the steps to install the SIM card:
 
 1. Unplug the 3G clicBoard.
@@ -19,7 +19,7 @@ Here are the steps to install the SIM card:
 4. Pull down and slide down to lock.
 ![Sim card installed](../assets/60_hubs.assets/3G_Hub/IMG_7757.JPG#mediumImg)
 
-### Typical Startup
+## Typical Startup
 Turn on the hub. Upon startup, you should see:
 
 - LED D1 (orange) blinking several times.
@@ -35,19 +35,19 @@ Note that every time you go to the Cell app in `Configure > Diagnostics > Cell n
 ![Start4](../assets/60_hubs.assets/3G_Hub/start4.JPG#mediumImg)
 ![Start5](../assets/60_hubs.assets/3G_Hub/start5.JPG#mediumImg)
 
-### Connecting to the Cell Network
+## Connecting to the Cell Network
 It may happen that your hub finds a 3G network but is unable to acquire the service.
 ![Acquiring cellular service](../assets/60_hubs.assets/3G_Hub/IMG_7749.JPG#mediumImg)
 
 To identify the issue, first check your APN code.
 
-#### Verify You Have the Correct APN
+### Verify You Have the Correct APN
 Each SIM provider has its own Access Point Name (APN), which could be *hologram*, *matooma.m2m*, etc. Go to `Configure > Diagnostics > Cell network > Custom APN`.
 
 ![APN](../assets/60_hubs.assets/3G_Hub/IMG_7758.PNG#mediumImg)
 ![APN](../assets/60_hubs.assets/3G_Hub/IMG_7759.PNG#mediumImg)
 
-#### Check Modem Communication and Trace
+### Check Modem Communication and Trace
 Right after turning on the hub, quickly go to `Configure > Diagnostics > Modem communication`. Here you can monitor the connection process. Let it run until it stops, then copy the result and send it to support.
 
 Here's a typical startup trace:
@@ -118,6 +118,6 @@ AT+URDFILE="r.txt"
 OK
 ```
 
-#### Typical Trace with Wrong APN
+### Typical Trace with Wrong APN
 On the left is the wrong APN, on the right is OK.
 ![Wrong APN trace](../assets/60_hubs.assets/3G_Hub/wrong_apn_trace.png#mediumImg)
