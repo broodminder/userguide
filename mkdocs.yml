@@ -63,7 +63,13 @@ nav:
       - BroodMinder BeeDar: 35_sensors_Beedar.md
       - BroodMinder DIY: 36_sensors_DIY.md
       - Yolink devices: 38_sensors_yolink.md
-  - Hubs: 60_hubs.md
+  - Hubs:
+      - Introduction: 60_hubs.md
+      - BroodMinder-Cell T91 : 60a_hubs_Cell_4G.md
+      - BroodMinder-WiFi: 60b_hubs_Wifi.md
+      - BroodMinder-SubHub: 60c_hubs_SubHub.md
+      - BroodMinder-LoRa : 60d_hubs_LoRa.md
+      - BroodMinder-Cell 3G: 60e_hubs_Cell_3G.md
   - Tokens: 65_tokens.md
   - _____: void.md
   - Example setups: 73_Examples.md
