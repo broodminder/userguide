@@ -121,4 +121,3 @@ As a general note, detecting advertisements does not mean that you can connect t
 
 
 Good luck, we are very excited about the BroodMinder-SubHub and hope it will be of use to you.
-

@@ -19,7 +19,6 @@ The LoRa hub is working very similar to all other Cell or wifi hubs. It is track
 !!! tip
     Note that having different frequencies in each continent, the hubs are specifically designed for those regions
 
-
 ## LoRa Gateway (BRM-66)
 
 ![lora hub](../assets/60_hubs.assets/lora/Rak_Gateway.png)
