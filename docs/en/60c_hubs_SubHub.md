@@ -34,7 +34,7 @@ And finally, it also records the temperature of itself, allowing you to see your
 
 The subhub is shipped in a non-waterproof case. If you want to mount it outside, we recommend installing inside a solar shield. The La Crosse Technology 925-1418 Sensor Protection Shield with Mount ($18) is a very good choice and the subhub fits perfectly in it. It also fits in the Acurite version (06054M $17). A third possibility is a Hammond 1554C2 ($11.57) waterproof box available at Digikey.com. You can also just put it in a zip lock bag as the least expensive solution. The -SubHub enclosure is 1.05” x 1.85” x 5.00” (47 x 26 x127 mm).
 
-![image-20230408100542204](../assets/60_hubs.assets/image-20230408100542204.png)
+![Solar shield](../assets/60_hubs.assets/image-20230408100542204.png)
 
 Why does the BroodMinder-SubHub exist?
 
@@ -44,37 +44,64 @@ Fortunately, temperature is cheap and easy to measure. However, that data only d
 
 ### **Scenario 1**
 
-Setting: Your BroodMinder enabled hives are 500 feet from a building with power and you have an old cell phone.
-
+**Setting: Your BroodMinder enabled hives are 500 feet (150m) from a building with power and you have an old cell phone.
+**
 Configuration: Put the -SubHub in the middle of your hives and the cell phone in the building. Run the apiary app in hub mode.
 
 Outcome: Your hive data will be sent up every 10 minutes. In the event of a swarm, you will receive an email or text message as soon as it is detected.
 
 ### **Scenario 2**
 
-Setting: This apiary is remote and there is no power nearby. You are already set up with a BroodMinder-Hub, however some of your hives or swarm traps are 700 feet away.
-
-Configuration: Put the -SubHub near the hives. Since the -SubHub also measures temperature, you can place it inside the swarm trap to detect when bees move in. You can have multiple -SubHubs feeding the BroodMinder-CELL/WIFI hub if you wish.
+**Setting: This apiary is remote and there is no power nearby. You are already set up with a BroodMinder-Hub, however some of your hives or swarm traps are 700 feet away.
+**
+Configuration: Put the -SubHub near the hives. Since the -SubHub also measures temperature, you can place it inside the swarm trap to detect when bees move in. You can have multiple -SubHubs feeding the BroodMinder-CELL hub if you wish.
 
 Outcome: More of your apiary can be monitored with minimal cost. Temperature increase in swarm traps will show on MyBroodMinder.com when bees move in. 
 
-## **Scenario 3**
+### **Scenario 3**
 
-Setting: This apiary is remote and there is no power and no cell tower nearby..
+**Setting: This apiary is remote and there is no power and no cell tower nearby..
+**
 
 Configuration: Put the -SubHub near the hives. It will record data from all the nearby BroodMinders.
 
 Outcome: When you visit your apiary, you can read all of the the data from all of the hives, typically in less than a minute. You will be able to view this data with the new BroodMinder-Bees app in a manner similar to MyBroodMinder. Then you can send the data to MyBroodMinder when you arrive back in civilization.
 
-![image-20230409132916993](../assets/60_hubs.assets/image-20230409132916993.png)
+![Use case 1](../assets/60_hubs.assets/image-20230409132916993.png)
 
-![image-20230409132944428](../assets/60_hubs.assets/image-20230409132944428.png)
+![Use case 2](../assets/60_hubs.assets/image-20230409132944428.png)
 
-![image-20230409133014617](../assets/60_hubs.assets/image-20230409133014617.png)
+![Use case 3](../assets/60_hubs.assets/image-20230409133014617.png)
 
 
+## **Range Testing**
 
-How did you do all of this magic?
+If you are going a long distance, we have a few hints for you.
+
+1) The -SubHub’s radio waves are directional. The batteries block the antenna. This means that the -SubHub circuit board should be on the side of the -Hub or phone receiving the data.
+2) You can use the BroodMinder-Bees app to do your testing. Please watch the video  [BroodMinder-ASP (Apiary Starter Pack) Installation](https://youtu.be/B14U5S49EEE ) for the best information on this.
+3) A super way to test the range is using an app and your phone. Nordic Semiconductor has an app called “nRF Connect” for both iOS and Android. It is the best Bluetooth app out there. Here are a couple of usage notes.
+
+a.   Go to `Settings > Scanner >  Scanner Timeout` >> set to `Never`
+
+b.   Start scanning in the `Scanner` tab at the bottom of the app
+
+c.   BroodMinder sensors will be named by their ID (e.g. 57:01:01)
+
+d.   Press the up arrow beside `No Filter` and put a `:` in the `Name` field and flip the switch beside it. This will only show devices with a `:` (such as BroodMinder devices.). You can also limit it to a specific device this way.
+
+e.   Now select the RSSI Graph and you will see each time the phone gets an update from the BroodMinder.
+
+f.   There are many other great options in the program to explore if you like this sort of thing.
+
+
+As a general note, detecting advertisements does not mean that you can connect to a device. Connections require stronger signals. This means that if you want to download the log, or update firmware, you may need at least a 40-50% signal level.
+
+
+Good luck, we are very excited about the BroodMinder-SubHub and hope it will be of use to you.
+
+
+## How did you do all of this magic?
 
 It wasn’t easy. Our team has been working on the BroodMinder-SubHub and MyBroodMinder ecosystem for over a year. That time was split between solving the technical challenges and making the system flexible and easy to use. We feel it is a game changer and that you will love it.
 
@@ -94,30 +121,4 @@ We have established these parameters in order that the batteries last at least a
 
 That is basically how it works. Of course there are many, many details in making the pieces fit together seamlessly and to be supported by the equipment in the field. And, as always, during deployment we will be watching closely.
 
-If you have a CELL or WIFI device, the subhub will amplify the data sent from the devices and extend the normal 10-15 foot range up to 300-500 feet (depending on obstacles in the way). Multiple subhubs can be located in the apiary to ensure complete coverage.
-
-## **Range Testing**
-
-If you are going a long distance, we have a few hints for you.
-
-1) The -SubHub’s radio waves are directional. The batteries block the antenna. This means that the -SubHub circuit board should be on the side of the -Hub or phone receiving the data.
-2) You can use the BroodMinder-Bees app to do your testing. Please watch the video  [BroodMinder-ASP (Apiary Starter Pack) Installation](https://youtu.be/B14U5S49EEE ) for the best information on this.
-3) A super way to test the range is using an app and your phone. Nordic Semiconductor has an app called “nRF Connect” for both iOS and Android. It is the best Bluetooth app out there. Here are a couple of usage notes.
-
-a.   Go to *Settings* | *Scanner* | *Scanner Timeout* >> set to *Never*
-
-b.   Start scanning in the “*Scanner*” tab at the bottom of the app
-
-c.   BroodMinder sensors will be named by their ID (e.g. 57:01:01)
-
-d.   Press the up arrow beside “*No Filter*” and put a “:” in the *Name* field and flip the switch beside it. This will only show devices with a “:” (such as BroodMinder devices.). You can also limit it to a specific device this way.
-
-e.   Now select the RSSI Graph and you will see each time the phone gets an update from the BroodMinder.
-
-f.   There are many other great options in the program to explore if you like this sort of thing.
-
-
-As a general note, detecting advertisements does not mean that you can connect to a device. Connections require stronger signals. This means that if you want to download the log, or update firmware, you may need at least a 40-50% signal level.
-
-
-Good luck, we are very excited about the BroodMinder-SubHub and hope it will be of use to you.
+If you have a CELL device, the subhub will amplify the data sent from the devices and extend the normal 10-15 foot range up to 300-500 feet (depending on obstacles in the way). Multiple subhubs can be located in the apiary to ensure complete coverage.
