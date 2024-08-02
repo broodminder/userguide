@@ -122,3 +122,28 @@ We have established these parameters in order that the batteries last at least a
 That is basically how it works. Of course there are many, many details in making the pieces fit together seamlessly and to be supported by the equipment in the field. And, as always, during deployment we will be watching closely.
 
 If you have a CELL device, the subhub will amplify the data sent from the devices and extend the normal 10-15 foot range up to 300-500 feet (depending on obstacles in the way). Multiple subhubs can be located in the apiary to ensure complete coverage.
+
+## **Range Testing**
+
+If you are going a long distance, we have a few hints for you.
+
+1) The -SubHub’s radio waves are directional. The batteries block the antenna. This means that the -SubHub circuit board should be on the side of the -Hub or phone receiving the data.
+2) You can use the BroodMinder-Bees app to do your testing. Please watch the video  [BroodMinder-ASP (Apiary Starter Pack) Installation](https://youtu.be/B14U5S49EEE ) for the best information on this.
+3) A super way to test the range is using an app and your phone. Nordic Semiconductor has an app called “nRF Connect” for both iOS and Android. It is the best Bluetooth app out there. Here are a couple of usage notes.
+
+a.   Go to *Settings* | *Scanner* | *Scanner Timeout* >> set to *Never*
+
+b.   Start scanning in the “*Scanner*” tab at the bottom of the app
+
+c.   BroodMinder sensors will be named by their ID (e.g. 57:01:01)
+
+d.   Press the up arrow beside “*No Filter*” and put a “:” in the *Name* field and flip the switch beside it. This will only show devices with a “:” (such as BroodMinder devices.). You can also limit it to a specific device this way.
+
+e.   Now select the RSSI Graph and you will see each time the phone gets an update from the BroodMinder.
+
+f.   There are many other great options in the program to explore if you like this sort of thing.
+
+
+As a general note, detecting advertisements does not mean that you can connect to a device. Connections require stronger signals. This means that if you want to download the log, or update firmware, you may need at least a 40-50% signal level.
+
+Good luck, we are very excited about the BroodMinder-SubHub and hope it will be of use to you.
