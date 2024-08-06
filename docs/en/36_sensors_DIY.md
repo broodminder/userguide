@@ -20,7 +20,6 @@ Theo and Lorenzo have also created some examples which we have included in our [
 
 The metal hive stand is available from BetterBee: https://www.betterbee.com/wooden-hive-equipment-10-frame/LYHE4033.asp
 
-
 ![image-20230409110829483](../assets/36_sensors_DIY.assets/image-20230409110829483.png)
 
 
