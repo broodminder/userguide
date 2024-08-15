@@ -17,10 +17,10 @@ You will need to make a copy in your own drive (`File > make a copy`)
 
 You will find the calibration screen in the Bees App at ` Devices Tab > [Device name] > ... > Show details > ... > Troubleshooting > Calibrate Scale`
 
-![Bapp Calibration](../assets/33_sensors_w3_assembly.assets/bapp_calibration.jpeg)
+![Bapp Calibration](../assets/33_sensors_w3_assembly.assets/bapp_calibration.jpeg#smallImg)
 
 Your objective is to find the actual four Divisors. Offsets are not concerned (automatic).
 A good divisor starting point is 
 - 32000 for 50kg load cells
-- -17000 for 100kg load cells
-- -9000 for 200kg load cells
+- -17000 for 100kg load cells (note the negative divisor)
+- -9000 for 200kg load cells (note the negative divisor)

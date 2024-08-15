@@ -12,9 +12,9 @@ These hubs are not configurable with the Broodminder Bees app. **You must instal
 ## Install the SIM Card
 Here are the steps to install the SIM card:
 
-1. Unplug the 3G clicBoard.
-2. Open the case: slide it upward through the antenna with your thumb, then pull it up to remove it.
-3. Insert the SIM card in the correct position.
+1. Unplug the 3G 'Clic' circuit board.
+2. Open the SIM metal holder: slide it upward through the antenna with your thumb, then pull it up and remove the SIM.
+3. Insert the SIM card in the right position.
 ![Sim card](../assets/60_hubs.assets/3G_Hub/IMG_7755.JPG#mediumImg)
 4. Pull down and slide down to lock.
 ![Sim card installed](../assets/60_hubs.assets/3G_Hub/IMG_7757.JPG#mediumImg)
@@ -27,7 +27,7 @@ Turn on the hub. Upon startup, you should see:
 - LED STAT (yellow) illuminated.
 - Then, after a while, when the network connection is established, everything turns off.
 
-Note that every time you go to the Cell app in `Configure > Diagnostics > Cell network`, you should see the green LED PWR1 illuminated.
+Note that every time you go to the BroodMinder-Cell App in `Configure > Diagnostics > Cell network`, you should see the green LED PWR1 illuminated.
 
 ![Start1](../assets/60_hubs.assets/3G_Hub/start1.JPG#mediumImg)
 ![Start2](../assets/60_hubs.assets/3G_Hub/start2.JPG#mediumImg)
@@ -42,10 +42,12 @@ It may happen that your hub finds a 3G network but is unable to acquire the serv
 To identify the issue, first check your APN code.
 
 ### Verify You Have the Correct APN
-Each SIM provider has its own Access Point Name (APN), which could be *hologram*, *matooma.m2m*, etc. Go to `Configure > Diagnostics > Cell network > Custom APN`.
+Each SIM provider has its own Access Point Name (APN), we are currently using 1NCE SIM cards and their APN is **iot.1nce.net**. 
 
-![APN](../assets/60_hubs.assets/3G_Hub/IMG_7758.PNG#mediumImg)
-![APN](../assets/60_hubs.assets/3G_Hub/IMG_7759.PNG#mediumImg)
+If you're using BroodMinder Cell App, go to `Configure > Diagnostics > Cell network > Custom APN`.
+
+![APN](../assets/60_hubs.assets/3G_Hub/IMG_7758.jpg#mediumImg)
+![APN](../assets/60_hubs.assets/3G_Hub/IMG_7759.jpg#mediumImg)
 
 ### Check Modem Communication and Trace
 Right after turning on the hub, quickly go to `Configure > Diagnostics > Modem communication`. Here you can monitor the connection process. Let it run until it stops, then copy the result and send it to support.
