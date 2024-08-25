@@ -209,7 +209,7 @@ From MyBroodMinder you have many options to share your hives with other beekeepe
 
 ### On beecounted
 
-- you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
+- you can also share an apiary [beecounted.org](https://www.beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
 
 ![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
 

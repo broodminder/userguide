@@ -1,10 +1,11 @@
+
+
 <div style="text-align:center;"><img src="../assets/30_sensors.assets/device_w4.png"></div>
 
 
-
 ## Broodminder-W4 (49)
-!!! NOTE
-    W4 scale is only available in Europe
+!!! note
+    W4 scale is only available in Europe.
     
     
 BroodMinder-W4 is a professional grade hive scale specially designed for migratory beekeeping. It is a rugged, lightweight and high precision scale that can be installed in any kind of configuration. Insensitive to hive leveling or centering with its 4 x 100kg high precision load cells, it mounts easily on wooden or metal pallets.

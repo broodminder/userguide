@@ -38,4 +38,4 @@ The "Parts kit, unassembled, uncalibrated" version contains all of the parts nee
 We know this can raise questions, feel free to reach out.
 
 
-If you are thinking on another scale architecture that would better fit your needs, check the [BroodMinder-DIY section](./36_sensors_DIY.md) for deeper considerations. 
+If you are thinking on another scale architecture that would better fit your needs, check the [BroodMinder-DIY section](./36_sensors_DIY_intro.md) for deeper considerations. 

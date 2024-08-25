@@ -33,7 +33,8 @@ In the [.env](.env) file, replace the variable **USERNAME** by your local userna
 
 6. Start the server
 
-`mkdocs serve`
+`mkdocs serve -f mkdocs_test.yml` using a modified yml file or to have a lighter build (with no lang translation nor pdf generation)
+
 
 7. Verify your site
 On localhost:3000 if you use local starter or on the DNS you choose on your apache2 configuration.
