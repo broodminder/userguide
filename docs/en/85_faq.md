@@ -39,7 +39,7 @@ The Hub provides you with real-time monitoring. You have access to all alerts an
 
 #### What can I do if I can't synchronize my hives ?
 
-The Bluetooth coverage distance depends on many factors. On some hives, this coverage can be limited. Position yourself as close as possible to the hive and try again following the instructions. If another failure occurs, contact us at support@mellisphera.com. 
+The Bluetooth coverage distance depends on many factors. On some hives, this coverage can be limited. Position yourself as close as possible to the hive and try again following the instructions. If another failure occurs, contact us at [support@broodminder.com](mailto:support@broodminder.com). 
 
 ### Battery 
 

@@ -1,10 +1,36 @@
 # Sensors
 
+
+
+## Sensor range
+
+Before getting started let's get familiar with the different devices we will deal with. 
+Every device has a specific ID like for example '56:01:3f' the first two figures (56) are the model ID. In this case 56 corresponds to a Broodminder-TH device.
+
+ ![image](../assets/images/products/gamme_complete.jpg#largeImg)
+
+
+| **Product** | **Model** | **Name** | **Description** |
+|-            |----          |--        |-                 |
+| ![image](../assets/images/products/t2.png#mediumImg) |47 | Internal sensor T | Small sensor, big benefits. The best tool for monitoring hive dynamics. |
+| ![image](../assets/images/products/th2.png#mediumImg) |56 | Internal sensor TH | Temperature and humidity, all in one. |
+| ![image](../assets/images/products/w.png#mediumImg) |57, 43 | Scale W | Ideal scale for hobby beekeeping Best value for money. |
+| ![image](../assets/images/products/W_alu_Pro.jpg#mediumImg) |49 | Scale W4 | Scale for migratory beekeeping, adaptable to a wide range of supports. Tough as nails |
+| ![image](../assets/images/products/diy_all.png#mediumImg) |49 | Scale DIY | A do-it-yourself kit for DIY beekeepers. |
+| ![image](../assets/images/products/beedar.jpg#mediumImg) |63 | BeeDar | A Radar to track bee activity during the day. |
+| ![image](../assets/images/products/subHub.jpg#mediumImg) |52 | SubHub | The subHub is both a data hub and a transmission relay. |
+| ![image](../assets/images/products/xwifi.jpg#mediumImg) |60 | Hub Wifi | Ideal if your hives are close to a Wifi network. |
+| ![image](../assets/images/products/t91.png#mediumImg) |54 | Hub 4G | Optimal connectivity with multi-operator SIM card. |
+| ![image](../assets/images/products/t91_weather.jpg#mediumImg) |54 | Hub 4G Weather | Two in one: Data transmission AND weather station (temperature, humidity and pressure) |
+| ![image](../assets/images/products/t91_solar.jpg#mediumImg) |54 | Hub 4G Solar | Endless autonomy with this version boosted with a solar kit. |
+
+
+
 ## Installing your BroodMinder
 
 The Citizen Science Package contains two Broodminder-TH (temperature and humidity) or T2 (temperature only) Devices and a Broodminder-W hive scale. Here is where you install these devices:
 
-![](../assets/images/03_sensor_locs.png#largeImg)
+![image](../assets/images/03_sensor_locs.png#largeImg)
 
 
 
@@ -12,7 +38,7 @@ The Citizen Science Package contains two Broodminder-TH (temperature and humidit
 
 ## Routine Maintenance
 
-There is not much routine maintenance that is required. Please note that if your batteries are lasting less than 6 months, something is wrong and you should contact [Support@Broodminder.com](mailto:Support@Broodminder.com) for replacement or refurbishment.
+There is not much routine maintenance that is required. Please note that if your batteries are lasting less than 6 months, something is wrong and you should contact [support@broodminder.com](mailto:support@broodminder.com) for replacement or refurbishment.
 
 ### Spring
 
@@ -115,8 +141,55 @@ If you would like us to do this for you go to [BroodMinder-Refresh](https://broo
 
 ## Device Firmware Updates
 
-All BroodMinder devices have provision for Over-The-Air (OTA) upgrades. These are performed by the Bees app. For more information, go to this link.
+From time to time we make updates to improve the operation of our sensors. BroodMinder devices use OTA (Over The Air) firmware updates and are very simple to perform. 
 
-<a href="https://mybroodminder.com/app/" target="_blank">resourcesmybroodminder.com/resources</a>
+This procedure works with the following models (model is the first 2 characters of the ID, for example 47:12:34 is model 47)
 
-and also read here : [Device updating](./80_device_updating.md)
+Model 47,49, 51, 52, 56, 57, 58, 59, 60, & 63
+
+### Basic Process
+
+- Update Bees App
+- Find and select Update Icon for the device in Bees App
+- Press "Update Firmware" or "Sync and Update Firmware"
+- Wait and watch for 2-3 minutes
+- Verify
+
+### Bees App Update
+
+Before beginning the firmware update, be certain to visit the Android Play Store or Apple App Store and update your Bees App. The app will contain the most current version of firmware for all of our devices.
+
+### Notification Icon
+
+When you open the Bees App, you may see a symbol beside you device or in the details page. We will show both locations in the images below.
+
+![image-20230606091100838](../assets/80_device_updating.assets/image-20230606091100838.png)
+
+
+
+### Updating the device
+
+Press the symbol and you will be presented with an update page shown below.
+
+![image-20230606091215037](../assets/80_device_updating.assets/image-20230606091215037.png)
+
+
+
+Now you have a choice. There is backup data stored on your BroodMinder device. Updating firmware will place the device in "Factory New" state which removes any backup data. Note: All data that you have already retrieved is safe.
+
+1) If all of you data is up to date on MyBroodMinder, you can "Update firmware without sync".
+2) If you are not certain, you can sync and then update. This will take longer since we read the entire data log before updating.
+
+The update process will take 2-3 minutes.
+
+![image-20230606091426212](../assets/80_device_updating.assets/image-20230606091426212.png)
+
+### Verify
+
+Once complete, you should see the firmware update icon is removed and the current version is updated. 
+
+If it did not update correctly, remove the batteries for 1 minute, replace the batteries and retry the update.
+
+If you are still having difficulty contact us at [support@broodminder.com](mailto:support@broodminder.com).
+
+![image-20230606091802977](../assets/80_device_updating.assets/image-20230606091802977.png)

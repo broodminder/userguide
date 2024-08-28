@@ -35,7 +35,7 @@ Take note of the following best practices:
     Watch the video help "[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)"
 
 !!! tip "Need help?"
-    You can always contact us at [Support@BroodMinder.com](mailto:Support@BroodMinder.com)
+    You can always contact us at [support@broodminder.com](mailto:support@broodminder.com).
 
 -----
 

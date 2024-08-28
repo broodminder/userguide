@@ -1,4 +1,5 @@
-<div style="text-align:center;"><img src="../assets/30_sensors.assets/device_w3.jpg"></div>
+
+![image](../assets/30_sensors.assets/device_w3.jpg){ style="display: block; margin: 0 auto" }
 
 
 Broodminder-W3 (49)
@@ -38,4 +39,4 @@ The "Parts kit, unassembled, uncalibrated" version contains all of the parts nee
 We know this can raise questions, feel free to reach out.
 
 
-If you are thinking on another scale architecture that would better fit your needs, check the [BroodMinder-DIY section](./36_sensors_DIY.md) for deeper considerations. 
+If you are thinking on another scale architecture that would better fit your needs, check the [BroodMinder-DIY section](./36_sensors_DIY_intro.md) for deeper considerations. 

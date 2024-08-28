@@ -16,7 +16,7 @@ We administrate these subscriptions with our token system. This allows the use o
 
 Yes, it can be confusing. We will continue to improve and simplify the system, but it is surprising difficult to accomplish this. We appreciate your patience.
 
-If you need help, please contact us at support@broodminder.com. We are happy to assist you and get you up and running.
+If you need help, please contact us at [support@broodminder.com](mailto:support@broodminder.com). We are happy to assist you and get you up and running.
 
 ## How?
 

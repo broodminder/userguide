@@ -24,7 +24,7 @@ Here in a few words are the main components of the system.
 
 Weight, temperature, humidity sensors... A complete and at the same time modular range of devices that enable you to equip your hives according to your needs. 
 
-![](../assets/images/01_broodminder_products.png#mediumImg)
+![image](../assets/images/01_broodminder_products.png#mediumImg)
 
 All the sensors transmit the information via Bluetooth and, of course, you can use your smartphone to collect this data. Simply download the BroodMinder Bees App from your favorite store (Apple or Android).
 

@@ -1,5 +1,5 @@
 
-<div style="text-align:center;"><img src="../assets/30_sensors.assets/device_th.png"></div>
+![image](../assets/30_sensors.assets/device_th.png){ style="display: block; margin: 0 auto" }
 
 ## Broodminder TH (56)
 This sensor measures in-hive temperature and humidity and will also watch for temperature events such as swarms. Based on those informations we will be computing Brood level, hive fitness and a set of specific alerts (hotter and colder limits, excessive humidity...).

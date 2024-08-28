@@ -48,26 +48,30 @@ nav:
   - Home: index.md
   - Introduction: 10_intro.md
   - Quick start guide 🚀 : 20_quick_start_guide.md
-  - _____: void.md
   - Daily Use: 21_daily_use.md
   - _____: void.md
   - BeesApp: 40_beesApp.md
   - MyBroodminder: 50_mybroodminder_v5.md
   - Sensors:
-      - Product range:  30_product_range.md
-      - General aspects:  30_sensors.md
+      - Overview:  30_sensors.md
       - BroodMinder TH & T: 31_sensors_T_TH.md
       - BroodMinder W: 32_sensors_W.md
       - BroodMinder W3:
-          - Circuit Board: 33a_sensors_W3_boardAssembly.md
-          - Scale Assembly: 33b_sensors_W3_assembly.md
-          - Calibration: 33c_sensors_W3_calibration.md
-      - BroodMinder W4: void.md
+          - Overview: 33_sensors_W3_intro.md
+          - Board assembly: 33a_sensors_W3_boardAssembly.md
+          - Mechanical assembly: 33b_sensors_W3_assembly.md
+          - Scale calibration: 33c_sensors_W3_calibration.md
+      - BroodMinder W4: 34_sensors_W4.md
       - BroodMinder BeeDar: 35_sensors_Beedar.md
-      - BroodMinder DIY: 36_sensors_DIY.md
+      - BroodMinder DIY:
+          - Overview: 36_sensors_DIY_intro.md
+          - Multiscale single: 36_sensors_DIY_multiscale1.md
+          - Multiscale double: 36_sensors_DIY_multiscale2.md
+          - SolutionBee&reg; scale: 36_sensors_DIY_solutionbee.md
+          - LabelAbeille&reg; scale: 36_sensors_DIY_labelabeille.md
       - Yolink devices: 38_sensors_yolink.md
   - Hubs:
-      - Introduction: 60_hubs.md
+      - Overview: 60_hubs.md
       - BroodMinder-Cell T91 : 60a_hubs_Cell_4G.md
       - BroodMinder-WiFi: 60b_hubs_Wifi.md
       - BroodMinder-SubHub: 60c_hubs_SubHub.md
@@ -79,9 +83,6 @@ nav:
   - Data interpretation: 76_data_interpretation.md
   - Beecounted: 79_beecounted.md
   - Bee-Life: 82_beelife.md
-  - _____: void.md
-  - BroodMinder Device Updates: 80_device_updating.md
-  - BroodMinder Hub Updates: 81_hub_updating.md
   - _____: void.md
   - FAQ: 85_faq.md
   - Video Library: 86_video_library.md

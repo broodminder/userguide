@@ -209,7 +209,7 @@ From MyBroodMinder you have many options to share your hives with other beekeepe
 
 ### On beecounted
 
-- you can also share an apiary [beecounted.org](beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
+- you can also share an apiary [beecounted.org](https://www.beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
 
 ![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
 
@@ -224,7 +224,7 @@ When creating the url you will notice that you have some choices : which hives t
 
 - And Last but not least, there's a fourth and the most classy way to share your hive : **Educational Dashboards**
 This is a big screen mode for associations, schools or corporations that are willing to display their bees to colleagues and fellows. 
-Send us an email to support@broodminder.com to know more about this service.
+Send us an email to [support@broodminder.com](mailto:support@broodminder.com) to know more about this service.
 
 ![Educational Board](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
 <div align="center" ><i>Educational Dashboards are fun!</i></div>

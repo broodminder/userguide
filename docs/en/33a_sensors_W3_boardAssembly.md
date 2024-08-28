@@ -38,7 +38,7 @@ We are working here with the XLR2-L board. This is a multi purpose board and tha
 
 Now with a permanent marker note the load cell position : J1, J2, J3, J4. 
 
-![](../assets/36_sensors_DIY.assets/xlr2_loadcell_mark_pos.jpg)
+![image](../assets/36_sensors_DIY.assets/xlr2_loadcell_mark_pos.jpg)
 
 Remember :
 
@@ -50,7 +50,7 @@ Remember :
 ![image-20230501140829711](../assets/33_sensors_w3_assembly.assets/image-20230501140829711.png)
 
 Now cut a slit on the rubber grummit. tape the 4 wires together for each sensor and pull them with a hemostat or pliers.
-![](../assets/36_sensors_DIY.assets/xlr2_loadcell_wiring.png)
+![image](../assets/36_sensors_DIY.assets/xlr2_loadcell_wiring.png)
 ​  
 
 Drill a hole in the box with a 1/2in (12mm) bit.
@@ -67,10 +67,10 @@ Route the wires through the hole and solder on the board pads following the colo
     Take care to associate each loadcell with its coresponding pad J[1-4] (This will be printed on the board in small text next to each pad).
 
 
-![](../assets/36_sensors_DIY.assets/xlr2_wired.jpg)
+![image](../assets/36_sensors_DIY.assets/xlr2_wired.jpg)
 
 
-![](../assets/36_sensors_DIY.assets/xlr2_w3_assy.jpg)
+![image](../assets/36_sensors_DIY.assets/xlr2_w3_assy.jpg)
 
 
 ## Mount the scale feet
@@ -81,7 +81,7 @@ To mount the feet, simply take the screw so that it is orientated as in the imag
 
     Be sure to use Loctite or a similar product on the screws to prevent them from coming loose over time. If this step is skipped it can cause the feet to become loose and cause the sensor to read inaccurate data.
 
-![](../assets/36_sensors_DIY.assets/xlr2_loadcell_feet.jpg)
+![image](../assets/36_sensors_DIY.assets/xlr2_loadcell_feet.jpg)
 
 
 ## Mount the scale structure
