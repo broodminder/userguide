@@ -1,6 +1,6 @@
 # Retrofit a SolutionBee scale
 
-<div style="text-align:center;"><img src="../assets/36_sensors_DIY.assets/image-20230409112032307.png"></div>
+![image](../assets/36_sensors_DIY.assets/image-20230409112032307.png){ style="display: block; margin: 0 auto" }
 
 It is easy to take an old broken hive scale and convert it to a BroodMinder enable scale. Here is an example. 
 
