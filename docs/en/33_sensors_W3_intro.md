@@ -1,4 +1,5 @@
-<div style="text-align:center;"><img src="../assets/30_sensors.assets/device_w3.jpg"></div>
+
+![image](../assets/30_sensors.assets/device_w3.jpg){ style="display: block; margin: 0 auto" }
 
 
 Broodminder-W3 (49)

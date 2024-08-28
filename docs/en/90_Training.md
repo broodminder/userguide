@@ -4,4 +4,4 @@
 
  We do currently offer two training webinars and schedule a few sessions over the year. Check at [our store](https://eu.broodminder.com/collections/training) for scheduled sessions.
 
-![](../assets/90_training.assets/training.jpg)
+![image](../assets/90_training.assets/training.jpg)
