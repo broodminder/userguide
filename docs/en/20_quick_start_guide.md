@@ -149,8 +149,6 @@ Using BroodMinder Bees App there are multiple ways of syncing:
 !!! Tip
     You can only sync devices appearing in green (within bluetooth range)
 
-<!-- ![firstSync](../assets/20_quick_start_guide.assets/firstSyncA.png) -->
-
 ![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104926_edited.jpg#mediumImg)
 
 Now look to your data using `... > Show Graph` or `... > Show Details`.
@@ -159,8 +157,6 @@ Now look to your data using `... > Show Graph` or `... > Show Details`.
 
 !!! info
     On your first sync you probably do not see much data since there is only one or two samples.
-
-
 
 
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 6. Power-On your Hub
