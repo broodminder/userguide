@@ -1,5 +1,6 @@
 
-## BroodMinder-WIFI Hub (BRM-60)
+<div style="text-align:center;"><img src="../assets/60_hubs.assets/WIFI_Hub.jpg"></div>
+
 
 If you have good WIFI in your apiary, BroodMinder-WiFi should work for you.
 We recommend setting this up where there is strong WIFI and a nice work area prior to placing in your apiary.
@@ -12,7 +13,7 @@ You will find an installation video [here](https://youtu.be/10jw51jqmT0)
     It will not find, nor connect to 5GHz or mixed 2.4+5GHz networks
 
 
-Installation![Wifi](../assets/60_hubs.assets/WIFI_Hub.jpg)
+## Installation
 
 - We recommend you test everything before you take it to your apiary.
 
