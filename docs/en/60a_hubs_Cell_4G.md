@@ -26,7 +26,7 @@ Installation is super easy because we set everything up before shipping.
 
 - Click on the Manage icon to assign or move it to an apiary. 
 
-- You must also assign a token. A token is a virtual coin that we use to pay for the 24/7 upload service. You should receive 1 year service with the hub. If you did not, then contact us at support@broodminder.com.
+- You must also assign a token. A token is a virtual coin that we use to pay for the 24/7 upload service. You should receive 1 year service with the hub. If you did not, then contact us at [support@broodminder.com](mailto:support@broodminder.com).
 
 - After you see it working you can move it to your apiary.
 

@@ -1,7 +1,8 @@
 
 # Retrofit a "Label-Abeille" Scale
 
-<div style="text-align:center;"><img src="../assets/36_sensors_DIY.assets/labelabeille/labelabeille.jpeg"></div>
+
+![image](../assets/36_sensors_DIY.assets/labelabeille/labelabeille.jpeg){ style="display: block; margin: 0 auto" }
 
 
 Follow these instructions to bring back to life the hive scales from "Label-Abeille&reg;".

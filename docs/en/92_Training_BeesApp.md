@@ -3,7 +3,7 @@ Introductory Webinar with Use Cases
 
 The BeesApp sessions are not yet fully defined. One of the reasons is that we expect an important version upgrade this spring (2024) and we will start training on that newest version.
 
-![](../assets/90_training.assets/bapp_training.png#mediumImg)
+![image](../assets/90_training.assets/bapp_training.png#mediumImg)
 
 
 ### Target Audience
