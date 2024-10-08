@@ -6,9 +6,11 @@ There are many great features available in MyBroodMinder to view and analyze you
 
 We have updated the [video library](https://mybroodminder.com/app/resources) for Version 5. 
 
-The quick tour is pretty long. There are a lot of useful features. Let's start by describing the functions available to you.
+The quick tour is pretty long. There are a lot of useful features. Let's start by describing the functions available to you. 
 
 The best way to learn is to read this guide while looking at your MyBroodMinder account.
+
+Note that some features are for MyBroodMinder premium users. The feature breakdown is [here](https://mybroodminder.com/app/premium-subscription). We discuss more about Free and Premium at the end of this chapter.
 
 ![image-20230407161237301](../assets/50_mybroodminder_v5.assets/image-20230407161237301.png)
 
@@ -351,22 +353,41 @@ The 10-day weather forecast allows to project these indices over a week and a ha
 !!! Example "Practical use of the Nectar Flow Index (NFI)"
 
     Understanding and utilizing the Nectar Flow Index (NFI) can significantly enhance your beekeeping practices. Here’s a guide on how to practically apply the NFI:
-
+    
     **1. Monitor Local Blooming Plants:**
         Keep track of the types of plants in your area and their blooming periods. The NFI is only useful if there are plants in bloom.
-
+    
     **2. Understand Plant-Specific NFI Thresholds:**
         Different plants have varying NFI thresholds for nectar release. For instance:<br>
         a. Rapeseed: Nectar flow generally starts at an NFI > 7 because of the cooler early-season conditions.<br>
         b. Sunflower: Nectar flow typically begins at an NFI > 30 during the warmer summer months.
-
+    
     **3. Observe and Record:**
         Regularly observe your hives and note when bees start to gather nectar from different plants.
         Record the NFI readings corresponding to these observations. Over time, you'll identify specific NFI thresholds for various plants in your area.
-
+    
     **4. Make Informed Decisions:**
         Use your observations and recorded data to make informed decisions about hive management.
             For example, if the NFI indicates that nectar flow is likely but your bees are not active, check for other factors such as plants blooming, hive health or local microclimate conditions.<br>Plan hive movements or resource supplementation based on anticipated nectar flows.
-
+    
     By effectively integrating the NFI into your beekeeping routine, you can optimize nectar collection and overall hive productivity.
 
+
+
+## MyBroodMinder-Free vs MyBroodMinder-Premium
+
+We offer both a free and a [premium service](https://mybroodminder.com/app/premium-subscription). We have attempted to establish an equitable and economical system for our wide variety of users.
+
+Our team is self funded and  continues to make extraordinary efforts to create and refine the BroodMinder eco-system. That said, we realize the our customers are the ones that will decide if our services are worth the effort. 
+
+If you do not desire the premium features, it is still possible to read and analyze your BroodMinder devices. 
+
+BroodMinder-Free approach
+
+- Create a MyBroodMinder account
+- You will be allowed a maximum of 5 hives.
+- If you have additional sensors they are still supported, but can not be assigned to additional hives.
+  - Devices are read and transferred to MyBroodMinder with the Bees app using the "Devices" tab
+  - Data/graphs are viewed in MyBroodMinder by clicking on the link in the "Configure | Devices" tab
+- You can name devices to reflect their location if you wish
+- Note that this approach will also work if you have a paid account to read additional sensors beyond your subscription level.
