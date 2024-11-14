@@ -77,7 +77,7 @@ nav:
       - BroodMinder-SubHub: 60c_hubs_SubHub.md
       - BroodMinder-LoRa : 60d_hubs_LoRa.md
       - BroodMinder-Cell 3G: 60e_hubs_Cell_3G.md
-  - Tokens: 65_tokens.md
+  - Memberships: 65_memberships.md
   - _____: void.md
   - Example setups: 73_Examples.md
   - Data interpretation: 76_data_interpretation.md
@@ -93,7 +93,6 @@ nav:
   - Tech Stuff and Physics: 87_physics_and_tech_stuff.md
   - Repair Guide: 89_repair_guide.md
   - _____: void.md
-  - Distributors: 94_distributorInfo.md
   - Legacy Devices: 97_legacy_devices.md
   - _____: void.md
   - About: 98_about.md
@@ -168,6 +167,7 @@ plugins:
           site_name: "GUÍA DEL USUARIO"
           nav_translations:
             Home: Inicio
+            Introduction: Introducción
             Quick start guide 🚀: Guía de inicio rápido 🚀
             Sensors: Sensores
             Product range: Gama de productos
@@ -179,7 +179,7 @@ plugins:
             BroodMinder Device Updates: Actualizaciones de dispositivos BroodMinder
             BroodMinder Hub Updates: Actualizaciones de hubs BroodMinder
             Video Library: Biblioteca de videos
-            Training Sessions: Sesiones de entrenamiento
+            Training Sessions: Sesiones de formación
             General: General
             Tech Stuff and Physics: Información técnica y física
             Troubleshooting: Solución de problemas
@@ -194,6 +194,7 @@ plugins:
           site_name: "GUIDA DELL'UTENTE"
           nav_translations:
             Home: Home
+            Introduction: Introduzione
             Quick start guide 🚀 : Guida rapida 🚀
             Sensors: Sensori
             Product range: Gamma di prodotti
@@ -220,6 +221,7 @@ plugins:
           site_name: "BENUTZERHANDBUCH"
           nav_translations:
             Home: Startseite
+            Introduction: Einführung
             Quick start guide 🚀 : Schnellstartanleitung 🚀
             Sensors: Sensoren
             Product range: Produktreihe
@@ -246,6 +248,7 @@ plugins:
           site_name: "ユーザーガイド"
           nav_translations:
             Home: ホーム
+            Introduction: 導入
             Quick start guide 🚀 : クイックスタートガイド 🚀
             Sensors: センサー
             Product range: 製品ラインナップ
@@ -272,6 +275,7 @@ plugins:
           site_name: "GEBRUIKERSGIDS"
           nav_translations:
             Home: Thuis
+            Introduction: Inleiding
             Quick start guide 🚀: Snelle startgids 🚀
             Sensors: Sensoren
             Product range: Productassortiment
@@ -298,6 +302,7 @@ plugins:
           site_name: "BRUKERHÅNDBOK"
           nav_translations:
             Home: Hjem
+            Introduction: Introduksjon
             Quick start guide 🚀 : Rask oppstartsguide 🚀
             Sensors: Sensorer
             Product range: Produktutvalg
@@ -324,6 +329,7 @@ plugins:
           site_name: "GUIA DO USUÁRIO"
           nav_translations:
             Home: Início
+            Introduction: Introdução
             Quick start guide 🚀 : Guia de início rápido 🚀
             Sensors: Sensores
             Product range: Gama de produtos
@@ -350,6 +356,7 @@ plugins:
           site_name: "دليل المستخدم"
           nav_translations:
             Home: الصفحة الرئيسية
+            Introduction: مقدمة
             Quick start guide 🚀 : دليل البدء السريع 🚀
             Sensors: أجهزة الاستشعار
             Product range: نطاق المنتجات

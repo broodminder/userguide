@@ -57,18 +57,6 @@ Don't worry as long as the battery is replaced. The sensors will last for many y
 
 ## Login & settings
 
-### What can I do if I can't log in Mellisphera ?
-
-Contact us via the link below the login button. We will help you as fast as possible. 
-
-![Login problem](../assets/images/fail_login.png#mediumImg)
-
-### I'd like to explore Mellisphera but I'm not equipped yet ###
-
-You can use our demo account. You will visualize data from a few hives so you can see the solution functionalities. Browse and edit freely, we reset the account every night!
-
-![Demo account](../assets/images/demo_account.png#mediumImg)
-
 
 ### When is the data updated?
 The hourly data is updated every hour if new data is available. 
