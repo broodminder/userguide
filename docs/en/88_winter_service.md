@@ -1,5 +1,8 @@
 # Winter Service Check-List  
 
+![image](../assets/88_winter_service/sync.jpg){ style="display: block; margin: 0 auto" }
+
+
 To ensure peace of mind and greater efficiency, we recommend servicing all of your devices at the **end of each season**. Starting the next season with devices that have **empty memory, fresh batteries, and updated firmware** will give you the best chance for success.  
 
 If you’d prefer us to handle this for you, visit [BroodMinder-Refresh](https://broodminder.com/products/refresh-broodminder-t2) at BroodMinder.com. We’ll clean, test, replace batteries and housings. If a device fails testing, we’ll contact you and offer a **refurbished unit at 50% of the cost of a new device**.
@@ -22,18 +25,19 @@ If you’d prefer us to handle this for you, visit [BroodMinder-Refresh](https:/
     For example, check [Farnell](https://fr.farnell.com/renata/cr-2032-mfr-1bl/pile-bouton-3v/dp/1823479?st=cr2032) for fair pricing (~€0.50).  
 
 - [ ] **Gather all your devices** and bring them home for servicing in a comfortable environment.  
-- [ ] Perform a **full sync** of all devices using the Bees App to ensure no data is missed.  
+- [ ] Perform a **full sync** of all devices using the Bees App (`Manage Tab > Sync`) to ensure no data is missed.  
     - Leave your phone syncing while charging and enjoy a coffee (or two).  
 
-![Sync Devices](../assets/88_winter_service/sync.jpg)
+![Device Sync](../assets/88_winter_service/devices_sync.jpg)
 
-Once syncing is complete, **check for firmware upgrades**.  
 
+- Once syncing is complete move to the Devces tab and **check for firmware upgrades**.
 ![Firmware Upgrade](../assets/88_winter_service/firmware_upgrade.png)
 
 ---
 
-## T3 & TH3 (Models 47 & 56)  
+### T3 & TH3 
+(Models 47 & 56)  
 
 - Clean any dirt using **Isopropyl Alcohol**.  
 - Replace the **CR2032 lithium battery**.  
@@ -43,7 +47,8 @@ Once syncing is complete, **check for firmware upgrades**.
 
 ---
 
-## Scales: W+, W3, W4, W5 (models 49 and 57) ) 
+### Scales: W+, W3, W4, W5 
+(models 49 and 57)
 
 All our current scales use standard **AA batteries** (W+ uses **AAA**). Replace them if charge is below 30%.  
 
@@ -61,14 +66,15 @@ All our current scales use standard **AA batteries** (W+ uses **AAA**). Replace 
 
 ---
 
-## 4G Cell Hub (Model 54)  
+### 4G Cell Hub 
+(Model 54)  
 
 The BroodMinder-T91 hub has an internal battery lasting **4-5 months**. Recharge it fully with a USB charger (**4 hours**).  
 
 !!! warning  
     Ensure the **power switch is ON** during charging.  
 
-### Firmware Upgrades  
+**T91 Firmware Upgrades**
 
 Regular updates are released for reliability. To check your firmware:  
 - Go to `Devices tab > Hub ID > ... > Show details`.  
@@ -91,11 +97,11 @@ Regular updates are released for reliability. To check your firmware:
 
 ---
 
-# Legacy Devices  
+## Legacy Devices  
 
 Below are the detailed procedures for older models that are still supported.  
 
-## T2 (Before 2023, Models 41 & 47)  
+### T2 (Before 2023, Models 41 & 47)  
 
 - [ ] Replace the battery as shown in this [video](https://www.youtube.com/watch?v=alaZtXpn-g4).  
 [![Battery Replacement](https://img.youtube.com/vi/alaZtXpn-g4/0.jpg)](https://www.youtube.com/watch?v=alaZtXpn-g4)
@@ -106,7 +112,7 @@ Below are the detailed procedures for older models that are still supported.
 - [ ] Upgrade firmware using this [guide](https://www.youtube.com/watch?v=zK4vYvpur1E).  
 [![Firmware Upgrade](https://img.youtube.com/vi/zK4vYvpur1E/0.jpg)](https://www.youtube.com/watch?v=zK4vYvpur1E)
 
-## TH (Before 2020, Model 42)  
+### TH (Before 2020, Model 42)  
 
 - [ ] Replace the battery as shown in this [video](https://www.youtube.com/watch?v=tJTuL12vjps).  
 [![Battery Replacement](https://img.youtube.com/vi/tJTuL12vjps/0.jpg)](https://www.youtube.com/watch?v=tJTuL12vjps)
