@@ -28,7 +28,7 @@ We are happy to help you configure your system. The variety of apiary locations 
 
 From time to time we make updates to improve the operation of our sensors. BroodMinder devices use OTA (Over The Air) firmware updates and are very simple to perform. 
 
-### Updating BroodMinder-T91 Cell hub
+### Upgrading BroodMinder-T91 Cell hub
 
 - Check current hub firmware installed with Bees App (see below)
 - Trigger the upgrade (see below)
@@ -41,9 +41,6 @@ From time to time we make updates to improve the operation of our sensors. Brood
 
 You're done. 
 
-<br>
-<hr> 
-<br>
 
 ### Check the hub Firmware 
 
