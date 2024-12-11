@@ -1,4 +1,4 @@
-# Winter Service Check-List  
+# Winter Service  
 
 ![image](../assets/88_winter_service/sync.jpg){ style="display: block; margin: 0 auto" }
 
@@ -21,12 +21,12 @@ If you’d prefer us to handle this for you, visit [BroodMinder-Refresh](https:/
 - **Gather all your devices** and bring them home for servicing in a comfortable environment.  
 - Perform a **full sync** of all devices using the Bees App (`Manage Tab > Sync`) to ensure no data is missed. Leave your phone syncing and enjoy a coffee (or two).  
 
-![Device Sync](../assets/88_winter_service/devices_sync.jpg)
+![Device Sync](../assets/88_winter_service/devices_sync.jpg#mediumImg)
 
 
 - Once syncing is complete move to the `Devices` tab and **check for firmware upgrades**.
 
-![Firmware Upgrade](../assets/88_winter_service/firmware_upgrade.png)
+![Firmware Upgrade](../assets/88_winter_service/firmware_upgrade.png#mediumImg)
 
 ---
 
@@ -99,19 +99,19 @@ Below are the detailed procedures for our older models that are still supported.
 ### T2 - Before 2023,
 (Models 41 & 47)  
 
-- [ ] Replace the battery as shown in this [video](https://www.youtube.com/watch?v=alaZtXpn-g4).  
+- Replace the battery as shown in this [video](https://www.youtube.com/watch?v=alaZtXpn-g4).  
 [![Battery Replacement](https://img.youtube.com/vi/alaZtXpn-g4/0.jpg)](https://www.youtube.com/watch?v=alaZtXpn-g4)
 
-- [ ] Power the device as demonstrated [here](https://www.youtube.com/watch?v=tN9xUTq_bSc).  
+- Power the device as demonstrated [here](https://www.youtube.com/watch?v=tN9xUTq_bSc).  
 [![Power Device](https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg)](https://www.youtube.com/watch?v=tN9xUTq_bSc)
 
-- [ ] Upgrade firmware using this [guide](https://www.youtube.com/watch?v=zK4vYvpur1E).  
+- Upgrade firmware using this [guide](https://www.youtube.com/watch?v=zK4vYvpur1E).  
 [![Firmware Upgrade](https://img.youtube.com/vi/zK4vYvpur1E/0.jpg)](https://www.youtube.com/watch?v=zK4vYvpur1E)
 
 ### TH - Before 2020
 (Model 42)  
 
-- [ ] Replace the battery as shown in this [video](https://www.youtube.com/watch?v=tJTuL12vjps).  
+- Replace the battery as shown in this [video](https://www.youtube.com/watch?v=tJTuL12vjps).  
 [![Battery Replacement](https://img.youtube.com/vi/tJTuL12vjps/0.jpg)](https://www.youtube.com/watch?v=tJTuL12vjps)
 
 ### W - Before 2021
@@ -145,6 +145,7 @@ Before updating firmware, ensure you’re using the latest **Bees App** version 
 5. Verify the update was successful.  
 
 If the update fails:  
+
 - Remove the batteries for 1 minute, replace them, and retry.  
 - If the issue persists, contact [support@broodminder.com](mailto:support@broodminder.com).  
 
