@@ -51,7 +51,19 @@ nav:
   - Daily Use: 21_daily_use.md
   - _____: void.md
   - BeesApp: 40_beesApp.md
-  - MyBroodminder: 50_mybroodminder_v5.md
+  - MyBroodminder: 
+      - Overview: 50_mybroodminder_v5.md
+      - Apiaries & Hives: 50_mybroodminder_v5a_apiaries.md
+      - Devices: 50_mybroodminder_v5b_devices.md
+      - Notes & Inspections: 50_mybroodminder_v5c_notes.md
+      - QueenMinder: 50_mybroodminder_v5c_queenminder.md
+      - Temperature & Brood: 50_mybroodminder_v5c_temperature.md
+      - Weight & Productivity: 50_mybroodminder_v5d_weight.md
+      - Foraging: 50_mybroodminder_v5e_foraging.md
+      - Alerts: 50_mybroodminder_v5f_alerts.md
+      - Plants: 50_mybroodminder_v5g_plants.md
+      - Weather: 50_mybroodminder_v5h_weather.md
+      - Sharing: 50_mybroodminder_v5i_sharing.md
   - Sensors:
       - Overview:  30_sensors.md
       - BroodMinder TH & T: 31_sensors_T_TH.md
@@ -77,7 +89,6 @@ nav:
       - BroodMinder-SubHub: 60c_hubs_SubHub.md
       - BroodMinder-LoRa : 60d_hubs_LoRa.md
       - BroodMinder-Cell 3G: 60e_hubs_Cell_3G.md
-  - _____: void.md
   - Memberships: 65_memberships.md
   - _____: void.md
   - Example setups: 73_Examples.md
@@ -94,35 +105,33 @@ nav:
   - Tech Stuff and Physics: 87_physics_and_tech_stuff.md
   - Winter Service: 88_winter_service.md
   - Repair Guide: 89_repair_guide.md
-  - _____: void.md
   - Legacy Devices: 97_legacy_devices.md
   - _____: void.md
   - About: 98_about.md
-  - _____: void.md
 
 plugins:
 # PDF User Guide generation only in EN 
-  - with-pdf:
-      enabled_if_env: ENABLE_PDF_EXPORT
-      heading_shift: false
-      toc_level: 3
-      ordered_chapter_level: 2
-      two_columns_level: 3
-      output_path: pdf/userguide.pdf
-      cover_logo: assets/images/BroodMinder_Left_Green_en_590px.png
-      cover_subtitle: Welcome to the world of BroodMinder
-      exclude_pages:
-        - 'index.html'
-        - 'void/'
-        - 'fr/'
-        - 'de/'
-        - 'es/'
-        - 'it/'
-        - 'ja/'
-        - 'pt/'
-        - 'nl/'
-        - 'nn/'
-        - 'ar/'
+  # - with-pdf:
+  #     enabled_if_env: ENABLE_PDF_EXPORT
+  #     heading_shift: false
+  #     toc_level: 3
+  #     ordered_chapter_level: 2
+  #     two_columns_level: 3
+  #     output_path: pdf/userguide.pdf
+  #     cover_logo: assets/images/BroodMinder_Left_Green_en_590px.png
+  #     cover_subtitle: Welcome to the world of BroodMinder
+  #     exclude_pages:
+  #       - 'index.html'
+  #       - 'void/'
+  #       - 'fr/'
+  #       - 'de/'
+  #       - 'es/'
+  #       - 'it/'
+  #       - 'ja/'
+  #       - 'pt/'
+  #       - 'nl/'
+  #       - 'nn/'
+  #       - 'ar/'
   - search
   #Language management, see readme for adding new langs
   - i18n:

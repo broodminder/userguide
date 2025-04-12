@@ -162,7 +162,7 @@ Now look to your data using `... > Show Graph` or `... > Show Details`.
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 6. Power-On your Hub
 
 This stage is intended for those owning a Hub for real time monitoring.
-If you do not have a Hub, move to the [next chapter](#🐝-now-move-to-the-apiary).
+If you do not have a Hub, move to the [next chapter](#-now-move-to-the-apiary).
 
 Remember from [Hubs page](./60_hubs.md) that there are several hub versions: 
 
