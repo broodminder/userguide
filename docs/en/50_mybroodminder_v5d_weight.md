@@ -1,5 +1,12 @@
 # Working with Weight and Productivity
 
+<div align="center" >
+<a href="https://www.youtube.com/watch?v=ZUkm1N2izJ0" target="_blank">
+  <img src="https://img.youtube.com/vi/ZUkm1N2izJ0/0.jpg" alt="Monitoring Weight">
+</a>
+</div>
+
+
 Tracking and experiencing nectar flows is one of the most fascinating aspects of beekeeping. Plants release nectar, bees find it, love it, and bring it home.  
 That’s how it’s supposed to work, right?  
 But the real questions are: **When does it happen? For how long? How intense is it?**
@@ -8,10 +15,7 @@ A hive scale answers all those questions — information that would otherwise re
 Instead of just thinking *“I guess there was a nectar flow because the bees looked busy”* (if you even saw them), you’ll be able to **quantify** and **visualize** the event.  
 It’s a truly amazing experience.
 
----
-<a href="https://www.youtube.com/watch?v=ZUkm1N2izJ0" target="_blank">
-  <img src="https://img.youtube.com/vi/ZUkm1N2izJ0/0.jpg" alt="Monitoring Weight">
-</a>
+
 
 ## Spotting a nectar flow
 

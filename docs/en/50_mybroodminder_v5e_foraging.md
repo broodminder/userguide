@@ -3,13 +3,19 @@
 
 # Working with Foraging
 
+<div align="center" >
+<a href="https://www.youtube.com/watch?v=itsttEXKm_I" target="_blank">
+  <img src="https://img.youtube.com/vi/itsttEXKm_I/0.jpg" alt="Monitoring Weight">
+</a>
+</div>
+
 Forager bees embark daily on a mission to collect resources essential for the colony’s survival — and for pollination, of course! Monitoring foraging activity provides valuable insights into hive health and ecosystem interaction.
 
 There are several ways to track forager activity, such as **bee counters** and **cameras**. But **BroodMinder-BeeDar** offers something different: a **non-invasive**, **battery-powered**, radar-based system that works on any hive, with **no optical setup required**. It uses the **Doppler effect** to measure motion at the hive entrance — quietly and efficiently.
 
 Watch the video:
 
-[![BeeDar Video](https://img.youtube.com/vi/itsttEXKm_I/0.jpg)](https://www.youtube.com/watch?v=itsttEXKm_I)
+
 
 !!! tip "BeeDar also works with Bumblebees! 🐝"
     In 2021 we made extensive campaigns with bumblebees using BeeDar and the results are amazing. "BumbleDar" is a specific version of BeeDar with a dedicated firmware to adjust to bumple bees activity patterns. 

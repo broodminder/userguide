@@ -123,7 +123,3 @@ Before we move further you can configure your preferences and manage your member
 - User details : your name, email, password but also account deletion
 - Membership : Membership type, hives allowed, expiration date
 - Regional Settings : Units, time zone and language are set to browser default but you can force specific aspects.
-
---- 
-
-Voici une version améliorée et structurée de ton texte pour le guide utilisateur, avec des corrections de grammaire, une meilleure fluidité et un ton plus professionnel :

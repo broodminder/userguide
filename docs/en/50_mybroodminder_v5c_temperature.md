@@ -1,4 +1,11 @@
-# Working with Temperature and Brood
+# Working with Temperature & Brood
+
+
+<div align="center">
+<a href="https://www.youtube.com/watch?v=oiXLpn-AbrE" target="_blank">
+  <img src="https://img.youtube.com/vi/oiXLpn-AbrE/0.jpg" alt="Monitoring Temperature">
+</a>
+</div>
 
 Brood is arguably the most essential aspect of a beehive. Whether it is present or not, increasing or decreasing, compact or sparse... brood tells you if the hive is queen-right and it guides your inspections and beekeeping decisions.
 
@@ -8,11 +15,6 @@ Because we don’t know what kind of hive you’re using (6-8-10-12 frame / Lang
 
 Familiarize yourself with these values in your own hives.  
 As a starting point: in a 10-frame hive, 90% brood could mean 9 frames, 80% about 8 frames, and so on. However, this varies with hive configuration, so learn what these percentages mean for your bees.
-
-
-<a href="https://www.youtube.com/watch?v=oiXLpn-AbrE" target="_blank">
-  <img src="https://img.youtube.com/vi/oiXLpn-AbrE/0.jpg" alt="Monitoring Temperature">
-</a>
 
 
 ## Why does temperature indicate brood?

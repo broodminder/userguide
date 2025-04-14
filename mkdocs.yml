@@ -50,20 +50,6 @@ nav:
   - Quick start guide 🚀 : 20_quick_start_guide.md
   - Daily Use: 21_daily_use.md
   - _____: void.md
-  - BeesApp: 40_beesApp.md
-  - MyBroodminder: 
-      - Overview: 50_mybroodminder_v5.md
-      - Apiaries & Hives: 50_mybroodminder_v5a_apiaries.md
-      - Devices: 50_mybroodminder_v5b_devices.md
-      - Notes & Inspections: 50_mybroodminder_v5c_notes.md
-      - QueenMinder: 50_mybroodminder_v5c_queenminder.md
-      - Temperature & Brood: 50_mybroodminder_v5c_temperature.md
-      - Weight & Productivity: 50_mybroodminder_v5d_weight.md
-      - Foraging: 50_mybroodminder_v5e_foraging.md
-      - Alerts: 50_mybroodminder_v5f_alerts.md
-      - Plants: 50_mybroodminder_v5g_plants.md
-      - Weather: 50_mybroodminder_v5h_weather.md
-      - Sharing: 50_mybroodminder_v5i_sharing.md
   - Sensors:
       - Overview:  30_sensors.md
       - BroodMinder TH & T: 31_sensors_T_TH.md
@@ -89,9 +75,23 @@ nav:
       - BroodMinder-SubHub: 60c_hubs_SubHub.md
       - BroodMinder-LoRa : 60d_hubs_LoRa.md
       - BroodMinder-Cell 3G: 60e_hubs_Cell_3G.md
+  - MyBroodminder: 
+      - Overview: 50_mybroodminder_v5.md
+      - Apiaries & Hives: 50_mybroodminder_v5a_apiaries.md
+      - Devices: 50_mybroodminder_v5b_devices.md
+      - Notes & Inspections: 50_mybroodminder_v5c_notes.md
+      - QueenMinder: 50_mybroodminder_v5c_queenminder.md
+      - Temperature & Brood: 50_mybroodminder_v5c_temperature.md
+      - Weight & Productivity: 50_mybroodminder_v5d_weight.md
+      - Foraging: 50_mybroodminder_v5e_foraging.md
+      - Alerts: 50_mybroodminder_v5f_alerts.md
+      - Plants: 50_mybroodminder_v5g_plants.md
+      - Weather: 50_mybroodminder_v5h_weather.md
+      - Sharing: 50_mybroodminder_v5i_sharing.md
+  - The Bees App: 40_beesApp.md
   - Memberships: 65_memberships.md
   - _____: void.md
-  - Example setups: 73_Examples.md
+  - Example setups: 73_examples.md
   - Data interpretation: 76_data_interpretation.md
   - Beecounted: 79_beecounted.md
   - Bee-Life: 82_beelife.md

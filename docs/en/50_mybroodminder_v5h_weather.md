@@ -1,5 +1,5 @@
 
-## Working with Weather
+# Working with Weather
 
 Weather conditions are a key aspect of beekeeping. You simply can't manage your apiary without considering the weather. It influences everything — from **inspection timing**, **splitting**, and **feeding needs**, to **bloom onset** and **nectar flow** in the surrounding environment. In short, weather matters — a lot.
 
@@ -16,7 +16,7 @@ When you expand this section, you'll see the default weather service **WeatherSo
     ![weather](../assets/50_mybroodminder_v5.assets/weather/finetunemap.png#smallImg)
 
 
-### Sources
+## Sources
 
 You can also add a **local weather source** using the `...` menu. This allows you to assign a BroodMinder device (like a **Weather Hub** or **BroodMinder-T/TH**) to provide real-time weather readings from the apiary itself.
 
@@ -28,7 +28,7 @@ You can also add a **local weather source** using the `...` menu. This allows yo
 
 Now that you acquired a deeper understanding of the different weather sources into myBroodMinder, it's time to see how to manage them and exploit the most for your beekeeping practice.
 
-### Weather tab
+## Weather tab
 
 The best place to start is the **Weather tab** in your dashboard canvas. This tab displays all the selected weather sources for your apiary.
 
@@ -48,7 +48,7 @@ Depending on the local source, you may see temperature, humidity, or both.
 
 > The thick dashed vertical grey lines represent the start of each day; the thin ones mark noon.
 
-### Forecast
+## Forecast
 
 Once you're familiar with your current weather sources, you can look ahead with the forecast. In the calendar picker, check the **"Show 10-day forecast"** option:
 
@@ -68,7 +68,7 @@ Note that **cloud cover is not included in forecasts**.
 At this stage, we have seen how to assess and compare multiple weather sources. **While this deep insight is useful, it's not always practical to analyze raw weather data every day**. That's why we’ve developed tools to automate the processing and translate weather into beekeeping-relevant insights. Let's check now in depth the **Foraging Index** and the **Nectar Flow Index**.
 
 
-### Indexes
+## Indexes
 
 Indexes provide a synthetic view of weather suitability for bees and plants.
 
@@ -112,7 +112,7 @@ In practice, the **Nectar Flow Index** is often the most informative. It helps y
         Use your observations and recorded data to make informed decisions about hive management.
             For example, if the NFI indicates that nectar flow is likely but your bees are not active, check for other factors such as plants blooming, hive health or local microclimate conditions.<br>Plan hive movements or resource supplementation based on anticipated nectar flows.
 
-### Overlay 
+## Overlay 
 
 You can display weather data from **multiple apiaries side-by-side**. This is helpful when:
 
@@ -125,14 +125,14 @@ Simply select the weather item from each apiary to view them together.
     Each apiary has a unique color assigned. Weather series follow this color for easy identification.  
     You can customize the color under `Apiary Name > ... > Edit Apiary > Color`.
 
-### Colormaps
+## Colormaps
 
 For a quick overview of upcoming weather, you can also use **colormaps**.  
 These are available in the `Home > Apiary` panel and offer a compact, synthetic view of expected conditions over the next 10 days — great for comparing locations at a glance.
 
 ![weather](../assets/50_mybroodminder_v5.assets/weather/colormap.png)
 
-### Customize
+## Customize
 
 All the weather magnitudes are avaialable as widgets in the toolbox to build your custom dashboard 
 
