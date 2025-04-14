@@ -8,7 +8,7 @@ We've made lots of videos over the years. Here is a list of them with links.
 - <a href="https://youtu.be/B14U5S49EEE" target="_blank">BroodMinder ASP Installation</a>
 - <a href="https://youtu.be/Y0EgtksIqHU" target="_blank">BroodMinder-SubHub</a>
 - <a href="https://youtu.be/10jw51jqmT0" target="_blank">BroodMinder-WIFI</a>
-- <a href="https://youtu.be/4Mh9DT7VblI" target="_blank">BroodMinder-CELL</a>
+- <a href="https://youtu.be/l-85IgbXxZU" target="_blank">BroodMinder-CELL</a>
 - <a href="https://youtu.be/Pw1EFYKX2KU" target="_blank">BroodMinder-BeeDar</a>
 - <a href="https://youtu.be/tI6Kw-PU_3A" target="_blank">S1:E17 BroodMinder-W3 Full Hive Scale</a>
 - <a href="https://youtu.be/3xdnkD1NpHo" target="_blank">S1:E19 BroodMinder-DIY</a>

@@ -1,7 +1,8 @@
+<div style="text-align:center;"><img src="../assets/60_hubs.assets/lora/Lora_Hub_540x.jpg"></div>
 
-# BroodMinder-LoRa (BRM-65)
 
-## Short Intro
+## BroodMinder-LoRa (BRM-65)
+
 LoRa (Long Range) and LoRaWAN (Long Range Wide Area Network) are technologies designed for low-power, long-range wireless communication.
 
 - LoRa is a physical layer (or radio modulation) that enables long-range, low-power communication between devices. It uses a spread-spectrum technique to achieve high sensitivity and range, allowing devices to communicate over several kilometers with minimal energy consumption.
@@ -11,8 +12,6 @@ LoRa (Long Range) and LoRaWAN (Long Range Wide Area Network) are technologies de
 In summary, LoRa provides the physical layer for long-range communication, while LoRaWAN provides the network protocol and management to support scalable, low-power, wide-area networks.
 
 ## LoRa Hub
-
-![lora hub](../assets/60_hubs.assets/lora/lora_hub.png)
 
 The LoRa hub is working very similar to all other Cell or wifi hubs. It is tracking all the devices and sends any new data to the cloud every 10 minutes. The major diference is that instead of using a cellular network, it will use the radio frequency 915Mhz (US) and 868MHz (EU) dedicated to LoRa.
 

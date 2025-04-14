@@ -51,7 +51,19 @@ nav:
   - Daily Use: 21_daily_use.md
   - _____: void.md
   - BeesApp: 40_beesApp.md
-  - MyBroodminder: 50_mybroodminder_v5.md
+  - MyBroodminder: 
+      - Overview: 50_mybroodminder_v5.md
+      - Apiaries & Hives: 50_mybroodminder_v5a_apiaries.md
+      - Devices: 50_mybroodminder_v5b_devices.md
+      - Notes & Inspections: 50_mybroodminder_v5c_notes.md
+      - QueenMinder: 50_mybroodminder_v5c_queenminder.md
+      - Temperature & Brood: 50_mybroodminder_v5c_temperature.md
+      - Weight & Productivity: 50_mybroodminder_v5d_weight.md
+      - Foraging: 50_mybroodminder_v5e_foraging.md
+      - Alerts: 50_mybroodminder_v5f_alerts.md
+      - Plants: 50_mybroodminder_v5g_plants.md
+      - Weather: 50_mybroodminder_v5h_weather.md
+      - Sharing: 50_mybroodminder_v5i_sharing.md
   - Sensors:
       - Overview:  30_sensors.md
       - BroodMinder TH & T: 31_sensors_T_TH.md
@@ -77,7 +89,7 @@ nav:
       - BroodMinder-SubHub: 60c_hubs_SubHub.md
       - BroodMinder-LoRa : 60d_hubs_LoRa.md
       - BroodMinder-Cell 3G: 60e_hubs_Cell_3G.md
-  - Tokens: 65_tokens.md
+  - Memberships: 65_memberships.md
   - _____: void.md
   - Example setups: 73_Examples.md
   - Data interpretation: 76_data_interpretation.md
@@ -91,37 +103,35 @@ nav:
       - MyBroodMinder: 91_Training_MyBroodMinder.md
       - Bees App: 92_Training_BeesApp.md
   - Tech Stuff and Physics: 87_physics_and_tech_stuff.md
+  - Winter Service: 88_winter_service.md
   - Repair Guide: 89_repair_guide.md
-  - _____: void.md
-  - Distributors: 94_distributorInfo.md
   - Legacy Devices: 97_legacy_devices.md
   - _____: void.md
   - About: 98_about.md
-  - _____: void.md
 
 plugins:
 # PDF User Guide generation only in EN 
-  - with-pdf:
-      enabled_if_env: ENABLE_PDF_EXPORT
-      heading_shift: false
-      toc_level: 3
-      ordered_chapter_level: 2
-      two_columns_level: 3
-      output_path: pdf/userguide.pdf
-      cover_logo: assets/images/BroodMinder_Left_Green_en_590px.png
-      cover_subtitle: Welcome to the world of BroodMinder
-      exclude_pages:
-        - 'index.html'
-        - 'void/'
-        - 'fr/'
-        - 'de/'
-        - 'es/'
-        - 'it/'
-        - 'ja/'
-        - 'pt/'
-        - 'nl/'
-        - 'nn/'
-        - 'ar/'
+  # - with-pdf:
+  #     enabled_if_env: ENABLE_PDF_EXPORT
+  #     heading_shift: false
+  #     toc_level: 3
+  #     ordered_chapter_level: 2
+  #     two_columns_level: 3
+  #     output_path: pdf/userguide.pdf
+  #     cover_logo: assets/images/BroodMinder_Left_Green_en_590px.png
+  #     cover_subtitle: Welcome to the world of BroodMinder
+  #     exclude_pages:
+  #       - 'index.html'
+  #       - 'void/'
+  #       - 'fr/'
+  #       - 'de/'
+  #       - 'es/'
+  #       - 'it/'
+  #       - 'ja/'
+  #       - 'pt/'
+  #       - 'nl/'
+  #       - 'nn/'
+  #       - 'ar/'
   - search
   #Language management, see readme for adding new langs
   - i18n:
@@ -143,7 +153,9 @@ plugins:
           nav_translations:
             Home: Accueil
             Quick start guide 🚀 : Guide de démarrage rapide 🚀
+            Daily use: Utilisation quotidienne
             Sensors: Capteurs
+            Memberships: Abonnements
             Product range: Gamme de capteurs
             General aspects: Généralités
             Scale Assembly: Assemblage de la balance
@@ -168,8 +180,11 @@ plugins:
           site_name: "GUÍA DEL USUARIO"
           nav_translations:
             Home: Inicio
+            Introduction: Introducción
             Quick start guide 🚀: Guía de inicio rápido 🚀
+            Daily use: Uso diario
             Sensors: Sensores
+            Memberships: Suscripciones
             Product range: Gama de productos
             General aspects: Generalidades
             Scale Assembly: Montaje de la balanza
@@ -179,9 +194,9 @@ plugins:
             BroodMinder Device Updates: Actualizaciones de dispositivos BroodMinder
             BroodMinder Hub Updates: Actualizaciones de hubs BroodMinder
             Video Library: Biblioteca de videos
-            Training Sessions: Sesiones de entrenamiento
+            Training Sessions: Sesiones de formación
             General: General
-            Tech Stuff and Physics: Información técnica y física
+            Tech Stuff and Physics: Información técnica
             Troubleshooting: Solución de problemas
             Repair Guide: Guía de reparación
             Distributors: Distribuidores
@@ -194,11 +209,14 @@ plugins:
           site_name: "GUIDA DELL'UTENTE"
           nav_translations:
             Home: Home
+            Introduction: Introduzione
             Quick start guide 🚀 : Guida rapida 🚀
+            Daily Use: Uso quotidiano
             Sensors: Sensori
+            Memberships: Abbonamenti
             Product range: Gamma di prodotti
             General aspects: Aspetti generali
-            Scale Assembly: Montaggio della bilancia
+            Scale assembly: Montaggio della bilancia
             Yolink devices: Dispositivi Yolink
             Example setups: Esempi di configurazioni
             Data interpretation: Interpretazione dei dati
@@ -220,24 +238,27 @@ plugins:
           site_name: "BENUTZERHANDBUCH"
           nav_translations:
             Home: Startseite
+            Introduction: Einführung
             Quick start guide 🚀 : Schnellstartanleitung 🚀
+            Daily use: Täglicher Gebrauch
             Sensors: Sensoren
+            Memberships: Mitgliedschaften
             Product range: Produktreihe
             General aspects: Allgemeine Aspekte
-            Scale Assembly: Montage der Waage
+            Scale assembly: Montage der Waage
             Yolink devices: Yolink-Geräte
             Example setups: Beispielaufbauten
             Data interpretation: Dateninterpretation
             BroodMinder Device Updates: BroodMinder Geräte-Updates
             BroodMinder Hub Updates: BroodMinder Hub-Updates
-            Video Library: Videothek
-            Training Sessions: Schulungssitzungen
+            Video library: Videothek
+            Training sessions: Schulungssitzungen
             General: Allgemeines
             Tech Stuff and Physics: Technik und Physik
             Troubleshooting: Fehlerbehebung
-            Repair Guide: Reparaturanleitung
+            Repair guide: Reparaturanleitung
             Distributors: Händler
-            Legacy Devices: Legacy-Geräte
+            Legacy devices: Legacy-Geräte
             About: Über
         - locale: ja
           link: /ja/
@@ -246,8 +267,11 @@ plugins:
           site_name: "ユーザーガイド"
           nav_translations:
             Home: ホーム
+            Introduction: 導入
             Quick start guide 🚀 : クイックスタートガイド 🚀
+            Daily use: 日常使用
             Sensors: センサー
+            Memberships: メンバーシップ
             Product range: 製品ラインナップ
             General aspects: 一般的な側面
             Scale Assembly: スケールの組み立て
@@ -272,8 +296,11 @@ plugins:
           site_name: "GEBRUIKERSGIDS"
           nav_translations:
             Home: Thuis
+            Introduction: Inleiding
             Quick start guide 🚀: Snelle startgids 🚀
+            Daily use: Dagelijks gebruik
             Sensors: Sensoren
+            Memberships: Lidmaatschappen
             Product range: Productassortiment
             General aspects: Algemene aspecten
             Scale Assembly: Weegschalenassemblage
@@ -298,8 +325,11 @@ plugins:
           site_name: "BRUKERHÅNDBOK"
           nav_translations:
             Home: Hjem
+            Introduction: Introduksjon
             Quick start guide 🚀 : Rask oppstartsguide 🚀
+            Daily use: Daglig bruk
             Sensors: Sensorer
+            Memberships: Medlemskap
             Product range: Produktutvalg
             General aspects: Generelle aspekter
             Scale Assembly: Montering av vekt
@@ -324,8 +354,11 @@ plugins:
           site_name: "GUIA DO USUÁRIO"
           nav_translations:
             Home: Início
+            Introduction: Introdução
             Quick start guide 🚀 : Guia de início rápido 🚀
+            Daily use: Uso diário
             Sensors: Sensores
+            Memberships: Assinaturas
             Product range: Gama de produtos
             General aspects: Aspectos gerais
             Scale Assembly: Montagem da balança
@@ -342,7 +375,7 @@ plugins:
             Repair Guide: Guia de reparação
             Distributors: Distribuidores
             Legacy Devices: Dispositivos antigos
-            About: Sobre
+            About: Sobre nós
         - locale: ar
           link: /ar/
           name: 🇦🇪 Arabic
@@ -350,8 +383,11 @@ plugins:
           site_name: "دليل المستخدم"
           nav_translations:
             Home: الصفحة الرئيسية
+            Introduction: مقدمة
             Quick start guide 🚀 : دليل البدء السريع 🚀
+            Daily use: الاستخدام اليومي
             Sensors: أجهزة الاستشعار
+            Memberships: اشتراكات
             Product range: نطاق المنتجات
             General aspects: الجوانب العامة
             Scale Assembly: تجميع المقياس

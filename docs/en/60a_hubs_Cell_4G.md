@@ -1,10 +1,12 @@
-# BroodMinder-T91 Cell Hub (BRM-54)
+<div style="text-align:center;"><img src="../assets/60_hubs.assets/Cell_T91.jpeg"></div>
+
+
+
+## BroodMinder-T91 Cell Hub (BRM-54)
 
 The BroodMinder-T91 Cell Hub is based on the Nordic "Thingy 91".
 
 You will find an installation video [here](https://youtu.be/4Mh9DT7VblI).
-
-![image-20230408081237234](../assets/60_hubs.assets/image-20230408081237234.png#mediumImg)
 
 Installation is super easy because we set everything up before shipping.
 
@@ -32,9 +34,27 @@ Installation is super easy because we set everything up before shipping.
 
 - If you have a naked T91, then ensure that it is in a weatherproof housing of some sort. We recommend the Lacrosse Solar Shield. We also recommend that you place the T91 in the mesh bag we include. This will keep out small bugs (such as earwigs) which are attracted to the slight warmth.
 
-### Optional   
+### Solar version
 
-- ![image-20230408083616388](../assets/60_hubs.assets/image-20230408083616388.png#mediumImg)An External Antenna kit is available. The antenna plugs into the connector marked "LTE" on the Thingy91. 
+Life long powered version
+
+![image-20230408081237234](../assets/60_hubs.assets/image-20230408081237234.png#mediumImg)
+
+
+### Weather version   
+
+Use the Weather shield to protect the T91
+
+- ![image-20230408083616388](../assets/60_hubs.assets/image-20230408083616388.png#mediumImg)
+
+
+### Extended range
+
+If you have issues with the cell network coverage, maybe an antenne can help improve the situation in your apiary. 
+
+We might have several solutions for you : contact us at support@broodminder.com. 
+
+One of them is this External Antenna kit. The antenna plugs into the connector marked "LTE" on the Thingy91. 
 
    ![image-20230408084030343](../assets/60_hubs.assets/image-20230408084030343.png)
 
