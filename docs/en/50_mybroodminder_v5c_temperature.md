@@ -3,7 +3,8 @@
 
 <div align="center">
 <a href="https://www.youtube.com/watch?v=oiXLpn-AbrE" target="_blank">
-  <img src="https://img.youtube.com/vi/oiXLpn-AbrE/0.jpg" alt="Monitoring Temperature">
+  <img src="/assets/50_mybroodminder_v5.assets/brood/Monitoring_Temp.png#largeImg" alt="Monitoring Temperature">
+  
 </a>
 </div>
 

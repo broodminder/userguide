@@ -5,7 +5,7 @@
 
 <div align="center" >
 <a href="https://www.youtube.com/watch?v=itsttEXKm_I" target="_blank">
-  <img src="https://img.youtube.com/vi/itsttEXKm_I/0.jpg" alt="Monitoring Weight">
+  <img src="/assets/50_mybroodminder_v5.assets/foragers/Monitoring_Foragers.png#largeImg" alt="Monitoring Foragers">
 </a>
 </div>
 

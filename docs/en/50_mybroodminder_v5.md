@@ -1,5 +1,12 @@
 # Overview Quick Tour
 
+<div align="center">
+<a href="https://youtu.be/FoeU-fPR7Fw" target="_blank">
+  <img src="https://img.youtube.com/vi/FoeU-fPR7Fw/0.jpg" alt="MyBroodMinder v5 feature overview ">
+</a>
+</div>
+
+
 There are many great features available in MyBroodMinder to view and analyze your data. Please note that there is a lot of context help by either hovering your cursor over an item or clicking the `?` next to an item.
 
 We have updated the [video library](https://myBroodMinder.com/app/resources) for Version 5. 

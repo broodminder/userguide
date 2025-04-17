@@ -2,7 +2,7 @@
 
 <div align="center" >
 <a href="https://www.youtube.com/watch?v=ZUkm1N2izJ0" target="_blank">
-  <img src="https://img.youtube.com/vi/ZUkm1N2izJ0/0.jpg" alt="Monitoring Weight">
+  <img src="/assets/50_mybroodminder_v5.assets/productivity/Monitoring_Weight.png#largeImg" alt="Monitoring Weight">
 </a>
 </div>
 
