@@ -1,7 +1,13 @@
-
-
-
 # Working with Foraging
+
+
+
+!!! abstract "What you'll learn in this chapter"
+    In this chapter, you’ll learn how to **monitor foraging activity** using BroodMinder-BeeDar — a radar-based, non-invasive tool that estimates bee traffic at the hive entrance.  
+    You'll discover how BeeDar works, what it measures, and how to interpret its data to understand daily foraging dynamics.  
+    You'll also explore how forager activity is visualized in MyBroodMinder, and how BeeDar’s estimates compare to optical bee counters.  
+    This section is key for anyone interested in pollination, colony behavior, or ecosystem monitoring.
+
 
 <div align="center" >
 <a href="https://www.youtube.com/watch?v=itsttEXKm_I" target="_blank">

@@ -1,6 +1,11 @@
 
 
-# Sharing with others
+# Sharing and Collaboration
+
+!!! abstract "What you'll learn in this chapter"
+    In this chapter, you’ll explore the different ways to **share your hive data and collaborate** with others using MyBroodMinder.  
+    You’ll learn how to grant access to fellow beekeepers, publish data on **BeeCounted**, create **shareable dashboards** for social media or colleagues, and even set up **Educational Dashboards** for schools, associations, or public displays.  
+    Whether for teamwork, transparency, or outreach, these tools help you connect your beekeeping with the wider world.
 
 From MyBroodMinder you have many options to share your hives with other beekeepers and friends:
 

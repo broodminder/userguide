@@ -1,5 +1,13 @@
 # Managing Devices
 
+!!! abstract "What you'll learn in this chapter"
+    This chapter walks you through everything you need to know about managing **devices** in the BroodMinder ecosystem.  
+    You’ll learn how to claim and assign **sensors**, define their positions in hives, track their movement history, and explore their raw data.  
+    You’ll also discover how to configure and troubleshoot **Hubs** (Wi-Fi, 4G, LoRa), understand their connectivity metrics, and manage **third-party devices** like YoLink.  
+    Finally, you'll learn how to transfer ownership of a device when needed.
+
+    
+
 There are three main categories of devices in the BroodMinder ecosystem:
 
 - **Sensors** (e.g., scales, internal temperature sensors, weather stations, BeeDar)

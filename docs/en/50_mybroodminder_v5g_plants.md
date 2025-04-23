@@ -1,5 +1,16 @@
 # Working with Plants
 
+!!! abstract "What you'll learn in this chapter"
+    In this chapter, you’ll explore how to use the **Plants module** to monitor and forecast bloom periods critical to your bees.  
+    You’ll learn how to link plants to apiaries, browse species data, and use **calendar and dashboard views** to track nectar sources over time.  
+    Most importantly, you’ll discover **Phenocast**, BroodMinder’s powerful forecasting tool that uses your local observations and weather history to predict phenological stages — helping you plan interventions and optimize pollination like never before.
+
+<div align="center">
+<a href="https://youtu.be/DHqyoCPa6Os" target="_blank">
+  <img src="https://img.youtube.com/vi/DHqyoCPa6Os/0.jpg" alt="Plants module">
+</a>
+</div>
+
 The **Plants** module is one of the key new features released in 2025. Since 2022, we’ve been developing a powerful model to **track and forecast phenological stages** of plants. The engine behind this feature is called **Phenocast**.
 Plants are now fully integrated into MyBroodMinder, and support for Bees App will follow soon.
 

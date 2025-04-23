@@ -1,10 +1,15 @@
 # Working with Temperature & Brood
 
 
+!!! abstract "What you'll learn in this chapter"
+    In this chapter, you’ll discover how to interpret **temperature and brood data** using BroodMinder sensors.  
+    You'll understand how in-hive temperature reveals brood presence, how to use **brood percentages** to compare colonies, and how to create custom dashboards.  
+    You'll also learn to detect unusual heat spikes with **SwarmMinder**, a tool that flags thermal events potentially related to swarming or overheating.  
+    Finally, you'll explore **hive fitness scores**, their meaning, and limitations — a step toward proactive colony monitoring that complements your regular inspections.
+
 <div align="center">
 <a href="https://www.youtube.com/watch?v=oiXLpn-AbrE" target="_blank">
   <img src="/assets/50_mybroodminder_v5.assets/brood/Monitoring_Temp.png#largeImg" alt="Monitoring Temperature">
-  
 </a>
 </div>
 

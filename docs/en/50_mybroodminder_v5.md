@@ -1,5 +1,11 @@
 # Overview Quick Tour
 
+!!! abstract "What you'll learn in this chapter"
+    In this quick tour, you'll get a hands-on overview of the MyBroodMinder Version 5 interface.  
+    You'll learn how to navigate your home screen, view hive and apiary data, customize dashboards, use advanced graph tools, and manage your notes and user settings.  
+    This section is ideal for both new and returning users who want to make the most of the platform’s powerful monitoring and visualization features.
+    
+
 <div align="center">
 <a href="https://youtu.be/FoeU-fPR7Fw" target="_blank">
   <img src="https://img.youtube.com/vi/FoeU-fPR7Fw/0.jpg" alt="MyBroodMinder v5 feature overview ">
