@@ -1,5 +1,8 @@
 # Quick Start Guide
 
+![image](../assets/20_quick_start_guide.assets/mbm_and_bapp.png){ style="display: block; margin: 0 auto" }
+
+
 We've done our best to make the installation and use of your BroodMinders intuitive and easy. Follow the process below to get to grips with all aspects of the solution (Sensors, App and Web...) and you'll have every chance of success.
 
 Each step is described in detail later in this document.
