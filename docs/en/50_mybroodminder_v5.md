@@ -13,15 +13,14 @@
 </div>
 
 
-There are many great features available in MyBroodMinder to view and analyze your data. Please note that there is a lot of context help by either hovering your cursor over an item or clicking the `?` next to an item.
 
-We have updated the [video library](https://myBroodMinder.com/app/resources) for Version 5. 
+MyBroodMinder offers a wide range of powerful tools to view and analyze your beekeeping data. To help you navigate these features, we’ve included contextual help throughout the platform—simply hover your cursor over an item or click the `?` icon for more details.
 
-The quick tour is pretty long. There are a lot of useful features. Let's start by describing the functions available to you. 
+To support Version 5, we’ve updated our [video library](https://doc.mybroodminder.com/86_video_library/) with new tutorials. The best way to learn is to follow this guide while exploring your own [MyBroodMinder account](https://mybroodminder.com).
 
-The best way to learn is to read this guide while looking at your MyBroodMinder account.
+Please note that some features are exclusive to Premium users. You’ll find a detailed [feature comparison here](https://myBroodMinder.com/app/premium-subscription). For more information on Free vs. Premium memberships, check out our [membership overview](https://doc.mybroodminder.com/65_memberships/).
 
-Note that some features are for MyBroodMinder premium users. The feature breakdown is [here](https://myBroodMinder.com/app/premium-subscription). We discuss more about Free and Premium at the end of this chapter.
+
 
 ![image-20230407161237301](../assets/50_mybroodminder_v5.assets/image-20230407161237301.png)
 
@@ -31,16 +30,16 @@ Note that some features are for MyBroodMinder premium users. The feature breakdo
 
 #### Hives
 
-Here you will find a quick glanceable view of all the hives that you own. Hives are shown here if you have sensors currently assigned in the hive. Learn more about device assignment and configuration [here](#managing-hives-apiaries-devices-and-inspections).
+Here you will find a quick glanceable view of all the hives that you own. Hives are shown here if you have sensors currently assigned in the hive. Learn more about device assignment and configuration [here](../50_mybroodminder_v5b_devices.md).
 
 ![image-20230407161622125](../assets/50_mybroodminder_v5.assets/home_hives.png)
 
 At a glance information shown here:
 
-* Fitness - Daily hive fitness state, learn more [here](#colony-health-bfit)
-* Brood - Daily brood level, learn more [here](#brood-level-bforce)
+* Fitness - Daily hive fitness state, learn more [here](../50_mybroodminder_v5c_temperature.md)
+* Brood - Daily brood level, learn more [here](../50_mybroodminder_v5c_temperature.md)
 * Weight - Daily hive weight
-* Productivity - Daily hive productivity, learn more [here](#productivity-bweight)
+* Productivity - Daily hive productivity, learn more [here](../50_mybroodminder_v5d_weight.md)
 * Alerts
 * Notes
 
@@ -48,19 +47,19 @@ Click the `History` icon on the right to view this data for the last 7 days for 
 
 #### Apiaries
 
-Here you will find a quick glanceable view of all the apiaries that you own. Apiaries are shown if they have hives with currently assigned sensors. Learn more about apiary, hive, and device assignment and configuration [here](#managing-hives-apiaries-devices-and-inspections).
+Here you will find a quick glanceable view of all the apiaries that you own. Apiaries are shown if they have hives with currently assigned sensors. Learn more about apiary, hive, and device assignment and configuration [here](../50_mybroodminder_v5a_apiaries.md).
 
 ![image-20230407161622125](../assets/50_mybroodminder_v5.assets/home_apiaries.png)
 
 At a glance information shown here:
 
-* Foraging Index - learn more [here](#working-with-weather)
-* Nectar-Flow Index - learn more [here](#working-with-weather)
+* Foraging Index - learn more [here](../50_mybroodminder_v5h_weather.md/#indexes)
+* Nectar-Flow Index - learn more [here](../50_mybroodminder_v5h_weather.md/#indexes)
 * Notes
 * Alerts
 * Other basic weather readings
 
-## Left Sidebar - Choose which hives to view
+## Left Side bar - Choose which hives to view
 
 The left sidebar is your key to navigating your apiaries and hives as well as apiaries shared with you by your friends. There is a lot of functionality built into this menu. Explore by clicking around.
 
@@ -79,7 +78,7 @@ The left sidebar is your key to navigating your apiaries and hives as well as ap
 - Clicking a hive will toggle it to display or not display.
 - The small `X` to the right of `Multi-Select` will clear all of the hive displays.
 
-## Dashboard - Choose how to display the data
+## Dashboards - Choose how to display the data
 
 The buttons at the top of the view window let you chose how to display your information. We provide some standard views that we believe are useful. You can also add custom view to include many new analysis features.
 
@@ -103,7 +102,6 @@ The buttons at the top of the view window let you chose how to display your info
 ### Graph Controls
 
 There are many terrific graph ![image-20230407161818840](../assets/50_mybroodminder_v5.assets/image-20230407161818840.png) controls available to get your reports looking just right.
-
 
 
 - Time Range - Using the dropdown menu at the top, `Last 7 days`, you can chose the duration of the display
