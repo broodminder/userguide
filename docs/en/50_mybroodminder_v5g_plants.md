@@ -99,3 +99,9 @@ Better beekeeping starts **before** key events happen — not while you're react
 !!! warning "Phenocast Limitations" 
     Phenocast currently does **not** support annual plants (sunflower, rapeseed,...) reliably. Their pheno-stages depend heavily on sowing dates, so their bloom can’t be predicted accurately without that input. While you can still enter observations, the model may be unreliable.
 
+
+### Credits 
+
+The development of PhenoCast began in early 2022. The system architecture and algorithmics are led by our colleague Maxime, while the user interface is implemented by Amanda. Their work was supported by the invaluable contributions of a small group of beekeepers based in four regions of France (Gers, Rhône, Chalosse, and the Pyrénées-Atlantiques). By sharing their blooming dates — especially for acacia — and offering insights into local dynamics, they played a key role in enriching and gradually refining the model.
+
+Special thanks to Rucher de Jouanchiq, Le Rucher des Opies, L’Abeille de Lesterel, Le Rucher de la Montagne Verte, Pascal Mariette, and also Ray Walker in Delaware, USA.
