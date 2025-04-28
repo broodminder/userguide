@@ -12,9 +12,8 @@ cssselect2==0.7.0
 distro==1.9.0
 fonttools==4.53.0
 ghp-import==2.1.0
-h11==0.14.0
+h11>=0.16.0
 html5lib==1.1
-httpcore==1.0.2
 httpx==0.26.0
 idna>=3.7
 Jinja2>=3.1.4
