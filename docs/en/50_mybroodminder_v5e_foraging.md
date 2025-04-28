@@ -1,7 +1,19 @@
-
-
-
 # Working with Foraging
+
+
+
+!!! abstract "What you'll learn in this chapter"
+    In this chapter, you’ll learn how to **monitor foraging activity** using BroodMinder-BeeDar — a radar-based, non-invasive tool that estimates bee traffic at the hive entrance.  
+    You'll discover how BeeDar works, what it measures, and how to interpret its data to understand daily foraging dynamics.  
+    You'll also explore how forager activity is visualized in MyBroodMinder, and how BeeDar’s estimates compare to optical bee counters.  
+    This section is key for anyone interested in pollination, colony behavior, or ecosystem monitoring.
+
+
+<div align="center" >
+<a href="https://www.youtube.com/watch?v=itsttEXKm_I" target="_blank">
+  <img src="/assets/50_mybroodminder_v5.assets/foragers/Monitoring_Foragers.png#largeImg" alt="Monitoring Foragers">
+</a>
+</div>
 
 Forager bees embark daily on a mission to collect resources essential for the colony’s survival — and for pollination, of course! Monitoring foraging activity provides valuable insights into hive health and ecosystem interaction.
 
@@ -9,7 +21,7 @@ There are several ways to track forager activity, such as **bee counters** and *
 
 Watch the video:
 
-[![BeeDar Video](https://img.youtube.com/vi/itsttEXKm_I/0.jpg)](https://www.youtube.com/watch?v=itsttEXKm_I)
+
 
 !!! tip "BeeDar also works with Bumblebees! 🐝"
     In 2021 we made extensive campaigns with bumblebees using BeeDar and the results are amazing. "BumbleDar" is a specific version of BeeDar with a dedicated firmware to adjust to bumple bees activity patterns. 

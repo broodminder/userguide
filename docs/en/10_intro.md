@@ -1,8 +1,11 @@
 # Introduction
 
 
-## Welcome to the world of BroodMinder
+## Welcome to the world of Hive Monitoring!
 If you're reading this, it's the start of a new adventure. You are now part of the precision beekeeper community. A community that uses information to improve bees' health. But also to improve everyone's practice, thanks to a deeper knowledge of the behaviour of colonies and their ecosystems.
+
+![image](../assets/20_quick_start_guide.assets/mbm_and_bapp.png){ style="display: block; margin: 0 auto" }
+
 
 ## Introduction to precision beekeeping ##
 

@@ -1,5 +1,10 @@
 # Recording Notes and Inspections
 
+!!! abstract "What you'll learn in this chapter"
+    In this chapter, you'll learn how to **record and manage notes and inspections** using both the Bees App and MyBroodMinder.  
+    You'll explore the difference between **apiary notes** and **hive notes**, and how to efficiently log observations in the field or at your desk.  
+    You'll also see how notes integrate with your sensor data, how to export them, and how they now serve as **triggers for automated workflows** — helping you turn observations into actionable beekeeping steps.
+
 Tracking events in beekeeping is essential if you want to truly understand your colonies and make the right decisions. While carrying a smartphone or tablet into the apiary may not always be convenient, we’ve worked hard to make note-taking and inspection recording as simple and efficient as possible.
 
 As always, you can take and edit your notes in **MyBroodMinder**, but by far the most convenient method is using the **Bees App**, where you can log information directly in the field — when your observations are fresh and most accurate.

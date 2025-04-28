@@ -1,5 +1,12 @@
 # Managing Apiaries and Hives
 
+
+!!! abstract "What you'll learn in this chapter"
+    In this section, you'll learn how to set up and manage your **apiaries and hives** in MyBroodMinder.  
+    You'll be guided through creating new apiaries, assigning hives, editing locations, and even tracking hive movements between apiaries — with all changes reflected in your data.  
+    You'll also discover how to efficiently manage larger operations using the **Configure** page for bulk editing, archiving, and device tracking.
+
+
 One of the very first steps you’ll likely take is to **create an apiary and attach some hives** to it. This is a key part of building your hive monitoring setup.
 
 You can do this using either the **Bees App** or **MyBroodMinder** like in the screenshot below, simply click the `New` button on the left sidebar:
