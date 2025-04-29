@@ -7,9 +7,9 @@
 
 
 <div align="center">
-<a href="https://youtu.be/u0g4em-KG7o" target="_blank">
-  <img src="../assets/50_mybroodminder_v5.assets/plants/ytb_video.png#largeImg" alt="Plants video">
-</a>
+    <a href="https://youtu.be/u0g4em-KG7o" target="_blank">
+        <img src="../assets/50_mybroodminder_v5.assets/plants/ytb_video.png#largeImg" alt="Plants video">
+    </a>
 </div>
 
 
