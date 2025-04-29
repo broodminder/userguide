@@ -1,4 +1,4 @@
-# Overview Quick Tour
+# Overview
 
 !!! abstract "What you'll learn in this chapter"
     In this quick tour, you'll get a hands-on overview of the MyBroodMinder Version 5 interface.  
