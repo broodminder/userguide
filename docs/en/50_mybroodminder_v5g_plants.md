@@ -5,6 +5,7 @@
     You’ll learn how to link plants to apiaries, browse species data, and use **calendar and dashboard views** to track nectar sources over time.  
     Most importantly, you’ll discover **Phenocast**, BroodMinder’s powerful forecasting tool that uses your local observations and weather history to predict phenological stages — helping you plan interventions and optimize pollination like never before.
 
+
 <div align="center">
 <a href="https://youtu.be/u0g4em-KG7o" target="_blank">
   <img src="../assets/50_mybroodminder_v5.assets/plants/ytb_video.png#largeImg" alt="Plants video">
@@ -19,10 +20,15 @@ Plants are now fully integrated into MyBroodMinder, and support for Bees App wil
 
 
 
-Each **apiary** can now be linked to an **unlimited number of plants**. Choose those that matter most for your bees, especially for nectar and pollen. We’ve built a database of over **500 species**, searchable by keyword.
+Each **apiary** can now be linked to an **unlimited number of plants**. Choose those that matter most for your bees, especially for nectar and pollen. We’ve built a database of over **500 species**, searchable by keyword. 
 
 
 ![plants](../assets/50_mybroodminder_v5.assets/plants/newplant.png)
+
+![plants](../assets/50_mybroodminder_v5.assets/plants/search_plant.png)
+
+!!! tip 
+    you can search your plants through their Scientific (latin), english, french or spanish name
 
 
 Once you've selected your plants, you can explore the data in different ways. let's check them:
