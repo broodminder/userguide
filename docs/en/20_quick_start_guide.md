@@ -5,6 +5,17 @@
 
 We've done our best to make the installation and use of your BroodMinders intuitive and easy. Follow the process below to get to grips with all aspects of the solution (Sensors, App and Web...) and you'll have every chance of success.
 
+---
+## Watch the videos 🎥
+
+| 🇺🇸 English | 🇪🇸 Spanish | 🇫🇷 French |
+|:---------------------:|:---------------------:|:--------------------:|
+| <div align="center"> <a href="https://youtu.be/6WicH4_l2FQ" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover.png#largeImg" alt="Onborading video"> </a> </div> | <div align="center"> <a href="https://youtu.be/FWj4MrT_zg8" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/ES_Onboarding_Video_Cover.png#largeImg" alt="Primeros pasos con Broodminder"> </a> </div> | <div align="center"> <a href="https://youtu.be/8eHAg2DPtsc" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/FR_Onboarding_Video_Cover.png#largeImg#largeImg" alt="Démarrer avec BroodMinder"> </a> </div> |
+
+
+## Read the doc 📖
+
+
 Each step is described in detail later in this document.
 
 | AT HOME   |  | | | 

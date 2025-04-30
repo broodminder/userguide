@@ -17,7 +17,7 @@
 The **Plants** module is one of the key new features released in 2025. Since 2022, we’ve been developing a powerful model to **track and forecast phenological stages** of plants. The engine behind this feature is called **Phenocast**.
 Plants are now fully integrated into MyBroodMinder, and support for Bees App will follow soon.
 
-![plants](../assets/50_mybroodminder_v5.assets/plants/left_side.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/left_side3.png)
 
 
 
