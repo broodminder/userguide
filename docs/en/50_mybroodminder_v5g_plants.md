@@ -20,12 +20,12 @@ Plants are now fully integrated into MyBroodMinder, and support for Bees App wil
 
 
 
-Each **apiary** can now be linked to an **unlimited number of plants**. Choose those that matter most for your bees, especially for nectar and pollen. We’ve built a database of over **500 species**, searchable by keyword. 
+Each **apiary** can now be linked to an **unlimited number of plants**. Choose those that matter most for your bees, especially for nectar and pollen. We’ve built a database of over **500 species**, searchable by keyword.  
 
 
-![plants](../assets/50_mybroodminder_v5.assets/plants/newplant.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/add_plant.png)
 
-![plants](../assets/50_mybroodminder_v5.assets/plants/search_plant.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/search_plant2.png)
 
 !!! tip 
     you can search your plants through their Scientific (latin), english, french or spanish name
