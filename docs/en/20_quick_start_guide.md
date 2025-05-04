@@ -294,7 +294,7 @@ Some examples with the solar version: on a pod, mural or even on hive
 Once the hub is installed in it's final location check again the connectivity
 
 - Check hub connectivity with Bees App (in the `devices Tab > hub ID > ... > Show details`)
-- You should have a `tick` or `tock` status.
+- You should have a "tick/tock" status.
 
 
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 9. Update start date/time
