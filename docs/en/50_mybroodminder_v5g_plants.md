@@ -6,26 +6,27 @@
     Most importantly, you’ll discover **Phenocast**, BroodMinder’s powerful forecasting tool that uses your local observations and weather history to predict phenological stages — helping you plan interventions and optimize pollination like never before.
 
 
+
 <div align="center">
-<a href="https://youtu.be/u0g4em-KG7o" target="_blank">
-  <img src="../assets/50_mybroodminder_v5.assets/plants/ytb_video.png#largeImg" alt="Plants video">
-</a>
+    <a href="https://youtu.be/u0g4em-KG7o" target="_blank">
+        <img src="/assets/50_mybroodminder_v5.assets/plants/ytb_video.png#largeImg" alt="Plants video">
+    </a>
 </div>
 
 
 The **Plants** module is one of the key new features released in 2025. Since 2022, we’ve been developing a powerful model to **track and forecast phenological stages** of plants. The engine behind this feature is called **Phenocast**.
 Plants are now fully integrated into MyBroodMinder, and support for Bees App will follow soon.
 
-![plants](../assets/50_mybroodminder_v5.assets/plants/left_side.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/left_side3.png)
 
 
 
-Each **apiary** can now be linked to an **unlimited number of plants**. Choose those that matter most for your bees, especially for nectar and pollen. We’ve built a database of over **500 species**, searchable by keyword. 
+Each **apiary** can now be linked to an **unlimited number of plants**. Choose those that matter most for your bees, especially for nectar and pollen. We’ve built a database of over **500 species**, searchable by keyword.  
 
 
-![plants](../assets/50_mybroodminder_v5.assets/plants/newplant.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/add_plant.png)
 
-![plants](../assets/50_mybroodminder_v5.assets/plants/search_plant.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/search_plant2.png)
 
 !!! tip 
     you can search your plants through their Scientific (latin), english, french or spanish name

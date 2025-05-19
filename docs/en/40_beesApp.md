@@ -51,9 +51,9 @@ We've created the Hives tab to make it easy to quickly see the status of each of
 ![Hives TAB](../assets/40_beesApp.assets/Hives1.png#largeImg)
 
 
-Your hives are listed across the top with the **brood level** and **daily change in weight** displayed.  The heart displays the estimated fitness of the hive and the eventual number red dot in the upper right corner of the squared boxes indicates if there are any alerts to be reviewed. 
+Your hives are listed across the top with the **brood level** and **total weight** displayed.  The heart displays the estimated **fitness** of the hive and the eventual number red dot in the upper right corner of the squared boxes indicates if there are any alerts to be reviewed. 
 
-![Hives TAB detail](../assets/40_beesApp.assets/Hives_tab_square_detail.jpg)
+![Hives TAB detail](../assets/40_beesApp.assets/Hives_tab_square_detail2.jpg)
 
 
 Selecting any hive will bring all of its data to the graph below.

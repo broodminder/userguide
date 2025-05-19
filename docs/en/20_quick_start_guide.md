@@ -5,6 +5,17 @@
 
 We've done our best to make the installation and use of your BroodMinders intuitive and easy. Follow the process below to get to grips with all aspects of the solution (Sensors, App and Web...) and you'll have every chance of success.
 
+---
+## Watch the videos 🎥
+
+| 🇺🇸 English | 🇪🇸 Spanish | 🇫🇷 French |
+|:---------------------:|:---------------------:|:--------------------:|
+| <div align="center"> <a href="https://youtu.be/6WicH4_l2FQ" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png" alt="Onborading video"> </a> </div> | <div align="center"> <a href="https://youtu.be/FWj4MrT_zg8" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/ES_Onboarding_Video_Cover_500.png" alt="Primeros pasos con Broodminder"> </a> </div> | <div align="center"> <a href="https://youtu.be/8eHAg2DPtsc" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/FR_Onboarding_Video_Cover_500.png" alt="Démarrer avec BroodMinder"> </a> </div> |
+
+
+## Read the doc 📖
+
+
 Each step is described in detail later in this document.
 
 | AT HOME   |  | | | 
@@ -34,9 +45,6 @@ Take note of the following best practices:
     Do what it takes to identify your hives, it will be much better.
     1, 2, 3 ..... A, B, C ... K254.
 
-!!! info "Use our video library"
-    Watch the video help "[Quick Start with CS Kit](https://youtu.be/6WicH4_l2FQ)"
-
 !!! tip "Need help?"
     You can always contact us at [support@broodminder.com](mailto:support@broodminder.com).
 
@@ -44,11 +52,15 @@ Take note of the following best practices:
 
 
 ## 🏠 START AT HOME
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png) 1. Install BroodMinder Bees
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png) 1. Install BroodMinder Bees App
 
-Download [Broodminder Bees](https://mybroodminder.com/beesapp) from your preferred store. Scan this QR code to be headed to it :
+Download [Broodminder Bees](https://mybroodminder.com/beesapp) from your AppStore or PlayStore. 
+
+Scan this QR code to be headed to it :
 
 ![image-20230508064200081](../assets/20_quick_start_guide.assets/beesApp_QRcode.png)
+
+
 
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png) 2. Create your account
 
@@ -144,13 +156,17 @@ Now return to the **Apiaries** tab to perform the first sync.
 
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png) 5. Make your first sync
 
+!!! Warning "First sync is important!"
+    The first sync sets the device’s date and time, ensuring that all recorded measurements are accurately timestamped. If you skip the sync when powering on the device, future syncs will still add timestamps, but earlier data may be shifted when calculated retroactively. For this reason, it’s best practice to sync the device every time you power it on—such as after a battery change.
+
+
 Using BroodMinder Bees App there are multiple ways of syncing: 
 
 - `Multi-Sync` is at the top of the screen in the `Apiaries` tab. This syncs all devices at once and is a Premium feature.
 - `Single Sync`is within the 3dots `...`menus, either in `Devices`or in `Apiaries` tab
 
 !!! Tip
-    You can only sync devices appearing in green (within bluetooth range)
+    You can only sync devices within bluetooth range (appearing in green) ![nearby](../assets/20_quick_start_guide.assets/beesApp_sync.jpg#smallImg)
 
 ![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104926_edited.jpg#mediumImg)
 
@@ -170,36 +186,53 @@ If you do not have a Hub, move to the [next chapter](#7-install-devices-in-hives
 Remember from [Hubs page](./60_hubs.md) that there are several hub versions: 
 
 - Broodminder-T91 Cellular Hub [solar, weather, naked]
+- BroodMinder-LoRa Hub
 - BroodMinder-Wifi Hub
 - BroodMinder-Sub-Hub
 
-#### 6.1 Cellular Weather hub
-1. Remove the orange silicon protection
-2. Power ON the hub with the small black switch (use a pen tip to operate)
+#### 6.1 T91 Weather hub
+- Turn on the hub using the small black switch. 
 
-![Power On](../assets/20_quick_start_guide.assets/T91_powerOn.png)
+![Power On](../assets/20_quick_start_guide.assets/hub/T91_powerOn.png)
 
-3. Color Leds will blink green, then blue, then green again
-4. Check on Bees App that transmission has been established. Go to `Devices tab > Hub ID > Show details > MBM last upload ` shall display current date/time.
+- The LED light will blink green, then turn solid blue for 5 seconds, and finally return to blinking green.
+- Check on Bees App that transmission has been established. Go to `Devices tab > Hub ID > Show details > MBM last upload ` shall display current date/time.
 
-![Upload check](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-110257_shortened.jpg#mediumImg)
+![Upload check](../assets/20_quick_start_guide.assets/hub/T91_onBeesApp_frame.jpg#mediumImg)
 
-5. Install orange protection again, starting from the USB side.
+!!! tip 
+    On the Hub Details screen, the bottom black section shows the device’s boot process and current status in real time. Under normal conditions, it alternates between **Status 10 (tick)** and **Status 11 (tock)**. Other possible statuses include `Booting`, `starting modem`, `connecting to AWS` or `Start BLE scan`, among others. 
 
-![silicon cover](../assets/20_quick_start_guide.assets/T91_folding.png)
 
-6. Insert the T91 within the weather shield with the USB face sidewise to avoid condensation deposition on this and the opposite face.
+- Install the velvet protective bag, making sure the power switch remains accessible through the opening.
 
-![Upload check](../assets/20_quick_start_guide.assets/T91_inweathershield.png)
+![T91 weather](../assets/20_quick_start_guide.assets/hub/T91_bag.png)
 
-#### 6.2 Cellular Solar hub
+!!! warning "The velvet bag is important!"
+    The velvet bag serves two key purposes:
+    
+    1. It prevents insects and bugs from nesting in your hub — the electronics are warm and can attract them.
+    2. It protects the electronics from direct sunlight, improving durability while still allowing airflow for temperature and humidity measurements.
+
+
+- Insert the T91 within the weather shield .
+
+![T91 weather](../assets/20_quick_start_guide.assets/hub/T91_inweathershield.png)
+
+- Install the hub in your apiary using one of the available mounting options: tie wraps, screws, or an optional magnet.
+
+
+![Upload check](../assets/20_quick_start_guide.assets/hub/T91_shield_attach.jpg)
+
+
+#### 6.2 T91 Solar hub version
 Follow the same process as above, with the difference that you will have to plug in the USB to the battery (we ship unpluged to avoid battery discharge during transport)
 
 1. Unscrew the cover lid.
 2. Insert the USB plug into the battery
 3. Slide the power switch to the right
 
-![Upload check](../assets/20_quick_start_guide.assets/T91_solar.png)
+![Upload check](../assets/20_quick_start_guide.assets/hub/T91_solar.png)
 
 4. Hub will start and you can check data transmission using Bees App as described above.
 
@@ -234,31 +267,34 @@ You can hang it with two 4mm-diameter screws.
 
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 8. Install your hub
 
-This stage is optional : only intended for those owning a Hub for real time monitoring.
+This step is optional and only applies to users with a Hub for real-time monitoring.
 
-As a general rule for any kind of hub you should know that
-- overall range for Hub <=> internal devices is ~ 10 meters (30ft)
-- overall range for Hub <=> external devices is ~ 30-40 m
+!!! Important "About hub range and position"
+    As a general rule for any kind of hub you should know that:
 
-!!! Important 
-    - hubs should be located at least at 1.5m height from the ground (Cellular and Wifi reception damps A LOT when close to the ground)<br>
-    - avoid direct sun exposition
-
-![Install hub](../assets/20_quick_start_guide.assets/hub_install.png)
+    - overall range for Hub <=> internal devices is ~ 10 meters (~30ft)
+    - overall range for Hub <=> external devices is ~ 30-40 m (~100ft)
+    - hubs should be installed at **1.5m (5ft) height from the ground** (Cellular and Wifi reception damps A LOT when close to the ground)
 
 
-There are multiple ways to install the hub
-- solar versions can go on a pod or mural or even on hive
+The best practice is to place the hub on a pod in the 10m range of your hives 
 
-![Install hub](../assets/20_quick_start_guide.assets/hub_install_solar.png)
+![Install hub](../assets/20_quick_start_guide.assets/hub/hub_install.png)
 
-- other cell versions and SubHubs install nicely within the weather shield
+An example using the weather shield magnet directly on a hive roof
 
-![Install hub](../assets/20_quick_start_guide.assets/hub_weather_shield.jpg)
+![Install hub](../assets/20_quick_start_guide.assets/hub/hub_weather_shield.jpg)
 
-Now check Connectivity
+Some examples with the solar version: on a pod, mural or even on hive
+
+![Install hub](../assets/20_quick_start_guide.assets/hub/hub_install_solar.png)
+
+
+
+Once the hub is installed in it's final location check again the connectivity
+
 - Check hub connectivity with Bees App (in the `devices Tab > hub ID > ... > Show details`)
-- You should have a Network signal greater than 20% to be comfort.
+- You should have a "tick/tock" status.
 
 
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 9. Update start date/time
@@ -282,10 +318,6 @@ In this interface you will be able to follow the brood levels, the weight gains 
 !!! info
     Attention: Some data is computed daily and you will begin to see it from D+3 (D1 does not count because partial data, D2 will be the first complete day which will be posted the following day => D3)
 
-
-
-
-x
 
 
 
