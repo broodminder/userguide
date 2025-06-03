@@ -28,9 +28,14 @@ With QueenMinder, you improve your success rates and maintain full control over 
 </div>
 
 
-
-
 ## Getting started
+
+<div align="center">
+<a href="https://youtu.be/kpkddSc-lU4" target="_blank">
+  <img src="https://img.youtube.com/vi/YkpkddSc-lU4/0.jpg" alt="QueenMinder beta getting started">
+</a>
+</div>
+
 
 The process of queen replacement is triggered when you add a note with one of those tags : 
 
