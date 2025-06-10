@@ -121,6 +121,10 @@ Older models (T2) might have a push button.
 
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png) 4. Assign devices to hives
 
+!!! warning "Enable Location on Android"
+    Android needs location services turned on to detect Bluetooth devices.  
+    If you don’t see any devices, make sure location is enabled in your settings.
+
 First you need to claim the device by clicking on the green `Claim` button found in the `Devices` tab. This operation will associate each sensor you claim to your account . 
 You will then be asked to attach the sensor to a hive. You can proceed or cancel and come back later via the menu `...`. 
 
