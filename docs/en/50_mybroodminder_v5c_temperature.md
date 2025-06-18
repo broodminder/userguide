@@ -100,7 +100,7 @@ For a detailed explanation of how the device works, see the section [SwarmMinder
 
 A Thermal Event is defined by a **steeper-than-normal temperature increase** in the brood area. This can indicate several scenarios:
 
-- 🐝 **Swarming behavior**: Bees become agitated and lose control of thermoregulation. This typically occurs during or de days before a swarm.
+- 🐝 **Swarming behavior**: Bees become agitated and lose control of thermoregulation. This typically occurs during a swarm or the days preceding the actual swarm.
 - ☀️ **Environmental overheating**: External temperature rises rapidly (e.g., midday sun), and heat transfers into the hive—especially if insulation is poor.
 - 🔍 **Hive inspection**: Opening the hive and exposing the sensor to ambient air causes a temporary spike in temperature.
 
@@ -157,7 +157,7 @@ In this final example, a colony displayed **multiple thermal events in the days 
 
 
 
-## Intriducing Fitness
+## Introducing Fitness
 _Bee Fitness_ is the algorithm that informs the beekeeper of each hive's condition. We use benchmarks such as the time of the season and the surrounding hive state in order to define a "nominal" state. Then we position each hive in relation to this reference.
 
 
