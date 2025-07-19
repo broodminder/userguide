@@ -75,6 +75,94 @@ For example, if a scale is assigned to Hive 1 in Apiary 1, and the hub is sendin
 
 ---
 
+## Check a hub remotely
+
+Over time, we have implemented advanced features in our hubs that allow you (and us) to monitor and troubleshoot remotely.
+
+Networks can be unpredictable. Between multiple carriers, antenna types, protocols, geographic environments, and variations in signal strength and quality, it may occasionally happen that a hub runs into issues (less often than you'd expect, but it happens).
+When it does, having the ability to **monitor hub behavior remotely** is invaluable. In **MyBroodMinder**, you can access this by clicking on the hub name to view the **Hub Chart**.
+
+By default, it displays key metrics such as:
+
+- **Temperature**
+- **Humidity**
+- **Pressure**
+- **Battery level**
+
+These are generally self-explanatory.
+
+![hub 1](../assets/60_hubs.assets/hub_chart_1.png)
+
+
+### Hub Status
+
+- **Hub Status** is a simple counter: every time the hub sends data to the cloud, it increments by 1 until it reaches 100, then resets to 0.
+- If a **Swarminder event** occurs during the hour, the hub sends that too — so the counter may increment faster as you can notice in the chart above.
+- A **drop to zero before reaching 100** means the hub has **restarted unexpectedly** (e.g. low power, crash, or signal failure).
+- **Gaps in the graph** mean the hub was **unable to send data** for some time (no network, SIM issue, or system freeze).
+
+Now let's look at the remaining metrics on this chart, all related with network aspects.
+
+
+---
+
+## Interpreting Cellular Network Metrics
+
+Modern BroodMinder hubs report **3 key network quality metrics**:
+
+![hub 1](../assets/60_hubs.assets/hub_chart_2.png)
+
+
+### SNR – Signal to Noise Ratio
+
+- Measures the **clarity** of the signal received.
+- High SNR means **low background noise**, which is excellent.
+- A **negative value** means the noise is stronger than the signal.
+
+Ideal: the **higher the better**
+
+
+### RSRQ – Reference Signal Received Quality
+
+- Indicates the **overall quality** of the LTE connection, taking interference into account.
+- Reflects both signal strength and cell congestion.
+- Important when selecting between multiple nearby towers.
+
+Ideal: the **less negative the better**
+
+
+### RSRP – Reference Signal Received Power
+
+- Measures the **strength** of the LTE signal itself.
+- Helps assess whether the antenna is getting enough signal from the base station.
+- Think of it as **“how loud the signal is.”**
+
+Ideal: the **closer to 0 (in dBm), the better**
+
+---
+
+### Summary table of typical signal values
+
+| Metric   | Excellent        | Good             | Acceptable        | Poor / Issue likely |
+|----------|------------------|------------------|-------------------|---------------------|
+| **SNR**  | > 20 dB          | 13 to 20 dB      | 5 to 13 dB        | < 5 dB or negative  |
+| **RSRQ** | > –8 dB          | –10 to –8 dB     | –13 to –10 dB     | < –13 dB            |
+| **RSRP** | > –80 dBm        | –90 to –80 dBm   | –100 to –90 dBm   | < –100 dBm          |
+
+Note: Some hubs work even with poor metrics, but **lower values increase the risk of data loss or reboot cycles**.
+
+
+If your hub is showing consistently bad metrics and experiencing restarts or gaps, consider:
+
+- Moving the hub to a better-exposed location.
+- Using the **external LTE antenna**.
+- Switching carriers (requires special configuration).
+
+Need help interpreting your hub’s behavior? → Contact us at **support@broodminder.com**
+
+
+---
+
 ## Extended range
 
 If you are experiencing poor cell network coverage, an external antenna may improve the situation.

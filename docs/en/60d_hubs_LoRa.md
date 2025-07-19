@@ -1,6 +1,14 @@
 <div style="text-align:center;"><img src="../assets/60_hubs.assets/lora/Lora_Hub_540x.jpg"></div>
 
 
+
+
+!!! tip "Important: Real-Time Data Requires a Premium Membership"  
+    Real-time data streaming through a hub is a Premium feature in MyBroodMinder. To enable it, you must have an active Premium subscription.
+
+    Since the new membership model launched in January 2025, a single Premium membership allows you to use as many hubs as needed. Subscriptions are no longer linked to individual hubs—you only need one subscription per account, regardless of how many hubs you operate.
+
+
 ## BroodMinder-LoRa (BRM-65)
 
 LoRa (Long Range) and LoRaWAN (Long Range Wide Area Network) are technologies designed for low-power, long-range wireless communication.
