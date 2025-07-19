@@ -1,65 +1,93 @@
 <div style="text-align:center;"><img src="../assets/60_hubs.assets/Cell_T91.jpeg"></div>
 
+The BroodMinder-T91 (BRM-54) Cell Hub is based on the Nordic "Thingy 91".
 
+!!! tip "Important: Real-Time Data Requires a Premium Membership"  
+    Real-time data streaming through a hub is a Premium feature in MyBroodMinder. To enable it, you must have an active Premium subscription.
 
-## BroodMinder-T91 Cell Hub (BRM-54)
+    Since the new membership model launched in January 2025, a single Premium membership allows you to use as many hubs as needed. Subscriptions are no longer linked to individual hubs—you only need one subscription per account, regardless of how many hubs you operate.
 
-The BroodMinder-T91 Cell Hub is based on the Nordic "Thingy 91".
+    **Note:** When you receive a hub, it is not yet linked to your account. You’ll need to claim it manually, just like any other BroodMinder device. 
 
-You will find an installation video [here](https://youtu.be/4Mh9DT7VblI).
+<hr>
 
-Installation is super easy because we set everything up before shipping.
-
-- We recommend you test everything before you take it to your apiary.
-
-- You will get an email from BroodMinder when we ship the hub. If you don't then check your junk email folder, or contact us. The email has instructions on connecting the hub to your account. There are two cases.
-
-   1. If there is a link in the email, then click it and you will be guided to connect the hub to your account and claim the one year token which is included with purchase.
-
-   2. If there is not a link, then we assigned it to your account before shipping. 
-
-- When you get your hub, turn it on. There is a slide switch
-
-   ![image-20230408082210955](../assets/60_hubs.assets/image-20230408082210955.png#mediumImg)
-
-- Go to MyBroodMinder.com, choose `Configure` and expand the `Hubs`  section.  This is where you can manage your hub.
-
-- Click on the Manage icon to assign or move it to an apiary. 
-
-- You must also assign a token. A token is a virtual coin that we use to pay for the 24/7 upload service. You should receive 1 year service with the hub. If you did not, then contact us at [support@broodminder.com](mailto:support@broodminder.com).
-
-- After you see it working you can move it to your apiary.
-
-- If you have a solar T91, then ensure that the gasket is seated correctly when you replace the lid. Also make certain that the solar panel is facing towards the sun for most of the day.
-
-- If you have a naked T91, then ensure that it is in a weatherproof housing of some sort. We recommend the Lacrosse Solar Shield. We also recommend that you place the T91 in the mesh bag we include. This will keep out small bugs (such as earwigs) which are attracted to the slight warmth.
+Watch the video to get started:  
+<div align="center">
+    <a href="https://youtu.be/4Mh9DT7VblI" target="_blank">
+        <img src="https://img.youtube.com/vi/4Mh9DT7VblI/0.jpg" alt="Broodminder T91">
+    </a>
+</div>
+<hr>
 
 ### Solar version
 
-Life long powered version
+Lifelong powered version
 
-![image-20230408081237234](../assets/60_hubs.assets/image-20230408081237234.png#mediumImg)
-
+![solar](../assets/60_hubs.assets/image-20230408081237234.png#mediumImg)
 
 ### Weather version   
 
-Use the Weather shield to protect the T91
+Use the Weather Shield to protect the T91.
 
-- ![image-20230408083616388](../assets/60_hubs.assets/image-20230408083616388.png#mediumImg)
+![weather](../assets/60_hubs.assets/image-20230408083616388.png#mediumImg)
 
+---
 
-### Extended range
+## Steps to get your hub up and running
 
-If you have issues with the cell network coverage, maybe an antenne can help improve the situation in your apiary. 
+- We recommend you **test everything before taking it to your apiary**.
 
-We might have several solutions for you : contact us at support@broodminder.com. 
+- Turn on the hub using the slide switch.
 
-One of them is this External Antenna kit. The antenna plugs into the connector marked "LTE" on the Thingy91. 
+   ![T91](../assets/60_hubs.assets/image-20230408082210955.png#mediumImg)
 
-   ![image-20230408084030343](../assets/60_hubs.assets/image-20230408084030343.png)
+- In the Bees App, go to the `Devices` tab and, like every other sensor, claim your hub. This will assign it to your account.
 
-   - Place the connector through the plastic mounting bracket
-   - Push the connector into the Thingy91 jack.
-   - Secure the bracket with the screw that we included.
+   ![claim hub](../assets/60_hubs.assets/claim_hub.jpg#largeImg)
 
-![image-20230408084356882](../assets/60_hubs.assets/image-20230408084356882.png)
+- Enter the `... > Show details` menu.
+
+   ![hub details](../assets/60_hubs.assets/hub_details.png)
+
+- Here you can check some key elements of your hub such as the firmware version, network signal and quality metrics, and selected carrier.  
+- At the bottom of the screen, there is a black console box displaying the current status of the hub (you must be close to the hub with your smartphone—this data is sent via Bluetooth). You can watch it boot and connect to the cloud. Most of the time, its normal status will be `tick` or `tock`, indicating smooth operation.
+
+!!! tip
+    If the hub fails to reach the network, a timeout will appear after a few attempts and the LED will begin blinking red.
+
+- If you have a **solar T91**, ensure that the gasket is seated correctly when replacing the lid. Also, make sure the solar panel is facing the sun for most of the day.
+
+- If you have a **naked T91**, it must be placed in a weatherproof housing. We recommend the **Lacrosse Solar Shield**, and placing the T91 in the provided **mesh bag** to prevent small insects (such as earwigs) from entering.
+
+- Once you see it working properly, move it to your apiary. When in place, check the `tick/tock` status again to confirm proper operation and network quality at that location.
+
+---
+
+## Assigning the hub to an apiary
+
+By default, hubs are automatically assigned to the apiary of the devices they are transmitting data for.  
+For example, if a scale is assigned to Hive 1 in Apiary 1, and the hub is sending data for that scale, it will automatically assign itself to Apiary 1.  
+
+⚠️ It will **not** reassign itself again if moved — manual reassignment is required in MyBroodMinder.
+
+- Go to [MyBroodMinder.com](https://mybroodminder.com), choose `Configure`, and expand the `Hubs` section.
+- Click on the `Edit` icon to assign or move the hub to an apiary.
+
+---
+
+## Extended range
+
+If you are experiencing poor cell network coverage, an external antenna may improve the situation.
+
+We may have several solutions for your location — contact us at **support@broodminder.com**.
+
+One example is this **External Antenna Kit**.  
+The antenna plugs into the connector marked **“LTE”** on the Thingy91.
+
+![Antenna connector](../assets/60_hubs.assets/image-20230408084030343.png)
+
+1. Place the connector through the plastic mounting bracket.  
+2. Push the connector into the Thingy91’s LTE jack.  
+3. Secure the bracket using the included screw.
+
+![Antenna mount](../assets/60_hubs.assets/image-20230408084356882.png)

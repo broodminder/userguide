@@ -10,7 +10,6 @@ The BroodMinder development team is made up of passionate beekeepers who have be
 </div>
 
 
-
 ## Typical Procedure for a Normal Checkup
 
 In this guide, we will outline our usual procedure for a standard hive checkup, moving from general observations to more detailed inspections as needed.
