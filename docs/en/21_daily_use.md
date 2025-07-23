@@ -2,8 +2,12 @@
 
 The BroodMinder development team is made up of passionate beekeepers who have been using BroodMinder sensors in our own hives since 2015. Our apiaries vary in size, from just a few hives to over 75, all fully instrumented to enhance our beekeeping practices and make hive management more efficient. In this section, we will share how we utilize our devices and software, with the hope of providing valuable insights for your own colony management.
 
-!!! tip 
-    We assume here that you already have a system set up. For detailed information on devices or setup, please contact us at [support@broodminder.com](mailto:support@broodminder.com) for assistance in choosing the right configuration for your needs.
+
+<div align="center">
+<a href="https://youtu.be/WRh5ioP5bss" target="_blank">
+  <img src="https://img.youtube.com/vi/WRh5ioP5bss/0.jpg" alt="Running an apiary inspection with Bees App.">
+</a>
+</div>
 
 
 ## Typical Procedure for a Normal Checkup

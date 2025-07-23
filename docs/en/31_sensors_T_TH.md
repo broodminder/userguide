@@ -6,6 +6,17 @@ This sensor measures in-hive temperature and humidity and will also watch for te
 
 The first BroodMinder-TH was released in 2016. It was model 42 and was evolved into TH2 back in 2019. The SwarmMinder (see below) version TH2SM was introduced in May of 2020 evolving to model 56. In 2023 it was evolved to TH3 which is the current version distributed. 
 
+<hr>
+
+<div align="center">
+    <a href="https://youtu.be/ZiMcqCIzdvg" target="_blank">
+        <img src="https://img.youtube.com/vi/ZiMcqCIzdvg/0.jpg" alt="Broodminder T and TH">
+    </a>
+</div>
+
+<hr>
+
+
 
 ### Installation
 
