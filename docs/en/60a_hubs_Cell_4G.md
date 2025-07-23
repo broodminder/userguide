@@ -91,7 +91,7 @@ By default, it displays key metrics such as:
 
 These are generally self-explanatory.
 
-![hub 1](../assets/60_hubs.assets/hub_chart_1.png)
+![hub1](../assets/60_hubs.assets/hub_chart_1.png)
 
 
 ### Hub Status
@@ -110,7 +110,7 @@ Now let's look at the remaining metrics on this chart, all related with network 
 
 Modern BroodMinder hubs report **3 key network quality metrics**:
 
-![hub 1](../assets/60_hubs.assets/hub_chart_2.png)
+![hub2](../assets/60_hubs.assets/hub_chart_2.png)
 
 
 ### SNR – Signal to Noise Ratio
@@ -172,10 +172,10 @@ We may have several solutions for your location — contact us at **support@broo
 One example is this **External Antenna Kit**.  
 The antenna plugs into the connector marked **“LTE”** on the Thingy91.
 
-![Antenna connector](../assets/60_hubs.assets/image-20230408084030343.png)
+![Antenna_connector](../assets/60_hubs.assets/image-20230408084030343.png)
 
 1. Place the connector through the plastic mounting bracket.  
 2. Push the connector into the Thingy91’s LTE jack.  
 3. Secure the bracket using the included screw.
 
-![Antenna mount](../assets/60_hubs.assets/image-20230408084356882.png)
+![Antenna_mount](../assets/60_hubs.assets/image-20230408084356882.png)
