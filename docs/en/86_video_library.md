@@ -1,6 +1,20 @@
 # Video Library
 
-We've made lots of videos over the years. Here is a list of them with links.
+We've made lots of videos over the years. Here is a list of them with links. We have put the newest videos at the top of the list.
+
+## New Product Overviews
+
+- [BroodMinder-T2 & -TH2 (May 2025)](https://youtu.be/ZiMcqCIzdvg)
+- [BroodMinder Weight Scales (Jun 2025)](https://youtu.be/Ed5dNgoTlmM)
+- [BroodMinder-BeeTV (Jul 2025)](https://youtu.be/ENICpmt1blw)
+- [BroodMInder Hubs (Jun 2025)](https://youtu.be/Uo9sy90Xrfk)
+- [QueenMinder Beta (May 2025)](https://youtu.be/kpkddSc-lU4)
+- [Plants Module (Apr 2025)](https://youtu.be/u0g4em-KG7o)
+
+## Hive Inspections
+
+- [Inspect Your Beehives Without Opening Them (July 2025)](https://youtu.be/WRh5ioP5bss)
+- [Hive inspection using the BroodMinder Bees App (July 2024)](https://youtu.be/1i3VtDD0AQo)
 
 ## Installation
 
