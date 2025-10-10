@@ -169,7 +169,7 @@ We may suggest updating your firmware depending on the situation. Please check w
 
 It is an easy process.
 
-1) Cycle the power on the T91, the LED will light blue for 5 seconds
+1) Turn the power off and back on the T91, the LED will light blue for 5 seconds
 2) While the LED is blue press the silver and black push button in the middle of the unit.
 3) The T91 will now begin the firmware update process. It will continue to flash blue for several minutes.
 4) It will then flash green 10 times to indicate it has the firmware.
