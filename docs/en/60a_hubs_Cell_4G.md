@@ -169,12 +169,12 @@ We may suggest updating your firmware depending on the situation. Please check w
 
 It is an easy process.
 
-1) Turn the power off and back on the T91, the LED will light blue for 5 seconds
-2) While the LED is blue press the silver and black push button in the middle of the unit.
-3) The T91 will now begin the firmware update process. It will continue to flash blue for several minutes.
-4) It will then flash green 10 times to indicate it has the firmware.
-5) It will go dark for about minute while it writes the firmware and then restart.
-6) All done
+1. Turn the power off and back on the T91, the LED will light blue for 5 seconds
+2. While the LED is blue press the silver and black push button in the middle of the unit.
+3. The T91 will now begin the firmware update process. It will continue to flash blue for several minutes.
+4. It will then flash green 10 times to indicate it has the firmware.
+5. It will go dark for about minute while it writes the firmware and then restart.
+6. All done
 
 note: if the current firmware is too old, the unit must be returned to BroodMinder for reprogramming.
 
