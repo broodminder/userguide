@@ -6,7 +6,7 @@ The BroodMinder-T91 (BRM-54) Cell Hub is based on the Nordic "Thingy 91".
     Real-time data streaming through a hub is a Premium feature in MyBroodMinder. To enable it, you must have an active Premium subscription.
 
     Since the new membership model launched in January 2025, a single Premium membership allows you to use as many hubs as needed. Subscriptions are no longer linked to individual hubs—you only need one subscription per account, regardless of how many hubs you operate.
-
+    
     **Note:** When you receive a hub, it is not yet linked to your account. You’ll need to claim it manually, just like any other BroodMinder device. 
 
 <hr>
@@ -162,6 +162,23 @@ Need help interpreting your hub’s behavior? → Contact us at **support@broodm
 
 
 ---
+
+## Firmware Update
+
+We may suggest updating your firmware depending on the situation. Please check with support@broodminder.com prior to doing this.
+
+It is an easy process.
+
+1. Turn the power off and back on the T91, the LED will light blue for 5 seconds
+2. While the LED is blue press the silver and black push button in the middle of the unit.
+3. The T91 will now begin the firmware update process. It will continue to flash blue for several minutes.
+4. It will then flash green 10 times to indicate it has the firmware.
+5. It will go dark for about minute while it writes the firmware and then restart.
+6. All done
+
+note: if the current firmware is too old, the unit must be returned to BroodMinder for reprogramming.
+
+
 
 ## Extended range
 
