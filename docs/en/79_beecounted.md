@@ -1,4 +1,4 @@
-# Citizen Science 
+# BeeCounted.org citizen science
 
 Broodminder's public domain site is <a href="https://beecounted.org" target="_blank">Beecounted.org</a>. Our applications open up the possibility of sharing data with this international initiative. 
 

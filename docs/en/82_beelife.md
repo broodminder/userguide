@@ -1,58 +1,67 @@
-# Bee Life EU pollinator hub
+# EU Pollinator Hub
+
+![image](../assets/82_pollinatorhub/pollinator_hub.png){ style="display: block; margin: 0 auto" }
 
 
-BroodMinder, is collaborating with the [Bee Life association](https://www.bee-life.eu/) through the European Union Pollinator Hub to share critical data related to bee colony health and behavior. This partnership aims to improve pollinator policy in the European Union by leveraging advanced technology and data-driven insights collected among beekepers all around the world to support the conservation and well-being of pollinators, particularly honeybees.
+!!! abstract "Summary"
+    The EU Pollinator Hub is a European open platform designed to centralize and use data on pollinators to support research and public policy.  
+    BroodMinder enables any beekeeper to voluntarily contribute to this initiative by sharing anonymized data from their colonies.
 
-As a BroodMinder user you can choose to ** share your own hives** data with BeeLife. 
 
+The **EU Pollinator Hub** is a European platform dedicated to collecting, standardizing, and visualizing data on pollinators — including managed and wild bees, colony health, pollination, and agricultural or environmental conditions.
 
-## The data being shared
+Developed for the **EFSA (European Food Safety Authority)** and coordinated by **BeeLife**, the Hub aims to gather harmonized data following the FAIR principles (Findable, Accessible, Interoperable, Reusable).  
+It is **open and open-source**, and is intended for researchers, beekeepers, farmers, NGOs, and public authorities who want to contribute to consistent and high-quality pollinator monitoring.
 
-- sharing is done at apiary level
-- all raw measurements from devices in an apiary are shared.
-- a rough location of the apiary based on postal code.
+## What is the Pollinator Hub for?
 
+- Providing a **consolidated overview** through maps, dashboards, and indicators to detect trends, risks, and environmental signals  
+- Supporting European monitoring programs such as the **EU Pollinator Monitoring Scheme (EU-PoMS)**  
+- Helping implement the **European Pollinators Initiative** (New Deal for Pollinators)
+
+## Where to access it?
+
+- Information website: **pollinatorhub.eu**  
+- Web application: **app.pollinatorhub.eu** (dashboards, training modules, data tools)
+
+---
+
+# How BroodMinder integrates with the EU Pollinator Hub
+
+As a BroodMinder user, you may choose to **share your apiary data** with the EU Pollinator Hub.  
+This allows beekeepers to directly contribute to European efforts to understand and protect pollinators.
+
+BeeLife, as the coordinator of the Hub, receives these data and integrates them into the European monitoring infrastructure.
+
+## Data transmitted
+
+- Sharing is activated **per apiary**  
+- All **raw measurements** from devices in that apiary are shared  
+- An **approximate location** is included (postal code level)
 
 ## FAQ
 
 !!! question "When is my data sent?"
-    Data is sent daily to BeeLife as far as the sharing is active
+    Once activated, data is sent **daily** to the Pollinator Hub.
 
-!!! question "If I activate the sharing now, is past data being sent too"
-    No, sending is done on a daily basis. No catch back is done (except for devices being synced manually)
+!!! question "If I activate sharing now, will past data be sent?"
+    No. Only data collected after activation is transmitted (except for manually synced devices).
 
-!!! question "What happens if I move a device out of this apiary?"
-    data from this device won't be sent anymore
+!!! question "What if I remove a device from the apiary?"
+    Its data will no longer be shared.
 
-!!! question "What happens if I move a new device into this apiary?"
-    adding a device to that apiary will start to share the data from that moment
-
-
+!!! question "What if I add a new device to the apiary?"
+    It will start sharing data from its first synchronization onward.
 
 
-More information at  [https://www.bee-life.eu/eupollinatorhub](https://www.bee-life.eu/eupollinatorhub)
 
+# Why share your data?
 
-## Rationale for Data Sharing
+- **Better-informed policy:** Real, harmonized, continuous data helps shape more effective pollinator protection policies.  
+- **Early warning:** Data contributes to alerts for disease, climate stress, floral shortages, or harmful exposures.  
+- **Scientific research:** European researchers use these data to better understand pollinator dynamics and resilience.
 
-- Environmental Conservation: BroodMinder recognizes the vital role pollinators, especially honeybees, play in sustaining ecosystems and agriculture. By sharing data with the EU Pollinator Hub, BroodMinder aims to contribute to pollinator conservation efforts.
+# Data protection
 
-- Data-Driven Policy: The EU Pollinator Hub is dedicated to formulating policies that promote pollinator health and well-being. Access to real-time beehive data can provide valuable insights into the factors affecting pollinator populations and inform evidence-based policy decisions.
-
-- Collaborative Approach: BroodMinder believes that collaboration between the private sector and governmental organizations is essential for addressing complex ecological challenges. Sharing data with the EU Pollinator Hub demonstrates a commitment to working together for a common cause.
-
-## Nature of Data Shared
-
-BroodMinder shares anonymized and aggregated data collected from its beehive monitoring devices. This data includes temperature trends, humidity levels, hive weight fluctuations, and other relevant environmental conditions. Individual beekeepers' data remains confidential, with no personally identifiable information shared.
-
-Benefits of Data Sharing:
-
-- Informed Policy Decisions: The EU Pollinator Hub gains access to real-world data on bee colonies' health and behavior, allowing for more informed policy decisions to protect pollinators.
-
-- Early Warning System: The data can serve as an early warning system, enabling rapid responses to issues such as hive diseases, climate change impacts, or pesticide exposures.
-
-- Scientific Research: Researchers and scientists working with the EU Pollinator Hub can use the data to conduct studies that advance our understanding of pollinator dynamics.
-
-## Privacy and Ethical Considerations:
-BroodMinder ensures that the data shared is anonymized and aggregated, preserving the privacy of individual beekeepers. Ethical considerations include obtaining informed consent from beekeepers and ensuring data security to prevent unauthorized access.
-
+All data shared through BroodMinder are **anonymized and aggregated** before transmission.  
+No personal information is ever shared, and participation relies entirely on the beekeeper’s **explicit consent**.
