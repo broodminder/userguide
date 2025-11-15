@@ -1,17 +1,25 @@
 # EU Pollinator Hub
 
-![image](../assets/82_pollinatorhub/pollinator_hub.png){ style="display: block; margin: 0 auto" }
-
-
 !!! abstract "Summary"
-    The EU Pollinator Hub is a European open platform designed to centralize and use data on pollinators to support research and public policy.  
-    BroodMinder enables any beekeeper to voluntarily contribute to this initiative by sharing anonymized data from their colonies.
+    The EU Pollinator Hub is a European open platform designed to centralize and use data on pollinators to support research and public policy.      BroodMinder enables any beekeeper to voluntarily contribute to this initiative by sharing anonymized data from their colonies.
+    
+<div align="center">
+<a href="https://youtu.be/-1p_x952-yo" target="_blank">
+  <img src="../assets/82_pollinatorhub/video.png" alt="Announcing EU Pollinator Hub Integration">
+</a>
+</div>
+
+
 
 
 The **EU Pollinator Hub** is a European platform dedicated to collecting, standardizing, and visualizing data on pollinators — including managed and wild bees, colony health, pollination, and agricultural or environmental conditions.
 
 Developed for the **EFSA (European Food Safety Authority)** and coordinated by **BeeLife**, the Hub aims to gather harmonized data following the FAIR principles (Findable, Accessible, Interoperable, Reusable).  
 It is **open and open-source**, and is intended for researchers, beekeepers, farmers, NGOs, and public authorities who want to contribute to consistent and high-quality pollinator monitoring.
+
+
+
+
 
 ## What is the Pollinator Hub for?
 
@@ -28,10 +36,11 @@ It is **open and open-source**, and is intended for researchers, beekeepers, far
 
 # How BroodMinder integrates with the EU Pollinator Hub
 
-As a BroodMinder user, you may choose to **share your apiary data** with the EU Pollinator Hub.  
-This allows beekeepers to directly contribute to European efforts to understand and protect pollinators.
+As a BroodMinder user, you can share your apiary data with the EU Pollinator Hub.
+Simply **check the Share option at the apiary level** to contribute directly to Europe’s pollinator-protection efforts.
 
-BeeLife, as the coordinator of the Hub, receives these data and integrates them into the European monitoring infrastructure.
+![image](../assets/82_pollinatorhub/share.png)
+
 
 ## Data transmitted
 

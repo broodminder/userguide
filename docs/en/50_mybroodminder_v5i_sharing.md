@@ -38,3 +38,11 @@ Perfect for associations, schools, or companies, this big-screen mode lets you p
 ![Educational Board](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
 <div align="center" ><i>Educational Dashboards are fun!</i></div>
 
+## EU Pollinator Hub
+
+As a BroodMinder user, you can share your apiary data with the EU Pollinator Hub.
+Simply **check the Share option at the apiary level** to contribute directly to Europe’s pollinator-protection efforts.
+
+![image](../assets/82_pollinatorhub/share.png)
+
+Learn more about [EU Pollinator hub](../en/82_beelife.md).

@@ -10,3 +10,12 @@ This data is publicly accessible and helps researchers and scientists improve kn
 Beecounted is also the way to go around the world of beehives. How are the colonies in Canada doing these days? Check it out!
 
 ![image](../assets/images/40_2_beecounted.png#largeImg)
+
+
+
+## How can you share your hive data in Beecounted?
+
+If you use BroodMinder, you can easily share your apiary data with BeeCounted.org.
+Just **enable the Share option at the apiary level** to contribute directly to citizen-science efforts.
+
+![image](../assets/82_pollinatorhub/share.png)
