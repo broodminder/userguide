@@ -196,3 +196,15 @@ The antenna plugs into the connector marked **“LTE”** on the Thingy91.
 3. Secure the bracket using the included screw.
 
 ![Antenna_mount](../assets/60_hubs.assets/image-20230408084356882.png)
+
+## Replacing SIM card
+Simply push in to extract the old SIM and again push in to introduce the new one.
+
+<div align="center">
+    <a href="https://youtube.com/shorts/1Csb6GaMB5c" target="_blank">
+        <img src="https://img.youtube.com/vi/1Csb6GaMB5c/0.jpg" alt="Broodminder T91">
+    </a>
+</div>
+<hr>
+
+
