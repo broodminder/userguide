@@ -83,3 +83,4 @@ This means your notes are no longer passive records but become **smart checkpoin
 
 To learn more, continue to the next chapter: **QueenMinder – Colony Transitions**.
 
+--- 
