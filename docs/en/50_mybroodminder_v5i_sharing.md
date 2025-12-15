@@ -9,24 +9,43 @@
 
 From MyBroodMinder you have many options to share your hives with other beekeepers and friends:
 
-## With another user
+## Share with another user
 Share an Apiary (in the Apiary `… > share` ) with another MyBroodMinder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
 
 ![Sharing 1](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
 ![Sharing 2](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
 
-## On beecounted
+## Share on beecounted
 
 Share an apiary [beecounted.org](https://www.beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
 
 ![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
 
-## On Social Media with a URL
+## Share on Social Media with a URL
 
 Share a (read only) dashboard with other people and even on social media using an URL. Simply move to the Dashboard top left menu `… > share`):.
 When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
 
 ![Shared_URL](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
+
+
+## Share on your own website
+If you want to display charts on your own website (or on your bee club’s website), you can reuse the shared dashboard URL and embed it into your page using an iframe.
+Simply pass the URL to your webmaster — they’ll know how to handle the integration.
+
+This allows you to publish live, read-only hive data directly on your site, without exposing your MyBroodMinder account.
+
+```
+<iframe 
+  src="https://mybroodminder.com/share/your-dashboard-url"
+  width="100%"
+  height="600"
+  style="border:0;"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+```
+
 
 ## Educational Dashboards
 
