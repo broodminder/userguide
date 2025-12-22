@@ -52,8 +52,8 @@ All our current scales use standard **AA batteries** (W+ uses **AAA**). Replace 
 - Check readings under no load first and then with known weights.  
 
 <div style="display: flex; gap: 10px;">
-  <img src="../assets/88_winter_service/real_time.png" alt="Image 1" style="width: 45%;">
-  <img src="../assets/88_winter_service/real_time2.png" alt="Image 2" style="width: 45%;">
+  <img src="/assets/88_winter_service/real_time.png" alt="Image 1" style="width: 45%;">
+  <img src="/assets/88_winter_service/real_time2.png" alt="Image 2" style="width: 45%;">
 </div>
 
 - If needed, **tare the scale**: In Bees App, navigate to `... > Troubleshooting > Calibrate scale` and press the **Tare** button without modifying other fields.  
