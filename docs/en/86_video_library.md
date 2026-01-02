@@ -104,7 +104,7 @@ We've made lots of videos over the years. Here is a list of them with links. We 
 
 - <a href="https://youtu.be/jmRjC8yvCQU" target="_blank">**S1:E8 Swarm Detection using Temperature**</a> - Theo's presentation at the 4th International Bee and Hive Monitoring Conference. 
 
-- <a href="https://youtu.be/fGWosy74GE4" target="_blank">**S1:E9 BroodMinder Worker Bees**</a> - This week we chat with Elizabeth and Josh about their rolls at BroodMinder.
+- <a href="https://youtu.be/fGWosy74GE4" target="_blank">**S1:E9 BroodMinder Worker Bees**</a> - This week we chat with Elizabeth and Josh about their roles at BroodMinder.
 
 - <a href="https://youtu.be/OdmFxZQF09Y" target="_blank">**S1:E10 Hiving Queen Karla's Swarm**</a> - This week we watch Theo transfer a colony from a swarm trap to a hive. 
 
