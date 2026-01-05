@@ -12,6 +12,14 @@ These hubs are not configurable with the Broodminder Bees app. **You must instal
 ## Install the SIM Card
 Here are the steps to install the SIM card:
 
+Watch the video :
+<div align="center">
+<a href="https://youtu.be/NesHA2rbpgM" target="_blank">
+  <img src="https://img.youtube.com/vi/NesHA2rbpgM/0.jpg" alt="Install SIM card">
+</a>
+</div>
+
+
 1. Unplug the 3G 'Clic' circuit board.
 2. Open the SIM metal holder: slide it upward through the antenna with your thumb, then pull it up and remove the SIM.
 3. Insert the SIM card in the right position.

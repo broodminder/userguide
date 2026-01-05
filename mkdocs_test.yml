@@ -23,7 +23,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/solid/file-pdf
-      link: /pdf/userguide.pdf
+      link: /assets/pdf/userguide.pdf
       name: Version PDF
 
 extra_css:
@@ -100,6 +100,28 @@ nav:
   - _____: void.md
 
 plugins:
+# PDF User Guide generation only in EN 
+  - to-pdf:
+      #enabled_if_env: ENABLE_PDF_EXPORT
+      heading_shift: false
+      toc_level: 3
+      ordered_chapter_level: 2
+      two_columns_level: 3
+      output_path: assets/pdf/userguide.pdf
+      cover_logo: assets/images/BroodMinder_Left_Green_en_590px.png
+      cover_subtitle: Welcome to the world of BroodMinder
+      exclude_pages:
+        - 'index.html'
+        - 'void/'
+        - 'fr/'
+        - 'de/'
+        - 'es/'
+        - 'it/'
+        - 'ja/'
+        - 'pt/'
+        - 'nl/'
+        - 'nn/'
+        - 'ar/'
   - search
   #Language management, see readme for adding new langs
   - i18n:
