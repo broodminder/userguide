@@ -112,7 +112,7 @@ nav:
 plugins:
 # PDF User Guide generation only in EN 
   - to-pdf:
-  #    enabled_if_env: ENABLE_PDF_EXPORT
+      enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: false
       toc_level: 3
       ordered_chapter_level: 2
