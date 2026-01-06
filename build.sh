@@ -23,6 +23,7 @@ cp -r ./site/* /var/www/html/doc/
 # Build
 echo "build EN PDF"
 export BUILD_ONLY_LOCALE=en && export ENABLE_PDF_EXPORT=1 && /home/$USER/.pyenv/versions/userguide/bin/mkdocs build --clean
+mkdir -p /var/www/html/doc/assets/pdf/
 cp ./site/assets/pdf/userguide.pdf /var/www/html/doc/assets/pdf/userguide.pdf
 rm -r ./site
 
