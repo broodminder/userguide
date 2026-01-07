@@ -108,33 +108,26 @@ Once you repair the scale and need to recalibrate it, we suggest using the PC ap
 
 ## REPAIR – BroodMinder-W4 BRM-49 weight fluctuations 
 
-### W4 built before 2025
+**W4 built before Jan. 2025**
 At the end of 2024, we identified an issue affecting a limited number of W4 model hive scales, where abnormal weight fluctuations were caused by a short-circuit in the load cell wiring.
 
 The root cause was related to the brass threaded inserts inside the electronic enclosure. The electronic board is mounted directly above the plastic standoffs that contain these brass inserts, with the load-cell wire connections facing them.
 
-Under normal conditions, the brass inserts sit slightly deeper than the surrounding plastic. However, in some cases:
-	•	an insert could protrude slightly, or
-	•	excess solder or a tightly fastened circuit board could reduce the clearance,
+![w4 fluct](../assets/89_repair_guide.assets/w4/short-contact.JPG#MediumImg)
 
-leading to intermittent contact between the insert and the load-cell wiring or circuitry.
+
+Under normal conditions, the brass inserts sit slightly deeper than the surrounding plastic. However, in some cases an insert could protrude slightly, or excess solder or a tightly fastened circuit board could reduce the clearance, leading to a contact between the insert and the load-cell wiring or circuitry.
 
 This contact often occurred randomly, as it was influenced by temperature-related expansion and contraction, which made the issue difficult to identify for several months.
 
 When the load cell becomes short-circuited, the scale typically reports a fixed weight of approximately 80 kg per load cell. As a result, the most common symptom is a sudden jump to values such as 80 kg, 160 kg, or 200 kg, as illustrated below.
 
-![w4 fluct](../assets/89_repair_guide.assets/w4/w4_fluctuations.png)
 ![w4 fluct](../assets/89_repair_guide.assets/w4/w4_fluctuations2.png)
+![w4 fluct](../assets/89_repair_guide.assets/w4/w4_fluctuations.png)
 
-![w4 fluct](../assets/89_repair_guide.assets/w4/short-contact.JPG#MediumImg)
 
 
-#### Workaround 
-since this issue was detected we're removing all brass inserts on manufacturing process. No W4 scle past january 2025 should have those inserts.
-If you have an older scale you can remove them too using an iron, if you do not have an iron you can simply use insulation electricity tape to separate the inserts from the circuit board 
-
-![w4 fluct](../assets/89_repair_guide.assets/w4/short-contact.JPG#MediumImg)
-
+**Workaround**
 
 Since this issue was identified, we have removed all brass inserts from the manufacturing process. As a result, no W4 scale produced after January 2025 includes these inserts.
 
@@ -154,7 +147,8 @@ If you do not have a soldering iron, you can place electrical insulation tape be
 Both solutions prevent any possible contact between the inserts and the electronics and fully resolve the issue.
 
 
-### Other reasons for weight fluctuation
+**Other reasons for weight fluctuation**
+
 In at least one documented case, abnormal weight fluctuations were caused by ice forming underneath the load cell.
 
 The observed behavior was similar to the short-circuit issue described above (sudden or unrealistic weight changes), although in this case the weight was dropping rather than increasing. The beekeeper ultimately identified the root cause as purely mechanical, not electrical.
@@ -238,7 +232,7 @@ We recommend a little blue locktite to secure the nuts.
 
  ![image-20230409130643505](../assets/89_repair_guide.assets/image-20230409130643505.png)
 
-## 16.3 Appendix D – Battery Power
+## Appendix – Battery Power
 
 In the winter of 2020/21, we worked to extend battery greater than 5 years. The following section provides measurement data for those interested in such matters.
 
