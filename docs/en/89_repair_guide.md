@@ -16,14 +16,14 @@ Most issues are software issues. In general, they get solved in the app or on My
 - **Battery holder breakage**. In devices with plastic battery holders the replacement part is MPD p/n BU2032SM-BT-GTR (https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/BU2032SM-BT-GTR/2439521)
 - **Battery no connect**. We don’t see this often, but the battery holder can get gunk from the bees on it. You can clean the battery connectors with isopropyl alcohol.
 
-## **General Notes:**
+## **General Notes**
 
 - You can clean any components using 90% or greater isopropyl or ethanol alcohol. Warm it after aggressively cleaning to evaporate all moisture. This is a decent way to dry out a board since the alcohol will ‘pick up’ the extra moisture.
 - Keep things dry. Cracked housings are the leading cause of scale problems. If you don’t want to purchase new housings, then just tape the old one. There are lots of good tapes out there. Clear Gorilla tape is one of our favorites.
 - I refer to Digikey a lot, but many supply houses have these parts.
 
 
-## **REPAIR - Fast Battery Drain  **
+## REPAIR - Fast Battery Drain
 
 !!! Note
 
@@ -52,7 +52,7 @@ It is a good idea to coat the components after replacing. You can use nail polis
 
 More info on “Tin Whiskers” - https://nepp.nasa.gov/whisker/background/index.htm & https://www.eevblog.com/forum/projects/removing-tin-whiskers/
 
-## **REPAIR – Will not respond– T2 (mod 47 gen with push button)**
+## REPAIR – Will not respond– T2 (mod 47 gen with push button)
 
 !!! Note
 
@@ -67,11 +67,9 @@ We try to get the best parts possible, but sometimes it doesn’t work out. We h
 
 ![image-20230409130155350](../assets/89_repair_guide.assets/image-20230409130155350.png) You can see the switch guts on the board to the left. It is a “snap dome” switch which should be super reliable. Our best guess is that the dome was contaminated, and a thin film formed preventing contact. Aggressive repeated pressing seems to break through. YMMV.
 
-## **REPAIR – Assemble the BroodMinder-W+ BRM-57 (built after 2020)**
+## REPAIR – Assemble the BroodMinder-W+ BRM-57 (built after 2020)
 
 We now use the same sensors for the BRM-57 and we fix the aluminum base permanently to the wooden top. If you disassemble it, here is how to put it back together.
-
- 
 
 Mount the pins along with the two washers per pin in the holes indicated.
 
@@ -81,7 +79,7 @@ Put the plastic rain shield back on.
 
 ![image-20230409130228084](../assets/89_repair_guide.assets/image-20230409130228084.png)
 
-## **REPAIR – Scale weight problems BRM-43, original BroodMinder-W**
+## REPAIR – Scale weight problems BRM-43, original BroodMinder-W
 
 The scales have also been reliable unless exposed to environmental problems, typically because the housing become cracked and rain enters. Usually, a good cleanup helps. I have not seen the ADC1234 fail. Typically, it is a capacitor (as discussed above) or the battery holder (MPD p/n BU2032SM-BT-GTR). The weight sensors are also available at Digikey, FX1901-0001-0100-L by TE Connectivity Measurement Specialties.
 
@@ -107,7 +105,73 @@ Once you repair the scale and need to recalibrate it, we suggest using the PC ap
 
 ![image-20230409130250679](../assets/89_repair_guide.assets/image-20230409130250679.png)
 
-## **REPAIR – BroodMinder-W2**
+
+## REPAIR – BroodMinder-W4 BRM-49 weight fluctuations 
+
+### W4 built before 2025
+At the end of 2024, we identified an issue affecting a limited number of W4 model hive scales, where abnormal weight fluctuations were caused by a short-circuit in the load cell wiring.
+
+The root cause was related to the brass threaded inserts inside the electronic enclosure. The electronic board is mounted directly above the plastic standoffs that contain these brass inserts, with the load-cell wire connections facing them.
+
+Under normal conditions, the brass inserts sit slightly deeper than the surrounding plastic. However, in some cases:
+	•	an insert could protrude slightly, or
+	•	excess solder or a tightly fastened circuit board could reduce the clearance,
+
+leading to intermittent contact between the insert and the load-cell wiring or circuitry.
+
+This contact often occurred randomly, as it was influenced by temperature-related expansion and contraction, which made the issue difficult to identify for several months.
+
+When the load cell becomes short-circuited, the scale typically reports a fixed weight of approximately 80 kg per load cell. As a result, the most common symptom is a sudden jump to values such as 80 kg, 160 kg, or 200 kg, as illustrated below.
+
+![w4 fluct](../assets/89_repair_guide.assets/w4/w4_fluctuations.png)
+![w4 fluct](../assets/89_repair_guide.assets/w4/w4_fluctuations2.png)
+
+![w4 fluct](../assets/89_repair_guide.assets/w4/short-contact.JPG#MediumImg)
+
+
+#### Workaround 
+since this issue was detected we're removing all brass inserts on manufacturing process. No W4 scle past january 2025 should have those inserts.
+If you have an older scale you can remove them too using an iron, if you do not have an iron you can simply use insulation electricity tape to separate the inserts from the circuit board 
+
+![w4 fluct](../assets/89_repair_guide.assets/w4/short-contact.JPG#MediumImg)
+
+
+Since this issue was identified, we have removed all brass inserts from the manufacturing process. As a result, no W4 scale produced after January 2025 includes these inserts.
+
+If you are using an older scale, you can apply one of the following solutions:
+- Permanent fix:
+The brass inserts can be removed using a soldering iron. Warm it up and pul out.
+
+![w4 fluct](../assets/89_repair_guide.assets/w4/iron.JPG#MediumImg)
+
+
+- Simple workaround:
+If you do not have a soldering iron, you can place electrical insulation tape between the brass inserts and the circuit board to ensure proper electrical isolation.
+
+![w4 fluct](../assets/89_repair_guide.assets/w4/tape.JPG#MediumImg)
+
+
+Both solutions prevent any possible contact between the inserts and the electronics and fully resolve the issue.
+
+
+### Other reasons for weight fluctuation
+In at least one documented case, abnormal weight fluctuations were caused by ice forming underneath the load cell.
+
+The observed behavior was similar to the short-circuit issue described above (sudden or unrealistic weight changes), although in this case the weight was dropping rather than increasing. The beekeeper ultimately identified the root cause as purely mechanical, not electrical.
+
+Ice buildup can restrict the free movement of the load cell and temporarily distort the measured load. Once the ice melts and the load cell is able to move freely again, the weight readings typically return to normal.
+
+![w4 fluct](../assets/89_repair_guide.assets/w4/ice1.png#MediumImg)
+
+![w4 fluct](../assets/89_repair_guide.assets/w4/ice2.jpg#MediumImg)
+
+![w4 fluct](../assets/89_repair_guide.assets/w4/ice3.jpg#MediumImg)
+
+
+
+
+
+## REPAIR – BroodMinder-W2
 
 The W2 is pretty new, so we don’t know all of the failure modes yet. We will show you how to disassemble without destroying it.
 

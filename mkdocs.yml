@@ -117,7 +117,7 @@ plugins:
       toc_level: 3
       ordered_chapter_level: 2
       two_columns_level: 3
-      output_path: assets/pdf/userguide.pdf
+      #output_path: assets/pdf/userguide.pdf
       cover_logo: assets/images/BroodMinder_Left_Green_en_590px.png
       cover_subtitle: Welcome to the world of BroodMinder
       exclude_pages:
