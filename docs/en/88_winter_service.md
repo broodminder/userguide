@@ -41,7 +41,7 @@ If you’d prefer us to handle this for you, visit [BroodMinder-Refresh](https:/
 
 ---
 
-### Scales: W+, W3, W4, W5 
+### W+, W3, W4, W5 Scales
 (models 49 and 57)
 
 All our current scales use standard **AA batteries** (W+ uses **AAA**). Replace them if charge is below 40%.  
@@ -92,11 +92,11 @@ Upgrading T91 is slightly different process compared to our other devices. We us
 
 ---
 
-## Legacy Devices  
+### Legacy Devices  
 
 Below are the detailed procedures for our older models that are still supported.  
 
-### T2 - Before 2023,
+#### T2 - Before 2023
 (Models 41 & 47)  
 
 - Replace the battery as shown in this [video](https://www.youtube.com/watch?v=alaZtXpn-g4).  
@@ -108,13 +108,13 @@ Below are the detailed procedures for our older models that are still supported.
 - Upgrade firmware using this [guide](https://www.youtube.com/watch?v=zK4vYvpur1E).  
 [![Firmware Upgrade](https://img.youtube.com/vi/zK4vYvpur1E/0.jpg)](https://www.youtube.com/watch?v=zK4vYvpur1E)
 
-### TH - Before 2020
+#### TH - Before 2020
 (Model 42)  
 
 - Replace the battery as shown in this [video](https://www.youtube.com/watch?v=tJTuL12vjps).  
 [![Battery Replacement](https://img.youtube.com/vi/tJTuL12vjps/0.jpg)](https://www.youtube.com/watch?v=tJTuL12vjps)
 
-### W - Before 2021
+#### W - Before 2021
 (Model 43)  
 
 This scale uses the same circuit board as the TH model 42.
@@ -138,8 +138,9 @@ Before updating firmware, ensure you’re using the latest **Bees App** version 
 
 ### Basic Update Process  
 
-1. Update the Bees App.  
-2. Find the **Update Icon** next to your device in the app.  
+1. Update the Bees App.
+2. Go to `BeesApp > user settings` and check that `Show Available Firmware updates`is toggled on 
+2. Go to `BeesApp > devices` and find the **Update Icon** ⚠ next to your device in the app.  
 3. Press **“Update Firmware”** or **“Sync and Update Firmware”**.  
 4. Wait for 2-3 minutes.  
 5. Verify the update was successful.  
@@ -148,5 +149,67 @@ If the update fails:
 
 - Remove the batteries for 1 minute, replace them, and retry.  
 - If the issue persists, contact [support@broodminder.com](mailto:support@broodminder.com).  
+
+
+## Prepare MyBroodMinder
+
+Beyond keeping your devices up to date, it is just as important — if not more so — to ensure that your software interface is up to date before starting the new season.
+
+Depending on your workflow, you may:
+- keep all devices in the same overwintered hives, or  
+- move devices to new hives at the start of each season.
+
+Below are several ways to manage devices, hives, and apiaries, either individually or in bulk.  
+Choose the method that best suits your needs.
+
+
+!!! tip
+
+    As a general rule, **never delete apiaries, hives, or devices**. Your historical data is extremely valuable, as it allows you to look back and answer questions such as:
+    
+    - How was the nectar flow in 2023 at apiary A?
+    - When did it start?
+    - How much did I harvest?
+    - When did brood rearing begin last year?
+
+    All of this information is contained in your past data and becomes more valuable over the long term.
+
+    Over time, we will continue adding features that make it easier to explore this “time machine.” By keeping complete records today, you’ll be able to fully benefit from these tools in the future.
+
+
+### Manage by device
+
+You can manually remove devices from hives either from the **Bees App** or from **MyBroodMinder**. You may also adjust the dates on which devices were installed in a given hive. The **`Configure > Devices`** panel is the easiest and most efficient way to perform these actions.
+
+![archive](../assets/88_winter_service/configuredevices.png)
+
+
+### Manage by hive 
+
+If you are starting up with new hives, the recommended approach is to **Set the hive as inactive**. This action will archive the former hive, removing it from your current view while preserving all historical data in your records. At the same time, any devices assigned to that hive will be automatically unassigned and made available for reuse.
+
+In other words, with a single action you both **archive the hive** and **free the associated devices** for reassignment.
+
+![archive](../assets/88_winter_service/archivehive.png)
+
+Your archived hive will disappear from the left side bar but you can always access it in `Configure > Hives`
+
+![archive](../assets/88_winter_service/configurehives.png)
+
+### Manage by apiary
+
+If, over the course of the season, you created apiaries that no longer contain any hives, we recommend **archiving** them rather than deleting them. Archiving an apiary will keep all asociated data and also archive its hives and free any associated devices, as described above.
+
+If you plan to reuse an apiary in the future, keep it active. Please note that **deactivation is irreversible**.
+
+
+![archive](../assets/88_winter_service/configureapiaries.png)
+
+
+As a practical tip, you can rename an unused apiary by adding a prefix such as `z_` (for example, `z_my_unused_apiary`). This will move it down the list, away from your active apiaries. When you are ready to use it again, you can simply rename it back to bring it to the top of the list.
+
+
+
+
 
 
