@@ -156,6 +156,7 @@ If the update fails:
 Beyond keeping your devices up to date, it is just as important — if not more so — to ensure that your software interface is up to date before starting the new season.
 
 Depending on your workflow, you may:
+
 - keep all devices in the same overwintered hives, or  
 - move devices to new hives at the start of each season.
 
