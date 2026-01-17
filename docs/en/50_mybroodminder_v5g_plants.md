@@ -6,12 +6,19 @@
     Most importantly, you’ll discover **Phenocast**, BroodMinder’s powerful forecasting tool that uses your local observations and weather history to predict phenological stages — helping you plan interventions and optimize pollination like never before.
 
 
-
 <div align="center">
-    <a href="https://youtu.be/u0g4em-KG7o" target="_blank">
-        <img src="/assets/50_mybroodminder_v5.assets/plants/ytb_video.png#largeImg" alt="Plants video">
-    </a>
+  <div id="yt-u0g4em-KG7o" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/u0g4em-KG7o/0.jpg" alt="Plants video" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-u0g4em-KG7o").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/u0g4em-KG7o?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 
 The **Plants** module is one of the key new features released in 2025. Since 2022, we’ve been developing a powerful model to **track and forecast phenological stages** of plants. The engine behind this feature is called **Phenocast**.

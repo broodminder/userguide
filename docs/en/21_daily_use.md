@@ -4,10 +4,18 @@ The BroodMinder development team is made up of passionate beekeepers who have be
 
 
 <div align="center">
-<a href="https://youtu.be/WRh5ioP5bss" target="_blank">
-  <img src="https://img.youtube.com/vi/WRh5ioP5bss/0.jpg" alt="Running an apiary inspection with Bees App.">
-</a>
+  <div id="yt-WRh5ioP5bss" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/WRh5ioP5bss/0.jpg" alt="Running an apiary inspection with Bees App." style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-WRh5ioP5bss").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/WRh5ioP5bss?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 
 ## Typical Procedure for a Normal Checkup

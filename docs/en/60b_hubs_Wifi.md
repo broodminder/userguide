@@ -9,10 +9,18 @@ We recommend setting this up where there is strong WIFI and a nice work area pri
 <hr>
 Watch the video to get started:  
 <div align="center">
-    <a href="https://youtu.be/10jw51jqmT0" target="_blank">
-        <img src="https://img.youtube.com/vi/10jw51jqmT0/0.jpg" alt="Broodminder T91">
-    </a>
+  <div id="yt-10jw51jqmT0" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/10jw51jqmT0/0.jpg" alt="Broodminder T91" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-10jw51jqmT0").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/10jw51jqmT0?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 <hr>
 
 

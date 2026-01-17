@@ -9,11 +9,19 @@
     This section is key for anyone interested in pollination, colony behavior, or ecosystem monitoring.
 
 
-<div align="center" >
-<a href="https://www.youtube.com/watch?v=itsttEXKm_I" target="_blank">
-  <img src="/assets/50_mybroodminder_v5.assets/foragers/Monitoring_Foragers.png#largeImg" alt="Monitoring Foragers">
-</a>
+<div align="center">
+  <div id="yt-itsttEXKm_I" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/itsttEXKm_I/0.jpg" alt="Monitoring Foragers" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-itsttEXKm_I").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/itsttEXKm_I?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 Forager bees embark daily on a mission to collect resources essential for the colony’s survival — and for pollination, of course! Monitoring foraging activity provides valuable insights into hive health and ecosystem interaction.
 

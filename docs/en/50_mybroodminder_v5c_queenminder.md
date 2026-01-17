@@ -19,22 +19,38 @@ With QueenMinder, you improve your success rates and maintain full control over 
     These features are currently available exclusively on the MyBroodMinder web platform. Implementation in the Bees mobile app will follow in a second phase.
 
 
-## Watch the intro video :
+## Watch the intro video
 
 <div align="center">
-<a href="https://youtu.be/YG81Hej1HMA" target="_blank">
-  <img src="https://img.youtube.com/vi/YG81Hej1HMA/0.jpg" alt="QueenMinder beta intro">
-</a>
+  <div id="yt-YG81Hej1HMA" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/YG81Hej1HMA/0.jpg" alt="QueenMinder beta intro" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-YG81Hej1HMA").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/YG81Hej1HMA?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 
 ## Getting started
 
 <div align="center">
-<a href="https://youtu.be/kpkddSc-lU4" target="_blank">
-  <img src="https://img.youtube.com/vi/kpkddSc-lU4/0.jpg" alt="QueenMinder beta getting started">
-</a>
+  <div id="yt-kpkddSc-lU4" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/kpkddSc-lU4/0.jpg" alt="QueenMinder beta getting started" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-kpkddSc-lU4").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/kpkddSc-lU4?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 
 The process of queen replacement is triggered when you add a note with one of those tags : 

@@ -6,11 +6,19 @@
     You’ll learn to interpret weight change patterns, distinguish between foraging behavior and beekeeper actions, and build custom dashboards to visualize the flow.  
     You’ll also discover how **productivity metrics** offer a daily summary of your colony's performance, and how automatic notifications help you stay in sync with the bees’ activity throughout the season.
 
-<div align="center" >
-<a href="https://www.youtube.com/watch?v=ZUkm1N2izJ0" target="_blank">
-  <img src="/assets/50_mybroodminder_v5.assets/productivity/Monitoring_Weight.png#largeImg" alt="Monitoring Weight">
-</a>
+<div align="center">
+  <div id="yt-ZUkm1N2izJ0" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/ZUkm1N2izJ0/0.jpg" alt="Monitoring Weight" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-ZUkm1N2izJ0").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZUkm1N2izJ0?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 Tracking and experiencing nectar flows is one of the most fascinating aspects of beekeeping. Plants release nectar, bees find it, love it, and bring it home.  
 That’s how it’s supposed to work, right?  

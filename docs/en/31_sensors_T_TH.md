@@ -9,10 +9,18 @@ The first BroodMinder-TH was released in 2016. It was model 42 and was evolved i
 <hr>
 
 <div align="center">
-    <a href="https://youtu.be/ZiMcqCIzdvg" target="_blank">
-        <img src="https://img.youtube.com/vi/ZiMcqCIzdvg/0.jpg" alt="Broodminder T and TH">
-    </a>
+  <div id="yt-ZiMcqCIzdvg" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/ZiMcqCIzdvg/0.jpg" alt="Broodminder T and TH" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-ZiMcqCIzdvg").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZiMcqCIzdvg?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 <hr>
 
