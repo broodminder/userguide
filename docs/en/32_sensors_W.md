@@ -8,8 +8,19 @@ The Broodminder-W ( **W**eight) is a single-bar hive scale that goes under the h
 
 The first W was released in 2017, it was model 43 and lasted for 5 years unitil in 2022 was released the W+ scale under model 57 improving bluetooth range and battery life.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ed5dNgoTlmM?si=n38-xdbrlpS0DWbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div align="center">
+  <div id="yt-Ed5dNgoTlmM" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/Ed5dNgoTlmM/0.jpg" alt="YouTube video" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
+</div>
 
+<script>
+document.getElementById("yt-Ed5dNgoTlmM").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Ed5dNgoTlmM?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 ### Installation
 

@@ -7,11 +7,18 @@
     
 
 <div align="center">
-<a href="https://youtu.be/FoeU-fPR7Fw" target="_blank">
-  <img src="https://img.youtube.com/vi/FoeU-fPR7Fw/0.jpg" alt="MyBroodMinder v5 feature overview ">
-</a>
+  <div id="yt-FoeU-fPR7Fw" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/FoeU-fPR7Fw/0.jpg" alt="MyBroodMinder v5 feature overview" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
 
+<script>
+document.getElementById("yt-FoeU-fPR7Fw").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/FoeU-fPR7Fw?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 
 MyBroodMinder offers a wide range of powerful tools to view and analyze your beekeeping data. To help you navigate these features, we’ve included contextual help throughout the platform—simply hover your cursor over an item or click the `?` icon for more details.

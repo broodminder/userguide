@@ -14,10 +14,19 @@ Here are the steps to install the SIM card:
 
 Watch the video :
 <div align="center">
-<a href="https://youtu.be/NesHA2rbpgM" target="_blank">
-  <img src="https://img.youtube.com/vi/NesHA2rbpgM/0.jpg" alt="Install SIM card">
-</a>
+  <div id="yt-NesHA2rbpgM" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/NesHA2rbpgM/0.jpg" alt="Install SIM card" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-NesHA2rbpgM").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/NesHA2rbpgM?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
+
 
 
 1. Unplug the 3G 'Clic' circuit board.

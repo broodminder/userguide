@@ -8,10 +8,18 @@
     Finally, you'll explore **hive fitness scores**, their meaning, and limitations — a step toward proactive colony monitoring that complements your regular inspections.
 
 <div align="center">
-<a href="https://www.youtube.com/watch?v=oiXLpn-AbrE" target="_blank">
-  <img src="/assets/50_mybroodminder_v5.assets/brood/Monitoring_Temp.png#largeImg" alt="Monitoring Temperature">
-</a>
+  <div id="yt-oiXLpn-AbrE" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/oiXLpn-AbrE/0.jpg" alt="Monitoring Temperature" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-oiXLpn-AbrE").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/oiXLpn-AbrE?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 Brood is arguably the most essential aspect of a beehive. Whether it is present or not, increasing or decreasing, compact or sparse... brood tells you if the hive is queen-right and it guides your inspections and beekeeping decisions.
 

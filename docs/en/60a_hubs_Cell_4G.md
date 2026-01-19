@@ -12,11 +12,20 @@ The BroodMinder-T91 (BRM-54) Cell Hub is based on the Nordic "Thingy 91".
 <hr>
 
 Watch the video to get started:  
+
 <div align="center">
-    <a href="https://youtu.be/4Mh9DT7VblI" target="_blank">
-        <img src="https://img.youtube.com/vi/4Mh9DT7VblI/0.jpg" alt="Broodminder T91">
-    </a>
+  <div id="yt-4Mh9DT7VblI" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/4Mh9DT7VblI/0.jpg" alt="Broodminder T91" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-4Mh9DT7VblI").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/4Mh9DT7VblI?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 <hr>
 
 ### Solar version

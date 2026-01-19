@@ -39,6 +39,32 @@ If you’d prefer us to handle this for you, visit [BroodMinder-Refresh](https:/
 - Verify readings and functionality.  
 - Fold the device back into its wrapper.  
 
+
+<script>
+  document.getElementById("yt-wrapper").addEventListener("click", function() {
+    this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/pYR69Ik3Ktg?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+  });
+</script>
+
+<style>
+  .video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .video-responsive iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+</style>
+
+<div class="video-responsive">
+  <iframe src="https://www.youtube.com/embed/pYR69Ik3Ktg" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ---
 
 ### W+, W3, W4, W5 Scales
@@ -99,20 +125,68 @@ Below are the detailed procedures for our older models that are still supported.
 #### T2 - Before 2023
 (Models 41 & 47)  
 
-- Replace the battery as shown in this [video](https://www.youtube.com/watch?v=alaZtXpn-g4).  
-[![Battery Replacement](https://img.youtube.com/vi/alaZtXpn-g4/0.jpg)](https://www.youtube.com/watch?v=alaZtXpn-g4)
+<!-- Replace the battery -->
+Replace the battery as shown in this video:
 
-- Power the device as demonstrated [here](https://www.youtube.com/watch?v=tN9xUTq_bSc).  
-[![Power Device](https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg)](https://www.youtube.com/watch?v=tN9xUTq_bSc)
+<div id="yt-alaZtXpn-g4" style="position:relative; display:inline-block; cursor:pointer;">
+  <img src="https://img.youtube.com/vi/alaZtXpn-g4/0.jpg" style="display:block;">
+  <img src="/assets/88_winter_service/youtube-play.png"
+    style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+</div>
 
-- Upgrade firmware using this [guide](https://www.youtube.com/watch?v=zK4vYvpur1E).  
-[![Firmware Upgrade](https://img.youtube.com/vi/zK4vYvpur1E/0.jpg)](https://www.youtube.com/watch?v=zK4vYvpur1E)
+<script>
+document.getElementById("yt-alaZtXpn-g4").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/alaZtXpn-g4?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
-#### TH - Before 2020
-(Model 42)  
+<!-- Power the device -->
+Power the device as demonstrated here:
 
-- Replace the battery as shown in this [video](https://www.youtube.com/watch?v=tJTuL12vjps).  
-[![Battery Replacement](https://img.youtube.com/vi/tJTuL12vjps/0.jpg)](https://www.youtube.com/watch?v=tJTuL12vjps)
+<div id="yt-tN9xUTq_bSc" style="position:relative; display:inline-block; cursor:pointer;">
+  <img src="https://img.youtube.com/vi/tN9xUTq_bSc/0.jpg" style="display:block;">
+  <img src="/assets/88_winter_service/youtube-play.png"
+    style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+</div>
+
+<script>
+document.getElementById("yt-tN9xUTq_bSc").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/tN9xUTq_bSc?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
+
+<!-- Firmware upgrade -->
+Upgrade firmware using this guide:
+
+<div id="yt-zK4vYvpur1E" style="position:relative; display:inline-block; cursor:pointer;">
+  <img src="https://img.youtube.com/vi/zK4vYvpur1E/0.jpg" style="display:block;">
+  <img src="/assets/88_winter_service/youtube-play.png"
+    style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+</div>
+
+<script>
+document.getElementById("yt-zK4vYvpur1E").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/zK4vYvpur1E?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
+
+#### TH – Before 2020
+(Model 42)
+
+<!-- Replace the battery -->
+Replace the battery as shown in this video:
+
+<div id="yt-tJTuL12vjps" style="position:relative; display:inline-block; cursor:pointer;">
+  <img src="https://img.youtube.com/vi/tJTuL12vjps/0.jpg" style="display:block;">
+  <img src="/assets/88_winter_service/youtube-play.png"
+    style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+</div>
+
+<script>
+document.getElementById("yt-tJTuL12vjps").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/tJTuL12vjps?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 #### W - Before 2021
 (Model 43)  

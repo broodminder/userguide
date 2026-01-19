@@ -5,10 +5,18 @@ Before getting started let's get familiar with the different devices we will dea
 <hr>
 
 <div align="center">
-    <a href="https://youtu.be/eJu-I65gvW0" target="_blank">
-        <img src="https://img.youtube.com/vi/eJu-I65gvW0/0.jpg" alt="Which BroodMinder Device Should You Start With? A Practical Guide for Beekeepers ">
-    </a>
+  <div id="yt-eJu-I65gvW0" style="position:relative; display:inline-block; cursor:pointer;">
+    <img src="https://img.youtube.com/vi/eJu-I65gvW0/0.jpg" alt="Which BroodMinder Device Should You Start With? A Practical Guide for Beekeepers" style="display:block;">
+    <img src="/assets/88_winter_service/youtube-play.png"
+      style="width:60px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);" />
+  </div>
 </div>
+
+<script>
+document.getElementById("yt-eJu-I65gvW0").addEventListener("click", function() {
+  this.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/eJu-I65gvW0?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+});
+</script>
 
 <hr>
 
