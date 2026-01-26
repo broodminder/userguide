@@ -36,7 +36,7 @@ We've made lots of videos over the years. Here is a list of them with links. We 
 
 ## Maintenance
 
-- <a href="https://youtu.be/3bXVbkQ1t_8" target="_blank">**Hive Monitoring Spring Maintenance**</a> - We talk about suggested spring maintenance for your beehive monitors
+- <a href="https://youtu.be/pYR69Ik3Ktg" target="_blank">**Winter Service: T2 & TH2**</a> - Maintaining your internal hive sensors is easy.  Here's how to prep them for Winter.
 - <a href="https://youtu.be/RmTpYHZxrf0" target="_blank">**Batteries**</a> - We talk about batteries in your BroodMinders
 
 ## W3 Scales 
