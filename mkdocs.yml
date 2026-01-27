@@ -67,6 +67,9 @@ nav:
           - Multiscale double: 36_sensors_DIY_multiscale2.md
           - SolutionBee&reg; scale: 36_sensors_DIY_solutionbee.md
           - LabelAbeille&reg; scale: 36_sensors_DIY_labelabeille.md
+          - Capaz&reg; scale: 36_sensors_DIY_capaz.md
+          - Atelec&reg; scale: 36_sensors_DIY_atelec.md
+
       - Yolink devices: 38_sensors_yolink.md
   - Hubs:
       - Overview: 60_hubs.md
