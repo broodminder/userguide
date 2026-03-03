@@ -91,6 +91,8 @@ nav:
       - Plants: 50_mybroodminder_v5g_plants.md
       - Weather: 50_mybroodminder_v5h_weather.md
       - Sharing: 50_mybroodminder_v5i_sharing.md
+      - Export data: 50_mybroodminder_v5j_exporting.md
+
   - The Bees App: 40_beesApp.md
   - Memberships: 65_memberships.md
   - _____: void.md
