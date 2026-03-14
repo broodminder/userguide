@@ -27,8 +27,8 @@ The BeeDar senses motion and is tuned to be particularly sensitive to bees. Each
 Make sure you have the following items ready:
 
 - BeeDar unit
-- 4 × M20mm screws (included)
-- Screwdriver
+- 2 4×20mm wood screws (included)
+- Philips Screwdriver
 
 ---
 
