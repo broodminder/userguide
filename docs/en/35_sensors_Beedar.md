@@ -7,10 +7,10 @@ Beyond hobbyist beekeeping, the BeeDar is being widely used in **agriculture and
 
 What makes it particularly elegant is what it *doesn't* need: no camera, no optical access, no sound pollution. The Doppler radar technique is efficient and discreet — running on just 4 AA batteries for up to 5 months.
 
-The BeeDar also captures audio to measure the overall sound level of the hive.
+The BeeDar also captures vibration to measure the overall sound level around the hive.
 
 - **Radar** — emitted from the square, green and gold sensor, which should be positioned approximately over the entrance.
-- **Audio** — the sensor is mounted to the back of the box and couples acoustically to the hive when the BeeDar is screwed directly to the hive body, which then acts a bit like a guitar.
+- **Vibration** — the sensor is mounted to the back of the box and couples acoustically to the hive when the BeeDar is screwed directly to the hive body, which then acts a bit like a guitar.
 
 ## Background
 
