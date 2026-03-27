@@ -172,7 +172,7 @@ Need help interpreting your hub’s behavior? → Contact us at **support@broodm
 
 ---
 
-## Firmware Update
+## Firmware Upgrade
 
 We may suggest updating your firmware depending on the situation. Please check with support@broodminder.com prior to doing this.
 
@@ -187,25 +187,6 @@ It is an easy process.
 
 note: if the current firmware is too old, the unit must be returned to BroodMinder for reprogramming.
 
-
-
-## Extended range
-
-If you are experiencing poor cell network coverage, an external antenna may improve the situation.
-
-We may have several solutions for your location — contact us at **support@broodminder.com**.
-
-One example is this **External Antenna Kit**.  
-The antenna plugs into the connector marked **“LTE”** on the Thingy91.
-
-![Antenna_connector](../assets/60_hubs.assets/image-20230408084030343.png)
-
-1. Place the connector through the plastic mounting bracket.  
-2. Push the connector into the Thingy91’s LTE jack.  
-3. Secure the bracket using the included screw.
-
-![Antenna_mount](../assets/60_hubs.assets/image-20230408084356882.png)
-
 ## Replacing SIM card
 Simply push in to extract the old SIM and again push in to introduce the new one.
 
@@ -217,3 +198,148 @@ Simply push in to extract the old SIM and again push in to introduce the new one
 <hr>
 
 
+## Extended range
+
+If you are experiencing poor cellular network coverage, using an external antenna may significantly improve the situation.
+
+The first step is to **assess your current conditions**. The issue may come from low signal strength, poor signal quality, low signal-to-noise ratio, or unstable connections where the hub keeps switching between cells.
+
+If you are unsure, feel free to contact us at **support@broodminder.com** and we will help you with the diagnosis.
+
+Below we describe typical situations and possible solutions.
+
+---
+
+### Diagnose first
+
+To perform a basic diagnostic, place your hub on a pole at approximately **1.5 m height** and check connectivity.
+
+Using your phone, go to:
+**Devices > … > Show Details**
+
+and observe the main network parameters.
+
+Below is an example:
+
+![](./../assets/60_hubs.assets/antennas/hub_details.png)
+
+On the left side, you can see that the hub is attempting to connect to the cellular network (either during boot or after a disconnection).  
+In the black box, the hub activity is shown in real time. In normal operation, it should alternate between *tick/tock* every few seconds, indicating that the system is running correctly (right side image).
+
+In this example, however, we observe:
+
+- **RSRP = -133 dBm** → extremely low signal (barely usable)  
+- **RSRQ = -18.5 dB** → very poor signal quality  
+- **SNR = -6 dB** → very noisy environment  
+
+(Refer to the section *Interpreting cellular network metrics* for definitions.)
+
+From this, we can conclude that:
+
+- the site suffers from **very weak signal conditions**
+- transmission reliability is not ensured
+
+To restore proper operation, the target is typically around **-100 dBm**, meaning a required improvement of **~30 dB**, which is a significant challenge.
+
+---
+
+### Understanding LTE antennas
+
+Depending on the gain required, several antenna types can be used. As gain increases, antennas become more directional and require more precise installation.
+
+A **dipole antenna** is the most basic type, typically integrated into IoT devices. It radiates in all directions, making it very easy to use, but with limited performance and range.
+
+A **panel antenna** introduces directionality while remaining easy to install. It focuses energy in a broad forward direction, providing a good compromise between simplicity and performance.
+
+A **log-periodic** antenna is designed for wide frequency coverage and stronger directionality. It allows signals to be captured from further distances and performs well in rural or weak-signal environments.
+
+A **Yagi antenna** pushes directionality even further. It focuses energy into a very narrow beam, providing maximum gain and range, but requires careful alignment.
+
+#### Summary
+
+| Type          | Direction         | Power        | Ease of Use      |
+|---------------|------------------|--------------|------------------|
+| Dipole        | All directions   | Low          | Very easy        |
+| Panel         | Forward          | Medium       | Easy             |
+| Log-periodic  | Directional      | High         | Moderate         |
+| Yagi          | Very focused     | Very high    | More complex     |
+
+---
+
+### Actual solutions
+
+In practice, we have had good results with the following products:
+
+| Feature | Pulse Larsen W5150 | Sirio SMP-4G-LTE-5 | Wilson / weBoost LPDA | Sirio SLP-4G-LTE |
+|--------|--------------------|---------------------|------------------------|------------------|
+| **Type** | Blade dipole (omni) | Directional panel | Log-periodic | Log-periodic / Yagi |
+| **Frequency range** | 617–960 / 1430–6000 MHz | 790–960 / 1710–2700 MHz | 698–2700 MHz | ~700–2700 MHz |
+| **Gain (low band)** | ~1–2 dBi | 6–7 dBi @ 800 MHz | ~8.5 dBi avg | ~10–11 dBi |
+| **Gain (high band)** | up to ~5.5 dBi | ~9 dBi | ~9.5 dBi peak | ~11–12 dBi |
+| **Directionality** | Omni | Medium (~60–80°) | Medium-high | High (narrow beam) |
+| **Front-to-back ratio** | N/A | ≥12 dB | ≥10 dB | High (~15–20 dB typical) |
+| **Size** | Very compact | Compact | Medium | Large (long boom) |
+| **Ease of installation** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **Performance @ low signal** | ❌ Poor | ⚠️ Limited | ✅ Good | ✅ Excellent |
+| **Best use case** | Indoor / light issues | Urban / semi-rural | US rural / Band 12 | Rural / very weak signal |
+
+---
+
+### Typical use cases per antenna type
+
+**Pulse Larsen W5150 (Dipole / Omni)**  
+This is the default, entry-level antenna typically used directly on devices or indoors. It is suitable when signal is already acceptable and no installation effort is desired.  
+> Typical RSRP range: **>-105 dBm**
+
+---
+
+**Sirio SMP-4G-LTE-5 (Panel)**  
+This antenna is a good upgrade when signal is moderate but unstable. It is commonly used on buildings or poles and does not require precise alignment.  
+> Typical RSRP range: **-105 to -120 dBm**
+
+---
+
+**Wilson / weBoost LPDA (Log-periodic)**  
+This antenna is used in rural or suburban areas where signal must be captured from a distance. It offers a strong improvement while remaining relatively easy to install.  
+> Typical RSRP range: **-115 to -125 dBm**
+
+---
+
+**Sirio SLP-4G-LTE (Yagi / High-gain directional)**  
+This is the solution for very weak signal environments. It is designed to recover connectivity where other antennas fail.  
+> Typical RSRP range: **<-120 dBm (down to ~-130 dBm)**
+
+---
+
+### Connecting to BroodMinder-T91
+
+The Thingy:91 uses a **measurement probe connector (u.FL / Murata)** rather than a standard SMA connector.
+
+You will need an adapter to connect an external antenna:  
+https://www.digikey.fr/fr/products/detail/murata-electronics/MXHS83QE3000/1775923
+
+Note that antennas may come with:
+
+- no cable (Pulse)
+- short cable (Wilson)
+- long cable (Sirio)
+
+Make sure you have the appropriate cable length or add an extension if needed.
+
+---
+
+### Getting the hardware
+
+For advanced setups, we do not stock all antenna options and recommend sourcing them directly, as we do not add value in reselling them.
+
+We do offer an entry-level **External Antenna Kit** in our store. The antenna connects to the port labeled **“LTE”** on the Thingy91. A highly recommended 3D-printed support that will ease your life with the connector is also available [here](../assets/60_hubs.assets/antennas/T91AntennaSupport.stl)
+
+#### Installation
+
+![Antenna_connector](../assets/60_hubs.assets/image-20230408084030343.png)
+
+1. Insert the connector through the mounting bracket  
+2. Push it into the LTE connector  
+3. Secure with the screw  
+
+![Antenna_mount](../assets/60_hubs.assets/image-20230408084356882.png)

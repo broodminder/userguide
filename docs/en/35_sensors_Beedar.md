@@ -1,7 +1,7 @@
 
 ![image](../assets/30_sensors.assets/device_beedar.jpg){ style="display: block; margin: 0 auto" }
 
-New in 2023, the BroodMinder-BeeDar is a **forager activity monitor** for your hive. It uses radar to measure the level of flying activity at the entrance over time — it cannot count individual bees or determine their direction (in or out), but it provides an excellent measure of overall forager activity. Combined with MyBroodMinder algorithms, we can deduce the number of forager trips over the course of a day with good accuracy. See [MyBroodMinder > foraging](/50_mybroodminder_v5e_foraging/) for details.
+New in 2023, the BroodMinder-BeeDar is a **forager activity monitor** for your hive. It uses radar to measure the level of flying activity at the entrance over time — it cannot count individual bees or determine their direction (in or out), but it provides an excellent measure of overall forager activity. Combined with MyBroodMinder algorithms, we can deduce the number of forager trips over the course of a day with good accuracy. See [MyBroodMinder > foraging](./50_mybroodminder_v5e_foraging.md) for details.
 
 Beyond hobbyist beekeeping, the BeeDar is being widely used in **agriculture and pollination trials** as a reliable tool to monitor pollination activity in the field. Its accuracy, low power consumption, and unobtrusive form factor make it well suited for research and commercial deployments alike fitting literally in any hive.
 
@@ -18,7 +18,7 @@ The BeeDar was invented by Dr. Herb Aumann of the *University of Maine* and *Mai
 
 <a href="https://www.researchgate.net/publication/349017653_Janus_A_Combined_Radar_and_Vibration_Sensor_for_Beehive_Monitoring" target="_blank">Janus: A Combined Radar and Vibration Sensor for Beehive Monitoring</a>
 
-The BeeDar senses motion and is tuned to be particularly sensitive to bees. Each measurement samples motion over 30 seconds and records the average, with readings taken every 15 minutes by default. Data is transferred to MyBroodMinder like any other BroodMinder device. For more on how it works and its accuracy, see [MyBroodMinder > foraging](/50_mybroodminder_v5e_foraging/).
+The BeeDar senses motion and is tuned to be particularly sensitive to bees. Each measurement samples motion over 30 seconds and records the average, with readings taken every 15 minutes by default. Data is transferred to MyBroodMinder like any other BroodMinder device. For more on how it works and its accuracy, see [MyBroodMinder > foraging](./50_mybroodminder_v5e_foraging/).
 
 ## BeeDar Installation
 
