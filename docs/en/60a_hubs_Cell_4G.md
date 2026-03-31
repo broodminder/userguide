@@ -83,6 +83,34 @@ For example, if a scale is assigned to Hive 1 in Apiary 1, and the hub is sendin
 - Click on the `Edit` icon to assign or move the hub to an apiary.
 
 ---
+## Firmware Upgrade
+
+We may suggest updating your firmware depending on the situation. Please check with support@broodminder.com prior to doing this.
+
+It is an easy process.
+
+1. Turn the power off and back on the T91, the LED will light blue for 5 seconds
+2. While the LED is blue press the silver and black push button in the middle of the unit.
+3. The T91 will now begin the firmware update process. It will continue to flash blue for several minutes.
+4. It will then flash green 10 times to indicate it has the firmware.
+5. It will go dark for about minute while it writes the firmware and then restart.
+6. All done
+
+note: if the current firmware is too old, the unit must be returned to BroodMinder for reprogramming.
+
+---
+
+## Replacing SIM card
+Simply push in to extract the old SIM and again push in to introduce the new one.
+
+<div align="center">
+    <a href="https://youtube.com/shorts/1Csb6GaMB5c" target="_blank">
+        <img src="https://img.youtube.com/vi/1Csb6GaMB5c/0.jpg" alt="Broodminder T91">
+    </a>
+</div>
+<hr>
+
+--- 
 
 ## Check a hub remotely
 
@@ -111,7 +139,6 @@ These are generally self-explanatory.
 - **Gaps in the graph** mean the hub was **unable to send data** for some time (no network, SIM issue, or system freeze).
 
 Now let's look at the remaining metrics on this chart, all related with network aspects.
-
 
 ---
 
@@ -172,35 +199,106 @@ Need help interpreting your hub’s behavior? → Contact us at **support@broodm
 
 ---
 
-## Firmware Upgrade
-
-We may suggest updating your firmware depending on the situation. Please check with support@broodminder.com prior to doing this.
-
-It is an easy process.
-
-1. Turn the power off and back on the T91, the LED will light blue for 5 seconds
-2. While the LED is blue press the silver and black push button in the middle of the unit.
-3. The T91 will now begin the firmware update process. It will continue to flash blue for several minutes.
-4. It will then flash green 10 times to indicate it has the firmware.
-5. It will go dark for about minute while it writes the firmware and then restart.
-6. All done
-
-note: if the current firmware is too old, the unit must be returned to BroodMinder for reprogramming.
-
-## Replacing SIM card
-Simply push in to extract the old SIM and again push in to introduce the new one.
-
-<div align="center">
-    <a href="https://youtube.com/shorts/1Csb6GaMB5c" target="_blank">
-        <img src="https://img.youtube.com/vi/1Csb6GaMB5c/0.jpg" alt="Broodminder T91">
-    </a>
-</div>
-<hr>
 
 
-## Extended range
+## Optimizing Cellular Reception in Difficult Areas
 
-If you are experiencing poor cellular network coverage, using an external antenna may significantly improve the situation.
+Optimizing cellular coverage in challenging environments requires a simple, methodical approach. Even small improvements in signal can significantly enhance device performance.
+
+### 1. Basic Setup (Fundamentals)
+
+Before starting optimization, we assume you have the fundamentals in place:
+
+- The hub is sitting on a **pod or support ~1.5 meters above ground**
+- Avoid placing it directly on the ground or near dense obstacles (metal, concrete, trees, vegetation)
+- Prefer **open or elevated positions** when possible
+
+
+### 2. Diagnose Current Signal
+
+Go to: **Hub → View Details**
+
+Record the following parameters:
+
+- **RSRP (Reference Signal Received Power)** → signal strength  
+- **RSRQ (Reference Signal Received Quality)** → overall signal quality  
+- **SNR / SINR (Signal-to-Noise Ratio)** → signal clarity  
+
+👉 Take a **snapshot of current values** as your baseline.
+
+
+
+### 3. What to Look For
+
+- **RSRP** (most important): Aim to improve from ~**-113 dBm → closer to -100 dBm or above**
+- **RSRQ / SNR**: Values closer to **0 (less negative or higher)** are better
+
+
+### 4. Method: Test and Compare Positions
+
+To find the optimal placement:
+
+- Move the hub to a new position (even a few meters can help)
+- Try different:
+    - heights  
+    - orientations  
+
+- After each change:
+    - **Power off and power on the hub**
+    - Wait for reconnection
+    - Check updated signal values
+
+- Compare results with your initial snapshot
+
+Repeat this process for several positions and identify the best one.
+
+Select the position that provides:
+
+- the **highest (least negative) RSRP**
+- improved **RSRQ and SNR**
+- stable connectivity over time
+
+### 5. Example: Before and After
+
+![starting status](../assets/60_hubs.assets/coverage/output.jpg)
+
+In this example:
+
+- SNR was good  
+- RSRQ was acceptable  
+- but **signal power (RSRP) was very weak**  
+
+Below **-100 dBm**, the risk of disconnection increases.
+
+After repositioning the hub, we gained **+7 dBm** (**-105 → -98 dBm**), which is a **significant improvement**.
+
+
+
+### 6. Why Small Improvements Matter
+
+Signal strength is logarithmic:
+
+- **A gain of +3 dB ≈ 2× signal power**
+
+Example:
+- **-113 dBm → -110 dBm = ~double the received signal**
+
+👉 Even small gains are **highly valuable**
+
+- Excellent: > -90 dBm  
+- Good: -90 to -100 dBm  
+- Poor: < -100 dBm  
+
+
+!!! tip
+    In difficult zones, optimization is often iterative.  
+    Take your time and test multiple positions — small adjustments can lead to major improvements and will benefit your setup over the long term.
+
+---
+
+## Extended Range With an External Antenna
+
+If you are experiencing extremely poor cellular network coverage, using an external antenna may significantly improve the situation.
 
 The first step is to **assess your current conditions**. The issue may come from low signal strength, poor signal quality, low signal-to-noise ratio, or unstable connections where the hub keeps switching between cells.
 
