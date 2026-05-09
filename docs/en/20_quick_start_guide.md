@@ -6,34 +6,24 @@
 We've done our best to make the installation and use of your BroodMinders intuitive and easy. Follow the process below to get to grips with all aspects of the solution (Sensors, App and Web...) and you'll have every chance of success.
 
 ---
-## Watch the videos 🎥
 
-| 🇺🇸 English | 🇪🇸 Spanish | 🇫🇷 French |
-|:---------------------:|:---------------------:|:--------------------:|
-| <div align="center"> <a href="https://youtu.be/6WicH4_l2FQ" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png" alt="Onborading video"> </a> </div> | <div align="center"> <a href="https://youtu.be/FWj4MrT_zg8" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/ES_Onboarding_Video_Cover_500.png" alt="Primeros pasos con Broodminder"> </a> </div> | <div align="center"> <a href="https://youtu.be/8eHAg2DPtsc" target="_blank"> <img src="/assets/20_quick_start_guide.assets/videos/FR_Onboarding_Video_Cover_500.png" alt="Démarrer avec BroodMinder"> </a> </div> |
+!!! tip "Watch the videos 🎥"
 
+    ### 1. Setting up the system
 
-## Read the doc 📖
+    | 🇺🇸 English | 🇪🇸 Spanish | 🇫🇷 French |
+    |:--:|:--:|:--:|
+    | <div align="center"><a href="https://youtu.be/6WicH4_l2FQ"><img src="/assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png"></a></div> | <div align="center"><a href="https://youtu.be/FWj4MrT_zg8"><img src="/assets/20_quick_start_guide.assets/videos/ES_Onboarding_Video_Cover_500.png"></a></div> | <div align="center"><a href="https://youtu.be/8eHAg2DPtsc"><img src="/assets/20_quick_start_guide.assets/videos/FR_Onboarding_Video_Cover_500.png"></a></div> |
 
+    ### 2. Installing at the apiary
 
-Each step is described in detail later in this document.
+    | 🇺🇸 English | 🇪🇸 Spanish | 🇫🇷 French |
+    |:--:|:--:|:--:|
+    |  |  |  |
 
-| AT HOME   |  | | | 
-| -- | -- | -- | -- |
-| 1. | ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png)  | [Install the App](#1-install-broodminder-bees) | 
-| 2. | ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png)  | [Create your account](#2-create-your-account) | 
-| 3. | ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png)  | [Power your devices](#3-activate-your-devices) | 
-| 4. | ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png)  | [Assign to a hive](#4-assign-devices-to-hives) | 
-| 5. | ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png)  | [Make your first sync](#5-make-your-first-sync) | 
-| 6. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Power on Hub](#6-power-on-your-hub) | 
+    🏗️ 🎥 Work in progress
 
-| AT YOUR APIARY |  | | |
-| -- | -- | -- | -- |
-| 7. | ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png)  | [Install devices in hive](#7-install-devices-in-hives) | 
-| 8. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Install your hub](#8-install-your-hub) | 
-| 9. | ![image](../assets/20_quick_start_guide.assets/icons/30px/008.png)  | [Update starting dates](#9-update-start-datetime) | 
-| 10.| ![image](../assets/20_quick_start_guide.assets/icons/30px/009.png)  | [View and explore](#10-explore-and-discover) | 
-
+---
 
 ## Before you start
 Take note of the following best practices:
@@ -49,6 +39,30 @@ Take note of the following best practices:
     You can always contact us at [support@broodminder.com](mailto:support@broodminder.com).
 
 -----
+
+## Read the doc 📖
+
+
+Each step is described in detail later in this document.
+
+| AT HOME   |  | | | 
+| -- | -- | -- | -- |
+| 1. | ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png)  | [Install the App](#1-install-broodminder-bees-app) | 
+| 2. | ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png)  | [Create your account](#2-create-your-account) | 
+| 3. | ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png)  | [Power your devices](#3-activate-your-devices) | 
+| 4. | ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png)  | [Claim & Assign to a hive](#4-assign-devices-to-hives) | 
+| 5. | ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png)  | [Make your first sync](#5-make-your-first-sync) | 
+| 6. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Power on Hub](#6-power-on-your-hub) | 
+
+| AT YOUR APIARY |  | | |
+| -- | -- | -- | -- |
+| 7. | ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png)  | [Install devices in hive](#7-install-devices-in-hives) | 
+| 8. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Install your hub](#8-install-your-hub) | 
+| 9. | ![image](../assets/20_quick_start_guide.assets/icons/30px/008.png)  | [Update starting dates](#9-update-start-datetime) | 
+| 10.| ![image](../assets/20_quick_start_guide.assets/icons/30px/009.png)  | [View and explore](#10-explore-and-discover) | 
+
+
+
 
 
 ## 🏠 START AT HOME
@@ -74,10 +88,6 @@ In BeesApp, on the Apiary tab, create your first *apiary* and your first *hive*,
 In Bees you have several tabs that we will navigate :
 ![img](../assets/20_quick_start_guide.assets/bordered_screenshots/tabs.jpg)
 
-
-<!-- Now move to the **Apiaries** Tab:
-
-![img](../assets/20_quick_start_guide.assets/beesApp_1NoApiaries300.png) -->
 
 Create your first apiary with `... > New apiary`
 
@@ -111,26 +121,33 @@ Older models (T2) might have a push button.
   
     - 41, 47 : T
     - 42, 56 : TH
-    - 43, 57 : W 
-    - 49 : W3 et W4
+    - 43, 57 : W, W5
+    - 49 : W3, W4
+    - 51 : BeeTV
     - 52 : SubHub
     - 54 : Hub
     - 58 : DIY
     - 63 : BeeDar
 
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png) 4. Assign devices to hives
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png) 4. Claim & Assign devices to hives
 
 !!! warning "Enable Location on Android"
     Android needs location services turned on to detect Bluetooth devices.  
     If you don’t see any devices, make sure location is enabled in your settings.
 
-First you need to claim the device by clicking on the green `Claim` button found in the `Devices` tab. This operation will associate each sensor you claim to your account . 
-You will then be asked to attach the sensor to a hive. You can proceed or cancel and come back later via the menu `...`. 
+!!! info "Why claim a device?"
+    Claiming a device links it permanently to your MyBroodMinder account.
 
-Attach each device to a hive. 
+    Devices are shipped in an unassigned state because customers often have not yet created their MyBroodMinder account at the time of shipment. For this reason, device claiming (also referred to as commissioning) is performed by the end user upon receipt.
+
+First you need to claim the device by clicking on the green `Claim` button found in the `Devices` tab. This operation will associate each sensor you claim to your account . 
+You will then be asked to attach the sensor to a hive. You can proceed or cancel and come back later via the menu `...`
+
 
 ![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150426_edited.jpg#mediumImg)
+
+Assign the claimed device to a hive. 
 
 ![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240618-150513_shortened.jpg#mediumImg)
 
@@ -146,13 +163,14 @@ Available device positions are
 | Scale under hive  | full weight scales like W3, W4 |
 | Scale under hive (back) | half weight (bar) scales like W and W5|
 | Beecounter | Beedar |
+| BeeTV | BeeTV |
 | Outside Hive | beekeeper's choice |
 | Other| beekeeper's choice |
 | Custom [1-7]| for research purposes (multiple devices) |
 
 
 !!! info "Device location is important"
-    Carefully select position for internal sensors. Some metrics like brood are only computed if the device is assigned to the brood location.
+    Carefully select in-hive position for internal sensors. Some metrics like brood are only computed if the device is assigned to the lower/upper-brood location!
 <br>
 
 Now return to the **Apiaries** tab to perform the first sync.
@@ -161,7 +179,7 @@ Now return to the **Apiaries** tab to perform the first sync.
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png) 5. Make your first sync
 
 !!! Warning "First sync is important!"
-    The first sync sets the device’s date and time, ensuring that all recorded measurements are accurately timestamped. If you skip the sync when powering on the device, future syncs will still add timestamps, but earlier data may be shifted when calculated retroactively. For this reason, it’s best practice to sync the device every time you power it on—such as after a battery change.
+    **The first sync sets the device’s date and time**, ensuring that all recorded measurements are accurately timestamped. If you skip the sync when powering on the device, future syncs will still add timestamps, but earlier data may be shifted when calculated retroactively. For this reason, it’s best practice to sync the device every time you power it on—such as after a battery change.
 
 
 Using BroodMinder Bees App there are multiple ways of syncing: 
@@ -202,7 +220,7 @@ Remember from [Hubs page](./60_hubs.md) that there are several hub versions:
 - The LED light will blink green, then turn solid blue for 5 seconds, and finally return to blinking green.
 - Check on Bees App that transmission has been established. Go to `Devices tab > Hub ID > Show details > MBM last upload ` shall display current date/time.
 
-![Upload check](../assets/20_quick_start_guide.assets/hub/T91_onBeesApp_frame.jpg#mediumImg)
+![Upload check](../assets/20_quick_start_guide.assets/hub/T91_onBeesApp_frame.png#mediumImg)
 
 !!! tip 
     On the Hub Details screen, the bottom black section shows the device’s boot process and current status in real time. Under normal conditions, it alternates between **Status 10 (tick)** and **Status 11 (tock)**. Other possible statuses include `Booting`, `starting modem`, `connecting to AWS` or `Start BLE scan`, among others. 
@@ -215,7 +233,7 @@ Remember from [Hubs page](./60_hubs.md) that there are several hub versions:
 !!! warning "The velvet bag is important!"
     The velvet bag serves two key purposes:
     
-    1. It prevents insects and bugs from nesting in your hub — the electronics are warm and can attract them.
+    1. It prevents insects and bugs from nesting in your hub — the electronics are warm and they love it.
     2. It protects the electronics from direct sunlight, improving durability while still allowing airflow for temperature and humidity measurements.
 
 
@@ -240,6 +258,7 @@ Follow the same process as above, with the difference that you will have to plug
 
 4. Hub will start and you can check data transmission using Bees App as described above.
 
+---
 
 ## 🐝 NOW MOVE TO THE APIARY
 
@@ -259,15 +278,15 @@ Install BroodMinder-T (model 47) and -TH (model 56) on the middle frame (usually
 Place your BroodMinder-W scale preferably **at the back** of the hive. Make sure the hive is as level as possible. 
 BroodMinder-W3 and W4 scales do not require precise levelling.
 
-![Install_BRM-W](../assets/20_quick_start_guide.assets/install_BRM-W.png)
+![Install_BRM-W](../assets/20_quick_start_guide.assets/install_BRM-W5-Alu.jpg)
 
 
 #### Beedar
 The BeeDar is mounted on the front of the hive, centered on the hive axis. The height from the flight deck is just right to allow you to handle the entrance reducers without worry. Typically 5 to 7 cm above the floor.
 
-Beedar has a horizontal "view" angle of 85° and a vertical angle of 30°.
-You can hang it with two 4mm-diameter screws.
+![BeeDar mounting position](../assets/30_sensors.assets/beedar/beedar_position.png)
 
+For more details about beedar installation go to the [Beedar page](./35_sensors_Beedar.md)
 
 ### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 8. Install your hub
 

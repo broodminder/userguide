@@ -18,7 +18,7 @@ The BeeDar was invented by Dr. Herb Aumann of the *University of Maine* and *Mai
 
 <a href="https://www.researchgate.net/publication/349017653_Janus_A_Combined_Radar_and_Vibration_Sensor_for_Beehive_Monitoring" target="_blank">Janus: A Combined Radar and Vibration Sensor for Beehive Monitoring</a>
 
-The BeeDar senses motion and is tuned to be particularly sensitive to bees. Each measurement samples motion over 30 seconds and records the average, with readings taken every 15 minutes by default. Data is transferred to MyBroodMinder like any other BroodMinder device. For more on how it works and its accuracy, see [MyBroodMinder > foraging](./50_mybroodminder_v5e_foraging/).
+The BeeDar senses motion and is tuned to be particularly sensitive to bees. Each measurement samples motion over 30 seconds and records the average, with readings taken every 15 minutes by default. Data is transferred to MyBroodMinder like any other BroodMinder device. For more on how it works and its accuracy, see [MyBroodMinder > foraging](./50_mybroodminder_v5e_foraging.md/).
 
 ## BeeDar Installation
 
