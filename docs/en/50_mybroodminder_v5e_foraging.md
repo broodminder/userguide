@@ -60,6 +60,12 @@ You can clearly see when foragers start and stop each day. Activity varies depen
 ![BeeDar Raw](../assets/50_mybroodminder_v5.assets/foragers/beedar_raw.png)
 
 To make this data more actionable, we developed an algorithm that converts signal strength into **estimated bee trips**.  
+
+For this you'll need to create a new dashboard with the widget "Forager Activity"
+
+![BeeDar Algorithm](../assets/50_mybroodminder_v5.assets/foragers/forager_widget.png#mediumImg)
+
+
 Click the `F` button on the chart right toolbar to reveal this view as in the example below, March 30th shows 107,000 forager trips across 11.3 hours.
 
 ![BeeDar Algorithm](../assets/50_mybroodminder_v5.assets/foragers/beedar_algo.png)

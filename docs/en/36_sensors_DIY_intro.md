@@ -1,5 +1,12 @@
 # BroodMinder Do It Yourself Guide
 
+!!! abstract "What you'll learn in this chapter"
+    In this chapter, you will learn how to build your own BroodMinder scale using the DIY board, how to select and wire load cells, and how to calibrate the system using the Bees app. We also introduce scale architectures such as multiscales and retrofit cases for extending the life of existing equipment.
+    
+    In the next sections, you will learn how to retrofit third-party scales from vendors such as **Capaz**, **Label’Abeille**, **SolutionBee**, and **Atelec**, allowing you to reuse their mechanical platforms or load cells and bring them into the BroodMinder ecosystem.
+    
+
+
 ## Why DIY ?
 We realize that many of our users are curious and want to invent things. Our DIY kit allows that creativity without the need to write 8 years of software. 
 

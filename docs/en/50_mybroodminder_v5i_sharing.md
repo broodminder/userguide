@@ -15,11 +15,6 @@ Share an Apiary (in the Apiary `… > share` ) with another MyBroodMinder user s
 ![Sharing 1](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
 ![Sharing 2](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
 
-## Share on beecounted
-
-Share an apiary [beecounted.org](https://www.beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
-
-![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
 
 ## Share on Social Media with a URL
 
@@ -56,6 +51,14 @@ Perfect for associations, schools, or companies, this big-screen mode lets you p
 
 ![Educational Board](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
 <div align="center" ><i>Educational Dashboards are fun!</i></div>
+
+
+## Beecounted.org
+
+Share an apiary [beecounted.org](https://www.beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
+
+![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
+
 
 ## EU Pollinator Hub
 
