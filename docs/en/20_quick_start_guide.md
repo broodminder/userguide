@@ -51,29 +51,11 @@ Each step is described in detail later in this document.
 
 ### Watch the video
 
-<!--
-TRANSLATION NOTE FOR AI:
-Use the corresponding YouTube video and thumbnail for each language translation.
-
-English:
-Video ID: 6WicH4_l2FQ
-Thumbnail: /assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png
-
-Spanish:
-Video ID: FWj4MrT_zg8
-Thumbnail: /assets/20_quick_start_guide.assets/videos/ES_Onboarding_Video_Cover_500.png
-
-French:
-Video ID: 8eHAg2DPtsc
-Thumbnail: /assets/20_quick_start_guide.assets/videos/FR_Onboarding_Video_Cover_500.png
-
-When translating replace:
-- yt-VIDEO_ID
-- img.youtube.com/vi/VIDEO_ID
-- youtube.com/embed/VIDEO_ID
-- Thumbnail image
-
-For all other languages use the default English version.
+<!-- i18n:video
+locale: en | video_id: 6WicH4_l2FQ | thumb: /assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png
+locale: fr | video_id: 8eHAg2DPtsc | thumb: /assets/20_quick_start_guide.assets/videos/FR_Onboarding_Video_Cover_500.png
+locale: es | video_id: FWj4MrT_zg8 | thumb: /assets/20_quick_start_guide.assets/videos/ES_Onboarding_Video_Cover_500.png
+default: en
 -->
 
 <div align="center">
@@ -142,10 +124,10 @@ Older models (T2 <2019) might have a push button.
 </style>
 
 <div class="grid-2x2">
-  <img src="../assets/20_quick_start_guide.assets/tab_th.jpg" alt="Photo 1" />
-  <img src="../assets/20_quick_start_guide.assets/tab_w5.jpg" alt="Photo 2" />
-  <img src="../assets/20_quick_start_guide.assets/tab_w4.jpg" alt="Photo 3" />
-  <img src="../assets/20_quick_start_guide.assets/tab_beedar.jpg" alt="Photo 4" />
+  <img src="/assets/20_quick_start_guide.assets/tab_th.jpg" alt="Photo 1" />
+  <img src="/assets/20_quick_start_guide.assets/tab_w5.jpg" alt="Photo 2" />
+  <img src="/assets/20_quick_start_guide.assets/tab_w4.jpg" alt="Photo 3" />
+  <img src="/assets/20_quick_start_guide.assets/tab_beedar.jpg" alt="Photo 4" />
 </div>
 
 
@@ -217,9 +199,9 @@ Assign the newly claimed device to a hive. To do so, you’ll need three pieces 
 </style>
 
 <div class="grid-3">
-  <img src="../assets/20_quick_start_guide.assets/claim1.jpg" alt="Photo 1" />
-  <img src="../assets/20_quick_start_guide.assets/claim2.jpg" alt="Photo 2" />
-  <img src="../assets/20_quick_start_guide.assets/claim3.jpg" alt="Photo 3" />
+  <img src="/assets/20_quick_start_guide.assets/claim1.jpg" alt="Photo 1" />
+  <img src="/assets/20_quick_start_guide.assets/claim2.jpg" alt="Photo 2" />
+  <img src="/assets/20_quick_start_guide.assets/claim3.jpg" alt="Photo 3" />
 </div>
 
 
@@ -350,28 +332,11 @@ Follow the same process as above, with the difference that you will have to plug
 
 Watch the video to get started
 
-<!--
-TRANSLATION NOTE FOR AI:
-Use the corresponding YouTube video for each language translation.
-
-English: 
-    video : https://youtu.be/zrxAc6mLiI4 
-    Thumbnail: /assets/20_quick_start_guide.assets/videos/EN_Apiary_Install_Video_Cover_500.png
-
-French:  
-    video : https://youtu.be/sBLD9ZcWuao
-    Thumbnail: /assets/20_quick_start_guide.assets/videos/FR_Apiary_Install_Video_Cover_500.png
-
-
-Spanish: 
-    video : https://youtu.be/X2a5zjWweMM
-    Thumbnail: /assets/20_quick_start_guide.assets/videos/ES_Apiary_Install_Video_Cover_500.png
-
-When translating this page, replace BOTH:
-- yt-VIDEO_ID
-- youtube embed VIDEO_ID
-with the corresponding localized version.
-For every other language use the default english version.
+<!-- i18n:video
+locale: en | video_id: zrxAc6mLiI4 | thumb: /assets/20_quick_start_guide.assets/videos/EN_Apiary_Install_Video_Cover_500.png
+locale: fr | video_id: sBLD9ZcWuao | thumb: /assets/20_quick_start_guide.assets/videos/FR_Apiary_Install_Video_Cover_500.png
+locale: es | video_id: X2a5zjWweMM | thumb: /assets/20_quick_start_guide.assets/videos/ES_Apiary_Install_Video_Cover_500.png
+default: en
 -->
 
 <div align="center">
@@ -393,8 +358,8 @@ document.getElementById("yt-zrxAc6mLiI4").addEventListener("click", function() {
 });
 </script>
 
-### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 7. Install devices in hives
 
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 7. Install devices in hives
 
 #### Internal sensors
 
