@@ -124,7 +124,7 @@ And here is an actual swarm trace:
 
 ![SM Laville](../assets/30_sensors.assets/ex_laville.png)
 
-We can note the temperature peak in the afternoon of May 31st. This peak is detected by SwarmMinder and the `SM state` code jumps from 25 to 42. At the same time the weight drops down due to bees leaving the hive.
+We can note the temperature peak in the afternoon of May 21st. This peak is detected by SwarmMinder and the `SM state` code jumps from 25 to 42. At the same time the weight drops down due to bees leaving the hive.
 
 
 ### SwarmMinder algorithm
