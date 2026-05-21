@@ -72,6 +72,24 @@ translateFiles.py
 For now we have *en, fr, it, es, nl, jap* languages.
 If we want to add a new lang, we need first to add it in the **mkdocs.yml** on the plugin part (i18n).
 
+### Optional translation glossary (`RAG_AI.txt`)
+
+At the repository root, `RAG_AI.txt` is an **optional** settings file read by `userguide_utilities/translateFiles.py`. If it is missing, translation still runs with the default system prompt.
+
+When present, the script:
+
+- Injects mandatory EN→target terminology into the LLM prompt (markdown tables).
+- Applies a safety pass that replaces terms from **other** languages that leaked into the output (e.g. French *rucher* on an Italian page).
+
+You can edit this file after a bad translation: add table columns (`Italian`, `German`, …), or a locale section:
+
+```text
+## it
+- Apiary must be Apiario, never rucher or colmenar.
+```
+
+Override the file path with the environment variable `RAG_AI_SETTINGS`.
+
 The easiest way is to copy the 'fr' part, append it at the end and change everything based on the new lang (you can find an example bellow).
 
 ```yml
