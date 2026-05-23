@@ -7,6 +7,70 @@ We've done our best to make the installation and use of your BroodMinders intuit
 
 ---
 
+
+<table style="width:100%; background:#eaf6ff; border:1px solid #b8def5; border-radius:12px; padding:16px; margin:24px 0;">
+  <tr>
+    <td colspan="2" style="text-align:center; padding:12px;">
+      <h2 style="margin:0;">🎥 Watch the Quick Start Videos First</h2>
+      <p style="margin:8px 0 0;">
+        The fastest way to get started: Step 1 at home, then Step 2 in the apiary.
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width:50%; text-align:center; vertical-align:top; padding:12px;">
+      <h3>Step 1 — Set up your system at home</h3>
+
+      <!-- i18n:video
+      locale: en | video_id: 6WicH4_l2FQ | thumb: /assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png
+      locale: fr | video_id: 8eHAg2DPtsc | thumb: /assets/20_quick_start_guide.assets/videos/FR_Onboarding_Video_Cover_500.png
+      locale: es | video_id: FWj4MrT_zg8 | thumb: /assets/20_quick_start_guide.assets/videos/ES_Onboarding_Video_Cover_500.png
+      default: en
+      -->
+
+      <div id="yt-6WicH4_l2FQ" style="cursor:pointer; max-width:500px; margin:auto;">
+        <img src="/assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png"
+             alt="Setting up devices"
+             style="width:100%; display:block; border-radius:10px;">
+      </div>
+    </td>
+
+    <td style="width:50%; text-align:center; vertical-align:top; padding:12px;">
+      <h3>Step 2 — Install in the apiary</h3>
+
+      <!-- i18n:video
+      locale: en | video_id: zrxAc6mLiI4 | thumb: /assets/20_quick_start_guide.assets/videos/EN_Apiary_Install_Video_Cover_500.png
+      locale: fr | video_id: sBLD9ZcWuao | thumb: /assets/20_quick_start_guide.assets/videos/FR_Apiary_Install_Video_Cover_500.png
+      locale: es | video_id: X2a5zjWweMM | thumb: /assets/20_quick_start_guide.assets/videos/ES_Apiary_Install_Video_Cover_500.png
+      default: en
+      -->
+
+      <div id="yt-zrxAc6mLiI4" style="cursor:pointer; max-width:500px; margin:auto;">
+        <img src="/assets/20_quick_start_guide.assets/videos/EN_Apiary_Install_Video_Cover_500.png"
+             alt="Install devices at the apiary"
+             style="width:100%; display:block; border-radius:10px;">
+      </div>
+
+
+    </td>
+  </tr>
+</table>
+<script>
+document.getElementById("yt-6WicH4_l2FQ").addEventListener("click", function() {
+this.innerHTML =
+    '<iframe width="100%" height="315" src="https://www.youtube.com/embed/6WicH4_l2FQ?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+});
+</script>
+
+<script>
+document.getElementById("yt-zrxAc6mLiI4").addEventListener("click", function() {
+this.innerHTML =
+    '<iframe width="100%" height="315" src="https://www.youtube.com/embed/zrxAc6mLiI4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+});
+</script>
+---
+
 ## Before you start
 Take note of the following best practices:
 
