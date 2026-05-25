@@ -54,19 +54,40 @@ Note that every time you go to the BroodMinder-Cell App in `Configure > Diagnost
 
 ## Connecting to the Cell Network
 It may happen that your hub finds a 3G network but is unable to acquire the service.
-![Acquiring cellular service](../assets/60_hubs.assets/3G_Hub/IMG_7749.JPG#mediumImg)
+
+Here is how it would be shown in the BroodMinder-Cell App
+![Acquiring cellular service Cell App](../assets/60_hubs.assets/3G_Hub/IMG_7749.JPG#mediumImg)
+
+And this is in the new BroodMinder-Bees App. Message `Updating in 0:00:00` means it hasnt been able to reach the network to get actual time.
+
+![Acquiring cellular service Cell App](../assets/60_hubs.assets/3G_Hub/IMG_6764.jpg#mediumImg)
+
 
 To identify the issue, first check your APN code.
 
-### Verify You Have the Correct APN
+### Introduce the right APN
 Each SIM provider has its own Access Point Name (APN), we are currently using 1NCE SIM cards and their APN is **iot.1nce.net**. 
+You can set the APN both in the older Broodminder-Cell App and also in Bees App.
 
+
+#### With the Cell App
 If you're using BroodMinder Cell App, go to `Configure > Diagnostics > Cell network > Custom APN`.
 
 ![APN](../assets/60_hubs.assets/3G_Hub/IMG_7758.jpg#mediumImg)
 ![APN](../assets/60_hubs.assets/3G_Hub/IMG_7759.jpg#mediumImg)
 
+#### With the Bees App
+
+Although the most feature-rich interface for managing 3G hubs remains the legacy BroodMinder-Cell application, we have also introduced the APN configuration feature in the Bees App.
+You can also change the APN for Hub 44 and Hub 50 devices directly from the Bees App.
+
+![APN](../assets/60_hubs.assets/3G_Hub/0_APN_BAPP.jpg)
+
+
 ### Check Modem Communication and Trace
+
+Here we use Broodminder-Cell App
+
 Right after turning on the hub, quickly go to `Configure > Diagnostics > Modem communication`. Here you can monitor the connection process. Let it run until it stops, then copy the result and send it to support.
 
 Here's a typical startup trace:
