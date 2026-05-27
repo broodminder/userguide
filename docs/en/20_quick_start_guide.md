@@ -88,6 +88,7 @@ Take note of the following best practices:
 
 ## Read the doc 📖
 
+
 Each step is described in detail later in this document.
 
 | AT HOME   |  | | | 
