@@ -32,3 +32,7 @@ For any language not listed in the tables above:
 - Prefer beekeeping terminology over generic technical wording.
 - Preserve capitalization of menu names and app tabs exactly as in the table.
 - Never reuse a translation from another language column (e.g. do not use French forms in Italian).
+
+## es
+- Use informal Spanish consistently (tutear): use "tú" style and imperative forms like "Mira".
+- Never use formal address forms such as "Mire" in user-facing instructions.
