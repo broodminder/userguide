@@ -16,9 +16,9 @@ Share an Apiary (in the Apiary `… > share` ) with another MyBroodMinder user s
 ![Sharing 2](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
 
 
-## Share on Social Media with a URL
+## Share on Social Media
 
-Share a (read only) dashboard with other people and even on social media using an URL. Simply move to the Dashboard top left menu `… > share`):.
+Share a (read only) dashboard url with other people and even on social media using an URL. Simply move to the Dashboard top left menu `… > share`):.
 When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
 
 ![Shared_URL](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
@@ -44,13 +44,63 @@ This allows you to publish live, read-only hive data directly on your site, with
 
 ## Educational Dashboards
 
-Here’s a fourth — and the most elegant — way to share your hive: Educational Dashboards.
-Perfect for associations, schools, or companies, this big-screen mode lets you proudly display your bees to colleagues, students, or the public. It’s a clean, impactful way to educate and inspire.
+Educational Dashboards are the most elegant way to share your hives with non-beekeepers. Designed for schools, associations, municipalities, companies, and hive sponsorship programs, they transform hive data into a clear and engaging experience that anyone can understand.
 
-👉 Interested? Reach out to us at support@BroodMinder.com to learn more about this service.
+These dashboards combine live hive data, weather information, blooming cycles, and colony population estimates into a single visual interface. Visitors can follow the colony's activity, observe nectar flows, track bee populations, and better understand the relationship between pollinators and their environment.
 
 ![Educational Board](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
 <div align="center" ><i>Educational Dashboards are fun!</i></div>
+
+
+Typical applications include:
+
+- Corporate hive sponsorship programs
+- Environmental education in schools
+- Public exhibitions and visitor centers
+- Municipal biodiversity projects
+- Association outreach programs
+
+Educational Dashboards are an additional layer built on top of MyBroodMinder, combining professional-grade hive monitoring with a simplified and engaging experience for non-beekeepers. The service is available in two levels:
+
+
+### Template Dashboard
+
+The Template Dashboard is a ready-to-use solution based on an existing BroodMinder educational dashboard design.
+
+It can be customized with:
+
+- Your logo and branding
+- Apiary and hive pictures
+- Organization information
+- Hive-specific content
+
+This option provides a professional educational experience with minimal setup time and is ideal for most projects.
+
+### Custom Dashboard
+
+For organizations seeking a unique experience, we can develop a fully customized dashboard tailored to your communication goals and audience.
+
+Custom dashboards can incorporate:
+
+- Dedicated page layouts
+- Custom branding and color schemes
+- Educational content
+- Videos and multimedia elements
+- Additional charts and metrics
+- Corporate or association messaging
+- Interactive elements
+- Multiple information screens
+- Links to external resources and websites
+
+The dashboard becomes a true communication platform built around your project, your audience, and your objectives.
+
+
+!!! note "Designed for non-beekeepers"
+    Educational Dashboards are intentionally simplified and focus on storytelling and engagement. They complement — rather than replace — the advanced tools available in MyBroodMinder for hive management.
+
+👉 Interested in creating an Educational Dashboard for your organization or customers? Contact us at **support@broodminder.com** and we'll help design the experience that best fits your project.
+
+
 
 
 ## Beecounted.org
