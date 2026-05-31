@@ -1,8 +1,8 @@
 # Managing Devices
 
 !!! abstract "What you'll learn in this chapter"
-    This chapter walks you through everything you need to know about managing **devices** in the BroodMinder ecosystem.  
-    You’ll learn how to claim and assign **sensors**, define their positions in hives, track their movement history, and explore their raw data.  
+    This chapter walks you through everything you need to know about **managing devices** in the BroodMinder ecosystem.  
+    You’ll learn how to **claim and assign** sensors, define their **location** in hives, track their **movement history**, and explore and edit their **raw data**.  
     You’ll also discover how to configure and troubleshoot **Hubs** (Wi-Fi, 4G, LoRa), understand their connectivity metrics, and manage **third-party devices** like YoLink.  
     Finally, you'll learn how to transfer ownership of a device when needed.
 
@@ -30,7 +30,7 @@ Once claimed, the device belongs to your account and will appear under `Configur
 
 This table shows the device’s name, current location, last data received, battery level, and its movement history through different hives.
 
-Devices are always assigned to **Hives**, and within hives, to a specific **Position**. Each time you assign a device, you must specify its position:
+Devices are always assigned to **Hives**, and within hives, to a specific **Location**. Each time you assign a device, you must specify its location:
 
 ```
 - Lower Brood
@@ -48,9 +48,9 @@ Devices are always assigned to **Hives**, and within hives, to a specific **Posi
 !!! info "Important to know about positions"
     Each position has specific behavior and implications:
 
-    - Brood levels are calculated only for the `Lower Brood` and `Upper Brood` positions.
-    - `Incubator` positions trigger temperature threshold alerts.
-    - **Each position can only be occupied by one sensor at a time**. If you assign a new sensor to a position already in use, you’ll need to first remove the current one.
+    - Brood levels are calculated only for the `Lower Brood` and `Upper Brood` locations.
+    - `Incubator` triggers temperature threshold alerts.
+    - **Each location can only be occupied by one sensor at a time**. If you assign a new sensor to a location already in use, you’ll need to first remove the current one.
     - **Start dates matter!** If a sensor spent time outside the hive before installation, update its start date accordingly to ensure correct data interpretation.
     - The data shown at the **sensor level** includes all locations it has visited. At the **hive level**, only the data recorded while in that hive is shown.
 
@@ -81,17 +81,19 @@ Colored boxes at the bottom left show which device provided the data. Bright col
 
 **This device/hive relationship is key in BroodMinder and may not exist in other monitoring systems. Unlike a room temperature sensor or truck GPS, beekeeping involves constant movement of hives, colonies, and devices.**
 
-!!! tip "Why is sensor position tracking important?"
-    Most systems only track the current location of a sensor. If you move a device without tracking its past, you lose valuable history. That history is critical for understanding long-term patterns such as nectar flows, brood cycles, or weather responses.
+!!! tip "Sensor location tracking important?"
+    Hive equipment moves. Colonies are split, sensors are reassigned, scales are relocated, and apiaries evolve over time.
 
-    While MyBroodMinder doesn't yet offer full tools to exploit this historical data, it's part of our development roadmap. Working in a proper way reserves benefits for the future 😉. 
+    Recording where a sensor is installed helps preserve the meaning of the data it collects. Without this information, it becomes difficult to interpret historical trends, compare seasons, or understand what actually happened in a hive months or years ago.
+
+    MyBroodMinder stores this information so your data remains meaningful over the long term. Even though advanced historical analysis tools are still under development, tracking sensor locations today ensures you'll be able to benefit from them tomorrow 😉.
 
 
 ### Exploring Sensor-Level Data
 
 You’ve seen how to assign a sensor to a hive and define its position. Let’s now explore **sensor-level data acquisition**.
 
-Click on a hive position (e.g., for device **56:39:24**) to access raw data and the device’s location history:
+Click on a hive location (e.g., Hive  RA `lower brood` in the example below is assigned with device 56:39:24) to access raw data and the device’s location history:
 
 ![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/device_hiveRA.png)
 
@@ -108,8 +110,10 @@ Here’s what each column means:
 - **Source**: Who harvested the data (e.g., Cell hub, Wifi, Bees App)
 - **Battery**: Battery percentage
 - **Charge Remaining**: Estimated battery life
-- **Temp**: Temperature in °C
+- **Temp**: Temperature
 - **Humid**: Relative humidity
+- **Weight** : Total weight
+- **w1, w2, w3, w4** : individual loadcell weight 
 - **SM State**: Swarm Minder status (T and TH models only)
 - **BatterySaver**: Indicates if battery-saving mode is enabled
 
@@ -141,6 +145,31 @@ To fix this, scroll to the bottom of the editor and use `Remove Duplicates`. Thi
 Here’s what the cleaned-up temperature curve looks like:
 
 ![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/wavy2.png)
+
+### Removing outliers
+
+Occasionally, charts may contain outlier values that make the data difficult to interpret. Examples include a weight dropping to zero while moving a scale, a temperature spike during an inspection, or any other abnormal event that does not reflect actual hive conditions.
+
+![Outliers](../assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_1.png)
+
+MyBroodMinder allows you to edit or remove individual data samples. To do so, first display the device-level data and then open the **Data Editor** using the `Show Data Editor` option.
+
+![Outliers](../assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_2.png)
+
+To locate the outlier more easily:
+
+1. Restrict the displayed period to the day (or short time range) when the issue occurred.
+2. Open the Data Editor.
+3. Sort the data by the affected measurement (weight, temperature, humidity, etc.) rather than by time (click on the header).
+4. Locate the abnormal value in the spreadsheet.
+
+Once the sample has been identified, select its checkbox and click **Remove selected**.
+
+![Outliers](../assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_3.png)
+
+
+
+---
 
 ## Hubs
 
