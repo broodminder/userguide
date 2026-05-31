@@ -117,17 +117,24 @@ Since firmware version **3.55**, hubs provide real-time Bluetooth signal strengt
 
 ### Step 2 — Ensure Good Cellular Coverage
 
-Once Bluetooth connectivity is established, make sure the hub can also communicate reliably with the cellular network.
+Once Bluetooth connectivity has been established, the hub must also maintain a reliable connection to the cellular network in order to upload data to MyBroodMinder.
 
 For best results:
 
 - Mount the hub approximately **1.5 m (5 ft)** above the ground.
 - Install it on a pole, post, or similar support whenever possible.
-- Avoid placing the hub near walls, buildings, or dense vegetation.
-- Avoid positioning it under a hive roof or metal cover, as metal can significantly attenuate cellular signals.
+- Avoid placing the hub close to walls, buildings, or dense vegetation.
+- Avoid positioning it beneath a hive roof or metal cover, as metal can significantly reduce cellular signal strength.
 - Keep the hub in as open an area as practical.
 
-The quality of the cellular connection can also be monitored and analyzed in detail (see the connectivity diagnostics sections below).
+The quality of the cellular connection can be monitored from the Hub Details page using the **RSRP**, **RSRQ**, and **SNR** metrics.
+
+In most apiaries, the hub will establish a satisfactory connection without any special effort. However, if you experience connectivity issues, these metrics can help identify the cause and guide the search for a better location.
+
+Additional chapters later in this guide provide detailed information on interpreting these indicators and diagnosing cellular communication problems.
+
+![hub details](../assets/60_hubs.assets/hub_details_network.jpg#mediumImg)
+
 
 ### Finding the Sweet Spot
 

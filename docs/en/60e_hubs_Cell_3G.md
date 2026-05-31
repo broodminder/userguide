@@ -29,7 +29,7 @@ document.getElementById("yt-NesHA2rbpgM").addEventListener("click", function() {
 
 
 
-1. Unplug the 3G 'Clic' circuit board.
+1. Unplug the 3G 'Clic' circuit board. 
 2. Open the SIM metal holder: slide it upward through the antenna with your thumb, then pull it up and remove the SIM.
 3. Insert the SIM card in the right position.
 ![Sim card](../assets/60_hubs.assets/3G_Hub/IMG_7755.JPG#mediumImg)
@@ -86,7 +86,7 @@ You can also change the APN for Hub 44 and Hub 50 devices directly from the Bees
 
 ### Check Modem Communication and Trace
 
-Here we use Broodminder-Cell App
+Here we use Broodminder-Cell App 
 
 Right after turning on the hub, quickly go to `Configure > Diagnostics > Modem communication`. Here you can monitor the connection process. Let it run until it stops, then copy the result and send it to support.
 
