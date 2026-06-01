@@ -96,7 +96,7 @@ Each step is described in detail later in this document.
 | 1. | ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png)  | [Install Bees App](#1-install-broodminder-bees-app) | 
 | 2. | ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png)  | [Create your account](#2-create-your-account) | 
 | 3. | ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png)  | [Power your devices](#3-activate-your-devices) | 
-| 4. | ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png)  | [Claim & Assign to a hive](#4-claim-&-assign-devices-to-hives) | 
+| 4. | ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png)  | [Claim & Assign to a hive](#4-claim-assign-devices-to-hives) | 
 | 5. | ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png)  | [Make your first sync](#5-make-your-first-sync) | 
 | 6. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Power on Hub](#6-power-on-your-hub) | 
 

@@ -1,4 +1,4 @@
-<div style="text-align:center;"><img src="../assets/60_hubs.assets/Cell_T91.jpeg"></div>
+<div style="text-align:center;"><img src="../assets/60_hubs.assets/Cell_T91.jpg"></div>
 
 The BroodMinder-T91 (BRM-54) Cell Hub is based on the Nordic "Thingy 91".
 
@@ -42,7 +42,7 @@ Use the Weather Shield to protect the T91.
 
 ---
 
-## Steps to get your hub up and running
+## Getting your hub up and running
 
 - We recommend you **test everything before taking it to your apiary**.
 
@@ -56,7 +56,7 @@ Use the Weather Shield to protect the T91.
 
 - Enter the `... > Show details` menu.
 
-   ![hub details](../assets/60_hubs.assets/hub_details.png)
+   ![hub details](../assets/60_hubs.assets/hub_details.jpg#largeImg)
 
 - Here you can check some key elements of your hub such as the firmware version, network signal and quality metrics, and selected carrier.  
 - At the bottom of the screen, there is a black console box displaying the current status of the hub (you must be close to the hub with your smartphone—this data is sent via Bluetooth). You can watch it boot and connect to the cloud. Most of the time, its normal status will be `tick` or `tock`, indicating smooth operation.
@@ -72,9 +72,88 @@ Use the Weather Shield to protect the T91.
 
 ---
 
+## Install the Hub at the Apiary
+
+The hub is the cornerstone of your BroodMinder monitoring system. Its job is to collect data from nearby BroodMinder devices over Bluetooth and then transmit that data through the cellular network to MyBroodMinder.
+
+Because it sits between these two communication networks, its location is critical. A well-positioned hub must have:
+
+- Good Bluetooth connectivity to **all monitored devices**
+- Good cellular connectivity to the mobile network
+
+Taking a few minutes to find the right location will greatly improve the reliability of your system.
+
+### Step 1 — Ensure Good Bluetooth Coverage
+
+For Bluetooth connectivity, the most restrictive devices are typically **internal hive sensors**. Once placed inside a hive, wood, propolis, bees, and moisture all reduce signal strength.
+
+As a general rule:
+
+- Place the hub within **10 m (30 ft)** of all instrumented hives.
+- Positioning the hub **in front of or behind the hive entrances** usually provides better coverage than placing it to the side.
+- If your hives are installed on a bench or stand, try to align the hub with the row of hives rather than placing it off to one side.
+
+
+![Install hub](../assets/20_quick_start_guide.assets/hub/hub_install.png)
+
+
+Since firmware version **3.55**, hubs provide real-time Bluetooth signal strength measurements for each connected device. This allows you to experiment with different hub locations and immediately verify that all sensors remain within reliable communication range. Usign Bees App go to `Devices > Hub ID > ... > Show Details` and hit the `Show all devices` button 
+
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="width:50%; text-align:center; padding:10px;">
+      <img src="../assets/60_hubs.assets/hub_scan1.jpg" alt="Bluetooth signal assessment" style="max-width:100%; height:auto;">
+      <br>
+      <em>Hub scan overview</em>
+    </td>
+    <td style="width:50%; text-align:center; padding:10px;">
+      <img src="../assets/60_hubs.assets/hub_scan2.jpg" alt="Bluetooth signal assessment details" style="max-width:100%; height:auto;">
+      <br>
+      <em>Device signal levels</em>
+    </td>
+  </tr>
+</table>
+
+
+### Step 2 — Ensure Good Cellular Coverage
+
+Once Bluetooth connectivity has been established, the hub must also maintain a reliable connection to the cellular network in order to upload data to MyBroodMinder.
+
+For best results:
+
+- Mount the hub approximately **1.5 m (5 ft)** above the ground.
+- Install it on a pole, post, or similar support whenever possible.
+- Avoid placing the hub close to walls, buildings, or dense vegetation.
+- Avoid positioning it beneath a hive roof or metal cover, as metal can significantly reduce cellular signal strength.
+- Keep the hub in as open an area as practical.
+
+The quality of the cellular connection can be monitored from the Hub Details page using the **RSRP**, **RSRQ**, and **SNR** metrics.
+
+In most apiaries, the hub will establish a satisfactory connection without any special effort. However, if you experience connectivity issues, these metrics can help identify the cause and guide the search for a better location.
+
+Additional chapters later in this guide provide detailed information on interpreting these indicators and diagnosing cellular communication problems.
+
+![hub details](../assets/60_hubs.assets/hub_details_network.jpg#mediumImg)
+
+
+### Finding the Sweet Spot
+
+The ideal hub location is the place where both Bluetooth and cellular connectivity are strong.
+
+Depending on the layout of your apiary, finding this position may require a little experimentation. Fortunately, once you understand that the hub acts as the bridge between the Bluetooth sensor network and the cellular network, choosing the right location becomes much easier.
+
+A properly positioned hub will provide reliable data collection, fewer communication gaps, and the best overall monitoring experience.
+
+
+
+
+
+
+---
+
 ## Assigning the hub to an apiary
 
-By default, hubs are automatically assigned to the apiary of the devices they are transmitting data for.  
+By default, in MyBroodminder hubs are automatically assigned to the apiary of the devices they are transmitting data for.  
 For example, if a scale is assigned to Hive 1 in Apiary 1, and the hub is sending data for that scale, it will automatically assign itself to Apiary 1.  
 
 ⚠️ It will **not** reassign itself again if moved — manual reassignment is required in MyBroodMinder.
@@ -83,7 +162,9 @@ For example, if a scale is assigned to Hive 1 in Apiary 1, and the hub is sendin
 - Click on the `Edit` icon to assign or move the hub to an apiary.
 
 ---
-## Firmware Upgrade
+
+## Maintenance
+### Firmware Upgrade
 
 We may suggest updating your firmware depending on the situation. Please check with support@broodminder.com prior to doing this.
 
@@ -100,7 +181,7 @@ note: if the current firmware is too old, the unit must be returned to BroodMind
 
 ---
 
-## Replacing SIM card
+### Replacing SIM card
 Simply push in to extract the old SIM and again push in to introduce the new one.
 
 <div align="center">
