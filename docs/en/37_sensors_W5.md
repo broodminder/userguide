@@ -29,6 +29,7 @@ It communicates using Bluetooth Low Energy (BLE) and can:
 
 No special configuration is required beyond the normal device claiming and installation process.
 
+
 ### Installation
 
 For best results:
