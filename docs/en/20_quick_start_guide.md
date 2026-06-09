@@ -7,7 +7,6 @@ We've done our best to make the installation and use of your BroodMinders intuit
 
 ---
 
-
 <table style="width:100%; background:#eaf6ff; border:1px solid #b8def5; border-radius:12px; padding:16px; margin:24px 0;">
   <tr>
     <td colspan="2" style="text-align:center; padding:12px;">
