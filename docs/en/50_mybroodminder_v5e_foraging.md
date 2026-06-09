@@ -27,17 +27,6 @@ Forager bees embark daily on a mission to collect resources essential for the co
 
 There are several ways to track forager activity, such as **bee counters** and **cameras**. But **BroodMinder-BeeDar** offers something different: a **non-invasive**, **battery-powered**, radar-based system that works on any hive, with **no optical setup required**. It uses the **Doppler effect** to measure motion at the hive entrance — quietly and efficiently.
 
-Watch the video:
-
-
-
-!!! tip "BeeDar also works with Bumblebees! 🐝"
-    In 2021 we made extensive campaigns with bumblebees using BeeDar and the results are amazing. "BumbleDar" is a specific version of BeeDar with a dedicated firmware to adjust to bumple bees activity patterns. 
-
-## What does BeeDar measure?
-
-**BeeDar** captures **foraging activity** by detecting movement in front of the hive. The raw measurement is the **RMS signal strength**, a value proportional to overall bee traffic at the entrance.
-
 !!! info "BeeDar History"
     **BeeDar** was invented by **Dr. Herbert Aumann**, a pioneer in radar systems. After fifty years as a senior scientist at MIT Lincoln Laboratory, Herb continued his research as an adjunct professor at the University of Maine, and later co-founded Maine Biosensors LLC.
     
@@ -46,6 +35,16 @@ Watch the video:
     BeeDar is patented as:  
     "Doppler Radar Beehive Activity Monitoring System"
     – U.S. Patent 11,867,794 and EP 3820283A4
+
+!!! tip "BeeDar also works with Bumblebees! 🐝"
+    In 2021 we made extensive campaigns with bumblebees using BeeDar and the results are amazing. "BumbleDar" is a specific version of BeeDar with a dedicated firmware to adjust to bumple bees activity patterns. 
+
+## What does BeeDar measure?
+
+**BeeDar** captures **foraging activity** by detecting movement in front of the hive. The raw measurement is the **RMS signal strength**, a value proportional to overall bee traffic at the entrance.
+By default measurements are carried every 15min for 30sec. You can adjust that rate down to 5min if you are doing research and need more accurate data. Only remember that this 3x rate also comes with 3x battery consumption
+
+To learn more about the actual device installation and use you can refer to the [Devices > Beedar](../35_sensors_Beedar) section of this documentation.
 
 
 ## Interpreting BeeDar data
@@ -116,12 +115,19 @@ You can explore foraging data in **MyBroodMinder**:
 - **Classic tab** (bottom): Raw radar and vibration measurements  
 ![MBM Classic](../assets/50_mybroodminder_v5.assets/foragers/mbm_classic.png)
 
-- **Custom Dashboards**: Add the **BeeCount** widget for a tailored view  
-![Custom Dashboard](../assets/50_mybroodminder_v5.assets/foragers/mbm_custom.png)
+- **Custom Dashboards**: Add the **BeeCount** widget for a tailored view and to get access to the forager trips estimation. 
 
-!!! info "Coming Soon"
+![Custom Dashboard](../assets/50_mybroodminder_v5.assets/foragers/mbm_custom.png#mediumImg)
+
+![BeeDar Algorithm](../assets/50_mybroodminder_v5.assets/foragers/beedar_algo.png)
+
+
+## Beedar on Bees App
+
+You can find the Beedar raw measurements on the Device's details in Bees app, Either form the Devices or the Manage tab. However forager trips are not displayed and it's neother available in the Hives tab.
+
+!!! info "Beedar not (yet) available on Bees App "Hives" tab"
     BeeDar is not yet available in the **Bees App > Hives** tab.  
-    🚧 We're working on it! 🚧 
     In the meantime, you can always view data in  
     `Sensors > [device name] > Show Details`
 

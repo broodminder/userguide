@@ -99,3 +99,9 @@ A few things to keep in mind:
 The chart below shows an example of power consumption and signal activity over a full 5-month cycle.
 
 ![BeeDar mounting position](../assets/30_sensors.assets/beedar/bat_life.png)
+
+
+
+### Using BeeDar in MyBroodminder
+
+Now that you know everything about the device, you can move to [MyBroodminder/Foragers](./50_mybroodminder_v5e_foraging.md) user-guide section and keep reading about how to put it into practice.
