@@ -201,28 +201,31 @@ This scale uses the same circuit board as the TH model 42.
 
 ## Device Firmware Updates  
 
-We regularly release updates to improve device operation. Firmware updates use **OTA (Over The Air)** technology and are easy to perform.  
+We regularly release updates to improve device operation. Firmware updates use **OTA (Over The Air)** technology and are easy to perform susing the Bees App.  
 
 **Supported Models**:  
 `47, 49, 51, 52, 56, 57, 58, 59, 60 & 63`  
 
-### Bees App Update  
-
-Before updating firmware, ensure you’re using the latest **Bees App** version from the Android Play Store or Apple App Store.
 
 ### Basic Update Process  
 
-1. Update the Bees App.
+1. Ensure you’re using the latest **Bees App** version from the PlayStore or AppStore.
 2. Go to `BeesApp > user settings` and check that `Show Available Firmware updates`is toggled on 
-2. Go to `BeesApp > devices` and find the **Update Icon** ⚠ next to your device in the app.  
+2. Go to `BeesApp > devices` and find the **Update Icon** ⚠️ next to your device in the app.  
 3. Press **“Update Firmware”** or **“Sync and Update Firmware”**.  
 4. Wait for 2-3 minutes.  
-5. Verify the update was successful.  
+5. Verify the update was successful in the BeesApp > Devices > ...  > Show details` firmware version is displayed
+
+![upgrade fw](../assets/88_winter_service/upgrade_fw_1500.jpg)
+
 
 If the update fails:  
 
 - Remove the batteries for 1 minute, replace them, and retry.  
 - If the issue persists, contact [support@broodminder.com](mailto:support@broodminder.com).  
+
+
+
 
 
 ## Prepare MyBroodMinder
