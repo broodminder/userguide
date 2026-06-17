@@ -13,9 +13,9 @@ You will now calibrate your scale using the Bees App.
 
 You will find the calibration screen in the Bees App at ` Devices Tab > [Device name] > ... > Show details > ... > Troubleshooting > Calibrate Scale`
 
-Remove all weight from the scale. Get a known weight to calibrate the scale. The page should look something like this.
+Remove all weight from the scale. Get a known weight to calibrate the scale. The page should look something like this:
 
-![Bapp Calibration Example](../assets/33_sensors_w3_assembly.assets/bapp_cal_loaded.jpeg#mediumImg)
+![Bapp Calibration Example](../assets/33_sensors_w3_assembly.assets/bapp_cal_loaded.png#mediumImg)
 
 Hit Tare -> This sets it all to zero. Then enter the weight of the object you're using to calibrate as the "Test Weight". The app will then prompt what to do. 
 
@@ -23,7 +23,7 @@ Put the weight on one load cell, press Pos 1 (position 1). Then wait for the app
 
 When the test button is finally green, press Test. Then test the scale by putting different weights on it. The live weight will be updating above. If it is ok, press Save Cal. Wait for it to save and you're done.
 
-![Bapp Calibration Annotated](../assets/33_sensors_w3_assembly.assets/bapp_cal_final.jpeg#mediumImg)
+![Bapp Calibration Annotated](../assets/33_sensors_w3_assembly.assets/bapp_cal_final.png#mediumImg)
 
 
 <!-- !!! tip
