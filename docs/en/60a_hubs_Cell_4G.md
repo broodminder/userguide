@@ -30,7 +30,7 @@ document.getElementById("yt-4Mh9DT7VblI").addEventListener("click", function() {
 
 ### Solar version
 
-Lifelong powered version
+Lifelong powered version.
 
 ![solar](../assets/60_hubs.assets/image-20230408081237234.png#mediumImg)
 
