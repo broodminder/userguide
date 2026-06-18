@@ -30,7 +30,7 @@ document.getElementById("yt-4Mh9DT7VblI").addEventListener("click", function() {
 
 ### Solar version
 
-Lifelong powered version
+Lifelong powered version.
 
 ![solar](../assets/60_hubs.assets/image-20230408081237234.png#mediumImg)
 
@@ -127,13 +127,14 @@ For best results:
 - Avoid positioning it beneath a hive roof or metal cover, as metal can significantly reduce cellular signal strength.
 - Keep the hub in as open an area as practical.
 
-The quality of the cellular connection can be monitored from the Hub Details page using the **RSRP**, **RSRQ**, and **SNR** metrics.
+The quality of the cellular connection can be monitored from the Hub `Show Details` page using the **RSRP**, **RSRQ**, and **SNR** metrics.
 
 In most apiaries, the hub will establish a satisfactory connection without any special effort. However, if you experience connectivity issues, these metrics can help identify the cause and guide the search for a better location.
 
-Additional chapters later in this guide provide detailed information on interpreting these indicators and diagnosing cellular communication problems.
 
 ![hub details](../assets/60_hubs.assets/hub_details_network.jpg#mediumImg)
+
+For a deeper understanding of these metrics, refer to the [Interpreting Cellular Network Metrics](#interpreting-cellular-network-metrics) section below.
 
 
 ### Finding the Sweet Spot
@@ -189,7 +190,6 @@ Simply push in to extract the old SIM and again push in to introduce the new one
         <img src="https://img.youtube.com/vi/1Csb6GaMB5c/0.jpg" alt="Broodminder T91">
     </a>
 </div>
-<hr>
 
 --- 
 

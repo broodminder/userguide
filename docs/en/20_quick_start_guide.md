@@ -36,22 +36,20 @@ We've done our best to make the installation and use of your BroodMinders intuit
     </td>
 
     <td style="width:50%; text-align:center; vertical-align:top; padding:12px;">
-      <h3>Step 2 — Install in the apiary</h3>
+     <h3>Step 2 — Install in the apiary</h3>
 
       <!-- i18n:video
-      locale: en | video_id: zrxAc6mLiI4 | thumb: /assets/20_quick_start_guide.assets/videos/EN_Apiary_Install_Video_Cover_500.png
-      locale: fr | video_id: sBLD9ZcWuao | thumb: /assets/20_quick_start_guide.assets/videos/FR_Apiary_Install_Video_Cover_500.png
-      locale: es | video_id: X2a5zjWweMM | thumb: /assets/20_quick_start_guide.assets/videos/ES_Apiary_Install_Video_Cover_500.png
+      locale: en | video_id: zrxAc6mLiI4 | thumb: /assets/20_quick_start_guide.assets/videos/Youtube_Cover_Install_Apiary2.jpg
+      locale: fr | video_id: sBLD9ZcWuao | thumb: /assets/20_quick_start_guide.assets/videos/Youtube_Cover_Install_Apiary2.jpg
+      locale: es | video_id: X2a5zjWweMM | thumb: /assets/20_quick_start_guide.assets/videos/Youtube_Cover_Install_Apiary2.jpg
       default: en
       -->
 
       <div id="yt-zrxAc6mLiI4" style="cursor:pointer; max-width:500px; margin:auto;">
-        <img src="/assets/20_quick_start_guide.assets/videos/EN_Apiary_Install_Video_Cover_500.png"
+        <img src="/assets/20_quick_start_guide.assets/videos/Youtube_Cover_Install_Apiary2.jpg"
              alt="Install devices at the apiary"
              style="width:100%; display:block; border-radius:10px;">
       </div>
-
-
     </td>
   </tr>
 </table>

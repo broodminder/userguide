@@ -44,7 +44,7 @@ There are several ways to track forager activity, such as **bee counters** and *
 **BeeDar** captures **foraging activity** by detecting movement in front of the hive. The raw measurement is the **RMS signal strength**, a value proportional to overall bee traffic at the entrance.
 By default measurements are carried every 15min for 30sec. You can adjust that rate down to 5min if you are doing research and need more accurate data. Only remember that this 3x rate also comes with 3x battery consumption
 
-To learn more about the actual device installation and use you can refer to the [Devices > Beedar](../35_sensors_Beedar) section of this documentation.
+To learn more about the actual device installation and use you can refer to the [Devices > Beedar](../35_sensors_Beedar.md) section of this documentation.
 
 
 ## Interpreting BeeDar data

@@ -68,6 +68,19 @@ Mount the BeeDar **just above the entrance**, leaving approximately **2 cm of wo
 
 ---
 
+### Step 4 — Select Acquisition Rate
+
+By default, the BeeDar performs a 30-second scan every 15 minutes. This provides an accurate measurement rate and is sufficient to build a clear picture of hive activity throughout the day.
+
+For specific experiments or applications requiring higher temporal resolution, you can increase the acquisition rate by setting the scan interval to 10 or even 5 minutes in the device settings.
+
+Keep in mind that increasing the acquisition rate also increases power consumption. As a result, battery life will be reduced roughly in proportion to the selected scan interval.
+
+![BeeDar mounting position](../assets/30_sensors.assets/beedar/rate.jpg#largeImg)
+
+---
+
+## Beedar Features
 ### Understanding the Detection Zone
 
 The BeeDar's sensitivity pattern is a **fan-shaped beam** radiating from the radar sensor:
