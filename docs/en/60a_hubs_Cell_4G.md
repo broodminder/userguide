@@ -1,4 +1,7 @@
-<div style="text-align:center;"><img src="../assets/60_hubs.assets/Cell_T91.jpg"></div>
+# BroodMinder-Cell T91
+
+![image](../assets/60_hubs.assets/Cell_T91.jpg){ style="display: block; margin: 0 auto" }
+
 
 The BroodMinder-T91 (BRM-54) Cell Hub is based on the Nordic "Thingy 91".
 
