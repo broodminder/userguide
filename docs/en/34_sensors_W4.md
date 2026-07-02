@@ -51,7 +51,7 @@ Then you can securely handle and lift your pallets.
 
 Once on your truck, you can strap without fear. The maximum nominal weight for this scale is 400kg. Straping will raise the load to 150-200 kg.
 
-![image](../assets/30_sensors.assets/w4/use_sanglage.png)
+![image](../assets/30_sensors.assets/w4/use_sanglage.png#mediumImg)
 
 
 ### Maintenance
@@ -60,7 +60,7 @@ The **BroodMinder-W4** requires very little maintenance. It is powered by **two 
 
 To replace the batteries, simply open the enclosure and remove them from the battery holder.
 
-> *Insert battery replacement picture*
+![replace batteries](../assets/30_sensors.assets/w4/w4_battery.jpg#largeImg)
 
 When new batteries are installed, you should see the device LED blinking. Since the LED is located on the reverse side of the circuit board, its light will be visible as a reflection on the bottom of the enclosure.
 
@@ -79,7 +79,7 @@ Navigate to:
 
 `Bees > Devices > ... > Show Details > ... > View Real Time`
 
-> *Insert Real Time View screenshot*
+![replace batteries](../assets/30_sensors.assets/realtime_mode.jpg#largeImg)
 
 #### Taring and Calibration
 

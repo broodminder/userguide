@@ -41,6 +41,39 @@ For best results:
 
 This configuration provides excellent weighing accuracy while keeping installation simple and unobtrusive.
 
+### Maintenance
+
+The **BroodMinder-W4** requires very little maintenance. It is powered by **two AA alkaline batteries**, which typically last **4 to 5 years** when using the default hourly logging rate.
+
+To replace the batteries, simply open the enclosure and remove them from the battery holder.
+
+![replace batteries](../assets/30_sensors.assets/w5/w5_battery.jpg#largeImg)
+
+When new batteries are installed, you should see the device LED blinking. Since the LED is located on the reverse side of the circuit board, its light will be visible as a reflection on the bottom of the enclosure.
+
+As part of annual maintenance, ideally before the beekeeping season starts, we recommend:
+
+- checking that the enclosure seals remain in good condition;
+- verifying that the cable glands are properly tightened.
+
+#### Troubleshooting
+
+If you need to troubleshoot the scale, the easiest approach is to place the device in **Real Time View** mode and manually apply pressure to each load cell while observing the measurements.
+
+You can also place a known weight on the scale to verify that readings are accurate.
+
+Navigate to:
+
+`Bees > Devices > ... > Show Details > ... > View Real Time`
+
+![replace batteries](../assets/30_sensors.assets/realtime_mode.jpg#largeImg)
+
+#### Taring and Calibration
+
+You can also **re-tare** or **re-calibrate** the scale if necessary. This is rarely required under normal operating conditions, but these features have been integrated into the **Bees App** to simplify field service and remote support.
+
+The complete calibration procedure is described [here](./33c_sensors_W3_calibration.md).
+
 
 
 ### Measurement Rate
