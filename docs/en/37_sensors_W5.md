@@ -43,9 +43,9 @@ This configuration provides excellent weighing accuracy while keeping installati
 
 ### Maintenance
 
-The **BroodMinder-W4** requires very little maintenance. It is powered by **two AA alkaline batteries**, which typically last **4 to 5 years** when using the default hourly logging rate.
+The **BroodMinder-W5** requires very little maintenance. It is powered by **two AA alkaline batteries**, which typically last **4 to 5 years** when using the default hourly logging rate.
 
-To replace the batteries, simply open the enclosure and remove them from the battery holder.
+To replace the batteries, simply remove the lower bar to open the enclosure.
 
 ![replace batteries](../assets/30_sensors.assets/w5/w5_battery.jpg#largeImg)
 
