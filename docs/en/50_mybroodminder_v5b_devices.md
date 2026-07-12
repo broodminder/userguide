@@ -146,7 +146,7 @@ Here’s what the cleaned-up temperature curve looks like:
 
 ![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/wavy2.png)
 
-### Removing outliers
+### Remove Outliers
 
 Occasionally, charts may contain outlier values that make the data difficult to interpret. Examples include a weight dropping to zero while moving a scale, a temperature spike during an inspection, or any other abnormal event that does not reflect actual hive conditions.
 
@@ -167,9 +167,44 @@ Once the sample has been identified, select its checkbox and click **Remove sele
 
 ![Outliers](../assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_3.png)
 
+### Remove Duplicate Samples
+
+In some situations, you may notice a **wavy** or **double-looking** curve in **MyBroodMinder**, similar to the example below.
 
 
----
+![Duplicate samples producing a wavy chart](../assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_wavy_chart.png)
+
+This is almost always caused by **duplicate measurements**. A common scenario is when a **Cell Hub** has already uploaded the device data, and you later perform a manual Bluetooth sync with the **Bees App**.
+
+
+In that case, the same measurements are uploaded twice:
+
+- once by the hub, using accurate **network time**;
+- once by the device itself, using its **internal clock**.
+
+Since these two clocks are not perfectly synchronized, the duplicate samples often appear with a slight time offset, producing a characteristic "wavy" chart like the one above.
+
+The time shift may be very small or, if the device has not been synchronized for a long period (i.e. it has not received an updated network time for weeks or months), it can grow to several minutes due to the natural drift of its internal clock. This is one of the reasons why we introduced **[Automatic Time Correction](37_sensors_W5.md/#auto-time-correction)**, first released in **July 2026** for **W5 scales** and **BeeDars**. Support for internal hive sensors is planned for **2027**.
+
+Fortunately, these duplicate samples can easily be removed.
+
+Typically, a manual sync is performed only to recover measurements that the Cell Hub may have missed. Any samples that had already been uploaded by the hub are therefore redundant. The **Data Editor** includes a (somewhat hidden) **Remove Duplicates** function that automatically removes these duplicate records.
+
+Open the **Data Editor**, scroll to the bottom of the page, and click **Remove Duplicates**.
+
+![Remove Duplicates button](../assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_button.png)
+
+This is the original display Before cleaning up
+
+![Chart before removing duplicates](../assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_before.jpg)
+
+And that's after:
+
+![Chart after removing duplicates](../assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_after.jpg)
+
+
+If a few incorrect samples remain after this process, you can remove them manually using the **[Remove Outliers](50_mybroodminder_v5b_devices.md/#remove-outliers)** feature by selecting the affected points.
+
 
 ## Hubs
 
