@@ -1,35 +1,49 @@
-# Broodminder-BEES App 
+# BroodMinder-BEES App
 
 ## Overview
 
-This section contains the nuts and bolts of using the app. There is a brief introductory [video](https://youtu.be/88kPkSxHzRE) that you can also watch.
+This section covers the core features of the BroodMinder BEES app and how to use them effectively. There is also a brief introductory [video](https://youtu.be/88kPkSxHzRE) available to help you get started.
 
-We have released a major update in June 2024 with numerous new features. We recommend exploring the app, reading the manual, and watching our videos to understand the extensive range of features available to you. Our development team are all beekeepers so we have added many features that we love and know you will love too.
+The BEES app is designed by beekeepers for beekeepers, bringing together hive monitoring, inspections, device management, and record keeping into a single workflow.
 
-- One touch reading of all sensors within range of the phone/tablet
-- Apiaries tab displays weather and nectar flow conditions -NEW 2024
-- Hives tab displays brood level, productivity, and internal conditions - NEW 2024
-- Powerful voice powered apiary and hive logbook with predefined tags
-- Manage apiaries, hives, and device locations
-- Set devices to battery saver mode with 5+ year battery life - NEW 2024
-- Tightly integrated with MyBroodMinder.com w/automatic sync for remote apiaries which have no internet (cellular) access.
-- BroodMinder-SubHub support
-    - Real-time display of device signal levels
-    - Read composite device log and assign data to proper BroodMinder devices
+Key features include:
 
-**Basic operation for a new user**
+- One-touch reading of all BroodMinder sensors within Bluetooth range
+- Apiary overview with weather forecasts and nectar flow information
+- Hive overview showing brood level, productivity, weight, and internal conditions
+- Powerful voice-enabled apiary and hive logbook with predefined tags
+- Inspection workflows with integrated **Queen Minder** support
+- Manage apiaries, hives, plants, and device locations
+- **Plants module** for recording and managing forage plants around your apiaries
+- Battery Saver mode for supported devices to maximize battery life
+- Automatic synchronization with MyBroodMinder.com
+- Support for BroodMinder SubHub devices
+    - Real-time device signal monitoring
+    - Read composite logs and automatically assign data to the correct devices
 
-- First Time
-    - Download BroodMinder-Bees from your app store
-    - Start the app and enter (or create) your MyBroodMinder.com user ID & password
-    - Create an Apiary and Hive using the MANAGE tab
-    - The DEVICES tab will automatically display all BroodMinder devices you own *and* all BroodMinder devices it detects close by
-    - Claim your devices and nssign your BroodMinder devices to a location within the hive
-- Every Time
-    - Choose the MANAGE tab and press SYNC. Stored data will read and local and MyBroodMinder.com databases will be updated. NOTE: You can skip this step if you have a Cellular/WIFI/LoRa hub.
-    - Review your data with the Hives and Apiaries tabs
-    - Add hive and apiary notes during inspections
-    - If you do not have internet/cellular connection in your apiary, start the bees app when you return home and it will automatically sync data with MyBroodMinder.
+## Basic Operation
+
+### First Time
+
+- Download BroodMinder BEES from your app store.
+- Start the app and sign in with your MyBroodMinder.com account (or create one).
+- Create an Apiary and Hive from the **Manage** tab.
+- The **Devices** tab automatically displays:
+    - all BroodMinder devices you own
+    - nearby BroodMinder devices detected via Bluetooth
+- Claim your devices and assign them to their locations within each hive.
+
+### Daily Use
+
+- Open the **Manage** tab and press **Sync** to read stored data and synchronize with MyBroodMinder.com.
+
+!!! tip
+    If your apiary uses a Cellular, WiFi, LoRa, or SubHub gateway, manual synchronization is generally unnecessary.
+
+- Review hive and apiary status from the **Hives** and **Apiaries** tabs.
+- Record inspection notes during hive visits.
+- If you collected data while offline, simply open the app once internet connectivity is restored and synchronization will occur automatically.
+
 
 ## APIARIES Tab
 
@@ -37,99 +51,133 @@ The Apiaries tab displays information about the selected apiary.
 
 ![Apiaries TAB](../assets/40_beesApp.assets/Apiary.png#largeImg)
 
-1. Notes from the last inspection are displayed in the upper left and expected nectar flow (based on the weathersource.com forecast) is displayed on the graph. 
-   - Note the "+" in the lower right corner. That will allow you to add notes about the apiary. Any place you see that "+" will take you to a new note for your logbook. There is more information about note taking below.
+1. Notes from the latest inspection appear in the upper-left corner, while expected nectar flow (based on WeatherSource forecasts) is shown on the graph.
 
-2. Weather log and forecast are shown in this screen.
-3. Apiary notes can be reviewed here.
-4. Alerts are displayed in the rightmost tab.
+    The **+** button lets you quickly create a new apiary note. Anywhere you see this button, you can add a new entry to your logbook.
+
+2. View current weather conditions and forecasts.
+3. Review apiary notes.
+4. View alerts for the selected apiary.
+
 
 ## HIVES Tab
 
-We've created the Hives tab to make it easy to quickly see the status of each of the hives in your apiary. 
+The Hives tab provides a quick overview of every hive within the selected apiary.
 
 ![Hives TAB](../assets/40_beesApp.assets/Hives1.png#largeImg)
 
+Across the top, each hive displays:
 
-Your hives are listed across the top with the **brood level** and **total weight** displayed.  The heart displays the estimated **fitness** of the hive and the eventual number red dot in the upper right corner of the squared boxes indicates if there are any alerts to be reviewed. 
+- Estimated brood level
+- Total hive weight
+- Hive fitness indicator
+- Alert indicator (red badge) when attention is required
 
 ![Hives TAB detail](../assets/40_beesApp.assets/Hives_tab_square_detail2.jpg)
 
+Selecting a hive updates the graphs below.
 
-Selecting any hive will bring all of its data to the graph below.
-
-
-1. **Productivity** displays the change in weight after removing any beekeeper instigated changes such as adding or removing a super. Both the daily change (bars) and the cumulative change (dots) are displayed.
-2. **Brood** is the estimated brood level determined from the hive internal temperature and external (weather) temperature.
-3. **Alerts** make you aware of any items needing attention. Note that the alerts are set up and adjusted in MyBroodMinder under the Configure|Alerts section.
+1. **Productivity** shows daily and cumulative weight changes after removing beekeeper actions such as adding or removing supers.
+2. **Brood** estimates brood production using internal hive temperature and local weather.
+3. **Alerts** highlight conditions requiring attention. Alert settings are configured in MyBroodMinder under **Configure → Alerts**.
 
 ![Hives TAB 2](../assets/40_beesApp.assets/Hives2.png#largeImg)
 
-*We have included in the Bees app and in MyBroodMinder powerful note taking features. Besides being a useful logbook to track your hives, the notes and tag selections are being used to drive our workflow engine that is under development. Soon we will be using workflows to track hive processes such as swarming and requeening.*
+The integrated note system provides a complete digital hive logbook and powers inspection workflows.
 
-1. Hive notes are shown here. Pressing the "+" in the lower right corner will bring up screen 2.
-2. You can choose to add an apiary or a hive note.
-3. Hive notes will allow you to add notes to one or multiple hives at a time. The tags below will be used for automatic workflow notifications (added soon).
+Inspection notes can include predefined tags, making it easier to track hive management activities over time.
 
-**Hint**:   The note function allows the use of your microphone for easy transcription.
+**Queen Minder** is fully integrated into inspection workflows, allowing queen-related observations and management activities to be recorded alongside inspection notes.
+
+1. Hive notes appear here.
+2. Press **+** to create a new note.
+3. Notes can be applied to one or multiple hives simultaneously.
+
+!!! tip
+    Notes support voice dictation, making inspections faster while wearing gloves or working in the apiary.
+
 
 ## MANAGE Tab
 
-The MANAGE tab is where you will sync your entire apiary at once as well as move and configure devices. You must have a MyBroodMinder account (free or premium) since your apiary/hive configuration is stored there.
+The **Manage** tab is used to synchronize apiaries, configure devices, and organize apiaries and hives.
+
+A MyBroodMinder account (Free or Premium) is required because your hive configuration is stored securely in the cloud.
 
 ![Manage TAB](../assets/40_beesApp.assets/Manage.png#largeImg)
 
-1. This screen shows the hives and current values of the sensors. Clicking on the hive will reveal more details about device numbers as shown for hive "Package" above. Note the Sync button at the top, this button will attempt to sync all of the devices in this apiary. You can see the status of the sync in image 2 right below the apiary name. In this case, the sync completed with 7 devices but was canceled before 8 of the 15 devices were completed.
-2. The  `...`  beside the apiary name allows you to create a new apiary or create new hives in this apiary.
-3. The  `...`  beside the Hive name allows you do do all the things show above.
-4. To move a device to a different hive, click the  `...`  beside device for example 43:e0:07 in image 1.
+1. Displays all hives and their current sensor readings.
 
-**Hint**: Sometimes it works better to sync Hive-by-Hive if they are far apart. You can choose Sync with the `...` for each hive. Start the hives close to the phone, you don’t have to wait for each hive to finish before starting the next one. Then move the phone to a new position close to the remaining hives and sync again. If you tap on the sync status that appear near the top, it will show more details about exactly where it is in the synchronizing process.
+    Selecting a hive reveals detailed device information.
+
+    The **Sync** button synchronizes every device in the selected apiary.
+
+2. The **...** beside the apiary lets you create additional apiaries or hives.
+3. The **...** beside each hive provides hive management actions.
+4. The **...** beside a device allows you to move it to another hive or configure it.
+
+!!! tip
+    If hives are widely separated, syncing one hive at a time is often faster. Start synchronization while standing near each hive, then move to the next. Selecting the sync status provides detailed synchronization progress.
 
 
 ## DEVICES Tab
 
-The DEVICES tab gives you full control of BroodMinder devices which are:
+The Devices tab gives full control of your BroodMinder hardware.
 
-- In your device inventory on MyBroodMinder.com
-- and/or seen by your phone via Bluetooth.
-- If the device is new, a CLAIM DEVICE button will appear to take ownership
-- If the device is owned by somebody else, that will also show on this screen
-- Watch the icon to the left of the device, it will indicate "Nearby" when you are withing Bluetooth range
-- If the device is "Nearby" it will display the current temperature/battery/weight/etc
-- Tap any "!" and the app will inform you of an issue such as low battery or firmware update needed
+Devices shown include:
 
-You can Sync individual devices from this page by pressing the `...` beside the device.
+- Devices in your MyBroodMinder inventory
+- Nearby Bluetooth devices
+- New devices available to claim
+- Devices owned by another user (displayed accordingly)
+
+When nearby, current sensor readings such as temperature, battery level, and weight are displayed.
+
+Tap any warning icon to learn about battery, firmware, or other device issues.
+
+Individual devices can be synchronized from the **...** menu.
 
 ![Devices TAB](../assets/40_beesApp.assets/Devices.png#largeImg)
 
-**Hint**: Image 3 show the filter button and it is awesome. It will limit what is shown on this list. For example if you select `Nearby`, it will show only those device where the phone sees the BroodMinder. Then if you refresh the screen (pull down in iOS or Android) it will clear the list and then fill it back in as it see the Bluetooth signal from each BroodMinder. This is a great way to verify your BroodMinder is operating.
+!!! tip
+    Use the filter button to display only nearby devices. Pull down to refresh the list and verify Bluetooth communication with each BroodMinder device.
 
+---
 
 ## USER SETTINGS Tab
 
-The settings tab allows you to customize your Bees app. It will display the users account as well as a few items which can be modified.
+The Settings tab allows you to customize the BEES app.
 
-Note that if we wish to update the firmware in your devices the "Show available firmware updates" must be selected. This toggle defaults to off unless a mandatory update is required. You can update your older devices in order to utilize the new (2024) battery saver features discussed below.
+It displays your account information together with configurable application options.
+
+Firmware updates can be enabled by turning on **Show available firmware updates**.
+
+This option is normally disabled unless firmware updates are available. 
 
 ![Settings TAB](../assets/40_beesApp.assets/Settings.png#largeImg)
 
-## Battery Saver
+---
 
-We recommend watching the [video](https://youtu.be/zst22oYWPS8) and reading these notes to fully understand battery saver.
+### Battery Saver
 
-You can extend the sensor battery life to 5+ years in two ways. 
+We recommend watching the Battery Saver video together with the notes below to fully understand how the feature works.
 
-- If you have a hub (SubHub, Cell, WiFi, or LoRa), you can set your devices to reduce advertising. This will add a year to your -T2 and -TH2 devices and 5+ years to your -W devices.
-- Since swarms only happen during daylight hours and during part of the year, several years of battery life can be gained by reducing the detection time.
+Battery Saver extends battery life by reducing Bluetooth advertising and swarm detection activity when appropriate.
 
-Note: If your devices are 5 years old or newer, you can update the firmware in the device using the Bees app. To enable updates, select "Show available firmware updates" in the User Settings screen.
+There are two primary methods:
 
-1. Choose "Enable/Disable Battery Saver" to manage this option.
-2. Once on the Battery Saver Screen, the Bees app will search for any BroodMinder devices that it can control. Note that you must be within Bluetooth range to configure the device. It will only display devices with firmware which supports battery saver. To see all of your devices within range, press "Include Ineligible".
-3. Setup will let you adjust Battery Saver settings to best suit your purposes. Note that an estimated life for different BroodMinder devices is calculated and displayed based on your settings.   Select "Hub Present" if you own a hub and set when you want to detect swarms.
-4. Once the setting are adjusted, return to screen 2 and press "Enable/Update". As the devices are configured, the icons to the left will indicate battery and/or scheduling enabled (green with check).
-5. To turn off battery saver features, press "Disable". NOTE: It may take up to 10 minutes to shift devices from hub mode to normal because the devices "sleep" for 9.5 minutes between advertising.
+- Devices connected to a SubHub, Cellular, WiFi, or LoRa gateway can significantly reduce Bluetooth advertising.
+- Swarm detection can be limited to seasons and times of day when swarming is most likely.
+
+If supported, device firmware can be updated directly from the BEES app.
+
+1. Open **Enable/Disable Battery Saver**.
+2. Nearby supported devices are automatically detected.
+3. Configure Battery Saver settings appropriate for your installation.
+4. Press **Enable/Update** to apply the configuration.
+5. Press **Disable** to return devices to normal operation.
+
+!!! tip
+    Devices must be within Bluetooth range to configure Battery Saver settings.
 
 Here are more details for the interested student.
 
@@ -142,25 +190,30 @@ BeeDars also benefit from limiting swarm detection. While watching for swarms, t
 Our weight scale devices transmit adverting pulses every one second. With a hub available, we reduce that to every 5 seconds and extend the battery life from 2 to 8 years for the -W and from 5 to 20 years for the W3.
 
 
-
 ## SubHub Devices
 
-SubHub devices are a bit special since they are listening to all of your nearby BroodMinder devices.
-When you press the three dots by a SubHub, this menu pops up
+SubHub devices continuously listen for nearby BroodMinder sensors.
+
+Selecting the **...** menu beside a SubHub opens additional management options.
 
 ![SubHub](../assets/40_beesApp.assets/subhub_devices.png#largeImg)
 
 ### SubHub Details
 
-This page is where you control the SubHub. You can sync all of the data and you can view live data from here. See the next pages for more detail
+This page allows you to:
+
+- Synchronize all collected data
+- View live sensor information
 
 ![SubHub Details](../assets/40_beesApp.assets/subhub_details.png#largeImg)
 
 ### SubHub Show All Devices
 
-When you set up your SubHub, you can use this display to know exactly which devices your SubHub sees. All BroodMinders advertise every 5 or every 1 second. That means you should see them all show up here if your close enough. It will also show any Bluetooth Low Energy (BLE) device in range if you uncheck the `BroodMinder Devices Only` box
+This screen displays every Bluetooth device currently detected by the SubHub.
+
+By disabling **BroodMinder Devices Only**, you can view all Bluetooth Low Energy (BLE) devices within range.
 
 ![SubHub Devices](../assets/40_beesApp.assets/subhub_show.png#largeImg)
 
-**Hint**: This is an especially useful page to use when optimizing the position of your SubHub. It is handy even if you do not sync with your phone. You will see what devices are being extended to your remote hub device.
-
+!!! tip
+    This page is especially useful when positioning a SubHub for maximum coverage. It lets you verify exactly which devices are being received before permanently installing the gateway.

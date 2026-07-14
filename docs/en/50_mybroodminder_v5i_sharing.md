@@ -24,6 +24,9 @@ When creating the url you will notice that you have some choices : which hives t
 ![Shared_URL](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
 
 
+Here is an example of a shared link you could use with your friends or in social networks : <br>
+[https://mybroodminder.com/share/hives/3be6f1a9a9844d7981d6716a71a762cd](https://mybroodminder.com/share/hives/3be6f1a9a9844d7981d6716a71a762cd)
+
 ## Share on your own website
 If you want to display charts on your own website (or on your bee club’s website), you can reuse the shared dashboard URL and embed it into your page using an iframe.
 Simply pass the URL to your webmaster — they’ll know how to handle the integration.
@@ -40,6 +43,17 @@ This allows you to publish live, read-only hive data directly on your site, with
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 ```
+which would integrate like this:
+<iframe 
+  src="https://mybroodminder.com/share/hives/3be6f1a9a9844d7981d6716a71a762cd"
+  width="100%"
+  height="600"
+  style="border:0;"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+
 
 
 ## Educational Dashboards
@@ -75,6 +89,16 @@ It can be customized with:
 - Hive-specific content
 
 This option provides a professional educational experience with minimal setup time and is ideal for most projects.
+
+<p>
+  You can find a demo dashboard using the default template
+  <a href="https://edu.mybroodminder.com/dash/corp/demoEN?linkId=be9786de186e4"
+     target="_blank"
+     rel="noopener noreferrer">
+    here
+  </a>.
+</p>
+
 
 ### Custom Dashboard
 
