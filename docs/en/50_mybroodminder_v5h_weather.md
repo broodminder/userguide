@@ -2,12 +2,12 @@
 # Working with Weather
 
 !!! abstract "What you'll learn in this chapter"
-    In this chapter, you'll learn how **weather data is integrated and used** within MyBroodMinder to support your beekeeping decisions.  
-    You'll explore how to configure weather sources, compare **local vs. forecast data**, and interpret detailed charts.  
-    You'll also discover the **Foraging Index** and **Nectar Flow Index**, two powerful tools that translate raw weather into actionable insights.  
-    Finally, you'll learn how to customize weather dashboards, compare multiple locations, and understand the role of BroodMinder weather sensors — all without needing third-party stations.
+    In this chapter, you'll learn how to get the most from **weather in MyBroodMinder**. You'll discover how to use the built-in **WeatherSource** online weather service, add your own **local temperature and humidity sensor**, compare your local measurements with WeatherSource data, and take advantage of the **10-day forecast** to plan ahead.
 
-    
+    You'll also discover the **Nectar Flow Index** and **Foraging Index**—the two most practical weather tools for day-to-day beekeeping. Rather than analyzing temperature, rain, wind, and humidity separately, these indexes combine all relevant weather conditions into a **single, easy-to-understand metric**, helping you quickly determine whether conditions are favorable for **nectar flow** and **bee foraging**.
+
+    Finally, you’ll learn how to **add weather information to your own dashboards**, giving your hive data the weather context needed for faster analysis and better-informed decisions.
+
 
 Weather conditions are a key aspect of beekeeping. You simply can't manage your apiary without considering the weather. It influences everything — from **inspection timing**, **splitting**, and **feeding needs**, to **bloom onset** and **nectar flow** in the surrounding environment. In short, weather matters — a lot.
 
