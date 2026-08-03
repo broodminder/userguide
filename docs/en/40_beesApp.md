@@ -155,6 +155,27 @@ This option is normally disabled unless firmware updates are available.
 
 ![Settings TAB](../assets/40_beesApp.assets/Settings.png#largeImg)
 
+
+### Regional settings
+
+The **Regional settings** page lets you customize how information is displayed throughout BeesApp. From here you can change:
+
+- **Timezone** – Select the time zone used for timestamps and data visualization.
+- **Units** – Choose between **Metric** (°C, kg) and **Imperial** (°F, lb).
+- **Language** – Select your preferred interface language.
+
+Access this page from **User Settings** by tapping the `...` menu in the upper-right corner and selecting **Edit Preferences**.
+
+![Regional Settings](../assets/40_beesApp.assets/regional.jpg)
+
+!!! tip "Shared across your BroodMinder account"
+    Your regional preferences are synchronized with your **mybroodminder.com** account. You can edit them either in BeesApp or on the **[mybroodminder.com User Settings](https://mybroodminder.com/app/settings)** page. Changes made in one place are automatically applied everywhere, so you only need to update them once.
+
+In the same `...` menu, you can also:
+
+- **Log Out** to sign in with a different account.
+- Open **Troubleshooting** tools.
+- **Delete Account** if you wish to permanently remove your BroodMinder account.
 ---
 
 ### Battery Saver

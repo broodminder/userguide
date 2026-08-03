@@ -111,7 +111,17 @@ To change the battery, simply cut the tape on three sides around the circuit boa
 If you want to turn off the T2, you simply have to push long on the button and it will power off. You can double check by pushing again short : the led should not flash.
 
 
-<hr>
+## Measurement Rate
+
+By default, the **BroodMinder-T/TH** records one measurement every hour. You can increase the logging frequency to **15, or 5 minutes** if required.
+
+Higher measurement rates are particularly useful for research projects or when studying specific events in detail. For standard beekeeping applications, however, we recommend keeping the default **1-hour interval**. This maximizes battery life while still allowing you to capture the essential brood dynamics.
+
+To change the logging interval:
+
+`Bees App > Devices > ... > Show Details > ... > Set Rate`
+
+![XLR rate](../assets/30_sensors.assets/t-th/set_rate.png)
 
 ## SwarmMinder Details
 

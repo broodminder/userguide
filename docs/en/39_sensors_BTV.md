@@ -448,8 +448,9 @@ This also makes it easy to customize the mounts for your own equipment or to des
 
 Topics to be added:
 
+- Power off BeeTV with the internal switch
 - Firmware updates
-- Cleaning
+- Cleaning and glass replacement.
 - Battery replacement
 - Storage management
 
