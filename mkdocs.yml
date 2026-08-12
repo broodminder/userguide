@@ -62,7 +62,7 @@ nav:
       - BroodMinder W4: 34_sensors_W4.md
       - BroodMinder W5: 37_sensors_W5.md
       - BroodMinder BeeDar: 35_sensors_Beedar.md
-      - BroodMinder BTV: 39_sensors_BTV.md
+      - BroodMinder BeeTV: 39_sensors_BTV.md
       - BroodMinder DIY:
           - Overview: 36_sensors_DIY_intro.md
           - Multiscale single: 36_sensors_DIY_multiscale1.md

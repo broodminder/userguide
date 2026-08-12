@@ -1,8 +1,13 @@
 
 ![image](../assets/30_sensors.assets/device_w.png){ style="display: block; margin: 0 auto" }
 
+!!! note
 
-## Broodminder-W (57)
+    The **BroodMinder-W** scale was discontinued in **February 2026** and has been replaced by the **[BroodMinder-W5](./37_sensors_W5.md)
+
+    This section of the documentation has been retained for existing users, and the instructions below remain fully applicable to BroodMinder-W devices currently in service.
+
+## Broodminder-W (43) and W+ (57)
 
 The Broodminder-W ( **W**eight) is a single-bar hive scale that goes under the hive. It is an excellent tool to track nectar flows as for following winther ressource consumption.
 
