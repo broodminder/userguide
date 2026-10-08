@@ -127,15 +127,38 @@ This option is ideal for:
 
 ---
 
+## MyBroodMinder API
+
+For automated data access and integration with external applications, MyBroodMinder provides an **API** that allows you to retrieve your hive data programmatically.
+
+The API is useful for:
+
+- Automated data retrieval
+- Integration with custom applications or dashboards
+- Data processing with Python, R, or other analysis tools
+- Research workflows requiring regular access to MyBroodMinder data
+
+Full API documentation, including the available queries, parameters, and examples, is available here: [MyBroodMinder External API Documentation](https://external-api.mybroodminder.com/user/docs)
+
+!!! info "API key required"
+    An **API key** is required to access the API.  
+    To request API access, contact **support@broodminder.com**.
+
+!!! note "API access"
+    API access is granted upon request and is subject to approval by BroodMinder.
+
+---
+
 ## Summary
 
-| Export Type | Best For | Scope |
-|-------------|----------|-------|
+| Export / Access Type | Best For | Scope |
+|----------------------|----------|-------|
 | Device CSV | Quick analysis of one device | Single device |
 | Dashboard Export | Multi-hive operational review | Dashboard-level |
-| Researcher Export | Full dataset extraction | Entire apiary |
+| Researcher Export | Full dataset extraction for research and advanced analysis | Entire apiary |
+| MyBroodMinder API | Automated retrieval, integrations, and custom data workflows | Programmatic access to MyBroodMinder data |
 
-With these tools, you retain **full ownership and flexibility** over your hive data — whether for practical beekeeping, collaboration, or scientific research.
+With these options, you retain **full ownership and flexibility** over your hive data — whether you need a quick CSV export, a complete research dataset, or automated access for your own applications and analysis workflows.
 
 ---
 
