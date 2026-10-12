@@ -48,7 +48,12 @@ nav:
   - Home: index.md
   - Introduction: 10_intro.md
   - Quick start guide 🚀 : 20_quick_start_guide.md
-  - Daily Use: 21_daily_use.md
+#  - Beekeeping with BroodMinder: 
+#      - Routine Hive Inspections: 21_daily_use.md
+#      - Manage Honey flows: 22_honey_flows.md
+#      - Manage Swarming: toto.md
+#      - Manage Mites: toto.md
+#      - Example setups: 73_examples.md
   - _____: void.md
   - Sensors:
       - Overview:  30_sensors.md
@@ -98,7 +103,6 @@ nav:
   - The Bees App: 40_beesApp.md
   - Memberships: 65_memberships.md
   - _____: void.md
-  - Example setups: 73_examples.md
   - Data interpretation: 76_data_interpretation.md
   - Beecounted: 79_beecounted.md
   - Pollinator Hub: 82_beelife.md

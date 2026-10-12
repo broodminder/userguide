@@ -79,12 +79,13 @@ Unlike other BroodMinder sensors, BeeTV generates large image and video files. T
 
   <p>You should see the following screen:</p>
 
-  <figure>
-    <img
-      src="../assets/39_sensors_btv.assets/btv_in_range_800x.jpg"
-      alt="BTV device details screen">
-    <figcaption>BTV device details screen</figcaption>
-  </figure>
+<figure>
+  <img
+    src="../assets/39_sensors_btv.assets/btv_in_range_800x.jpg"
+    alt="BTV device details screen"
+    style="width: 40%; height: auto;">
+  <figcaption>BTV device details screen</figcaption>
+</figure>
 
   <p>
     Press <code>Start Live View</code>. Within a few seconds, your BTV will start
@@ -196,7 +197,7 @@ A focus adjustment tool is included with every BeeTV. It allows you to set the f
 - Bees
 - Mites
 
-![](../assets/39_sensors_btv.assets/focusing02.jpg#largeImg)
+![](../assets/39_sensors_btv.assets/btv_focus_tool.jpg#largeImg)
 
 
 
@@ -224,7 +225,7 @@ Typical focus positions are:
 !!! tip
     You can zoom the image with your two fingers on the smartphone screen to check nittidity
 
-![](../assets/39_sensors_btv.assets/focusing03.png#mediumImg)
+![](../assets/39_sensors_btv.assets/focusing_800x.jpg#mediumImg)
 
 
 
