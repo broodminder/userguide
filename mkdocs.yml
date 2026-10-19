@@ -85,6 +85,8 @@ nav:
       - BroodMinder-SubHub: 60c_hubs_SubHub.md
       - BroodMinder-LoRa : 60d_hubs_LoRa.md
       - BroodMinder-Cell 3G: 60e_hubs_Cell_3G.md
+      - BroodMinder-Wifi (legacy): 60f_hubs_wifi_46.md
+
   - MyBroodminder: 
       - Overview: 50_mybroodminder_v5.md
       - Apiaries & Hives: 50_mybroodminder_v5a_apiaries.md
