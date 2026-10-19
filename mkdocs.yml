@@ -118,7 +118,7 @@ nav:
   - Tech Stuff and Physics: 87_physics_and_tech_stuff.md
   - Winter Service: 88_winter_service.md
   - Repair Guide: 89_repair_guide.md
-  - Legacy Devices: 97_legacy_devices.md
+  - Legacy Apps: 97_legacy_apps.md
   - _____: void.md
   - About: 98_about.md
 
@@ -178,6 +178,7 @@ plugins:
             SolutionBee&reg; scale: Balance SolutionBee&reg;
             LabelAbeille&reg; scale: Balance LabelAbeille&reg;
             Yolink devices: Capteurs Yolink
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (ancien modèle)
             Hubs: Transmetteurs
             Apiaries & Hives: Ruchers et Ruches
             Devices: Capteurs
@@ -201,7 +202,7 @@ plugins:
             Tech Stuff and Physics: Technique et physique
             Winter Service: Service hivernal
             Repair Guide: Guide de réparation
-            Legacy Devices: Appareils anciens
+            Legacy Apps: Applications anciennes
             About: À propos
         - locale: es
           link: /es/
@@ -223,6 +224,7 @@ plugins:
             SolutionBee&reg; scale: Báscula SolutionBee&reg;
             LabelAbeille&reg; scale: Báscula LabelAbeille&reg;
             Yolink devices: Sensores Yolink
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (antiguo)
             Hubs: Transmisores
             Apiaries & Hives: Colmenares y colmenas
             Devices: Sensores
@@ -246,7 +248,7 @@ plugins:
             Tech Stuff and Physics: Técnica y física
             Winter Service: Servicio invernal
             Repair Guide: Guía de reparación
-            Legacy Devices: Dispositivos antiguos
+            Legacy Apps: Aplicaciones antiguas
             About: Acerca de
         - locale: it
           link: /it/
@@ -268,6 +270,7 @@ plugins:
             SolutionBee&reg; scale: Bilancia SolutionBee&reg;
             LabelAbeille&reg; scale: Bilancia LabelAbeille&reg;
             Yolink devices: Sensori Yolink
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (precedente)
             Hubs: Trasmettitori
             Apiaries & Hives: Apiari e arnie
             Devices: Sensori
@@ -291,7 +294,7 @@ plugins:
             Tech Stuff and Physics: Tecnica e fisica
             Winter Service: Servizio invernale
             Repair Guide: Guida alla riparazione
-            Legacy Devices: Dispositivi legacy
+            Legacy Apps: Applicazioni precedenti
             About: Informazioni
         - locale: de
           link: /de/
@@ -313,6 +316,7 @@ plugins:
             SolutionBee&reg; scale: SolutionBee&reg;-Waage
             LabelAbeille&reg; scale: LabelAbeille&reg;-Waage
             Yolink devices: Yolink-Sensoren
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (älteres Modell)
             Hubs: Hubs
             Apiaries & Hives: Bienenstände und Beuten
             Devices: Sensoren
@@ -336,7 +340,7 @@ plugins:
             Tech Stuff and Physics: Technik und Physik
             Winter Service: Winterdienst
             Repair Guide: Reparaturanleitung
-            Legacy Devices: Alte Geräte
+            Legacy Apps: Ältere Apps
             About: Über uns
         - locale: ja
           link: /ja/
@@ -358,6 +362,7 @@ plugins:
             SolutionBee&reg; scale: SolutionBee&reg; はかり
             LabelAbeille&reg; scale: LabelAbeille&reg; はかり
             Yolink devices: Yolink デバイス
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi（旧モデル）
             Hubs: ハブ
             Apiaries & Hives: 養蜂場と巣箱
             Devices: デバイス
@@ -381,7 +386,7 @@ plugins:
             Tech Stuff and Physics: 技術と物理
             Winter Service: 冬期サービス
             Repair Guide: 修理ガイド
-            Legacy Devices: 古いデバイス
+            Legacy Apps: 旧アプリ
             About: サイトについて
         - locale: nl
           link: /nl/
@@ -403,6 +408,7 @@ plugins:
             SolutionBee&reg; scale: SolutionBee&reg;-weegschaal
             LabelAbeille&reg; scale: LabelAbeille&reg;-weegschaal
             Yolink devices: Yolink-apparaten
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (oud model)
             Hubs: Hubs
             Apiaries & Hives: Bijenstanden en kasten
             Devices: Apparaten
@@ -426,7 +432,7 @@ plugins:
             Tech Stuff and Physics: Techniek en natuurkunde
             Winter Service: Winterdienst
             Repair Guide: Reparatiehandleiding
-            Legacy Devices: Verouderde apparaten
+            Legacy Apps: Verouderde apps
             About: Over ons
         - locale: nn
           link: /nn/
@@ -448,6 +454,7 @@ plugins:
             SolutionBee&reg; scale: SolutionBee&reg;-vekt
             LabelAbeille&reg; scale: LabelAbeille&reg;-vekt
             Yolink devices: Yolink-enheter
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (eldre modell)
             Hubs: Hub-er
             Apiaries & Hives: Bigårder og bikuber
             Devices: Enheter
@@ -471,7 +478,7 @@ plugins:
             Tech Stuff and Physics: Teknologi og fysikk
             Winter Service: Vintertjeneste
             Repair Guide: Reparasjonsveiledning
-            Legacy Devices: Eldre enheter
+            Legacy Apps: Eldre appar
             About: Om oss
         - locale: pt
           link: /pt/
@@ -493,6 +500,7 @@ plugins:
             SolutionBee&reg; scale: Balança SolutionBee&reg;
             LabelAbeille&reg; scale: Balança LabelAbeille&reg;
             Yolink devices: Dispositivos Yolink
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (modelo antigo)
             Hubs: Concentradores
             Apiaries & Hives: Apiários e colmeias
             Devices: Dispositivos
@@ -516,7 +524,7 @@ plugins:
             Tech Stuff and Physics: Tecnologia e física
             Winter Service: Serviço de inverno
             Repair Guide: Guia de reparação
-            Legacy Devices: Dispositivos antigos
+            Legacy Apps: Aplicações antigas
             About: Sobre
         - locale: ar
           link: /ar/
@@ -538,6 +546,7 @@ plugins:
             SolutionBee&reg; scale: ميزان SolutionBee&reg;
             LabelAbeille&reg; scale: ميزان LabelAbeille&reg;
             Yolink devices: أجهزة Yolink
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (الطراز القديم)
             Hubs: وحدات التوصيل
             Apiaries & Hives: المناحل والخلايا
             Devices: الأجهزة
@@ -561,5 +570,5 @@ plugins:
             Tech Stuff and Physics: التقنية والفيزياء
             Winter Service: خدمة الشتاء
             Repair Guide: دليل الإصلاح
-            Legacy Devices: الأجهزة القديمة
+            Legacy Apps: التطبيقات القديمة
             About: حول
