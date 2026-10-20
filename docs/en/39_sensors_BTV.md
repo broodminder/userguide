@@ -3,6 +3,37 @@
 
 ---
 
+<table style="width:100%; background:#eaf6ff; border:1px solid #b8def5; border-radius:12px; padding:16px; margin:24px 0;">
+  <tr>
+    <td style="text-align:center; padding:12px;">
+      <h2 style="margin:0;">🎥 Discover BeeTV</h2>
+      <p style="margin:8px 0 16px;">
+        Watch this video to learn how BeeTV works and get started.
+      </p>
+
+      <!-- i18n:video
+      locale: en | video_id: v-tV7PMZokI | thumb: https://img.youtube.com/vi/v-tV7PMZokI/maxresdefault.jpg
+      default: en
+      -->
+
+      <div id="yt-v-tV7PMZokI" style="cursor:pointer; max-width:700px; margin:auto;">
+        <img src="https://img.youtube.com/vi/v-tV7PMZokI/maxresdefault.jpg"
+             alt="Discover BeeTV"
+             style="width:100%; display:block; border-radius:10px;">
+      </div>
+    </td>
+  </tr>
+</table>
+
+<script>
+document.getElementById("yt-v-tV7PMZokI").addEventListener("click", function() {
+  this.innerHTML =
+    '<iframe width="100%" height="394" src="https://www.youtube.com/embed/v-tV7PMZokI?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+});
+</script>
+
+---
+
 ## Overview
 
 BeeTV is a compact camera designed to operate inside a beehive, capturing high-quality photos and videos from just a few centimeters away from the bees. It is intended for:
@@ -48,15 +79,16 @@ Unlike other BroodMinder sensors, BeeTV generates large image and video files. T
 
   <p>You should see the following screen:</p>
 
-  <figure>
-    <img
-      src="../assets/39_sensors_btv.assets/btv_start_realtime.png"
-      alt="BTV device details screen">
-    <figcaption>BTV device details screen</figcaption>
-  </figure>
+<figure>
+  <img
+    src="../assets/39_sensors_btv.assets/btv_in_range_800x.jpg"
+    alt="BTV device details screen"
+    style="width: 40%; height: auto;">
+  <figcaption>BTV device details screen</figcaption>
+</figure>
 
   <p>
-    Press <code>Start Realtime</code>. Within a few seconds, your BTV will start
+    Press <code>Start Live View</code>. Within a few seconds, your BTV will start
     streaming live images to the screen.
   </p>
 
@@ -107,9 +139,18 @@ The first time you use BeeTV, you will:
 
 1. Return to the **Devices** list.
 2. Select **... → Show Details**.
-3. Press **Start Realtime**.
 
-![](../assets/39_sensors_btv.assets/btv_start_realtime.png#mediumImg)
+This screen is already telling you some information about the BeeTV. first of all it is in range with your phone. Second you can see battery level and temperature.
+
+The scheduling is Disabled, so the camera is not recording programatically.
+
+![](../assets/39_sensors_btv.assets/btv_in_range_800x.jpg#mediumImg)
+
+From this screen and using the top right `...`menu you can manage the `scheduling` (on/off) and the `rate` (5m, 15m, 1h, 2h, 3h, 6h) without need to connect to the device in Live view.
+
+
+
+3. Now press **Start Live View**.
 
 BeeTV will start in a few seconds. The status progresses through the following stages:
 
@@ -131,13 +172,13 @@ When BeeTV is running, your phone will display a system message asking permissio
 
 Tap **Join**.
 
-![](../assets/39_sensors_btv.assets/bees_accept_wifi_connect.png#mediumImg)
+![](../assets/39_sensors_btv.assets/bees_accept_wifi_connect.jpg#mediumImg)
 
 ### 4. Verify the live view
 
 After a few seconds, the live camera image should appear.
 
-![](../assets/39_sensors_btv.assets/btv_RTon.PNG#mediumImg)
+![](../assets/39_sensors_btv.assets/btv_RTon.jpg#mediumImg)
 
 Congratulations! Your BeeTV is now connected and ready to configure.
 
@@ -156,7 +197,7 @@ A focus adjustment tool is included with every BeeTV. It allows you to set the f
 - Bees
 - Mites
 
-![](../assets/39_sensors_btv.assets/focusing02.jpg#largeImg)
+![](../assets/39_sensors_btv.assets/btv_focus_tool.jpg#largeImg)
 
 
 
@@ -184,7 +225,7 @@ Typical focus positions are:
 !!! tip
     You can zoom the image with your two fingers on the smartphone screen to check nittidity
 
-![](../assets/39_sensors_btv.assets/focusing03.png#mediumImg)
+![](../assets/39_sensors_btv.assets/focusing_800x.jpg#mediumImg)
 
 
 
