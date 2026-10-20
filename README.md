@@ -1,4 +1,4 @@
-# userguide v1.5.10
+# userguide v1.6.0
 
 ## Deployment
 
@@ -6,12 +6,14 @@
     The following steps will deploy the userguide in local mode. It means that you will use the *light version* with only english language and no pdf export.
 
 1. Clone the repo on the VPS
+
 `git clone https://github.com/broodminder/userguide /mellisphera/production/userguide`
 
 !!! note
     The path at the end is refered to the vhost VPS, you can choose the one that you want on local.
 
 2. Use a python virtualenv
+
 To manage different librairies version between *userguide*, *hiveminder*, *flowminder*, etc, we need to use a python environment. If you don't have already a python env, please use the following command.
 
   `pyenv virtualenv 3.11.2 userguide`
@@ -20,9 +22,11 @@ To manage different librairies version between *userguide*, *hiveminder*, *flowm
   `pyenv activate userguide`
 
 3. Install all packages
+
 `pip install -r requirements.txt`
 
 4. Create .env file and replace variables
+
 `cp .env.example .env`
 
 In the [.env](.env) file, replace the variable **USERNAME** by your local username from your machine.
@@ -35,16 +39,19 @@ In the [.env](.env) file, replace the variable **USERNAME** by your local userna
 
 `mkdocs serve -f mkdocs_test.yml` using a modified yml file or to have a lighter build (with no lang translation nor pdf generation)
 
-
 7. Verify your site
+
 On localhost:3000 if you use local starter or on the DNS you choose on your apache2 configuration.
 
 !!!note
     But if you want to start the server with an apache2 configuration, you need to use the **build.sh** file which will build the documentation on copy it on the following folder `/var/www/html/doc`.
 
-    `sudo ./build.sh`
+```
+`sudo ./build.sh`
+```
 
 ## Configuration file mkdocs.yml
+
 This file allows for multiple options and configuration.
 By default we are not changing much in it except site title, theme and new language (be carrefull, the whole translation process is based on the list of langs setted on the yaml file)
 
@@ -53,9 +60,11 @@ site_name: USER DOCUMENTATION
 theme: material
 nav:
 ```
+
 _nav_ would allow to force the site doc structure tree, but the default output is fine too
 
 ### Multi-lang management
+
 The documentation has only one lang **en**.
 Here is the main folder structure :
 
@@ -108,9 +117,9 @@ Skipped files: `index.md`, `void.md`, anything under `/templates/`.
 
 | Variable | Purpose |
 |----------|---------|
-| `OVH_AI_ENDPOINTS_ACCESS_TOKEN` | Required for translation (Qwen on OVH AI Endpoints) |
-| `TRANSLATION_MODEL` | Model name (default: `Qwen3-32B`) |
-| `OPENAI_API_MODEL` | Used for token counting estimate only |
+| `OPENAI_API_KEY` | Required for translation (OpenAI GPT) |
+| `OPENAI_API_MODEL` | GPT model (default: `gpt-4o-mini`) |
+| `OVH_AI_ENDPOINTS_ACCESS_TOKEN` | Optional (OVH / MyBroodMinder, not used by translateText) |
 | `RAG_AI_SETTINGS` | Optional path to glossary file (default: `./RAG_AI.txt`) |
 
 Local run:
@@ -224,39 +233,38 @@ plugins:
                 About: A propos
 ```
 
-After you finish everything, translation runs on the server at the end of the pull via **OVH AI Endpoints** (Qwen, see `TRANSLATION_MODEL`). Large pages are split into chunks; a full locale copy on first add can take a while.
-
-
-
+After you finish everything, translation runs on the server at the end of the pull via **OpenAI GPT** (`OPENAI_API_MODEL`). Large pages are split into chunks (~2000 tokens); a full locale copy on first add can take a while.
 
 ## Annexes
+
 ### Using mkdocs
 
 You have different commands to use the mkdocs framework.
 
 **Create new project**
-```mkdocs new my-project```
+`mkdocs new my-project`
 
 **Launch the development server at http://127.0.0.1:8000 (default)**
-```mkdocs serve```
+`mkdocs serve`
 
 **Building the documentation html site**
-```mkdocs build```
+`mkdocs build`
 
+#### Utility
 
-#### Utility 
 - MKDocs user guide https://www.mkdocs.org/
 - converting Word to Markdown https://word2md.com/
 - converting to pdf https://github.com/zhaoterryy/mkdocs-pdf-export-plugin This one is still explored, having an issue ongoing
 - NOTE : Install all missing libraries with brew (same installer for python and mkdocs) to have everything in the same path
 
 #### Mkdocs-Material reference
+
 This resource details all available plugins and options for Material Theme
 https://squidfunk.github.io/mkdocs-material/
 https://squidfunk.github.io/mkdocs-material/reference/lists/
 
-
 ## Building a PDF file out of it
+
 use the mkdocs-pdf-export-plugin
 https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
 Note that this plugin is based onto WeasyPrint
