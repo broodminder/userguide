@@ -1,7 +1,7 @@
 
 <div style="text-align:center;">
-  <img src="../assets/37_sensors_w5.assets/W5_us.jpg" alt="BroodMinder W5 North America" style="width:45%; max-width:400px;">
-  <img src="../assets/37_sensors_w5.assets/W5_eu.png" alt="BroodMinder W5 Europe" style="width:45%; max-width:400px; margin-right:10px;">
+  <img src="/assets/37_sensors_w5.assets/W5_us.jpg" alt="BroodMinder W5 North America" style="width:45%; max-width:400px;">
+  <img src="/assets/37_sensors_w5.assets/W5_eu.png" alt="BroodMinder W5 Europe" style="width:45%; max-width:400px; margin-right:10px;">
 </div>
 
 
@@ -47,7 +47,7 @@ The **BroodMinder-W5** requires very little maintenance. It is powered by **two 
 
 To replace the batteries, simply remove the lower bar to open the enclosure.
 
-![replace batteries](../assets/30_sensors.assets/w5/w5_battery.jpg#largeImg)
+![replace batteries](/assets/30_sensors.assets/w5/w5_battery.jpg#largeImg)
 
 When new batteries are installed, you should see the device LED blinking. Since the LED is located on the reverse side of the circuit board, its light will be visible as a reflection on the bottom of the enclosure.
 
@@ -66,7 +66,7 @@ Navigate to:
 
 `Bees > Devices > ... > Show Details > ... > View Real Time`
 
-![replace batteries](../assets/30_sensors.assets/realtime_mode.jpg#largeImg)
+![replace batteries](/assets/30_sensors.assets/realtime_mode.jpg#largeImg)
 
 #### Taring and Calibration
 
@@ -86,7 +86,7 @@ To change the logging interval:
 
 `Bees > Devices > ... > Show Details > ... > Set Rate`
 
-![XLR rate](../assets/30_sensors.assets/beedar/rate.jpg#largeImg)
+![XLR rate](/assets/30_sensors.assets/beedar/rate.jpg#largeImg)
 
 
 ### WeightMinder

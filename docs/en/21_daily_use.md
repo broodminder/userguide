@@ -28,7 +28,7 @@ In this guide, we will outline our usual procedure for a standard hive checkup, 
 2. Review the nectar flow index to see recent trends and upcoming conditions. This chart helps you decide whether to inspect, feed, or prepare for a nectar flow.
 3. Review any apiary notes from your last visit and be aware of any alerts.
 
-![Apiaries tab](../assets/21_daily_use.assets/apiary_tab.png#mediumImg)
+![Apiaries tab](/assets/21_daily_use.assets/apiary_tab.png#mediumImg)
 
 
 ### Step 2: Check Your Hives
@@ -38,7 +38,7 @@ In this guide, we will outline our usual procedure for a standard hive checkup, 
    - **Hive Fitness:** A green/orange/red heart indicates the hive’s health status. Notifications in the top right corner alert you to any abnormalities.
 2. Review all hives and look for major disparities. Low brood levels can be normal in winter, but a single hive with low levels compared to others may need attention.
 
-![Hives square](../assets/21_daily_use.assets/hives_tab_square_detail.jpg#mediumImg)
+![Hives square](/assets/21_daily_use.assets/hives_tab_square_detail.jpg#mediumImg)
 
 
 !!! tip "Note on Brood Levels"
@@ -49,7 +49,7 @@ In this guide, we will outline our usual procedure for a standard hive checkup, 
 2. Review available data to build a complete picture of each colony: weight, productivity, temperature, humidity, brood, your notes, and system alerts. Navigate through these tabs to diagnose each hive.
 
 
-![Hives tab](../assets/21_daily_use.assets/hive_tab.png#mediumImg)
+![Hives tab](/assets/21_daily_use.assets/hive_tab.png#mediumImg)
 
 ### Step 4: Update your Notes and Plan for the Next Inspection
 1. Once the inspection is complete, update the notes for each hive. We've simplified this process and included tags to assist in future workflows, such as queen replacement. Use voice-to-text on iOS and Android to speed up this task.

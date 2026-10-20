@@ -61,7 +61,7 @@ Open Bees App and find your hub in the `Devices` tab. Go to the `...` menu in fr
 Now you see the current firmware version of your hub.
 
 
-![Bees App](../assets/81_hub_updating.assets/beesApp_fw.png)
+![Bees App](/assets/81_hub_updating.assets/beesApp_fw.png)
 
 
 

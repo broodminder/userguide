@@ -12,8 +12,8 @@ From MyBroodMinder you have many options to share your hives with other beekeepe
 ## Share with another user
 Share an Apiary (in the Apiary `… > share` ) with another MyBroodMinder user simply enter his/her account email. Acces is granted per apiary, in read only mode. They will see apiary and hives but not devices. 
 
-![Sharing 1](../assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
-![Sharing 2](../assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
+![Sharing 1](/assets/50_mybroodminder_v5.assets/share_apiary_a.png#mediumImg)
+![Sharing 2](/assets/50_mybroodminder_v5.assets/share_apiary_b.png#mediumImg)
 
 
 ## Share on Social Media
@@ -21,7 +21,7 @@ Share an Apiary (in the Apiary `… > share` ) with another MyBroodMinder user s
 Share a (read only) dashboard url with other people and even on social media using an URL. Simply move to the Dashboard top left menu `… > share`):.
 When creating the url you will notice that you have some choices : which hives to share, what time frame, frozen or continuous etc..
 
-![Shared_URL](../assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
+![Shared_URL](/assets/50_mybroodminder_v5.assets/share_dash.png#mediumImg)
 
 
 Here is an example of a shared link you could use with your friends or in social networks : <br>
@@ -62,7 +62,7 @@ Educational Dashboards are the most elegant way to share your hives with non-bee
 
 These dashboards combine live hive data, weather information, blooming cycles, and colony population estimates into a single visual interface. Visitors can follow the colony's activity, observe nectar flows, track bee populations, and better understand the relationship between pollinators and their environment.
 
-![Educational Board](../assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
+![Educational Board](/assets/50_mybroodminder_v5.assets/edu_dash2.png#largeImg)
 <div align="center" ><i>Educational Dashboards are fun!</i></div>
 
 
@@ -131,7 +131,7 @@ The dashboard becomes a true communication platform built around your project, y
 
 Share an apiary [beecounted.org](https://www.beecounted.org) (in the Apiary `… > share`, see above). By default, all free acounts are sharing on beecounted.
 
-![Beecounted](../assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
+![Beecounted](/assets/50_mybroodminder_v5.assets/beecounted.png#mediumImg)
 
 
 ## EU Pollinator Hub
@@ -139,6 +139,6 @@ Share an apiary [beecounted.org](https://www.beecounted.org) (in the Apiary `…
 As a BroodMinder user, you can share your apiary data with the EU Pollinator Hub.
 Simply **check the Share option at the apiary level** to contribute directly to Europe’s pollinator-protection efforts.
 
-![image](../assets/82_pollinatorhub/share.png)
+![image](/assets/82_pollinatorhub/share.png)
 
 Learn more about [EU Pollinator hub](../en/82_beelife.md).

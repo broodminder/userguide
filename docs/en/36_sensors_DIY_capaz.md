@@ -1,6 +1,6 @@
 # Retrofit a Capaz scale
 
-![image](../assets/36_sensors_DIY.assets/capaz.jpg){ style="display: block; margin: 0 auto" }
+![image](/assets/36_sensors_DIY.assets/capaz.jpg){ style="display: block; margin: 0 auto" }
 
 Here is how to retrofit a Capaz scale with the Broodminder DIY board. It's super easy, just take care with the wires.
 
@@ -15,7 +15,7 @@ Here is how to retrofit a Capaz scale with the Broodminder DIY board. It's super
       - c.   White
       - d.   Green+yellow
 
-![capaz wiring](../assets/36_sensors_DIY.assets/wiring_capaz.jpg)
+![capaz wiring](/assets/36_sensors_DIY.assets/wiring_capaz.jpg)
 
 5. Connect pins 2, 3, & 4 of the unused channels J2,J3,J4 (Gnd) or jump with solder pads R33,34,37,38,39,40  
 
