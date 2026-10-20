@@ -15,30 +15,30 @@ What follows explains how to assemble the hive scale boards wheter if they are f
 
     This is the most common problem with this kit, so please keep this in the front of your mind when constructing this kit.
 
-![image-2023050114123466](../assets/33_sensors_w3_assembly.assets/image-2023050114123466.png)
+![image-2023050114123466](/assets/33_sensors_w3_assembly.assets/image-2023050114123466.png)
 
 ## Get started with the circuit board
 We are working here with the XLR2-L board. This is a multi purpose board and that's why there are so many components missing. Although for scales you only need the "-L" version shown below. 
 
-![xlr2-l](../assets/36_sensors_DIY.assets/xlr2-l_board.jpg)
+![xlr2-l](/assets/36_sensors_DIY.assets/xlr2-l_board.jpg)
 
 ## Prepare the board
 
 - tin all 16 pads on a flat surface
 
-![xlr2 label](../assets/36_sensors_DIY.assets/xlr2_tin_pads.jpg)
+![xlr2 label](/assets/36_sensors_DIY.assets/xlr2_tin_pads.jpg)
 
 
 - solder the battery holder on the BAT2 slot (+ goes with the square pad)
 
-![xlr2 label](../assets/36_sensors_DIY.assets/xlr2_bat_holder.jpg)
+![xlr2 label](/assets/36_sensors_DIY.assets/xlr2_bat_holder.jpg)
 
 
 ## Prepare the load cells
 
 Now with a permanent marker note the load cell position : J1, J2, J3, J4. 
 
-![image](../assets/36_sensors_DIY.assets/xlr2_loadcell_mark_pos.jpg)
+![image](/assets/36_sensors_DIY.assets/xlr2_loadcell_mark_pos.jpg)
 
 Remember :
 
@@ -47,10 +47,10 @@ Remember :
 | Rear | J4 | J2 |
 | Front | J3 | J1 |
 
-![image-20230501140829711](../assets/33_sensors_w3_assembly.assets/image-20230501140829711.png)
+![image-20230501140829711](/assets/33_sensors_w3_assembly.assets/image-20230501140829711.png)
 
 Now cut a slit on the rubber grummit. tape the 4 wires together for each sensor and pull them with a hemostat or pliers.
-![image](../assets/36_sensors_DIY.assets/xlr2_loadcell_wiring.png)
+![image](/assets/36_sensors_DIY.assets/xlr2_loadcell_wiring.png)
 ​  
 
 Drill a hole in the box with a 1/2in (12mm) bit.
@@ -67,10 +67,10 @@ Route the wires through the hole and solder on the board pads following the colo
     Take care to associate each loadcell with its coresponding pad J[1-4] (This will be printed on the board in small text next to each pad).
 
 
-![image](../assets/36_sensors_DIY.assets/xlr2_wired.jpg)
+![image](/assets/36_sensors_DIY.assets/xlr2_wired.jpg)
 
 
-![image](../assets/36_sensors_DIY.assets/xlr2_w3_assy.jpg)
+![image](/assets/36_sensors_DIY.assets/xlr2_w3_assy.jpg)
 
 
 ## Mount the scale feet
@@ -81,7 +81,7 @@ To mount the feet, simply take the screw so that it is orientated as in the imag
 
     Be sure to use Loctite or a similar product on the screws to prevent them from coming loose over time. If this step is skipped it can cause the feet to become loose and cause the sensor to read inaccurate data.
 
-![image](../assets/36_sensors_DIY.assets/xlr2_loadcell_feet.jpg)
+![image](/assets/36_sensors_DIY.assets/xlr2_loadcell_feet.jpg)
 
 
 ## Mount the scale structure

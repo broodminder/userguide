@@ -1,5 +1,5 @@
 
-![image](../assets/30_sensors.assets/device_yolink.png){ style="display: block; margin: 0 auto" }
+![image](/assets/30_sensors.assets/device_yolink.png){ style="display: block; margin: 0 auto" }
 
 # Yolik devices
 You can attach devices from [Yolink](https://shop.yosmart.com) to MyBroodMinder.com

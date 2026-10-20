@@ -30,7 +30,7 @@ In the **BroodMinder Bees App**, navigate to:
 
 The calibration screen should look similar to this:
 
-![Bees App Calibration Screen](../assets/33_sensors_w3_assembly.assets/bapp_cal_loaded_2026.png#mediumImg)
+![Bees App Calibration Screen](/assets/33_sensors_w3_assembly.assets/bapp_cal_loaded_2026.png#mediumImg)
 
 ## 2. Calibrate Your Scale
 
@@ -125,7 +125,7 @@ Once you are satisfied with the results:
 
 The following image illustrates the different calibration controls and their functions.
 
-![Bees App Calibration Annotated](../assets/33_sensors_w3_assembly.assets/bapp_cal_final.png#mediumImg)
+![Bees App Calibration Annotated](/assets/33_sensors_w3_assembly.assets/bapp_cal_final.png#mediumImg)
 
 | Control | Function |
 |---|---|

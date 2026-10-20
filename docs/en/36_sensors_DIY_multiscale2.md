@@ -1,7 +1,7 @@
 
 # Build your custom Multiscale-2
 
-![scale](../assets/36_sensors_DIY.assets/multiscale2/IMG_4589.JPG)
+![scale](/assets/36_sensors_DIY.assets/multiscale2/IMG_4589.JPG)
 
 
 
@@ -15,9 +15,9 @@ This cost-effective design benefits from using a single electronics board, with 
 
 In the example below we're displaying a 3-hive scale stand.
 
-![scale](../assets/36_sensors_DIY.assets/multiscale2/IMG_4558.JPG)
+![scale](/assets/36_sensors_DIY.assets/multiscale2/IMG_4558.JPG)
 
-![scale](../assets/36_sensors_DIY.assets/multiscale2/IMG_4559.JPG)
+![scale](/assets/36_sensors_DIY.assets/multiscale2/IMG_4559.JPG)
 
 We're using W4 bars as top support and 100kg loadcells (one at the front and another at the rear). They are hooked to the wooden structure with an L shaped 5mm aluminium profile.
 

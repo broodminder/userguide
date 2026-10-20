@@ -7,21 +7,21 @@
 
 **You should be using the Bees App!**
 
-![BroodMinder](../assets/images/bees_app.png#smallImg) 
+![BroodMinder](/assets/images/bees_app.png#smallImg) 
 
 Every other App is part of the Broodminder legacy and described below. Those 'other' apps are still in service but not maintained. 
 
 2016-2018 : The BroodMinder app (also called BroodMinder Lite) was the basic free application. With this app, you can visualize your sensors, send your data by e-mail, see different graphs, annotate your inspections, etc. This app is Deprecated.
 
-![BroodMinder](../assets/images/05_broodminder_lite.png#smallImg) 
+![BroodMinder](/assets/images/05_broodminder_lite.png#smallImg) 
 
 2018-2022 BroodMinder Apiary was a more powerful app. It makes it possible to download data from all your BroodMinder sensors in a single step. This is an efficient time-saver for users that have many sensors. The app is free but requires a subscription for productivity features. This app is Deprecated.
 
-![BroodMinder Apiary](../assets/images/11_0_broodminder_apiary.png#smallImg)
+![BroodMinder Apiary](/assets/images/11_0_broodminder_apiary.png#smallImg)
 
 2018-nowadays BroodMinder Cell is the app for controlling Hubs models 44 and 50.
 
-![BroodMinder Cell](../assets/images/11_0_broodminder_cell.png#smallImg)
+![BroodMinder Cell](/assets/images/11_0_broodminder_cell.png#smallImg)
 
 ### Retrieving data from sensors
 

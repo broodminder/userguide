@@ -13,14 +13,14 @@
     
  The first section of this document demonstrates the **fixed feet** version followed by the **swivel feet** version. There is also an appendix to explain modification for Fixed to Swivel W3.
 
-![image-20230501141234560](../assets/33_sensors_w3_assembly.assets/image-20230501141234560.png)
+![image-20230501141234560](/assets/33_sensors_w3_assembly.assets/image-20230501141234560.png)
 
 
 ## BroodMinder-W3 Assembly - FIXED FEET
 
 ### Hardware
 
-![image-20230501140321798](../assets/33_sensors_w3_assembly.assets/image-20230501140321798.png)
+![image-20230501140321798](/assets/33_sensors_w3_assembly.assets/image-20230501140321798.png)
 
 | Reference | **Item Description**                     | **Qty** | **Metric (mm)** |
 | ----------|----------------------------------------- | ------- |  ----- |
@@ -42,7 +42,7 @@
 - Test fit the spline and widen the kerfs if necessary.
 - Remove the broad area (marked 5) with a chisel so that when the 2x4 tips it does not pinch the wire.
 
-![image-20230501140518611](../assets/33_sensors_w3_assembly.assets/image-20230501140518611.png)
+![image-20230501140518611](/assets/33_sensors_w3_assembly.assets/image-20230501140518611.png)
 
 Screw together the frame (Fixed Feet)
 
@@ -52,7 +52,7 @@ Once you’re sure everything is where it needs to be, use 3 letter B screws to 
 
     It is recommended to use a 5/32th drill bit or similar for making the pilot holes before drilling in the nails. A 1/8th drill bit or smaller may result in stripping the nail when drilling and prevent the nail from being fully drilled into the board.
 
-![image-20230501140556193](../assets/33_sensors_w3_assembly.assets/image-20230501140556193.png)
+![image-20230501140556193](/assets/33_sensors_w3_assembly.assets/image-20230501140556193.png)
 
 To assemble your frame, make sure you have a flat surface and ensure your pieces are square. Follow the picture above for the correct orientation of the boards. 
 
@@ -62,17 +62,17 @@ Make sure not to completely drill in the side with one screw so that the board c
 
 Make sure the box is located center in the frame with the hole opening as shown. There should be a slight gap between the edge of the frame and the box as shown. Use (2) “A” screws which screw into the top right and bottom left of the electronics box.
 
-![image-20230501141234568](../assets/33_sensors_w3_assembly.assets/image-20230501141234568.png)
+![image-20230501141234568](/assets/33_sensors_w3_assembly.assets/image-20230501141234568.png)
 
 ### Sensor Mounting
 
 Position sensors marked 1-4 as shown with mounts “D” as shown.
 
-![image-20230501141234569](../assets/33_sensors_w3_assembly.assets/image-20230501141234569.png)
+![image-20230501141234569](/assets/33_sensors_w3_assembly.assets/image-20230501141234569.png)
 
 Use 4 “C” screws per sensor. Make sure that before you drill in the sensors to the wood that you put the load cell custom support () between the sensor and the wood to allow for the sensor to read correctly. If the mount is not installed, it can cause the sensors to record incorrect information.
 
-![image-20230501140843650](../assets/33_sensors_w3_assembly.assets/image-20230501140843650.png)
+![image-20230501140843650](/assets/33_sensors_w3_assembly.assets/image-20230501140843650.png)
 
 ***IMPORTANT: Do not fully tighten these screws. Bending the senor will create a measurement error. Tighten then back off ½ turn.***
 
@@ -95,15 +95,15 @@ It is recommended to use a flat object to gently push the spline material into t
 
     Be careful when stapling not to have a staple go directly through the spline material as that may cut the wires to the sensors. 
 
-![image-20230501141234567](../assets/33_sensors_w3_assembly.assets/image-20230501141234567.png)
+![image-20230501141234567](/assets/33_sensors_w3_assembly.assets/image-20230501141234567.png)
 
-![image-20230501140951598](../assets/33_sensors_w3_assembly.assets/image-20230501140951598.png)
+![image-20230501140951598](/assets/33_sensors_w3_assembly.assets/image-20230501140951598.png)
 
 ### Finish and Enjoy
 
 Now you can remove the battery tab and replace the lid on the electronics box and enjoy your new BroodMinder beehive scale.
 
-![image-20230501141013937](../assets/33_sensors_w3_assembly.assets/image-20230501141013937.png)
+![image-20230501141013937](/assets/33_sensors_w3_assembly.assets/image-20230501141013937.png)
 
 
 
@@ -111,7 +111,7 @@ Now you can remove the battery tab and replace the lid on the electronics box an
 
 ### Hardware
 
-![image-20230501141102517](../assets/33_sensors_w3_assembly.assets/image-20230501141102517.png)
+![image-20230501141102517](/assets/33_sensors_w3_assembly.assets/image-20230501141102517.png)
 
 | **Item Description**                                         | **Qty** |
 | ------------------------------------------------------------ | ------- |
@@ -135,13 +135,13 @@ Now you can remove the battery tab and replace the lid on the electronics box an
 - Remove the broad area (marked 5) with a chisel so that when the 2x4 tips it does not pinch the wire.
 - Drill qty 4, ¾” holes. The centers should be ¾” from the edge and ¾” deep
 
-![image-20230501141223278](../assets/33_sensors_w3_assembly.assets/image-20230501141223278.png)
+![image-20230501141223278](/assets/33_sensors_w3_assembly.assets/image-20230501141223278.png)
 
 ### Screw together the frame
 
 Once you’re sure everything is where it needs to be, use 3 letter B screws to secure the boards together.
 
-![image-20230501141255637](../assets/33_sensors_w3_assembly.assets/image-20230501141255637.png)
+![image-20230501141255637](/assets/33_sensors_w3_assembly.assets/image-20230501141255637.png)
 
 To assemble your frame, make sure you have a flat surface and ensure your pieces are square. Follow the picture above for the correct orientation of the boards. 
 
@@ -151,29 +151,29 @@ Leave the side with 1 screw very slightly loose so that the board may pivot.
 
 Make sure the box is located center in the frame with the hole opening as shown. There should be a slight gap between the edge of the frame and the box as shown. Use (2) “A” screws.
 
-![image-20230501141339709](../assets/33_sensors_w3_assembly.assets/image-20230501141339709.png)
+![image-20230501141339709](/assets/33_sensors_w3_assembly.assets/image-20230501141339709.png)
 
 ### Sensor Mounting
 
-![image-20230501141404588](../assets/33_sensors_w3_assembly.assets/image-20230501141404588.png)
+![image-20230501141404588](/assets/33_sensors_w3_assembly.assets/image-20230501141404588.png)
 
 Use 1 “C” screws per sensor.
 
-![image-20230501141419355](../assets/33_sensors_w3_assembly.assets/image-20230501141419355.png)
+![image-20230501141419355](/assets/33_sensors_w3_assembly.assets/image-20230501141419355.png)
 
 ### Wire Routing 
 
 Tuck the wires into grooves and secure with spline material “E”. To secure spline material press into groove with flat object, this allows wires to move in the bottom of groove. Do not create stress on the wires. Remove (2) circuit board mounting screws. Pull the slack wire into electronics box and fold wire behind circuit board, reinstall mounting screws. Secure spline material with staples.
 
-![image-20230501141444426](../assets/33_sensors_w3_assembly.assets/image-20230501141444426.png)
+![image-20230501141444426](/assets/33_sensors_w3_assembly.assets/image-20230501141444426.png)
 
-![image-20230501141450171](../assets/33_sensors_w3_assembly.assets/image-20230501141450171.png)
+![image-20230501141450171](/assets/33_sensors_w3_assembly.assets/image-20230501141450171.png)
 
 ### Finish and Enjoy
 
 Now you can remove the battery tab and replace the lid on the electronics box and enjoy your new BroodMinder beehive scale.
 
-![image-20230501141510326](../assets/33_sensors_w3_assembly.assets/image-20230501141510326.png)
+![image-20230501141510326](/assets/33_sensors_w3_assembly.assets/image-20230501141510326.png)
 
 
 !!! tip
@@ -193,7 +193,7 @@ If you have an Apimaye hive, you may want to upgrade your W3 to include the swiv
 
  All that you must do is remove the skirt that captures the swivel foot.
 
-![image-20230501141552844](../assets/33_sensors_w3_assembly.assets/image-20230501141552844.png)
+![image-20230501141552844](/assets/33_sensors_w3_assembly.assets/image-20230501141552844.png)
 
 
 ## Appendix: W3 Unassembled-Uncalibrated parts
@@ -202,4 +202,4 @@ Here are all the parts for a W3 scale H model type :
 
 (only missing the Spline material)
 
-![W3 Scale Assembly](../assets/33_sensors_w3_assembly.assets/w3_parts_unasembled.jpg))
+![W3 Scale Assembly](/assets/33_sensors_w3_assembly.assets/w3_parts_unasembled.jpg))

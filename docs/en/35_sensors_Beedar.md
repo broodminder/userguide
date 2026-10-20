@@ -1,5 +1,5 @@
 
-![image](../assets/30_sensors.assets/device_beedar.jpg){ style="display: block; margin: 0 auto" }
+![image](/assets/30_sensors.assets/device_beedar.jpg){ style="display: block; margin: 0 auto" }
 
 New in 2023, the BroodMinder-BeeDar is a **forager activity monitor** for your hive. It uses radar to measure the level of flying activity at the entrance over time — it cannot count individual bees or determine their direction (in or out), but it provides an excellent measure of overall forager activity. Combined with MyBroodMinder algorithms, we can deduce the number of forager trips over the course of a day with good accuracy. See [MyBroodMinder > foraging](./50_mybroodminder_v5e_foraging.md) for details.
 
@@ -56,7 +56,7 @@ Mount the BeeDar **just above the entrance**, leaving approximately **2 cm of wo
 
 > **Important:** Do not mount it too high. The radar has a vertical beam of ±30°. If the unit is positioned too far above the entrance, bees flying close to the landing board will fall outside the detection zone.
 
-![BeeDar mounting position](../assets/30_sensors.assets/beedar/beedar_position.png)
+![BeeDar mounting position](/assets/30_sensors.assets/beedar/beedar_position.png)
 
 ---
 
@@ -76,7 +76,7 @@ For specific experiments or applications requiring higher temporal resolution, y
 
 Keep in mind that increasing the acquisition rate also increases power consumption. As a result, battery life will be reduced roughly in proportion to the selected scan interval.
 
-![BeeDar mounting position](../assets/30_sensors.assets/beedar/rate.jpg#largeImg)
+![BeeDar mounting position](/assets/30_sensors.assets/beedar/rate.jpg#largeImg)
 
 ---
 
@@ -96,7 +96,7 @@ The BeeDar's sensitivity pattern is a **fan-shaped beam** radiating from the rad
     - Keep a **1 m clear zone** in front of the hive. Weeds, grass, or plants within this distance will generate false movement signals, especially in windy conditions.
     - Once installed, the BeeDar must remain **stationary**. Any vibration of the unit itself can be picked up as a signal unrelated to bee activity.
 
-![BeeDar antenna beam pattern](../assets/30_sensors.assets/beedar/antenna.png)
+![BeeDar antenna beam pattern](/assets/30_sensors.assets/beedar/antenna.png)
 
 ---
 
@@ -111,7 +111,7 @@ A few things to keep in mind:
 
 The chart below shows an example of power consumption and signal activity over a full 5-month cycle.
 
-![BeeDar mounting position](../assets/30_sensors.assets/beedar/bat_life.png)
+![BeeDar mounting position](/assets/30_sensors.assets/beedar/bat_life.png)
 
 
 
