@@ -17,10 +17,16 @@ Backup of *.doc*
 ~$*.doc*
 ~$*.xls*
 
-# System Files
+# System Files (macOS / Windows)
+.DS_Store
 **/.DS_Store
-site/
+.AppleDouble
+.LSOverride
+._*
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+site/
 *.icloud
 
 # Obsidian

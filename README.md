@@ -108,9 +108,9 @@ Skipped files: `index.md`, `void.md`, anything under `/templates/`.
 
 | Variable | Purpose |
 |----------|---------|
-| `OVH_AI_ENDPOINTS_ACCESS_TOKEN` | Required for translation (Qwen on OVH AI Endpoints) |
-| `TRANSLATION_MODEL` | Model name (default: `Qwen3-32B`) |
-| `OPENAI_API_MODEL` | Used for token counting estimate only |
+| `OPENAI_API_KEY` | Required for translation (OpenAI GPT) |
+| `OPENAI_API_MODEL` | GPT model (default: `gpt-4o-mini`) |
+| `OVH_AI_ENDPOINTS_ACCESS_TOKEN` | Optional (OVH / MyBroodMinder, not used by translateText) |
 | `RAG_AI_SETTINGS` | Optional path to glossary file (default: `./RAG_AI.txt`) |
 
 Local run:
@@ -224,7 +224,7 @@ plugins:
                 About: A propos
 ```
 
-After you finish everything, translation runs on the server at the end of the pull via **OVH AI Endpoints** (Qwen, see `TRANSLATION_MODEL`). Large pages are split into chunks; a full locale copy on first add can take a while.
+After you finish everything, translation runs on the server at the end of the pull via **OpenAI GPT** (`OPENAI_API_MODEL`). Large pages are split into chunks (~2000 tokens); a full locale copy on first add can take a while.
 
 
 
