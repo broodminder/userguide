@@ -21,6 +21,7 @@ theme:
     primary: custom
 
 extra:
+  doc_assistant_api: !ENV [DOC_ASSISTANT_API, ""]
   social:
     - icon: fontawesome/solid/file-pdf
       link: /assets/pdf/userguide.pdf
@@ -28,9 +29,11 @@ extra:
 
 extra_css:
   - assets/css/extra.css
+  - assets/css/doc-chat.css
 
 extra_javascript:
   - assets/javascripts/extra.js
+  - assets/javascripts/doc-chat.js
 
 markdown_extensions:
   - admonition
@@ -48,10 +51,13 @@ nav:
   - Home: index.md
   - Introduction: 10_intro.md
   - Quick start guide 🚀 : 20_quick_start_guide.md
-  - Daily Use: 21_daily_use.md
+#  - Beekeeping with BroodMinder: 
+#      - Routine Hive Inspections: 21_daily_use.md
+#      - Manage Honey flows: 22_honey_flows.md
+#      - Manage Swarming: toto.md
+#      - Manage Mites: toto.md
+#      - Example setups: 73_examples.md
   - _____: void.md
-  - BeesApp: 40_beesApp.md
-  - MyBroodminder: 50_mybroodminder_v5.md
   - Sensors:
       - Overview:  30_sensors.md
       - BroodMinder TH & T: 31_sensors_T_TH.md
@@ -61,14 +67,19 @@ nav:
           - Board assembly: 33a_sensors_W3_boardAssembly.md
           - Mechanical assembly: 33b_sensors_W3_assembly.md
           - Scale calibration: 33c_sensors_W3_calibration.md
-      - BroodMinder W4: 34_sensors_W4.md 
+      - BroodMinder W4: 34_sensors_W4.md
+      - BroodMinder W5: 37_sensors_W5.md
       - BroodMinder BeeDar: 35_sensors_Beedar.md
+      - BroodMinder BeeTV: 39_sensors_BTV.md
       - BroodMinder DIY:
           - Overview: 36_sensors_DIY_intro.md
           - Multiscale single: 36_sensors_DIY_multiscale1.md
           - Multiscale double: 36_sensors_DIY_multiscale2.md
           - SolutionBee&reg; scale: 36_sensors_DIY_solutionbee.md
           - LabelAbeille&reg; scale: 36_sensors_DIY_labelabeille.md
+          - Capaz&reg; scale: 36_sensors_DIY_capaz.md
+          - Atelec&reg; scale: 36_sensors_DIY_atelec.md
+
       - Yolink devices: 38_sensors_yolink.md
   - Hubs:
       - Overview: 60_hubs.md
@@ -77,12 +88,29 @@ nav:
       - BroodMinder-SubHub: 60c_hubs_SubHub.md
       - BroodMinder-LoRa : 60d_hubs_LoRa.md
       - BroodMinder-Cell 3G: 60e_hubs_Cell_3G.md
-  - Tokens: 65_tokens.md
+      - BroodMinder-Wifi (legacy): 60f_hubs_wifi_46.md
+
+  - MyBroodminder: 
+      - Overview: 50_mybroodminder_v5.md
+      - Apiaries & Hives: 50_mybroodminder_v5a_apiaries.md
+      - Devices: 50_mybroodminder_v5b_devices.md
+      - Notes & Inspections: 50_mybroodminder_v5c_notes.md
+      - QueenMinder: 50_mybroodminder_v5c_queenminder.md
+      - Temperature & Brood: 50_mybroodminder_v5c_temperature.md
+      - Weight & Productivity: 50_mybroodminder_v5d_weight.md
+      - Foraging: 50_mybroodminder_v5e_foraging.md
+      - Alerts: 50_mybroodminder_v5f_alerts.md
+      - Plants: 50_mybroodminder_v5g_plants.md
+      - Weather: 50_mybroodminder_v5h_weather.md
+      - Sharing: 50_mybroodminder_v5i_sharing.md
+      - Export data: 50_mybroodminder_v5j_exporting.md
+
+  - The Bees App: 40_beesApp.md
+  - Memberships: 65_memberships.md
   - _____: void.md
-  - Example setups: 73_Examples.md
   - Data interpretation: 76_data_interpretation.md
   - Beecounted: 79_beecounted.md
-  - Bee-Life: 82_beelife.md
+  - Pollinator Hub: 82_beelife.md
   - _____: void.md
   - FAQ: 85_faq.md
   - Video Library: 86_video_library.md
@@ -91,23 +119,21 @@ nav:
       - MyBroodMinder: 91_Training_MyBroodMinder.md
       - Bees App: 92_Training_BeesApp.md
   - Tech Stuff and Physics: 87_physics_and_tech_stuff.md
+  - Winter Service: 88_winter_service.md
   - Repair Guide: 89_repair_guide.md
-  - _____: void.md
-  - Distributors: 94_distributorInfo.md
-  - Legacy Devices: 97_legacy_devices.md
+  - Legacy Apps: 97_legacy_apps.md
   - _____: void.md
   - About: 98_about.md
-  - _____: void.md
 
 plugins:
 # PDF User Guide generation only in EN 
   - to-pdf:
-      #enabled_if_env: ENABLE_PDF_EXPORT
+      enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: false
       toc_level: 3
       ordered_chapter_level: 2
       two_columns_level: 3
-      output_path: assets/pdf/userguide.pdf
+      #output_path: assets/pdf/userguide.pdf
       cover_logo: assets/images/BroodMinder_Left_Green_en_590px.png
       cover_subtitle: Welcome to the world of BroodMinder
       exclude_pages:
@@ -125,7 +151,8 @@ plugins:
   - search
   #Language management, see readme for adding new langs
   - i18n:
-      build_only_locale: !ENV [BUILD_ONLY_LOCALE, "en"]
+      # Local test: build all languages listed below (en + fr). Override with BUILD_ONLY_LOCALE=en if needed.
+      # build_only_locale: !ENV [BUILD_ONLY_LOCALE, "en"]
       docs_structure: folder
       fallback_to_default: true
       reconfigure_material: true
@@ -135,3 +162,49 @@ plugins:
           default: true
           name: 🇺🇸 English
           build: true
+        - locale: fr
+          link: /fr/
+          name: 🇫🇷 Français
+          build: true
+          site_name: "GUIDE UTILISATEUR"
+          nav_translations:
+            Home: Accueil
+            Introduction: Introduction
+            Quick start guide 🚀 : Guide de démarrage rapide 🚀
+            Daily Use: Utilisation quotidienne
+            Sensors: Capteurs
+            Overview: Vue d'ensemble
+            Board assembly: Assemblage de la carte
+            Mechanical assembly: Assemblage mécanique
+            Scale calibration: Calibration de la balance
+            Multiscale single: Multibalance simple
+            Multiscale double: Multibalance double
+            SolutionBee&reg; scale: Balance SolutionBee&reg;
+            LabelAbeille&reg; scale: Balance LabelAbeille&reg;
+            Yolink devices: Capteurs Yolink
+            BroodMinder-Wifi (legacy): BroodMinder-Wifi (ancien modèle)
+            Hubs: Transmetteurs
+            Apiaries & Hives: Ruchers et Ruches
+            Devices: Capteurs
+            Notes & Inspections: Notes et inspections
+            QueenMinder: QueenMinder
+            Temperature & Brood: Température et Couvain
+            Weight & Productivity: Poids et Productivité
+            Foraging: Butinage
+            Alerts: Alertes
+            Plants: Plantes
+            Weather: Météo
+            Sharing: Partage
+            The Bees App: Bees App
+            Memberships: Abonnements
+            Example setups: Exemples de configurations
+            Data interpretation: Interprétation des données
+            Beecounted: Beecounted
+            Video Library: Bibliothèque de vidéos
+            Training Sessions: Sessions de tutoriels
+            General: Général
+            Tech Stuff and Physics: Technique et physique
+            Winter Service: Service hivernal
+            Repair Guide: Guide de réparation
+            Legacy Apps: Applications anciennes
+            About: À propos

@@ -3,7 +3,7 @@
 ## Deployment
 
 !!!note
-    The following steps will deploy the userguide in local mode. It means that you will use the *light version* with only english language and no pdf export.
+    The following steps will deploy the userguide in local mode. It means that you will use the *light version* (`mkdocs_test.yml`: **English + French** only, no PDF export, no translation step).
 
 1. Clone the repo on the VPS
 
@@ -35,16 +35,21 @@ In the [.env](.env) file, replace the variable **USERNAME** by your local userna
 
 `export $(grep -v '^#' .env | xargs -0)`
 
-6. Start the server
+6. Start the server (light, EN + FR, no translation)
 
-`mkdocs serve -f mkdocs_test.yml` using a modified yml file or to have a lighter build (with no lang translation nor pdf generation)
+`mkdocs serve -f mkdocs_test.yml`
+
+Or build + copy to Apache without running `translateFiles.py`:
+
+`./build_local.sh`  
+(`SKIP_DEPLOY=1 ./build_local.sh` to only fill `./site/`)
 
 7. Verify your site
 
-On localhost:3000 if you use local starter or on the DNS you choose on your apache2 configuration.
+On http://127.0.0.1:3200 if you use `mkdocs serve` (`dev_addr` in the yml), or on the DNS / path from your apache2 configuration (e.g. http://127.0.0.1/doc/ and http://127.0.0.1/doc/fr/).
 
 !!!note
-    But if you want to start the server with an apache2 configuration, you need to use the **build.sh** file which will build the documentation on copy it on the following folder `/var/www/html/doc`.
+    Full production deploy (all languages + translation + PDF) still uses **build.sh**, which copies to `/var/www/html/doc`.
 
 ```
 `sudo ./build.sh`

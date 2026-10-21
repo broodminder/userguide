@@ -21,6 +21,8 @@ theme:
     primary: custom
 
 extra:
+  # Widget → Mac API (set DOC_ASSISTANT_API in .env at build/serve time; no hardcoded IP)
+  doc_assistant_api: !ENV [DOC_ASSISTANT_API, ""]
   social:
     - icon: fontawesome/solid/file-pdf
       link: /assets/pdf/userguide.pdf
@@ -28,9 +30,11 @@ extra:
 
 extra_css:
   - assets/css/extra.css
+  - assets/css/doc-chat.css
 
 extra_javascript:
   - assets/javascripts/extra.js
+  - assets/javascripts/doc-chat.js
 
 markdown_extensions:
   - admonition

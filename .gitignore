@@ -27,6 +27,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 site/
+.mkdocs.local.yml
 *.icloud
 
 # Obsidian

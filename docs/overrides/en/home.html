@@ -3,7 +3,28 @@
     {% include "templates/head.html" %}
 
     <div class="search-container md-typeset">
-        <input type="text" class="search-bar" id="search-form">
+        <div id="ask-broodminder-home" class="ask-home">
+            <div class="ask-home-stage">
+                <div class="ask-home-toolbar">
+                    <p class="ask-home-eyebrow" id="ask-home-title">Ask BroodMinder</p>
+                    <button type="button" id="ask-home-new" class="ask-home-new" title="New chat">New</button>
+                </div>
+
+                <div class="ask-home-glass">
+                    <div id="ask-home-messages" class="ask-home-messages is-empty" aria-live="polite"></div>
+                    <div id="ask-home-status" class="ask-home-status"></div>
+                    <form id="ask-home-form" class="ask-home-composer">
+                        <textarea id="ask-home-input" rows="1" placeholder="Ask anything about BroodMinder…" required></textarea>
+                        <button type="submit" id="ask-home-send" class="ask-home-send" aria-label="Send">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.4 20.6 21 12 3.4 3.4 3 10.3 14 12 3 13.7z"/></svg>
+                        </button>
+                    </form>
+                </div>
+
+                <div id="ask-home-threads" class="ask-home-threads" aria-label="Conversations"></div>
+            </div>
+        </div>
+
         <div id="mobileScreen">
             <a href="20_quick_start_guide" title="" class="md-button md-small md-button--primary">
                 Quick Start
