@@ -359,15 +359,66 @@
   border-radius: 12px 12px 0 0;
 }
 
+.doc-chat-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 1;
+  min-width: 0;
+  max-width: 48%;
+}
+
 #doc-chat-header h2 {
   margin: 0;
   font-size: 0.88rem;
   font-weight: 600;
-  flex-shrink: 0;
-  max-width: 42%;
+  flex-shrink: 1;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.ask-beta {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.4rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.ask-trust--panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 0.75rem;
+  margin: 0;
+  padding: 0.4rem 0.75rem 0.55rem;
+  border-top: 1px solid var(--doc-chat-border);
+  background: #f7faf8;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: var(--doc-chat-muted);
+}
+
+.ask-trust--panel .ask-trust-human a {
+  color: var(--doc-chat-green);
+  font-weight: 600;
+}
+
+.ask-trust--panel .ask-trust-slogan {
+  font-style: italic;
+  font-weight: 600;
+  color: var(--doc-chat-green);
 }
 
 #doc-chat-header-actions {
@@ -664,8 +715,12 @@ a.doc-chat-inline-link:hover {
     height: min(70vh, 28rem);
   }
 
+  .doc-chat-brand {
+    max-width: 42%;
+  }
+
   #doc-chat-header h2 {
-    max-width: 36%;
     font-size: 0.8rem;
   }
 }
+

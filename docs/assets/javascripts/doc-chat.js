@@ -26,7 +26,11 @@
       openLabel: "Open Ask BroodMinder",
       placeholder: "Ask BroodMinder…",
       welcome:
-        "Hi! Ask me anything about the BroodMinder documentation. If it is not covered, I will say so.",
+        "Hi! Ask me anything about the BroodMinder documentation. This assistant is in beta — a human is always available if you need one.",
+      beta: "Beta",
+      humanSupport:
+        "Our priority is to help you as much as possible — a human expert is always available for your questions",
+      slogan: "Remember... Every Hive Counts",
       sources: "Sources",
       thinking: "Thinking…",
       refused: "No matching documentation found.",
@@ -49,7 +53,11 @@
       openLabel: "Ouvrir Ask BroodMinder",
       placeholder: "Demander à BroodMinder…",
       welcome:
-        "Bonjour ! Posez-moi une question sur la documentation BroodMinder. Si ce n'est pas couvert, je le dirai.",
+        "Bonjour ! Posez-moi une question sur la documentation BroodMinder. Assistant en bêta — un humain reste toujours disponible si besoin.",
+      beta: "Bêta",
+      humanSupport:
+        "Notre priorité reste de vous aider au mieux — un expert humain est toujours disponible pour vos questions",
+      slogan: "Chaque ruche compte",
       sources: "Sources",
       thinking: "Réflexion…",
       refused: "Aucune documentation correspondante.",
@@ -72,7 +80,11 @@
       openLabel: "Abrir Ask BroodMinder",
       placeholder: "Preguntar a BroodMinder…",
       welcome:
-        "¡Hola! Pregúntame sobre la documentación de BroodMinder. Si no está cubierta, lo diré.",
+        "¡Hola! Pregúntame sobre la documentación de BroodMinder. Asistente en beta — siempre hay un humano disponible si lo necesitas.",
+      beta: "Beta",
+      humanSupport:
+        "Nuestra prioridad es ayudarte lo mejor posible — un experto humano siempre está disponible para tus preguntas",
+      slogan: "Cada colmena cuenta",
       sources: "Fuentes",
       thinking: "Pensando…",
       refused: "No se encontró documentación correspondiente.",
@@ -87,6 +99,37 @@
         "No se puede contactar al asistente. Por favor contacta al soporte: support@broodminder.com.",
     },
   };
+
+  var SUPPORT_EMAIL = "support@broodminder.com";
+
+  function trustFooterHtml() {
+    return (
+      '<span class="ask-trust-human">' +
+      escapeHtml(t("humanSupport")) +
+      ' — <a href="mailto:' +
+      SUPPORT_EMAIL +
+      '">' +
+      SUPPORT_EMAIL +
+      "</a></span>" +
+      '<span class="ask-trust-slogan">' +
+      escapeHtml(t("slogan")) +
+      "</span>"
+    );
+  }
+
+  function applyTrustChrome(root) {
+    if (!root) {
+      return;
+    }
+    var betaEls = root.querySelectorAll("[data-ask-beta]");
+    for (var i = 0; i < betaEls.length; i++) {
+      betaEls[i].textContent = t("beta");
+    }
+    var trustEls = root.querySelectorAll("[data-ask-trust]");
+    for (var j = 0; j < trustEls.length; j++) {
+      trustEls[j].innerHTML = trustFooterHtml();
+    }
+  }
 
   function detectLang() {
     // Supports /fr/… (mkdocs serve) and /doc/fr/… (Apache under a prefix)
@@ -184,6 +227,7 @@
       return "";
     }
     var items = sources
+      .slice(0, 3)
       .map(function (src) {
         var label = escapeHtml(src.breadcrumb || src.file || src.url);
         var href = escapeHtml(src.url || "#");
@@ -500,7 +544,10 @@
     mount.innerHTML =
       '<div class="ask-home-stage">' +
       '<div class="ask-home-toolbar">' +
+      '<div class="ask-home-brand">' +
       '<p class="ask-home-eyebrow" id="ask-home-title"></p>' +
+      '<span class="ask-beta" data-ask-beta></span>' +
+      "</div>" +
       '<button type="button" id="ask-home-new" class="ask-home-new"></button>' +
       "</div>" +
       '<div class="ask-home-glass">' +
@@ -512,6 +559,7 @@
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.4 20.6 21 12 3.4 3.4 3 10.3 14 12 3 13.7z"/></svg>' +
       "</button>" +
       "</form>" +
+      '<p class="ask-trust" data-ask-trust></p>' +
       "</div>" +
       '<div id="ask-home-threads" class="ask-home-threads"></div>' +
       "</div>";
@@ -524,6 +572,33 @@
     return true;
   }
 
+  function ensureHomeTrustNodes(home) {
+    if (!home) {
+      return;
+    }
+    var titleEl = document.getElementById("ask-home-title");
+    if (titleEl && !home.querySelector("[data-ask-beta]")) {
+      var brand = titleEl.closest(".ask-home-brand");
+      if (!brand) {
+        brand = document.createElement("div");
+        brand.className = "ask-home-brand";
+        titleEl.parentNode.insertBefore(brand, titleEl);
+        brand.appendChild(titleEl);
+      }
+      var beta = document.createElement("span");
+      beta.className = "ask-beta";
+      beta.setAttribute("data-ask-beta", "");
+      brand.appendChild(beta);
+    }
+    var glass = home.querySelector(".ask-home-glass");
+    if (glass && !home.querySelector("[data-ask-trust]")) {
+      var trust = document.createElement("p");
+      trust.className = "ask-trust";
+      trust.setAttribute("data-ask-trust", "");
+      glass.appendChild(trust);
+    }
+  }
+
   function initHomeChat() {
     if (!ensureHomeChatMarkup()) {
       return false;
@@ -532,6 +607,8 @@
     if (!home) {
       return false;
     }
+
+    ensureHomeTrustNodes(home);
 
     var titleEl = document.getElementById("ask-home-title");
     var newBtn = document.getElementById("ask-home-new");
@@ -543,6 +620,8 @@
     var threadsEl = document.getElementById("ask-home-threads");
     var docLang = detectLang();
     var busy = false;
+
+    applyTrustChrome(home);
 
     if (titleEl) {
       titleEl.textContent = t("title");
@@ -893,9 +972,12 @@
       escapeHtml(t("title")) +
       '">' +
       '<div id="doc-chat-header">' +
+      '<div class="doc-chat-brand">' +
       "<h2>" +
       escapeHtml(t("title")) +
       "</h2>" +
+      '<span class="ask-beta ask-beta--on-green" data-ask-beta></span>' +
+      "</div>" +
       '<div id="doc-chat-threads" aria-label="' +
       escapeHtml(t("conversations")) +
       '"></div>' +
@@ -920,6 +1002,7 @@
       escapeHtml(t("send")) +
       "</button>" +
       "</form>" +
+      '<p class="ask-trust ask-trust--panel" data-ask-trust></p>' +
       '<div id="doc-chat-overlay" aria-hidden="true">' +
       '<div id="doc-chat-overlay-header">' +
       "<h3>" +
@@ -937,6 +1020,7 @@
       "</div>";
 
     document.body.appendChild(root);
+    applyTrustChrome(root);
 
     var toggle = document.getElementById("doc-chat-toggle");
     var closeBtn = document.getElementById("doc-chat-close");
