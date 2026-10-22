@@ -638,13 +638,55 @@
     return "t" + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
   }
 
+  function nextThreadNumber(threads) {
+    var max = 0;
+    for (var i = 0; i < (threads || []).length; i++) {
+      var n = threads[i].number;
+      if (typeof n === "number" && n > max) {
+        max = n;
+      }
+    }
+    return max + 1;
+  }
+
+  /** Numéro stable 1…N par fil (ne suit pas le tri « récent »). */
+  function ensureThreadNumbers(state) {
+    if (!state || !Array.isArray(state.threads)) {
+      return state;
+    }
+    var max = 0;
+    state.threads.forEach(function (th) {
+      if (typeof th.number === "number" && th.number > max) {
+        max = th.number;
+      }
+    });
+    state.threads.forEach(function (th) {
+      if (typeof th.number !== "number" || th.number < 1) {
+        max += 1;
+        th.number = max;
+      }
+    });
+    return state;
+  }
+
+  function threadsByNumber(threads) {
+    return (threads || []).slice().sort(function (a, b) {
+      var na = typeof a.number === "number" ? a.number : 0;
+      var nb = typeof b.number === "number" ? b.number : 0;
+      if (na !== nb) {
+        return na - nb;
+      }
+      return (a.updatedAt || 0) - (b.updatedAt || 0);
+    });
+  }
+
   function loadThreadsState() {
     try {
       var raw = sessionStorage.getItem(THREADS_KEY);
       if (!raw) {
         return null;
       }
-      return JSON.parse(raw);
+      return ensureThreadNumbers(JSON.parse(raw));
     } catch (err) {
       return null;
     }
@@ -792,6 +834,7 @@
         threads: [
           {
             id: firstId,
+            number: 1,
             conversationId: randomUUID(),
             title: t("chatLabel"),
             history: [],
@@ -802,6 +845,7 @@
         ],
       };
     }
+    ensureThreadNumbers(state);
 
     function activeThread() {
       for (var i = 0; i < state.threads.length; i++) {
@@ -812,10 +856,13 @@
       return state.threads[0];
     }
 
-    function persist() {
+    function persist(opts) {
+      var touchActivity = !opts || opts.touchActivity !== false;
       var thread = activeThread();
       if (thread) {
-        thread.updatedAt = Date.now();
+        if (touchActivity) {
+          thread.updatedAt = Date.now();
+        }
         if (thread.transcript && thread.transcript.length) {
           thread.title = threadTitleFromTranscript(thread.transcript);
         }
@@ -920,10 +967,8 @@
         return;
       }
       threadsEl.innerHTML = "";
-      var threads = state.threads.slice().sort(function (a, b) {
-        return (b.updatedAt || 0) - (a.updatedAt || 0);
-      });
-      threads.forEach(function (thread, index) {
+      var threads = threadsByNumber(state.threads);
+      threads.forEach(function (thread) {
         var btn = document.createElement("button");
         btn.type = "button";
         btn.className =
@@ -937,7 +982,7 @@
 
         var dot = document.createElement("span");
         dot.className = "ask-home-thread-dot";
-        dot.textContent = String(index + 1);
+        dot.textContent = String(thread.number || "");
 
         btn.appendChild(label);
         btn.appendChild(dot);
@@ -946,7 +991,7 @@
             return;
           }
           state.activeId = thread.id;
-          persist();
+          persist({ touchActivity: false });
           renderTranscript();
           renderThreadBubbles();
           input.focus();
@@ -971,6 +1016,7 @@
       var id = newThreadId();
       state.threads.unshift({
         id: id,
+        number: nextThreadNumber(state.threads),
         conversationId: randomUUID(),
         title: t("chatLabel"),
         history: [],
@@ -1192,6 +1238,7 @@
       var firstId = newThreadId();
       var seed = {
         id: firstId,
+        number: 1,
         conversationId: randomUUID(),
         title: t("chatLabel"),
         history: [],
@@ -1207,6 +1254,7 @@
       }
       state = { activeId: firstId, threads: [seed] };
     }
+    ensureThreadNumbers(state);
 
     function activeThread() {
       for (var i = 0; i < state.threads.length; i++) {
@@ -1217,10 +1265,13 @@
       return state.threads[0];
     }
 
-    function persist() {
+    function persist(opts) {
+      var touchActivity = !opts || opts.touchActivity !== false;
       var thread = activeThread();
       if (thread) {
-        thread.updatedAt = Date.now();
+        if (touchActivity) {
+          thread.updatedAt = Date.now();
+        }
         if (thread.transcript && thread.transcript.length) {
           thread.title = threadTitleFromTranscript(thread.transcript);
         }
@@ -1316,10 +1367,8 @@
 
     function renderOverlayList() {
       overlayList.innerHTML = "";
-      var threads = state.threads.slice().sort(function (a, b) {
-        return (b.updatedAt || 0) - (a.updatedAt || 0);
-      });
-      threads.forEach(function (thread, index) {
+      var threads = threadsByNumber(state.threads);
+      threads.forEach(function (thread) {
         var btn = document.createElement("button");
         btn.type = "button";
         btn.className =
@@ -1327,13 +1376,13 @@
           (thread.id === state.activeId ? " is-active" : "");
         btn.innerHTML =
           '<span class="doc-chat-thread-index">' +
-          (index + 1) +
+          (thread.number || "") +
           '</span><span class="doc-chat-thread-title">' +
           escapeHtml(thread.title || t("chatLabel")) +
           "</span>";
         btn.addEventListener("click", function () {
           state.activeId = thread.id;
-          persist();
+          persist({ touchActivity: false });
           renderTranscript();
           renderThreadBubbles();
           setThreadsOpen(false);
@@ -1348,17 +1397,28 @@
         return;
       }
       threadsEl.innerHTML = "";
-      var threads = state.threads.slice().sort(function (a, b) {
-        return (b.updatedAt || 0) - (a.updatedAt || 0);
-      });
-      threadsEl.classList.toggle("is-stacked", threads.length > 3);
+      var byNumber = threadsByNumber(state.threads);
+      var stacked = byNumber.length > 3;
+      // En pile : actif devant (position), numéro affiché reste stable
+      var threads = stacked
+        ? byNumber.slice().sort(function (a, b) {
+            if (a.id === state.activeId) {
+              return -1;
+            }
+            if (b.id === state.activeId) {
+              return 1;
+            }
+            return (a.number || 0) - (b.number || 0);
+          })
+        : byNumber;
+      threadsEl.classList.toggle("is-stacked", stacked);
       threadsEl.style.setProperty("--thread-count", String(threads.length));
       threads.forEach(function (thread, index) {
+        var isActive = thread.id === state.activeId;
         var btn = document.createElement("button");
         btn.type = "button";
         btn.className =
-          "doc-chat-fab-thread" +
-          (thread.id === state.activeId ? " is-active" : "");
+          "doc-chat-fab-thread" + (isActive ? " is-active" : "");
         btn.style.zIndex = String(threads.length - index);
         btn.title = thread.title || t("chatLabel");
         btn.setAttribute("data-index", String(index));
@@ -1369,7 +1429,7 @@
 
         var dot = document.createElement("span");
         dot.className = "doc-chat-fab-thread-dot";
-        dot.textContent = String(index + 1);
+        dot.textContent = String(thread.number || "");
 
         btn.appendChild(dot);
         btn.appendChild(label);
@@ -1378,7 +1438,7 @@
             return;
           }
           state.activeId = thread.id;
-          persist();
+          persist({ touchActivity: false });
           renderTranscript();
           renderThreadBubbles();
           setThreadsOpen(false);
@@ -1402,6 +1462,7 @@
       var id = newThreadId();
       state.threads.unshift({
         id: id,
+        number: nextThreadNumber(state.threads),
         conversationId: randomUUID(),
         title: t("chatLabel"),
         history: [],
