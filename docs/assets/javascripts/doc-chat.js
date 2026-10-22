@@ -14,6 +14,8 @@
   var HISTORY_MAX_CHARS = 1500;
   var STORAGE_KEY = "broodminder-doc-chat-v1";
   var THREADS_KEY = "broodminder-doc-chat-threads-v1";
+  var CONSENT_KEY = "broodminder-doc-chat-consent";
+  var SESSION_KEY = "broodminder-doc-chat-session";
   var MAX_THREADS = 8;
 
   var UI_STRINGS = {
@@ -39,6 +41,10 @@
       chatLabel: "Chat",
       startNew: "Start new conversation",
       back: "Back",
+      consentText:
+        "An anonymous identifier stays in this browser, and a short summary of the conversation is kept to improve the assistant.",
+      consentAccept: "Accept",
+      consentRefuse: "Refuse",
       unavailable:
         "Unable to reach the assistant. Please contact support at support@broodminder.com.",
       unreachable:
@@ -66,6 +72,10 @@
       chatLabel: "Discussion",
       startNew: "Nouvelle conversation",
       back: "Retour",
+      consentText:
+        "Un identifiant anonyme reste dans ce navigateur, et un résumé de la conversation est conservé pour améliorer l'assistant.",
+      consentAccept: "Accepter",
+      consentRefuse: "Refuser",
       unavailable:
         "Impossible de joindre l'assistant. Merci de contacter le support : support@broodminder.com.",
       unreachable:
@@ -93,6 +103,10 @@
       chatLabel: "Chat",
       startNew: "Nueva conversación",
       back: "Volver",
+      consentText:
+        "Un identificador anónimo permanece en este navegador, y se conserva un resumen de la conversación para mejorar el asistente.",
+      consentAccept: "Aceptar",
+      consentRefuse: "Rechazar",
       unavailable:
         "No se puede contactar al asistente. Por favor contacta al soporte: support@broodminder.com.",
       unreachable:
@@ -166,6 +180,133 @@
   function t(key) {
     var pack = UI_STRINGS[uiLang()] || UI_STRINGS.en;
     return pack[key] || UI_STRINGS.en[key] || key;
+  }
+
+  function randomUUID() {
+    if (window.crypto && typeof window.crypto.randomUUID === "function") {
+      return window.crypto.randomUUID();
+    }
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (symbol) {
+      var random = (Math.random() * 16) | 0;
+      var value = symbol === "x" ? random : (random & 0x3) | 0x8;
+      return value.toString(16);
+    });
+  }
+
+  function consentChoice() {
+    try {
+      return localStorage.getItem(CONSENT_KEY);
+    } catch (err) {
+      return null;
+    }
+  }
+
+  function setConsentChoice(value) {
+    try {
+      localStorage.setItem(CONSENT_KEY, value);
+    } catch (err) {
+      /* ignore */
+    }
+  }
+
+  function sessionId() {
+    if (consentChoice() !== "accepted") {
+      return "";
+    }
+    try {
+      var existing = localStorage.getItem(SESSION_KEY);
+      if (existing) {
+        return existing;
+      }
+      var created = randomUUID();
+      localStorage.setItem(SESSION_KEY, created);
+      return created;
+    } catch (err) {
+      return "";
+    }
+  }
+
+  function ensureConversationId(thread) {
+    if (!thread) {
+      return "";
+    }
+    if (!thread.conversationId) {
+      thread.conversationId = randomUUID();
+    }
+    return thread.conversationId;
+  }
+
+  function askPayload(question, docLang, history, thread) {
+    var body = {
+      question: question,
+      lang: docLang,
+      history: history,
+    };
+    if (consentChoice() !== "accepted") {
+      return body;
+    }
+    var sid = sessionId();
+    var cid = ensureConversationId(thread);
+    if (!sid || !cid) {
+      return body;
+    }
+    body.session_id = sid;
+    body.conversation_id = cid;
+    return body;
+  }
+
+  function mountConsentBanner(anchor) {
+    if (!anchor || !anchor.parentNode) {
+      return;
+    }
+    if (anchor.parentNode.querySelector("[data-ask-consent]")) {
+      return;
+    }
+    var box = document.createElement("div");
+    box.className = "ask-journal-consent";
+    box.setAttribute("data-ask-consent", "");
+    box.setAttribute("role", "region");
+
+    function paint() {
+      var choice = consentChoice();
+      if (choice === "accepted" || choice === "refused") {
+        box.hidden = true;
+        box.innerHTML = "";
+        return;
+      }
+      box.hidden = false;
+      box.innerHTML =
+        '<p class="ask-journal-consent-text">' +
+        escapeHtml(t("consentText")) +
+        "</p>" +
+        '<div class="ask-journal-consent-actions">' +
+        '<button type="button" class="ask-journal-consent-accept" data-consent="accepted">' +
+        escapeHtml(t("consentAccept")) +
+        "</button>" +
+        '<button type="button" class="ask-journal-consent-refuse" data-consent="refused">' +
+        escapeHtml(t("consentRefuse")) +
+        "</button>" +
+        "</div>";
+    }
+
+    box.addEventListener("click", function (event) {
+      var btn = event.target.closest("button[data-consent]");
+      if (!btn || !box.contains(btn)) {
+        return;
+      }
+      var value = btn.getAttribute("data-consent");
+      if (value !== "accepted" && value !== "refused") {
+        return;
+      }
+      setConsentChoice(value);
+      if (value === "accepted") {
+        sessionId();
+      }
+      paint();
+    });
+
+    anchor.parentNode.insertBefore(box, anchor);
+    paint();
   }
 
   function escapeHtml(text) {
@@ -273,6 +414,7 @@
     var history = [];
     var transcript = [];
     var docLang = detectLang();
+    var conversation = { conversationId: randomUUID() };
 
     function persistState(forceOpen) {
       try {
@@ -353,6 +495,7 @@
     function resetChat() {
       history = [];
       transcript = [];
+      conversation = { conversationId: randomUUID() };
       clearStoredState();
       showWelcome();
       setStatus("");
@@ -407,6 +550,8 @@
       }
     });
 
+    mountConsentBanner(form);
+
     form.addEventListener("submit", function (event) {
       event.preventDefault();
       if (busy) {
@@ -431,11 +576,9 @@
       fetch(API_BASE.replace(/\/$/, "") + "/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          question: question,
-          lang: docLang,
-          history: historyToSend,
-        }),
+        body: JSON.stringify(
+          askPayload(question, docLang, historyToSend, conversation)
+        ),
       })
         .then(function (response) {
           return response.json().then(function (data) {
@@ -622,6 +765,7 @@
     var busy = false;
 
     applyTrustChrome(home);
+    mountConsentBanner(form);
 
     if (titleEl) {
       titleEl.textContent = t("title");
@@ -648,6 +792,7 @@
         threads: [
           {
             id: firstId,
+            conversationId: randomUUID(),
             title: t("chatLabel"),
             history: [],
             transcript: [],
@@ -826,6 +971,7 @@
       var id = newThreadId();
       state.threads.unshift({
         id: id,
+        conversationId: randomUUID(),
         title: t("chatLabel"),
         history: [],
         transcript: [],
@@ -881,15 +1027,15 @@
       setStatus(t("thinking"));
 
       var historyToSend = clipHistory((thread.history || []).slice());
+      var payload = askPayload(question, docLang, historyToSend, thread);
+      if (payload.session_id) {
+        persist();
+      }
 
       fetch(API_BASE.replace(/\/$/, "") + "/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          question: question,
-          lang: docLang,
-          history: historyToSend,
-        }),
+        body: JSON.stringify(payload),
       })
         .then(function (response) {
           return response.json().then(function (data) {
@@ -1037,6 +1183,7 @@
     var threadsEl = document.getElementById("doc-chat-threads");
     var docLang = detectLang();
     var busy = false;
+    mountConsentBanner(form);
 
     var state = loadThreadsState();
     if (!state || !Array.isArray(state.threads) || !state.threads.length) {
@@ -1045,6 +1192,7 @@
       var firstId = newThreadId();
       var seed = {
         id: firstId,
+        conversationId: randomUUID(),
         title: t("chatLabel"),
         history: [],
         transcript: [],
@@ -1254,6 +1402,7 @@
       var id = newThreadId();
       state.threads.unshift({
         id: id,
+        conversationId: randomUUID(),
         title: t("chatLabel"),
         history: [],
         transcript: [],
@@ -1326,15 +1475,15 @@
       setStatus(t("thinking"));
 
       var historyToSend = clipHistory((thread.history || []).slice());
+      var payload = askPayload(question, docLang, historyToSend, thread);
+      if (payload.session_id) {
+        persist();
+      }
 
       fetch(API_BASE.replace(/\/$/, "") + "/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          question: question,
-          lang: docLang,
-          history: historyToSend,
-        }),
+        body: JSON.stringify(payload),
       })
         .then(function (response) {
           return response.json().then(function (data) {
