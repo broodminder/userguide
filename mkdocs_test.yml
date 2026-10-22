@@ -22,6 +22,7 @@ theme:
 
 extra:
   doc_assistant_api: !ENV [DOC_ASSISTANT_API, ""]
+  doc_assistant_enabled: !ENV [ENABLE_DOC_ASSISTANT, "1"]
   social:
     - icon: fontawesome/solid/file-pdf
       link: /assets/pdf/userguide.pdf

@@ -23,6 +23,8 @@ theme:
 extra:
   # Widget → Mac API (set DOC_ASSISTANT_API in .env at build/serve time; no hardcoded IP)
   doc_assistant_api: !ENV [DOC_ASSISTANT_API, ""]
+  # 1 = show Ask BroodMinder, 0 = hide (build/serve must export .env)
+  doc_assistant_enabled: !ENV [ENABLE_DOC_ASSISTANT, "1"]
   social:
     - icon: fontawesome/solid/file-pdf
       link: /assets/pdf/userguide.pdf

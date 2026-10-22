@@ -49,6 +49,7 @@ flowchart TB
 | **Widget** (`doc-chat.js`) | Site (userguide) | Chat UI → URL from `DOC_ASSISTANT_API` |
 
 - Changing Mac = update `DOC_ASSISTANT_API` in `userguide/.env` and rebuild/redeploy the site.
+- Hide the widget without tearing down the Mac API: `ENABLE_DOC_ASSISTANT=0` in `userguide/.env`, then rebuild/serve (export `.env` first).
 - Reindex on the Mac only when `docs/en` (or chunking) changes — not on every translation run.
 - Mac services: see `userguide_utilities/doc_assistant/deploy/`.
 
@@ -85,7 +86,8 @@ In the [.env](.env) file, replace the variable **USERNAME** by your local userna
 
 5. Export your environment
 
-`export $(grep -v '^#' .env | xargs -0)`
+`set -a && source .env && set +a`  
+(Prefer this over `export $(grep … | xargs)`: inline `# comments` and spaces in values break xargs.)
 
 6. Start the server (light, EN + FR, no translation)
 

@@ -6,9 +6,14 @@
 (function () {
   "use strict";
 
-  // Set at MkDocs build/serve via extra.doc_assistant_api ← env DOC_ASSISTANT_API
+  // Set at MkDocs build/serve via extra ← env DOC_ASSISTANT_API / ENABLE_DOC_ASSISTANT
   var API_BASE = String(window.DOC_ASSISTANT_API || "").replace(/\/$/, "");
-
+  var ENABLED = (function () {
+    var raw = String(window.DOC_ASSISTANT_ENABLED == null ? "1" : window.DOC_ASSISTANT_ENABLED)
+      .trim()
+      .toLowerCase();
+    return !(raw === "0" || raw === "false" || raw === "no" || raw === "off");
+  })();
 
   var HISTORY_MAX_TURNS = 6;
   var HISTORY_MAX_CHARS = 1500;
@@ -1611,6 +1616,9 @@
   }
 
   function init() {
+    if (!ENABLED) {
+      return;
+    }
     // Home pages with #ask-broodminder-home (en, fr, …) use hero chat; else floating widget
     if (initHomeChat()) {
       return;
