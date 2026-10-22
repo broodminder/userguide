@@ -3,6 +3,8 @@
     {% include "templates/head.html" %}
 
     <div class="search-container md-typeset">
+        {% set _ask = (config.extra.doc_assistant_enabled | string | lower) %}
+        {% if _ask not in ['0', 'false', 'no', 'off', ''] %}
         <div id="ask-broodminder-home" class="ask-home">
             <div class="ask-home-stage">
                 <div class="ask-home-toolbar">
@@ -28,6 +30,9 @@
                 <div id="ask-home-threads" class="ask-home-threads" aria-label="Conversations"></div>
             </div>
         </div>
+        {% else %}
+        <input type="text" class="search-bar" id="search-form">
+        {% endif %}
 
         <div id="mobileScreen">
             <a href="20_quick_start_guide" title="" class="md-button md-small md-button--primary">

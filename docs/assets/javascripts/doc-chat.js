@@ -1615,8 +1615,58 @@
     }
   }
 
+  function relocateMaterialSearch() {
+    var placeholder = document.querySelector("#search-form");
+    var search = document.querySelector(".md-search");
+    if (!placeholder || !search) {
+      return;
+    }
+    var positionTop = placeholder.offsetTop;
+    var positionLeft = placeholder.offsetLeft;
+    var width = placeholder.clientWidth;
+    search.style.cssText =
+      "position: absolute !important; top: " +
+      positionTop +
+      "px !important; left: " +
+      positionLeft +
+      "px !important; width: " +
+      width +
+      "px !important; display: block !important;";
+  }
+
+  function restoreClassicSearch() {
+    var home = document.getElementById("ask-broodminder-home");
+    if (home) {
+      home.remove();
+    }
+    var root = document.getElementById("doc-chat-root");
+    if (root) {
+      root.remove();
+    }
+    var container = document.querySelector(".search-container");
+    if (!container) {
+      return;
+    }
+    if (!document.getElementById("search-form")) {
+      var input = document.createElement("input");
+      input.type = "text";
+      input.className = "search-bar";
+      input.id = "search-form";
+      var mobile = document.getElementById("mobileScreen");
+      if (mobile) {
+        container.insertBefore(input, mobile);
+      } else {
+        container.insertBefore(input, container.firstChild);
+      }
+    }
+    relocateMaterialSearch();
+    window.addEventListener("resize", relocateMaterialSearch);
+  }
+
   function init() {
     if (!ENABLED) {
+      // Back to master home search when Ask BroodMinder is off
+      restoreClassicSearch();
       return;
     }
     // Home pages with #ask-broodminder-home (en, fr, …) use hero chat; else floating widget

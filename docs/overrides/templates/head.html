@@ -24,10 +24,51 @@
             padding: 0 1rem 6rem;
         }
 
-        /* Hide Material search on home — replaced by Ask BroodMinder */
+        {# ENABLE_DOC_ASSISTANT=0 → barre de recherche master ; sinon Ask BroodMinder #}
+        {% set _ask = (config.extra.doc_assistant_enabled | string | lower) %}
+        {% set ask_enabled = _ask not in ['0', 'false', 'no', 'off', ''] %}
+
+        {% if ask_enabled %}
+        /* Ask mode: hide Material search on home (widget replaces it) */
         .md-search {
             display: none !important;
         }
+        {% else %}
+        /* Classic home search (master) — #search-form + relocated .md-search */
+        .search-bar {
+            background-color: #ffffff00;
+            cursor: none;
+            width: 50%;
+            height: 70px;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .md-search__inner {
+            width: 100%!important;
+        }
+        .md-search__output {
+            top: unset!important;
+            width: 100%!important;
+        }
+        .md-search-result {
+            width: 100%!important;
+        }
+        .md-search__form {
+            height: 70px!important;
+            background-color: #333333be!important;
+        }
+        .md-search__icon[for=__search] {
+            top: 1.9em!important;
+            color: white!important;
+        }
+        .md-search__input {
+            color: white;
+        }
+        .md-search__scrollwrap {
+            width: 100%!important;
+        }
+        {% endif %}
 
         .ask-home {
             width: min(40rem, calc(100% - 5.5rem));
@@ -494,6 +535,10 @@
         @media screen and (max-width: 768px) {
             .search-container {
                 margin-top: 8vh;
+            }
+
+            .search-bar {
+                width: 90%;
             }
 
             .ask-home {

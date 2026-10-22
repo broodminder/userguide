@@ -21,6 +21,7 @@ theme:
     primary: custom
 
 extra:
+  # Widget ← export/source .env before mkdocs (DOC_ASSISTANT_API, ENABLE_DOC_ASSISTANT)
   doc_assistant_api: !ENV [DOC_ASSISTANT_API, ""]
   doc_assistant_enabled: !ENV [ENABLE_DOC_ASSISTANT, "1"]
   social:
