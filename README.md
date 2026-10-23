@@ -1,4 +1,4 @@
-# userguide v2.0.0
+# userguide v2.0.2
 
 
 ## Architecture
@@ -50,7 +50,7 @@ flowchart TB
 | **Widget** (`doc-chat.js`) | Site (userguide) | Chat UI → URL from `DOC_ASSISTANT_API` |
 
 - Changing Mac = update `DOC_ASSISTANT_API` in `userguide/.env` and rebuild/redeploy the site.
-- Hide the widget without tearing down the Mac API: `ENABLE_DOC_ASSISTANT=0` in `userguide/.env`, then `set -a && source .env && set +a` and restart `mkdocs serve` / rebuild (MkDocs reads env at startup only).
+- Hide the widget: `ENABLE_DOC_ASSISTANT=0` in `userguide/.env`, then run **`./build.sh`** (or `build_local.sh`). The flag is baked into the static HTML at `mkdocs build` time, then copied to Apache (`/var/www/html/doc`). Changing `.env` alone does nothing until you rebuild + redeploy.
 - Reindex on the Mac only when `docs/en` (or chunking) changes — not on every translation run.
 - Mac services: see `userguide_utilities/doc_assistant/deploy/`.
 
