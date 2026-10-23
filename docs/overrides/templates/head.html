@@ -3,6 +3,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel ="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125989472-3"></script>
+    {# Must run before doc-chat.js — home includes this file; do not rely on main.html scripts alone #}
+    <script>
+      window.DOC_ASSISTANT_API = {{ (config.extra.doc_assistant_api or "") | tojson }};
+      window.DOC_ASSISTANT_ENABLED = {{ (config.extra.doc_assistant_enabled if config.extra.doc_assistant_enabled is not none else "0") | tojson }};
+    </script>
     
     <style>
         body {
