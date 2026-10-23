@@ -203,7 +203,7 @@ Local run:
 ```bash
 pyenv activate userguide
 cd /path/to/userguide
-export $(grep -v '^#' .env | xargs)
+set -a && source .env && set +a
 echo "docs/en/my_page.md" > filesChange.txt   # or use git diff output
 python userguide_utilities/translateFiles.py
 ```

@@ -1,8 +1,13 @@
 #!/bin/bash
 # This file shall be saved in VisualStudio Code with an LF end of line sequence
 
-export $(grep -v '^#' .env | xargs -0)
+# Load .env (xargs breaks on quotes/JWT — use source)
+set -a
+# shellcheck disable=SC1091
+source "$(cd "$(dirname "$0")" && pwd)/.env"
+set +a
 export PATH=/home/$USER/.pyenv/versions/userguide/bin/:$PATH
+echo "ENABLE_DOC_ASSISTANT=${ENABLE_DOC_ASSISTANT:-<unset>} (0=classic search, 1=Ask BroodMinder)"
 
 # Translation management
 echo "Get differrence between the two last commit"
