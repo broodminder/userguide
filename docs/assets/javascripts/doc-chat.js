@@ -6,12 +6,14 @@
 (function () {
   "use strict";
 
-  // Set at MkDocs build/serve via extra ← env DOC_ASSISTANT_API / ENABLE_DOC_ASSISTANT
+  // Set at MkDocs build via ENABLE_DOC_ASSISTANT (injected in head.html / main.html).
+  // Default OFF when unset — never invent Ask UI over the classic search bar.
   var API_BASE = String(window.DOC_ASSISTANT_API || "").replace(/\/$/, "");
   var ENABLED = (function () {
-    var raw = String(window.DOC_ASSISTANT_ENABLED == null ? "1" : window.DOC_ASSISTANT_ENABLED)
-      .trim()
-      .toLowerCase();
+    if (window.DOC_ASSISTANT_ENABLED == null || window.DOC_ASSISTANT_ENABLED === "") {
+      return false;
+    }
+    var raw = String(window.DOC_ASSISTANT_ENABLED).trim().toLowerCase();
     return !(raw === "0" || raw === "false" || raw === "no" || raw === "off");
   })();
 
