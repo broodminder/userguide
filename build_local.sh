@@ -31,6 +31,15 @@ fi
 export ENABLE_PDF_EXPORT=0
 # Do not force BUILD_ONLY_LOCALE — mkdocs_test.yml lists only en + fr
 
+# Load .env so ENABLE_DOC_ASSISTANT / DOC_ASSISTANT_API reach MkDocs !ENV
+if [[ -f "$ROOT/.env" ]]; then
+  set -a
+  # shellcheck disable=SC1091
+  source "$ROOT/.env"
+  set +a
+fi
+echo "ENABLE_DOC_ASSISTANT=${ENABLE_DOC_ASSISTANT:-<unset>} (0=classic search, 1=Ask BroodMinder)"
+
 echo "Building with $CONFIG (EN + FR, no translation)..."
 "$MKDOCS" build -f "$CONFIG" --clean
 
