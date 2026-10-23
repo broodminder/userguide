@@ -1,5 +1,6 @@
 # userguide v2.0.0
 
+
 ## Architecture
 
 Two separate pipelines share the same git repo: **translation** (VPS / CI) and **Ask BroodMinder** (Mac Mini + site widget).
