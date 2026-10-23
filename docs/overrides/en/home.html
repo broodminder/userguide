@@ -3,7 +3,37 @@
     {% include "templates/head.html" %}
 
     <div class="search-container md-typeset">
+        {% set _ask = (config.extra.doc_assistant_enabled | string | lower) %}
+        {% if _ask not in ['0', 'false', 'no', 'off', ''] %}
+        <div id="ask-broodminder-home" class="ask-home">
+            <div class="ask-home-stage">
+                <div class="ask-home-toolbar">
+                    <div class="ask-home-brand">
+                        <p class="ask-home-eyebrow" id="ask-home-title">Ask BroodMinder</p>
+                        <span class="ask-beta" data-ask-beta>Beta</span>
+                    </div>
+                    <button type="button" id="ask-home-new" class="ask-home-new" title="New chat">New</button>
+                </div>
+
+                <div class="ask-home-glass">
+                    <div id="ask-home-messages" class="ask-home-messages is-empty" aria-live="polite"></div>
+                    <div id="ask-home-status" class="ask-home-status"></div>
+                    <form id="ask-home-form" class="ask-home-composer">
+                        <textarea id="ask-home-input" rows="1" placeholder="Ask anything about BroodMinder…" required></textarea>
+                        <button type="submit" id="ask-home-send" class="ask-home-send" aria-label="Send">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.4 20.6 21 12 3.4 3.4 3 10.3 14 12 3 13.7z"/></svg>
+                        </button>
+                    </form>
+                    <p class="ask-trust" data-ask-trust></p>
+                </div>
+
+                <div id="ask-home-threads" class="ask-home-threads" aria-label="Conversations"></div>
+            </div>
+        </div>
+        {% else %}
         <input type="text" class="search-bar" id="search-form">
+        {% endif %}
+
         <div id="mobileScreen">
             <a href="20_quick_start_guide" title="" class="md-button md-small md-button--primary">
                 Quick Start

@@ -1,9 +1,63 @@
-# userguide v1.6.1
+# userguide v2.0.0
+
+
+## Architecture
+
+Two separate pipelines share the same git repo: **translation** (VPS / CI) and **Ask BroodMinder** (Mac Mini + site widget).
+
+```mermaid
+flowchart TB
+  subgraph Authors["Editing"]
+    EN["docs/en/*.md<br/>source of truth"]
+  end
+
+  subgraph GitHub["Git — push master"]
+    Repo["userguide + userguide_utilities"]
+  end
+
+  subgraph VPS["VPS — CI / build.sh"]
+    T["translateFiles.py<br/>translation plugin"]
+    MK["mkdocs build<br/>all locales"]
+    WWW["Apache / doc.mybroodminder.com<br/>+ widget doc-chat.js"]
+    T --> MK --> WWW
+  end
+
+  subgraph Mac["Mac Mini — Tailscale"]
+    OL["Ollama<br/>bge-m3 + qwen2.5:14b"]
+    IDX["SQLite index<br/>python -m doc_assistant index"]
+    API["doc_assistant serve :8765<br/>assistant / RAG plugin"]
+    OL --> IDX
+    OL --> API
+    IDX --> API
+  end
+
+  subgraph Browser["Browser"]
+    UI["MkDocs site<br/>Ask BroodMinder widget"]
+  end
+
+  EN --> Repo
+  Repo -->|"pull + translate"| T
+  Repo -->|"sync docs/en + code"| IDX
+  Repo -->|"sync doc_assistant"| API
+  WWW --> UI
+  UI -->|"DOC_ASSISTANT_API<br/>userguide .env"| API
+```
+
+| Component | Where | Role |
+|-----------|--------|------|
+| **Translation** (`translateFiles.py`) | VPS / `build.sh` | EN → fr/es/… then MkDocs site |
+| **Assistant** (`doc_assistant`) | Mac Mini | Index EN + RAG API (Ollama) |
+| **Widget** (`doc-chat.js`) | Site (userguide) | Chat UI → URL from `DOC_ASSISTANT_API` |
+
+- Changing Mac = update `DOC_ASSISTANT_API` in `userguide/.env` and rebuild/redeploy the site.
+- Hide the widget without tearing down the Mac API: `ENABLE_DOC_ASSISTANT=0` in `userguide/.env`, then `set -a && source .env && set +a` and restart `mkdocs serve` / rebuild (MkDocs reads env at startup only).
+- Reindex on the Mac only when `docs/en` (or chunking) changes — not on every translation run.
+- Mac services: see `userguide_utilities/doc_assistant/deploy/`.
 
 ## Deployment
 
 !!!note
-    The following steps will deploy the userguide in local mode. It means that you will use the *light version* with only english language and no pdf export.
+    The following steps will deploy the userguide in local mode. It means that you will use the *light version* (`mkdocs_test.yml`: **English + French** only, no PDF export, no translation step).
 
 1. Clone the repo on the VPS
 
@@ -33,18 +87,24 @@ In the [.env](.env) file, replace the variable **USERNAME** by your local userna
 
 5. Export your environment
 
-`export $(grep -v '^#' .env | xargs -0)`
+`set -a && source .env && set +a`  
+(Prefer this over `export $(grep … | xargs)`: inline `# comments` and spaces in values break xargs.)
 
-6. Start the server
+6. Start the server (light, EN + FR, no translation)
 
-`mkdocs serve -f mkdocs_test.yml` using a modified yml file or to have a lighter build (with no lang translation nor pdf generation)
+`mkdocs serve -f mkdocs_test.yml`
+
+Or build + copy to Apache without running `translateFiles.py`:
+
+`./build_local.sh`  
+(`SKIP_DEPLOY=1 ./build_local.sh` to only fill `./site/`)
 
 7. Verify your site
 
-On localhost:3000 if you use local starter or on the DNS you choose on your apache2 configuration.
+On http://127.0.0.1:3200 if you use `mkdocs serve` (`dev_addr` in the yml), or on the DNS / path from your apache2 configuration (e.g. http://127.0.0.1/doc/ and http://127.0.0.1/doc/fr/).
 
 !!!note
-    But if you want to start the server with an apache2 configuration, you need to use the **build.sh** file which will build the documentation on copy it on the following folder `/var/www/html/doc`.
+    Full production deploy (all languages + translation + PDF) still uses **build.sh**, which copies to `/var/www/html/doc`.
 
 ```
 `sudo ./build.sh`
