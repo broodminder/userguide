@@ -8,7 +8,9 @@
 
   // Set at MkDocs build via ENABLE_DOC_ASSISTANT (injected in head.html / main.html).
   // Default OFF when unset — never invent Ask UI over the classic search bar.
+  // When ON, the widget still probes GET /health and falls back to search if the Mac is down.
   var API_BASE = String(window.DOC_ASSISTANT_API || "").replace(/\/$/, "");
+  var HEALTH_TIMEOUT_MS = 2500;
   var ENABLED = (function () {
     if (window.DOC_ASSISTANT_ENABLED == null || window.DOC_ASSISTANT_ENABLED === "") {
       return false;
@@ -1665,17 +1667,88 @@
     window.addEventListener("resize", relocateMaterialSearch);
   }
 
+  function userStartedClassicSearch() {
+    var active = document.activeElement;
+    if (!active || active === document.body || active === document.documentElement) {
+      return false;
+    }
+    if (active.id === "search-form") {
+      return true;
+    }
+    return !!(active.closest && active.closest(".md-search"));
+  }
+
+  function markAskLive() {
+    document.documentElement.classList.add("ask-live");
+    var home = document.getElementById("ask-broodminder-home");
+    if (home) {
+      home.hidden = false;
+    }
+  }
+
+  /** True only when the Mac Mini API answers /health with ok. */
+  function probeAssistant(done) {
+    if (!API_BASE) {
+      done(false);
+      return;
+    }
+    var finished = false;
+    function finish(ok) {
+      if (finished) {
+        return;
+      }
+      finished = true;
+      done(!!ok);
+    }
+    var controller = typeof AbortController === "function" ? new AbortController() : null;
+    var timer = setTimeout(function () {
+      if (controller) {
+        controller.abort();
+      }
+      finish(false);
+    }, HEALTH_TIMEOUT_MS);
+    var opts = { method: "GET", cache: "no-store" };
+    if (controller) {
+      opts.signal = controller.signal;
+    }
+    fetch(API_BASE + "/health", opts)
+      .then(function (response) {
+        if (!response.ok) {
+          return false;
+        }
+        return response.json().then(function (data) {
+          return !!(data && data.ok);
+        });
+      })
+      .then(function (ok) {
+        clearTimeout(timer);
+        finish(ok);
+      })
+      .catch(function () {
+        clearTimeout(timer);
+        finish(false);
+      });
+  }
+
   function init() {
     if (!ENABLED) {
       // Back to master home search when Ask BroodMinder is off
       restoreClassicSearch();
       return;
     }
-    // Home pages with #ask-broodminder-home (en, fr, …) use hero chat; else floating widget
-    if (initHomeChat()) {
-      return;
-    }
-    initFloatingChat();
+    probeAssistant(function (ok) {
+      if (!ok || userStartedClassicSearch()) {
+        restoreClassicSearch();
+        return;
+      }
+      markAskLive();
+      // Home pages use the hero chat; other pages get the floating widget.
+      if (initHomeChat()) {
+        markAskLive();
+        return;
+      }
+      initFloatingChat();
+    });
   }
 
   if (document.readyState === "loading") {

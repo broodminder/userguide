@@ -29,16 +29,12 @@
             padding: 0 1rem 6rem;
         }
 
-        {# ENABLE_DOC_ASSISTANT=0 → barre de recherche master ; sinon Ask BroodMinder #}
-        {% set _ask = (config.extra.doc_assistant_enabled | string | lower) %}
-        {% set ask_enabled = _ask not in ['0', 'false', 'no', 'off', ''] %}
-
-        {% if ask_enabled %}
-        /* Ask mode: hide Material search on home (widget replaces it) */
-        .md-search {
+        /* Classic home search stays in the page. Ask replaces it only after /health. */
+        html.ask-live .md-search,
+        html.ask-live #search-form {
             display: none !important;
         }
-        {% else %}
+
         /* Classic home search (master) — #search-form + relocated .md-search */
         .search-bar {
             background-color: #ffffff00;
@@ -73,7 +69,6 @@
         .md-search__scrollwrap {
             width: 100%!important;
         }
-        {% endif %}
 
         .ask-home {
             width: min(40rem, calc(100% - 5.5rem));
