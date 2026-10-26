@@ -57,7 +57,7 @@ flowchart TB
 
 ### Hotfix close and production pull
 
-`userguide_utilities` is a submodule. A push to **master** of this repo runs `.github/workflows/main.yml` on the VPS: pull `userguide` `master`, then checkout and fast-forward `userguide_utilities` **`master`**, then `build.sh`.
+`userguide_utilities` is a submodule. A push to **master** runs the existing deploy workflow, which pulls this repo then `build.sh`. On the VPS path `/mellisphera/production/userguide`, `build.sh` checks out `userguide_utilities` **`master`** and fast-forwards it. That step stays in `build.sh` on purpose: editing `.github/workflows/main.yml` is rejected by a token without the `workflow` scope.
 
 Close **`userguide_utilities` `hotfix/v2.0.1` first** and push its `master`, `develop`, and tag. Still on `hotfix/v2.0.7` here, point the submodule at that new utilities commit, then close this hotfix. If the pointer is not updated before the parent merge, a fresh clone stays on the old utilities SHA even though the VPS pulls utilities `master`.
 

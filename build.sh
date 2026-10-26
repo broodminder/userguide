@@ -12,6 +12,15 @@ set -e
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT"
 
+# VPS only. Kept out of .github/workflows: a PAT without the workflow scope cannot push that file.
+# The submodule is often detached; production must follow utilities master after a hotfix merge.
+if [[ "$ROOT" == "/mellisphera/production/userguide" ]]; then
+  echo "Fast-forward userguide_utilities master"
+  git -C "$ROOT/userguide_utilities" fetch origin
+  git -C "$ROOT/userguide_utilities" checkout master
+  git -C "$ROOT/userguide_utilities" pull --ff-only origin master
+fi
+
 # Capture real login user BEFORE sourcing .env ( .env often sets USER=… )
 INVOKING_USER="${SUDO_USER:-$USER}"
 UG_BIN="/home/${INVOKING_USER}/.pyenv/versions/userguide/bin"
