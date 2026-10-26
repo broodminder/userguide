@@ -1,0 +1,201 @@
+/* BroodMinder privacy / consent banner */
+
+#bm-consent-root,
+.bm-consent-root {
+  position: fixed;
+  z-index: 10050;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.bm-consent-root *,
+.bm-consent-root *::before,
+.bm-consent-root *::after {
+  box-sizing: border-box;
+}
+
+.bm-consent-root--open {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.bm-consent-root--open .bm-consent-card {
+  pointer-events: auto;
+}
+
+.bm-consent-root--settled {
+  left: 0.75rem;
+  bottom: 0.75rem;
+  right: auto;
+}
+
+.bm-consent-card {
+  width: min(640px, 100%);
+  max-height: min(80vh, 520px);
+  overflow: auto;
+  padding: 1rem 1.1rem 1.05rem;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 108, 70, 0.22);
+  background: #fff;
+  color: #1a1a1a;
+  box-shadow: 0 10px 36px rgba(0, 40, 24, 0.18);
+}
+
+.bm-consent-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #006c46;
+  line-height: 1.25;
+}
+
+.bm-consent-intro {
+  margin: 0 0 0.9rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #333;
+}
+
+.bm-consent-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin: 0 0 1rem;
+}
+
+.bm-consent-option {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  padding: 0.65rem 0.7rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 108, 70, 0.18);
+  background: #f7fbf8;
+  cursor: pointer;
+}
+
+.bm-consent-option input {
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  accent-color: #006c46;
+}
+
+.bm-consent-option strong {
+  display: block;
+  font-size: 0.88rem;
+  color: #006c46;
+  margin-bottom: 0.15rem;
+}
+
+.bm-consent-option small {
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+.bm-consent-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: flex-end;
+}
+
+.bm-consent-actions--main {
+  justify-content: stretch;
+}
+
+.bm-consent-actions--main .bm-consent-btn {
+  flex: 1 1 auto;
+  min-width: 7.5rem;
+}
+
+.bm-consent-btn {
+  appearance: none;
+  border-radius: 999px;
+  padding: 0.5rem 0.95rem;
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 1.2;
+  border: 1px solid transparent;
+}
+
+.bm-consent-btn--primary {
+  background: #006c46;
+  color: #fff;
+  border-color: #006c46;
+}
+
+.bm-consent-btn--primary:hover {
+  background: #005536;
+}
+
+.bm-consent-btn--secondary {
+  background: #e8f5ef;
+  color: #006c46;
+  border-color: rgba(0, 108, 70, 0.35);
+}
+
+.bm-consent-btn--secondary:hover {
+  background: #d7eee3;
+}
+
+.bm-consent-btn--ghost {
+  background: #fff;
+  color: #333;
+  border-color: #cfd8d3;
+}
+
+.bm-consent-btn--ghost:hover {
+  background: #f4f4f4;
+}
+
+.bm-consent-reopen {
+  appearance: none;
+  border: 1px solid rgba(0, 108, 70, 0.35);
+  background: #fff;
+  color: #006c46;
+  border-radius: 999px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 40, 24, 0.12);
+}
+
+.bm-consent-reopen:hover {
+  background: #e8f5ef;
+}
+
+@media screen and (max-width: 600px) {
+  .bm-consent-root--open {
+    padding: 0.5rem;
+  }
+
+  .bm-consent-actions--main {
+    flex-direction: column-reverse;
+  }
+
+  .bm-consent-actions--main .bm-consent-btn {
+    width: 100%;
+  }
+
+  .bm-consent-root--settled {
+    left: 0.5rem;
+    bottom: 0.5rem;
+  }
+}
+
+/* Keep reopen above Material chrome, below open dialog */
+@media screen and (min-width: 76.25em) {
+  .bm-consent-root--settled {
+    bottom: 1rem;
+    left: 1rem;
+  }
+}
