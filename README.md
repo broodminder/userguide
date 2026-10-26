@@ -1,4 +1,4 @@
-# userguide v2.0.6
+# userguide v2.0.7
 
 
 ## Architecture
@@ -50,9 +50,16 @@ flowchart TB
 | **Widget** (`doc-chat.js`) | Site (userguide) | Chat UI → URL from `DOC_ASSISTANT_API` |
 
 - Changing Mac = update `DOC_ASSISTANT_API` in `userguide/.env` and rebuild/redeploy the site.
-- Hide the widget: `ENABLE_DOC_ASSISTANT=0` in `userguide/.env`, then run **`./build.sh`** (or `build_local.sh`). The flag is baked into the static HTML at `mkdocs build` time, then copied to Apache (`/var/www/html/doc`). Changing `.env` alone does nothing until you rebuild + redeploy.
+- Hide the widget for good: `ENABLE_DOC_ASSISTANT=0` in `userguide/.env`, then run **`./build.sh`** (or `build_local.sh`). The flag is baked into the static HTML at `mkdocs build` time, then copied to Apache (`/var/www/html/doc`). Changing `.env` alone does nothing until you rebuild + redeploy.
+- With `ENABLE_DOC_ASSISTANT=1`, each page calls `GET /health` on the Mac Mini (2.5 s). If the process or Ollama does not answer, the classic search stays up. The next page load shows Ask again when `/health` returns `ok`. No rebuild for that toggle. The API side lives in `userguide_utilities` (`/health` → 503 when Ollama is down).
 - Reindex on the Mac only when `docs/en` (or chunking) changes — not on every translation run.
 - Mac services: see `userguide_utilities/doc_assistant/deploy/`.
+
+### Hotfix close and production pull
+
+`userguide_utilities` is a submodule. A push to **master** of this repo runs `.github/workflows/main.yml` on the VPS: pull `userguide` `master`, then checkout and fast-forward `userguide_utilities` **`master`**, then `build.sh`.
+
+Close **`userguide_utilities` `hotfix/v2.0.1` first** and push its `master`, `develop`, and tag. Still on `hotfix/v2.0.7` here, point the submodule at that new utilities commit, then close this hotfix. If the pointer is not updated before the parent merge, a fresh clone stays on the old utilities SHA even though the VPS pulls utilities `master`.
 
 ## Deployment
 
