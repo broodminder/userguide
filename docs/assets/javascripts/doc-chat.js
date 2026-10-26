@@ -25,6 +25,7 @@
   var CONSENT_KEY = "broodminder-doc-chat-consent";
   var SESSION_KEY = "broodminder-doc-chat-session";
   var MAX_THREADS = 8;
+  // Assistant persistence consent comes from consent.js (BroodMinderConsent).
 
   var UI_STRINGS = {
     en: {
@@ -49,10 +50,6 @@
       chatLabel: "Chat",
       startNew: "Start new conversation",
       back: "Back",
-      consentText:
-        "An anonymous identifier stays in this browser, and a short summary of the conversation is kept to improve the assistant.",
-      consentAccept: "Accept",
-      consentRefuse: "Refuse",
       unavailable: "Service temporarily unavailable.",
       unreachable: "Service temporarily unavailable.",
     },
@@ -78,10 +75,6 @@
       chatLabel: "Discussion",
       startNew: "Nouvelle conversation",
       back: "Retour",
-      consentText:
-        "Un identifiant anonyme reste dans ce navigateur, et un résumé de la conversation est conservé pour améliorer l'assistant.",
-      consentAccept: "Accepter",
-      consentRefuse: "Refuser",
       unavailable: "Service momentanément indisponible.",
       unreachable: "Service momentanément indisponible.",
     },
@@ -107,10 +100,6 @@
       chatLabel: "Chat",
       startNew: "Nueva conversación",
       back: "Volver",
-      consentText:
-        "Un identificador anónimo permanece en este navegador, y se conserva un resumen de la conversación para mejorar el asistente.",
-      consentAccept: "Aceptar",
-      consentRefuse: "Rechazar",
       unavailable: "Servicio temporalmente no disponible.",
       unreachable: "Servicio temporalmente no disponible.",
     },
@@ -195,24 +184,20 @@
     });
   }
 
-  function consentChoice() {
-    try {
-      return localStorage.getItem(CONSENT_KEY);
-    } catch (err) {
-      return null;
+  /** Assistant ID / summary persistence — driven by site-wide consent banner. */
+  function assistantConsentAccepted() {
+    if (window.BroodMinderConsent && typeof window.BroodMinderConsent.allows === "function") {
+      return window.BroodMinderConsent.allows("assistant") === true;
     }
-  }
-
-  function setConsentChoice(value) {
     try {
-      localStorage.setItem(CONSENT_KEY, value);
+      return localStorage.getItem(CONSENT_KEY) === "accepted";
     } catch (err) {
-      /* ignore */
+      return false;
     }
   }
 
   function sessionId() {
-    if (consentChoice() !== "accepted") {
+    if (!assistantConsentAccepted()) {
       return "";
     }
     try {
@@ -244,7 +229,7 @@
       lang: docLang,
       history: history,
     };
-    if (consentChoice() !== "accepted") {
+    if (!assistantConsentAccepted()) {
       return body;
     }
     var sid = sessionId();
@@ -255,60 +240,6 @@
     body.session_id = sid;
     body.conversation_id = cid;
     return body;
-  }
-
-  function mountConsentBanner(anchor) {
-    if (!anchor || !anchor.parentNode) {
-      return;
-    }
-    if (anchor.parentNode.querySelector("[data-ask-consent]")) {
-      return;
-    }
-    var box = document.createElement("div");
-    box.className = "ask-journal-consent";
-    box.setAttribute("data-ask-consent", "");
-    box.setAttribute("role", "region");
-
-    function paint() {
-      var choice = consentChoice();
-      if (choice === "accepted" || choice === "refused") {
-        box.hidden = true;
-        box.innerHTML = "";
-        return;
-      }
-      box.hidden = false;
-      box.innerHTML =
-        '<p class="ask-journal-consent-text">' +
-        escapeHtml(t("consentText")) +
-        "</p>" +
-        '<div class="ask-journal-consent-actions">' +
-        '<button type="button" class="ask-journal-consent-accept" data-consent="accepted">' +
-        escapeHtml(t("consentAccept")) +
-        "</button>" +
-        '<button type="button" class="ask-journal-consent-refuse" data-consent="refused">' +
-        escapeHtml(t("consentRefuse")) +
-        "</button>" +
-        "</div>";
-    }
-
-    box.addEventListener("click", function (event) {
-      var btn = event.target.closest("button[data-consent]");
-      if (!btn || !box.contains(btn)) {
-        return;
-      }
-      var value = btn.getAttribute("data-consent");
-      if (value !== "accepted" && value !== "refused") {
-        return;
-      }
-      setConsentChoice(value);
-      if (value === "accepted") {
-        sessionId();
-      }
-      paint();
-    });
-
-    anchor.parentNode.insertBefore(box, anchor);
-    paint();
   }
 
   function escapeHtml(text) {
@@ -551,8 +482,6 @@
         form.requestSubmit();
       }
     });
-
-    mountConsentBanner(form);
 
     form.addEventListener("submit", function (event) {
       event.preventDefault();
@@ -809,7 +738,6 @@
     var busy = false;
 
     applyTrustChrome(home);
-    mountConsentBanner(form);
 
     if (titleEl) {
       titleEl.textContent = t("title");
@@ -1231,7 +1159,6 @@
     var threadsEl = document.getElementById("doc-chat-threads");
     var docLang = detectLang();
     var busy = false;
-    mountConsentBanner(form);
 
     var state = loadThreadsState();
     if (!state || !Array.isArray(state.threads) || !state.threads.length) {
