@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel ="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125989472-3"></script>
+    {# Analytics (gtag) loads only after consent — see consent.js #}
     {# Must run before doc-chat.js — home includes this file; do not rely on main.html scripts alone #}
     <script>
       window.DOC_ASSISTANT_API = {{ (config.extra.doc_assistant_api or "") | tojson }};

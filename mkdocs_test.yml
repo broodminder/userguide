@@ -31,9 +31,11 @@ extra:
 
 extra_css:
   - assets/css/extra.css
+  - assets/css/consent.css
   - assets/css/doc-chat.css
 
 extra_javascript:
+  - assets/javascripts/consent.js
   - assets/javascripts/extra.js
   - assets/javascripts/doc-chat.js
 
