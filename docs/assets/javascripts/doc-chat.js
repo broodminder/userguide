@@ -8,9 +8,8 @@
 
   // Set at MkDocs build via ENABLE_DOC_ASSISTANT (injected in head.html / main.html).
   // Default OFF when unset — never invent Ask UI over the classic search bar.
-  // When ON, the widget still probes GET /health and falls back to search if the Mac is down.
+  // When ON, show Ask immediately; API failures surface as an in-chat error message.
   var API_BASE = String(window.DOC_ASSISTANT_API || "").replace(/\/$/, "");
-  var HEALTH_TIMEOUT_MS = 2500;
   var ENABLED = (function () {
     if (window.DOC_ASSISTANT_ENABLED == null || window.DOC_ASSISTANT_ENABLED === "") {
       return false;
@@ -54,10 +53,8 @@
         "An anonymous identifier stays in this browser, and a short summary of the conversation is kept to improve the assistant.",
       consentAccept: "Accept",
       consentRefuse: "Refuse",
-      unavailable:
-        "Unable to reach the assistant. Please contact support at support@broodminder.com.",
-      unreachable:
-        "Unable to reach the assistant. Please contact support at support@broodminder.com.",
+      unavailable: "Service temporarily unavailable.",
+      unreachable: "Service temporarily unavailable.",
     },
     fr: {
       title: "Ask BroodMinder",
@@ -85,10 +82,8 @@
         "Un identifiant anonyme reste dans ce navigateur, et un résumé de la conversation est conservé pour améliorer l'assistant.",
       consentAccept: "Accepter",
       consentRefuse: "Refuser",
-      unavailable:
-        "Impossible de joindre l'assistant. Merci de contacter le support : support@broodminder.com.",
-      unreachable:
-        "Impossible de joindre l'assistant. Merci de contacter le support : support@broodminder.com.",
+      unavailable: "Service momentanément indisponible.",
+      unreachable: "Service momentanément indisponible.",
     },
     es: {
       title: "Ask BroodMinder",
@@ -116,10 +111,8 @@
         "Un identificador anónimo permanece en este navegador, y se conserva un resumen de la conversación para mejorar el asistente.",
       consentAccept: "Aceptar",
       consentRefuse: "Rechazar",
-      unavailable:
-        "No se puede contactar al asistente. Por favor contacta al soporte: support@broodminder.com.",
-      unreachable:
-        "No se puede contactar al asistente. Por favor contacta al soporte: support@broodminder.com.",
+      unavailable: "Servicio temporalmente no disponible.",
+      unreachable: "Servicio temporalmente no disponible.",
     },
   };
 
@@ -1639,6 +1632,7 @@
   }
 
   function restoreClassicSearch() {
+    document.documentElement.classList.remove("ask-live");
     var home = document.getElementById("ask-broodminder-home");
     if (home) {
       home.remove();
@@ -1667,17 +1661,6 @@
     window.addEventListener("resize", relocateMaterialSearch);
   }
 
-  function userStartedClassicSearch() {
-    var active = document.activeElement;
-    if (!active || active === document.body || active === document.documentElement) {
-      return false;
-    }
-    if (active.id === "search-form") {
-      return true;
-    }
-    return !!(active.closest && active.closest(".md-search"));
-  }
-
   function markAskLive() {
     document.documentElement.classList.add("ask-live");
     var home = document.getElementById("ask-broodminder-home");
@@ -1686,69 +1669,18 @@
     }
   }
 
-  /** True only when the Mac Mini API answers /health with ok. */
-  function probeAssistant(done) {
-    if (!API_BASE) {
-      done(false);
-      return;
-    }
-    var finished = false;
-    function finish(ok) {
-      if (finished) {
-        return;
-      }
-      finished = true;
-      done(!!ok);
-    }
-    var controller = typeof AbortController === "function" ? new AbortController() : null;
-    var timer = setTimeout(function () {
-      if (controller) {
-        controller.abort();
-      }
-      finish(false);
-    }, HEALTH_TIMEOUT_MS);
-    var opts = { method: "GET", cache: "no-store" };
-    if (controller) {
-      opts.signal = controller.signal;
-    }
-    fetch(API_BASE + "/health", opts)
-      .then(function (response) {
-        if (!response.ok) {
-          return false;
-        }
-        return response.json().then(function (data) {
-          return !!(data && data.ok);
-        });
-      })
-      .then(function (ok) {
-        clearTimeout(timer);
-        finish(ok);
-      })
-      .catch(function () {
-        clearTimeout(timer);
-        finish(false);
-      });
-  }
-
   function init() {
     if (!ENABLED) {
       // Back to master home search when Ask BroodMinder is off
       restoreClassicSearch();
       return;
     }
-    probeAssistant(function (ok) {
-      if (!ok || userStartedClassicSearch()) {
-        restoreClassicSearch();
-        return;
-      }
-      markAskLive();
-      // Home pages use the hero chat; other pages get the floating widget.
-      if (initHomeChat()) {
-        markAskLive();
-        return;
-      }
-      initFloatingChat();
-    });
+    // ENABLE_DOC_ASSISTANT alone decides visibility; API errors show in-chat.
+    markAskLive();
+    if (initHomeChat()) {
+      return;
+    }
+    initFloatingChat();
   }
 
   if (document.readyState === "loading") {
