@@ -7,6 +7,15 @@
     <script>
       window.DOC_ASSISTANT_API = {{ (config.extra.doc_assistant_api or "") | tojson }};
       window.DOC_ASSISTANT_ENABLED = {{ (config.extra.doc_assistant_enabled if config.extra.doc_assistant_enabled is not none else "0") | tojson }};
+      (function () {
+        var raw = String(window.DOC_ASSISTANT_ENABLED == null ? "0" : window.DOC_ASSISTANT_ENABLED)
+          .trim()
+          .toLowerCase();
+        var on = raw !== "" && raw !== "0" && raw !== "false" && raw !== "no" && raw !== "off";
+        if (on) {
+          document.documentElement.classList.add("ask-live");
+        }
+      })();
     </script>
     
     <style>
@@ -29,7 +38,7 @@
             padding: 0 1rem 6rem;
         }
 
-        /* Classic home search stays in the page. Ask replaces it only after /health. */
+        /* Classic home search stays in the page. Ask replaces it when ENABLE_DOC_ASSISTANT is on. */
         html.ask-live .md-search,
         html.ask-live #search-form {
             display: none !important;

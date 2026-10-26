@@ -1,4 +1,4 @@
-# userguide v2.0.10
+# userguide v2.0.11
 
 
 ## Architecture
@@ -50,8 +50,8 @@ flowchart TB
 | **Widget** (`doc-chat.js`) | Site (userguide) | Chat UI → URL from `DOC_ASSISTANT_API` |
 
 - Changing Mac = update `DOC_ASSISTANT_API` in `userguide/.env` and rebuild/redeploy the site.
-- Hide the widget for good: `ENABLE_DOC_ASSISTANT=0` in `userguide/.env`, then run **`./build.sh`** (or `build_local.sh`). The flag is baked into the static HTML at `mkdocs build` time, then copied to Apache (`/var/www/html/doc`). Changing `.env` alone does nothing until you rebuild + redeploy.
-- With `ENABLE_DOC_ASSISTANT=1`, each page calls `GET /health` on the Mac Mini (2.5 s). If the process or Ollama does not answer, the classic search stays up. The next page load shows Ask again when `/health` returns `ok`. No rebuild for that toggle. The API side lives in `userguide_utilities` (`/health` → 503 when Ollama is down).
+- Show / hide the widget: `ENABLE_DOC_ASSISTANT=1|0` in `userguide/.env`, then run **`./build.sh`** (or `build_local.sh`). The flag is baked into the static HTML at `mkdocs build` time, then copied to Apache (`/var/www/html/doc`). Changing `.env` alone does nothing until you rebuild + redeploy. That env var is the only on/off switch for the UI.
+- With `ENABLE_DOC_ASSISTANT=1`, Ask is shown immediately. If the Mac Mini API does not answer, the chat stays visible and shows a temporary unavailability message. Ops can still probe `GET /health` on the Mac (`userguide_utilities`) — the widget no longer uses it to hide itself.
 - Reindex on the Mac only when `docs/en` (or chunking) changes — not on every translation run.
 - Mac services: see `userguide_utilities/doc_assistant/deploy/`.
 
