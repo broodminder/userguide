@@ -1,4 +1,4 @@
-![image](../assets/39_sensors_btv.assets/btv_example.png){ style="display: block; margin: 0 auto" }
+![image](../assets/39_sensors_btv.assets/btv_example2_800x.jpg){ style="display: block; margin: 0 auto" }
 
 
 ---
