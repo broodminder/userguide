@@ -44,7 +44,7 @@ Between these two extremes lie many intermediate situations.
 To illustrate this, here are hourly temperature measurements from two hives in the same apiary. The first hive is represented in red, the second in grey. Solid lines show internal temperature; dashed lines show external temperature.
 
 
-![Brood](../assets/50_mybroodminder_v5.assets/brood/constat_bforce.png#largeImg)
+![Brood](/assets/50_mybroodminder_v5.assets/brood/constat_bforce.png#largeImg)
 
 We observe a clear difference: the red hive follows ambient fluctuations (25–30°C / 77–86°F), indicating little or no brood. The grey hive maintains a stable 35°C/95°F, clearly within the Optimal Brood Zone.
 
@@ -57,7 +57,7 @@ You can find brood levels in multiple places within **MyBroodMinder** and the **
 
 One of the most convenient is the **Bees App**, where you can view temperature and brood charts. For example, in the chart below, a brood removal one week prior caused increased temperature fluctuation. This is expected when thermoregulation is disrupted due to reduced brood.
 
-![Brood](../assets/50_mybroodminder_v5.assets/brood/temp-brood.png)
+![Brood](/assets/50_mybroodminder_v5.assets/brood/temp-brood.png)
 
 Following this example, in the following days, one should monitor the charts to check if brood levels recover (which would be expected), or continue to decline (indicating a possible queen issue—perhaps she was removed with the split or is no longer viable).
 
@@ -65,7 +65,7 @@ Following this example, in the following days, one should monitor the charts to 
 
 Brood values are also displayed on the **MyBroodMinder home page**, where you can see an overview of all your hives and apiaries. We find again the same hive as above R6-24 with 67% brood.
 
-![Brood](../assets/50_mybroodminder_v5.assets/brood/homepage.png)
+![Brood](/assets/50_mybroodminder_v5.assets/brood/homepage.png)
 
 ## Make your custom brood charts
 
@@ -73,15 +73,15 @@ To view your first brood chart in MyBroodMinder, create a custom dashboard and d
 
 Here’s how such a widget might look:
 
-![Brood](../assets/50_mybroodminder_v5.assets/brood/widgets.png)
+![Brood](/assets/50_mybroodminder_v5.assets/brood/widgets.png)
 
 And here’s a complete view with brood levels from multiple hives within an apiary. Since values are daily, the chart is cleaner and easier to interpret than temperature charts.
 
-![Brood](../assets/50_mybroodminder_v5.assets/brood/mbm-temp-brood.png)
+![Brood](/assets/50_mybroodminder_v5.assets/brood/mbm-temp-brood.png)
 
 Another great feature in MyBroodMinder is the ability to visualize brood across longer time spans. Here for example is the full year for three hives. While each followed its seasonal rhythm, all stopped brood production in mid-November and resumed in mid-January.
 
-![Brood](../assets/50_mybroodminder_v5.assets/brood/yearly_brood.png)
+![Brood](/assets/50_mybroodminder_v5.assets/brood/yearly_brood.png)
 
 !!! tip "Use brood data to plan for treatments"
     Use the brood charts to identify the most appropriate time for broodless treatments. In winter, opportunities to open hives are limited. Having real-time data from inside the colony that shows when brood is decreasing—or completely absent—is incredibly helpful for choosing the optimal treatment window.
@@ -122,10 +122,10 @@ In the chart below, a new split colony experienced during its **first day of act
 
 > Fortunately, the colony maintained brood temperature in range, but we still took action by **adding a second roof for shade**.
 
-![SwarmMinder chart](../assets/50_mybroodminder_v5.assets/brood/swarmMinder.png)  
+![SwarmMinder chart](/assets/50_mybroodminder_v5.assets/brood/swarmMinder.png)  
 *Temperature spike on April 1st*
 
-![Double roof](../assets/50_mybroodminder_v5.assets/brood/doubleroof.png)  
+![Double roof](/assets/50_mybroodminder_v5.assets/brood/doubleroof.png)  
 *Double-roof insulation added afterwards*
 
 Notice that on **April 4th** (chart above), a similar external temperature rise occurred, but the colony handled it much better—thanks to the improved radiative protection.
@@ -138,7 +138,7 @@ In some areas, especially in southern Spain, **overheating is a daily issue in s
 
 > This not only stresses the colony but also wastes energy: the bees are constantly trying to regulate temperature, instead of foraging or raising brood.
 
-![Chronic overheating](../assets/50_mybroodminder_v5.assets/brood/apinazar.png)
+![Chronic overheating](/assets/50_mybroodminder_v5.assets/brood/apinazar.png)
 Good insulation and proper hive positioning become essential in these contexts.
 
 ---
@@ -149,7 +149,7 @@ In this final example, a colony displayed **multiple thermal events in the days 
 
 > Eventually, the colony swarmed – confirming the predictive value of SwarmMinder.
 
-![Swarming](../assets/50_mybroodminder_v5.assets/brood/swarmTheo.png)  
+![Swarming](/assets/50_mybroodminder_v5.assets/brood/swarmTheo.png)  
 *A thermal signature followed by an actual swarm*
 
 ---
@@ -182,12 +182,12 @@ The color code is the following:
 
 You can find fitness estimation on Bees App in the hive "boxes" and also in the brood tab.
 
-![fitness](../assets/50_mybroodminder_v5.assets/brood/fitness_bapp.jpg#mediumImg)  
+![fitness](/assets/50_mybroodminder_v5.assets/brood/fitness_bapp.jpg#mediumImg)  
 
 
 Also available in MyBroodMinder Home page
 
-![fitness](../assets/50_mybroodminder_v5.assets/brood/fitness_mbm.png)  
+![fitness](/assets/50_mybroodminder_v5.assets/brood/fitness_mbm.png)  
 
 
 !!! Warning "Don’t confuse fitness with health!"

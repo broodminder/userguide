@@ -11,7 +11,7 @@ One of the very first steps you’ll likely take is to **create an apiary and at
 
 You can do this using either the **Bees App** or **MyBroodMinder** like in the screenshot below, simply click the `New` button on the left sidebar:
 
-![New panel](../assets/50_mybroodminder_v5.assets/manage_hives/new_item.png#mediumImg)
+![New panel](/assets/50_mybroodminder_v5.assets/manage_hives/new_item.png#mediumImg)
 
 ---
 
@@ -23,14 +23,14 @@ When adding a new apiary, you’ll be asked to:
 - Set a location with a postal/ZIP code  
 - Optionally pick a **graph color** for this apiary (used in weather charts)
 
-![New apiary](../assets/50_mybroodminder_v5.assets/manage_hives/new_apiary.png#largeImg)
+![New apiary](/assets/50_mybroodminder_v5.assets/manage_hives/new_apiary.png#largeImg)
 
 !!! tip "ZIP code is used by the weather service"
     Choose your ZIP/postal code carefully — it determines the **local weather data** displayed for your apiary.
 
     For better accuracy, you can adjust the apiary location once it has been created. Click the three-dot menu `... > Edit Apiary > Edit Location`, then pick the new place on the map.
 
-    ![Coordinates](../assets/50_mybroodminder_v5.assets/manage_hives/apiary_coord.png#mediumImg)
+    ![Coordinates](/assets/50_mybroodminder_v5.assets/manage_hives/apiary_coord.png#mediumImg)
 
 ---
 
@@ -39,7 +39,7 @@ When adding a new apiary, you’ll be asked to:
 To add a hive, simply click the `...` menu next to an apiary. This automatically links the hive to that location. Name the hive and assign it a color for graph displays. You can edit those settings at any time.
 
 
-![New hive](../assets/50_mybroodminder_v5.assets/manage_hives/new_hive.png)
+![New hive](/assets/50_mybroodminder_v5.assets/manage_hives/new_hive.png)
 
 
 
@@ -49,11 +49,11 @@ Hives are always attached to an apiary, but they **can be moved** freely. This f
 
 To move a hive select `Move Hive` in the drop down:
 
-![Move hive](../assets/50_mybroodminder_v5.assets/manage_hives/move_hive.png)
+![Move hive](/assets/50_mybroodminder_v5.assets/manage_hives/move_hive.png)
 
 These movements will be materialized in the charts by **pink dashed vertical lines** — showing the transition between apiaries (e.g., from A to B to C in the example below):
 
-![Migration](../assets/50_mybroodminder_v5.assets/manage_hives/migration.png)
+![Migration](/assets/50_mybroodminder_v5.assets/manage_hives/migration.png)
 
 > In this example, hive scales were removed during the move, which is reflected by the 0 kg/lb values.
 
@@ -67,7 +67,7 @@ So far, we’ve used the **sidebar tools** in MyBroodMinder. For more efficient 
 
 Click `Configure` in the left menu to view and manage every detail in MyBbroodMinder. For now we will focus on **Apiaries** and **Hives**  
 
-![Configure](../assets/50_mybroodminder_v5.assets/manage_hives/configure.png)
+![Configure](/assets/50_mybroodminder_v5.assets/manage_hives/configure.png)
 
 
 ### Configuring Apiaries
@@ -78,7 +78,7 @@ Under `Configure > Apiaries`, you can:
 - Add a **local weather source** (e.g., a BroodMinder device broadcasting temperature/humidity) to complete the default online weather service  
 - Archive or delete apiaries
 
-![Apiary config](../assets/50_mybroodminder_v5.assets/manage_hives/config_apiaries.png)
+![Apiary config](/assets/50_mybroodminder_v5.assets/manage_hives/config_apiaries.png)
 
 !!! tip "Inactive apiaries"
     You **cannot delete** an apiary if it still contains hives (active or inactive) — you’ll need to delete those first.
@@ -99,11 +99,11 @@ Under `Configure > Hives`, you can:
 - Delete hives (data permanently removed)  
 - Track the device history of each hive
 
-![Hives config](../assets/50_mybroodminder_v5.assets/manage_hives/config_hives.png)
+![Hives config](/assets/50_mybroodminder_v5.assets/manage_hives/config_hives.png)
 
 Here’s an example of hive R2-20, which has used various devices over time. It currently has a **bee counter**, an **internal sensor**, and a **scale**, and previously used another internal sensor from April 10 to Nov. 16, 2024.
 
-![Device history](../assets/50_mybroodminder_v5.assets/manage_hives/hive_devices.png)
+![Device history](/assets/50_mybroodminder_v5.assets/manage_hives/hive_devices.png)
 
 
 Tracking devices, hives, and apiary changes is one of MyBroodMinder’s most powerful capabilities.

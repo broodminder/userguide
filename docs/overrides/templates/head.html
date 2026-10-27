@@ -2,7 +2,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel ="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125989472-3"></script>
+    {# Analytics (gtag) loads only after consent — see consent.js #}
+    {# Must run before doc-chat.js — home includes this file; do not rely on main.html scripts alone #}
+    <script>
+      window.DOC_ASSISTANT_API = {{ (config.extra.doc_assistant_api or "") | tojson }};
+      window.DOC_ASSISTANT_ENABLED = {{ (config.extra.doc_assistant_enabled if config.extra.doc_assistant_enabled is not none else "0") | tojson }};
+      (function () {
+        var raw = String(window.DOC_ASSISTANT_ENABLED == null ? "0" : window.DOC_ASSISTANT_ENABLED)
+          .trim()
+          .toLowerCase();
+        var on = raw !== "" && raw !== "0" && raw !== "false" && raw !== "no" && raw !== "off";
+        if (on) {
+          document.documentElement.classList.add("ask-live");
+        }
+      })();
+    </script>
     
     <style>
         body {
@@ -20,10 +34,17 @@
 
         .search-container {
             text-align: center;
-            margin-top: 30vh; /* Ajustez cette valeur selon vos besoins */
+            margin-top: 12vh;
+            padding: 0 1rem 6rem;
         }
 
-        /* SEARCH */
+        /* Classic home search stays in the page. Ask replaces it when ENABLE_DOC_ASSISTANT is on. */
+        html.ask-live .md-search,
+        html.ask-live #search-form {
+            display: none !important;
+        }
+
+        /* Classic home search (master) — #search-form + relocated .md-search */
         .search-bar {
             background-color: #ffffff00;
             cursor: none;
@@ -31,7 +52,7 @@
             height: 70px;
             padding: 10px;
             font-size: 16px;
-            margin-bottom: 20px; /* Espacement entre la barre de recherche et les boutons */
+            margin-bottom: 20px;
         }
         .md-search__inner {
             width: 100%!important;
@@ -58,21 +79,420 @@
             width: 100%!important;
         }
 
-        /* BUTTONS */
+        .ask-home {
+            width: min(40rem, calc(100% - 5.5rem));
+            margin: 0 auto 1.75rem;
+            text-align: left;
+            font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+        }
+
+        .ask-home-stage {
+            position: relative;
+        }
+
+        .ask-home-toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            padding: 0 0.25rem;
+        }
+
+        .ask-home-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.55rem;
+            min-width: 0;
+        }
+
+        .ask-home-eyebrow {
+            margin: 0;
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 1.15rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+        }
+
+        .ask-beta {
+            flex-shrink: 0;
+            display: inline-flex;
+            align-items: center;
+            padding: 0.18rem 0.5rem;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.65);
+            background: rgba(255, 255, 255, 0.18);
+            color: #fff;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            line-height: 1;
+        }
+
+        .ask-trust {
+            flex-shrink: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 0.35rem 1rem;
+            margin: 0.55rem 0.2rem 0.1rem;
+            padding: 0 0.15rem;
+            font-size: 0.68rem;
+            line-height: 1.35;
+            color: rgba(255, 255, 255, 0.88);
+            text-shadow: 0 1px 8px rgba(0, 0, 0, 0.28);
+        }
+
+        .ask-trust-human a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .ask-trust-slogan {
+            font-style: italic;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        .ask-home-new {
+            border: 1px solid rgba(255, 255, 255, 0.55);
+            background: rgba(255, 255, 255, 0.14);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: #fff;
+            font-size: 0.78rem;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 0.4rem 0.85rem;
+            border-radius: 999px;
+            transition: background 0.15s ease, transform 0.15s ease;
+        }
+
+        .ask-home-new:hover {
+            background: rgba(255, 255, 255, 0.28);
+            transform: translateY(-1px);
+        }
+
+        .ask-home-glass {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 16rem;
+            height: min(58vh, 32rem);
+            max-height: min(58vh, 32rem);
+            padding: 0.75rem 0.85rem 0.85rem;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.45);
+            background: linear-gradient(
+                160deg,
+                rgba(255, 255, 255, 0.42) 0%,
+                rgba(255, 255, 255, 0.22) 100%
+            );
+            box-shadow:
+                0 20px 50px rgba(0, 30, 20, 0.28),
+                inset 0 1px 0 rgba(255, 255, 255, 0.55);
+            backdrop-filter: blur(18px) saturate(1.2);
+            -webkit-backdrop-filter: blur(18px) saturate(1.2);
+        }
+
+        .ask-home-messages {
+            flex: 1 1 auto;
+            min-height: 0;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            display: flex;
+            flex-direction: column;
+            gap: 0.55rem;
+            padding: 0.25rem 0.35rem 0.5rem 0.15rem;
+            scroll-behavior: smooth;
+        }
+
+        .ask-home-messages.is-empty {
+            justify-content: center;
+            min-height: 5rem;
+        }
+
+        .ask-home-status {
+            flex-shrink: 0;
+            min-height: 0.9rem;
+            margin: 0 0.15rem 0.35rem;
+            padding: 0.2rem 0.55rem;
+            font-size: 0.65rem;
+            line-height: 1.3;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+            text-align: right;
+            opacity: 0.85;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .ask-home-status:empty {
+            display: none;
+        }
+
+        .ask-home-composer {
+            display: flex;
+            align-items: flex-end;
+            gap: 0.55rem;
+            padding: 0.35rem;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.88);
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            box-shadow: 0 10px 30px rgba(0, 40, 25, 0.16);
+        }
+
+        #ask-home-input {
+            flex: 1;
+            border: none;
+            background: transparent;
+            resize: none;
+            min-height: 2.4rem;
+            max-height: 5rem;
+            padding: 0.6rem 0.75rem 0.6rem 0.95rem;
+            font: inherit;
+            font-size: 0.85rem;
+            color: #1a1a1a;
+            line-height: 1.4;
+        }
+
+        #ask-home-input:focus {
+            outline: none;
+        }
+
+        #ask-home-input::placeholder {
+            color: #8a9690;
+        }
+
+        .ask-home-send {
+            flex-shrink: 0;
+            width: 2.55rem;
+            height: 2.55rem;
+            margin: 0.2rem 0.2rem 0.2rem 0;
+            border: none;
+            border-radius: 50%;
+            background: #006c46;
+            color: #fff;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 16px rgba(0, 108, 70, 0.35);
+            transition: transform 0.15s ease, background 0.15s ease;
+        }
+
+        .ask-home-send svg {
+            width: 1.05rem;
+            height: 1.05rem;
+            fill: currentColor;
+        }
+
+        .ask-home-send:hover {
+            background: #005538;
+            transform: scale(1.04);
+        }
+
+        .ask-home-send:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .ask-home .doc-chat-msg {
+            max-width: 90%;
+            padding: 0.55rem 0.75rem;
+            border-radius: 14px;
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-size: 0.8rem;
+            line-height: 1.4;
+            box-shadow: 0 4px 14px rgba(0, 30, 20, 0.08);
+        }
+
+        .ask-home .doc-chat-msg--user {
+            align-self: flex-end;
+            background: rgba(0, 108, 70, 0.92);
+            color: #fff;
+            border-bottom-right-radius: 6px;
+        }
+
+        .ask-home .doc-chat-msg--bot {
+            align-self: flex-start;
+            background: rgba(255, 255, 255, 0.82);
+            border: 1px solid rgba(255, 255, 255, 0.55);
+            color: #1a1a1a;
+            border-bottom-left-radius: 6px;
+        }
+
+        .ask-home .doc-chat-msg--welcome {
+            align-self: center;
+            max-width: 92%;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.55);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            color: #24352e;
+            box-shadow: none;
+            font-size: 0.8rem;
+        }
+
+        .ask-home .doc-chat-msg--error {
+            align-self: stretch;
+            background: rgba(255, 244, 242, 0.92);
+            border: 1px solid #f0c2ba;
+            color: #8a2a1a;
+        }
+
+        .ask-home .doc-chat-sources {
+            margin-top: 0.45rem;
+            padding-top: 0.4rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+            font-size: 0.72rem;
+        }
+
+        .ask-home .doc-chat-sources strong {
+            display: block;
+            margin-bottom: 0.25rem;
+            color: #5a6b63;
+        }
+
+        .ask-home a.doc-chat-source-link,
+        .ask-home a.doc-chat-inline-link {
+            color: #006c46;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        .ask-home a.doc-chat-source-link {
+            display: block;
+            margin: 0.15rem 0;
+        }
+
+        /* Messenger-style conversation bubbles (outside chat, right) */
+        .ask-home-threads {
+            position: absolute;
+            left: calc(100% + 0.75rem);
+            top: 3.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.45rem;
+            z-index: 2;
+            max-height: min(58vh, 32rem);
+            overflow: visible;
+        }
+
+        .ask-home-thread {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 0.4rem;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            padding: 0;
+            max-width: 11rem;
+        }
+
+        .ask-home-thread-label {
+            opacity: 0;
+            transform: translateX(-6px);
+            pointer-events: none;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 0;
+            padding: 0.28rem 0.55rem;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.92);
+            color: #1a1a1a;
+            font-size: 0.65rem;
+            font-weight: 600;
+            box-shadow: 0 6px 16px rgba(0, 30, 20, 0.18);
+            transition: opacity 0.15s ease, transform 0.15s ease, max-width 0.15s ease;
+        }
+
+        .ask-home-thread:hover .ask-home-thread-label,
+        .ask-home-thread:focus-visible .ask-home-thread-label {
+            opacity: 1;
+            transform: translateX(0);
+            max-width: 8rem;
+            pointer-events: auto;
+        }
+
+        .ask-home-thread-dot {
+            flex-shrink: 0;
+            width: 2.15rem;
+            height: 2.15rem;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.85);
+            background: rgba(0, 108, 70, 0.88);
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 14px rgba(0, 40, 25, 0.28);
+            transition: transform 0.15s ease, background 0.15s ease;
+        }
+
+        .ask-home-thread:hover .ask-home-thread-dot,
+        .ask-home-thread.is-active .ask-home-thread-dot {
+            transform: scale(1.06);
+            background: #005538;
+        }
+
+        .ask-home-thread.is-active .ask-home-thread-dot {
+            outline: 2px solid rgba(255, 255, 255, 0.95);
+            outline-offset: 1px;
+        }
+
+        /* BUTTONS — rounded to match Ask BroodMinder */
         .button-container {
             display: flex;
             justify-content: center;
         }
         .md-button.md-small {
-            height: 45px;
-            /*line-height: 40px;
-            min-height: 40px;*/
-            vertical-align: middle;
-            font-size: 15px;
-            padding: 10 0;
+            box-sizing: border-box;
+            display: inline-flex !important;
+            align-items: center;
+            justify-content: center;
+            height: 44px;
+            min-height: 44px;
+            line-height: 1 !important;
+            font-size: 0.88rem;
+            font-weight: 600;
+            padding: 0 1.35rem !important;
+            border-radius: 999px !important;
+            box-shadow: 0 8px 20px rgba(0, 40, 25, 0.18);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .md-button.md-small:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 10px 24px rgba(0, 40, 25, 0.22);
+        }
+        .md-button--primary.md-small {
+            border: 1px solid rgba(255, 255, 255, 0.25);
         }
         .md-button--white {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.92);
+            border: 1px solid rgba(0, 108, 70, 0.35);
+            color: #006c46;
+        }
+        #desktopScreen .md-button.md-small {
+            margin: 0 0.35rem;
+        }
+        #mobileScreen .md-button.md-small {
+            border-radius: 999px !important;
         }
 
         /* FOOTER */
@@ -104,17 +524,52 @@
         .md-header{position:initial}
         .md-main__inner{margin:0}
         .md-content{display:none}
+        @media screen and (max-width: 960px) {
+            .ask-home-threads {
+                position: static;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 0.75rem;
+                max-height: none;
+                right: auto;
+                top: auto;
+            }
+
+            .ask-home-thread-label {
+                display: none;
+            }
+        }
+
         @media screen and (max-width: 768px) {
+            .search-container {
+                margin-top: 8vh;
+            }
+
             .search-bar {
                 width: 90%;
             }
 
+            .ask-home {
+                width: min(40rem, 100%);
+            }
+
+            .ask-home-eyebrow {
+                font-size: 1.05rem;
+            }
+
+            .ask-home-glass {
+                height: min(52vh, 28rem);
+                max-height: min(52vh, 28rem);
+                border-radius: 20px;
+            }
+
             .button-container {
-                flex-wrap: wrap; /* Permet aux boutons de passer à la ligne sur les petits écrans */
+                flex-wrap: wrap;
             }
 
             .button {
-                margin: 5px; /* Ajustez l'espacement entre les boutons pour les petits écrans */
+                margin: 5px;
             }
         }
         @media screen and (min-width: 60em) {

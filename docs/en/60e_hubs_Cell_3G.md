@@ -10,7 +10,7 @@ These hubs collect data from nearby BroodMinder devices and automatically transm
 
 This guide covers installation, configuration, maintenance, and troubleshooting for these legacy models.
 
-![BroodMinder-Cell 3G Hub](../assets/60_hubs.assets/3G_Hub/hub_gsm_old.png)
+![BroodMinder-Cell 3G Hub](/assets/60_hubs.assets/3G_Hub/hub_gsm_old.png)
 
 ---
 
@@ -62,7 +62,7 @@ The BroodMinder-Cell hub can be installed in several configurations depending on
 
 The mounting bracket on the back of the electronics enclosure can be reversed to accommodate different mounting arrangements.
 
-![Installation examples](../assets/images/9_installation.png#largeImg)
+![Installation examples](/assets/images/9_installation.png#largeImg)
 
 ### Installation Recommendations
 
@@ -183,15 +183,15 @@ When the hub starts, you should normally observe the following sequence:
 
 ### Startup Images
 
-![Startup step 1](../assets/60_hubs.assets/3G_Hub/start1.JPG#mediumImg)
+![Startup step 1](/assets/60_hubs.assets/3G_Hub/start1.JPG#mediumImg)
 
-![Startup step 2](../assets/60_hubs.assets/3G_Hub/start2.JPG#mediumImg)
+![Startup step 2](/assets/60_hubs.assets/3G_Hub/start2.JPG#mediumImg)
 
-![Startup step 3](../assets/60_hubs.assets/3G_Hub/start3.JPG#mediumImg)
+![Startup step 3](/assets/60_hubs.assets/3G_Hub/start3.JPG#mediumImg)
 
-![Startup step 4](../assets/60_hubs.assets/3G_Hub/start4.JPG#mediumImg)
+![Startup step 4](/assets/60_hubs.assets/3G_Hub/start4.JPG#mediumImg)
 
-![Startup step 5](../assets/60_hubs.assets/3G_Hub/start5.JPG#mediumImg)
+![Startup step 5](/assets/60_hubs.assets/3G_Hub/start5.JPG#mediumImg)
 
 ### Checking the Modem Power
 
@@ -237,12 +237,12 @@ document.getElementById("yt-NesHA2rbpgM").addEventListener("click", function() {
 5. Lift the holder and remove the existing SIM card, if present.
 6. Insert the new SIM card in the correct orientation.
 
-    ![SIM card positioning](../assets/60_hubs.assets/3G_Hub/IMG_7755.JPG#mediumImg)
+    ![SIM card positioning](/assets/60_hubs.assets/3G_Hub/IMG_7755.JPG#mediumImg)
 
 7. Close the metal holder.
 8. Slide it downward to lock the SIM card in place.
 
-    ![SIM card installed](../assets/60_hubs.assets/3G_Hub/IMG_7757.JPG#mediumImg)
+    ![SIM card installed](/assets/60_hubs.assets/3G_Hub/IMG_7757.JPG#mediumImg)
 
 9. Reconnect the circuit board and restore power.
 
@@ -269,7 +269,7 @@ This can happen for several reasons:
 
 In the BroodMinder-Cell App, the hub may remain in the **Acquiring Cellular Service** state.
 
-![Acquiring cellular service](../assets/60_hubs.assets/3G_Hub/IMG_7749.JPG#mediumImg)
+![Acquiring cellular service](/assets/60_hubs.assets/3G_Hub/IMG_7749.JPG#mediumImg)
 
 In the BroodMinder Bees App, you may see:
 
@@ -277,7 +277,7 @@ In the BroodMinder Bees App, you may see:
 
 This can indicate that the hub has not successfully connected to the cellular network to retrieve the current time.
 
-![Connection issue in Bees App](../assets/60_hubs.assets/3G_Hub/IMG_6764.jpg#mediumImg)
+![Connection issue in Bees App](/assets/60_hubs.assets/3G_Hub/IMG_6764.jpg#mediumImg)
 
 !!! tip "First Troubleshooting Step"
     If the hub remains in the *Acquiring Cellular Service* state, begin by checking the APN configuration.
@@ -309,9 +309,9 @@ Open the BroodMinder-Cell App and navigate to:
 
 Enter the APN provided by your SIM operator.
 
-![APN configuration](../assets/60_hubs.assets/3G_Hub/IMG_7758.jpg#mediumImg)
+![APN configuration](/assets/60_hubs.assets/3G_Hub/IMG_7758.jpg#mediumImg)
 
-![Custom APN](../assets/60_hubs.assets/3G_Hub/IMG_7759.jpg#mediumImg)
+![Custom APN](/assets/60_hubs.assets/3G_Hub/IMG_7759.jpg#mediumImg)
 
 ### Option B: Using the BroodMinder Bees App
 
@@ -319,7 +319,7 @@ Although the legacy BroodMinder-Cell App provides more advanced diagnostic featu
 
 You can modify the APN for both BRM-44 and BRM-50 hubs directly from the Bees App.
 
-![APN configuration in Bees App](../assets/60_hubs.assets/3G_Hub/0_APN_BAPP.jpg)
+![APN configuration in Bees App](/assets/60_hubs.assets/3G_Hub/0_APN_BAPP.jpg)
 
 !!! note "After Changing the APN"
     After changing the APN, allow the hub to attempt a new cellular connection.
@@ -486,7 +486,7 @@ An incorrect APN can prevent the modem from establishing a cellular data connect
 
 The following example compares a failed connection caused by an incorrect APN with a successful connection.
 
-![Wrong APN versus correct APN](../assets/60_hubs.assets/3G_Hub/wrong_apn_trace.png#mediumImg)
+![Wrong APN versus correct APN](/assets/60_hubs.assets/3G_Hub/wrong_apn_trace.png#mediumImg)
 
 !!! tip "Diagnosing an APN Problem"
     If your trace resembles the failed example, verify the APN configured for your SIM card.

@@ -8,7 +8,7 @@ Although no longer sold, **BRM-46 hubs remain reliable, operational, and support
 
 This guide explains how to check the WiFi connection and troubleshoot a hub that has stopped uploading data.
 
-![BroodMinder-WiFi BRM-46](../assets/60_hubs.assets/wifiHub46-legacy/1-IMG_9601.JPG#mediumImg)
+![BroodMinder-WiFi BRM-46](/assets/60_hubs.assets/wifiHub46-legacy/1-IMG_9601.JPG#mediumImg)
 
 !!! info "Legacy Model"
     This page applies specifically to **BroodMinder-WiFi BRM-46** hubs.
@@ -48,7 +48,7 @@ For this procedure, you will need:
 
 Install and open the **BroodMinder-Cell App** on your smartphone.
 
-![BroodMinder-Cell App](../assets/60_hubs.assets/wifiHub46-legacy/2-IMG_9600.jpg#mediumImg)
+![BroodMinder-Cell App](/assets/60_hubs.assets/wifiHub46-legacy/2-IMG_9600.jpg#mediumImg)
 
 ### Step 2 — Select Your Hub
 
@@ -62,7 +62,7 @@ For example:
 
 Tap **Configure** to access the hub settings.
 
-![Select the hub](../assets/60_hubs.assets/wifiHub46-legacy/3-IMG_9596.jpg#mediumImg)
+![Select the hub](/assets/60_hubs.assets/wifiHub46-legacy/3-IMG_9596.jpg#mediumImg)
 
 !!! tip "Hub Not Found?"
     Make sure the hub is powered on and that Bluetooth is enabled on your smartphone.
@@ -75,7 +75,7 @@ From the configuration screen, tap **Diagnostics**.
 
 Then select **WiFi Network**.
 
-![Hub diagnostics](../assets/60_hubs.assets/wifiHub46-legacy/4-IMG_9597.PNG#mediumImg)
+![Hub diagnostics](/assets/60_hubs.assets/wifiHub46-legacy/4-IMG_9597.PNG#mediumImg)
 
 ---
 
@@ -87,7 +87,7 @@ On the WiFi Network screen, tap **Find Networks**.
 
 The hub will scan for nearby WiFi networks.
 
-![WiFi network settings](../assets/60_hubs.assets/wifiHub46-legacy/5-IMG_9598.PNG#mediumImg)
+![WiFi network settings](/assets/60_hubs.assets/wifiHub46-legacy/5-IMG_9598.PNG#mediumImg)
 
 The available networks will appear with their signal strength (RSSI).
 
@@ -105,7 +105,7 @@ The available networks will appear with their signal strength (RSSI).
 5. Leave the security setting on **WPA (Typical)** if appropriate for your network.
 6. Tap **Save Settings**.
 
-![Select and configure WiFi](../assets/60_hubs.assets/wifiHub46-legacy/6-IMG_9599.PNG#mediumImg)
+![Select and configure WiFi](/assets/60_hubs.assets/wifiHub46-legacy/6-IMG_9599.PNG#mediumImg)
 
 !!! warning "WiFi Password"
     WiFi network names and passwords are case-sensitive.
@@ -136,7 +136,7 @@ After saving the WiFi settings, tap **Test Connection**.
 
 The hub will attempt to connect to the selected WiFi network.
 
-![Test WiFi connection](../assets/60_hubs.assets/wifiHub46-legacy/6-IMG_9602.PNG#mediumImg)
+![Test WiFi connection](/assets/60_hubs.assets/wifiHub46-legacy/6-IMG_9602.PNG#mediumImg)
 
 ### Step 7 — Check the Communication Trace
 
@@ -154,7 +154,7 @@ You may also see:
 +WIND:25:WiFi Association with 'YOUR_NETWORK' successful
 ```
 
-![Successful WiFi handshake](../assets/60_hubs.assets/wifiHub46-legacy/7-IMG_9603.PNG#mediumImg)
+![Successful WiFi handshake](/assets/60_hubs.assets/wifiHub46-legacy/7-IMG_9603.PNG#mediumImg)
 
 !!! success "WiFi Connection Successful"
     If you see **WPA Handshake Complete**, the hub has successfully completed the WiFi authentication process.
@@ -187,7 +187,7 @@ A successful WiFi handshake confirms that the hub has connected to the WiFi netw
 3. Check the **Last Sent** date and time.
 4. Verify that the hub has recently uploaded data.
 
-![Hub last transmission in MyBroodMinder](../assets/60_hubs.assets/wifiHub46-legacy/8-mbm.png#largeImg)
+![Hub last transmission in MyBroodMinder](/assets/60_hubs.assets/wifiHub46-legacy/8-mbm.png#largeImg)
 
 !!! success "Data Transmission Confirmed"
     If the **Last Sent** timestamp has updated, your hub has successfully communicated with MyBroodMinder.

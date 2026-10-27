@@ -1,6 +1,6 @@
 # Retrofit a Atelec scale
 
-![image](../assets/36_sensors_DIY.assets/atelec.jpg){ style="display: block; margin: 0 auto" }
+![image](/assets/36_sensors_DIY.assets/atelec.jpg){ style="display: block; margin: 0 auto" }
 
 Here is how to retrofit a Atelec scale with the Broodminder DIY board. It's super easy.
 

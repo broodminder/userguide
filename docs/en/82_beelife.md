@@ -5,7 +5,7 @@
     
 <div align="center">
 <a href="https://youtu.be/-1p_x952-yo" target="_blank">
-  <img src="../assets/82_pollinatorhub/video.png" alt="Announcing EU Pollinator Hub Integration">
+  <img src="/assets/82_pollinatorhub/video.png" alt="Announcing EU Pollinator Hub Integration">
 </a>
 </div>
 
@@ -39,7 +39,7 @@ It is **open and open-source**, and is intended for researchers, beekeepers, far
 As a BroodMinder user, you can share your apiary data with the EU Pollinator Hub.
 Simply **check the Share option at the apiary level** to contribute directly to Europe’s pollinator-protection efforts.
 
-![image](../assets/82_pollinatorhub/share.png)
+![image](/assets/82_pollinatorhub/share.png)
 
 
 ## Data transmitted

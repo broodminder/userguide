@@ -3,16 +3,16 @@
 
 Multiscale-1 is a multi hive scale that uses single load cells for each hive. The classical setup is a 4-hive stand with combined with 4x200kg loadcells and a single XLR board.
 
-![BetterBee](../assets/36_sensors_DIY.assets/image-20230409110829483.png)
+![BetterBee](/assets/36_sensors_DIY.assets/image-20230409110829483.png)
 
 
 Above is an example build on a hive stand is available from [BetterBee](https://www.betterbee.com/wooden-hive-equipment-10-frame/LYHE4033.asp)
 
 Another similar set-up consisting on a 3 hive slots with single 200kg loadcell and plywood plate is described in the pictures below
 
-![Plywood](../assets/36_sensors_DIY.assets/multiscale1/IMG_2579.JPG)
-![Plywood](../assets/36_sensors_DIY.assets/multiscale1/IMG_2460.JPG)
-![Plywood](../assets/36_sensors_DIY.assets/multiscale1/IMG_2572.jpg)
+![Plywood](/assets/36_sensors_DIY.assets/multiscale1/IMG_2579.JPG)
+![Plywood](/assets/36_sensors_DIY.assets/multiscale1/IMG_2460.JPG)
+![Plywood](/assets/36_sensors_DIY.assets/multiscale1/IMG_2572.jpg)
 
 
 | Model         | Pros               | Cons  |

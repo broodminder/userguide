@@ -1,6 +1,6 @@
 # Winter Service  
 
-![image](../assets/88_winter_service/sync.jpg){ style="display: block; margin: 0 auto" }
+![image](/assets/88_winter_service/sync.jpg){ style="display: block; margin: 0 auto" }
 
 
 To ensure peace of mind and greater efficiency, we recommend servicing all of your devices at the **end of each season**. Starting the next season with devices that have **empty memory, fresh batteries, and updated firmware** will give you the best chance for success.  
@@ -21,12 +21,12 @@ If you’d prefer us to handle this for you, visit [BroodMinder-Refresh](https:/
 - **Gather all your devices** and bring them home for servicing in a comfortable environment.  
 - Perform a **full sync** of all devices using the Bees App (`Manage Tab > Sync`) to ensure no data is missed. Leave your phone syncing and enjoy a coffee (or two).  
 
-![Device Sync](../assets/88_winter_service/devices_sync.jpg#mediumImg)
+![Device Sync](/assets/88_winter_service/devices_sync.jpg#mediumImg)
 
 
 - Once syncing is complete move to the `Devices` tab and **check for firmware upgrades**.
 
-![Firmware Upgrade](../assets/88_winter_service/firmware_upgrade.png#mediumImg)
+![Firmware Upgrade](/assets/88_winter_service/firmware_upgrade.png#mediumImg)
 
 ---
 
@@ -99,7 +99,7 @@ Upgrading T91 is slightly different process compared to our other devices. We us
 
 - Check your current firmware version: Go to `Devices tab > Hub ID > ... > Show details`.  
 
-![](../assets/88_winter_service/hub_54_details_explained.jpg#mediumImg)  
+![](/assets/88_winter_service/hub_54_details_explained.jpg#mediumImg)  
 
 !!! tip "FOTA Upgrade Tips"  
     - We’re preparing **firmware version 3.4x** (Dec. 2024).  
@@ -114,7 +114,7 @@ Upgrading T91 is slightly different process compared to our other devices. We us
 4. Wait 2-3 minutes for the hub to reboot.  
 5. Verify the firmware update using the Bees App.  
 
-![](../assets/88_winter_service/hub54_FOTA.jpg)
+![](/assets/88_winter_service/hub54_FOTA.jpg)
 
 ---
 
@@ -216,7 +216,7 @@ We regularly release updates to improve device operation. Firmware updates use *
 4. Wait for 2-3 minutes.  
 5. Verify the update was successful in the BeesApp > Devices > ...  > Show details` firmware version is displayed
 
-![upgrade fw](../assets/88_winter_service/upgrade_fw_1500.jpg)
+![upgrade fw](/assets/88_winter_service/upgrade_fw_1500.jpg)
 
 
 If the update fails:  
@@ -259,7 +259,7 @@ Choose the method that best suits your needs.
 
 You can manually remove devices from hives either from the **Bees App** or from **MyBroodMinder**. You may also adjust the dates on which devices were installed in a given hive. The **`Configure > Devices`** panel is the easiest and most efficient way to perform these actions.
 
-![archive](../assets/88_winter_service/configuredevices.png)
+![archive](/assets/88_winter_service/configuredevices.png)
 
 
 ### Manage by hive 
@@ -268,11 +268,11 @@ If you are starting up with new hives, the recommended approach is to **Set the 
 
 In other words, with a single action you both **archive the hive** and **free the associated devices** for reassignment.
 
-![archive](../assets/88_winter_service/archivehive.png)
+![archive](/assets/88_winter_service/archivehive.png)
 
 Your archived hive will disappear from the left side bar but you can always access it in `Configure > Hives`
 
-![archive](../assets/88_winter_service/configurehives.png)
+![archive](/assets/88_winter_service/configurehives.png)
 
 ### Manage by apiary
 
@@ -281,7 +281,7 @@ If, over the course of the season, you created apiaries that no longer contain a
 If you plan to reuse an apiary in the future, keep it active. Please note that **deactivation is irreversible**.
 
 
-![archive](../assets/88_winter_service/configureapiaries.png)
+![archive](/assets/88_winter_service/configureapiaries.png)
 
 
 As a practical tip, you can rename an unused apiary by adding a prefix such as `z_` (for example, `z_my_unused_apiary`). This will move it down the list, away from your active apiaries. When you are ready to use it again, you can simply rename it back to bring it to the top of the list.

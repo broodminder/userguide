@@ -22,7 +22,7 @@ You can choose to export:
 - The **full history**, or  
 - Only the **currently displayed time span**
 
-![Export device data](../assets/50_mybroodminder_v5.assets/export/export_device.png)
+![Export device data](/assets/50_mybroodminder_v5.assets/export/export_device.png)
 
 ### Cleaning Data Before Export
 
@@ -36,14 +36,14 @@ This is especially useful if:
 
 Example of duplicate samples collected by two hubs (a WiFi WFC and a cellular H|54):
 
-![Data editor duplicates](../assets/50_mybroodminder_v5.assets/export/data_editor.png#largeImg)
+![Data editor duplicates](/assets/50_mybroodminder_v5.assets/export/data_editor.png#largeImg)
 
 ### Removing Duplicates Automatically
 
 At the bottom of the Data Editor page, use **`Remove duplicates`**.  
 This removes redundant samples in a single action.
 
-![Remove duplicates](../assets/50_mybroodminder_v5.assets/export/remove_duplicates.png#largeImg)
+![Remove duplicates](/assets/50_mybroodminder_v5.assets/export/remove_duplicates.png#largeImg)
 
 ### Removing Samples Manually
 
@@ -52,7 +52,7 @@ To delete specific readings (for example, a clear outlier):
 1. Select the samples  
 2. Click **`Remove Selected`**
 
-![Remove selected samples](../assets/50_mybroodminder_v5.assets/export/remove_sample.png#largeImg)
+![Remove selected samples](/assets/50_mybroodminder_v5.assets/export/remove_sample.png#largeImg)
 
 ---
 
@@ -60,7 +60,7 @@ To delete specific readings (for example, a clear outlier):
 
 Every custom dashboard includes a **Download mode**.
 
-![Dashboard download](../assets/50_mybroodminder_v5.assets/export/dashboard_dwld.png#largeImg)
+![Dashboard download](/assets/50_mybroodminder_v5.assets/export/dashboard_dwld.png#largeImg)
 
 From there, you can choose which type of data to export:
 
@@ -69,13 +69,13 @@ From there, you can choose which type of data to export:
 - **Daily readings** (e.g., algorithm-based metrics such as productivity, brood level, Nectar Flow Index, and other computed indicators)  
 - **Weather data**
 
-![Dashboard export options](../assets/50_mybroodminder_v5.assets/export/dashboard_dwld2.png#smallImg)
+![Dashboard export options](/assets/50_mybroodminder_v5.assets/export/dashboard_dwld2.png#smallImg)
 
 ### Files Generated
 
 The export generates multiple files:
 
-![Dashboard exported files](../assets/50_mybroodminder_v5.assets/export/dashboard_dwld3.png#largeImg)
+![Dashboard exported files](/assets/50_mybroodminder_v5.assets/export/dashboard_dwld3.png#largeImg)
 
 **Common files (all hives):**
 
@@ -106,7 +106,7 @@ For advanced research needs, we provide a **`Researcher Data Download`** feature
 
 Once enabled, you can export the **entire dataset** from an apiary.
 
-![Researcher export](../assets/50_mybroodminder_v5.assets/export/researcher_data.png#largeImg)
+![Researcher export](/assets/50_mybroodminder_v5.assets/export/researcher_data.png#largeImg)
 
 ### Customizing Your Research Export
 
@@ -116,7 +116,7 @@ You can configure:
 - Device models  
 - Selected hives  
 
-![Researcher export configuration](../assets/50_mybroodminder_v5.assets/export/researcher_data2.png)
+![Researcher export configuration](/assets/50_mybroodminder_v5.assets/export/researcher_data2.png)
 
 This option is ideal for:
 

@@ -1,6 +1,6 @@
 # BroodMinder-Cell T91
 
-![image](../assets/60_hubs.assets/Cell_T91.jpg){ style="display: block; margin: 0 auto" }
+![image](/assets/60_hubs.assets/Cell_T91.jpg){ style="display: block; margin: 0 auto" }
 
 
 The BroodMinder-T91 (BRM-54) Cell Hub is based on the Nordic "Thingy 91".
@@ -35,13 +35,13 @@ document.getElementById("yt-4Mh9DT7VblI").addEventListener("click", function() {
 
 Lifelong powered version.
 
-![solar](../assets/60_hubs.assets/image-20230408081237234.png#mediumImg)
+![solar](/assets/60_hubs.assets/image-20230408081237234.png#mediumImg)
 
 ### Weather version   
 
 Use the Weather Shield to protect the T91.
 
-![weather](../assets/60_hubs.assets/image-20230408083616388.png#mediumImg)
+![weather](/assets/60_hubs.assets/image-20230408083616388.png#mediumImg)
 
 ---
 
@@ -51,15 +51,15 @@ Use the Weather Shield to protect the T91.
 
 - Turn on the hub using the slide switch.
 
-   ![T91](../assets/60_hubs.assets/image-20230408082210955.png#mediumImg)
+   ![T91](/assets/60_hubs.assets/image-20230408082210955.png#mediumImg)
 
 - In the Bees App, go to the `Devices` tab and, like every other sensor, claim your hub. This will assign it to your account.
 
-   ![claim hub](../assets/60_hubs.assets/claim_hub.jpg#largeImg)
+   ![claim hub](/assets/60_hubs.assets/claim_hub.jpg#largeImg)
 
 - Enter the `... > Show details` menu.
 
-   ![hub details](../assets/60_hubs.assets/hub_details.jpg#largeImg)
+   ![hub details](/assets/60_hubs.assets/hub_details.jpg#largeImg)
 
 - Here you can check some key elements of your hub such as the firmware version, network signal and quality metrics, and selected carrier.  
 - At the bottom of the screen, there is a black console box displaying the current status of the hub (you must be close to the hub with your smartphone—this data is sent via Bluetooth). You can watch it boot and connect to the cloud. Most of the time, its normal status will be `tick` or `tock`, indicating smooth operation.
@@ -97,7 +97,7 @@ As a general rule:
 - If your hives are installed on a bench or stand, try to align the hub with the row of hives rather than placing it off to one side.
 
 
-![Install hub](../assets/20_quick_start_guide.assets/hub/hub_install.png)
+![Install hub](/assets/20_quick_start_guide.assets/hub/hub_install.png)
 
 
 Since firmware version **3.55**, hubs provide real-time Bluetooth signal strength measurements for each connected device. This allows you to experiment with different hub locations and immediately verify that all sensors remain within reliable communication range. Usign Bees App go to `Devices > Hub ID > ... > Show Details` and hit the `Show all devices` button 
@@ -105,12 +105,12 @@ Since firmware version **3.55**, hubs provide real-time Bluetooth signal strengt
 <table style="width:100%; border-collapse:collapse;">
   <tr>
     <td style="width:50%; text-align:center; padding:10px;">
-      <img src="../assets/60_hubs.assets/hub_scan1.jpg" alt="Bluetooth signal assessment" style="max-width:100%; height:auto;">
+      <img src="/assets/60_hubs.assets/hub_scan1.jpg" alt="Bluetooth signal assessment" style="max-width:100%; height:auto;">
       <br>
       <em>Hub scan overview</em>
     </td>
     <td style="width:50%; text-align:center; padding:10px;">
-      <img src="../assets/60_hubs.assets/hub_scan2.jpg" alt="Bluetooth signal assessment details" style="max-width:100%; height:auto;">
+      <img src="/assets/60_hubs.assets/hub_scan2.jpg" alt="Bluetooth signal assessment details" style="max-width:100%; height:auto;">
       <br>
       <em>Device signal levels</em>
     </td>
@@ -135,7 +135,7 @@ The quality of the cellular connection can be monitored from the Hub `Show Detai
 In most apiaries, the hub will establish a satisfactory connection without any special effort. However, if you experience connectivity issues, these metrics can help identify the cause and guide the search for a better location.
 
 
-![hub details](../assets/60_hubs.assets/hub_details_network.jpg#mediumImg)
+![hub details](/assets/60_hubs.assets/hub_details_network.jpg#mediumImg)
 
 For a deeper understanding of these metrics, refer to the [Interpreting Cellular Network Metrics](#interpreting-cellular-network-metrics) section below.
 
@@ -212,7 +212,7 @@ By default, it displays key metrics such as:
 
 These are generally self-explanatory.
 
-![hub1](../assets/60_hubs.assets/hub_chart_1.png)
+![hub1](/assets/60_hubs.assets/hub_chart_1.png)
 
 
 ### Hub Status
@@ -230,7 +230,7 @@ Now let's look at the remaining metrics on this chart, all related with network 
 
 Modern BroodMinder hubs report **3 key network quality metrics**:
 
-![hub2](../assets/60_hubs.assets/hub_chart_2.png)
+![hub2](/assets/60_hubs.assets/hub_chart_2.png)
 
 
 ### SNR – Signal to Noise Ratio
@@ -344,7 +344,7 @@ Select the position that provides:
 
 ### 5. Example: Before and After
 
-![starting status](../assets/60_hubs.assets/coverage/output.jpg)
+![starting status](/assets/60_hubs.assets/coverage/output.jpg)
 
 In this example:
 
@@ -403,7 +403,7 @@ and observe the main network parameters.
 
 Below is an example:
 
-![](./../assets/60_hubs.assets/antennas/hub_details.png)
+![](.//assets/60_hubs.assets/antennas/hub_details.png)
 
 On the left side, you can see that the hub is attempting to connect to the cellular network (either during boot or after a disconnection).  
 In the black box, the hub activity is shown in real time. In normal operation, it should alternate between *tick/tock* every few seconds, indicating that the system is running correctly (right side image).
@@ -514,14 +514,14 @@ Make sure you have the appropriate cable length or add an extension if needed.
 
 For advanced setups, we do not stock all antenna options and recommend sourcing them directly, as we do not add value in reselling them.
 
-We do offer an entry-level **External Antenna Kit** in our store. The antenna connects to the port labeled **“LTE”** on the Thingy91. A highly recommended 3D-printed support that will ease your life with the connector is also available [here](../assets/60_hubs.assets/antennas/T91AntennaSupport.stl)
+We do offer an entry-level **External Antenna Kit** in our store. The antenna connects to the port labeled **“LTE”** on the Thingy91. A highly recommended 3D-printed support that will ease your life with the connector is also available [here](/assets/60_hubs.assets/antennas/T91AntennaSupport.stl)
 
 #### Installation
 
-![Antenna_connector](../assets/60_hubs.assets/image-20230408084030343.png)
+![Antenna_connector](/assets/60_hubs.assets/image-20230408084030343.png)
 
 1. Insert the connector through the mounting bracket  
 2. Push it into the LTE connector  
 3. Secure with the screw  
 
-![Antenna_mount](../assets/60_hubs.assets/image-20230408084356882.png)
+![Antenna_mount](/assets/60_hubs.assets/image-20230408084356882.png)

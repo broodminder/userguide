@@ -1,17 +1,74 @@
-# userguide v1.5.10
+# userguide v2.0.14
+
+
+## Architecture
+
+Two separate pipelines share the same git repo: **translation** (VPS / CI) and **Ask BroodMinder** (Mac Mini + site widget).
+
+```mermaid
+flowchart TB
+  subgraph Authors["Editing"]
+    EN["docs/en/*.md<br/>source of truth"]
+  end
+
+  subgraph GitHub["Git — push master"]
+    Repo["userguide + userguide_utilities"]
+  end
+
+  subgraph VPS["VPS — CI / build.sh"]
+    T["translateFiles.py<br/>translation plugin"]
+    MK["mkdocs build<br/>all locales"]
+    WWW["Apache / doc.mybroodminder.com<br/>+ widget doc-chat.js"]
+    T --> MK --> WWW
+  end
+
+  subgraph Mac["Mac Mini — Tailscale"]
+    OL["Ollama<br/>bge-m3 + qwen2.5:14b"]
+    IDX["SQLite index<br/>python -m doc_assistant index"]
+    API["doc_assistant serve :8765<br/>assistant / RAG plugin"]
+    OL --> IDX
+    OL --> API
+    IDX --> API
+  end
+
+  subgraph Browser["Browser"]
+    UI["MkDocs site<br/>Ask BroodMinder widget"]
+  end
+
+  EN --> Repo
+  Repo -->|"pull + translate"| T
+  Repo -->|"sync docs/en + code"| IDX
+  Repo -->|"sync doc_assistant"| API
+  WWW --> UI
+  UI -->|"DOC_ASSISTANT_API<br/>userguide .env"| API
+```
+
+| Component | Where | Role |
+|-----------|--------|------|
+| **Translation** (`translateFiles.py`) | VPS / `build.sh` | EN → fr/es/… then MkDocs site |
+| **Assistant** (`doc_assistant`) | Mac Mini | Index EN + RAG API (Ollama) |
+| **Widget** (`doc-chat.js`) | Site (userguide) | Chat UI → URL from `DOC_ASSISTANT_API` |
+
+- Changing Mac = update `DOC_ASSISTANT_API` in `userguide/.env` and rebuild/redeploy the site.
+- Show / hide the widget: `ENABLE_DOC_ASSISTANT=1|0` in `userguide/.env`, then run **`./build.sh`** (or `build_local.sh`). The flag is baked into the static HTML at `mkdocs build` time, then copied to Apache (`/var/www/html/doc`). Changing `.env` alone does nothing until you rebuild + redeploy. That env var is the only on/off switch for the UI.
+- With `ENABLE_DOC_ASSISTANT=1`, Ask is shown immediately. If the Mac Mini API does not answer, the chat stays visible and shows a temporary unavailability message. Ops can still probe `GET /health` on the Mac (`userguide_utilities`) — the widget no longer uses it to hide itself.
+- Reindex on the Mac only when `docs/en` (or chunking) changes — not on every translation run.
+- Mac services: see `userguide_utilities/doc_assistant/deploy/`.
 
 ## Deployment
 
 !!!note
-    The following steps will deploy the userguide in local mode. It means that you will use the *light version* with only english language and no pdf export.
+    The following steps will deploy the userguide in local mode. It means that you will use the *light version* (`mkdocs_test.yml`: **English + French** only, no PDF export, no translation step).
 
 1. Clone the repo on the VPS
+
 `git clone https://github.com/broodminder/userguide /mellisphera/production/userguide`
 
 !!! note
     The path at the end is refered to the vhost VPS, you can choose the one that you want on local.
 
 2. Use a python virtualenv
+
 To manage different librairies version between *userguide*, *hiveminder*, *flowminder*, etc, we need to use a python environment. If you don't have already a python env, please use the following command.
 
   `pyenv virtualenv 3.11.2 userguide`
@@ -20,31 +77,42 @@ To manage different librairies version between *userguide*, *hiveminder*, *flowm
   `pyenv activate userguide`
 
 3. Install all packages
+
 `pip install -r requirements.txt`
 
 4. Create .env file and replace variables
+
 `cp .env.example .env`
 
 In the [.env](.env) file, replace the variable **USERNAME** by your local username from your machine.
 
 5. Export your environment
 
-`export $(grep -v '^#' .env | xargs -0)`
+`set -a && source .env && set +a`  
+(Prefer this over `export $(grep … | xargs)`: inline `# comments` and spaces in values break xargs.)
 
-6. Start the server
+6. Start the server (light, EN + FR, no translation)
 
-`mkdocs serve -f mkdocs_test.yml` using a modified yml file or to have a lighter build (with no lang translation nor pdf generation)
+`mkdocs serve -f mkdocs_test.yml`
 
+Or build + copy to Apache without running `translateFiles.py`:
+
+`./build_local.sh`  
+(`SKIP_DEPLOY=1 ./build_local.sh` to only fill `./site/`)
 
 7. Verify your site
-On localhost:3000 if you use local starter or on the DNS you choose on your apache2 configuration.
+
+On http://127.0.0.1:3200 if you use `mkdocs serve` (`dev_addr` in the yml), or on the DNS / path from your apache2 configuration (e.g. http://127.0.0.1/doc/ and http://127.0.0.1/doc/fr/).
 
 !!!note
-    But if you want to start the server with an apache2 configuration, you need to use the **build.sh** file which will build the documentation on copy it on the following folder `/var/www/html/doc`.
+    Full production deploy (all languages + translation + PDF) still uses **build.sh**, which copies to `/var/www/html/doc`.
 
-    `sudo ./build.sh`
+```
+`sudo ./build.sh`
+```
 
 ## Configuration file mkdocs.yml
+
 This file allows for multiple options and configuration.
 By default we are not changing much in it except site title, theme and new language (be carrefull, the whole translation process is based on the list of langs setted on the yaml file)
 
@@ -53,20 +121,22 @@ site_name: USER DOCUMENTATION
 theme: material
 nav:
 ```
+
 _nav_ would allow to force the site doc structure tree, but the default output is fine too
 
 ### Multi-lang management
-The documentation has only one lang **en**.
+
+**Source of truth in git:** only `docs/en/` (plus shared `docs/assets/`). Other locales (`fr`, `es`, …) are **generated on the server** by `translateFiles.py` and are not the editable source.
+
 Here is the main folder structure :
 
 ```
 docs\
-    en\*.md
-    fr\*.md
-    ...
+    en\*.md                 ← versioned content (English)
+    fr\*.md / es\ …         ← generated at build (not the git source)
     overrides\en\home.html
-    assets\**
-userguide_utilities\
+    assets\**               ← shared images (served as /assets/…)
+userguide_utilities\        ← git submodule (translation pipeline)
     translateFiles.py
     translation_glossary.py
 mkdocs.yml
@@ -78,6 +148,18 @@ filesChange.txt     (generated by build.sh)
 For now we have *en, fr, it, es, de, nl, ja, pt, nn, ar* languages (see **mkdocs.yml**).
 If we want to add a new lang, add it first in the **mkdocs.yml** i18n plugin, then deploy: the first build will copy `docs/en/` to `docs/<locale>/` and translate everything.
 
+#### Image / asset paths in Markdown
+
+Always use a **root-absolute** path so images work under every language prefix (`/`, `/fr/`, `/es/`, …):
+
+```markdown
+![WiFi Hub](/assets/60_hubs.assets/WIFI_Hub.jpg)
+<img src="/assets/60_hubs.assets/WIFI_Hub.jpg">
+```
+
+Do **not** use relative paths like `../assets/...` or `../../assets/...`: on `/fr/page/` the browser resolves them to `/fr/assets/...` → **404**.  
+The pipeline also rewrites `(../)+assets/` → `/assets/` before and after translation as a safety net. Never translate folder or file names inside asset paths (e.g. keep `30_sensors.assets`, not `30_sensores.assets`).
+
 ### Automated translation (`translateFiles.py`)
 
 On the server, **build.sh** runs:
@@ -88,19 +170,23 @@ On the server, **build.sh** runs:
 
 The script only processes paths containing `/en/` (`.md` or `.html`). For each target locale in `mkdocs.yml` (except `en`):
 
-- **New locale** (no `docs/<lang>/` yet): copy `docs/en/` and `docs/overrides/en/`, then translate all files.
+- **New locale** (no `docs/<lang>/` yet): copy `docs/en/` and `docs/overrides/en/`, then translate all files (**full corpus × API cost** — avoid creating missing locale folders by accident).
 - **Existing locale**: copy each changed English file to `docs/<lang>/...` and run the translation pipeline on that copy.
+
+> **Cost tip:** every path listed in `filesChange.txt` under `docs/en/` is translated into **all** locales. A large EN-only path fix committed then deployed via `build.sh` can trigger a big GPT bill. Prefer an empty / controlled `filesChange.txt` (or skip the translate step) when you only need `mkdocs build`.
 
 #### Pipeline inside `translateFile` (per file)
 
 | Step | Function | Role |
 |------|----------|------|
-| 1 | `extract_i18n_video_directives` | Removes `<!-- i18n:video ... -->` comments; stores locale → YouTube id + thumbnail path |
-| 2 | `protect_non_translatable_blocks` | Replaces `<script>`, YouTube `<div id="yt-...">`, etc. with tokens (LLM must not break them) |
-| 3 | `translateText` → `MyBroodMinder.invoke` | LLM translates markdown + translatable HTML (`<h2>`, `<p>`, … inside tables) |
-| 4 | `restore_protected_blocks` | Puts protected HTML/JS back unchanged |
-| 5 | `apply_wrong_locale_term_fixes` | Fixes glossary leaks (e.g. French *rucher* on an Italian page) from `RAG_AI.txt` |
-| 6 | `apply_i18n_video_directives` | Swaps video ids, embed URLs and thumbnail paths for the target locale |
+| 1 | `prevent_asset_path` | Rewrites `(../)+assets/` → `/assets/` (HTML + Markdown) |
+| 2 | `extract_i18n_video_directives` | Removes `<!-- i18n:video ... -->` comments; stores locale → YouTube id + thumbnail path |
+| 3 | `protect_non_translatable_blocks` | Replaces `<script>`, YouTube `<div id="yt-...">`, etc. with tokens |
+| 4 | `protect_paths` | Tokenizes Markdown / `src` / `href` destinations so the LLM cannot alter URLs or file paths |
+| 5 | `translateText` | OpenAI GPT translates markdown + translatable HTML (`<h2>`, `<p>`, … inside tables) |
+| 6 | `restore_protected_blocks` + `restore_paths` + `prevent_asset_path` | Restores tokens; re-normalizes asset paths |
+| 7 | `apply_wrong_locale_term_fixes` | Fixes glossary leaks (e.g. French *rucher* on an Italian page) from `RAG_AI.txt` |
+| 8 | `apply_i18n_video_directives` | Swaps video ids, embed URLs and thumbnail paths for the target locale |
 
 Skipped files: `index.md`, `void.md`, anything under `/templates/`.
 
@@ -108,9 +194,9 @@ Skipped files: `index.md`, `void.md`, anything under `/templates/`.
 
 | Variable | Purpose |
 |----------|---------|
-| `OVH_AI_ENDPOINTS_ACCESS_TOKEN` | Required for translation (Qwen on OVH AI Endpoints) |
-| `TRANSLATION_MODEL` | Model name (default: `Qwen3-32B`) |
-| `OPENAI_API_MODEL` | Used for token counting estimate only |
+| `OPENAI_API_KEY` | Required for translation (OpenAI GPT) |
+| `OPENAI_API_MODEL` | GPT model (default: `gpt-4o-mini`) |
+| `OVH_AI_ENDPOINTS_ACCESS_TOKEN` | Optional (OVH / MyBroodMinder, not used by translateText) |
 | `RAG_AI_SETTINGS` | Optional path to glossary file (default: `./RAG_AI.txt`) |
 
 Local run:
@@ -118,7 +204,7 @@ Local run:
 ```bash
 pyenv activate userguide
 cd /path/to/userguide
-export $(grep -v '^#' .env | xargs)
+set -a && source .env && set +a
 echo "docs/en/my_page.md" > filesChange.txt   # or use git diff output
 python userguide_utilities/translateFiles.py
 ```
@@ -224,39 +310,38 @@ plugins:
                 About: A propos
 ```
 
-After you finish everything, translation runs on the server at the end of the pull via **OVH AI Endpoints** (Qwen, see `TRANSLATION_MODEL`). Large pages are split into chunks; a full locale copy on first add can take a while.
-
-
-
+After you finish everything, translation runs on the server at the end of the pull via **OpenAI GPT** (`OPENAI_API_MODEL`). Large pages are split into chunks (~2000 tokens); a full locale copy on first add can take a while.
 
 ## Annexes
+
 ### Using mkdocs
 
 You have different commands to use the mkdocs framework.
 
 **Create new project**
-```mkdocs new my-project```
+`mkdocs new my-project`
 
 **Launch the development server at http://127.0.0.1:8000 (default)**
-```mkdocs serve```
+`mkdocs serve`
 
 **Building the documentation html site**
-```mkdocs build```
+`mkdocs build`
 
+#### Utility
 
-#### Utility 
 - MKDocs user guide https://www.mkdocs.org/
 - converting Word to Markdown https://word2md.com/
 - converting to pdf https://github.com/zhaoterryy/mkdocs-pdf-export-plugin This one is still explored, having an issue ongoing
 - NOTE : Install all missing libraries with brew (same installer for python and mkdocs) to have everything in the same path
 
 #### Mkdocs-Material reference
+
 This resource details all available plugins and options for Material Theme
 https://squidfunk.github.io/mkdocs-material/
 https://squidfunk.github.io/mkdocs-material/reference/lists/
 
-
 ## Building a PDF file out of it
+
 use the mkdocs-pdf-export-plugin
 https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
 Note that this plugin is based onto WeasyPrint

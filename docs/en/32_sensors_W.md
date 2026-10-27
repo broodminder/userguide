@@ -1,5 +1,5 @@
 
-![image](../assets/30_sensors.assets/device_w.png){ style="display: block; margin: 0 auto" }
+![image](/assets/30_sensors.assets/device_w.png){ style="display: block; margin: 0 auto" }
 
 !!! note
 
@@ -76,9 +76,9 @@ In general, it is better to place the Broodminder-W out of the sun. This is beca
 Next you will cut the bottom board. For the angle iron side, you will cut a groove the width of your saw blade that the point of the angle will fit in. For the scale side, you will cut a notch 3/16" deep that ends 1" inside the center of the hive body wall. See the images below.
 
 
-![image](../assets/images/04_accurate_w_01.png#largeImg)
+![image](/assets/images/04_accurate_w_01.png#largeImg)
 
-![image](../assets/images/04_accurate_w_02.png#largeImg)
+![image](/assets/images/04_accurate_w_02.png#largeImg)
 
 ### Maintenance
 
