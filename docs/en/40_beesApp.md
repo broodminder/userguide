@@ -49,7 +49,7 @@ Key features include:
 
 The Apiaries tab displays information about the selected apiary.
 
-![Apiaries TAB](/assets/40_beesApp.assets/Apiary.png#largeImg)
+![Apiaries TAB](../assets/40_beesApp.assets/Apiary.png#largeImg)
 
 1. Notes from the latest inspection appear in the upper-left corner, while expected nectar flow (based on WeatherSource forecasts) is shown on the graph.
 
@@ -64,7 +64,7 @@ The Apiaries tab displays information about the selected apiary.
 
 The Hives tab provides a quick overview of every hive within the selected apiary.
 
-![Hives TAB](/assets/40_beesApp.assets/Hives1.png#largeImg)
+![Hives TAB](../assets/40_beesApp.assets/Hives1.png#largeImg)
 
 Across the top, each hive displays:
 
@@ -73,7 +73,7 @@ Across the top, each hive displays:
 - Hive fitness indicator
 - Alert indicator (red badge) when attention is required
 
-![Hives TAB detail](/assets/40_beesApp.assets/Hives_tab_square_detail2.jpg)
+![Hives TAB detail](../assets/40_beesApp.assets/Hives_tab_square_detail2.jpg)
 
 Selecting a hive updates the graphs below.
 
@@ -81,7 +81,7 @@ Selecting a hive updates the graphs below.
 2. **Brood** estimates brood production using internal hive temperature and local weather.
 3. **Alerts** highlight conditions requiring attention. Alert settings are configured in MyBroodMinder under **Configure → Alerts**.
 
-![Hives TAB 2](/assets/40_beesApp.assets/Hives2.png#largeImg)
+![Hives TAB 2](../assets/40_beesApp.assets/Hives2.png#largeImg)
 
 The integrated note system provides a complete digital hive logbook and powers inspection workflows.
 
@@ -103,7 +103,7 @@ The **Manage** tab is used to synchronize apiaries, configure devices, and organ
 
 A MyBroodMinder account (Free or Premium) is required because your hive configuration is stored securely in the cloud.
 
-![Manage TAB](/assets/40_beesApp.assets/Manage.png#largeImg)
+![Manage TAB](../assets/40_beesApp.assets/Manage.png#largeImg)
 
 1. Displays all hives and their current sensor readings.
 
@@ -136,10 +136,39 @@ Tap any warning icon to learn about battery, firmware, or other device issues.
 
 Individual devices can be synchronized from the **...** menu.
 
-![Devices TAB](/assets/40_beesApp.assets/Devices.png#largeImg)
+![Devices TAB](../assets/40_beesApp.assets/Devices.png#largeImg)
 
 !!! tip
     Use the filter button to display only nearby devices. Pull down to refresh the list and verify Bluetooth communication with each BroodMinder device.
+
+
+### Advanced Device Management
+
+To access detailed information about a sensor, open the **Devices** list in the Bees app, tap the `...` menu next to the device, and select `Show details`.
+
+![Devices TAB](../assets/40_beesApp.assets/device_details.jpg#mediumImg)
+
+
+The **Device Details** screen displays information about your sensor. From there, tap the `...` menu in the top-right corner to access advanced device management options:
+
+![Devices TAB](../assets/40_beesApp.assets/device_settings.jpg#mediumImg)
+
+- **Sync:** Manually synchronize the device to retrieve its latest data. This is another convenient way to trigger synchronization.
+
+- **Set Rate:** Change the sensor's measurement interval from the default **1 hour** to **15 minutes** or **5 minutes** for more detailed monitoring. Keep in mind that higher sampling rates increase battery consumption and memory usage.
+
+- **Clear Device Log:** Erase all measurements stored in the sensor's internal memory. **⚠️ Always synchronize your device before using this option**, as any unsynchronized data will be permanently lost.
+
+- **Troubleshooting:** Access diagnostic tools to help investigate technical issues, typically under the guidance of BroodMinder Support.
+
+- **Delete Local Data:** Remove the device's data stored locally on your smartphone. This does not erase the sensor's internal memory or data already uploaded to the cloud.
+
+- **Battery Saver Info:** View information about the device's battery-saving mode and how it affects operation.
+
+- **Upload Local Data:** Manually upload data stored on your smartphone to the BroodMinder cloud. This can be useful if you collected sensor readings while your phone had no internet connection. **Under normal circumstances, no action is needed**, as the app automatically uploads your data when connectivity is available.
+
+!!! tip "For everyday use"
+    Most users will never need these advanced options. The Bees app handles data collection, synchronization, and cloud uploads automatically. Use these settings only when you need to adjust measurement frequency, manage stored data, or troubleshoot a device.
 
 ---
 
@@ -153,7 +182,7 @@ Firmware updates can be enabled by turning on **Show available firmware updates*
 
 This option is normally disabled unless firmware updates are available. 
 
-![Settings TAB](/assets/40_beesApp.assets/Settings.png#largeImg)
+![Settings TAB](../assets/40_beesApp.assets/Settings.png#largeImg)
 
 
 ### Regional settings
@@ -166,7 +195,7 @@ The **Regional settings** page lets you customize how information is displayed t
 
 Access this page from **User Settings** by tapping the `...` menu in the upper-right corner and selecting **Edit Preferences**.
 
-![Regional Settings](/assets/40_beesApp.assets/regional.jpg)
+![Regional Settings](../assets/40_beesApp.assets/regional.jpg)
 
 !!! tip "Shared across your BroodMinder account"
     Your regional preferences are synchronized with your **mybroodminder.com** account. You can edit them either in BeesApp or on the **[mybroodminder.com User Settings](https://mybroodminder.com/app/settings)** page. Changes made in one place are automatically applied everywhere, so you only need to update them once.
@@ -217,7 +246,7 @@ SubHub devices continuously listen for nearby BroodMinder sensors.
 
 Selecting the **...** menu beside a SubHub opens additional management options.
 
-![SubHub](/assets/40_beesApp.assets/subhub_devices.png#largeImg)
+![SubHub](../assets/40_beesApp.assets/subhub_devices.png#largeImg)
 
 ### SubHub Details
 
@@ -226,7 +255,7 @@ This page allows you to:
 - Synchronize all collected data
 - View live sensor information
 
-![SubHub Details](/assets/40_beesApp.assets/subhub_details.png#largeImg)
+![SubHub Details](../assets/40_beesApp.assets/subhub_details.png#largeImg)
 
 ### SubHub Show All Devices
 
@@ -234,7 +263,7 @@ This screen displays every Bluetooth device currently detected by the SubHub.
 
 By disabling **BroodMinder Devices Only**, you can view all Bluetooth Low Energy (BLE) devices within range.
 
-![SubHub Devices](/assets/40_beesApp.assets/subhub_show.png#largeImg)
+![SubHub Devices](../assets/40_beesApp.assets/subhub_show.png#largeImg)
 
 !!! tip
     This page is especially useful when positioning a SubHub for maximum coverage. It lets you verify exactly which devices are being received before permanently installing the gateway.

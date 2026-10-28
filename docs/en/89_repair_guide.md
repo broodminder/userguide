@@ -28,7 +28,7 @@ Most issues are software issues. In general, they get solved in the app or on My
 !!! Note
 
     This chapter mainly applies to old boards `B42` shipped on TH (model 42) and W (model 43) from 2016 to 2019 (see picture below)
-    ![image-20230409125756254](/assets/89_repair_guide.assets/image-20230409125756254.png#mediumImg)
+    ![image-20230409125756254](../assets/89_repair_guide.assets/image-20230409125756254.png#mediumImg)
 
 The typical cause for fast battery drain is a partially shorted decoupling capacitor. They are used to add a bit of life to the battery (ironic huh?) and to ensure stable supply voltage. As time as gone on, we have become more aggressive with conformal coating. I have been told by companies making solder, that the new, more environmentally formulations for flux are the root cause. In particular, moisture can get trapped underneath capacitors and create a current path between pads. (This has also led us to use larger components in more recent designs.)
 
@@ -36,11 +36,11 @@ This is easy to measure if you have a DVM (current meter) that reads into the uA
 
 If you have a lot of devices, there is a new meter, the [Nordic Power Profiler Kit (PPK2)](https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF-PPK2/13557476?utm_adgroup=Semiconductor%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Semiconductor%20Modules&gclid=Cj0KCQjwxMmhBhDJARIsANFGOSurc6RtFEOoNZ9OBuHry3w8bsyAU9aHl9WpZDuVnfX09fInn3-Yu-gaAhErEALw_wcB) and it works great and is about $100.
 
-Note that the power may be applied on the connector as shown. Pin 1 (the square pad) is ground, pin 2 is 3.0 volts.                                   ![image-20230409125728781](/assets/89_repair_guide.assets/image-20230409125728781.png)
+Note that the power may be applied on the connector as shown. Pin 1 (the square pad) is ground, pin 2 is 3.0 volts.                                   ![image-20230409125728781](../assets/89_repair_guide.assets/image-20230409125728781.png)
 
 ​       In this picture I have circled the typical capacitors which cause problems. Both may be removed with almost no change in performance. If you do want to replace them, here is the info. Start with the 100uF one on the left.
 
-![image-20230409125756254](/assets/89_repair_guide.assets/image-20230409125756254.png#mediumImg)
+![image-20230409125756254](../assets/89_repair_guide.assets/image-20230409125756254.png#mediumImg)
 
 Large 100 uF Digikey: 478-8155-2-ND or equivalent
 
@@ -65,7 +65,7 @@ We try to get the best parts possible, but sometimes it doesn’t work out. We h
 2) We have had good luck with restoring operation by pressing the button repeatedly. As soon as you see the LED flash you know you’re on the right track. Push it quickly (3-4 times per second) for 30 seconds or so. We have seen most buttons work after this process.
 3) Ignore the problem and use a knife to short across the switch terminals thus actuating the switch.
 
-![image-20230409130155350](/assets/89_repair_guide.assets/image-20230409130155350.png) You can see the switch guts on the board to the left. It is a “snap dome” switch which should be super reliable. Our best guess is that the dome was contaminated, and a thin film formed preventing contact. Aggressive repeated pressing seems to break through. YMMV.
+![image-20230409130155350](../assets/89_repair_guide.assets/image-20230409130155350.png) You can see the switch guts on the board to the left. It is a “snap dome” switch which should be super reliable. Our best guess is that the dome was contaminated, and a thin film formed preventing contact. Aggressive repeated pressing seems to break through. YMMV.
 
 ## REPAIR – Assemble the BroodMinder-W+ BRM-57 (built after 2020)
 
@@ -77,7 +77,7 @@ Secure the parts together with the screws, but do not tighten the screws.
 
 Put the plastic rain shield back on.
 
-![image-20230409130228084](/assets/89_repair_guide.assets/image-20230409130228084.png)
+![image-20230409130228084](../assets/89_repair_guide.assets/image-20230409130228084.png)
 
 ## REPAIR – Scale weight problems BRM-43, original BroodMinder-W
 
@@ -103,7 +103,7 @@ Once you repair the scale and need to recalibrate it, we suggest using the PC ap
 
 ·    Test using the BroodMinder-Lite app in “real-time” mode to ensure that the values are stored.
 
-![image-20230409130250679](/assets/89_repair_guide.assets/image-20230409130250679.png)
+![image-20230409130250679](../assets/89_repair_guide.assets/image-20230409130250679.png)
 
 
 ## REPAIR – BroodMinder-W4 BRM-49 weight fluctuations 
@@ -113,7 +113,7 @@ At the end of 2024, we identified an issue affecting a limited number of W4 mode
 
 The root cause was related to the brass threaded inserts inside the electronic enclosure. The electronic board is mounted directly above the plastic standoffs that contain these brass inserts, with the load-cell wire connections facing them.
 
-![w4 fluct](/assets/89_repair_guide.assets/w4/short-contact.JPG#MediumImg)
+![w4 fluct](../assets/89_repair_guide.assets/w4/short-contact.JPG#MediumImg)
 
 
 Under normal conditions, the brass inserts sit slightly deeper than the surrounding plastic. However, in some cases an insert could protrude slightly, or excess solder or a tightly fastened circuit board could reduce the clearance, leading to a contact between the insert and the load-cell wiring or circuitry.
@@ -122,8 +122,8 @@ This contact often occurred randomly, as it was influenced by temperature-relate
 
 When the load cell becomes short-circuited, the scale typically reports a fixed weight of approximately 80 kg per load cell. As a result, the most common symptom is a sudden jump to values such as 80 kg, 160 kg, or 200 kg, as illustrated below.
 
-![w4 fluct](/assets/89_repair_guide.assets/w4/w4_fluctuations2.png)
-![w4 fluct](/assets/89_repair_guide.assets/w4/w4_fluctuations.png)
+![w4 fluct](../assets/89_repair_guide.assets/w4/w4_fluctuations2.png)
+![w4 fluct](../assets/89_repair_guide.assets/w4/w4_fluctuations.png)
 
 
 
@@ -135,13 +135,13 @@ If you are using an older scale, you can apply one of the following solutions:
 - Permanent fix:
 The brass inserts can be removed using a soldering iron. Warm it up and pul out.
 
-![w4 fluct](/assets/89_repair_guide.assets/w4/iron.JPG#MediumImg)
+![w4 fluct](../assets/89_repair_guide.assets/w4/iron.JPG#MediumImg)
 
 
 - Simple workaround:
 If you do not have a soldering iron, you can place electrical insulation tape between the brass inserts and the circuit board to ensure proper electrical isolation.
 
-![w4 fluct](/assets/89_repair_guide.assets/w4/tape.JPG#MediumImg)
+![w4 fluct](../assets/89_repair_guide.assets/w4/tape.JPG#MediumImg)
 
 
 Both solutions prevent any possible contact between the inserts and the electronics and fully resolve the issue.
@@ -155,11 +155,11 @@ The observed behavior was similar to the short-circuit issue described above (su
 
 Ice buildup can restrict the free movement of the load cell and temporarily distort the measured load. Once the ice melts and the load cell is able to move freely again, the weight readings typically return to normal.
 
-![w4 fluct](/assets/89_repair_guide.assets/w4/ice1.png#MediumImg)
+![w4 fluct](../assets/89_repair_guide.assets/w4/ice1.png#MediumImg)
 
-![w4 fluct](/assets/89_repair_guide.assets/w4/ice2.jpg#MediumImg)
+![w4 fluct](../assets/89_repair_guide.assets/w4/ice2.jpg#MediumImg)
 
-![w4 fluct](/assets/89_repair_guide.assets/w4/ice3.jpg#MediumImg)
+![w4 fluct](../assets/89_repair_guide.assets/w4/ice3.jpg#MediumImg)
 
 
 
@@ -183,54 +183,54 @@ An upgrade we recommend for all of the original -W2 scales is to add a plastic w
 
 ·   Tape the corners to make watertight
 
- ![image-20230409130314671](/assets/89_repair_guide.assets/image-20230409130314671.png)
+ ![image-20230409130314671](../assets/89_repair_guide.assets/image-20230409130314671.png)
 
 **W2 Disassembly**
 
 1) Remove the inner seal that is stapled in place. (be gentle)
 2) Take off the two nuts holding the halves together.
 
-![image-20230409130341353](/assets/89_repair_guide.assets/image-20230409130341353.png)
+![image-20230409130341353](../assets/89_repair_guide.assets/image-20230409130341353.png)
 
    After removing the slatted rack, start by carefully prying loose the staples holding the inner seal in. Use a small putty knife if possible.
 
 The inner seal is spandex mounted on expanded PVC. It is very flexible, but easy to poke a hole in with a knife.
 
- ![image-20230409130409524](/assets/89_repair_guide.assets/image-20230409130409524.png)
+ ![image-20230409130409524](../assets/89_repair_guide.assets/image-20230409130409524.png)
 
 Remove the inner seal assembly.
 
 Note that when you reassemble, don’t stretch the spandex, that will put force on the scale.
 
-  ![image-20230409130435021](/assets/89_repair_guide.assets/image-20230409130435021.png)
+  ![image-20230409130435021](../assets/89_repair_guide.assets/image-20230409130435021.png)
 
 Remove the two nuts holding the top to the bottom frame. 
 
 Now you can separate the halves.
 
- ![image-20230409130457596](/assets/89_repair_guide.assets/image-20230409130457596.png)
+ ![image-20230409130457596](../assets/89_repair_guide.assets/image-20230409130457596.png)
 
    If you are replacing the housing, first lay down the double stick tape. We suggest making the short pieces run to the edge in order to bridge the two housing pieces and help to seal out water.
 
-![image-20230409130524328](/assets/89_repair_guide.assets/image-20230409130524328.png)
+![image-20230409130524328](../assets/89_repair_guide.assets/image-20230409130524328.png)
 
 Installing the housing is all about making certain that it does not rub.
 
 Install the long pieces first. Be certain that the housing is centered in the metal drip ledge. If it rubs on this aluminum part, it will affect the weight reading.
 
-![image-20230409130541489](/assets/89_repair_guide.assets/image-20230409130541489.png)
+![image-20230409130541489](../assets/89_repair_guide.assets/image-20230409130541489.png)
 
 When installing the short pieces, be certain to pull the long piece towards the middle so that it is tight against the frame. Leave part of the housing double stick tape covered as shown. Carefully peel it off after get the housing situated on the frame.
 
-![image-20230409130603484](/assets/89_repair_guide.assets/image-20230409130603484.png)
+![image-20230409130603484](../assets/89_repair_guide.assets/image-20230409130603484.png)
 
    It can be tricky to get the housing back in after you separate the halves. Patiently use a putty knife to do this.
 
-   ![image-20230409130625264](/assets/89_repair_guide.assets/image-20230409130625264.png)
+   ![image-20230409130625264](../assets/89_repair_guide.assets/image-20230409130625264.png)
 
 We recommend a little blue locktite to secure the nuts.
 
- ![image-20230409130643505](/assets/89_repair_guide.assets/image-20230409130643505.png)
+ ![image-20230409130643505](../assets/89_repair_guide.assets/image-20230409130643505.png)
 
 ## Appendix – Battery Power
 
@@ -246,7 +246,7 @@ The scaling for batteries in the 2020 and later boards is 0-100% represents 2.0-
 
 Battery Energy  CR2032 = 225 mAh  AA (L91) = 3500 mAh AAA (L92) = 1200 mAh 
 
- ![image-20230409130707015](/assets/89_repair_guide.assets/image-20230409130707015.png)
+ ![image-20230409130707015](../assets/89_repair_guide.assets/image-20230409130707015.png)
 
 Note: Validation measurements were performed utilizing a new (wonderful) instrument. The crowdfunded Joulescope, DC Energy Analyzer was designed to make these types of low power DC measurements. 
 

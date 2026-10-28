@@ -4,7 +4,7 @@
 ## Welcome to the world of Hive Monitoring!
 If you're reading this, it's the start of a new adventure. You are now part of the precision beekeeper community. A community that uses information to improve bees' health. But also to improve everyone's practice, thanks to a deeper knowledge of the behaviour of colonies and their ecosystems.
 
-![image](/assets/20_quick_start_guide.assets/mbm_and_bapp.png){ style="display: block; margin: 0 auto" }
+![image](../assets/20_quick_start_guide.assets/mbm_and_bapp.png){ style="display: block; margin: 0 auto" }
 
 
 ## Introduction to precision beekeeping ##
@@ -27,7 +27,7 @@ Here in a few words are the main components of the system.
 
 Weight, temperature, humidity sensors... A complete and at the same time modular range of devices that enable you to equip your hives according to your needs. 
 
-![image](/assets/images/01_broodminder_products.png#mediumImg)
+![image](../assets/images/01_broodminder_products.png#mediumImg)
 
 All the sensors transmit the information via Bluetooth and, of course, you can use your smartphone to collect this data. Simply download the BroodMinder Bees App from your favorite store (Apple or Android).
 
@@ -36,14 +36,14 @@ All the sensors transmit the information via Bluetooth and, of course, you can u
 The 4th generation app for your phone or tablet is called the "Bees" app and is available for iPhone or Android. This is the quickest and easiest way to start collecting data from the sensors. Use it in the apiary to locate the sensors and to take hive/apiary notes by either typing or speaking to the phone. With the app you can collect and review the data regardless of if the apiary has cellular or WiFi connectivity. The app will then automatically synchronize with MyBroodMinder.com, our cloud based analysis system. when internet becomes available.
 
 
-![BAPP](/assets/10_intro.assets/image-20230407160940733.png#mediumImg)
+![BAPP](../assets/10_intro.assets/image-20230407160940733.png#mediumImg)
 
 
 ### MyBroodMinder.com
 
 The data transmitted by your phone or by the hub arrives on the [Mybroodminder.com](https://mybroodminder.com) portal. In this space, you can configure your apiary, your hives and assign your sensors to them. You can also visualize the raw data on fluid and interactive graphs.
 
-![MyBroodMinder](/assets/10_intro.assets/image-20230407155319801.png)
+![MyBroodMinder](../assets/10_intro.assets/image-20230407155319801.png)
 
 ### Hub 
 
@@ -51,7 +51,7 @@ For those who want real-time data, the Hub is the solution. This autonomous box 
 
 
 
-![HUB solar](/assets/10_intro.assets/image-20230411153248520.png#mediumImg)
+![HUB solar](../assets/10_intro.assets/image-20230411153248520.png#mediumImg)
 
 
 ## And the adventure begins!

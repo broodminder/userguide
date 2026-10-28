@@ -22,48 +22,48 @@ There are two types of notes:
 
 In the **Bees App**, whether you’re in the `Apiaries` or `Hives` tab, you’ll find the note-taking icon. Tapping it brings up a screen where you choose whether your note is for the apiary or for a hive:
 
-![Notes Type](/assets/50_mybroodminder_v5.assets/notes/notes1.png#largeImg)
+![Notes Type](../assets/50_mybroodminder_v5.assets/notes/notes1.png#largeImg)
 
 You’ll then be taken to a familiar note entry screen. Here you can select the hive, the date and time and also write some text. 
 
 One particularly useful feature here is **Tags** — allowing you to log common actions or observations with a single tap, making note-taking much quicker. Once saved, your note will appear in the Bees App under the Hive Tool tab:
 
-![Note Saved](/assets/50_mybroodminder_v5.assets/notes/notes2.png#largeImg)
+![Note Saved](../assets/50_mybroodminder_v5.assets/notes/notes2.png#largeImg)
 
 Your notes will also appear in **MyBroodMinder**, both in the **Notes List widget** and within **contextual charts**:
 
-![MyBroodMinder Notes](/assets/50_mybroodminder_v5.assets/notes/notes3.png)
+![MyBroodMinder Notes](../assets/50_mybroodminder_v5.assets/notes/notes3.png)
 
 Having your notes linked to sensor data is incredibly useful, as it allows you to correlate events with sensor trends. For example, this note helps explain a weight fluctuation and subsequent drop:
 
-![Weight Note](/assets/50_mybroodminder_v5.assets/notes/notes4.png)
+![Weight Note](../assets/50_mybroodminder_v5.assets/notes/notes4.png)
 
 In most charts, you can show or hide notes by using the toolbar buttons on the right-hand side:
 
-![Toggle Notes](/assets/50_mybroodminder_v5.assets/notes/notes5.png)
+![Toggle Notes](../assets/50_mybroodminder_v5.assets/notes/notes5.png)
 
 You can also add notes directly in **MyBroodMinder** using several methods:
 
 - `Home > New > Apiary note`
 
-![Add Note 1](/assets/50_mybroodminder_v5.assets/notes/notes6.png)
+![Add Note 1](../assets/50_mybroodminder_v5.assets/notes/notes6.png)
 
 - `Notes widget > Add note`
 
-![Add Note 2](/assets/50_mybroodminder_v5.assets/notes/notes7.png)
+![Add Note 2](../assets/50_mybroodminder_v5.assets/notes/notes7.png)
 
 - `Apiary name > ... > Add note`
 
-![Add Note 3](/assets/50_mybroodminder_v5.assets/notes/notes8.png)
+![Add Note 3](../assets/50_mybroodminder_v5.assets/notes/notes8.png)
 
 - `Hive name > ... > Add note`
 
 
-![Add Note 4](/assets/50_mybroodminder_v5.assets/notes/notes9.png)
+![Add Note 4](../assets/50_mybroodminder_v5.assets/notes/notes9.png)
 
 And finally, you can even double-click on any chart to bring up a **contextual pop-up** for quick hive note entry.
 
-![Add Note 4](/assets/50_mybroodminder_v5.assets/notes/notes10.png#mediumImg)
+![Add Note 4](../assets/50_mybroodminder_v5.assets/notes/notes10.png#mediumImg)
 
 
 ## Exporting Notes

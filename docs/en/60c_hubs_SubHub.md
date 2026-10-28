@@ -66,11 +66,11 @@ Fortunately, temperature is cheap and easy to measure. However, that data only d
 
 **Outcome:** When you visit your apiary, you can read all of the the data from all of the hives, typically in less than a minute. You will be able to view this data with the new BroodMinder-Bees app in a manner similar to MyBroodMinder. Then you can send the data to MyBroodMinder when you arrive back in civilization.
 
-![Use case 1](/assets/60_hubs.assets/image-20230409132916993.png)
+![Use case 1](../assets/60_hubs.assets/image-20230409132916993.png)
 
-![Use case 2](/assets/60_hubs.assets/image-20230409132944428.png)
+![Use case 2](../assets/60_hubs.assets/image-20230409132944428.png)
 
-![Use case 3](/assets/60_hubs.assets/image-20230409133014617.png)
+![Use case 3](../assets/60_hubs.assets/image-20230409133014617.png)
 
 
 ## **Range Testing**

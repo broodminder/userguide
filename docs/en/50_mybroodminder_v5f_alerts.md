@@ -28,28 +28,28 @@ In `Configure > Alerts`, you’ll find a list of fully configurable alerts. You 
 - **Adjust alert thresholds** to better match your context
 - **Disable any alerts** you don’t want to receive
 
-![Configurable Alerts](/assets/50_mybroodminder_v5.assets/alerts/config_alerts.png#MediumImg)
+![Configurable Alerts](../assets/50_mybroodminder_v5.assets/alerts/config_alerts.png#MediumImg)
 
 
 ## Email digest
 
 At the top of the page, you can also enable the **Alert Summary Email** and choose how often you receive it. These emails provide a concise overview of the most recent alerts, like this:
 
-![Email Summary](/assets/50_mybroodminder_v5.assets/alerts/email_alerts.png)
+![Email Summary](../assets/50_mybroodminder_v5.assets/alerts/email_alerts.png)
 
 ## SwarmMinder SMS Alerts (BETA) 
 
 Our realtime notifications for SwarmMinder alerts now have an option to notify via text messages. To configure this feature, edit alert contact info here:
 
-![Edit Contact](/assets/50_mybroodminder_v5.assets/alerts/alert_sms_edit.png)
+![Edit Contact](../assets/50_mybroodminder_v5.assets/alerts/alert_sms_edit.png)
 
 Then add your phone number under SwarmMinder Realtime SMS Messages (currently US numbers only during beta period, more countries coming soon). Press **Send Confirmation Text** and respond accordingly to the text message. 
 
-![Add SMS](/assets/50_mybroodminder_v5.assets/alerts/alert_sms_add.png)
+![Add SMS](../assets/50_mybroodminder_v5.assets/alerts/alert_sms_add.png)
 
 To unsubscribe, reply **STOP** or **UNSUBSCRIBE** to text messages, or return to this page and press **Remove Phone Number**. 
 
-![Remove SMS](/assets/50_mybroodminder_v5.assets/alerts/alert_sms_remove.png)
+![Remove SMS](../assets/50_mybroodminder_v5.assets/alerts/alert_sms_remove.png)
 
 
 ## Bees App

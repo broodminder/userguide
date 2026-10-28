@@ -153,7 +153,7 @@ If we want to add a new lang, add it first in the **mkdocs.yml** i18n plugin, th
 Always use a **root-absolute** path so images work under every language prefix (`/`, `/fr/`, `/es/`, …):
 
 ```markdown
-![WiFi Hub](/assets/60_hubs.assets/WIFI_Hub.jpg)
+![WiFi Hub](../assets/60_hubs.assets/WIFI_Hub.jpg)
 <img src="/assets/60_hubs.assets/WIFI_Hub.jpg">
 ```
 

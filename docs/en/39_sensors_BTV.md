@@ -131,7 +131,7 @@ The first time you use BeeTV, you will:
 4. Tap **Claim**.
 5. Select **Assign to a hive later**.
 
-![](/assets/39_sensors_btv.assets/btv_claim.jpg#mediumImg)
+![](../assets/39_sensors_btv.assets/btv_claim.jpg#mediumImg)
 
 ### 2. Start the camera
 
@@ -142,7 +142,7 @@ This screen is already telling you some information about the BeeTV. first of al
 
 The scheduling is Disabled, so the camera is not recording programatically.
 
-![](/assets/39_sensors_btv.assets/btv_in_range_800x.jpg#mediumImg)
+![](../assets/39_sensors_btv.assets/btv_in_range_800x.jpg#mediumImg)
 
 From this screen and using the top right `...`menu you can manage the `scheduling` (on/off) and the `rate` (5m, 15m, 1h, 2h, 3h, 6h) without need to connect to the device in Live view.
 
@@ -170,13 +170,13 @@ When BeeTV is running, your phone will display a system message asking permissio
 
 Tap **Join**.
 
-![](/assets/39_sensors_btv.assets/bees_accept_wifi_connect.jpg#mediumImg)
+![](../assets/39_sensors_btv.assets/bees_accept_wifi_connect.jpg#mediumImg)
 
 ### 4. Verify the live view
 
 After a few seconds, the live camera image should appear.
 
-![](/assets/39_sensors_btv.assets/btv_RTon.jpg#mediumImg)
+![](../assets/39_sensors_btv.assets/btv_RTon.jpg#mediumImg)
 
 Congratulations! Your BeeTV is now connected and ready to configure.
 
@@ -185,7 +185,7 @@ Congratulations! Your BeeTV is now connected and ready to configure.
 ### Adjusting the Focus
 
 BeeTV features a manually adjustable lens, allowing you to optimize the focus for different observation distances inside the hive.
-![](/assets/39_sensors_btv.assets/focusing01.jpg#mediumImg)
+![](../assets/39_sensors_btv.assets/focusing01.jpg#mediumImg)
 
 A focus adjustment tool is included with every BeeTV. It allows you to set the focus for five typical observation ranges:
 
@@ -195,7 +195,7 @@ A focus adjustment tool is included with every BeeTV. It allows you to set the f
 - Bees
 - Mites
 
-![](/assets/39_sensors_btv.assets/btv_focus_tool.jpg#largeImg)
+![](../assets/39_sensors_btv.assets/btv_focus_tool.jpg#largeImg)
 
 
 
@@ -223,7 +223,7 @@ Typical focus positions are:
 !!! tip
     You can zoom the image with your two fingers on the smartphone screen to check nittidity
 
-![](/assets/39_sensors_btv.assets/focusing_800x.jpg#mediumImg)
+![](../assets/39_sensors_btv.assets/focusing_800x.jpg#mediumImg)
 
 
 
@@ -234,7 +234,7 @@ The camera sensor is mounted in portrait orientation. As a result:
 
 - A vertically installed BeeTV produces a standard horizontal 16:9 image on your phone.
 
-![](/assets/39_sensors_btv.assets/btv_cam_orient.png)
+![](../assets/39_sensors_btv.assets/btv_cam_orient.png)
 
 You can now capture photos and videos using the buttons below the live image.
 
@@ -271,7 +271,7 @@ Here you can configure:
 - Capture interval
 - Other acquisition parameters
 
-![](/assets/39_sensors_btv.assets/btv_settings.jpg#mediumImg)
+![](../assets/39_sensors_btv.assets/btv_settings.jpg#mediumImg)
 
 
 For example, in the above display BeeTV is configured to record:
@@ -311,7 +311,7 @@ To enable automatic uploads:
 3. Save the settings.
 
 
-![](/assets/39_sensors_btv.assets/btv_wifi.png#mediumImg)
+![](../assets/39_sensors_btv.assets/btv_wifi.png#mediumImg)
 
 
 BeeTV stores these credentials and automatically connects to your WiFi network whenever it wakes up to upload new media.
@@ -338,7 +338,7 @@ From there you can:
 - download individual files,
 - or download the complete contents of the SD card over WiFi.
 
-![](/assets/39_sensors_btv.assets/btv_man_dwld.png#mediumImg)
+![](../assets/39_sensors_btv.assets/btv_man_dwld.png#mediumImg)
 
 ---
 
@@ -351,7 +351,7 @@ To do this:
 - Connect a USB thumb drive to your phone using a USB OTG adapter (USB-C or Micro-USB, depending on your phone).
 - Open the storage browser and select the **USB Download** option.
 
-![](/assets/39_sensors_btv.assets/btv_thumb.jpg#mediumImg)
+![](../assets/39_sensors_btv.assets/btv_thumb.jpg#mediumImg)
 
 !!! tip
     We recommend connecting BeeTV to a USB power source while transferring files. Copying large numbers of photos and videos can take several minutes and increases power consumption. An external power supply ensures the transfer completes reliably without draining the battery.
@@ -371,11 +371,11 @@ Select the desired date range.
 
 The **Video / Image Files** section lists all photos and videos uploaded by BeeTV.
 
-![](/assets/39_sensors_btv.assets/btv_mbm1.png)
+![](../assets/39_sensors_btv.assets/btv_mbm1.png)
 
 If you transferred files manually instead of uploading them automatically, you can upload them to MyBroodMinder using the section shown below.
 
-![](/assets/39_sensors_btv.assets/btv_mbm2.png)
+![](../assets/39_sensors_btv.assets/btv_mbm2.png)
 
 ---
 
@@ -400,7 +400,7 @@ The Data Editor also includes BeeTV-specific fields.
 | btvD2 | Number of videos currently stored on the SD card |
 | btvD3–btvD6 | Reserved for future AI detection model classes |
 
-![](/assets/39_sensors_btv.assets/btv_mbm3.png)
+![](../assets/39_sensors_btv.assets/btv_mbm3.png)
 
 ---
 
@@ -412,7 +412,7 @@ BeeTV supports two mounting systems that use the same camera and software. The c
 
 **Video:** *Coming soon*
 
-![](/assets/39_sensors_btv.assets/btv_mount_horiz.jpg)
+![](../assets/39_sensors_btv.assets/btv_mount_horiz.jpg)
 
 
 This mounting system was developed for **Langstroth hives**, the most widely used hive format in North America.
@@ -440,7 +440,7 @@ BeeTV is housed inside a protective enclosure that slides into a dedicated rail 
 
 **Video:** *Coming soon*
 
-![](/assets/39_sensors_btv.assets/btv_mount_vert.png)
+![](../assets/39_sensors_btv.assets/btv_mount_vert.png)
 
 
 This mounting system was developed to accommodate the wide variety of hive formats used around the world, including **Dadant, Langstroth, Warré, Layens**, and many regional frame designs.

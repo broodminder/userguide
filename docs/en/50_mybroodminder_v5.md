@@ -29,17 +29,17 @@ Please note that some features are exclusive to Premium users. You’ll find a d
 
 
 
-![image-20230407161237301](/assets/50_mybroodminder_v5.assets/image-20230407161237301.png)
+![image-20230407161237301](../assets/50_mybroodminder_v5.assets/image-20230407161237301.png)
 
 ## Home Screen
 
-![image-20230407161622125](/assets/50_mybroodminder_v5.assets/image-20230407161622125.png)
+![image-20230407161622125](../assets/50_mybroodminder_v5.assets/image-20230407161622125.png)
 
 #### Hives
 
 Here you will find a quick glanceable view of all the hives that you own. Hives are shown here if you have sensors currently assigned in the hive. Learn more about device assignment and configuration [here](../50_mybroodminder_v5b_devices.md).
 
-![image-20230407161622125](/assets/50_mybroodminder_v5.assets/home_hives.png)
+![image-20230407161622125](../assets/50_mybroodminder_v5.assets/home_hives.png)
 
 At a glance information shown here:
 
@@ -56,7 +56,7 @@ Click the `History` icon on the right to view this data for the last 7 days for 
 
 Here you will find a quick glanceable view of all the apiaries that you own. Apiaries are shown if they have hives with currently assigned sensors. Learn more about apiary, hive, and device assignment and configuration [here](../50_mybroodminder_v5a_apiaries.md).
 
-![image-20230407161622125](/assets/50_mybroodminder_v5.assets/home_apiaries.png)
+![image-20230407161622125](../assets/50_mybroodminder_v5.assets/home_apiaries.png)
 
 At a glance information shown here:
 
@@ -71,7 +71,7 @@ At a glance information shown here:
 The left sidebar is your key to navigating your apiaries and hives as well as apiaries shared with you by your friends. There is a lot of functionality built into this menu. Explore by clicking around.
 
 
-![image-20230407161533900](/assets/50_mybroodminder_v5.assets/image-20230407161533900.png#mediumImg)
+![image-20230407161533900](../assets/50_mybroodminder_v5.assets/image-20230407161533900.png#mediumImg)
 
 - Clicking on `>` opens up hives in the apiary and devices in the hives
 - Hovering over a BroodMinder device will display the ID number
@@ -89,7 +89,7 @@ The left sidebar is your key to navigating your apiaries and hives as well as ap
 
 The buttons at the top of the view window let you chose how to display your information. We provide some standard views that we believe are useful. You can also add custom view to include many new analysis features.
 
-![image-20230407161700433](/assets/50_mybroodminder_v5.assets/image-20230407161700433.png)
+![image-20230407161700433](../assets/50_mybroodminder_v5.assets/image-20230407161700433.png)
 
 - Classic
 - Calendar
@@ -108,7 +108,7 @@ The buttons at the top of the view window let you chose how to display your info
 
 ### Graph Controls
 
-There are many terrific graph ![image-20230407161818840](/assets/50_mybroodminder_v5.assets/image-20230407161818840.png) controls available to get your reports looking just right.
+There are many terrific graph ![image-20230407161818840](../assets/50_mybroodminder_v5.assets/image-20230407161818840.png) controls available to get your reports looking just right.
 
 
 - Time Range - Using the dropdown menu at the top, `Last 7 days`, you can chose the duration of the display
@@ -126,7 +126,7 @@ There are many terrific graph ![image-20230407161818840](/assets/50_mybroodminde
 
 There are powerful new note capabilities in both MyBroodMinder and the Bees app. You can use the Bees app to add notes in the field, and then edit or add additional notes when you review them in MyBroodMinder.
 
-![image-20230407161925154](/assets/50_mybroodminder_v5.assets/image-20230407161925154.png#mediumImg)
+![image-20230407161925154](../assets/50_mybroodminder_v5.assets/image-20230407161925154.png#mediumImg)
 
 The most simple way to add a note is to double click on a graph at the time you want to add a note. An editor will pop up. You can enter text and you can also add tags. Once you save the note it will show up on the graph as a hive tool. 
 
@@ -136,7 +136,7 @@ You can also add a note for the entire apiary such as `Performed OA treatment on
 
 Before we move further you can configure your preferences and manage your membership in the User Settings panel.
 
-![user settings](/assets/50_mybroodminder_v5.assets/mbm_user_setings.png)
+![user settings](../assets/50_mybroodminder_v5.assets/mbm_user_setings.png)
 
 - User details : your name, email, password but also account deletion
 - Membership : Membership type, hives allowed, expiration date

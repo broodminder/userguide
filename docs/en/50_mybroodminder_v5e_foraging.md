@@ -56,18 +56,18 @@ You can clearly see when foragers start and stop each day. Activity varies depen
 - March 29: concentrated afternoon activity  
 - March 30: a long, productive day
 
-![BeeDar Raw](/assets/50_mybroodminder_v5.assets/foragers/beedar_raw.png)
+![BeeDar Raw](../assets/50_mybroodminder_v5.assets/foragers/beedar_raw.png)
 
 To make this data more actionable, we developed an algorithm that converts signal strength into **estimated bee trips**.  
 
 For this you'll need to create a new dashboard with the widget "Forager Activity"
 
-![BeeDar Algorithm](/assets/50_mybroodminder_v5.assets/foragers/forager_widget.png#mediumImg)
+![BeeDar Algorithm](../assets/50_mybroodminder_v5.assets/foragers/forager_widget.png#mediumImg)
 
 
 Click the `F` button on the chart right toolbar to reveal this view as in the example below, March 30th shows 107,000 forager trips across 11.3 hours.
 
-![BeeDar Algorithm](/assets/50_mybroodminder_v5.assets/foragers/beedar_algo.png)
+![BeeDar Algorithm](../assets/50_mybroodminder_v5.assets/foragers/beedar_algo.png)
 
 ---
 
@@ -94,7 +94,7 @@ While BeeDar doesn’t track every bee, extensive calibration campaigns have sho
 
 Here’s a comparison with **EyesOnHives®**, which uses computer vision to count bees:
 
-![Validation](/assets/50_mybroodminder_v5.assets/foragers/eoh_validation.png)
+![Validation](../assets/50_mybroodminder_v5.assets/foragers/eoh_validation.png)
 
 Each day displays two distributions:  
 - **Black** = BeeDar  
@@ -110,16 +110,16 @@ The alignment is striking, and this level of validation has been confirmed using
 You can explore foraging data in **MyBroodMinder**:
 
 - **Home page**: Summary of bee trips, session duration, and number of sessions  
-![MBM Home](/assets/50_mybroodminder_v5.assets/foragers/mbm_home.png)
+![MBM Home](../assets/50_mybroodminder_v5.assets/foragers/mbm_home.png)
 
 - **Classic tab** (bottom): Raw radar and vibration measurements  
-![MBM Classic](/assets/50_mybroodminder_v5.assets/foragers/mbm_classic.png)
+![MBM Classic](../assets/50_mybroodminder_v5.assets/foragers/mbm_classic.png)
 
 - **Custom Dashboards**: Add the **BeeCount** widget for a tailored view and to get access to the forager trips estimation. 
 
-![Custom Dashboard](/assets/50_mybroodminder_v5.assets/foragers/mbm_custom.png#mediumImg)
+![Custom Dashboard](../assets/50_mybroodminder_v5.assets/foragers/mbm_custom.png#mediumImg)
 
-![BeeDar Algorithm](/assets/50_mybroodminder_v5.assets/foragers/beedar_algo.png)
+![BeeDar Algorithm](../assets/50_mybroodminder_v5.assets/foragers/beedar_algo.png)
 
 
 ## Beedar on Bees App
