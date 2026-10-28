@@ -1,8 +1,6 @@
-![image](/assets/39_sensors_btv.assets/btv_example.png){ style="display: block; margin: 0 auto" }
-
+![image](../assets/39_sensors_btv.assets/btv_example2_800x.jpg){ style="display: block; margin: 0 auto" }
 
 ---
-
 <table style="width:100%; background:#eaf6ff; border:1px solid #b8def5; border-radius:12px; padding:16px; margin:24px 0;">
   <tr>
     <td style="text-align:center; padding:12px;">

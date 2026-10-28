@@ -4,6 +4,7 @@ We've made lots of videos over the years. Here is a list of them with links. We 
 
 ## Product Overviews
 
+- <a href="https://youtu.be/ENICpmt1blw" target="_blank">**BroodMinder-BeeTV (Oct 2026)**</a>
 - <a href="https://youtu.be/ZiMcqCIzdvg" target="_blank">**BroodMinder-T2 & -TH2 (May 2025)**</a>
 - <a href="https://youtu.be/Ed5dNgoTlmM" target="_blank">**BroodMinder Weight Scales (Jun 2025)**</a>
 - <a href="https://youtu.be/ENICpmt1blw" target="_blank">**BroodMinder-BeeTV (Jul 2025)**</a>

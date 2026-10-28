@@ -1,7 +1,6 @@
 # BroodMinder-Cell 3G (BRM-44 & BRM-50)
 
 The BroodMinder-Cell 3G hubs (models BRM-44 and BRM-50) have been in operation since 2018.
-
 These hubs collect data from nearby BroodMinder devices and automatically transmit it to [MyBroodMinder](https://mybroodminder.com) over a cellular network.
 
 !!! warning "3G Network Availability"
