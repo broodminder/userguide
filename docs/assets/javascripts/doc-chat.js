@@ -36,8 +36,7 @@
       close: "Close",
       openLabel: "Open Ask BroodMinder",
       placeholder: "Ask BroodMinder…",
-      welcome:
-        "Hi! Ask me anything about the BroodMinder documentation. This assistant is in beta — a human is always available if you need one.",
+      welcome: "Hi! Ask me anything about the BroodMinder documentation.",
       beta: "Beta",
       humanSupport:
         "Our priority is to help you as much as possible — a human expert is always available for your questions",
@@ -61,8 +60,7 @@
       close: "Fermer",
       openLabel: "Ouvrir Ask BroodMinder",
       placeholder: "Demander à BroodMinder…",
-      welcome:
-        "Bonjour ! Posez-moi une question sur la documentation BroodMinder. Assistant en bêta — un humain reste toujours disponible si besoin.",
+      welcome: "Bonjour ! Posez-moi une question sur la documentation BroodMinder.",
       beta: "Bêta",
       humanSupport:
         "Notre priorité reste de vous aider au mieux — un expert humain est toujours disponible pour vos questions",
@@ -86,8 +84,7 @@
       close: "Cerrar",
       openLabel: "Abrir Ask BroodMinder",
       placeholder: "Preguntar a BroodMinder…",
-      welcome:
-        "¡Hola! Pregúntame sobre la documentación de BroodMinder. Asistente en beta — siempre hay un humano disponible si lo necesitas.",
+      welcome: "¡Hola! Pregúntame sobre la documentación de BroodMinder.",
       beta: "Beta",
       humanSupport:
         "Nuestra prioridad es ayudarte lo mejor posible — un experto humano siempre está disponible para tus preguntas",
@@ -107,18 +104,21 @@
 
   var SUPPORT_EMAIL = "support@broodminder.com";
 
-  function trustFooterHtml() {
+  function welcomeHtml() {
     return (
-      '<span class="ask-trust-human">' +
+      '<p class="ask-welcome-lead">' +
+      escapeHtml(t("welcome")) +
+      "</p>" +
+      '<p class="ask-welcome-trust">' +
       escapeHtml(t("humanSupport")) +
-      ' — <a href="mailto:' +
+      ' — <a class="doc-chat-inline-link" href="mailto:' +
       SUPPORT_EMAIL +
       '">' +
       SUPPORT_EMAIL +
-      "</a></span>" +
-      '<span class="ask-trust-slogan">' +
+      "</a></p>" +
+      '<p class="ask-welcome-slogan">' +
       escapeHtml(t("slogan")) +
-      "</span>"
+      "</p>"
     );
   }
 
@@ -130,9 +130,27 @@
     for (var i = 0; i < betaEls.length; i++) {
       betaEls[i].textContent = t("beta");
     }
+    // Legacy trust footers (older markup) — clear; content now lives in welcome.
     var trustEls = root.querySelectorAll("[data-ask-trust]");
     for (var j = 0; j < trustEls.length; j++) {
-      trustEls[j].innerHTML = trustFooterHtml();
+      trustEls[j].remove();
+    }
+  }
+
+  function paintStatusEl(statusEl, text) {
+    if (!statusEl) {
+      return;
+    }
+    var value = text || "";
+    statusEl.textContent = value;
+    var isThinking = value === t("thinking");
+    statusEl.classList.toggle("is-thinking", isThinking);
+    statusEl.classList.toggle("is-active", !!value);
+    if (isThinking) {
+      statusEl.setAttribute("aria-live", "polite");
+      statusEl.setAttribute("aria-busy", "true");
+    } else {
+      statusEl.removeAttribute("aria-busy");
     }
   }
 
@@ -382,13 +400,16 @@
     }
 
     function setStatus(text) {
-      statusEl.textContent = text || "";
+      paintStatusEl(statusEl, text);
       persistState();
     }
 
     function appendMessage(role, html, record) {
       var el = document.createElement("div");
       el.className = "doc-chat-msg doc-chat-msg--" + role;
+      if (role === "welcome") {
+        el.className += " doc-chat-msg--bot";
+      }
       el.innerHTML = html;
       messages.appendChild(el);
       scrollMessagesToEnd();
@@ -401,7 +422,7 @@
     function renderTranscript() {
       messages.innerHTML = "";
       if (!transcript.length) {
-        appendMessage("bot", escapeHtml(t("welcome")));
+        appendMessage("welcome", welcomeHtml());
         return;
       }
       transcript.forEach(function (item) {
@@ -422,7 +443,7 @@
     function showWelcome() {
       transcript = [];
       messages.innerHTML = "";
-      appendMessage("bot", escapeHtml(t("welcome")));
+      appendMessage("welcome", welcomeHtml());
     }
 
     function resetChat() {
@@ -446,7 +467,7 @@
       history = clipHistory(stored.history || []);
       transcript = Array.isArray(stored.transcript) ? stored.transcript : [];
       renderTranscript();
-      statusEl.textContent = stored.status || "";
+      paintStatusEl(statusEl, stored.status || "");
       if (opts.setIsOpenVisual) {
         var shouldOpen =
           opts.defaultOpenOnRestore || stored.isOpen === true;
@@ -675,7 +696,6 @@
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.4 20.6 21 12 3.4 3.4 3 10.3 14 12 3 13.7z"/></svg>' +
       "</button>" +
       "</form>" +
-      '<p class="ask-trust" data-ask-trust></p>' +
       "</div>" +
       '<div id="ask-home-threads" class="ask-home-threads"></div>' +
       "</div>";
@@ -706,12 +726,10 @@
       beta.setAttribute("data-ask-beta", "");
       brand.appendChild(beta);
     }
-    var glass = home.querySelector(".ask-home-glass");
-    if (glass && !home.querySelector("[data-ask-trust]")) {
-      var trust = document.createElement("p");
-      trust.className = "ask-trust";
-      trust.setAttribute("data-ask-trust", "");
-      glass.appendChild(trust);
+    // Drop legacy trust footer if still present in cached/locale markup
+    var legacyTrust = home.querySelectorAll("[data-ask-trust]");
+    for (var i = 0; i < legacyTrust.length; i++) {
+      legacyTrust[i].remove();
     }
   }
 
@@ -835,7 +853,7 @@
 
     function setStatus(text) {
       var thread = activeThread();
-      statusEl.textContent = text || "";
+      paintStatusEl(statusEl, text);
       if (thread) {
         thread.status = text || "";
       }
@@ -870,10 +888,10 @@
       var transcript = thread.transcript || [];
       messages.innerHTML = "";
       // Always bind status to the active conversation only
-      statusEl.textContent = thread.status || "";
+      paintStatusEl(statusEl, thread.status || "");
       if (!transcript.length) {
         messages.classList.add("is-empty");
-        appendMessage("welcome", escapeHtml(t("welcome")));
+        appendMessage("welcome", welcomeHtml());
         return;
       }
       messages.classList.remove("is-empty");
@@ -958,7 +976,7 @@
         state.threads = state.threads.slice(0, MAX_THREADS);
       }
       state.activeId = id;
-      statusEl.textContent = "";
+      paintStatusEl(statusEl, "");
       persist();
       renderTranscript();
       renderThreadBubbles();
@@ -1124,7 +1142,6 @@
       escapeHtml(t("send")) +
       "</button>" +
       "</form>" +
-      '<p class="ask-trust ask-trust--panel" data-ask-trust></p>' +
       '<div id="doc-chat-overlay" aria-hidden="true">' +
       '<div id="doc-chat-overlay-header">' +
       "<h3>" +
@@ -1250,7 +1267,7 @@
 
     function setStatus(text) {
       var thread = activeThread();
-      statusEl.textContent = text || "";
+      paintStatusEl(statusEl, text);
       if (thread) {
         thread.status = text || "";
       }
@@ -1260,6 +1277,9 @@
     function appendMessage(role, html, record) {
       var el = document.createElement("div");
       el.className = "doc-chat-msg doc-chat-msg--" + role;
+      if (role === "welcome") {
+        el.className += " doc-chat-msg--bot";
+      }
       el.innerHTML = html;
       messages.appendChild(el);
       scrollMessagesToEnd();
@@ -1274,8 +1294,8 @@
       var transcript = thread.transcript || [];
       messages.innerHTML = "";
       if (!transcript.length) {
-        appendMessage("bot", escapeHtml(t("welcome")));
-        statusEl.textContent = "";
+        appendMessage("welcome", welcomeHtml());
+        paintStatusEl(statusEl, "");
         return;
       }
       transcript.forEach(function (item) {
@@ -1290,7 +1310,7 @@
           appendMessage("error", escapeHtml(item.content));
         }
       });
-      statusEl.textContent = thread.status || "";
+      paintStatusEl(statusEl, thread.status || "");
       scrollMessagesToEnd();
     }
 
@@ -1403,7 +1423,7 @@
         state.threads = state.threads.slice(0, MAX_THREADS);
       }
       state.activeId = id;
-      statusEl.textContent = "";
+      paintStatusEl(statusEl, "");
       persist();
       renderTranscript();
       renderThreadBubbles();

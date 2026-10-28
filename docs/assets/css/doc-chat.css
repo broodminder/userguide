@@ -395,31 +395,7 @@
   line-height: 1;
 }
 
-.ask-trust--panel {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.25rem 0.75rem;
-  margin: 0;
-  padding: 0.4rem 0.75rem 0.55rem;
-  border-top: 1px solid var(--doc-chat-border);
-  background: #f7faf8;
-  font-size: 0.68rem;
-  line-height: 1.35;
-  color: var(--doc-chat-muted);
-}
-
-.ask-trust--panel .ask-trust-human a {
-  color: var(--doc-chat-green);
-  font-weight: 600;
-}
-
-.ask-trust--panel .ask-trust-slogan {
-  font-style: italic;
-  font-weight: 600;
-  color: var(--doc-chat-green);
-}
+/* Trust copy lives in welcomeHtml() — no panel footer */
 
 #doc-chat-header-actions {
   display: flex;
@@ -578,10 +554,85 @@ a.doc-chat-inline-link:hover {
 }
 
 #doc-chat-status {
+  display: none;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
   padding: 0 0.85rem 0.55rem;
-  font-size: 0.75rem;
-  color: var(--doc-chat-muted);
+  border: none;
   background: #fff;
+  border-radius: 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--doc-chat-muted);
+  box-shadow: none;
+}
+
+#doc-chat-status.is-active {
+  display: flex;
+  max-width: 100%;
+  align-self: stretch;
+}
+
+#doc-chat-status.is-thinking {
+  margin: 0 0.75rem 0.55rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  color: var(--doc-chat-green);
+  background: #e8f5ef;
+  border: 1px solid #b7d9c8;
+  font-weight: 600;
+}
+
+#doc-chat-status.is-thinking::before {
+  content: "";
+  flex-shrink: 0;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 108, 70, 0.25);
+  border-top-color: var(--doc-chat-green);
+  animation: ask-status-spin 0.7s linear infinite;
+}
+
+@keyframes ask-status-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#doc-chat-messages .doc-chat-msg--welcome {
+  align-self: stretch;
+  background: #f4f7f5;
+  border: 1px solid var(--doc-chat-border);
+  color: var(--doc-chat-text);
+  white-space: normal;
+}
+
+#doc-chat-messages .ask-welcome-lead {
+  margin: 0 0 0.45rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+#doc-chat-messages .ask-welcome-trust {
+  margin: 0 0 0.4rem;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--doc-chat-muted);
+}
+
+#doc-chat-messages .ask-welcome-trust a {
+  color: var(--doc-chat-green);
+  font-weight: 700;
+}
+
+#doc-chat-messages .ask-welcome-slogan {
+  margin: 0;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--doc-chat-green);
 }
 
 /* Conversations overlay (opened via New) */
