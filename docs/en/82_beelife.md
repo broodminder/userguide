@@ -39,7 +39,7 @@ It is **open and open-source**, and is intended for researchers, beekeepers, far
 As a BroodMinder user, you can share your apiary data with the EU Pollinator Hub.
 Simply **check the Share option at the apiary level** to contribute directly to Europe’s pollinator-protection efforts.
 
-![image](/assets/82_pollinatorhub/share.png)
+![image](../assets/82_pollinatorhub/share.png)
 
 
 ## Data transmitted

@@ -1,5 +1,5 @@
 
-![image](/assets/30_sensors.assets/device_th.png){ style="display: block; margin: 0 auto" }
+![image](../assets/30_sensors.assets/device_th.png){ style="display: block; margin: 0 auto" }
 
 ## Broodminder TH (56)
 This sensor measures in-hive temperature and humidity and will also watch for temperature events such as swarms. Based on those informations we will be computing Brood level, hive fitness and a set of specific alerts (hotter and colder limits, excessive humidity...).
@@ -121,18 +121,18 @@ To change the logging interval:
 
 `Bees App > Devices > ... > Show Details > ... > Set Rate`
 
-![XLR rate](/assets/30_sensors.assets/t-th/set_rate.png)
+![XLR rate](../assets/30_sensors.assets/t-th/set_rate.png)
 
 ## SwarmMinder Details
 
 ### Swarm Thermoregulation
 It is well known that during a swarm event there is a lack of thermoregulation from the colony and that this is reflected by a temperature overshoot like the ones displayed in the following picture:
 
-![SM Temp](/assets/30_sensors.assets/SM_paper_examples.png)
+![SM Temp](../assets/30_sensors.assets/SM_paper_examples.png)
 
 And here is an actual swarm trace:
 
-![SM Laville](/assets/30_sensors.assets/ex_laville.png)
+![SM Laville](../assets/30_sensors.assets/ex_laville.png)
 
 We can note the temperature peak in the afternoon of May 21st. This peak is detected by SwarmMinder and the `SM state` code jumps from 25 to 42. At the same time the weight drops down due to bees leaving the hive.
 
@@ -158,16 +158,16 @@ SwarmMinder events are displayed at 3 different levels:
 1. At hive level you will only be notified of Temperature Events (ie. SM triggered).
 Those events are materialized by red needdles displayed on the temperature curve. And you can choose wether you want to see them or not clicking on the corresponding icon available on the right side menu bar. 
 
-![SM Hive](/assets/30_sensors.assets/SM_hive.png)
+![SM Hive](../assets/30_sensors.assets/SM_hive.png)
 
 
 2. At the device level you have the hole series of SM codes displayed on the graph. It is called `SM State`
 
-![SM Device](/assets/30_sensors.assets/SM_device.png)
+![SM Device](../assets/30_sensors.assets/SM_device.png)
 
 3. This same data is displayed on the respective table and of course can be exported to csv, just in case you would like to play a bit more with it.
 
-![SM Device](/assets/30_sensors.assets/SM_data_editor.png)
+![SM Device](../assets/30_sensors.assets/SM_data_editor.png)
 
 
 ### Sampling the event
@@ -178,7 +178,7 @@ When you do a sync with the Bees App the whole timeseries is collected and sent 
 
 The chart below clearly shows what are the samples sent through the hub (red dots) and the full series collected by BeesApp (green dots).
 
-![SM HUb vs BAPP](/assets/30_sensors.assets/ex_hartmann.png)
+![SM HUb vs BAPP](../assets/30_sensors.assets/ex_hartmann.png)
 
 
 !!! note

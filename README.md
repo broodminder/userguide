@@ -1,4 +1,4 @@
-# userguide v2.0.14
+# userguide v2.0.15
 
 
 ## Architecture
@@ -51,7 +51,9 @@ flowchart TB
 
 - Changing Mac = update `DOC_ASSISTANT_API` in `userguide/.env` and rebuild/redeploy the site.
 - Show / hide the widget: `ENABLE_DOC_ASSISTANT=1|0` in `userguide/.env`, then run **`./build.sh`** (or `build_local.sh`). The flag is baked into the static HTML at `mkdocs build` time, then copied to Apache (`/var/www/html/doc`). Changing `.env` alone does nothing until you rebuild + redeploy. That env var is the only on/off switch for the UI.
+- Local serve: `mkdocs serve` does **not** load `.env` by itself. Always `set -a && source .env && set +a` before `mkdocs serve -f mkdocs_test.yml` (or use `./build_local.sh`, which sources `.env`). Without that, the HTML is built with `DOC_ASSISTANT_ENABLED=0` and the classic search bar stays visible.
 - With `ENABLE_DOC_ASSISTANT=1`, Ask is shown immediately. If the Mac Mini API does not answer, the chat stays visible and shows a temporary unavailability message. Ops can still probe `GET /health` on the Mac (`userguide_utilities`) — the widget no longer uses it to hide itself.
+- Ask home UI (v2.0.15): green **New** affordance, trust copy in the welcome message (not under the composer), compact composer, Thinking… spinner only while waiting — search context status stays subtle.
 - Reindex on the Mac only when `docs/en` (or chunking) changes — not on every translation run.
 - Mac services: see `userguide_utilities/doc_assistant/deploy/`.
 
@@ -153,7 +155,7 @@ If we want to add a new lang, add it first in the **mkdocs.yml** i18n plugin, th
 Always use a **root-absolute** path so images work under every language prefix (`/`, `/fr/`, `/es/`, …):
 
 ```markdown
-![WiFi Hub](/assets/60_hubs.assets/WIFI_Hub.jpg)
+![WiFi Hub](../assets/60_hubs.assets/WIFI_Hub.jpg)
 <img src="/assets/60_hubs.assets/WIFI_Hub.jpg">
 ```
 

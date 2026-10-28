@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-![image](/assets/20_quick_start_guide.assets/mbm_and_bapp.png){ style="display: block; margin: 0 auto" }
+![image](../assets/20_quick_start_guide.assets/mbm_and_bapp.png){ style="display: block; margin: 0 auto" }
 
 We've done our best to make the installation and use of your BroodMinders intuitive and easy. Follow the process below to get to grips with all aspects of the solution (Sensors, App and Web) and you'll have every chance of success.
 
@@ -73,19 +73,19 @@ Each step is described in detail later in this document.
 
 | AT HOME   |  | | | 
 | -- | -- | -- | -- |
-| 1. | ![image](/assets/20_quick_start_guide.assets/icons/30px/001.png)  | [Install Bees App](#1-install-broodminder-bees-app) | 
-| 2. | ![image](/assets/20_quick_start_guide.assets/icons/30px/002.png)  | [Create your account](#2-create-your-account) | 
-| 3. | ![image](/assets/20_quick_start_guide.assets/icons/30px/003.png)  | [Power your devices](#3-activate-your-devices) | 
-| 4. | ![image](/assets/20_quick_start_guide.assets/icons/30px/004.png)  | [Claim & Assign to a hive](#4-claim-assign-devices-to-hives) | 
-| 5. | ![image](/assets/20_quick_start_guide.assets/icons/30px/005.png)  | [Make your first sync](#5-make-your-first-sync) | 
-| 6. | ![image](/assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Power on Hub](#6-power-on-your-hub) | 
+| 1. | ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png)  | [Install Bees App](#1-install-broodminder-bees-app) | 
+| 2. | ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png)  | [Create your account](#2-create-your-account) | 
+| 3. | ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png)  | [Power your devices](#3-activate-your-devices) | 
+| 4. | ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png)  | [Claim & Assign to a hive](#4-claim-assign-devices-to-hives) | 
+| 5. | ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png)  | [Make your first sync](#5-make-your-first-sync) | 
+| 6. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Power on Hub](#6-power-on-your-hub) | 
 
 | AT YOUR APIARY |  | | |
 | -- | -- | -- | -- |
-| 7. | ![image](/assets/20_quick_start_guide.assets/icons/30px/007.png)  | [Install devices in hive](#7-install-devices-in-hives) | 
-| 8. | ![image](/assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Install your hub](#8-install-your-hub) | 
-| 9. | ![image](/assets/20_quick_start_guide.assets/icons/30px/008.png)  | [Update starting dates](#9-update-start-datetime) | 
-| 10.| ![image](/assets/20_quick_start_guide.assets/icons/30px/009.png)  | [View and explore](#10-explore-and-discover) | 
+| 7. | ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png)  | [Install devices in hive](#7-install-devices-in-hives) | 
+| 8. | ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png)  | [Install your hub](#8-install-your-hub) | 
+| 9. | ![image](../assets/20_quick_start_guide.assets/icons/30px/008.png)  | [Update starting dates](#9-update-start-datetime) | 
+| 10.| ![image](../assets/20_quick_start_guide.assets/icons/30px/009.png)  | [View and explore](#10-explore-and-discover) | 
 
 ## 🏠 START AT HOME
 
@@ -93,41 +93,41 @@ Each step is described in detail later in this document.
 
 
 
-![Setting up devices](/assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png)
+![Setting up devices](../assets/20_quick_start_guide.assets/videos/EN_Onboarding_Video_Cover_500.png)
 
 
 
 ---
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/001.png) 1. Install BroodMinder Bees App
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/001.png) 1. Install BroodMinder Bees App
 
 Download [Broodminder Bees](https://mybroodminder.com/beesapp) from your AppStore or PlayStore. clic [HERE](https://mybroodminder.com/beesapp) or scan the QR-code to start :
 
-![image-20230508064200081](/assets/20_quick_start_guide.assets/beesApp_QRcode.png)
+![image-20230508064200081](../assets/20_quick_start_guide.assets/beesApp_QRcode.png)
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/002.png) 2. Create your account
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/002.png) 2. Create your account
 
 Create your account in the Bees App. One account gives you access to everything: the App and MyBroodMinder Web.
 
-![img](/assets/20_quick_start_guide.assets/bordered_screenshots/bapp_welcome.png#mediumImg)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/bapp_welcome.png#mediumImg)
 
 In Bees you have several tabs that we will navigate :
-![img](/assets/20_quick_start_guide.assets/bordered_screenshots/tabs.jpg#largeImg)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/tabs.jpg#largeImg)
 
 Move to `Manage` tab and create your first apiary with `... > New apiary` and then create your first hive with `... > New hive`
 
-![img](/assets/20_quick_start_guide.assets/bordered_screenshots/bapp_new_hive.png#mediumImg)
+![img](../assets/20_quick_start_guide.assets/bordered_screenshots/bapp_new_hive.png#mediumImg)
 
 We can now move on to assign sensors to this newly created hive. But first we have to power on devices.
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/003.png) 3. Activate your devices
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/003.png) 3. Activate your devices
 
 In general all BroodMinder devices have a pull strip.
 Older models (T2 <2019) might have a push button.
 
 
 
-![Photo 1](/assets/20_quick_start_guide.assets/tab_th.jpg)![Photo 2](/assets/20_quick_start_guide.assets/tab_w5.jpg)![Photo 3](/assets/20_quick_start_guide.assets/tab_w4.jpg)![Photo 4](/assets/20_quick_start_guide.assets/tab_beedar.jpg)
+![Photo 1](../assets/20_quick_start_guide.assets/tab_th.jpg)![Photo 2](../assets/20_quick_start_guide.assets/tab_w5.jpg)![Photo 3](../assets/20_quick_start_guide.assets/tab_w4.jpg)![Photo 4](../assets/20_quick_start_guide.assets/tab_beedar.jpg)
 
 !!! warning "Depending on the device, some of the points below may apply:"
 
@@ -143,7 +143,7 @@ Older models (T2 <2019) might have a push button.
 
 When they are powered, the devices should appear in Bees App under the `Devices`tab with a green Bluetooth logo indicating "Nearby". It means your phone is "seeing" the device. In the example below device 49:06:27 is not in Bluetooth range (unavailable) and belongs to a third party account while 49:06:39 is in range and not yet claimed.
 
-![](/assets/20_quick_start_guide.assets/bordered_screenshots/activateDevices2.png#mediumImg)
+![](../assets/20_quick_start_guide.assets/bordered_screenshots/activateDevices2.png#mediumImg)
 
 !!! tip "Understand device model"
     All BroodMinder sensors have a 6-digit reference number in the form XX:XX:XX. The first two digits of this reference define the model:
@@ -160,7 +160,7 @@ When they are powered, the devices should appear in Bees App under the `Devices`
 - 63 : BeeDar
 ```
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/004.png) 4. Claim & Assign devices to hives
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/004.png) 4. Claim & Assign devices to hives
 
 !!! info "Why claim a device?"
     Claiming a device links it permanently to your MyBroodMinder account.
@@ -176,13 +176,13 @@ Devices are shipped in an unassigned state because users often have not yet crea
 First you need to claim the device by clicking on the green `Claim Device` button found in the `Devices` tab. This operation will associate each device you claim to your account. 
 You will then be asked to assign the sensor to a hive. You can proceed or cancel and come back later via the menu `...`
 
-![assignDevices](/assets/20_quick_start_guide.assets/bordered_screenshots/claim.png#mediumImg)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/claim.png#mediumImg)
 
 Assign the newly claimed device to a hive. To do so, you’ll need three pieces of information: the **apiary**, the **hive**, and the **device location** within that hive. The dropdown menus also allow you to create new apiaries and hives on the fly, keeping the entire setup process in one place.
 
 
 
-![Photo 1](/assets/20_quick_start_guide.assets/claim1.jpg)![Photo 2](/assets/20_quick_start_guide.assets/claim2.jpg)![Photo 3](/assets/20_quick_start_guide.assets/claim3.jpg)
+![Photo 1](../assets/20_quick_start_guide.assets/claim1.jpg)![Photo 2](../assets/20_quick_start_guide.assets/claim2.jpg)![Photo 3](../assets/20_quick_start_guide.assets/claim3.jpg)
 
 Available hive locations are:
 
@@ -206,11 +206,11 @@ Available hive locations are:
 
 Once you have assigned all your devices, the `Manage` tab should display your hives and devices in a tree structure like that: 
 
-![manage tree](/assets/20_quick_start_guide.assets/bordered_screenshots/manage_tree.png#mediumImg)
+![manage tree](../assets/20_quick_start_guide.assets/bordered_screenshots/manage_tree.png#mediumImg)
 
 Now you are ready to perform the first sync.
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/005.png) 5. Make your first sync
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/005.png) 5. Make your first sync
 
 Syncing a device means connecting to it with your smartphone and retrieving all the data it has collected since it was powered on or since its last synchronization. During the sync process, the data is downloaded to your phone and simultaneously uploaded to the cloud on MyBroodMinder.
 
@@ -220,14 +220,14 @@ The data remains stored in the device memory and is not erased unless you explic
     **The first sync sets the device’s date and time**, ensuring that all recorded measurements are accurately timestamped. If you skip the sync when powering on the device, future syncs will still add timestamps, but earlier data may be shifted when calculated retroactively. For this reason, it’s best practice to sync the device every time you power it on—such as after a battery change.
 
 !!! Tip
-    You can only sync devices within bluetooth range (appearing in green) ![nearby](/assets/20_quick_start_guide.assets/beesApp_sync.jpg#smallImg)
+    You can only sync devices within bluetooth range (appearing in green) ![nearby](../assets/20_quick_start_guide.assets/beesApp_sync.jpg#smallImg)
 
 Using BroodMinder Bees App there are multiple ways of syncing: 
 
 - `Sync-All` is at the top of the screen in the `Manage` tab. This syncs all devices at once and is a Premium feature.
 - `Single Sync`is within the 3dots `...`menus, either in `Devices`or in `Manage` tab
 
-![assignDevices](/assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104926_edited.jpg#mediumImg)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/Screenshot_20240619-104926_edited.jpg#mediumImg)
 
 Now look to your data. This can be done in different places:
 
@@ -237,12 +237,12 @@ Now look to your data. This can be done in different places:
 
 Below are three views of the same data: at the **device level** (left), the **hive level** from the *Manage* tab (center), and the **apiary level** from the *Hives* tab (right).
 
-![assignDevices](/assets/20_quick_start_guide.assets/bordered_screenshots/show_chart_methods.png)
+![assignDevices](../assets/20_quick_start_guide.assets/bordered_screenshots/show_chart_methods.png)
 
 !!! info
     On your first sync you probably do not see much data since there is only one or two samples recorded.
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/006.png) 6. Power-On your Hub
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 6. Power-On your Hub
 
 This stage is intended for those owning a Hub for real time monitoring.
 If you do not have a Hub, move to the [next chapter](#7-install-devices-in-hives)
@@ -258,19 +258,19 @@ Remember from [Hubs page](./60_hubs.md) that there are several hub versions:
 
 - Power on the hub using the small black switch.
 
-![Power On](/assets/20_quick_start_guide.assets/hub/T91_powerOn.png)
+![Power On](../assets/20_quick_start_guide.assets/hub/T91_powerOn.png)
 
 - The LED light will blink green, then turn solid blue for 5 seconds, and finally return to blinking green.
 - Check on Bees App that transmission has been established. Go to `Devices tab > Hub ID > ... > Show details` last upload shall display current date/time.
 
-![Upload check](/assets/20_quick_start_guide.assets/hub/T91_onBeesApp_frame.png#mediumImg)
+![Upload check](../assets/20_quick_start_guide.assets/hub/T91_onBeesApp_frame.png#mediumImg)
 
 !!! tip 
     On the Hub Details screen, the bottom black section shows the device’s boot process and current status in real time. Under normal conditions, it alternates between **Status 10 (tick)** and **Status 11 (tock)**. Other possible statuses include `Booting`, `starting modem`, `connecting to AWS` or `Start BLE scan`, among others. 
 
 - Install the velvet protective bag, making sure the power switch remains accessible through the opening.
 
-![T91 weather](/assets/20_quick_start_guide.assets/hub/T91_bag.png)
+![T91 weather](../assets/20_quick_start_guide.assets/hub/T91_bag.png)
 
 !!! warning "The velvet bag is important!"
     The velvet bag serves two key purposes:
@@ -282,11 +282,11 @@ Remember from [Hubs page](./60_hubs.md) that there are several hub versions:
 
 - Insert the T91 within the weather shield .
 
-![T91 weather](/assets/20_quick_start_guide.assets/hub/T91_inweathershield.png)
+![T91 weather](../assets/20_quick_start_guide.assets/hub/T91_inweathershield.png)
 
 - Install the hub in your apiary using one of the available mounting options: tie wraps, screws, or an optional magnet.
 
-![Upload check](/assets/20_quick_start_guide.assets/hub/T91_shield_attach.jpg)
+![Upload check](../assets/20_quick_start_guide.assets/hub/T91_shield_attach.jpg)
 
 #### 6.2 T91 Solar hub version
 
@@ -296,7 +296,7 @@ Follow the same process as above, with the difference that you will have to plug
 2. Insert the USB plug into the battery
 3. Slide the power switch to the right
 
-![Upload check](/assets/20_quick_start_guide.assets/hub/T91_solar.png)
+![Upload check](../assets/20_quick_start_guide.assets/hub/T91_solar.png)
 
 4. Hub will start and you can check data transmission using Bees App as described above.
 
@@ -308,34 +308,34 @@ Watch the video to get started
 
 
 
-![Install devices at the apiary](https://img.youtube.com/vi/zrxAc6mLiI4/0.jpg) ![](/assets/20_quick_start_guide.assets/videos/EN_Apiary_Install_Video_Cover_500.png) ![](/assets/88_winter_service/youtube-play.png)
+![Install devices at the apiary](https://img.youtube.com/vi/zrxAc6mLiI4/0.jpg) ![](../assets/20_quick_start_guide.assets/videos/EN_Apiary_Install_Video_Cover_500.png) ![](../assets/88_winter_service/youtube-play.png)
 
 
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/007.png) 7. Install devices in hives
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 7. Install devices in hives
 
 #### Internal sensors
 
 Install BroodMinder-T (model 47) and -TH (model 56) on the middle frame (usually no. 5), starting on the left-hand side as seen from the front of the hive. The identifier at the end of the tab should protrude so as to be visible from the front of the hive.
 
-![Install_BRM-T](/assets/20_quick_start_guide.assets/install_BRM-T.png)
+![Install_BRM-T](../assets/20_quick_start_guide.assets/install_BRM-T.png)
 
 #### Scales
 
 Place your BroodMinder-W and W5 scales preferably **at the back** of the hive. Make sure the hive is as level as possible. 
 BroodMinder-W3 and W4 scales do not require precise levelling.
 
-![Install_BRM-W](/assets/20_quick_start_guide.assets/install_BRM-W5-Alu.jpg)
+![Install_BRM-W](../assets/20_quick_start_guide.assets/install_BRM-W5-Alu.jpg)
 
 #### Beedar
 
 The BeeDar is mounted on the front of the hive, centered on the hive axis. The height from the flight deck is just right to allow you to handle the entrance reducers without worry. Typically 5 to 7 cm above the floor.
 
-![BeeDar mounting position](/assets/30_sensors.assets/beedar/beedar_position.png)
+![BeeDar mounting position](../assets/30_sensors.assets/beedar/beedar_position.png)
 
 For more details about beedar installation go to the [Beedar page](./35_sensors_Beedar.md)
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/006.png) 8. Install your hub
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/006.png) 8. Install your hub
 
 This step is optional and only applies to users with a Hub for real-time monitoring.
 
@@ -350,22 +350,22 @@ This step is optional and only applies to users with a Hub for real-time monitor
 
 The best practice is to place the hub on a pod in the 10m range of your hives 
 
-![Install hub](/assets/20_quick_start_guide.assets/hub/hub_install.png)
+![Install hub](../assets/20_quick_start_guide.assets/hub/hub_install.png)
 
 An example using the weather shield magnet directly on a hive roof
 
-![Install hub](/assets/20_quick_start_guide.assets/hub/hub_weather_shield.jpg)
+![Install hub](../assets/20_quick_start_guide.assets/hub/hub_weather_shield.jpg)
 
 Some examples with the solar version: on a pod, mural or even on hive
 
-![Install hub](/assets/20_quick_start_guide.assets/hub/hub_install_solar.png)
+![Install hub](../assets/20_quick_start_guide.assets/hub/hub_install_solar.png)
 
 Once the hub is installed in it's final location check again the connectivity
 
 - Check hub connectivity with Bees App (in the `Devices Tab > hub ID > ... > Show details`)
 - You should have a "tick/tock" status.
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/007.png) 9. Update start date/time
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/007.png) 9. Update start date/time
 
 To avoid mixing your hive data with measurements collected from your living room coffee table 🛋️🐝, update the sensor start date once the devices are actually installed in the hive.
 
@@ -373,13 +373,13 @@ To do so, go to `Manage > unfold the hives to see the devices > ... > Move Devic
 
 Then edit the `start date/time` and set it to the moment the device was installed in the hive.
 
-![update date time](/assets/20_quick_start_guide.assets/bordered_screenshots/update_starttime.png#largeImg)
+![update date time](../assets/20_quick_start_guide.assets/bordered_screenshots/update_starttime.png#largeImg)
 
-### ![image](/assets/20_quick_start_guide.assets/icons/30px/008.png) 10. Explore and discover
+### ![image](../assets/20_quick_start_guide.assets/icons/30px/008.png) 10. Explore and discover
 
 Now you can also go to [MyBroodMinder.com](https://mybroodminder.com) and explore your data. Sign in with the same account you created on the Bees App.
 
-![MBM](/assets/20_quick_start_guide.assets/bordered_screenshots/mbm_in_action.png)
+![MBM](../assets/20_quick_start_guide.assets/bordered_screenshots/mbm_in_action.png)
 
 In this interface you will be able to create your own dashboards, track brood levels, the weight gains and losses, configure your alerts or even the past and forecasted weather as well as the nectar-flow indexes and much more!
 

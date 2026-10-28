@@ -55,7 +55,7 @@ document.getElementById("yt-kpkddSc-lU4").addEventListener("click", function() {
 
 The process of queen replacement is triggered when you add a note with one of those tags : 
 
-![triggers](/assets/50_mybroodminder_v5.assets/queenminder/triggers.png)
+![triggers](../assets/50_mybroodminder_v5.assets/queenminder/triggers.png)
 
 --- 
 Here is the documentation written by Theo Hartmann 2025-07-15
@@ -67,7 +67,7 @@ Queen replacement is a complex and delicate process that unfolds over several we
 
 The tracking of a colony transition is triggered when you add a note with one of the tags in the Colony Transition category:
 
-![](/assets/50_mybroodminder_v5.assets/queenminder/qm001.png)
+![](../assets/50_mybroodminder_v5.assets/queenminder/qm001.png)
 
 - Swarming<br>
  A swarm can either be a primary swarm with the mother queen leaving the hive or an afterswarm with a virgin leaving. It's crucial to identify the primary swarm event as the trigger for the cycle start and not an afterswarm.
@@ -87,31 +87,31 @@ A swarm is captured, or a package of bees is installed into a hive. The beekeepe
 ## Data Entry
 The colony transition tags can be accessed via hive notes.
 
-![](/assets/50_mybroodminder_v5.assets/queenminder/qm002.png)
+![](../assets/50_mybroodminder_v5.assets/queenminder/qm002.png)
 
 Selecting any of the transition cycle tags displays a pop-up asking you to confirm that this is what you would like to do.
 
-![](/assets/50_mybroodminder_v5.assets/queenminder/qm003.png)
+![](../assets/50_mybroodminder_v5.assets/queenminder/qm003.png)
 
 
 Selecting “Yes” will start the cycle. “Cancel” will let you back out.
 
 A small icon appears after the hive name once a cycle is started. This indicates that the hive is currently in a transition and special care should be taken when doing inspections. This icon disappears once the transition is complete.
 
-![](/assets/50_mybroodminder_v5.assets/queenminder/qm004.png)
+![](../assets/50_mybroodminder_v5.assets/queenminder/qm004.png)
 
 
 ## QueenMinder Dashboard
 A QueenMinder tab is available as a default dashboard in mybroodminder.com.
 
-![](/assets/50_mybroodminder_v5.assets/queenminder/qm005.png)
+![](../assets/50_mybroodminder_v5.assets/queenminder/qm005.png)
 
 
 It contains hive Notes, a Colony Transition summary, the Colony Transition Calendar and the two most important hive metrics which are brood nest temperature and hive weight. As with other default dashboards, the QueenMinder dashboard can be customized by creating a new dashboard and adding the dashboard elements one-by-one. The default dashboard can then be hidden to avoid duplication.
 
 The Colony Transition summary line displays the following key values which are calculated based on the inspection information entered.
 
-![](/assets/50_mybroodminder_v5.assets/queenminder/qm006.png)
+![](../assets/50_mybroodminder_v5.assets/queenminder/qm006.png)
 
 
 **Cycle Start** is the date when the cycle was started either by the colony or by the beekeeper. The icon shows the transition type selected.
@@ -159,7 +159,7 @@ The Colony Transition Calendar consists of 4 rows that visualize:
 - Sensitive queen development periods
 - Opportunities for the beekeeper (drone comb removal, OA treatment, adding brood to prevent laying workers)
 
-![](/assets/50_mybroodminder_v5.assets/queenminder/qm007.png)
+![](../assets/50_mybroodminder_v5.assets/queenminder/qm007.png)
 
 
 The start and end dates of the timeline can be optimized by clicking the `(+)` magnifier to the left of the hive name on the calendar. Each of the visualizations (rows) can be toggled on and off individually to reduce clutter which can happen with many cycles running simultaneously on multiple hives. To toggle a visualization on or off click the blue icons to the right of the relevant row.
@@ -170,14 +170,14 @@ Let's walk through a swarming transition cycle and use it as a guide to illustra
 
 1. Start the transition cycle by entering a hive note with the date and time of the swarm
 
-    ![](/assets/50_mybroodminder_v5.assets/queenminder/qm008.png)
+    ![](../assets/50_mybroodminder_v5.assets/queenminder/qm008.png)
 
 2. Scroll down and click `Create`. Answer `Yes` when the pop-up appears.
 
 
 3. It takes you to the inspection window pop-up which consists of 4 sections (0-3) with section 1 open as shown below:
 
-    ![](/assets/50_mybroodminder_v5.assets/queenminder/qm009.png)
+    ![](../assets/50_mybroodminder_v5.assets/queenminder/qm009.png)
 
 
 4. Before continuing with our example, let’s briefly look at all the sections/inspections in the above window. Section 0 shows the cycle summary with start date, the cycle progress indicator (Q-code), the Queen Egg Lay Date (QELD) and the Mother Queen Vanished Date (MQVD). These values are calculated with default values for the “Swarming” cycle type and are updated as inspection results become available. The defaults are:
@@ -200,19 +200,19 @@ There is a “Show more tags” button near the bottom which will open most of t
 The Notes section at the top shows the detailed information entered.
 Hover over the different colored regions in the Colony Transition Calendar to reveal the meaning of each. The grey inspection bars are clickable and open the respective inspection data entry field.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm010.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm010.png)
 
 
 7. To continue with our example, suppose it is time for our next inspection. Click on the first grey inspection bar. This will open the data entry window for the next inspection. This time the dialog opens with the data entry window for the second inspection. Again, select the development stage of the oldest queen cell (or emerged virgin) and remove any additional queen cells which may have been raised since the last inspection.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm011.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm011.png)
 
 
 8. Click “Save” to save the data entered and to recalculate the dates for the next inspection window. It will take you back to the QueenMinder dashboard. Time for a break of about two weeks before any further action is needed.
 
 9. Go back to the QueenMinder dashboard by the time the next inspection window rolls around and do the hive inspection. Click the grey inspection bar in the timeline or the edit pencil in the Colony Transition summary to enter the findings.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm012.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm012.png)
 
 
 10. Once again, the inspection data entry pop-up window opens to the appropriate section. A lot of things are happening at this point. Let’s go thru them one-by-one. In our example we are at day 32 of the queen development cycle as indicated by the Q32 code at the top. We have completed the start of the cycle and the first two inspections as indicated by the check marks.<br>
@@ -222,7 +222,7 @@ The “Inspection for New Brood” tags have the following groupings and meaning
     - Yellow “Supersedure Queen”: Queen development was successful, but colony does not accept the new queen and wants to replace her.
     - Yellow “Afterswarm” or “Requeening”: Colony or beekeeper-initiated cycle restart.
 
-    In our example we have found eggs and young larvae. We therefore select “Young larvae” as the state of the oldest brood found. Click “Create” at the bottom to close the window.      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm013.png)
+    In our example we have found eggs and young larvae. We therefore select “Young larvae” as the state of the oldest brood found. Click “Create” at the bottom to close the window.      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm013.png)
 
 11. Back at the QueenMinder dashboard we now see the following:
     - The Colony Transition summary shows W8 as the progress code and QDT: 26. This means that it took 26 days for the new queen to develop (from egg-to-egg) and that the new brood is now 8 days old.
@@ -231,18 +231,18 @@ The “Inspection for New Brood” tags have the following groupings and meaning
     - The last inspection window now appears. When you are ready to inspect again to check for capped brood and to make sure that indeed the transition period is complete, you will click the grey box for the next step.
 
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm014.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm014.png)
 
 
 
 12. Once you click on the grey inspection box, the data entry window is opened one last time to close out the cycle. The “Egg” and “Larvae” options are no longer available since it is expected that the oldest brood is capped by now. In our example, we found capped brood on 1 frame and we click the corresponding tag. Click “Create” to save and close the window.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm015.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm015.png)
 
 
 13. Back at the Colony Transition summary we now see that the cycle has been completed successfully. The final stage of the queen development timeline has turned solid green as an indication that we now have a stable brood production again.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm016.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm016.png)
 
 
 The above is an example of a successful cycle. New brood was found when first checked during step 10). This is not always the case. If brood is not found at this stage, it is suggested to go back in 5-7 days to check again.  Requeening of the hive should be considered once the Q counter is above 35. The next chapter explains the process.
@@ -254,13 +254,13 @@ There is the option to abort a running cycle and initiate a restart. This is don
 
 14. Let’s assume that during the previous example we did not find any new brood during the inspection on June 30th:
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm017.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm017.png)
 
 
 
 15. Click to open the inspection window. Let’s assume there is still no new brood (eggs or larva). There are the two cycle restart options at the bottom right. Selecting either of them will abort the current cycle and start a new one. It is assumed that there has not been a queen laying any brood since the start of the now aborted cycle, thus the Mother Queen Vanished Day from the aborted cycle can be carried over. Select “Requeening” and click “Create”.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm018.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm018.png)
 
     A pop-up appears asking you to confirm. Click “Yes” to continue.
 
@@ -286,24 +286,24 @@ There is the option to abort a running cycle and initiate a restart. This is don
 
     The default for this cycle type is 1), “No Queen cell, has eggs/larvae” and the Q code for this option is Q4 as seen at the top of the window.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm019.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm019.png)
 
     It is up to you to select the appropriate option for the case at hand. Typically, I would not start with open brood again if the mother queen vanished more than 4 weeks ago.  In our example I inserted a capped queen cell from a breeder. The virgin should emerge within a day or two. Select breeder queen cell and click “Save” to close the window.
 
 17. Back at the QueenMinder dashboard we now see a second cycle appear. The first one was restarted at Q34 and the second cycle sits at Q15 considering the resource option we selected (Breeder queen cell). The next inspection is to check for new brood in about 2 weeks and then continue with the steps previously described starting with section 10.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm020.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm020.png)
 
 
 ## Requeening from Scratch
 This requeening scenario is initiated by the beekeeper and is not the result of a cycle restart.
-Make sure that there is no cycle running on the hive you want to requeen. Consecutive cycles on the same hive are not possible. Select requeening and click “Create” and confirm with “Yes”. ![](/assets/50_mybroodminder_v5.assets/queenminder/qm021.png)
+Make sure that there is no cycle running on the hive you want to requeen. Consecutive cycles on the same hive are not possible. Select requeening and click “Create” and confirm with “Yes”. ![](../assets/50_mybroodminder_v5.assets/queenminder/qm021.png)
 
 
 
 19. This opens the first inspection window which has extra options when compared to the window shown in step 16) which was a restart, and the Mother Queen Vanished Date (MQVD) was known. This time around, this information is not available. The default is that the mother queen was removed during this inspection. There is however the possibility that a hive was found queenless and it is not known when the mother queen vanished. In this case, the vanished date of the mother queen is determined based on the condition found of the remaining brood in the hive. It is important to look for the YOUNGEST brood anywhere. Use the bottom group of icons to record the finding and the MQVD will be recalculated accordingly.
 
-      ![](/assets/50_mybroodminder_v5.assets/queenminder/qm022.png)
+      ![](../assets/50_mybroodminder_v5.assets/queenminder/qm022.png)
 
     In our example, no open brood or queen cells were found in the hive. Capped worker brood on 3+ frames was the youngest brood found and that’s the correct selection. The frame with the open queen cell which was added does not count since it came from another hive. Click “Save” when done.
 
@@ -316,7 +316,7 @@ Make sure that there is no cycle running on the hive you want to requeen. Consec
 
 It is now apparent that the egg for the new queen was laid ten days after the queen in the hive vanished thus it had to originate from another hive.
 
-  ![](/assets/50_mybroodminder_v5.assets/queenminder/qm023.png)
+  ![](../assets/50_mybroodminder_v5.assets/queenminder/qm023.png)
 
 The remaining steps in this cycle are the same as shown before.
 

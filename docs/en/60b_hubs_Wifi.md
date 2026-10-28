@@ -47,7 +47,7 @@ document.getElementById("yt-10jw51jqmT0").addEventListener("click", function() {
 - Now start up the Bees App on your phone or tablet and choose the `Devices` page. You should see the BroodMinder-WIFI show up on the list. 
 
 - Press the `Claim Device` button and follow the prompts to add it to your inventory.
-![claim](/assets/60_hubs.assets/image-20230408093307902.png#mediumImg)
+![claim](../assets/60_hubs.assets/image-20230408093307902.png#mediumImg)
   
 
 - Click the `...` to the right of the WIFI hub and choose `Show Details`
@@ -67,8 +67,8 @@ document.getElementById("yt-10jw51jqmT0").addEventListener("click", function() {
   - You can also send data by pressing the button near the LED on the BroodMinder-WIFI circuit board.
 
     
-- Go to MyBroodMinder.com to see the results (results shown beloware from a hub running for > 1 week)![MBM](/assets/60_hubs.assets/image-20230408093827071.png)
+- Go to MyBroodMinder.com to see the results (results shown beloware from a hub running for > 1 week)![MBM](../assets/60_hubs.assets/image-20230408093827071.png)
 
-  ![image-20230408094805586](/assets/60_hubs.assets/image-20230408094805586.png)
+  ![image-20230408094805586](../assets/60_hubs.assets/image-20230408094805586.png)
 
   

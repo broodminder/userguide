@@ -28,7 +28,7 @@ The LoRa hub is working very similar to all other Cell or wifi hubs. It is track
 
 ## LoRa Gateway (BRM-66)
 
-![lora hub](/assets/60_hubs.assets/lora/Rak_Gateway.png)
+![lora hub](../assets/60_hubs.assets/lora/Rak_Gateway.png)
 
 At the other end of the emitter there should be a receiver. Depending on your location it could roam through different networks. Although you can also install a gateway that will be hooked to the internet.
 

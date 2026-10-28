@@ -168,7 +168,7 @@ a) Default Arrangement
 
 This is the default arrangement with the scale at the front of the hive and a 2×4 as an auxiliary support (fulcrum) at the back: 
 
-​      ![image-20230409132020233](/assets/87_physics_and_tech_stuff.assets/image-20230409132020233.png)                          
+​      ![image-20230409132020233](../assets/87_physics_and_tech_stuff.assets/image-20230409132020233.png)                          
 
 Here are some calculations surrounding the setup: 
 
@@ -178,17 +178,17 @@ The hive weight W is distributed evenly and the center of gravity is in the midd
 
 Calculations 
 
-  ![image-20230409132049073](/assets/87_physics_and_tech_stuff.assets/image-20230409132049073.png)
+  ![image-20230409132049073](../assets/87_physics_and_tech_stuff.assets/image-20230409132049073.png)
 
 When using standard 2×4 lumber as a back support and aligning it with the back of the hive, the total hive weight W can be calculated from the weight on the scale S as: 
 
-  ![image-20230409132117498](/assets/87_physics_and_tech_stuff.assets/image-20230409132117498.png)
+  ![image-20230409132117498](../assets/87_physics_and_tech_stuff.assets/image-20230409132117498.png)
 
 Therefore, use 2.09 as the default hive scale factor in the app if you are using this setup. This of course can be fine tuned once some weight measurement are available. 
 
 The chart below shows the scale correction factor for different scale and fulcrum arrangements. The X-Axis is the position of the fulcrum point in inches from the back of the hive. The different lines represent the scale centerline position in inches from the back of the hive. Arrows show the example above. 
 
-  ![image-20230409132140051](/assets/87_physics_and_tech_stuff.assets/image-20230409132140051.png)
+  ![image-20230409132140051](../assets/87_physics_and_tech_stuff.assets/image-20230409132140051.png)
 
 ​       
 
@@ -196,11 +196,11 @@ b) Alternate Arrangement 1
 
 Based on the above, the auxiliary support should be placed 1” from the back of the hive. It is recommended to attach a trim piece on top of the 2×4. This will help for accurate positioning of the auxiliary support. 
 
-  ![image-20230409132159801](/assets/87_physics_and_tech_stuff.assets/image-20230409132159801.png)
+  ![image-20230409132159801](../assets/87_physics_and_tech_stuff.assets/image-20230409132159801.png)
 
 Now we have equal moment arms E and F and the hive scale correction factor becomes 2.0 which is the default in the mobile app. There are however some other influence factors which should not be overlooked. The real fulcrum point of the auxiliary support is anywhere between the back of the hive and the front of the aux support due to variations of the support system levelness and potential warpage of the 2×4 itself. 
 
-  ![image-20230409132222112](/assets/87_physics_and_tech_stuff.assets/image-20230409132222112.png)
+  ![image-20230409132222112](../assets/87_physics_and_tech_stuff.assets/image-20230409132222112.png)
 
   
 
@@ -212,7 +212,7 @@ A different support system can be used which has a defined fulcrum point and is 
 
 Take a piece of pine or oak, about ¾” thick and 2” wide. Length needs to be the width of the hive. Cut a small kerf into it. The kerf needs to be as deep as the width of the saw blade. Attach this piece to the underside of the bottom board of the hive. Align it flush with the back. Then place a piece of 1” by 1/8” 6061 or 6063 aluminum angle, same length as the wood strip, under it to support the hive. The corner of the aluminum angle rests in the kerf. The total hight of the aluminum angle and the wood needs to be equal or slightly bigger than the scale height to ensure the hive is level or even slightly tilted forward to ensure water drainage away from the hive entrance. 
 
-![image-20230409132309128](/assets/87_physics_and_tech_stuff.assets/image-20230409132309128.png)
+![image-20230409132309128](../assets/87_physics_and_tech_stuff.assets/image-20230409132309128.png)
 
   d) Lateral Balancing 
 
@@ -226,11 +226,11 @@ If not then shim the scale on the side with the lower weight reading until the w
 
 e) 3-Point Hive Support 
 
-  ![image-20230409132329198](/assets/87_physics_and_tech_stuff.assets/image-20230409132329198.png)
+  ![image-20230409132329198](../assets/87_physics_and_tech_stuff.assets/image-20230409132329198.png)
 
 There is a way to alleviate the need for lateral balancing by introducing a true 3-point support system. The parts are similar to the ones used in arrangement 2 but instead of using a 1” angle, for this arrangement you will need a ¾” angle. A 7/32” hole is drilled in the middle of the board instead of cutting a kerf. A ¼” x 0.5” slotted machine screw is used as center support. The screw will cut its own threads into the board. The slot in the screw head is aligned so that it can rest on the edge of the aluminum angle in a single point without sliding off. 
 
-  ![image-20230409132356839](/assets/87_physics_and_tech_stuff.assets/image-20230409132356839.png)
+  ![image-20230409132356839](../assets/87_physics_and_tech_stuff.assets/image-20230409132356839.png)
 
 There is a small gap between the aluminum angle and the wood board. It has to be ensured that this gap is even width across the hive. The screw in the middle should be the only contact point. This will ensure that the correct weight is measured and at the same time it is the “safety net” against the hive falling over if excessive uneven loading is taking place, i.e during hive inspections. 
 
@@ -242,11 +242,11 @@ Most of the above has been dealing with the auxiliary support. Let’s focus now
 
 As shown in the previous sections, it is desirable to have the front face of the scale placed in line with the front face of the hive body. Moving it further in would improve accuracy at the expense of hive stability and moving it further out would reduce accuracy with little improved hive stability. 
 
-  ![image-20230409132418897](/assets/87_physics_and_tech_stuff.assets/image-20230409132418897.png)
+  ![image-20230409132418897](../assets/87_physics_and_tech_stuff.assets/image-20230409132418897.png)
 
 This chart shows the influence of scale placement on the scale correction factor and scale error introduced due to inaccurate positioning of the scale. The influence is 5.6% per inch 
 
- ![image-20230409132434621](/assets/87_physics_and_tech_stuff.assets/image-20230409132434621.png) 
+ ![image-20230409132434621](../assets/87_physics_and_tech_stuff.assets/image-20230409132434621.png) 
 
 It is advisable to mark the scale position on the bottom board of the hive or to attach a mechanical stop. This will help to put the scale back into the same location after it has been pulled for a battery change or some other reason. 
 

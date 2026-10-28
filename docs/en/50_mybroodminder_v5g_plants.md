@@ -24,16 +24,16 @@ document.getElementById("yt-u0g4em-KG7o").addEventListener("click", function() {
 The **Plants** module is one of the key new features released in 2025. Since 2022, we’ve been developing a powerful model to **track and forecast phenological stages** of plants. The engine behind this feature is called **Phenocast**.
 Plants are now fully integrated into MyBroodMinder, and support for Bees App will follow soon.
 
-![plants](/assets/50_mybroodminder_v5.assets/plants/left_side3.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/left_side3.png)
 
 
 
 Each **apiary** can now be linked to an **unlimited number of plants**. Choose those that matter most for your bees, especially for nectar and pollen. We’ve built a database of over **500 species**, searchable by keyword.  
 
 
-![plants](/assets/50_mybroodminder_v5.assets/plants/add_plant.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/add_plant.png)
 
-![plants](/assets/50_mybroodminder_v5.assets/plants/search_plant2.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/search_plant2.png)
 
 !!! tip 
     you can search your plants through their Scientific (latin), english, french or spanish name
@@ -42,7 +42,7 @@ Each **apiary** can now be linked to an **unlimited number of plants**. Choose t
 Once you've selected your plants, you can explore the data in different ways. let's check them:
 
 ## Plant data Sheet
-![plants](/assets/50_mybroodminder_v5.assets/plants/plantdatasheet.png) 
+![plants](../assets/50_mybroodminder_v5.assets/plants/plantdatasheet.png) 
 
 Click on any plant to view all its properties:
 
@@ -56,7 +56,7 @@ You’ll also see a **table of your historical observations**, which you can com
 
 ## Calendar View
 
-![plants](/assets/50_mybroodminder_v5.assets/plants/timeline.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/timeline.png)
 
 From the **Plants tab** in the left panel, you’ll access a calendar showing:
 
@@ -74,14 +74,14 @@ Icons over the lines represent the **actual dates** recorded in your observation
 
 You can add a **Plants chart widget** to any **Custom Dashboard**. Simply drag the “Plants” widget to the right-hand side. It pairs perfectly with **productivity data** or the **nectar flow index** — giving you a more complete picture of your apiary’s ecosystem.
 
-![plants](/assets/50_mybroodminder_v5.assets/plants/customdash.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/customdash.png)
 
 
 ## Manage plants
 
 You can edit or remove plants at any time from the `Configure > Apiaries` panel. Just click the **plant config icon** next to each apiary to unfold and manage your plant list.
 
-![plants](/assets/50_mybroodminder_v5.assets/plants/configure.png)
+![plants](../assets/50_mybroodminder_v5.assets/plants/configure.png)
 
 
 
