@@ -13,7 +13,7 @@ Weather conditions are a key aspect of beekeeping. You simply can't manage your 
 
 In MyBroodMinder, each apiary has its own **Weather** object.
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/left_side.png)
+![weather](../assets/50_mybroodminder_v5.assets/weather/left_side.png)
 
 When you expand this section, you'll see the default weather service **WeatherSource** attached. **WeatherSource Inc.** is a dedicated company that provides reliable historical and forecast weather data.
 
@@ -21,14 +21,14 @@ When you expand this section, you'll see the default weather service **WeatherSo
     WeatherSource estimates weather based on the ZIP code you entered when creating your apiary. This might be a few miles away from your actual location.  
     To improve accuracy, go to `Edit Apiary > Coordinates > Edit Location`, and move the map marker to the precise spot.
     
-    ![weather](/assets/50_mybroodminder_v5.assets/weather/finetunemap.png#smallImg)
+    ![weather](../assets/50_mybroodminder_v5.assets/weather/finetunemap.png#smallImg)
 
 
 ## Sources
 
 You can also add a **local weather source** using the `...` menu. This allows you to assign a BroodMinder device (like a **Weather Hub** or **BroodMinder-T/TH**) to provide real-time weather readings from the apiary itself.
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/local_source.png)
+![weather](../assets/50_mybroodminder_v5.assets/weather/local_source.png)
 
 !!! tip "Get precise local weather data"
     The most accurate way to measure apiary weather is to use a **weather shield** enclosing a BroodMinder-T91 Hub or a BroodMinder-TH.
@@ -49,8 +49,8 @@ You'll notice two time series:
 
 Depending on the local source, you may see temperature, humidity, or both.
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/weatherdash1.png)
-![weather](/assets/50_mybroodminder_v5.assets/weather/weatherdash2.png)
+![weather](../assets/50_mybroodminder_v5.assets/weather/weatherdash1.png)
+![weather](../assets/50_mybroodminder_v5.assets/weather/weatherdash2.png)
 
 **WeatherSource** provides: Temperature, Humidity, Rainfall, Wind and Cloud cover. In the example above, compared with the local weather data, WeatherSource tracks temperature well, though it may underestimate peak temperatures. This is where comparing with your local device is useful. For instance, if your apiary is in full sun, afternoon temperatures can be significantly higher.
 
@@ -60,16 +60,16 @@ Depending on the local source, you may see temperature, humidity, or both.
 
 Once you're familiar with your current weather sources, you can look ahead with the forecast. In the calendar picker, check the **"Show 10-day forecast"** option:
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/forecastpicker.png#mediumImg)
+![weather](../assets/50_mybroodminder_v5.assets/weather/forecastpicker.png#mediumImg)
 
 The weather charts will now extend 10 days into the future. The vertical green dashed line marks "today". In this example, the forecast shows stable conditions ahead — no sharp warm-ups or cool-downs.
   
-![weather](/assets/50_mybroodminder_v5.assets/weather/forecastcharts1.png)
+![weather](../assets/50_mybroodminder_v5.assets/weather/forecastcharts1.png)
 
 However, rain is expected next Sunday/Monday, while wind conditions remain stable.  
 Note that **cloud cover is not included in forecasts**.
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/forecastcharts2.png)
+![weather](../assets/50_mybroodminder_v5.assets/weather/forecastcharts2.png)
 
 
 
@@ -80,7 +80,7 @@ At this stage, we have seen how to assess and compare multiple weather sources. 
 
 Indexes provide a synthetic view of weather suitability for bees and plants.
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/indexes.png)
+![weather](../assets/50_mybroodminder_v5.assets/weather/indexes.png)
 
 - **Foraging Index** answers: *"Can bees forage today?"* and considers the outside temperature, the hygrometry, rain and wind.
 
@@ -92,7 +92,7 @@ They don't consider whether plants are actually blooming or whether your bees ar
 
 In practice, the **Nectar Flow Index** is often the most informative. It helps you anticipate upcoming opportunities and plan accordingly. That’s why it's featured in the **first tab of the Bees App** — it sets the tone for your daily beekeeping decisions.
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/bapp_nfi.jpeg#mediumImg)
+![weather](../assets/50_mybroodminder_v5.assets/weather/bapp_nfi.jpeg#mediumImg)
 
 !!! note "Beekeepers as weather processors"
     Every experienced beekeeper instinctively does "weather processing" — interpreting forecasts and deciding if upcoming conditions are right for bees.  
@@ -138,14 +138,14 @@ Simply select the weather item from each apiary to view them together.
 For a quick overview of upcoming weather, you can also use **colormaps**.  
 These are available in the `Home > Apiary` panel and offer a compact, synthetic view of expected conditions over the next 10 days — great for comparing locations at a glance.
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/colormap.png)
+![weather](../assets/50_mybroodminder_v5.assets/weather/colormap.png)
 
 ## Customize
 
 All the weather magnitudes are avaialable as widgets in the toolbox to build your custom dashboard 
 
 
-![weather](/assets/50_mybroodminder_v5.assets/weather/widgets.png#largeImg)
+![weather](../assets/50_mybroodminder_v5.assets/weather/widgets.png#largeImg)
 
 
 !!! info "FAQ: Can I connect a third-party weather station?"

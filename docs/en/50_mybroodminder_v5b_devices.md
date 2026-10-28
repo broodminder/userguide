@@ -20,13 +20,13 @@ These categories share common characteristics, but let’s start with **Sensors*
 
 The first thing to do when you receive a BroodMinder sensor is to **attach it to your account**. This is called **"claiming the device"**, and it can be done using either the **Bees App** (`Claim device`) or **MyBroodMinder** (`Add New Device`).
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/claim_bapp_claim_mbm.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/claim_bapp_claim_mbm.png)
 
 Both methods guide you through the process of attaching the device to a hive.
 
 Once claimed, the device belongs to your account and will appear under `Configure > Devices`.
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/config_devices.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/config_devices.png)
 
 This table shows the device’s name, current location, last data received, battery level, and its movement history through different hives.
 
@@ -61,19 +61,19 @@ Let’s look at an example with sensor **56:39:3A**, a BroodMinder-TH device. In
 
 It has previously been in **Hive T4-10cNCcTo** and **R7-24b**, making this its third hive since being claimed in March 2024.
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/56393a_config.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/56393a_config.png)
 
 Looking at its data at the device level:
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/56393a_data.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/56393a_data.png)
 
 We see a complete dataset from March 18, 2024 (device activation date). Markers labeled `S` (Start) and `E` (Exit) indicate when the device changed positions.
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/56393a_end.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/56393a_end.png)
 
 From the **hive view**, using Hive **R7-24b**, where the device was installed until October 21, 2024:
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/R7-24b.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/R7-24b.png)
 
 We see data only for the period the sensor was installed. It was replaced by another sensor (`56:39:20`), and to make it clear in this display we marked that transition by a green vertical line.
 
@@ -95,11 +95,11 @@ You’ve seen how to assign a sensor to a hive and define its position. Let’s 
 
 Click on a hive location (e.g., Hive  RA `lower brood` in the example below is assigned with device 56:39:24) to access raw data and the device’s location history:
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/device_hiveRA.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/device_hiveRA.png)
 
 This chart shows temperature and humidity readings. To investigate further, click `Show Data Editor` at the bottom of the screen:
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/device_hiveRA_dataEdit.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/device_hiveRA_dataEdit.png)
 
 Here’s what each column means:
 
@@ -136,25 +136,25 @@ The device doesn’t know the actual date/time when powered on. Time is added by
 
 Timestamp misalignment can create "wavy" curves due to overlapping data from different sources:
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/wavy1.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/wavy1.png)
 
 To fix this, scroll to the bottom of the editor and use `Remove Duplicates`. This keeps the most reliable data (usually Hub-sourced, with network timestamps).
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/remove_duplicates.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/remove_duplicates.png)
 
 Here’s what the cleaned-up temperature curve looks like:
 
-![Device claim](/assets/50_mybroodminder_v5.assets/manage_devices/wavy2.png)
+![Device claim](../assets/50_mybroodminder_v5.assets/manage_devices/wavy2.png)
 
 ### Remove Outliers
 
 Occasionally, charts may contain outlier values that make the data difficult to interpret. Examples include a weight dropping to zero while moving a scale, a temperature spike during an inspection, or any other abnormal event that does not reflect actual hive conditions.
 
-![Outliers](/assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_1.png)
+![Outliers](../assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_1.png)
 
 MyBroodMinder allows you to edit or remove individual data samples. To do so, first display the device-level data and then open the **Data Editor** using the `Show Data Editor` option.
 
-![Outliers](/assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_2.png)
+![Outliers](../assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_2.png)
 
 To locate the outlier more easily:
 
@@ -165,14 +165,14 @@ To locate the outlier more easily:
 
 Once the sample has been identified, select its checkbox and click **Remove selected**.
 
-![Outliers](/assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_3.png)
+![Outliers](../assets/50_mybroodminder_v5.assets/manage_devices/outlier_delete_3.png)
 
 ### Remove Duplicate Samples
 
 In some situations, you may notice a **wavy** or **double-looking** curve in **MyBroodMinder**, similar to the example below.
 
 
-![Duplicate samples producing a wavy chart](/assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_wavy_chart.png)
+![Duplicate samples producing a wavy chart](../assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_wavy_chart.png)
 
 This is almost always caused by **duplicate measurements**. A common scenario is when a **Cell Hub** has already uploaded the device data, and you later perform a manual Bluetooth sync with the **Bees App**.
 
@@ -192,15 +192,15 @@ Typically, a manual sync is performed only to recover measurements that the Cell
 
 Open the **Data Editor**, scroll to the bottom of the page, and click **Remove Duplicates**.
 
-![Remove Duplicates button](/assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_button.png)
+![Remove Duplicates button](../assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_button.png)
 
 This is the original display Before cleaning up
 
-![Chart before removing duplicates](/assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_before.jpg)
+![Chart before removing duplicates](../assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_before.jpg)
 
 And that's after:
 
-![Chart after removing duplicates](/assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_after.jpg)
+![Chart after removing duplicates](../assets/50_mybroodminder_v5.assets/manage_devices/remove_dupl_after.jpg)
 
 
 If a few incorrect samples remain after this process, you can remove them manually using the **[Remove Outliers](50_mybroodminder_v5b_devices.md/#remove-outliers)** feature by selecting the affected points.
@@ -221,13 +221,13 @@ When you receive a hub, you must **claim it** just like any other device. Once c
 
 Once active, hubs appear in your apiary list like this:
 
-![Hub in apiary](/assets/50_mybroodminder_v5.assets/manage_devices/hub1.png)
+![Hub in apiary](../assets/50_mybroodminder_v5.assets/manage_devices/hub1.png)
 
 Clicking the cross icon removes it from the apiary. However, if the hub continues sending data from devices assigned to the apiary, it will reappear automatically.
 
 You can also assign a hub manually by navigating to `Configure > Hubs` and editing the assignment:
 
-![Manual hub assignment](/assets/50_mybroodminder_v5.assets/manage_devices/hub2.png)
+![Manual hub assignment](../assets/50_mybroodminder_v5.assets/manage_devices/hub2.png)
 
 Clicking the **hub ID** in the left sidebar opens its **detailed view**. This includes:
 
@@ -235,11 +235,11 @@ Clicking the **hub ID** in the left sidebar opens its **detailed view**. This in
 - Last data upload time
 - Various operational metrics such as temperature, humidity, signal strength, uptime, and more
 
-![Hub details](/assets/50_mybroodminder_v5.assets/manage_devices/hub3.png)
+![Hub details](../assets/50_mybroodminder_v5.assets/manage_devices/hub3.png)
 
 These details are also accessible in the **Bees App** under `Devices > [Hub ID] > Show Details`. This information is extremely helpful for troubleshooting issues infield such as network instability or operational anomalies.
 
-![Bees app hub view](/assets/50_mybroodminder_v5.assets/manage_devices/hub4.jpeg#mediumImg)
+![Bees app hub view](../assets/50_mybroodminder_v5.assets/manage_devices/hub4.jpeg#mediumImg)
 
 Key indicators:
 
@@ -247,7 +247,7 @@ Key indicators:
 - **RSRQ** (Reference Signal Received Quality): signal quality
 - **SNR/SINR** (Signal-to-Noise Ratio): clarity of the connection
 
-![Signal explanation](/assets/50_mybroodminder_v5.assets/manage_devices/RSRP_RSRQ_SINR_Values.png#largeImg)
+![Signal explanation](../assets/50_mybroodminder_v5.assets/manage_devices/RSRP_RSRQ_SINR_Values.png#largeImg)
 
 Other important values:
 
