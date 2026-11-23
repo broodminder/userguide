@@ -36,11 +36,13 @@
       close: "Close",
       openLabel: "Open Ask BroodMinder",
       placeholder: "Ask BroodMinder…",
-      welcome: "Hi! Ask me anything about the BroodMinder documentation.",
+      welcome: "Hi! I’m your BroodMinder assistant. 🐝",
       beta: "Beta",
-      humanSupport:
-        "Our priority is to help you as much as possible — a human expert is always available for your questions",
-      slogan: "Remember... Every Hive Counts",
+      intro:
+        "Ask me anything about BroodMinder products, setup, or understanding your hive data. I’m here to help!",
+      humanTouch: "Need a human touch?",
+      humanSupport: "Our team is always happy to help at",
+      slogan: "Every Hive Counts.",
       sources: "Sources",
       thinking: "Thinking…",
       refused: "No matching documentation found.",
@@ -60,11 +62,13 @@
       close: "Fermer",
       openLabel: "Ouvrir Ask BroodMinder",
       placeholder: "Demander à BroodMinder…",
-      welcome: "Bonjour ! Posez-moi une question sur la documentation BroodMinder.",
+      welcome: "Bonjour ! Je suis votre assistant BroodMinder. 🐝",
       beta: "Bêta",
-      humanSupport:
-        "Notre priorité reste de vous aider au mieux — un expert humain est toujours disponible pour vos questions",
-      slogan: "Chaque ruche compte",
+      intro:
+        "Posez-moi vos questions sur les produits BroodMinder, la configuration, ou pour comprendre les données de votre ruche. Je suis là pour vous aider !",
+      humanTouch: "Besoin d’un contact humain ?",
+      humanSupport: "Notre équipe est toujours heureuse de vous aider à",
+      slogan: "Chaque ruche compte.",
       sources: "Sources",
       thinking: "Réflexion…",
       refused: "Aucune documentation correspondante.",
@@ -84,11 +88,13 @@
       close: "Cerrar",
       openLabel: "Abrir Ask BroodMinder",
       placeholder: "Preguntar a BroodMinder…",
-      welcome: "¡Hola! Pregúntame sobre la documentación de BroodMinder.",
+      welcome: "¡Hola! Soy tu asistente BroodMinder. 🐝",
       beta: "Beta",
-      humanSupport:
-        "Nuestra prioridad es ayudarte lo mejor posible — un experto humano siempre está disponible para tus preguntas",
-      slogan: "Cada colmena cuenta",
+      intro:
+        "Pregúntame lo que quieras sobre productos BroodMinder, configuración o para entender los datos de tu colmena. ¡Estoy aquí para ayudarte!",
+      humanTouch: "¿Necesitas un toque humano?",
+      humanSupport: "Nuestro equipo siempre está feliz de ayudarte en",
+      slogan: "Cada colmena cuenta.",
       sources: "Fuentes",
       thinking: "Pensando…",
       refused: "No se encontró documentación correspondiente.",
@@ -109,13 +115,18 @@
       '<p class="ask-welcome-lead">' +
       escapeHtml(t("welcome")) +
       "</p>" +
-      '<p class="ask-welcome-trust">' +
+      '<p class="ask-welcome-intro">' +
+      escapeHtml(t("intro")) +
+      "</p>" +
+      '<p class="ask-welcome-trust"><strong>' +
+      escapeHtml(t("humanTouch")) +
+      "</strong> " +
       escapeHtml(t("humanSupport")) +
-      ' — <a class="doc-chat-inline-link" href="mailto:' +
+      ' <a class="doc-chat-inline-link" href="mailto:' +
       SUPPORT_EMAIL +
       '">' +
       SUPPORT_EMAIL +
-      "</a></p>" +
+      "</a>.</p>" +
       '<p class="ask-welcome-slogan">' +
       escapeHtml(t("slogan")) +
       "</p>"
