@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{#
+  Inject API URL + enable flag ← DOC_ASSISTANT_API / ENABLE_DOC_ASSISTANT.
+  Must run before extra_javascript (doc-chat.js). Home pages also set these in
+  templates/head.html; content pages rely on this override alone.
+  This file must stay tracked (see overrides/.gitignore !main.html) or the
+  floating Ask widget never appears outside the homepage.
+#}
+{% block scripts %}
+  <script>
+    window.DOC_ASSISTANT_API = {{ (config.extra.doc_assistant_api or "") | tojson }};
+    window.DOC_ASSISTANT_ENABLED = {{ (config.extra.doc_assistant_enabled if config.extra.doc_assistant_enabled is not none else "0") | tojson }};
+  </script>
+  {{ super() }}
+{% endblock %}

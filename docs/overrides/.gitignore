@@ -3,3 +3,6 @@
 !.icons
 !en
 !templates
+# Required so content pages get DOC_ASSISTANT_* before doc-chat.js
+# (home injects via templates/head.html; other pages need this override).
+!main.html
