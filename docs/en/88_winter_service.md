@@ -30,7 +30,7 @@ If you’d prefer us to handle this for you, visit [BroodMinder-Refresh](https:/
 
 ---
 
-### T3 & TH3 
+### T3, TH3 
 (Models 47 & 56)  
 
 - Clean any dirt using **Isopropyl Alcohol**.  
@@ -86,7 +86,7 @@ All our current scales use standard **AA batteries** (W+ uses **AAA**). Replace 
 
 ---
 
-### 4G Cell Hub 
+### T91 Cell Hub 
 (Model 54)  
 
 The BroodMinder-T91 hub has an internal battery lasting **4-5 months**. Recharge it fully with a USB charger (**4 hours**).  
